@@ -1,5 +1,5 @@
 <?php
 
 return [
-	new Flarum\Extend\LanguagePack(),
+    new Flarum\Extend\LanguagePack(),
 ];

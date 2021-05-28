@@ -1,45 +1,44 @@
 {
-	"name": "yourname/flarum-lang-xxish",
-	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
-	"keywords": [
-		"locale",
-		"flarum",
-		"xx-locale"
-	],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/yourname/flarum-lang-xxish/issues",
-		"source": "https://github.com/yourname/flarum-lang-xxish"
-	},
-	"require": {
-		"flarum/core": "^1.0"
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"extra": {
-		"flarum-extension": {
-			"title": "Xxish",
-			"icon": {
-				"image": "icon.svg",
-				"backgroundSize": "cover",
-				"backgroundPosition": "center"
-			}
-		},
-		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
-		},
-		"flagrow": {
-			"discuss": ""
-		}
-	}
+  "name": "aprold/flarum-lang-estonian",
+  "type": "flarum-extension",
+  "description": "Estonian language pack for Flarum.",
+  "homepage": "https://github.com/aprold/flarum-lang-estonian",
+  "keywords": [
+    "locale",
+    "flarum",
+    "et-locale"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aprold Cuk",
+      "email": "aprold@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/aprold/flarum-lang-estonian/issues",
+    "source": "https://github.com/aprold/flarum-lang-estonian"
+  },
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "flarum-extension": {
+      "title": "Estonian",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "et",
+      "title": "Eesti"
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
 }
