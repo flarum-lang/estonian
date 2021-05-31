@@ -19,3 +19,5 @@ flarum-likes:
       you_text: '=> core.ref.you'
     post_likes:
       title: 'Kasutajad, kellele see meeldib'
+    settings:
+      notify_post_liked_label: 'Kellelegi meeldib üks minu postitustest'
