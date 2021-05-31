@@ -212,6 +212,21 @@ core:
         page_counter: 'Leht {current}/{total}'
       title: '=> core.ref.users'
       total_users: 'Kokku kasutajaid: {count}'
+  api:
+    invalid_username_message: 'Kasutajanimes võivad olla vaid tähed, numbrid ja sidekriips.'
+  email:
+    activate_account:
+      body: "Tere {username}!\n\nKeegi (loodetavasti sina ise!) liitus selle meiliaadressiga {forum} lehele.\n\nKui see olid sina, siis kliki konto aktiveerimiseks allolevale lingile:\n{url}\n\nKui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.\n"
+      subject: 'Aktiveeri oma uus konto'
+    confirm_email:
+      body: "Tere {username}!\n\nKeegi (loodetavasti sina ise!) muutis oma meiliaadressi {forum} lehel selleks aadressiks.\n\nKui see olid sina, siis kliki oma meiliaadressi kinnituseks alloleval lingil:\n{url}\n\nKui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.\n"
+      subject: 'Kinnita oma uus meiliaadress'
+    reset_password:
+      body: "Tere {username}!\n\nKeegi (loodetavasti sina ise!) on palunud {forum} lehel saata sellele meiliaadressile paroolivahetuse lingi.\n\nKui see olid sina, siis kliki paroolivahetuseks alloleval lingil:\n{url}\n\nKui sa ei soovi oma parooli muuta, siis lihtsalt ignoreeri seda kirja.\n"
+      subject: '=> core.ref.reset_your_password'
+    send_test:
+      body: "Tere {username}!\n\nSee proovikiri on kinnituseks sellele, et sinu Flarumi meiliseadistused töötavad korralikult.\n\nKui see ei olnud sina, kes seda proovi tegi, siis lihtsalt ignoreeri seda kirja.\n"
+      subject: 'Flarumi proovikiri'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -369,3 +384,144 @@ core:
       welcome_text: 'Tere, {username}!'
     user:
       avatar_remove_button: '=> core.ref.remove'
+      avatar_upload_button: 'Laadi üles'
+      avatar_upload_tooltip: 'Laadi üles uus avatar'
+      discussions_link: '=> core.ref.discussions'
+      in_discussion_text: 'Teemas {discussion}'
+      joined_date_text: 'Liitus {ago}'
+      online_text: Sees
+      posts_empty_text: 'Siin ei ole ühtegi postitust.'
+      posts_link: '=> core.ref.posts'
+      posts_load_more_button: '=> core.ref.load_more'
+      settings_link: '=> core.ref.settings'
+    user_controls:
+      button: Juhtpaneel
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Oled kindel, et soovid antud kasutaja kustutada? Kasutaja postitusi ei kustutata.'
+      delete_error_message: 'Kasutaja <i>{username} ({email})</i> kustutamine ebaõnnestus'
+      delete_success_message: 'Kasutaja <i>{username} ({email})</i> on kustutatud'
+      edit_button: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Näita kasutaja juhtpaneeli'
+    user_email_confirmation:
+      alert_message: '=> core.ref.confirmation_email_sent'
+      resend_button: 'Saada kinnitusmeil uuesti'
+      sent_message: Saadetud
+  group:
+    admin: Administraator
+    admins: Administraatorid
+    guest: Külaline
+    guests: Külalised
+    member: Liige
+    members: Liikmed
+    mod: Moderaator
+    mods: Moderaatorid
+  lib:
+    badge:
+      hidden_tooltip: Peidetud
+    dropdown:
+      toggle_dropdown_accessible_label: 'Näita menüüd'
+    edit_user:
+      activate_button: 'Aktiveeri kasutaja'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Grupid
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Määra uus parool'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.edit_user'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
+    error:
+      dependent_extensions_message: '{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}'
+      generic_message: 'Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.'
+      missing_dependencies_message: '{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}'
+      not_found_message: 'Nõutud ressurssi ei leitud.'
+      permission_denied_message: 'Sul ei ole selle jaoks õigust.'
+      rate_limit_exceeded_message: 'Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest.'
+    loading_indicator:
+      accessible_label: '=> core.ref.loading'
+    number_suffix:
+      kilo_text: k
+      mega_text: M
+    series:
+      glue_text: ', '
+      three_text: '{first}, {second} ja {third}'
+      two_text: '{first} ja {second}'
+    username:
+      deleted_text: '[kustutatud]'
+  ref:
+    all_discussions: 'Kõik teemad'
+    change_email: 'Muuda meiliaadressi'
+    change_password: 'Muuda parooli'
+    color: Värv
+    confirm_password: 'Kinnita parool'
+    confirmation_email_sent: 'Saatsime kinnituskirja {email} aadressile. Kui seda ei tule, vaadake ka oma spämmikausta.'
+    custom_footer_text: 'Lisa lehe jalusesse see HTML.'
+    custom_footer_title: 'Kohandatud jalus'
+    custom_header_text: 'Lisa lehe päisesse Flarumi päise kohale see HTML.'
+    custom_header_title: 'Kohandatud päis'
+    delete: Kustuta
+    delete_forever: 'Kustuta igaveseks'
+    discussions: Teemad
+    edit: Muuda
+    edit_user: 'Muuda kasutajat'
+    email: Meiliaadress
+    icon: Ikoon
+    icon_text: 'Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> klassinimedega.'
+    load_more: 'Laadi juurde'
+    loading: Laadin...
+    log_in: Sisene
+    log_out: Välju
+    mark_all_as_read: 'Märgi kõik loetuks'
+    next_page: 'Järgmine lehekülg'
+    notifications: Teated
+    okay: OK
+    password: Parool
+    posts: Postitused
+    previous_page: 'Eelmine lehekülg'
+    remove: Eemalda
+    rename: 'Nimeta ringi'
+    reply: Vasta
+    reset_your_password: 'Taasta parool'
+    restore: Taasta
+    save_changes: 'Salvesta muudatused'
+    settings: Seaded
+    sign_up: Registreeru
+    some_others: '{count, plural, one {# teine} other {# teist}}'
+    start_a_discussion: 'Alusta uut teemat'
+    username: Kasutajanimi
+    users: Kasutajad
+    view: Vaata
+    write_a_reply: 'Kirjuta vastus...'
+    you: Sina
+  views:
+    content:
+      javascript_disabled_message: 'Seda lehte on soovitatav külastada kaasaegse veebilehitsejaga, kus on JavaScript lubatud.'
+      load_error_message: 'Miskit läks lehe laadimisel valesti. Äkki aitab lehe täismahus uuesti laadimine?'
+      loading_text: '=> core.ref.loading'
+    discussion:
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
+    error:
+      csrf_token_mismatch: 'Sa pole olnud kaua aktiivne.'
+      csrf_token_mismatch_return_link: 'Mine tagasi, et uuesti proovida'
+      invalid_confirmation_token: 'See kinnituslink pole õige või seda on juba kasutatud.'
+      not_authenticated: 'Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.'
+      not_found: 'Nõutud lehte ei leitud.'
+      not_found_return_link: 'Mine tagasi {forum} lehele'
+      permission_denied: 'Sul pole sellele lehele ligipääsuõigust.'
+      unknown: 'Lehel laadimisel tekkis viga.'
+    index:
+      all_discussions_heading: '=> core.ref.all_discussions'
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
+    log_out:
+      log_out_button: '=> core.ref.log_out'
+      log_out_confirmation: 'Oled kindel, et soovida {forum} lehelt väljuda?'
+      title: '=> core.ref.log_out'
+    reset_password:
+      confirm_password_label: 'Kinnita uus parool'
+      new_password_label: 'Uus parool'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.reset_your_password'
