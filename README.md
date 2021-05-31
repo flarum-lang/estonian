@@ -49,6 +49,8 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [Mentions](https://github.com/flarum/mentions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/et/) |
+| [Tags](https://github.com/flarum/tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/et/) |
 
 <!-- flarum-extensions-list-stop -->
 
