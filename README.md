@@ -49,7 +49,10 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [Flags](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/et/) |
+| [Likes](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/et/) |
 | [Mentions](https://github.com/flarum/mentions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/et/) |
+| [Subscriptions](https://github.com/flarum/subscriptions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/et/) |
 | [Tags](https://github.com/flarum/tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/et/) |
 
 <!-- flarum-extensions-list-stop -->
