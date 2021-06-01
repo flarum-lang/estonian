@@ -102,7 +102,7 @@ core:
         discuss: Aruta
         documentation: Dokumentatsioon
         donate: Anneta
-        source: Allikas
+        source: Kood
         support: Tugi
         website: Veebileht
       no_permissions: 'Sellel laiendusel pole õiguseid.'
@@ -314,7 +314,7 @@ core:
       oldest_button: Vanemad
       relevance_button: 'Tähtsuse järgi'
       toggle_dropdown_accessible_label: 'Muuda teemade järjestust'
-      top_button: Üles
+      top_button: Aktiivsemad
     log_in:
       forgot_password_link: 'Unustasid parooli?'
       invalid_login_message: 'Sinu sisselogimisandmed ei olnud õiged.'
