@@ -1,44 +1,38 @@
 {
-  "name": "aprold/flarum-lang-estonian",
-  "type": "flarum-extension",
-  "description": "Estonian language pack for Flarum.",
-  "homepage": "https://github.com/aprold/flarum-lang-estonian",
-  "keywords": [
-    "locale",
-    "flarum",
-    "et-locale"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Aprold Cuk",
-      "email": "aprold@gmail.com"
-    }
-  ],
-  "support": {
-    "issues": "https://github.com/aprold/flarum-lang-estonian/issues",
-    "source": "https://github.com/aprold/flarum-lang-estonian"
-  },
-  "require": {
-    "flarum/core": "^1.0"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "flarum-extension": {
-      "title": "Estonian",
-      "icon": {
-        "image": "icon.svg",
-        "backgroundSize": "cover",
-        "backgroundPosition": "center"
-      }
-    },
-    "flarum-locale": {
-      "code": "et",
-      "title": "Eesti"
-    },
-    "flagrow": {
-      "discuss": ""
-    }
-  }
+	"name": "flarum-lang/estonian",
+	"type": "flarum-extension",
+	"description": "Estonian language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/estonian",
+	"keywords": [
+		"locale",
+		"flarum",
+		"et-locale"
+	],
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/flarum-lang/estonian/issues",
+		"source": "https://github.com/flarum-lang/estonian"
+	},
+	"require": {
+		"flarum/core": "^1.4"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"flarum-extension": {
+			"title": "Estonian",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "et",
+			"title": "Estonian"
+		},
+		"extiverse": {
+			"discuss": ""
+		}
+	}
 }
