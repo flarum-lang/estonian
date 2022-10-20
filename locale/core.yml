@@ -94,7 +94,6 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Kõik õigused'
-      confirm_uninstall: 'Laienduse eemaldamine kustutab kõik selle laienduse andmebaasi kirjed. Oled kindel, et soovid jätkata?'
       disabled: Keelatud
       enable_to_see: 'Luba laiendusel näha ja muuta seadeid.'
       enabled: Lubatud
@@ -109,7 +108,6 @@ core:
       no_settings: 'Sellel laiendusel pole seadeid.'
       open_modal: 'Ava seaded'
       permissions_title: Õigused
-      uninstall_button: Eemalda
     header:
       get_help: Abi
       log_out_button: '=> core.ref.log_out'
@@ -277,7 +275,6 @@ core:
     discussion_list:
       empty_text: 'Siin ei ole veel ühtegi teemat.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Märgi loetuks'
       replied_text: '{username} vastas {ago}'
       started_text: '{username} alustas {ago}'
     forgot_password:
