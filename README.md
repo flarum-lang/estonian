@@ -1,12 +1,17 @@
+> **This language pack is searching for a maintainer!**
+>
+> This language pack is maintained by the community. Anyone can translate through [Weblate](https://weblate.rob006.net/languages/ka/flarum/) and no one verifies contributed translations. If you want to help maintain this package, you can contact us in [this discussion](https://discuss.flarum.org/d/27519-the-flarum-language-project).
+
+
 # Estonian language pack for [Flarum](https://flarum.org/)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/aprold/flarum-lang-estonian?color=success&label=stable)](https://packagist.org/packages/aprold/flarum-lang-estonian) 
-[![Latest Unstable Version](https://img.shields.io/packagist/v/aprold/flarum-lang-estonian?include_prereleases&label=unstable)](https://packagist.org/packages/aprold/flarum-lang-estonian) 
-[![License](https://img.shields.io/packagist/l/aprold/flarum-lang-estonian)](https://packagist.org/packages/aprold/flarum-lang-estonian) 
-[![Total Downloads](https://img.shields.io/packagist/dt/aprold/flarum-lang-estonian)](https://packagist.org/packages/aprold/flarum-lang-estonian/stats) 
-[![Monthly Downloads](https://img.shields.io/packagist/dm/aprold/flarum-lang-estonian)](https://packagist.org/packages/aprold/flarum-lang-estonian/stats) 
+[![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/estonian?color=success&label=stable)](https://packagist.org/packages/flarum-lang/estonian) 
+[![Latest Unstable Version](https://img.shields.io/packagist/v/flarum-lang/estonian?include_prereleases&label=unstable)](https://packagist.org/packages/flarum-lang/estonian) 
+[![License](https://img.shields.io/packagist/l/flarum-lang/estonian)](https://packagist.org/packages/flarum-lang/estonian) 
+[![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/estonian)](https://packagist.org/packages/flarum-lang/estonian/stats) 
+[![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/estonian)](https://packagist.org/packages/flarum-lang/estonian/stats) 
 
-This language pack contains Estonian translations for Flarum (compatible with `1.0.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Estonian translations for Flarum (compatible with `1.4.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
@@ -14,7 +19,7 @@ This language pack contains Estonian translations for Flarum (compatible with `1
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require aprold/flarum-lang-estonian
+composer require flarum-lang/estonian:dev-master
 ```
 
 Then enable extension in admin panel of your Flarum.
@@ -25,7 +30,7 @@ Then enable extension in admin panel of your Flarum.
 You can update language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer update aprold/flarum-lang-estonian
+composer update flarum-lang/estonian
 ```
 
 Then clear the cache:
@@ -39,7 +44,7 @@ php flarum cache:clear
 
 | Component | Status |
 | --- | --- |
-| [Core](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/et/) |
+| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/et/) |
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/et/) |
 
 
