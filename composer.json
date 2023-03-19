@@ -21,6 +21,7 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Estonian",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
