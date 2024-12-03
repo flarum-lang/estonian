@@ -19,6 +19,7 @@ flarum-extension-manager:
       fields:
         host: Host
         token: Kontrollkood
+      no_auth_methods_configured: 'Ühtegi autentimisviisi pole seadistatud. See on valikuline funktsioon edasijõudnutele, mis võimaldab paigaldada privaatsetest hoidlatest.'
       remove_button_label: 'Eemalda autentimisviis'
       title: Autentimiseviisid
       types:
@@ -28,3 +29,112 @@ flarum-extension-manager:
         gitlab-token: 'GitLab kontrollkood'
     composer:
       add_repository_label: 'Lisa hoidla'
+      delete_repository_confirmation: 'Oled sa kindel, et soovid seda hoidlat kustutada? Kõik laiendused, mis on sellest hoidlast paigaldatud eemaldatakse.'
+      delete_repository_label: 'Kustuta hoidla'
+      edit_repository_label: 'Muuda hoidlat'
+      minimum_stability:
+        help: 'Seda liiki pakette pole lubatud paigaldada. Muuda seda ainult siis kui sa tõesti tead, mida sa teed.'
+        label: 'Minimaalne stabiilsus'
+        options:
+          alpha: Alfa
+          beta: Beeta
+          dev: Arendusversioon
+          rc: 'Väljalaske kandidaat'
+          stable: 'Stabiilne (soovitatud)'
+      repositories:
+        add_modal:
+          name_label: Nimi
+          submit_button: OK
+          type_label: Liik
+          url: URL
+        label: Hoidlad
+        types:
+          composer: composer
+          path: kaust
+          vcs: vcs
+      title: Composer
+    exceptions:
+      composer_command_failure: 'Käivitamine ebaõnnestus. Heida pilk composeri logidele kaustas storage/logs/composer.'
+      extension_already_installed: 'Laiendus on juba paigaldatud.'
+      extension_not_directly_dependency: 'Laiendus on paigaldatud kui mõne teise laienduse sõltuvus. Seda ei saa otse eemaldada.'
+      extension_not_installed: 'Laiendust ei leitud.'
+      guessed_cause:
+        extension_incompatible_with_instance: 'Lisa tõenäoliselt ühildub sinu Flarumi versiooniga.'
+        extension_not_found: 'Seda lisa ei leitud või seda pole olemas.'
+    extensions:
+      check_why_it_failed_updating: 'Näita, miks see ei uuenda viimasele versioonile.'
+      install: 'Paigalda uus laiendus'
+      proceed: Jätka
+      remove: Eemalda
+      successful_install: '{extension} paigaldati edukalt, ümbersuunamine..'
+      successful_remove: 'Laiendus on eemaldatud.'
+      update: Uuenda
+    major_updater:
+      failure:
+        why: 'Otsi lisainfot'
+      update: Uuenda
+    sections:
+      control:
+        title: Haldaja
+      queue:
+        columns:
+          details: Üksikasjad
+          elapsed_time: Lõpetatud
+          operation: Tegevus
+          package: Pakk
+          peak_memory_used: 'Kõrgeim mälukasutus'
+          status: Staatus
+        none: 'Ühtegi ülesannet pole veel.'
+        operations:
+          extension_install: 'Paigalda laiendus'
+          extension_remove: 'Eemalda laiendus'
+          extension_update: 'Uuenda laiendust'
+          update_check: 'Kontrolli uuendusi'
+          update_global: 'Uuenda kõiki tarkvarapakette'
+          update_major: 'Peamine uuendus'
+          update_minor: 'Väike uuendus'
+        output_modal:
+          cause_unknown: Tundmatu
+          command: 'Composeri käsk'
+          guessed_cause: Põhjus
+          output: Väljund
+        refresh: 'Värskenda ülesannete nimekirja'
+        statuses:
+          failure: Ebaõnnestus
+          pending: Ootel
+          running: Käimas
+          success: Korras
+        task_just_started: 'Ülesanne just algas'
+        title: Järjekord
+    settings:
+      title: Seaded
+    update_successful: 'Flarum on uuendatud.'
+    updater:
+      check_for_updates: 'Kontrolli uuendusi'
+      flarum: 'Flarumi tuum'
+      global_update_successful: 'Kõik paketid on uuendatud.'
+      last_update_checked_at: 'Viimane uuenduste kontroll: '
+      run_global_update: 'Käivita üldine uuendamine'
+      up_to_date: 'Kõik on ajakohane!'
+      updater_title: Uuendused
+    why_not_modal:
+      title: 'Mis see ei uuenda'
+  validation:
+    attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      extension_id: 'laienduse ID'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab Token'
+      'gitlab_token.*': 'GitLab Token'
+      minimum_stability: 'minimaalne stabiilsus'
+      package: pakett
+      repositories: hoidlad
+      'repositories.*': hoidlad
+      'repositories.*.type': 'hoidla liik'
+      'repositories.*.url': 'hoidla URL'
+      update_mode: 'uuendamise režiim'
+      version: versioon

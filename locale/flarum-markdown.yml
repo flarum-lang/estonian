@@ -3,14 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-markdown:
-  forum:
+  lib:
     composer:
-      bold_tooltip: 'Rasvane kiri'
-      code_tooltip: Kood
-      header_tooltip: Päis
-      image_tooltip: Pilt
-      italic_tooltip: Kaldkiri
-      link_tooltip: Link
-      ordered_list_tooltip: 'Nummerdatud loend'
-      quote_tooltip: Tsitaat
-      unordered_list_tooltip: 'Täppidega loend'
+      bold_tooltip: 'Lisa rasvane tekst'
+      code_tooltip: 'Sisesta kood'
+      header_tooltip: 'Lisa päise tekst'
+      image_tooltip: 'Lisa pilt'
+      italic_tooltip: 'Lisa kaldkiri'
+      link_tooltip: 'Lisa link'
+      ordered_list_tooltip: 'Lisa nummerdatud loend'
+      quote_tooltip: 'Sisesta tsitaat'
+      spoiler_tooltip: 'Sisesta spoiler'
+      strikethrough_tooltip: 'Lisa mahakriipsutatud tekst'
+      unordered_list_tooltip: 'Lisa loend'

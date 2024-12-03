@@ -4,12 +4,31 @@
 
 flarum-statistics:
   admin:
+    date_selection_modal:
+      description: "Vali kohandatud kuupäevade vahemik, mille kohta statistikat vaadata.\nSuurte foorumite korral võib laadimine võtta aega mitu minutit.\n"
+      end_date: 'Lõpu kuupäev (kaasa arvatud)'
+      errors:
+        end_before_start: 'Lõpu kuupäev peab olema pärast alguse kuupäeva.'
+      start_date: 'Alguse kuupäev (kaasa arvatud)'
+      submit_button: 'Kinnita kuupäevade vahemik'
+      title: 'Vali kohandatud vahemik'
     statistics:
+      current_period: 'Praegune periood'
+      custom_label: 'Kohandatud ajavahemik...'
+      custom_label_specified: '{fromDate} kuni {toDate}'
       discussions_heading: '=> core.ref.discussions'
+      export_chart_button: 'Ekspordi graafik SVG-na'
       last_12_months_label: 'Viimased 12 kuud'
       last_28_days_label: 'Viimased 4 nädalat'
       last_7_days_label: 'Viimane nädal'
+      loading: Laadimine
+      mini_heading: 'Foorumi statistika'
+      no_data: 'Selle vahemiku jaoks pole andmeid saadaval.'
       posts_heading: '=> core.ref.posts'
+      previous_28_days_label: 'Viimased 28 päeva'
+      previous_7_days_label: 'Viimased 7 päeva'
+      previous_period: 'Eelmine periood'
       today_label: Täna
       total_label: Kokku
       users_heading: '=> core.ref.users'
+      view_full: 'Vaata veel statistikat'
