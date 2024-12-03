@@ -44,10 +44,23 @@ core:
       title: Põhiseaded
       welcome_banner_heading: Tervitusloosung
       welcome_banner_text: 'Sisesta tekst, mida kuvatakse ''Kõikide teemade'' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks.'
+    create_user:
+      email_confirmed_label: 'Nõua kasutajal selle e-posti kinnitamist'
+      password_placeholder: Parool
+      submit_and_create_another_button: 'Loo ja lisa veel üks'
+      submit_button: 'Loo kasutaja'
+      title: 'Loo uus kasutaja'
+      use_random_password: 'Genereeri parool'
+      username_placeholder: Kasutajanimi
     dashboard:
       clear_cache_button: 'Puhasta vahemälu'
       description: 'Foorumi ülevaade.'
       io_error_message: 'Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.'
+      status:
+        scheduler:
+          active: Aktiivne
+          inactive: Mitteaktiivne
+          never-run: 'Ära käivita kunagi'
       title: Juhtpaneel
       tools_button: Tööriistad
     debug-warning:
@@ -151,6 +164,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Luba oma postituste kustutamist'
       allow_post_editing_label: 'Postituse muutmine'
       allow_renaming_label: Ümbernimetamine
       create_heading: 'Uue loomine'
@@ -181,6 +195,7 @@ core:
       view_post_ips_label: 'Postituse IP-aadressi näitamine'
     permissions_controls:
       allow_indefinitely_button: 'Määramata ajaks'
+      allow_never_button: 'Mitte kunagi'
       allow_some_minutes_button: '{count, plural, one {# minut} other {# minutit}}'
       allow_ten_minutes_button: '10 minutit'
       allow_until_reply_button: 'Kuni järgmise vastuseni'
@@ -195,9 +210,12 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Vali pilt...'
     users:
+      create_user_button: 'Uus kasutaja'
       description: 'Foorumi kõikide kasutajate loend.'
       grid:
         columns:
+          display_name:
+            title: 'Näidatav nimi'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -211,6 +229,8 @@ core:
             title: Grupid
           join_time:
             title: Liitus
+          user_actions:
+            title: Toimingud
           user_id:
             title: ID
           username:
@@ -219,6 +239,7 @@ core:
         invalid_column_content: Vigane
       pagination:
         back_button: Eelmine
+        first_button: 'Mine esimesele leheküljele'
         next_button: Järgmine
         page_counter: 'Leht {current}/{total}'
       title: '=> core.ref.users'
