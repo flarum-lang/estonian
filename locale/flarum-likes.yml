@@ -7,7 +7,8 @@ flarum-likes:
     permissions:
       like_posts_label: 'Postituste meeldivaks märkimine'
     settings:
-      like_own_posts_help: ' '
+      like_own_posts_help: 'Kui see on sisse lülitatud, siis saavad kasutajad märkida ka omaenda postitusi meeldivaks. Selle vältimiseks lülita see valik välja.'
+      like_own_posts_label: 'Kasutajad võivad märkida oma postitusi meeldivaks'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
@@ -15,11 +16,14 @@ flarum-likes:
     post:
       like_link: 'Mulle meeldib'
       liked_by_self_text: 'Kasutajatele {users} meeldib see.'
-      liked_by_text: '{count, plural, one {Kasutajale {users} meeldib see} other {Kasutajatele {users} meeldib see}}'
+      liked_by_text: '{count, plural, one {Kasutajale {users} meeldib see} other {Kasutajatele {users} meeldib see}}.'
       others_link: '=> core.ref.some_others'
       unlike_link: 'Mulle enam ei meeldi'
       you_text: '=> core.ref.you'
     post_likes:
+      load_more_button: 'Laadi rohkem'
       title: 'Kasutajad, kellele see meeldib'
     settings:
       notify_post_liked_label: 'Kellelegi meeldib üks minu postitustest'
+    user:
+      likes_link: Meeldimised
