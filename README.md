@@ -81,6 +81,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/et/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -91,6 +92,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/rob006-last-post-avatar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/rob006-last-post-avatar/et/) |
 
 <!-- various-extensions-list-stop -->
 
