@@ -3,8 +3,24 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-forum-statistics-widget:
+  admin:
+    permissions:
+      view_discussions_count_label: 'Vaata foorumi statistika vidinas vestluste arvu'
+      view_lastest_member_label: 'Vaata foorumi statistika vidinas viimast liiget'
+      view_posts_count_label: 'Vaata foorumi statistika vidinas postituste arvu'
+      view_users_count_label: 'Vaata foorumi statistika vidinas kasutajate arvu'
+    settings:
+      cache_duration_help: 'Määra, kui kaua (sekundites) hoitakse vidinat vahemälus. Vahemälu kasutamise välja lülitamiseks sisesta <code>0</code> (pole soovitatav).'
+      cache_duration_label: 'Vahemälu säilitamise pikkus'
+      flush_cache_on_new_registration_help: 'Kui see on sisse lülitatud, siis vahemälu tühjendatakse uue foorumi liikme lisandumisel.'
+      flush_cache_on_new_registration_label: 'Tühjenda vahemälu uue liikme lisandumisel'
+      widget_helper_text: 'Muuda seda seadet, et muuta vidina asukohta Flarum foorumi külgribal. Mida suurem on number, seda kõrgemal on vidin külgriba vidinate lnimekirjas (see väärtus võib olla nii positiivne kui ka negatiivne).'
+      widget_ignore_private_discussions_label: 'Ignoreeri privaatseid arutelusid'
+      widget_order_label: 'Vidinate järjekord'
   forum:
     navbar:
       discussions_count: 'Vestluseid: {discussionsCount}'
-      posts_count: 'Posts: {postsCount}'
+      latest_member: 'Viimane liige: '
+      posts_count: 'Postitusi: {postsCount}'
+      users_count: 'Liikmeid: {usersCount}'
       widget_title: 'Foorumi statistika'
