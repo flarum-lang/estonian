@@ -14,3 +14,15 @@ fof-follow-tags:
       notify_new_discussion_label: 'Keegi loob vestluse sildiga, mida ma jälgin'
       notify_new_discussion_tag_label: 'Keegi muudab vestluse sildi sildiks, mida ma jälgin'
       notify_new_post_label: 'Keegi postitab sildiga, mida ma jälgin'
+    user:
+      settings:
+        heading: 'Jälgi silte'
+  ref:
+    filtering_options:
+      none: 'Jälgitud vestlused'
+      tags: 'Jälgitud sildid'
+    follow: Jälgi
+    following: Jälgimine
+    hiding: Peitmine
+    ignoring: Ignoreerimine
+    lurking: Luuramine
