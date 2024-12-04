@@ -82,6 +82,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/et/) |
+| [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/fof-forum-statistics-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/et/) |
 | [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/fof-oauth/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-oauth/et/) |
 
 <!-- fof-extensions-list-stop -->
