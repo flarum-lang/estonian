@@ -107,6 +107,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/askvortsov-pwa/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-pwa/et/) |
+| [`katosdev/signature`](https://github.com/katosdev/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/et/) |
 | [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/et/rob006-last-post-avatar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/rob006-last-post-avatar/et/) |
 
 <!-- various-extensions-list-stop -->
