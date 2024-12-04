@@ -47,6 +47,7 @@ CHANGELOG
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
