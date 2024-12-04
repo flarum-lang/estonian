@@ -58,7 +58,9 @@ core:
       io_error_message: 'Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.'
       status:
         headers:
+          queue-driver: 'Järjekorra draiver'
           scheduler-status: Ajastaja
+          session-driver: 'Sessiooni draiver'
         scheduler:
           active: Aktiivne
           inactive: Mitteaktiivne
@@ -248,6 +250,7 @@ core:
         last_button: 'Mine viimasele lehele'
         next_button: Järgmine
         page_counter: 'Leht {current}/{total}'
+      search_placeholder: 'Otsi kasutajaid'
       title: '=> core.ref.users'
       total_users: 'Kokku kasutajaid: {count}'
   api:
@@ -417,10 +420,14 @@ core:
       global_logout:
         heading: 'Üldine väljalogimine'
         help_text: 'Tühjendab praegused küpsiste sessioonid, lõpetab kõik sessioonid, eemaldab arendajate ligipääsukoodid ning tühistab kõik kinnitust küsivad e-kirjad ja parooli taastamise e-kirjad.'
+        log_out_button: 'Logi välja'
       hide_access_token: 'Peida kontrollkood'
       last_activity: 'Viimane tegevus'
+      never: 'Mitte kunagi'
+      new_access_token_button: 'Uus kontrollkood'
       new_access_token_modal:
         submit_button: 'Loo kontrollkood'
+        title: 'Uus kontrollkood'
         title_placeholder: Pealkiri
       revoke_access_token: Eemalda
       session_termination_failed: 'Sinu sessiooni lõpetamisel tekkis tõrge.'
@@ -428,6 +435,7 @@ core:
       show_access_token: 'Vaata kontrollkoodi'
       terminate_all_other_sessions: 'Lõpeta kõik teised sessioonid'
       terminate_session: Lõpeta
+      title: Turvalisus
       token_item_title: '{title} - {token}'
       token_revoked: 'Kontrollkood on eemaldatud.'
       token_title_placeholder: /
@@ -463,6 +471,7 @@ core:
       posts_empty_text: 'Siin ei ole ühtegi postitust.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: Turvalisus
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Juhtpaneel
