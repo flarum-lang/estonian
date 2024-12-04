@@ -620,6 +620,7 @@ core:
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
       text: 'Kliki alloleval nupul, et kinnitada oma konto e-maili aadress.'
+      title: 'Kinnita e-post'
     content:
       javascript_disabled_message: 'Seda lehte on soovitatav külastada kaasaegse veebilehitsejaga, kus on JavaScript lubatud.'
       load_error_message: 'Miskit läks lehe laadimisel valesti. Vea võib parandada lehekülje värskendamine.'

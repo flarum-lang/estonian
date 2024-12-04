@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Sildinõuete eiramine'
       restrict_by_tag_heading: 'Lisa sildipiirang'
       tag_discussions_label: 'Teemade sildistamine'
+    settings:
+      button_text: 'Vali sildid'
     tag_settings:
       range_separator_text: ' kuni '
       required_primary_heading: 'Lubatud põhisiltide arv'
@@ -38,6 +40,7 @@ flarum-tags:
       about_tags_text: 'Silte kasutatakse teemade organiseerimiseks. Põhisildid on nagu tavalised foorumi kategooriad: neid saab panna kahetasemelises hierarhias. Teisejärgulistel siltidel pole hierarhiat ega järjekorda ning neid saab kasutada alamkategoriseerimiseks.'
       create_primary_tag_button: 'Loo uus põhisilt'
       create_secondary_tag_button: 'Loo uus teisejärguline silt'
+      edit_tag_label: 'Muuda silti {tag}'
       primary_heading: Põhisildid
       secondary_heading: 'Teisejärgulised sildid'
       settings_heading: Seaded
@@ -62,14 +65,25 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: Siltideta
     post_stream:
-      added_and_removed_tags_text: '{username} lisas {tagsAdded} ja kustutas {tagsRemoved}.'
-      added_tags_text: '{username} lisas {tagsAdded}.'
-      removed_tags_text: '{username} kustutas {tagsRemoved}.'
+      added_and_removed_tags_text: '{username} lisas {tagsAdded} ja kustutas sildid {tagsRemoved}, {time}.'
+      added_tags_text: '{username} lisas {tagsAdded}, {time}.'
+      removed_tags_text: '{username} kustuta sildi {tagsRemoved}, {time}.'
       tags_text: '{count, plural, one {{tags} silt} other {{tags} silti}}'
     tag:
       meta_description_text: 'Kõik teemad {tag} sildiga'
   lib:
     deleted_tag_text: Kustutatud
+    tag_selection_modal:
+      bypass_requirements: 'Sildi mitte kasutamise nõuded'
+      submit_button: OK
+      title: 'Vali sildid'
   ref:
+    choose_tags: 'Vali sildid'
     name: Nimi
     tags: Sildid
+  validation:
+    attributes:
+      color: värv
+      description: kirjeldus
+      is_hidden: peidetud
+      name: nimi
