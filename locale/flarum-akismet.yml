@@ -6,7 +6,11 @@ flarum-akismet:
   admin:
     akismet_settings:
       api_key_label: 'API võti'
+      delete_blatant_spam_help: 'Kui Akismet on tuvastanud, et postitus on spämm, siis selle märkimise asemel, postitus kustutatakse automaatselt'
+      delete_blatant_spam_label: 'Kustuta spämm automaatselt'
       title: 'Akismet seaded'
+    permissions:
+      bypass_akismet: 'Eira Akismeti'
   forum:
     post:
       akismet_flagged_text: 'Akismet märkis spämmiks'

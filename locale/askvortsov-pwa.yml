@@ -6,3 +6,39 @@ askvortsov-pwa:
   admin:
     nav:
       pwa_button: Veebirakendus
+    pwa:
+      about:
+        description_label: Kirjeldus
+        heading: Info
+        long_name_label: 'Pikk nimi'
+        short_name_label: 'Lühike nimi'
+      colors:
+        background_color_label: 'Tausta värv'
+        heading: Värid
+        theme_color_label: 'Teema värv'
+      firebase_config:
+        heading: Firebase
+        upload_file: 'Laadi üles'
+      logo_heading: 'Logod ja ikoonid'
+      maintenance:
+        debug_label: 'Veatuvastuse režiim?'
+        heading: Hooldus
+      other:
+        heading: Muu
+      status_check_heading: 'Staatuse kontrollimine'
+      submit_button: 'Salvesta seaded'
+  forum:
+    alerts:
+      optin_button: Seadista
+    discussion_controls:
+      share_button: Jaga
+    post_controls:
+      share_button: Jaga
+    settings:
+      pwa_notifications:
+        no_browser_support_button: 'Õpi kuidas'
+    user_controls:
+      share_button: Jaga
+  views:
+    offline:
+      header: 'Võrguühenduse tõrge'
