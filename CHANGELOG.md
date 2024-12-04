@@ -31,5 +31,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
