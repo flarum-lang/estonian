@@ -44,6 +44,7 @@ CHANGELOG
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
