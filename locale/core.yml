@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Kohandatud päis'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: '@import ja data-uri funktsioonide kasutamine pole kohandatud LESS-is lubatud.'
       custom_styles_heading: 'Kohandatud stiil'
       custom_styles_text: 'Kohanda oma foorumi välimust enda Less/CSS koodi abil, mida kasutatakse lisaks Flarumi vaikimisi stiilidele.'
       dark_mode_label: 'Tume töörežiim'
@@ -46,6 +47,7 @@ core:
       welcome_banner_text: 'Sisesta tekst, mida kuvatakse ''Kõikide teemade'' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks.'
     create_user:
       email_confirmed_label: 'Nõua kasutajal selle e-posti kinnitamist'
+      email_placeholder: E-post
       password_placeholder: Parool
       submit_and_create_another_button: 'Loo ja lisa veel üks'
       submit_button: 'Loo kasutaja'
@@ -256,6 +258,8 @@ core:
   api:
     invalid_filter_type:
       must_be_numeric_message: 'Filter {filter} peab olema number.'
+      must_not_be_array_message: 'Filter {filter} ei tohi olla andmemassiiv.'
+      must_not_be_multidimensional_array_message: 'Filter {filter} ei tohi olla mitmemõõduline andmemassiiv.'
     invalid_username_message: 'Kasutajanimes võivad olla vaid tähed, numbrid ja sidekriips.'
   email:
     activate_account:
@@ -430,6 +434,8 @@ core:
         title: 'Uus kontrollkood'
         title_placeholder: Pealkiri
       revoke_access_token: Eemalda
+      revoke_access_token_confirmation: Kinnituskiri
+      session_terminated: '{count, plural, one {Session lõpetatud} other {# Sessions lõpetatud}}.'
       session_termination_failed: 'Sinu sessiooni lõpetamisel tekkis tõrge.'
       sessions_heading: 'Aktiivsed sessioonid'
       show_access_token: 'Vaata kontrollkoodi'
@@ -524,6 +530,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Sõltuvuseddetected: {extensions}. Aborting. Please disable one of the extensions and try again.'
       dependent_extensions_message: '{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}'
       extension_initialiation_failed_message: '{extension} paigaldamine ebaõnnestus - lisainformatsiooni võid leida brauseri konsoolist.'
       generic_cross_origin_message: 'Ups! Päringuga läks midagi valesti. Palun laadi lehekülg ja proovi uuesti.'
