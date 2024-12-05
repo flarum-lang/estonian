@@ -440,6 +440,7 @@ core:
       sessions_heading: 'Aktiivsed sessioonid'
       show_access_token: 'Vaata kontrollkoodi'
       terminate_all_other_sessions: 'Lõpeta kõik teised sessioonid'
+      terminate_all_other_sessions_confirmation: Kinnitussõnum
       terminate_session: Lõpeta
       title: Turvalisus
       token_item_title: '{title} - {token}'

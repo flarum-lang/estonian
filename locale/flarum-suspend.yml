@@ -6,19 +6,39 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Kasutajate keelamine'
+  email:
+    no_reason_given: 'Selleks sulgemiseks pole mingit põhjust antud.'
+    suspended:
+      body: "Hei {recipient_display_name},\n\nSinu konto on järgneval põhjusel suletud:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Sinu konto on suletud'
+    unsuspended:
+      body: "Hei {recipient_display_name},\n\nSinu konto on taas avatud. Tagasi foorumisse saad järgnevalt lingilt:\n\n{forum_url}\n"
+      subject: 'Sinu konto on taas avatud'
   forum:
     notifications:
-      user_suspended_text: '{username} keelas sinu kasutaja {timeReadable}'
-      user_unsuspended_text: '{username} lubas sinu kasutaja'
+      user_suspended_indefinite_text: 'Sinu kasutajakonto on määramata ajaks suletud'
+      user_suspended_text: 'Sinu kasutajakonto on suletud kuni ajani {timeReadable}'
+      user_unsuspended_text: 'Sinu kasutajakonto on taas sisse lülitatud'
     suspend_user:
+      display_message: 'Näita kasutajale sõnumit'
       indefinitely_label: 'Keelatud määramata ajaks'
       limited_time_days_text: ' päevaks'
       limited_time_label: 'Keelatud määratud ajaks...'
       not_suspended_label: 'Pole keelatud'
+      placeholder_optional: Valikuline
+      reason: 'Konto sulgemise põhjus'
       status_heading: 'Keelamise staatus'
       submit_button: '=> core.ref.save_changes'
       title: 'Keela {username}'
+    suspension_info:
+      dismiss_button: Eira
+      indefinite: 'See on konto sulgemine määramata ajaks'
+      limited: 'See konto sulgemine on jõus kuni {date}'
+      title: 'See konto on suletud'
     user_badge:
       suspended_tooltip: Keelatud
     user_controls:
       suspend_button: Keela
+  validation:
+    attributes:
+      suspendedUntil: 'suletud kuni'
