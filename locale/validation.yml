@@ -42,6 +42,8 @@ validation:
   ends_with: ':attribute peab lõppema ühega järgnevatest: :values.'
   exists: 'Valitud :attribute pole õige.'
   file: ':attribute peab olema fail.'
+  file_too_large: ':attribute on liiga suur.'
+  file_upload_failed: ':attribute üleslaadimine ebaõnnestus.'
   filled: ':attribute peab olema väärtustatud.'
   gt:
     array: ':attribute peab sisaldama rohkem kui :value elementi.'

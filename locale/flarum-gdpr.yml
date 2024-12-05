@@ -24,3 +24,72 @@ flarum-gdpr:
       process_erasure: 'Protsessi kustutamise nõuded'
       process_export_for_others: 'Küsi ja hangi andmete eksporte teistele kasutajatele'
       see_anonymized_user_badges: 'Vaata anonümiseeritud kasutajate silte'
+    settings:
+      allow_deletion: 'Luba soovi korral kustutamine'
+      default_erasure_options:
+        anonymization: Anonümiseerimine
+        deletion: Kustutamine
+      gdpr_page:
+        title: 'Andmete integreerimine ja tegevused'
+    userlist:
+      columns:
+        gdpr_actions:
+          export: 'Ekspordi kasutaja {username} andmed'
+  email:
+    confirm_erasure:
+      subject: 'Kinnita oma konto kustutamise nõue'
+    erasure_cancelled:
+      subject: 'Konto tühistamise päring on tühistatud'
+    erasure_completed:
+      anonymization:
+        subject: 'Konto anonümiseerimine on lõpetatud'
+      deletion:
+        subject: 'Konto kustutamine on lõpetatud'
+    export_available:
+      subject: 'Andmete eksport on saadaval'
+  forum:
+    badges:
+      anonymized_user: 'Anonümiseeritud kasutaja'
+    delete_user:
+      delete_button: Kustuta
+      title: 'Kustuta kasutajakonto {username}'
+    erasure_requests:
+      empty_text: 'Ühtegi ootel olevat konto kustutamise nõuet pole'
+      item_text: '{name} nõudis oma konto kustutamist'
+      title: 'Lonto kustuamise nõuded'
+      tooltip: 'Konto kustutamise nõuded'
+    notification:
+      export-ready: 'Sinu andmete eksport kasutajakonto {username} andmetega on valmis allalaadimiseks.'
+    process_erasure:
+      anonymization_button: 'Anonümiseeri kasutaja'
+      comments_label: 'Kommentaarid (valikuline)'
+      deletion_button: 'Kustuta kasutaja'
+      title: 'Protsessi kustutamise nõue'
+    request_erasure:
+      cancel_button: 'Tühista päring'
+      password_label: 'Kinnita parooli'
+      reason: 'Sa sisestasid järgmise põhjuse: {reason}'
+      reason_label: 'Põhjus (valikuline)'
+      request_button: 'Nõua kustutamist'
+      title: 'Nõua konto kustutamist'
+    settings:
+      data:
+        heading: 'Isiklikud andmed'
+      export_data_button: 'Ekspordi andmed'
+      request_erasure_button: 'Kusuta konto'
+  lib:
+    data:
+      avatar:
+        delete_description: 'Kustutab selle kasutaja avatari failisüsteemist.'
+      no_action: 'Mingit tegevust ei sooritatud.'
+      posts:
+        anonymize_description: 'Eemaldab IP aadressid kõigist postitustest, mida kasutaja on teinud.'
+        delete_description: 'Kustutab kõik postitused, mida kasutaja on teinud.'
+        export_description: 'Ekspordib kõik postitused, mida kasutaja on teinud. Andmed sisaldavad ainult sisu, loomise kuupäeva, IP aadresse ja aruteli ID-d.'
+      tokens:
+        delete_description: 'Kustutab kõik kontrollkoodid, mida kasutaja on loonud.'
+      user:
+        delete_description: 'Kustutab kasutaja andmebaasist.'
+    request_data:
+      request_button: 'Nõude ZIP-fail'
+      text: "Sinu jaoks valmistatakse ZIP-fail. Kui see on valmis, siis saadetakse sulle teavitus allalaadimise lingiga. Link on aktiivne üks päev.\n"
