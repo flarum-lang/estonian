@@ -22,6 +22,7 @@ CHANGELOG
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
