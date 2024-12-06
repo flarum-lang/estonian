@@ -5,5 +5,7 @@
 datitisev-discussion-agree-message:
   admin:
     settings:
+      agreement_label: 'Lepingu tekst'
       description_label: Kirjeldus
+      disable_inputs_label: 'Keela pealkirja ja sisu sisestamine kui nõusolekut lepinguga pole antud.'
       title_label: Pealkiri
