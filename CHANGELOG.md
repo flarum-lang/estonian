@@ -107,6 +107,7 @@ CHANGELOG
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
