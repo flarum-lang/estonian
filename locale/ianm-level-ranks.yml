@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ianm-level-ranks:
+  admin:
+    settings:
+      levelText: 'Sisesta tekst, mida punktide juures näidatakse (nt. punktid)'
   forum:
     desc:
       expText: 'AEGUB{expTotal}'
