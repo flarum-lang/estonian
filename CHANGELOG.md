@@ -14,6 +14,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
 * [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
@@ -26,11 +27,13 @@ CHANGELOG
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread)
+* [`blomstra/readme`](https://flarum.org/extension/blomstra/readme)
 * [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login)
 * [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
 * [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
 * [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
 * [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
+* [`clarkwinkelmann/flarum-ext-editable-user-attributes`](https://github.com/clarkwinkelmann/flarum-ext-editable-user-attributes)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`clarkwinkelmann/flarum-ext-first-post-approval`](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval)
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
@@ -149,6 +152,7 @@ CHANGELOG
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * `nodeloc-ignore-hidden-tags`
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
@@ -157,6 +161,7 @@ CHANGELOG
 * [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 * [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 * [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
 * [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
