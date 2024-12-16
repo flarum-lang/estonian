@@ -4,7 +4,7 @@
 
 fof-ban-ips:
   admin:
-    empty_text: 'Ühtegi blokeeritud IP-d ei leitud'
+    empty_text: 'Ühtegi blokeeritud IP-d ei leitud.'
     modal:
       ban_ip_no_users: 'Kedagi ei blokeerita'
       update_title: 'Uuenda blokeeritud IP-d'
