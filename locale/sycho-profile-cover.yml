@@ -17,4 +17,4 @@ sycho-profile-cover:
     notice: 'Maksimaalne suurus: {size}'
     removed:
       error: 'Taustapildi eemaldamine ebaõnnestus, proovi hiljem uuesti.'
-      success: 'Profiili taustapilt on eemaldatud'
+      success: 'Profiili taustapilt on eemaldatud.'

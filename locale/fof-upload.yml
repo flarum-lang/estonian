@@ -44,11 +44,13 @@ fof-upload:
     nav:
       shared-uploads-button: 'Jagatud üleslaadimised'
     pane:
+      description: 'Seadista üleslaadimise teenused ja eelistused.'
       title: 'Laadi üles'
     permissions:
       delete_uploads_of_others_label: 'Kustuta kasutajate üleslaadimised'
       download_label: 'Laadi failid alla'
     shared-uploads:
+      no-files: 'Ühtegi jagatud faili pole veel üles laaditud.'
       title: 'Jagatud üleslaadimised'
       upload-new-button: 'Laadi üles uus fail'
     templates:

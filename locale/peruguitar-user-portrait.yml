@@ -5,6 +5,6 @@
 peruguitar-user-portrait:
   admin:
     exclude_from_mobile_help: 'Ära näita kasutaja portreed mobiilil'
-    exclude_from_mobile_label: 'Ära näita mobiilil'
+    exclude_from_mobile_label: 'Peita mobiilil?'
   forum:
     welcome_back_label: 'Teretulemast tagasi'

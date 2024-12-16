@@ -4,7 +4,52 @@
 
 fof-oauth:
   admin:
+    configure_button_label: 'Seadista OAuth'
     settings:
       advanced:
+        heading: Lisavalikud
         log-oauth-errors-label: 'Logi OAuth veateated'
+      popup_height_label: 'OAuth hüpikakna kõrgus'
+      popup_width_label: 'OAuth hüpikakna laius'
+      providers:
+        gitlab:
+          domain_label: 'GitLab domeen'
+        google:
+          description: 'Loo rakendus lingil {link}.'
+        twitter:
+          api_key_label: 'API võti'
+          api_secret_label: 'API salasõna'
+      update_email_from_provider_label: 'Kasuta teenusepakkuja E-posti aadressi'
     settings_accessibility_label: '{name} seaded'
+  forum:
+    error:
+      bad_verification_code: 'Vigane või aegunud kinnituskood. Palun proovi uuesti.'
+      invalid_state: 'Vigane staatus. Palun proovi uuesti.'
+    log_in:
+      with_button: 'Logi sisse teenusega {provider}'
+    signup:
+      username_help: 'Palun vali kasutajanimi, mida kasutada siin'
+    unlink: 'Eemalda link'
+    user:
+      settings:
+        linked-account:
+          identification-label: '{provider} ID'
+          identifier-label: '{provider} ID'
+          label: 'Lingitud kontod'
+          last-used-label: 'Viimati kasutatud'
+          link-created-label: 'Link on loodud'
+  lib:
+    providers:
+      discord: Discord
+      facebook: Facebook
+      github: GitHub
+      gitlab: GitLab
+      google: Google
+      linkedin: LinkedIn
+      twitter: Twitter
+  ref:
+    settings:
+      app_id: 'Rakenduse ID'
+      app_secret: 'Rakenduse salasõna'
+      client_id: 'Kliendi ID'
+      client_secret: 'Kliendi salasõna'
