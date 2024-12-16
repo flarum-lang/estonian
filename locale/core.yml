@@ -83,7 +83,7 @@ core:
     edit_group:
       color_label: '=> core.ref.color'
       delete_button: 'Kustuta grupp'
-      delete_confirmation: 'Oled kindel, et tahad selle grupi kustutada? Grupi liikmeid ei kustutata.'
+      delete_confirmation: 'Oled sa kindel, et tahad selle grupi kustutada? Grupi liikmeid ei kustutata.'
       hide_label: 'Peida foorumis'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
@@ -120,7 +120,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Kõik õigused'
-      confirm_purge: 'Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Olete kindel, et soovite jätkata?'
+      confirm_purge: 'Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?'
       disabled: Keelatud
       enable_to_see: 'Luba laiendusel näha ja muuta seadeid.'
       enabled: Lubatud
@@ -128,7 +128,7 @@ core:
         discuss: Aruta
         documentation: Dokumentatsioon
         donate: Anneta
-        source: Kood
+        source: Lähtekood
         support: Tugi
         website: Veebileht
       no_permissions: 'Sellel laiendusel pole õiguseid.'
@@ -137,7 +137,7 @@ core:
       permissions_title: Õigused
       purge_button: Eemalda
       readme:
-        button_label: README
+        button_label: 'LOE MIND'
         no_readme: 'Sellel laiendusel ei paista README faili olevat'
         title: '{extName} dokumentatsioon'
     header:
@@ -152,9 +152,9 @@ core:
       basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Tuvastamine
-        core: Põhikonfiguratsioon
-        discussion: Teema
-        feature: Laiendused
+        core: Põhiseaded
+        discussion: Vestlus
+        feature: Funktsioonid
         formatting: Vormindus
         language: Keeled
         moderation: Modereerimine
@@ -175,11 +175,11 @@ core:
       allow_renaming_label: Ümbernimetamine
       create_access_token_label: 'Loo ligipääsukood'
       create_heading: 'Uue loomine'
-      delete_discussions_forever_label: 'Teemade kustutamine igaveseks'
-      delete_discussions_label: 'Teemade kustutamine'
+      delete_discussions_forever_label: 'Vestluste kustutamine jäädavalt'
+      delete_discussions_label: 'Vestluste kustutamine'
       delete_posts_forever_label: 'Postituste kustutamine igaveseks'
       delete_posts_label: 'Postituste kustutamine'
-      description: 'Seadista, kes näeb ja saab teha mida.'
+      description: 'Seadista, kes mida näeb ja mida teha saab.'
       edit_posts_label: 'Postituste muutmine'
       edit_users_credentials_label: 'Kasutajanime ja parooli muutmine'
       edit_users_groups_label: 'Kasutajagruppide muutmine'
@@ -191,15 +191,15 @@ core:
       participate_heading: Osalemine
       post_without_throttle_label: 'Ilma vahepausita vastamine'
       read_heading: Vaatamine
-      rename_discussions_label: 'Teemade ümbernimetamine'
-      reply_to_discussions_label: 'Teemadele vastamine'
+      rename_discussions_label: 'Vestluste ümbernimetamine'
+      reply_to_discussions_label: 'Vestlustele vastamine'
       search_users_label: 'Kasutajate otsimine'
       sign_up_label: Registreerumine
-      start_discussions_label: 'Uute teemade alustamine'
+      start_discussions_label: 'Uute vestluste alustamine'
       title: Õigused
-      view_forum_label: 'Teemade ja kasutajate näitamine'
-      view_hidden_groups_label: 'Peidetud gruppide näitamine'
-      view_last_seen_at_label: 'Kasutaja viimati lehel olemise näitamine'
+      view_forum_label: 'Vestluste ja kasutajate vaatamine'
+      view_hidden_groups_label: 'Peidetud gruppide vaatamine'
+      view_last_seen_at_label: 'Kasutaja viimati lehel olemise vaatamine'
       view_post_ips_label: 'Postituse IP-aadressi näitamine'
     permissions_controls:
       allow_indefinitely_button: 'Määramata ajaks'
@@ -227,7 +227,7 @@ core:
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
-            tooltip: 'Muuda {username} kasutajat'
+            tooltip: 'Muuda kasutajat {username}'
           email:
             title: '=> core.ref.email'
             visibility_hide: 'Peida meiliaadress'
@@ -295,11 +295,11 @@ core:
     composer_discussion:
       body_placeholder: 'Kirjuta teade...'
       discard_confirmation: 'Sa ei ole oma teemat veel postitanud. Kas tahad sellest loobuda?'
-      submit_button: 'Postita teema'
+      submit_button: 'Alusta vestlust'
       title: '=> core.ref.start_a_discussion'
-      title_placeholder: 'Teema pealkiri'
+      title_placeholder: 'Vestluse pealkiri'
     composer_edit:
-      discard_confirmation: 'Sa ei ole oma muudatusi veel salvestanud. Kas soovid neist loobuda?'
+      discard_confirmation: 'Sa pole oma muudatusi veel salvestanud. Kas soovid neist loobuda?'
       edited_message: 'Muudatus tehtud.'
       post_link: 'Postitus #{number} teemas {discussion}'
       submit_button: '=> core.ref.save_changes'
@@ -312,9 +312,9 @@ core:
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 'Ei saa vastata'
-      cannot_reply_text: 'Sul pole õigust siia teemasse vastata.'
+      cannot_reply_text: 'Sul pole õigust sellele vestlusele vastata.'
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Oled kindel, et soovid selle teema kustutada?'
+      delete_confirmation: 'Oled sa kindel, et soovid selle vestluse kustutada?'
       delete_forever_button: '=> core.ref.delete_forever'
       log_in_to_reply_button: 'Vastamiseks logi sisse'
       rename_button: '=> core.ref.rename'
@@ -333,12 +333,12 @@ core:
       email_placeholder: '=> core.ref.email'
       email_sent_message: 'Saatsime sulle meilile paroolivahetuse lingi. Vaata ka oma spämmikausta, kui see minuti või paari jooksul saabunud pole.'
       not_found_message: 'Sellise meiliaadressiga kasutajat meil ei ole.'
-      submit_button: 'Unustasin parooli'
+      submit_button: 'Taasta parool'
       text: 'Sisesta oma meiliaadress ja me saadame sinna paroolimuutmise lingi.'
       title: 'Unustasin parooli'
     header:
       admin_button: Administreerimine
-      back_to_index_tooltip: 'Tagasi teemade loetellu'
+      back_to_index_tooltip: 'Tagasi vestluste nimekirja'
       locale_dropdown_accessible_label: 'Muuda foorumi asukohaseadeid'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
@@ -352,7 +352,7 @@ core:
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Ei saa uut teemat alustada'
-      mark_all_as_read_confirmation: 'Oled kindel, et soovid kõik teemad loetuks märkida?'
+      mark_all_as_read_confirmation: 'Oled sa kindel, et soovid kõik vestlused loetuks märkida?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: Värskenda
@@ -363,14 +363,14 @@ core:
       newest_button: Uuemad
       oldest_button: Vanemad
       relevance_button: 'Tähtsuse järgi'
-      toggle_dropdown_accessible_label: 'Muuda teemade järjestust'
+      toggle_dropdown_accessible_label: 'Muuda vestluste järjestust'
       top_button: Aktiivsemad
     log_in:
       forgot_password_link: 'Unustasid parooli?'
-      invalid_login_message: 'Sinu sisselogimisandmed ei olnud õiged.'
+      invalid_login_message: 'Sinu sisselogimisandmed polnud õiged.'
       password_placeholder: '=> core.ref.password'
       remember_me_label: 'Jäta mind meelde'
-      sign_up_text: 'Pole kontot? <a>Registreeri</a>'
+      sign_up_text: 'Pole kontot? <a>Registreeru</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Kasutajanimi või meiliaadress'
@@ -409,7 +409,7 @@ core:
       time_lapsed_text: '{period} hiljem'
     rename_discussion:
       submit_button: '=> core.ref.rename'
-      title: 'Nimeta teema ringi'
+      title: 'Nimeta vestlus ümber'
     search:
       all_discussions_button: 'Otsi kõikidest teemadest "{query}"'
       discussions_heading: '=> core.ref.discussions'
@@ -454,8 +454,8 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Veeb
-      notify_discussion_renamed_label: 'Keegi nimetab minu alustatud teema ringi'
-      privacy_disclose_online_label: 'Näita teistele, kui ma olen lehel sees'
+      notify_discussion_renamed_label: 'Keegi nimetab minu alustatud vestluse ümber'
+      privacy_disclose_online_label: 'Näita teistele, kui ma olen lehel'
       privacy_heading: Privaatsus
       title: '=> core.ref.settings'
     sign_up:
@@ -472,10 +472,10 @@ core:
       avatar_upload_button: 'Laadi üles'
       avatar_upload_tooltip: 'Laadi üles uus avatar'
       discussions_link: '=> core.ref.discussions'
-      in_discussion_text: 'Teemas {discussion}'
+      in_discussion_text: 'Vestluses {discussion}'
       joined_date_text: 'Liitus {ago}'
-      online_text: Sees
-      posts_empty_text: 'Siin ei ole ühtegi postitust.'
+      online_text: Saidil
+      posts_empty_text: 'Siin pole ühtegi postitust.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
       security_link: Turvalisus
@@ -483,7 +483,7 @@ core:
     user_controls:
       button: Juhtpaneel
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Oled kindel, et soovid antud kasutaja kustutada? Kasutaja postitusi ei kustutata.'
+      delete_confirmation: 'Oled kindel, et soovid antud kasutaja kustutada? Kasutaja postitusi EI kustutata.'
       delete_error_message: 'Kasutaja <i>{username} ({email})</i> kustutamine ebaõnnestus'
       delete_success_message: 'Kasutaja <i>{username} ({email})</i> on kustutatud'
       edit_button: '=> core.ref.edit'
@@ -539,8 +539,8 @@ core:
       missing_dependencies_message: '{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}'
       not_found_message: 'Nõutud ressurssi ei leitud.'
       payload_too_large_message: 'Teostatud päring oli liiga mahukas.'
-      permission_denied_message: 'Sul ei ole selle jaoks õigust.'
-      rate_limit_exceeded_message: 'Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest.'
+      permission_denied_message: 'Sul ei ole selle jaoks õigusi.'
+      rate_limit_exceeded_message: 'Postitad liiga kiiresti. Proovi mõne sekundi pärast uuesti.'
       render_failed_message: 'Vabandage, sisu kuvamisel tekkis viga. Kui olete kasutaja, siis proovige hiljem uuesti. Kui olete foorumi administraator, siis kontrollige Flarumi logifaile, kust leiab lisainformatsiooni.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
@@ -552,7 +552,7 @@ core:
     nav:
       drawer_button: 'Ava navigatsioon'
     number_suffix:
-      kilo_text: k
+      kilo_text: K
       mega_text: M
     series:
       glue_text: ', '
@@ -561,7 +561,7 @@ core:
     username:
       deleted_text: '[kustutatud]'
   ref:
-    all_discussions: 'Kõik teemad'
+    all_discussions: 'Kõik vestlused'
     change_email: 'Muuda meiliaadressi'
     change_password: 'Muuda parooli'
     color: Värv
@@ -574,7 +574,7 @@ core:
     custom_header_title: 'Kohandatud päis'
     delete: Kustuta
     delete_forever: 'Kustuta igaveseks'
-    discussions: Teemad
+    discussions: Vestlused
     edit: Muuda
     edit_user: 'Muuda kasutajat'
     email: Meil
@@ -582,8 +582,8 @@ core:
     generic_confirmation_message: 'Oled sa kindel, et soovid jätkata? Seda toimingut ei saa tühistada.'
     icon: Ikoon
     icon_text: 'Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> algusega.'
-    load_more: 'Laadi juurde'
-    loading: Laadin...
+    load_more: 'Laadi rohkem'
+    loading: Laadimine...
     log_in: Sisene
     log_out: Välju
     mark_all_as_read: 'Märgi kõik loetuks'
@@ -596,7 +596,7 @@ core:
     posts: Postitused
     previous_page: 'Eelmine lehekülg'
     remove: Eemalda
-    rename: 'Nimeta ringi'
+    rename: 'Nimeta ümber'
     reply: Vasta
     reset_your_password: 'Taasta parool'
     restore: Taasta
@@ -606,7 +606,7 @@ core:
     settings: Seaded
     sign_up: Registreeru
     some_others: '{count, plural, one {# teine} other {# teist}}'
-    start_a_discussion: 'Alusta uut teemat'
+    start_a_discussion: 'Alusta uut vestlust'
     username: Kasutajanimi
     users: Kasutajad
     view: Vaata
@@ -637,12 +637,12 @@ core:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
     error:
-      csrf_token_mismatch: 'Sa pole olnud kaua aktiivne.'
+      csrf_token_mismatch: 'Oled olnud liiga kaua mitteaktiivne.'
       csrf_token_mismatch_return_link: 'Mine tagasi, et uuesti proovida'
       invalid_confirmation_token: 'See kinnituslink pole õige või seda on juba kasutatud.'
       not_authenticated: 'Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.'
       not_found: 'Nõutud lehte ei leitud.'
-      not_found_return_link: 'Mine tagasi {forum} lehele'
+      not_found_return_link: 'Mine tagasi lehele {forum}'
       permission_denied: 'Sul pole sellele lehele ligipääsuõigust.'
       unknown: 'Lehel laadimisel tekkis viga.'
     index:
