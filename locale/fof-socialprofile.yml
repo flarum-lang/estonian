@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-socialprofile:
+  admin:
+    permissions:
+      editOwn: 'Omaenda sotsiaalse profiili muutmine'
   forum:
     edit:
       delete: Kustuta

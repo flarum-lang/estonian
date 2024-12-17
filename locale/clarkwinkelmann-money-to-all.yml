@@ -5,4 +5,5 @@
 clarkwinkelmann-money-to-all:
   lib:
     modal:
+      amount: Kogus
       title: 'Saada raha kõigile kasutajatele'

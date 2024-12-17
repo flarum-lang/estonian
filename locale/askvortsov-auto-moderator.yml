@@ -6,3 +6,4 @@ askvortsov-auto-moderator:
   admin:
     action_drivers:
       activate_email: 'Aktiveeri e-post'
+      add_to_group: 'Lisa gruppi'

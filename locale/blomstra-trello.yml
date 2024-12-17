@@ -7,3 +7,4 @@ blomstra-trello:
     modals:
       fields:
         board: 'Vali Trello töölaud'
+        trello_label: 'Vali Trello silt'

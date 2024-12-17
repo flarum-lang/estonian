@@ -6,3 +6,4 @@ clarkwinkelmann-formatted-banner:
   admin:
     settings:
       guestContent: 'Külalise vormistatud sisu'
+      guestHtml: 'Külaliste HTML sisu'

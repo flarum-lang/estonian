@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 askvortsov-moderator-warnings:
+  admin:
+    permissions:
+      view_warnings: 'Vaata moderaatori hoiatusi'
   forum:
     validation:
       public_comment_required: 'Pead sisestama avaliku kommentaari.'

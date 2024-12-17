@@ -5,4 +5,5 @@
 clarkwinkelmann-featured-discussions:
   admin:
     settings:
+      duration: 'Vaikimisi kestus (sekundites)'
       schedule: 'Graafik (CRON süntaks)'

@@ -6,3 +6,5 @@ clarkwinkelmann-clippy:
   admin:
     settings:
       cdn: CDN
+      cdn-options:
+        s3: 'Amazon S3'

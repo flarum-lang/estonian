@@ -6,3 +6,5 @@ clarkwinkelmann-follow-tags-prompt:
   forum:
     controls:
       choose: 'Vali sildid, mida jälgida'
+    modal:
+      title: 'Vali sildid, mida jälgida'

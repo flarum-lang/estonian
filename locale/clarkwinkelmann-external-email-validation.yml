@@ -6,3 +6,4 @@ clarkwinkelmann-external-email-validation:
   admin:
     settings:
       method: 'Nõude meetod'
+      uri: 'Nõude URI'

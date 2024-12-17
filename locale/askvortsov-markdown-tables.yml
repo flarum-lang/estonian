@@ -7,3 +7,4 @@ askvortsov-markdown-tables:
     composer:
       table_menu:
         num_cols: 'Veergude arv'
+        num_rows: 'Ridade arv (koos päistega)'

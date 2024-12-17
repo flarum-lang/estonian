@@ -57,6 +57,8 @@ fof-linguist:
       core: 'Flarumi tuum'
     locales:
       all: Kõik
+    permissions:
+      view_string_keys: 'Vaata tõlke tekstide võtmeid'
     placeholder:
       all-locales: 'Siin määratud teksti näidatakse kõigis keeltes'
       hint: 'Algne väärtus:'

@@ -6,3 +6,4 @@ clarkwinkelmann-mass-actions:
   forum:
     select:
       all: Kõik
+      none: Pole

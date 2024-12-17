@@ -4,5 +4,7 @@
 
 clarkwinkelmann-discussion-lists:
   admin:
+    permissions:
+      viewPublic: 'Vaata avalikku vestluste nimekirja'
     settings:
       collapseSeries: 'Sulge seeriate indeks automaatselt'
