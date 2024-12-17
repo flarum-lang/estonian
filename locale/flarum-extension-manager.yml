@@ -68,11 +68,20 @@ flarum-extension-manager:
       remove: Eemalda
       successful_install: '{extension} paigaldati edukalt, ümbersuunamine..'
       successful_remove: 'Laiendus on eemaldatud.'
+      successful_update: '{extension} uuendati, ümbersuunamine...'
       update: Uuenda
+    file_permissions: "Lisaprogrammide haldur vajab kirjutusõigust järgnevates failides ja kaustades: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     major_updater:
+      description: "Peamised Flarumi uuendused pole tagasiühilduvad, mis tähendab, et sinu praegu paigaldatud lisaprogrammid ja käsitsi tehtud muudatused ei pruugi selle uue versiooniga töötada. Palun veendu, et oled teinud varukoopia oma andmebaasist ja failidest enne, kui sa jätkad.\n"
+      dry_run: Prooviuuendus
+      dry_run_help: 'Prooviuuendus emuleerib uuendamise protsessi, et näha, kas uuendus toimiks turvaliselt. See ei tähenda, et käsitsi tehtud kohendused töötaksid uuema versiooniga.'
       failure:
+        desc: 'Viimane suurem uuendus ebaõnnestus. Mõned paigaldatud lisaprogrammid ei ühildu uue peamise versiooniga.'
         why: 'Otsi lisainfot'
+      title: 'Suur Flarumi {version} uuendus on saadaval'
       update: Uuenda
+    minor_update_confirmation:
+      content: 'See uuendab ka teised lisaprogrammid ja pakid uusimate saadaolevate versioonidega.'
     sections:
       control:
         title: Haldaja
@@ -93,6 +102,7 @@ flarum-extension-manager:
           update_global: 'Uuenda kõiki tarkvarapakette'
           update_major: 'Peamine uuendus'
           update_minor: 'Väike uuendus'
+          why_not: 'Analüüsi, miks paketti ei saa uuendada'
         output_modal:
           cause_unknown: Tundmatu
           command: 'Composeri käsk'
@@ -107,6 +117,10 @@ flarum-extension-manager:
         task_just_started: 'Ülesanne just algas'
         title: Järjekord
     settings:
+      access_warning: 'Palun ole ettevaatlik, kui annad ligipääsu adminiliidesele, kuna lisaprogrammide haldurit on võimalik kasutada ka pahatahtlikult ning see võib viia turvaprobleemideni.'
+      queue_jobs: 'Käivita toimingud järjekorras taustal'
+      task_retention_days: 'Ülesande säilitamise aeg päevades'
+      task_retention_days_help: "Päevade arv, mil lõpetatud ülesandeid hoitakse andmebaasis alles. Vanemad ülesanded kustutatakse. Kõikide ülesannete alleshoidmiseks sisesta 0.\n"
       title: Seaded
     update_successful: 'Flarum on uuendatud.'
     updater:
@@ -116,6 +130,7 @@ flarum-extension-manager:
       last_update_checked_at: 'Viimane uuenduste kontroll: '
       run_global_update: 'Käivita üldine uuendamine'
       up_to_date: 'Kõik on ajakohane!'
+      updater_help: 'Otsib Flarumi ja lisaprogrammide uuendusi.'
       updater_title: Uuendused
     why_not_modal:
       title: 'Mis see ei uuenda'

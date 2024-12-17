@@ -16,7 +16,33 @@ davwheat:
               below-tags-link: '"Siltide" nupu all'
         link_table:
           add_link_btn: 'Lisa uus link'
+          confirm_delete: 'Kinnita lingi "{link}" kustutamine'
           heading: 'Kohanda linke'
+          save_btn:
+            dirty: 'Salvesta seaded'
           table:
+            header:
+              delete: Eemalda
+              icon: 'Lingi ikoon'
+              internal: 'On Flarumi URL?'
+              position: Asukoht
+              text: 'Lingi tekst'
+              url: 'Lingi URL'
             placeholders:
+              icon: 'fas fa-link'
+              text: 'Minu lahe sait'
               url: 'https://flarum.org'
+            tooltips:
+              icon_preview: 'Ikoon eelvaade'
+              move_down: 'Liiguta alla'
+              move_up: 'Liiguta üles'
+        new_link_modal:
+          labels:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon'
+            internal: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url'
+          placeholders:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url'
