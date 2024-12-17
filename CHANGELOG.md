@@ -247,6 +247,7 @@ CHANGELOG
 * [`ianm/gravatar`](https://github.com/imorland/gravatar)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
