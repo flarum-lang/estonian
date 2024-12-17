@@ -5,4 +5,5 @@
 flarum-ext-socialcards:
   admin:
     settings:
+      fblink: 'Facebooki link'
       showfacebook: 'Luba Facebook'

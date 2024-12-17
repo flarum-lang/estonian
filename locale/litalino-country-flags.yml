@@ -5,3 +5,4 @@
 justoverclock-country-flags:
   admin:
     countryColumn: Riik
+    showFlagsOnPosts: 'Näita postitustel lippe'

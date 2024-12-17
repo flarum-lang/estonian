@@ -5,4 +5,5 @@
 mattoid-store-invite:
   admin:
     settings:
+      group-admin-view: 'Auditi õigused'
       group-view: 'Näita kasutajatele tooteid'

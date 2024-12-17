@@ -13,6 +13,7 @@ flarum-ext-welcomebox:
     goToProfile: Profiil
     lastSeen: 'Viimane külastus'
     notregistered: 'Sa pole hetkel selle foorumi liige.'
+    npost: '=> core.ref.posts'
     tooltipDisclist: 'Minu vestluste nimekiri'
     tooltipMentions: Mainimised
     tooltipProfile: Profiil

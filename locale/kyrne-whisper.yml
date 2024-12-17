@@ -6,3 +6,4 @@ kyrne-whisper:
   admin:
     settings:
       return_key: 'Võtme tagastamine saadab sõnumi'
+      title: 'Sosistaja seaded'

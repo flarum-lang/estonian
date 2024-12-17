@@ -5,3 +5,4 @@
 justoverclock-users-map-location:
   admin:
     adminLocationField: Asukoht
+    mapBox-api-key: 'MapBox avalik kontrollkood'

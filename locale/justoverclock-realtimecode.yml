@@ -4,4 +4,5 @@
 
 flarum-ext-realtimecode:
   forum:
+    htmleditor: 'HTML redaktor'
     title: 'HTML redaktor'

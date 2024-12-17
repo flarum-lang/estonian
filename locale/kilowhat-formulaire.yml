@@ -6,3 +6,4 @@ kilowhat-formulaire:
   admin:
     permissions:
       heading: Formulaire
+      heading-advanced: 'Formulaire (kolmanda osapoole lisaprogrammide valikud)'

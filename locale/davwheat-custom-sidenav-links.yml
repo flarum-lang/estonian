@@ -8,6 +8,15 @@ davwheat:
       settings_page:
         display_options:
           heading: 'Vaate seaded'
+          labels:
+            position: 'Lingi asukoht'
           options:
             position:
               above-tags-link: '"Siltide" nupu kohal'
+              below-tags-link: '"Siltide" nupu all'
+        link_table:
+          add_link_btn: 'Lisa uus link'
+          heading: 'Kohanda linke'
+          table:
+            placeholders:
+              url: 'https://flarum.org'

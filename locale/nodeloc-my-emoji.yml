@@ -5,4 +5,5 @@
 nodeloc-emoji:
   admin:
     settings:
+      category_settings_heading: 'Kategooria seaded'
       emoji_settings_heading: 'Emotikoni seaded'

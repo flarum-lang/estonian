@@ -6,3 +6,4 @@ core:
   forum:
     index_sort:
       popular_button: Populaarne
+      unpopular_button: Ebapopulaarne

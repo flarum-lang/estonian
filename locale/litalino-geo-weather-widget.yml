@@ -4,5 +4,6 @@
 
 geo-weather:
   forum:
+    unknown: tundmatu
     widget:
       title: 'Geo ilm'

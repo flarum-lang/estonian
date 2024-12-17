@@ -6,3 +6,4 @@ kyrne-evergreen:
   forum:
     post:
       show_replies: 'Näita {count} vastust'
+      show_reply: 'Näita {count} vastust'

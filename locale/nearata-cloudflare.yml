@@ -6,3 +6,5 @@ nearata-cloudflare:
   admin:
     development_mode_widget:
       title: 'Cloudflare arendusrežiim on aktiivne'
+    settings:
+      api_key: 'API võti'

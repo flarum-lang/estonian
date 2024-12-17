@@ -6,3 +6,4 @@ acpl-mobile-tab:
   forum:
     all_discussions: Vestlused
     home: Avaleht
+    tags: '=> flarum-tags.forum.index.tags_link'
