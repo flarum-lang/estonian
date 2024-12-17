@@ -7,3 +7,9 @@ fof-github-sponsors:
     account_types:
       organization: Organisatsioon
       user: Kasutaja
+    settings:
+      account_type_label: 'Konto liik'
+      api_token_label: 'API kontrollkood'
+      desc: 'Oma API kontrolli saad lingilt <a>https://github.com/settings/tokens/new</a>. See lisaprogramm vajab <code>user</code> ja <code>read:org</code> õiguseid.'
+      group_label: 'Grupp, millesse määrata'
+      login_label: 'Logi sisse'

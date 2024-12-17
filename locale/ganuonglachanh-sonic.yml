@@ -7,3 +7,7 @@ ganuonglachanh-sonic:
     settings:
       GNOptionsHeading: Seaded
       host: Host
+      locale: Keel
+      password: Parool
+      port: Port
+      timeout: Aegumine

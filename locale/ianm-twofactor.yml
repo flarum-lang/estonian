@@ -6,3 +6,23 @@ ianm-twofactor:
   admin:
     edit_group:
       2fa_label: '2FA on nõutud'
+    settings:
+      logo_qr: 'Logo QR-koodil'
+  email:
+    status_type:
+      disabled: 'välja lülitatud'
+      enabled: 'sisse lülitatud'
+  forum:
+    security:
+      backup_codes: 'Sinu varukoodid'
+      cancel_button: Loobu
+      disable_2fa_button: 'Lülita 2FA välja'
+      enable_2fa_button: 'Lülita 2FA sisse'
+      loading_qr: 'QR-koodi laadimine'
+      manual_tab: 'Käsitsi seadistamine'
+      ok_button: OK
+      qr_tab: 'Skänneeri QR-kood'
+      saved_backup_codes_button: 'Ma salvestasin need koodid'
+      two_factor_heading: 2FA
+      two_factor_title: 'Staatus:'
+      verify_button: Kinnita

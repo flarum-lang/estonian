@@ -4,4 +4,25 @@
 
 the-turk-diff:
   forum:
+    deleteButton: '=> core.forum.post_controls.delete_button'
+    deletedText: (kustutatud)
+    differences:
+      revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
+    editedText: '=> core.forum.post.edited_text'
     emptyText: 'Muudatusi pole'
+    optionsButton: Valikud
+    previewMode:
+      currentContent: '=> the-turk-diff.ref.currentContent'
+      originalContent: '=> the-turk-diff.ref.originalContent'
+      revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
+    tooltips:
+      combined: Kombineeritud
+      mostRecent: viimased
+      originalContent: '=> the-turk-diff.ref.originalContent'
+      preview: '=> core.forum.composer.preview_tooltip'
+      revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
+      sideBySide: Kõrvuti
+  ref:
+    currentContent: 'praegune sisu'
+    originalContent: 'algne sisu'
+    revisionWithNumber: 'versioon {number}'

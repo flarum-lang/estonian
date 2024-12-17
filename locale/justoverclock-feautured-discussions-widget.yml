@@ -5,3 +5,6 @@
 justoverclock-feautured-discussions-widget:
   admin:
     limit: 'Näidatav esiletõstetud vestluste arv'
+    limit-help: 'mitut vestlust sa soovid näidata (nt. 5 (vaikeväärtus))'
+  forum:
+    widget-title: 'Esiletõstetud vestlused'

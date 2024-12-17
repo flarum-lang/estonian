@@ -36,5 +36,6 @@ fof-pages:
     content: Sisu
     create_page: 'Loo lehekülg'
     pages: Leheküljed
+    slug: Slug
     title: Pealkiri
     url: URL

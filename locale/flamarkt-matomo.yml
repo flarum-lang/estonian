@@ -6,4 +6,9 @@ flamarkt-matomo:
   admin:
     settings:
       siteId: 'Saidi ID'
+      trackAccounts: 'Jälgi üksikuid kasutajakontosid'
+      trackAccountsOptions:
+        email: 'Jälgi e-posti aadressi järgi'
+        none: 'Ära jälgi'
+        username: 'Jälgi kasutajanime järgi'
       url: 'Matomo serveri domeen või URL'

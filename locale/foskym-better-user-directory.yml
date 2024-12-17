@@ -4,6 +4,11 @@
 
 foskym-better-user-directory:
   admin:
+    go_to_this_extension: 'Mine paremasse kasutajate nimekirja lisaprogrammi, millel on rohkem seadeid'
+    go_to_user_directory_extension: 'Mine kasutajate nimekirja lisaprogrammi, millel on rohkem seadeid'
     settings:
       hide_filter_groups: 'Peida gruppide filtreerimine'
       hide_search: 'Peida otsing'
+      podium_style: 'Poodiumi stiil'
+      show_all_items_in_bottom_cards: 'Näita kõiki kirjeid alumistel kaartidel (või ainult üks sortreerimisega seotud kirje)'
+      show_all_items_in_top_cards: 'Näita kõiki kirjeid ülemistel kaartidel (või ainult üks sortreerimisega seotud kirje)'

@@ -7,4 +7,24 @@ datlechin-keyboard-shortcuts:
     modal:
       title: 'Klaviatuuri otseteed'
   lib:
+    discussion_list: 'Vestluste nimekiri'
+    discussion_list_heading: 'Vestluste nimekiri'
+    discussion_page: 'Vestluse lehekülg'
+    discussion_page_heading: 'Vestluse lehekülg'
     global_heading: Üldine
+    shortcuts:
+      back: Tagasi
+      close: Sulge
+      first_post: 'Esimene postitus'
+      follow: 'Jälgi/Lõpeta jälgimine'
+      help: Abiinfo
+      last_post: 'Viimane postitus'
+      login: 'Logi sisse'
+      mark_all_as_read: 'Märgi kõik loetuks'
+      new_discussion: 'Uus vestlus'
+      notifications: Teavitused
+      pin_nav: 'Kinnita navigeerimisriba'
+      reply: Vasta
+      search: Otsi
+      session: 'Kasutajate rippmenüü'
+      signup: Registreeru

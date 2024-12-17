@@ -8,10 +8,15 @@ signature:
       allow_signature: 'Võib kasutada allkirja'
       edit_signature_others: 'Muuda teiste kasutajate allkirju'
     settings:
+      allow_inline_editing:
+        description: 'Allkirja muutmine otse lehel.'
+        help: 'Kui see on sisse lülitatud, siis saavad kasutajad oma allkirja muuta postituse vaatamise ajal.'
       maximum_char_limit:
         description: 'Maksimaalne allkirja märkide limiit.'
+        help: 'Kui kasutaja ületab allkirjas maksimaalse märkide arvu, siis nad ei saa seda salvestada seni, kui märkide arv on õige.'
       maximum_image_count:
         description: 'Maksimaalselt sisestatud pilte.'
+        help: 'Kui kasutaja ületab allkirjas maksimaalse piltide arvu, siis nad ei saa seda salvestada seni, kui piltide arv on õige.'
   forum:
     buttons:
       edit: 'Muuda allkirja'

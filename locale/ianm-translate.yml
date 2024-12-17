@@ -31,6 +31,46 @@ ianm-translate:
         url:
           label: 'Serveri URL'
       multi-lang-search: 'Mitmekeelne otsing'
+      provider: 'Tõlketeenuse pakkuja'
       seo:
         heading: 'SEO seaded'
       translate-polls: 'Tõlgi küsitlused'
+  forum:
+    discussion:
+      post:
+        close-translation: 'Sulge tõlge'
+      title:
+        detected-language: '{postLang}'
+    manage-translations:
+      button-label: 'Halda tõlkeid'
+      discussion:
+        title: 'Halda vestluse pealkirja tõlkeid'
+      original-language: 'Algne keel ({detectedLang})'
+      poll:
+        option: 'Küsitluse vastusevariant {number}'
+        question: 'Küsitluse küsimus'
+        question-language: 'Küsitluse küsimus ({language})'
+        title: 'Halda küsitluste tõlkeid'
+      post:
+        title: 'Halda postituse tõlkeid'
+      save-changes: '=> core.ref.save_changes'
+      translations-label: Tõlked
+    original-content:
+      title: 'Algne sisu'
+      view: 'Vaata algset sisu'
+    refresh-translation: 'Värskenda tõlget'
+    translate-button-label: Tõlgi
+    unknown-language: '[pole tuvastatud]'
+    user:
+      settings:
+        heading: Tõlge
+        source-language:
+          label: 'Näita alati keelt'
+  lib:
+    providers:
+      deepl: DeepL
+      google-cloud: 'Google Cloud tõlge'
+      google-free: 'Google Translate'
+      libre: 'Libre Translate'
+    settings:
+      api-key: 'API võti'

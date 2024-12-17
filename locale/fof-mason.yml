@@ -3,6 +3,44 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-mason:
+  admin:
+    buttons:
+      add-answer: 'Lisa vastus'
+      add-field: 'Lisa väli'
+      delete-answer: 'Kustuta vastus'
+      delete-field: 'Kustuta väli'
+      edit-answer: 'Muuda vastust'
+      edit-field: 'Kliki, et välja muuta'
+      new-field: 'Uus väli'
+      save-answer: 'Salvesta vastuse muudatused'
+      save-field: 'Salvesta välja muudatused'
+    fields:
+      add: 'Lisa väli {field}'
+      edit: 'Muuda välja {field}'
+      icon: Ikoon
+      is_suggested: 'Soovita kasutajatele vastust'
+      new-answer: 'Uus vastus'
+      new-answer-placeholder: 'Sama tekst'
+      save-field-for-answers: 'Salvesta väli, et lisada vastuseid'
+      user_values_allowed: 'Kasutaja väärtused on lubatud'
+    settings:
+      fields-section-title: 'Kohandatud väljade sektsiooni pealkiri'
+      n-columns: '{count} veergu'
+      tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
+    titles:
+      field-answers: 'Välja vastused'
+      field-settings: 'Välja seaded'
+      fields: Väljad
+      settings: Seaded
   forum:
+    answers-modal:
+      save: 'Salvesta väljad'
+    answers:
+      choose-option: 'Tee valik'
+      no-option-selected: 'Ühtegi valikut pole tehtud'
     discussion-controls:
       edit-answers: 'Muuda väljasid'
+    post-answers:
+      no-answer: 'Vastuseid pole'
+    tags:
+      tags-label: Sildid
