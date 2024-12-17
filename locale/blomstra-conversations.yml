@@ -6,3 +6,10 @@ blomstra-conversations:
   admin:
     permissions:
       view-conversation-source: 'Vaata vestluse allikat'
+      view-raw-source: 'Vaata HTML-i või sissetulevate postituste HTML lähtekoodi'
+  forum:
+    post:
+      controls:
+        view: 'Vaata HTML-versiooni'
+        view-code: 'Uuri HTML lähtekoodi'
+      source-raw-heading: 'Vaata HTML-i'

@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 swaggymacro:
+  admin:
+    setting_only_starter: 'Ainult esimene postitaja'
+    setting_show_topic_starter: 'Näita esimese postitaja lippu'
   forum:
     blog_article_author: Autor
+    not_only_starter: 'Ära näita ainult algset postitajat'
+    only_starter: 'Näita ainult esimest postitajat'
     topic_starter: 'Algne postitaja'
