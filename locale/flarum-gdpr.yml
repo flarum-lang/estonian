@@ -25,7 +25,10 @@ flarum-gdpr:
       process_export_for_others: 'Küsi ja hangi andmete eksporte teistele kasutajatele'
       see_anonymized_user_badges: 'Vaata anonümiseeritud kasutajate silte'
     settings:
+      allow_anonymization: 'Luba kustutamise päringute korral anonümiseerimine'
       allow_deletion: 'Luba soovi korral kustutamine'
+      default_erasure: 'Vaikimisi tegevus kustutamise päringu korral'
+      default_erasure_help: 'Mis peaks olema vaikimisi tegevus kustutamise päringu korral?'
       default_erasure_options:
         anonymization: Anonümiseerimine
         deletion: Kustutamine
@@ -42,8 +45,10 @@ flarum-gdpr:
       subject: 'Konto tühistamise päring on tühistatud'
     erasure_completed:
       anonymization:
+        body: "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on anonümiseeritud.\n"
         subject: 'Konto anonümiseerimine on lõpetatud'
       deletion:
+        body: "Tere {display_name}!\n\nSee on automaatne ja viimane teade, et sinu konto on kustutatud.\n"
         subject: 'Konto kustutamine on lõpetatud'
     export_available:
       subject: 'Andmete eksport on saadaval'
@@ -52,7 +57,10 @@ flarum-gdpr:
       anonymized_user: 'Anonümiseeritud kasutaja'
     delete_user:
       delete_button: Kustuta
+      modal_delete_button: 'Kustuta kasutades vaikimisi tegevust'
+      text: "Oled sa kindel, et soovid kustutada kasutaja {username} konto?\n\nSee tegevus on pöördumatu.\n"
       title: 'Kustuta kasutajakonto {username}'
+    erasure_request_confirmed: 'Oled kinnitanud oma konto kustutamise soovi. See toiming tehakse ära 30 päeva jooksul vastavalt GDPR nõuetele.'
     erasure_requests:
       empty_text: 'Ühtegi ootel olevat konto kustutamise nõuet pole'
       item_text: '{name} nõudis oma konto kustutamist'
@@ -64,6 +72,7 @@ flarum-gdpr:
       anonymization_button: 'Anonümiseeri kasutaja'
       comments_label: 'Kommentaarid (valikuline)'
       deletion_button: 'Kustuta kasutaja'
+      text: '{name} on küsinud konto kustutamist.'
       title: 'Protsessi kustutamise nõue'
     request_erasure:
       cancel_button: 'Tühista päring'
@@ -71,6 +80,10 @@ flarum-gdpr:
       reason: 'Sa sisestasid järgmise põhjuse: {reason}'
       reason_label: 'Põhjus (valikuline)'
       request_button: 'Nõua kustutamist'
+      status:
+        awaiting_user_confirmation: "Sa peaks olema saanud kirja, millega saad kinnitada oma konto kustutamise soovi.\n"
+        user_confirmed: "Oled kinnitanud oma konto kustutamise soovi. See toiming tehakse ära 30 päeva jooksul vastavalt GDPR nõuetele.\n"
+      text: 'Kui su soov on kätte saadud ja kinnitanud siis admin vaatab sinu päringu 30 päeva jooksul üle vastavalt GDPR nõuetele.'
       title: 'Nõua konto kustutamist'
     settings:
       data:
@@ -81,6 +94,10 @@ flarum-gdpr:
     data:
       avatar:
         delete_description: 'Kustutab selle kasutaja avatari failisüsteemist.'
+      discussions:
+        export_description: 'Ekspordi kõik vestlused, mida kasutaja on alustanud. Andmed on piiratud pealkirja loomise kuupäevaga.'
+      forum:
+        export_description: 'Ekspordi foorumi pealkiri, URL, kasutajanimi, e-post ja praegune kuupäev.'
       no_action: 'Mingit tegevust ei sooritatud.'
       posts:
         anonymize_description: 'Eemaldab IP aadressid kõigist postitustest, mida kasutaja on teinud.'
@@ -88,8 +105,10 @@ flarum-gdpr:
         export_description: 'Ekspordib kõik postitused, mida kasutaja on teinud. Andmed sisaldavad ainult sisu, loomise kuupäeva, IP aadresse ja aruteli ID-d.'
       tokens:
         delete_description: 'Kustutab kõik kontrollkoodid, mida kasutaja on loonud.'
+        export_description: 'Ekspordib kõik kasutajakoodid, mida kasutaja on loonud. Andmed on piiratud loomise kuupäeva ja kontrollkoodi liigiga.'
       user:
         delete_description: 'Kustutab kasutaja andmebaasist.'
     request_data:
       request_button: 'Nõude ZIP-fail'
       text: "Sinu jaoks valmistatakse ZIP-fail. Kui see on valmis, siis saadetakse sulle teavitus allalaadimise lingiga. Link on aktiivne üks päev.\n"
+      title: 'Ekspordi kasutaja {username} andmed'

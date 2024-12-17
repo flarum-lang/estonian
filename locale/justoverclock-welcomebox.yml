@@ -10,6 +10,7 @@ flarum-ext-welcomebox:
     img-help: 'Pane siia külalistele näidatava pildi URL'
   forum:
     SettingsLink: Seaded
+    discussion: '=> core.ref.discussions'
     goToProfile: Profiil
     lastSeen: 'Viimane külastus'
     notregistered: 'Sa pole hetkel selle foorumi liige.'

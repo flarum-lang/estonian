@@ -4,4 +4,5 @@
 
 justoverclock-composer-autocomplete:
   admin:
+    settingsSubTitle: 'Sellel leheküljel saad seadistada oma eelseadistatud käsu composeri jaoks.'
     settingsTitle: 'AutoComplete võti ja väärtused:'

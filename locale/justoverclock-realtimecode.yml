@@ -4,5 +4,7 @@
 
 flarum-ext-realtimecode:
   forum:
+    description: 'See HTML redaktor toetab HTTM/CSS koodi. Lihtsalt kirjuta oma kood siia ja vaata tulemusi reaalajas'
     htmleditor: 'HTML redaktor'
+    outputtitle: 'Reaalajas eelvaade'
     title: 'HTML redaktor'

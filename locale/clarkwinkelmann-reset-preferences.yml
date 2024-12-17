@@ -8,4 +8,6 @@ clarkwinkelmann-reset-preferences:
       reset: 'Nulli oma eelistused'
   forum:
     preferences:
+      confirm: 'Kõikide sinu teavituste ja eelistuste vaikeväärtused taastatakse. Kas jätkame?'
+      done: 'Eelistused on nullitud!'
       reset: 'Nulli kõik eelistused'
