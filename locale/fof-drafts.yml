@@ -26,17 +26,26 @@ fof-drafts:
       saving: Salvestamine...
       title: 'Salvesta mustand'
     dropdown:
+      alert: 'Oled sa kindel, et soovid oma mustandi kirjutada?'
+      delete_all_alert: 'Oled sa kindel, et soovid kõik oma mustandid kustutada?'
       delete_all_button: 'Kustuta kõik mustandid'
       delete_button: 'Kustuta mustand'
       empty_text: 'Sa pole veel ühtegi mustandit salvestanud'
+      schedule_button: '=> fof-drafts.ref.schedule_draft'
       scheduled_icon_tooltip: 'Ajastatud {datetime}'
       title: Mustandid
+      tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
       reschedule_button: 'Muuda aega'
       schedule_button: Ajasta
       schedule_time_preview: 'See mustand avaldatakse automaatselt <b>{datetime}</b>.'
       schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Vigane kuupäev ja/või kellaaeg'
+      scheduled_error: 'Mustandi ajastamine ebaõnnestus: {error}.'
+      scheduled_text: 'Praegu on ajastatud postitama ajal {datetime}.'
+      text: 'Ajasta oma postitus automaatselt postitama hilisemal ajal!'
+      title: '=> fof-drafts.ref.schedule_draft'
+      unschedule_button: 'Eemalda ajastus'
       unschedule_warning: 'Oled sa kindel, et soovid sellelt mustandilt ajastuse eemaldada?'
     user:
       settings:

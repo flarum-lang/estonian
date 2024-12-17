@@ -5,4 +5,19 @@
 fof-recaptcha:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       secret_key_label: Salavõti
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
+      site_key_label: 'Saidi võti'
+      type_label: 'reCAPTCHA liik'
+    test:
+      load_test_button: Laadi
+      reload_button: 'Laadi uuesti'
+      submit_button: Saada
+      title: 'Testi reCAPTCHA-t'
+  forum:
+    unknown_error: 'Tekkis tundmatu tõrge. Kontrolli Captchat ja proovi siis uuesti.'
+validation:
+  recaptcha: 'reCAPTCHA kontroll ebaõnnestus.'
+  recaptcha-unknown: 'reCAPTCHA kinnitamisel tekkis tundmatu tõrge ({errors}).'

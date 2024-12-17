@@ -6,3 +6,31 @@ ianm-translate:
   admin:
     glossary:
       button: Sõnastik
+      section:
+        heading: 'Sõnastiku seaded'
+    settings:
+      bind-browser-language: 'Lisa veebisirvija keel'
+      button: Seaded
+      deepl:
+        en_choice:
+          options:
+            en-GB: 'Inglise (UK) en-GB'
+        formality:
+          options:
+            default: Vaikeväätus
+            prefer_less: 'Vähem ametlik'
+            prefer_more: 'Rohkem ametlik'
+      google-cloud:
+        api_key:
+          label: '=> ianm-translate.lib.settings.api-key'
+      libre:
+        api_key:
+          label: '=> ianm-translate.lib.settings.api-key'
+        port:
+          label: 'Serveri port'
+        url:
+          label: 'Serveri URL'
+      multi-lang-search: 'Mitmekeelne otsing'
+      seo:
+        heading: 'SEO seaded'
+      translate-polls: 'Tõlgi küsitlused'

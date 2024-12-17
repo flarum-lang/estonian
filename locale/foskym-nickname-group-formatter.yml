@@ -4,4 +4,9 @@
 
 foskym-nickname-group-formatter:
   admin:
+    display: 'Kuidas grupi kasutajate hüüdnime näidatakse?'
     optional: Valikuline
+    setting:
+      showInUserCard: 'Näita kasutaja kaardil (see on nagu kasutajaprofiil)'
+      showInUserCardPopover: 'Näita kasutaja kaardil (hüpikinfo)'
+      showInUserPost: 'Näita kasutaja postitusi'

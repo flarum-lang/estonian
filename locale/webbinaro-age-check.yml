@@ -6,4 +6,12 @@ webbinaro-age-check:
   admin:
     labels:
       buttons:
+        'no': 'Väljumise nupu silt'
+        no_help: 'Tavaliselt ''Välju'' või ''Ei'''
         'yes': 'Sisesta nupu silt'
+        yes_default: Jah
+        yes_help: 'Tavaliselt ''Sisene'' või ''Jah'''
+      messages:
+        left_blurb_background: 'Taustapilti URL'
+        left_blurb_background_help: 'kaasa http(s)://'
+        left_blurb_help: 'Teavita kasutajaid MIKS see sait on piiratud ligipääsuga.'

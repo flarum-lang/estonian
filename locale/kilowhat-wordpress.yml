@@ -6,3 +6,10 @@ kilowhat-wordpress:
   admin:
     settings:
       api_key: 'Jagatud API võti'
+      api_key_reset: 'Loo uus API võti'
+      cookie_domain: 'Küpsise domeen'
+      login_method_options:
+        cookie: Küpsis
+        iframe: 'Peidetud raam'
+        redirect: 'Suuna ümber'
+      wordpress_url: 'WordPressi URL'

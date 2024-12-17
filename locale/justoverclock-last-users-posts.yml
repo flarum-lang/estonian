@@ -4,4 +4,9 @@
 
 justoverclock-last-users-posts:
   admin:
+    charlength: 'Pikkus märkides (kui lahter on tühi, siis näidatakse vaikimisi 80 märki)'
+    charlength-help: 'Kirjuta postituse maksimaalne pikkus (märkide arv)'
+    limit: 'Postituse limiit (kui lahter on tühi, siis näidatakse vaikimisi 10)'
     limit-help: 'kirjuta siia postituste arv, mida sa soovid näidata'
+  forum:
+    widget-title: 'Viimased postitused'

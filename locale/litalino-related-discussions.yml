@@ -4,4 +4,20 @@
 
 litalino-related-discussions:
   admin:
+    DiscussionPageLayout: 'Näita seotud vestlusi vestluste lehekülje all'
     relatedLimit: 'Seotud vestlused, mida näidata (vaikeväärtus on 4)'
+    relatedLimit-help: 'kirjuta siia vestluste arv, mida sa soovid näha (nt. "4")'
+    relatedTitle: '"Seotud vestluste" pealkiri'
+    relatedTitle-help: 'Asenda seotud vestluste vaikimisi pealkirja enda omaga'
+    showExcerpt: 'Näita väljavõtet kokkuvõttest'
+    showTooltip: 'Näita vihjet väljavõttega'
+  forum:
+    avatarTooltip: 'lõi postituse ajal'
+    deleted: Kustutatud
+    hasBestAnswer: Lahendatud
+    hasBestAnswer-title: 'See vestlus on märgitud lahendatuks'
+    participants: Osalejad
+    postedOn: ajal
+    postnumber: 'Postituste arv'
+    reldiscussion: 'Soovitatud vestlused'
+    repliedOn: vastas

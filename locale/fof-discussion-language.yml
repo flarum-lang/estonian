@@ -3,6 +3,27 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-discussion-language:
+  admin:
+    permissions:
+      allow_change_language_label: 'Luba keele muutmine'
+    settings:
+      config:
+        country_label: 'Riik (lipu näitamiseks)'
+        language_label: Keel
+      show_any_lang_opt_label: 'Näita valikut, etvalida "Ükskõik, mis keel"'
+      show_flag_label: 'Näita keelte nimede juures riigi lippe'
+  api:
+    discussion:
+      validation_error: 'Sa pead valima oma vestluse keele.'
   forum:
     change_language:
+      submit_button: '=> core.ref.save_changes'
       title: 'Muutmise keel'
+    composer_discussion:
+      choose_language_link: Keel
+    discussion_controls:
+      change_language_button: 'Määra keel'
+    index_language:
+      any: 'Ükskõik, mis keel'
+    sub_controls:
+      subscription_language_label: 'Vestluse keel'
