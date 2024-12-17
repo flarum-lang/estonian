@@ -7,12 +7,12 @@ CHANGELOG
 
 **Üldised muudatused**:
 
-* Updated Day.js translations.
-* Updated Flarum core translations.
-* Updated validation translations.
+* Day.js tõlked on uuendatud.
+* Flarumi tuuma tõlked on uuendatud.
+* Kinnitatud tõlkeid uuendati.
 
 
-**Added support for new extensions**:
+**Lisati uute lisaprogrammide tugi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
@@ -43,6 +43,7 @@ CHANGELOG
 * [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`blomstra/readme`](https://flarum.org/extension/blomstra/readme)
+* [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
@@ -127,6 +128,7 @@ CHANGELOG
 * [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
 * [`datlechin/flarum-offline-indicator`](https://github.com/datlechin/flarum-offline-indicator)
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns)
 * [`datlechin/flarum-remove-sidenav`](https://github.com/datlechin/flarum-remove-sidenav)
 * [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
 * [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
@@ -199,6 +201,7 @@ CHANGELOG
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
@@ -219,6 +222,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
 * [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
