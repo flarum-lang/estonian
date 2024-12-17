@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 michaelbelgium-flarum-profile-views:
+  admin:
+    settings:
+      track_guests_label: 'Jälgi külalisi'
   forum:
     user:
       viewlist:

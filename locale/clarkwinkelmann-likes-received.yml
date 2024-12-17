@@ -6,3 +6,6 @@ clarkwinkelmann-likes-received:
   admin:
     permission:
       view: 'Vaata saadud meeldimisi'
+  forum:
+    user-card:
+      likes: '{likes, plural, one {# meeldimine saadud} other {# meeldimist saadud}}'

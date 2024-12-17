@@ -3,5 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 madeyedeer-pallet-theme:
+  admin:
+    info: 'Aitäh, et kasutad teemat Pallet! Järgnevad värvid mõjutavad ainult adminiliidest.'
+    show_side_nav_to_guests_label: 'Näita külalistele külgriba menüüd'
   forum:
     howdy: 'Tere, võõras!'
+    involve: 'Näib, et sa oled siin uus. Kui soovid kaasa lüüa, siis kliki ühte neist nuppudest!'
