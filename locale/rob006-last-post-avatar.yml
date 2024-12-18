@@ -6,7 +6,7 @@ rob006-last-post-avatar:
   admin:
     settings:
       ignorePrivateDiscussions:
-        help: 'Märgi see valik, kui sa ei soovi mis avastati näitamist privaatseid aruteludes.'
+        help: 'Märgi see valik, kui sa ei soovi muuta avatari käitumist privaatsetes vestlustes.'
         label: 'Ignoreeri privaatseid arutelusid (FoF Byōbu)'
       mode:
         help: 'Vali kus ja kuidas viimase postituse avatari vestluste nimekirjas näidatakse.'
