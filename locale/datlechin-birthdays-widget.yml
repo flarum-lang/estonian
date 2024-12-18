@@ -8,5 +8,5 @@ datlechin-birthdays-widget:
       max_users: 'Maks. näidatav kasutajate arv'
   forum:
     widget:
-      more_label: 'Vaata kõiki sünnipäevi'
+      more_label: 'Vaata kõiki sünnipäevasid'
       title: 'Tänased sünnipäevad'

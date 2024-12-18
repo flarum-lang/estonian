@@ -12,7 +12,7 @@ flarum-ext-infocards:
     geninfo: 'Üldine info'
     groups: 'Sinu tegelikud grupid'
     monday: Esmaspäev
-    opthread: 'Avatud teemad'
+    opthread: 'Avatud vestlused'
     saturday: Laupäev
     sunday: Pühapäev
     thursday: Neljapäev

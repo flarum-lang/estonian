@@ -6,7 +6,7 @@ justoverclock-youtube-video-feed:
   admin:
     showTitle: 'Näita vidina pealkirja'
     ytChannelId: 'Youtube kanali ID'
-    ytChannelId-help: 'sinu kanali ID (e.g. "UCc7SyfF1ioDP2QwYGe0S-pg")'
+    ytChannelId-help: 'sinu kanali ID (nt. "UCc7SyfF1ioDP2QwYGe0S-pg")'
     ytHeight: 'Video eelvaate kõrgus'
     ytHeight-help: 'sisesta oma video pisipildi kõrgus (pikslites)'
     ytWidth: 'Video eelvaate laius'
