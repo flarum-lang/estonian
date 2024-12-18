@@ -9,7 +9,7 @@ clarkwinkelmann-username-blacklist:
       blacklistHelp: "Üks väljend rea kohta. Kui musta nimekirja pole lisatud, siis lükatakse tagasi kõik, mis pole valges nimekirjas.\n"
       message: 'Kohandatud veateade'
       regex: Regulaarväljendid
-      regexHelp: "Lülita domeenide nimekirjast regulaarväljendite kontrollimisele. Iga rida peab olema korrektne regulaarväljend koos eraldajatega.\n"
+      regexHelp: "Lülita domeenide nimekirjast regulaarväljendite kontrollimine. Iga rida peab olema korrektne regulaarväljend koos eraldajatega.\n"
       whitelist: 'Valge nimekiri'
       whitelistHelp: "Üks väljend rea kohta. Need väärtused kirjutavad üle väärtused mustas nimekirjas.\n"
   api:

@@ -7,3 +7,44 @@ askvortsov-auto-moderator:
     action_drivers:
       activate_email: 'Aktiveeri e-post'
       add_to_group: 'Lisa gruppi'
+      remove_from_group: 'Eemalda grupist'
+    automoderator_instructions:
+      header: 'Lisaprogrammi juhendid'
+    automoderator_page:
+      create_criterion_button: 'Loo uus kriteerium'
+      criterion_invalid: 'Kriteerium on vigane. Lisainfo saamiseks kontrolli palun selle seadeid'
+      list_heading: Kriteerium
+    criterion_page:
+      actions_label: Tegevused
+      add_action: 'Lisa tegevus'
+      add_metric: 'Lisa parameeter'
+      delete_button: '=> core.ref.delete'
+      description_label: Kirjeldus
+      icon_label: Ikoon
+      loading: '=> core.ref.loading'
+      metrics_and_requirements_label: 'Parameetrid ja nõuded'
+      metrics_heading: Parameetrid
+      name_label: Nimi
+      new_criterion: 'Loo kriteerium'
+      requirements_heading: Nõuded
+    criterion_status:
+      heading: 'Staatuse kontroll'
+    group_selector:
+      placeholder: 'Vali grupp'
+    metric_drivers:
+      best_answers: 'Parimad vastused'
+      discussions_entered: 'Vestlusesse sisenetud'
+      discussions_participated: 'Vestluses osalenud'
+      discussions_started: 'Vestlusi alustanud'
+      likes_given: 'Meeldimisi antud'
+      likes_received: 'Meeldimisi saadud'
+      moderator_strikes: 'Hoiatusi moderaatorilt'
+      posts_made: 'Tehtud postitusi'
+    requirement_drivers:
+      email_confirmed: 'Kinnitatud e-post'
+      in_group: Grupis
+  lib:
+    group_id: 'Grupi ID'
+    managed_groups:
+      group_item: '<badge></badge> {groupName}'
+      header: 'Hallatud grupid:'

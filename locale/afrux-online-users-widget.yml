@@ -8,5 +8,5 @@ afrux-online-users-widget:
       max_users: 'Maks. näidatavate kasutajate arv'
   forum:
     widget:
-      empty: 'Ükski kasutaja pole praegu veebis.'
+      empty: 'Ükski kasutaja pole praegu saidil.'
       title: 'Kasutajad saidil'

@@ -6,5 +6,15 @@ askvortsov-markdown-tables:
   lib:
     composer:
       table_menu:
+        column: Veerg
+        insert_column_after: 'Sisesta veerg paremale'
+        insert_column_before: 'Sisesta veerg vasakule'
+        insert_row_after: 'Sisesta rida alla'
+        insert_row_before: 'Sisesta rida üles'
+        label_cells: '# Sildistada lahtrid?'
         num_cols: 'Veergude arv'
         num_rows: 'Ridade arv (koos päistega)'
+        remove_column: 'Eemalda veerg'
+        remove_row: 'Eemalda rida'
+        row: Rida
+      table_tooltip: Tabel

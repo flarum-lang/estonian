@@ -5,7 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
-      enableRecent: 'Näita viimati kasutatuie'
+      enableRecent: 'Näita viimati kasutatuid'
       enableSearch: 'Luba otsimine'
       enableTones: 'Luba toonide kasutamine'
       filtersPosition: 'Liiguta kategooriad alla'

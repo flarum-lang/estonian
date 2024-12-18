@@ -4,5 +4,30 @@
 
 afrux-theme-base:
   admin:
+    extension:
+      sections:
+        content: 'Peamised seaded'
+        permissions: Õigused
     extensions:
+      description: 'Paigaldatud lisaprogrammide nimekiri.'
       title: Lisaprogrammid
+    header:
+      go_back: 'Tagasi foorumisse'
+    settings:
+      edit_footer_links: 'Muuda jaluse linke'
+      footer_bottom_line: 'Jaluse viimane rida'
+      footer_description: 'Kirjeldus jaluses'
+      hero_banner: 'Teretulemast suur pilt'
+      hero_banner_position: 'Teuetulemast pildi asukoht CSS-iga (näiteks ''keskel üleval'' või ''Keskel 20%'')'
+      links_modal:
+        add_group: 'Uus linkide grupp'
+        add_link: 'Lisa link'
+        group_name: 'Grupi nr. {number} nimi'
+        group_title: 'Lingi grupi nimi'
+        link_label: 'Lingi silt'
+        link_url: 'Lingi URL'
+    users:
+      grid:
+        columns:
+          avatar:
+            title: Avatar

@@ -6,9 +6,11 @@ askvortsov-pwa:
   admin:
     nav:
       pwa_button: Veebirakendus
+      pwa_text: 'Seadista Flarum kui veebirakendus, mida saab mobiilsetele seadmetele installida.'
     pwa:
       about:
         description_label: Kirjeldus
+        description_text: 'Kirjelduse saad määrata oma saidi põhiseadetest adminiliidese töölaual.'
         heading: Info
         long_name_label: 'Pikk nimi'
         long_name_text: 'Veebirakenduse nimi, mida näidatakse kasutajatele.'
@@ -24,6 +26,7 @@ askvortsov-pwa:
         heading: Firebase
         see_documentation_here: 'Vaata dokumentatsiooni siin'
         upload_file: 'Laadi üles'
+        upload_successful: 'Sinu Firebase seaded on edukalt uuendatud'
       heading: 'Veebirakenduse seadistamine'
       logo_heading: 'Logod ja ikoonid'
       logo_size_text: 'Laadi üles logo, mis muudetakse suurusele {size} pikslit korda {size} pikslit.'
@@ -33,10 +36,13 @@ askvortsov-pwa:
         debug_text: 'See salvestab teavituste logi kausta `storage/logs`. Seda peaks tavaliselt näidama, et vältida logide tarbetut täitumist.'
         heading: Hooldus
         reset_vapid_confirm: 'VAPID võtmed eemaldavad kõik olemasolevate võtmete tellimused, mis tähendab, et kasutaja ei saa teavitusi enne, kui ta on saiti uuesti külastanud. Seda peaks tegema ainult siis kui sa seadistad push-teavitusi esimest korda või kui teavitused ei tööta üldse ning sulle näidatakse sellel lehel teavitust VAPID võtmete puudumise kohta.'
+        reset_vapid_success: 'VAPID võtmed on nullitud. {count} tellimust tühistati. Laadi lehekülg uuesti, et näha uuendatud staatuse oleku aruannet.'
         reset_vapid_text: 'See loob uued VAPID võtmed ja kustutab olemas olevad tellimused, mis kasutavad praeguseid VAPID võtmeid.'
       other:
         force_portrait_text: 'Sunni püstine paigutus?'
         heading: Muu
+        push_notif_preference_default_to_email_label: 'Push teavitused e-posti teavituste järgi?'
+        push_notif_preference_default_to_email_text: 'Kui see on sisse lülitatud, siis mobiiliteavitusi lülitatakse automaatselt sisse samades kohtades, kus teavitused meilile on vaikimisi sisse lülitatud. Kui see funktsioon on välja lülitatud, siis on kasutajate jaoks mobiiliteavitused automaatselt välja lülitatud.'
         user_max_subscriptions_label: 'Maks, push teavituste arv kasutaja kohta'
       refreshed_message: 'PWA seadeid on uuendatud.'
       status_check_heading: 'Staatuse kontrollimine'
