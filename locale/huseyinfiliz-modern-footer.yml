@@ -5,11 +5,33 @@
 huseyinfiliz-modern-footer:
   admin:
     settings:
+      about: Meist
+      about_us: Meist
+      about_us_help: 'Tekstiala: See väli ei toeta HTML-vormingut. Uue rea loomiseks kasuta lihtsalt sisestusklahvi.'
+      all_pages: 'Näita kõigil lehekülgedel'
+      block: Blokk
+      blocks: Blokid
+      bottom: All
+      bottom_help: 'Näidis: © 2025, Kõik õigused kaitstud'
+      bottom_section: 'Alumine osa'
       contact: 'Kontakti nupu tekst'
       contact-link: 'Kontakti link'
       copyright: 'Autoriõiguste tekst'
+      custom: Kohandatud
+      custom_html: 'Kohandatud HTML kood'
+      custom_js: 'Kohandatud JS'
+      custom_js_code: 'Kohandatud JavaScripti kood'
+      display_mode: 'Jaluse näitamise režiim'
+      font_awesome_icon: 'Font Awesome ikoonid'
+      forum_logo: 'Foorumi logo'
+      forum_logo_help: 'Lisa link foorumi logole. Kui on sisestatud korrektne link, siis näidatakse logo. Alternatiivina võid kasutada ka koodi nagu see, et panna see käituma nii nagu muud bloki pealkirjad:'
+      general: Üldine
+      hide_everywhere: 'Peida kõigil lehekülgedel'
+      hide_except_index: 'Peida kõigil lehekülgedel väljaarvatud avalehel'
+      hide_on_discussions: 'Peida vestlustes'
       js: 'Kohandatud JS'
       js-help: 'Google Analytics näidiskood'
+      link: Link
       link-1: 'Link 1 - URL'
       link-2: 'Link 2 - URL'
       link-3: 'Link 3 - URL'
@@ -18,7 +40,13 @@ huseyinfiliz-modern-footer:
       link-6: 'Link 2 - URL'
       link-7: 'Link 3 - URL'
       link-8: 'Link 4 - URL'
+      manage_footer_sections: 'Halda jaluse sektsioone'
+      mobile_tab_height: 'Mobiilse vahekaardi kõrgus'
+      mobile_tab_height_help: 'Kui mobiili vahekaart on paigaldatud, siis sa võid kasutada väärtusena: var(--mobile-tab-height)'
       right-text: 'Meist tekst'
+      social_link: 'Sotsiaalmeedia link'
+      social_media_button: 'Sotsiaalmeedia nupud'
+      text: Tekst
       text-1: 'Link 1 - Tekst'
       text-2: 'Link 2 - Tekst'
       text-3: 'Link 3 - Tekst'
@@ -27,6 +55,7 @@ huseyinfiliz-modern-footer:
       text-6: 'Link 2 - Tekst'
       text-7: 'Link 3 - Tekst'
       text-8: 'Link 4 - Tekst'
+      title: Pealkiri
       title-1: 'Foorumi pealkiri'
       title-1-help: 'Sa võid lisada oma logo sildiga <img> või lihtsalt kirjutada siia foorumi nime.'
       title-2: 'Esimeste linkide pealkiri'
