@@ -4,6 +4,18 @@
 
 clarkwinkelmann-status:
   admin:
+    permissions:
+      mod: 'Modereeri kasutaja staatus'
+      see: 'Vaata staatust'
+      set: 'Määra staatus'
     settings:
       enable-text: 'Luba teksti staatus'
       only-countries: 'Ainult riikide lipud'
+  forum:
+    menu:
+      set-status: 'Määra staatus'
+    modal:
+      clear: Tühjenda
+      submit: Saada
+      text-placeholder: 'Mis toimub?'
+      title: 'Määra staatus'

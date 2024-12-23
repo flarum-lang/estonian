@@ -4,5 +4,26 @@
 
 clarkwinkelmann-money-rewards:
   admin:
+    permissions:
+      customAmounts: 'Vali kohandatud summa, mida tasuks anda'
+      rewardWithMoney: 'Tasusta teisi kasutajaid rahaga'
+      seeMoneyRewardHistory: 'Vaata teiste kasutajate tasude ajalugu'
     settings:
+      max: 'Kohandatud väärtuste maksimaalne väärtus'
       min: 'Kohandatud koguste minimaalne väärtus'
+      preselection: 'Eelvalitud summad (eraldatud komadega, valikuline)'
+  api:
+    error:
+      notEnoughFunds: 'Pole piisavalt raha.'
+  forum:
+    modal:
+      balance: 'Sinu saldo: {amount}'
+      label:
+        comment: 'Kommentaar (avalik)'
+        custom: 'Kohandatud summa'
+      optionCustom: Kohandatud
+      submit: Saada
+    record:
+      comment: 'Kommentaar:'
+      from: alates
+      to: kuni

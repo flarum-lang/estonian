@@ -7,6 +7,7 @@ blomstra-database-queue:
     settings:
       memory_help: "Mälu limiit megabaitides.\n"
       memory_label: Mälu
+      retries_label: 'Uuesti proovismisi'
       timeout_label: Aegumine
     stats:
       auto_refresh: 'Automaatne värskendamine'

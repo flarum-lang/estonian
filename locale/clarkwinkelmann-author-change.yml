@@ -3,6 +3,25 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-author-change:
+  admin:
+    permissions:
+      edit-date: 'Uuenda vestluse ja postituse kuupäeva'
+      edit-user: 'Uuenda vestlust ja postituse autorit'
   forum:
+    controls:
+      edit: 'Muuda autorit ja kuupäeva'
     modal:
+      cancel: Loobu
+      created_at: 'Loomise kellaaeg'
+      edited_at: 'Muuga kellaaega'
+      submit: Salvesta
+      sync-impossible: 'Ei leia esimest postitust. Proovi vestluse algusesse kerimist.'
+      sync-with-discussion: 'Sünkrooni vestlusega'
+      sync-with-post: 'Sünkrooni esimese postitusega'
+      title-discussion: 'Muuda vestluse autorit ja kuupäeva'
       title-post: 'Muuda postituse autorit või kuupäeva'
+      user: Autor
+    search:
+      no-results: 'Tulemusi pole'
+      placeholder: 'Otsi kasutajaid'
+      type-more: 'Kirjuta 4 märki, et otsida andmebaasist'

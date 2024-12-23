@@ -5,8 +5,16 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
+      delete_warnings: 'Kustuta jäädavalt moderaatori hoiatused'
+      manage_warnings: 'Loo ja eemalda moderaatori hoiatusi'
       view_warnings: 'Vaata moderaatori hoiatusi'
   forum:
+    post_controls:
+      warning_button: 'Hoiata kasutajat'
+    settings:
+      warning_notification_label: 'Moderaator hoiatas mind'
+    user:
+      warnings: 'Moderaatori hoiatused'
     validation:
       public_comment_required: 'Pead sisestama avaliku kommentaari.'
     warning_controls:
@@ -17,6 +25,7 @@ askvortsov-moderator-warnings:
       add_button: 'Uus hoiatus'
     warning_list_item:
       linked_post: 'Lingitud postitus'
+      private_comment: 'Moderaatorile nähtavad kommentaarid'
       public_comment: Hoiatus
     warning_modal:
       submit_button: 'Salvesta hoiatus'

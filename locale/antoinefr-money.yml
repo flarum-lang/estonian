@@ -4,5 +4,29 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: 'Anna raha'
+      metric_name: Raha
+    autoremove:
+      - 'Ära kunagi eemalda raha'
+      - 'Kui vestlust või postitus on peidetud või taastatud (vaikeväärtus)'
+      - 'Kui vestlus või postitus on eemaldatud'
+    permissions:
+      edit_money_label: 'Muuda raha'
     settings:
+      autoremove: 'Uuenda raha automaatselt'
+      helpextensionlikes: 'Nõuab lisaprogrammi <code>flarum/likes</code>'
+      moneyfordiscussion: 'Uue vestluse alustamise eest antud raha'
+      moneyforlike: 'Postituse meeldimise eest antud raha'
+      moneyforpost: 'Uue postituse eest antud raha'
+      moneyname: 'Raha nimetus (nt: [raha] punkti)'
+      noshowzero: 'Ära näita, kui väärtus on null'
+      postminimumlength: 'Postituse minimaalne pikkus raha saamiseks (0 et välja lülitada)'
       title: Seaded
+  forum:
+    modal:
+      current: 'Praegune:'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Kasutaja {username} raha'
+    user_controls:
+      money_button: 'Muuda raha'

@@ -16,6 +16,7 @@ askvortsov-categories:
       child_bare_icon: 'Kas alamkategooriaid peaks näitama ilma ringikujulise taustata?'
     labels:
       compact_mobile_mode: 'Kompaktne mobiilirežiim'
+      full_page_desktop: 'Töölaual?'
       keep_tags_nav: 'Kas jätta siltide lehekülje link külgribale alles?'
       parent_remove_description: 'Kas peita kõrgeima taseme siltide ikoonid?'
       parent_remove_icon: 'Kas peita kõrgeima taseme siltide ikoonid?'
@@ -26,6 +27,11 @@ askvortsov-categories:
   forum:
     all_categories:
       meta_description_text: 'Kõik kategooriad'
+      meta_title_text: '=> askvortsov-categories.ref.categories'
+    header:
+      back_to_categories_tooltip: 'Tagasi kategooriatesse'
+    index:
+      categories_link: '=> askvortsov-categories.ref.categories'
     last_discussion_widget:
       no_discussions: 'Vestlusi pole (veel!)'
     stat-widgets:

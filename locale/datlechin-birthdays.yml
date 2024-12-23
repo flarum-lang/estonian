@@ -12,14 +12,30 @@ datlechin-birthdays:
       date_none_year_label: 'Kuupäeva vorming ilma aastata'
       min_age_help: 'Minimaalne vanud registreerimiseks'
       min_age_label: 'Minimaalne vanus'
+      required_label: 'Nõua sünnipäeva sisestamine'
+      set_on_registration_label: 'Luba liitumisel sünnipäeva määramine'
+  api:
+    invalid_age_message: 'Your age must be at least {minAge} years old.'
+    invalid_dob_message: 'Vigane sünnipäev'
   forum:
     change_dob:
+      date_of_birth_text: Sünnipäev
+      submit_button: 'Salvesta muudatused'
       title: 'Muuda sündimise kuupäeva'
+    edit_user:
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
+    nav:
+      nav_item: 'Tänased sünnipäevad'
     settings:
       change_dob_label: 'Muuda sündimise kuupäeva'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Näita sündimise päeva ja kuud'
       show_dob_year_help: 'See võimaldab inimestel sinu vanust näha.'
       show_dob_year_label: 'Näita sündimise aastat'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Vanus: {age}'
       birthday_text: 'Sünnipäev: {date}'
+  ref:
+    date_of_birth: Sünnipäev
