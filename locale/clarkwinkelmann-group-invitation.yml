@@ -8,6 +8,7 @@ clarkwinkelmann-group-invitation:
       use: 'Kasuta grupi kutse linke'
     settings:
       create: Loo
+      delete: Kustuta
       empty: 'Siiamaani pole ühtegi kutset loodud.'
       head:
         code: Kood
@@ -18,6 +19,10 @@ clarkwinkelmann-group-invitation:
         group: Vali...
         usage: 'Piiramatu jaoks jäta tühjaks'
       unlimited: piiramatult
+  api:
+    error:
+      no-usages-left: 'Kutset ei saa enam kasutada'
+      not-found: 'Kutse koodi ei leitud'
   forum:
     apply: 'Liitu grupiga'
     generic-title: 'Grupi kutse'
@@ -28,6 +33,6 @@ clarkwinkelmann-group-invitation:
     title: 'Sind on kutsutud liituma grupiga {group}!'
     user:
       already-connected: "Lisama kasutaja {username} gruppi {group}. Pole korrektne kasutaja? <a>Logi sisse teise kontoga</a>.\n"
-      already-member: "Suurepärane uudis! Sinu kasutaja {username} on juba grupi {group}<a>Logi sisse teise kontoga</a>.\n"
+      already-member: "Suurepärane uudis! Sinu kasutaja {username} on juba grupi {group} liige! Soovid liituda mõne teise kasutajaga? <a>Logi sisse teise kontoga</a>.\n"
       not-authorized: 'Sinu praegusel kasutajal {username} pole luba gruppidega liituda. <a>Logi sisse teise kontoga</a>.'
       not-connected: 'Et kutse vastu võtta, <a>logi sisse</a>.'
