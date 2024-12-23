@@ -9,17 +9,24 @@ davwheat:
         display_options:
           heading: 'Vaate seaded'
           labels:
+            bottom_spacer: 'Näita alumist eraldajat'
             position: 'Lingi asukoht'
+            top_spacer: 'Näita ülemist eraldajat'
           options:
             position:
               above-tags-link: '"Siltide" nupu kohal'
               below-tags-link: '"Siltide" nupu all'
         link_table:
           add_link_btn: 'Lisa uus link'
+          alert:
+            fix_errors: 'Pead need vead parandama enne, kui saad oma muudatused salvestada.'
           confirm_delete: 'Kinnita lingi "{link}" kustutamine'
           heading: 'Kohanda linke'
           save_btn:
             dirty: 'Salvesta seaded'
+            fix_errors: 'Paranda vead enne salvestamist'
+            saved: 'Pole muudatusi, mida salvestada'
+            saving: 'Muudatuste salvestamine...'
           table:
             header:
               delete: Eemalda
@@ -46,3 +53,9 @@ davwheat:
             icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon'
             text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text'
             url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url'
+          submit_btn:
+            add: 'Lisa link'
+            fix_url: 'Vigane URL'
+            invalid_form: 'Täida kõik väljad'
+            loading: 'Lingi lisamine'
+          title: 'Lisa uus link'

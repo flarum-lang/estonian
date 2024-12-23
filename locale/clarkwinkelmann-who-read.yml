@@ -3,6 +3,37 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-who-read:
+  admin:
+    permissions:
+      see-read: 'Vaata lugemise staatust'
+      see-subscription: 'Vaata jälgimise staatust'
+      see-unread: 'Vaata teste kasutajate lugemata staatust'
+    settings:
+      max-visible: 'Maksimaalne kasutajate arv enne, kui näitatakse "vaata rohkem"'
+      only-groups: 'Näita ainult nende kasutajate loetud staatust, kes kuuluvad sellesse gruppi'
+      unread-icon: 'Lubemata embleemi ikoon'
   forum:
+    badges:
+      following: '=> flarum-subscriptions.forum.badge.following_tooltip'
+      ignoring: '=> flarum-subscriptions.forum.badge.ignoring_tooltip'
+      unread: 'Märgi kui mitteloetud'
+    controls:
+      remove-unread: 'Eemalda mitteloetud'
+      set-unread: 'Märgi kui mitteloetud'
+    footer:
+      read-no-further: '{count, plural, =0 {Kõik lugesid edasi} one {Üks kasutaja ei lugenud lõpuni} other {# kasutajat ei lugenud lõpuni}}'
+      read-this-post: '{count, plural, =0 {Keegi ei lugenud seda postitust} one {Ainult üks kasutaja luges seda postitust} other {# kasutajat luges seda postitust}}'
+      read-to-end: '{count, plural, =0 {Keegi ei lugenud lõpuni} one {Üks kasutaja luges lõpuni} other {# kasutajat luges lõpuni}}'
+    modal:
+      behind: 'Kasutajad, kes ei lugenud lõpuni'
+      past-this-post: 'Kasutajad, kes lugesid sellest postitusest kaugemale'
+      title: Lugejat
+      to-the-end: 'Kasutajad, kes lugesid lõpuni'
+      up-to-this-post: 'Kasuajad, kes lugesid kuni selle postituseni'
+    more:
+      info: 'Ja veel {count}'
+      show: 'Näita veel {count}'
     tooltip:
       last-read-at: '{username} luges {ago}'
+      last-read-at-behind: '{username} luges viimati {ago} ja on maas'
+      last-read-at-up-to-date: '{username} luges viimast postitust {ago}'

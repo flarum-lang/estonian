@@ -4,5 +4,17 @@
 
 datlechin-chatgpt:
   admin:
+    permissions:
+      use_chatgpt_assistant_label: 'Kasuta ChatGPT assistenti'
     settings:
+      api_key_help: 'Hangi OpenAI API võti saidilt <a>openai.com</a>.'
       api_key_label: 'API võti'
+      enable_on_discussion_started_help: 'Vestlusele vastatakse vastavalt esimese postituse sisule.'
+      enable_on_discussion_started_label: 'Kasuta alustatud vestlustes'
+      enabled_tags_help: 'Vali, mis silte kasutatakse vastuste loomiseks.'
+      enabled_tags_label: 'Lubatud sildid'
+      model_help: 'Vaata lisainfot <a>mudelite</a> kohta (vaikeväärtus on: <code>text-davinci-003</code>).'
+      model_label: Mudel
+      user_prompt_badge_help: 'Tekst, mida näidatakse kasutaja käsurea kõrval.'
+      user_prompt_badge_label: 'Kasutaja käsurea silt'
+      user_prompt_label: 'Kasutaja käsurida'

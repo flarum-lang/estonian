@@ -3,9 +3,73 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-byobu:
+  admin:
+    permission:
+      add_more_than_two_user_recipients: 'Rohkem kui 2 kasutaja lisamine privaatsesse vestlusesse'
+      create_private_discussions_with_blocking_users: 'Privaatsete vestluste loomine kasutajatega, kes seda blokeerivad'
+      create_private_discussions_with_groups: 'Privaatsete vestluste loomine gruppidega'
+      create_private_discussions_with_users: 'Privaatsete vestluste loomine kasutajatega'
+      edit_group_recipients: 'Privaatsest vestlusest osavõtvate gruppide muutmine'
+      edit_user_recipients: 'Privaatsest vestlusest osavõtvate kasutajate muutmine'
+    settings:
+      badge-icon: 'byobu vestluse silt'
+      general:
+        heading: 'Üldised seaded'
+        help: 'Need seaded juhivad byobu peamisi funktsioone.'
+      icon:
+        heading: 'Ikooni seaded'
+        help: 'Need seaded määravad foorumis kasutatavad byobu ikoonid.'
+  email:
+    subject:
+      private_discussion_added: '[Privatne vestlus] {display_name} lisas sind privaatsesse vestlusesse'
+      private_discussion_created: '[Privaatne vestlus] {display_name} alustas sinuga privaatset vestlust'
+      private_discussion_replied: '[Privaatne vestlus] {display_name} postitas privaatsesse vestlusesse'
+      recipient_removed: '[Privaatne vestlus] {display_name} lahkus vestlusest'
   forum:
     badges:
       is_private:
         tooltip: 'Privaatne vestlus'
     buttons:
       add_recipients: Saajad
+      cancel: Loobu
+      edit_recipients: 'Muuda saajaid'
+      make_public: 'Tee see vestlus avalikuks'
+      remove_from_discussion: 'Jäta see vestlus privaatseks'
+      send_pd: 'Saada kasutajale {username} sõnum'
+      submit: OK
+    composer_private_discussion:
+      submit_button: 'Postita privaatne vestlus'
+      title_placeholder: 'Privaatse vestluse pealkiri'
+    modal:
+      help:
+        add_recipients: 'See vestlus on nähtav ainult kasutajatele, keda sa oled siin valinud. Lisaks sinule peab olema valitud vähemalt 1 saaja.'
+        click_user_to_remove_tooltip: 'Eemaldamiseks kliki'
+        selected_users: 'Kliki kasutaja nimel, et teda eemaldada.'
+        update_recipients: 'See vestlus on nähtav ainult kasutajatele, keda sa siin valid.'
+      labels:
+        search_field: 'Otsi kasutajaid'
+        selected_users: 'Valitud kasutajad'
+      titles:
+        add_recipients: 'Lisa oma vestlusesse saajaid'
+    nav:
+      nav_item: 'Privaatsed vestlused'
+    notifications:
+      pd_added_label: 'Keegi lisas mind olemasolevasse privaatsesse vestlusesse'
+      pd_added_text: '{username} lisas sind privaatsesse vestlusesse'
+      pd_reply_text: '{username} postitas privaatsesse vestlusesse, millest sa oled osa'
+      pd_text: '{username} alustas sinuga privaatset vestlust'
+      pd_user_left_label: 'Kasutaja lahkus privaatsest vestlusest, milles sa osaled'
+      pd_user_left_text: '{username} lahkus privaatsest vestlusest'
+    post:
+      recipients_modified:
+        added: '{username} lisas saaja {added}.'
+        removed: '{username} eemaldas saaja {removed}.'
+        removed_self: '{username} lahkus privaatsest vestlusest.'
+    search:
+      headings:
+        groups: 'Õiguste grupis'
+    user:
+      byobu_link: 'Privaatsed vestlused'
+      dropdown_label: 'Privaatsed vestlused'
+      settings:
+        block_pd: 'Blokeeri privaatsed vestlused'

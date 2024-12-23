@@ -6,7 +6,9 @@ flamarkt-backoffice:
   backoffice:
     nav:
       dashboard: Töölaud
+      searchPlaceholder: '=> core.admin.nav.search_placeholder'
       users: Kasutajad
+    settingsNotAvailableForNonAdmin: 'Sellel lisaprogrammil on seadeid, aga ainult adminid võivad neid näha ja muuta.'
     users:
       field:
         email: E-post
@@ -17,3 +19,6 @@ flamarkt-backoffice:
       new: 'Loo kasutaja'
       searchPlaceholder: 'Otsi kasutajaid...'
       title: Kasutajad
+  lib:
+    header:
+      admin_button: '=> core.forum.header.admin_button'

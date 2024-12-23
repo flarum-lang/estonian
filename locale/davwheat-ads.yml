@@ -9,16 +9,24 @@ davwheat:
         bypassAds: 'Peida foorumist reklaamid'
       settings:
         add_script: Uus
+        between_posts_gap: 'Postituste vahel: vahe reklaamide vahel'
         code_input: 'HTML kood'
+        code_input_disabled: 'Luba see asukoht, et selle HTML koodi muuta.'
         js_input: 'Javaskripti kood'
+        js_input_disabled: 'Luba see asukoht, et selle JS koodi muuta.'
+        pub_id: 'AdSense Avaldaja ID'
         save_btn:
           dirty: 'Salvesta muudatused'
           fix_errors: 'Paranda enne salvestamist vead'
           saved: 'Kõik muudatused salvestati'
           saving: Salvestamine...
+        script_urls: 'Kohandatud skriptide URL(-id)'
         use_adsense: 'Kasuta AdSense-i'
     lib:
       locations:
         between_posts: 'Postituste vahel'
+        discussion_header: 'Vestluse lehel (päise all)'
+        discussion_sidebar: 'Vestluse külgriba [AINULT ARVUTIS]'
         footer: Jalus
+        header: Päis
         sidebar: 'Külgribal [AINULT ARVUTIS]'

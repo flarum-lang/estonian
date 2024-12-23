@@ -3,12 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 askvortsov-rich-text:
+  forum:
+    settings:
+      composer_heading: Composer
+      rich_text_compact_paragraphs_label: 'Ära eralda lõike reavehetusega.'
   lib:
     composer:
       additional_items_tooltip: Lisanupud
       bold_tooltip: 'Rasvane tekst <{modifierKey}-b>'
       code_block_tooltip: 'Sisesta koodiblokk'
       code_tooltip: 'Lähtekood <{modifierKey}-`>'
+      header_tooltip: 'Muuda päise taset {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Sisesta horisontaalne joon'
       image_tooltip: 'Sisesta pilt'
       insert_button: Sisesta
@@ -20,4 +25,14 @@ askvortsov-rich-text:
         remove_button: Eemalda
         text_placeholder: Tekst
         title_placeholder: 'Pealkiri (näita kursori all)'
+      italic_tooltip: 'Kaldkiri <{modifierKey}-i>'
       link_tooltip: 'Lisa link'
+      ordered_list_tooltip: 'Nummerdatud leotelu <shift-{modifierKey}-9>'
+      paragraph_tooltip: 'Muuda lõiguks <shift-{modifierKey}-0>'
+      quote_tooltip: 'Sisesta tsitaat <{modifierKey}-q>'
+      spoiler_inline_tooltip: 'Spoiler  <{modifierKey}-;>'
+      strike_tooltip: 'Läbijoonitud <alt-shift-5>'
+      sub_tooltip: 'Alaindeks <{modifierKey}-,>'
+      sup_tooltip: 'Ülaindeks <{modifierKey}-.>'
+      text_type_tooltip: 'Vali teksti liik'
+      unordered_list_tooltip: 'Loetelu <shift-{modifierKey}-8>'
