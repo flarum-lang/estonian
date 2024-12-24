@@ -10,22 +10,43 @@ fof-mason:
       delete-answer: 'Kustuta vastus'
       delete-field: 'Kustuta väli'
       edit-answer: 'Muuda vastust'
+      edit-answer-prompt: 'Muuda sisu igal pool, kus seda on kasutatud'
       edit-field: 'Kliki, et välja muuta'
       new-field: 'Uus väli'
       save-answer: 'Salvesta vastuse muudatused'
       save-field: 'Salvesta välja muudatused'
+      show-user-answers: 'Näita mitte-soovitatud vastuseid ({count})'
     fields:
       add: 'Lisa väli {field}'
+      description: 'Välja kirjeldus'
       edit: 'Muuda välja {field}'
       icon: Ikoon
+      icon-preview: 'eelvaade: {preview}'
       is_suggested: 'Soovita kasutajatele vastust'
+      name: 'Välja nimi'
+      name-help: "Avalikult nähtav (ja mitte tõlgitav) välja nimi.\n"
       new-answer: 'Uus vastus'
       new-answer-placeholder: 'Sama tekst'
+      required: Nõutud
       save-field-for-answers: 'Salvesta väli, et lisada vastuseid'
+      show_when_empty: 'Näita, kui väli on tühi'
+      show_when_empty-help: 'Kas välja näidatakse vestluses, kui sellesse pole midagi sisestatud'
       user_values_allowed: 'Kasutaja väärtused on lubatud'
+      validation: 'Kasutaja väärtuste kontrollimine'
+    permissions:
+      fill-fields: 'Väljade täitmine kõigis uutes vestlustes'
+      see-other-fields: 'Väljade nägemine kõigis olemasolevates vestlustes'
+      see-own-fields: 'Oma olemasolevates vestlustes väljade nägemine'
+      skip-required-fields: 'Luba nõutud väljad vahele jätta'
+      update-other-fields: 'Kõigi vestluse väljade uuendamine'
+      update-own-fields: 'Omaenda vestlustes väljade muutmine'
     settings:
       fields-section-title: 'Kohandatud väljade sektsiooni pealkiri'
+      fields-section-title-placeholder: 'Vaikimisi pealkirja ei näidata'
       n-columns: '{count} veergu'
+      tags-as-field: 'Näita siltide valijat väljana'
+      tags-as-field-help: "See peidab tavapärase siltide valija ning näitab selle asemel kohandatud väljade rippvalikut. See töötab ainult siis, kui sa oled lubanud valida ainult ühe peamise ja ühe teisejärgulise sildi!\n"
+      tags-field-name: 'Siltide välja silt'
       tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
     titles:
       field-answers: 'Välja vastused'
@@ -34,6 +55,7 @@ fof-mason:
       settings: Seaded
   forum:
     answers-modal:
+      edit-title: 'Muuda {title} väljasid'
       save: 'Salvesta väljad'
     answers:
       choose-option: 'Tee valik'

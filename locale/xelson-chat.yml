@@ -3,7 +3,64 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xelson-chat:
+  admin:
+    permissions:
+      create:
+        channel: 'Alusta kanaleid'
+      moderate:
+        vision: 'Kustutatud sõnumite vaatamine'
+    settings:
+      charlimit: 'Maksimaalne märkide arv sõnumis'
+      display:
+        censor: 'Tsenseeri autoriseerimata kasutajate sõnumid'
+        minimize: 'Käivita minimeerituna'
+        title: Vaade
+      floodgate:
+        number: 'Sõnumite arv reas'
+        time: 'Perioodi pikkus'
+        title: 'Liigse postitamise tõrje'
   forum:
+    chat:
+      edit_modal:
+        form:
+          color:
+            label: Värv
+            validator: 'HEX vormingus'
+          icon:
+            label: '=> core.ref.icon'
+            validator: '=> core.ref.icon_text'
+          title:
+            validator: 'Vähemalt 1 sümbol'
+          users:
+            edit: 'Vali ja muuda kasutajaid'
+        save_button: '=> core.ref.save_changes'
+        search:
+          failed: 'Ühtegi sobivat kasutajat ei leitud'
+          invited: Kutsutud
+          placeholder: 'Otsi kasutajaid'
+      leave: Lahku
+      list:
+        preview:
+          empty: 'Sõnumeid pole'
+      message:
+        actions:
+          hide: Peida
+          resend: 'Saada uuesti'
+        censored: 'Logi sisse, et näha seda sõnumit!'
+        deleted: kustutas
+        events:
+          users:
+            invited: '{editorname} kutsus {usernames}'
+        type:
+          code: '<Code />'
+          event: Sündmus
+          url: URL
+        you: Sina
+      moder: Moderaator
+      placeholder: 'Kitjuta oma sõnum...'
+      rejoin: 'Liitu uuesti'
     toolbar:
-      disable_notifications: 'Keela teavitused'
-      enable_notifications: 'Luba teavitused'
+      disable_notifications: 'Lülita teavitused välja'
+      enable_notifications: 'Lülita teavitused sisse'
+      maximize: Maksimeeri
+      minimize: Minimeeri

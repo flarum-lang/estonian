@@ -10,9 +10,19 @@ fof-analytics:
       field:
         googleGTMCode: 'GTM koodi ID (valikuline)'
         googleTrackingCode: 'Jälgimis koodi ID'
+        optTrackingCode: 'Optimiseeri jälgimise koodi (valikuline)'
+        piwikAliasUrl: 'Aliase URL'
+        piwikAuthToken: 'Autentimise kood'
+        piwikHideAliasUrl: 'Peida "väljaminevate linkide" aruandes teada olevate Alias URL-ide klikid'
+        piwikPrependDomain: 'Lisa saidi domeen jälgimisel lehekülje pealkirjadele'
         piwikSiteId: 'Saidi ID'
+        piwikTrackAccounts: 'Jälgi kasutajakontosid eraldi'
+        piwikTrackSubdomain: 'Jälgi külastajaid kõigil Flarumi alamdomeenidel'
         piwikUrl: 'Matomo domeen või URL'
+        statusGoogle: 'Lülita Google Analytics (UA/GA4) sisse'
         statusPiwik: 'Kasuta Matomot'
+      placeholder:
+        piwikAuthToken: "Sisesta see kood, et lülitada Matomo statistika vidin adminipaneelil.\nLeiad selle kohast Seaded > Isiklik > API autentimise kontrollkood.\n"
       section:
         googleAnalytics: 'Google Analytics'
         piwik: Matomo
