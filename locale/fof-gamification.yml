@@ -5,4 +5,25 @@
 core:
   forum:
     index_sort:
+      hot_button: Trendikas
       votes_button: 'Üles hääletamised'
+fof-gamification:
+  forum:
+    mod_item: 'Vaata hääletajaid'
+    modal:
+      title: Hääletajad
+    nav:
+      name: Hinnang
+    ranking:
+      amount: Punkte
+      name: Kasutaja
+      rank: Koht
+    user:
+      rank: '{rank}'
+      votes_link: Hääli
+    vote_title: 'Näita, kes jääletas'
+    voters:
+      label: Hääletajad
+      label_none: 'Hääletajaid pole veel'
+      none: 'Hääletajaid pole veel'
+    votes: Hääli

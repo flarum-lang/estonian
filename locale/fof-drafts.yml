@@ -15,6 +15,8 @@ fof-drafts:
       start: 'Loo mustandid'
     settings:
       enable_scheduled_drafts: 'Luba ajastatud mustandid'
+      schedule_log_output: 'Lisa ajastaja väljund logifaili'
+      schedule_on_one_server: 'Kasuta ajastuse jaoks ''onOneServer()'' juhendit (nõuab Redis/Memcache kasutamist)'
       title: 'FoF Mustandid'
   console:
     scheduled_drafts_disabled: 'Ajastatud mustandite kasutamine on seadetest välja lülitatud.'
@@ -33,6 +35,7 @@ fof-drafts:
       empty_text: 'Sa pole veel ühtegi mustandit salvestanud'
       schedule_button: '=> fof-drafts.ref.schedule_draft'
       scheduled_icon_tooltip: 'Ajastatud {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [at] LT'
       title: Mustandid
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:

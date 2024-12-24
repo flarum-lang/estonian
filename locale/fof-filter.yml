@@ -6,9 +6,10 @@ fof-filter:
   admin:
     auto_merge_title: 'Automaatne liitmine'
     bad_words_help: 'Sisesta tekst või sõnad, mida filtreerida. Iga rea kohta üks. Kui kasutaja postitus sisaldab teksti, mida sa soovid filtreerida, siis märgitakse postitus ülevaatamiseks.'
+    cooldownLabel: 'Liiguta järjest tehtud postitused'
     countLabel: 'Sensori tolerantsus'
     email:
-      default_subject: 'Seoses sinu viimase posititusega'
+      default_subject: 'Seoses sinu viimase postitusega'
       default_text: "Aitäh, et postitasid foorumisse! Kahjuks sinu positus kustutati, kuna see sisaldas midagi, mida me oma foorumis näha ei soovi.\n\nKui arvad, et tegu on veaga, siis ära muretse. Iga eemaldatud positus vaadatakse moderaatori poolt üle. Kui nad jõuavad järeldusele, et posituse eemaldamine oli viga, siis sinu teema taastatakse foorumis.                \n\nAitäh mõistmise eest.\n"
     email_help: 'Märgitud e-kirja sisu. Sobib nii HTML kui ka lihttekst.'
     filter_label: 'Tekstid, mida filtreerida'

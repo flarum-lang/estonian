@@ -2,20 +2,65 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Eemaldab kasutaja jälgimise sildilt.'
+        export_description: 'Ekspordib kõik sildi jälgimise tasemed, kui need on olemas.'
 fof-follow-tags:
+  admin:
+    settings:
+      following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
+      following_page_default_label: 'Jälgimise lehekülje vaikimisi filtreerimine'
+      following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    body:
+      newDiscussionInTag: "Tere {recipient_display_name},\n\n{actor_display_name} alustas vestlust sildiga, mida sa jälgid. Vestluse pealkiri: {discussion_title}\n\nUut vestlust näed sellelt lingilt:\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussionTag: "Tere {recipient_display_name},\n\n{actor_display_name} muutis just silti vestluses, mille alustas {author_display_name} sildi vastu, mida sa jälgid. Vestluse pealkiri: {discussion_title}\n\nUut vestlust saad vaadata sellelt lingilt:\n{discussion_url}\n"
+      newPostInTag: "Tere {recipient_display_name},\n\n{actor_display_name} postitas vestlusesse, mille silti sa jälgid: {discussion_title}\n\nUue tegevuse vaatamiseks kliki sellele lingile:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up to date.\n"
+    subject:
+      newDiscussionInTag: '[Silt | Uus vestlus] {title}'
+      newDiscussionTag: '[Silt | Muudetud silt] {title}'
+      newPostInTag: '[Silt | Uus postitus] {title}'
   forum:
     badge:
       following_tag_tooltip: Jälgimine
       lurking_tag_tooltip: Luuramine
     index:
       follow_tag_button: Jälgi
+      following:
+        following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
+        following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
       unfollow_tag_button: 'Lõpeta jälgimine'
+    notifications:
+      new_discussion_tag_text: '{username} muutis silti'
+      new_discussion_text: '{username} alustas'
+      new_post_text: '{username} postitas'
     settings:
       notify_new_discussion_label: 'Keegi loob vestluse sildiga, mida ma jälgin'
       notify_new_discussion_tag_label: 'Keegi muudab vestluse sildi sildiks, mida ma jälgin'
       notify_new_post_label: 'Keegi postitab sildiga, mida ma jälgin'
+    sub_controls:
+      follow_button: '=> fof-follow-tags.ref.follow'
+      following_button: '=> fof-follow-tags.ref.following'
+      following_text: 'Saa teavitus kõigist uutest vestlustest.'
+      header: 'Jälgitavad sildid {tagName}'
+      hiding_button: '=> fof-follow-tags.ref.hiding'
+      hiding_text: 'Peida vestlused kõigi vestluste leheküljelt.'
+      ignoring_button: '=> fof-follow-tags.ref.ignoring'
+      ignoring_text: 'Ei teavitata kunagi.'
+      lurking_button: '=> fof-follow-tags.ref.lurking'
+      lurking_text: 'Saa teavitus kõigist uutest vestlustest ja vastustest.'
+      not_following_button: 'Ei jälgi'
+      not_following_text: 'Saa teavitusi ainult siis kui sind @mainitakse.'
+      notify_alert_tooltip: 'Saa foorumi teavitusi siis, kui on uusi vestlusi või postitusi'
+      notify_email_tooltip: 'Saa teavitus e-postile, kui on uusi vestlusi või postitusi'
+      submit_button: 'Kinnita jälgimine'
+      subscription_label: 'Vali oma jälgimise tase sildile {tagName}'
     user:
       settings:
+        filter_label: 'Mida näidata jälgimise lehel'
         heading: 'Jälgi silte'
   ref:
     filtering_options:

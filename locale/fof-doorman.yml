@@ -27,9 +27,17 @@ fof-doorman:
           group: Grupp
           key: Võti
           max_uses: 'Maks. kasutajaid'
+        help:
+          activates: 'Aktiveerib kasutaja: Aktiveerib liitunud kasutaja automaatselt.'
+          group: 'Grupp: Grupp, kuhu kasutaja liitumisel sisestatakse.'
+          key: 'Võti: Kood, mida kasutaja liitumisel sisestab.'
+          max: 'Maks kasutajaid: Mitu korda saab koodi kasutada. Sisesta 0, kui piirangut pole'
+        key: Võti
         max_uses: 'Maks. kasutajaid'
+        title: 'Kutse koodid'
         total_uses: '{totalUses, plural, one {Kasutatud {totalUses} korda} other {Kasutatud {totalUses} korda}}'
         used_times: '{remaining, plural, =0 {Piiramatu} one {{remaining} kasutus järgi} other {{remaining} kasutust järgi}}'
+        warning: 'Seda kutse koodi on kasutatud juba maksimaalne kasutamiskordade arv.'
       title: Uksehoidja
   forum:
     email:
