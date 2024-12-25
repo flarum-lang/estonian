@@ -4,6 +4,8 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 'Võib kasutada kaheetapilist autentimist'
     settings:
       generate_app_backups: 'Loo rakenduse tagavarakoodid'
   forum:

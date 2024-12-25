@@ -5,4 +5,5 @@
 nomiscz-auth-steam:
   forum:
     buttons:
+      link: 'Seosta Steami konto'
       login: 'Logi sisse Steamiga'

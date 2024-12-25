@@ -13,6 +13,7 @@ ordinaryjellyfish-automod:
         doxxing_help: 'Algselt privaatse info avalik avaldamine üksikisiku või organisatsiooni kohta. Tavaliselt kuritahtliku eesmärgiga.'
         flag_unsafe_images: 'Ebaturvalised pildid'
         flag_unsafe_images_help: 'Käivitab Google pildiotsingu turvalisusfiltriga ning märgib pildid, mis pole turvalised. Pea meeles, et see võib lisada viivituse postituse ilmumisele.'
+      threshold: 'Kindluse lävi'
   forum:
     flag_reason: 'Automaatne moderaator märkis selle postituse. Põhjus: {reason}'
   lib:

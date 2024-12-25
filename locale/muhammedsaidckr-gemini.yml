@@ -5,4 +5,5 @@
 muhammedsaidckr-gemini:
   admin:
     settings:
+      api_key_help: 'Hangi Gemini API võti saidilt <a>google.gemini.com</a>.'
       api_key_label: 'API võti'

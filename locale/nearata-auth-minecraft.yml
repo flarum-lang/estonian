@@ -6,4 +6,5 @@ nearata-auth-minecraft:
   admin:
     settings:
       minecraft_server:
+        help: 'Näidis: minudomeen.ee'
         label: 'Minecraft serveri IP'

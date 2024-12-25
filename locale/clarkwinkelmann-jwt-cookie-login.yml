@@ -5,4 +5,5 @@
 clarkwinkelmann-jwt-cookie-login:
   admin:
     settings:
+      actorId: 'Flarum kasutaja ID adminiülesanneteks'
       cookieName: 'Küpsise nimi'

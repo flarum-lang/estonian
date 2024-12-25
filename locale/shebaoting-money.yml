@@ -5,4 +5,5 @@
 shebaoting-money:
   admin:
     settings:
+      initialmoney: 'Algne rahasumma uuel kasutajal'
       title: Seaded

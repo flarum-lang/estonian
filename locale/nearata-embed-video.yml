@@ -7,3 +7,4 @@ nearata-embed-video:
     settings:
       options:
         airplay: Airplay
+        hotkey: 'Klaviatuuri otsetee'

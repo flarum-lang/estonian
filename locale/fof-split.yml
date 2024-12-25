@@ -5,4 +5,16 @@
 fof-split:
   admin:
     permissions:
-      split_discussion_label: 'Poolita postitused vestluses'
+      split_discussion_label: 'Vestluste poolitamine'
+  forum:
+    modal:
+      new_discussion_label: 'Määra uue vestluse pealkiri'
+      submit_button: Poolita
+      title: 'Poolita vestlus'
+    post:
+      was_split_from: '{count, plural, one {{count} postitus liigutati teemast {target}.} other {{count} postitust liigutati teemast {target}.}}'
+      was_split_to: '{count, plural, one {{count} postitus liigutati teemasse {target}.} other {{count} postitust liigutati teemasse {target}.}}'
+    split:
+      cancel: 'Tühista poolitamine'
+      from: 'Poolita siit'
+      to: 'Poolita siit'

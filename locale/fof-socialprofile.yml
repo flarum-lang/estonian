@@ -5,12 +5,21 @@
 fof-socialprofile:
   admin:
     permissions:
+      editAny: 'Sotsiaalmeedia nuppude muutmine'
       editOwn: 'Omaenda sotsiaalse profiili muutmine'
       view: 'Vaata sotsiaalmeedia profiili'
+    settings:
+      allow_external_favicons_label: 'Luba väliste veebisaidi ikoonide kasutamist (kasutab DuckDuckGo''s favicon API-t)'
   forum:
     edit:
+      add: 'Lisa nupud oma sotsiaalmeedia saitidele'
       delete: Kustuta
       deletetitle: 'Kustuta nupp'
+      edit: 'Muuda oma sotsiaalmeedianuppe'
+      favicon: Favicon
+      grey_favicon: 'Hall Favicon'
+      headtitle: 'Muuda nuppe'
+      save_disabled_fetching_favicons: 'Tõmmatakse ühte või rohkemat ikooni. Palun oota.'
       submit: Salvesta
       title: Pealkiri
       url: URL
