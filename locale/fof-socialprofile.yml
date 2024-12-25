@@ -6,6 +6,7 @@ fof-socialprofile:
   admin:
     permissions:
       editOwn: 'Omaenda sotsiaalse profiili muutmine'
+      view: 'Vaata sotsiaalmeedia profiili'
   forum:
     edit:
       delete: Kustuta

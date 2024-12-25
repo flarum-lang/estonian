@@ -5,4 +5,5 @@
 foskym-issue-tracking-youtrack:
   admin:
     fields:
+      heading: 'Probleemide jälgimine: YouTrack'
       url_label: 'YouTrack URL'

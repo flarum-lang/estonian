@@ -33,6 +33,8 @@ fof-polls:
       polls_manager: 'Küsitluste haldamine'
       polls_preview: 'Vaata küsitlust'
       success: 'Küsitlus on salvestatud.'
+    composer_discussion:
+      edit_poll: '=> fof-polls.forum.moderation.edit'
     days_remaining: 'Küsitlus lõpeb {time}.'
     modal:
       add_option_label: 'Lisa valik'
@@ -41,6 +43,7 @@ fof-polls:
       date_placeholder: 'Küsitluse lõpu kuupäev (valikuline)'
       delete: Kustuta
       edit_title: 'Muuda küsitlust'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Peida vastused kuni küsitlus lõpeb'
       image_option_placeholder: 'Link pildile (valikuline)'
       include_question: 'Sa pead lisama ka küsimuse'
@@ -88,6 +91,8 @@ fof-polls:
     poll_form:
       delete: 'Kustuta küsitlus'
     poll_never_ends: 'Küsitlus ei lõpe kunagi'
+    polls_list:
+      load_more_button: '=> core.ref.load_more'
     polls_page:
       title: Küsitlused
     public_poll: 'Vaata vastajaid'

@@ -6,6 +6,7 @@ fof-recaptcha:
   admin:
     settings:
       forgot: '=> core.forum.forgot_password.title'
+      help_text: 'Hangi oma Google reCAPTCHA kasutajaandmed <a>siit</a>.'
       secret_key_label: Salavõti
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'

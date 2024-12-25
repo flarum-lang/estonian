@@ -7,4 +7,14 @@ fof-ignore-users:
     permissions:
       can_not_be_ignored_label: 'Võib ignoreerida'
   forum:
+    badge:
+      discussion_label: 'Alustatud ignoreeritud kasutaja poolt'
+      user_label: 'Ignoreeritud kasutaja'
     profile_link: 'Ignoreeritud kasutajad'
+    profile_page:
+      no_ignored: 'Tundub, et sa ei ignoreeri praegu kedagi.'
+    user_controls:
+      ignore_button: Ignoreeri
+      ignore_confirmation: 'Oled sa kindel, et sa soovid seda kasutajat ignoreerida?'
+      unignore_button: 'Lõpeta ignoreerimine'
+      unignore_confirmation: 'Oled sa kindel, et soovid selle kasutaja ignoreerimise lõpetada?'

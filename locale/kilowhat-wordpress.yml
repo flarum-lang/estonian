@@ -12,4 +12,5 @@ kilowhat-wordpress:
         cookie: Küpsis
         iframe: 'Peidetud raam'
         redirect: 'Suuna ümber'
+      section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
       wordpress_url: 'WordPressi URL'

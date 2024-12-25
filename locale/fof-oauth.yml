@@ -5,20 +5,53 @@
 fof-oauth:
   admin:
     configure_button_label: 'Seadista OAuth'
+    permissions:
+      moderate_user_providers: 'Halda kasutajate seotud kontosid'
     settings:
       advanced:
         heading: Lisavalikud
+        log-oauth-errors-help: 'Kui see on sisse lülitatud, siis OAuth veateated kirjutatakse ka Flarum logisse. See võib aidata OAuth probleemide lahendamisel, aga samas võib see ka sisaldada tundlikku infot.'
         log-oauth-errors-label: 'Logi OAuth veateated'
+      fullscreen_popup_help: 'Kui see on sisse lülitatud, siis OAuth avaneb täisekraanil. Kui see on sisse lülitatud, siis kõrguse ja laiuse seadeid ignoreeritakse.'
+      fullscreen_popup_label: 'Kasuta täisekraanil OAuth hüpikakent'
+      only_icons_label: 'Näita ainult sisselogimis nupu ikoone (alternatiivne paigutus)'
+      popup_height_help: 'OAuth hüpikakna kõrgus. Kui valik "Kasuta täisekraanil OAuth hüpikakent" on sisse lülitatud, siis seda seadet ignoreeritakse.'
       popup_height_label: 'OAuth hüpikakna kõrgus'
+      popup_width_help: 'OAuth hüpikakna laius. Kui valik "Kasuta täisekraanil OAuth hüpikakent" on sisse lülitatud, siis seda seadet ignoreeritakse.'
       popup_width_label: 'OAuth hüpikakna laius'
       providers:
+        callback_url_text: 'Kui vajalik, siis määra "tagasihelistamise" URL ({url}).'
+        discord:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Loo rakendus lingil {link}. Lisa ümbersuunamise URL OAuth2 vahekaardil.'
+        facebook:
+          app_id_label: '=> fof-oauth.ref.settings.app_id'
+          app_secret_label: '=> fof-oauth.ref.settings.app_secret'
+          description: 'Loo rakendus lingil {link}.'
+        github:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Loo OAuth rakendus lingil {link}.'
         gitlab:
+          client_id_label: '=> fof-oauth.ref.settings.app_id'
+          client_secret_label: '=> fof-oauth.ref.settings.app_secret'
+          description: 'Loo rakendus lingil {link}. Anna rakendusele ulatus <code>read_user</code>.'
           domain_label: 'GitLab domeen'
         google:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Loo rakendus lingil {link}.'
+          hosted_domain_label: 'Majutatud domeenid (G suite/Google Apps for Business, valikuline)'
+        linkedin:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Loo rakendus lingil {link}.'
         twitter:
           api_key_label: 'API võti'
           api_secret_label: 'API salasõna'
+          description: 'Loo rakendus lingil {link}. Pead sisestama ka lingi teenuse kasutustingimustele ja privaatsuspoliitikale. Seejärel veendu, et lisaksid ka e-posti aadressi küsimise õiguse.'
+      update_email_from_provider_help: 'Kui see on sisse lülitatud, siis kasutaja e-posti aadress muudetakse e-posti aadressiks OAuth teenusepakkuja juures kasutatava e-posti aadressiga. Kõik teenusepakkujad ei võimalda e-posti aadressi uuendamist. Sellistel juhtudel pole sellel seadel mitte mingit mõju.'
       update_email_from_provider_label: 'Kasuta teenusepakkuja E-posti aadressi'
     settings_accessibility_label: '{name} seaded'
   forum:
@@ -27,17 +60,35 @@ fof-oauth:
       invalid_state: 'Vigane staatus. Palun proovi uuesti.'
     log_in:
       with_button: 'Logi sisse teenusega {provider}'
+      with_discord_button: '=> fof-oauth.forum.log_in.with_button'
+      with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
+      with_github_button: '=> fof-oauth.forum.log_in.with_button'
+      with_gitlab_button: '=> fof-oauth.forum.log_in.with_button'
+      with_google_button: '=> fof-oauth.forum.log_in.with_button'
+      with_linkedin_button: '=> fof-oauth.forum.log_in.with_button'
+      with_twitter_button: '=> fof-oauth.forum.log_in.with_button'
+    providers:
+      discord: '=> fof-oauth.lib.providers.discord'
+      facebook: '=> fof-oauth.lib.providers.facebook'
+      github: '=> fof-oauth.lib.providers.github'
+      gitlab: '=> fof-oauth.lib.providers.gitlab'
+      google: '=> fof-oauth.lib.providers.google'
+      linkedin: '=> fof-oauth.lib.providers.linkedin'
+      twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Palun vali kasutajanimi, mida kasutada siin'
     unlink: 'Eemalda link'
     user:
       settings:
         linked-account:
+          help: 'Need seostatud kontod võimaldavad sul foorumisse sisse logida kasutades teisi teenusepakkujaid.'
           identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Lingitud kontod'
           last-used-label: 'Viimati kasutatud'
           link-created-label: 'Link on loodud'
+          orphaned-account: 'Oled varasemalt selle teenusepakkuja kaudu küll sisse loginud, aga nüüd on selle teenusepakkuja kasutamine välja lülitatud.'
+          unlink-confirm: 'Oled sa kindel, et soovid eemaldada seose teenusepakkujaga {provider}? Pärast seda ei saa sa enam siia foorumisse sisse logida kui sa just ei autendi enam uuesti selle teenusepakkujaga.'
   lib:
     providers:
       discord: Discord

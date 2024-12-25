@@ -11,6 +11,8 @@ fof-linguist:
       delete-redundant: 'Kustuta üleliigsed tõlked'
       load-more: 'Laadi rohkem'
       reset: 'Taasta algne'
+    clear-cache:
+      button: 'Tühjenda vahemälu kohe'
     coverage:
       all-namespaces: Kõik
       column-options:
@@ -55,6 +57,7 @@ fof-linguist:
       forum: Foorum
     known-namespace:
       core: 'Flarumi tuum'
+      validation: 'Valideerimise tõrge'
     locales:
       all: Kõik
     permissions:
