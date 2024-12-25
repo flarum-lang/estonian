@@ -8,3 +8,4 @@ fof-oauth:
       providers:
         line:
           client_id_label: 'Kanali ID'
+          client_secret_label: 'Kanali salasõna'

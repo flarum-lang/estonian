@@ -5,6 +5,7 @@
 foskym-oauth-center:
   admin:
     page:
+      clients: 'Halda kliente'
       index: avaleht
     permission:
       use_oauth: 'Kasuta OAuthi'

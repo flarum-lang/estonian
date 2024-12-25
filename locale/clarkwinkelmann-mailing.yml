@@ -6,3 +6,6 @@ clarkwinkelmann-mailing:
   admin:
     permissions:
       mail_individual: 'Saada e-kirjad individuaalsetele kasutajatele'
+  forum:
+    links:
+      mail_individual: 'Saada sellele kasutajale e-kiri'

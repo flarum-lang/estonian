@@ -5,4 +5,5 @@
 the-turk-mathren:
   admin:
     settings:
+      delimiters_label: Eraldajad
       katex_options_heading: 'KaTeX valikud'

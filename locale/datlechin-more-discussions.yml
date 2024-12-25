@@ -7,3 +7,4 @@ datlechin-more-discussions:
     settings:
       block_name_help: 'Bloki nimi (vaikimisi <code>Viimased vestlused</code>)'
       block_name_label: 'Blokeeri nimi'
+      discussion_limit_label: 'Vestluse limiit'

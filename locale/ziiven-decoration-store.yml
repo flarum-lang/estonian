@@ -4,4 +4,5 @@
 
 ziven-decoration-store:
   lib:
+    close: Sulge
     confirm: Kinnita

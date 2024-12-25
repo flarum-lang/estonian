@@ -5,4 +5,5 @@
 clarkwinkelmann-vote-with-money:
   admin:
     settings:
+      max: 'Maksimaalne väärtus'
       min: 'Minimaalne väärtus'

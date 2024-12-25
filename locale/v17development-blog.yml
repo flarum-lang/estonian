@@ -5,3 +5,5 @@
 v17development-flarum-blog:
   admin:
     blog: Blogi
+    permissions:
+      write_articles: 'Blogi artiklite kirjutamine ja muutmine'

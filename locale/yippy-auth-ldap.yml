@@ -5,3 +5,4 @@
 yippy-auth-ldap:
   forum:
     account_found: 'Serverist {server} leiti konto'
+    log_in_with: 'Logi sisse serveriga {server}'

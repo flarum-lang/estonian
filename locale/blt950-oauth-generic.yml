@@ -8,3 +8,4 @@ fof-oauth:
       providers:
         generic:
           client_id_label: 'Kliendi ID'
+          client_secret_label: 'Kliendi salasõna'

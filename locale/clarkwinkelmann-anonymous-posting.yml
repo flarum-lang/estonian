@@ -5,4 +5,5 @@
 clarkwinkelmann-anonymous-posting:
   admin:
     settings:
+      alwaysAnonymiseEdits: 'Alati anonümiseeri muutmisi'
       defaultAnonymity: 'Uus sisu on vaikimisi anonüümne'

@@ -4,4 +4,5 @@
 
 ziven-transfer-money:
   forum:
+    transfer-list-empty: 'Ülekannete ajalugu on tühi'
     transfer-list-load-more: 'Laadi lisa'

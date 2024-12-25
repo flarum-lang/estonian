@@ -5,4 +5,5 @@
 xypp-answer-bounty:
   forum:
     modal:
+      label: Summa
       title: 'Määra autasu'

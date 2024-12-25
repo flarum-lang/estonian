@@ -4,4 +4,5 @@
 
 cccyun-clogin-oauth:
   admin:
+    appid_label: APPID
     appurl_label: 'API URL'

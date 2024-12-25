@@ -7,4 +7,5 @@ blomstra-trello:
     modals:
       fields:
         board: 'Vali Trello töölaud'
+        forum_tags: 'Kasuta foorumi silt kaardilt'
         trello_label: 'Vali Trello silt'

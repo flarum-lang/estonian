@@ -6,4 +6,5 @@ datitisev-backup:
   admin:
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
+      azure: 'Microsoft Azure'
       local: 'Kohalik salvestusruum'

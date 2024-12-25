@@ -5,6 +5,7 @@
 clarkwinkelmann-discussion-lists:
   admin:
     permissions:
+      createPrivate: 'Loo privaatsete vestluste nimekirja'
       viewPublic: 'Vaata avalikku vestluste nimekirja'
     settings:
       collapseSeries: 'Sulge seeriate indeks automaatselt'

@@ -7,3 +7,4 @@ ianm-html-head:
     create_button: Loo
     table:
       description_label: Kirjeldus
+      header_label: Päis

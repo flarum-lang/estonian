@@ -6,3 +6,5 @@ the-turk-nodp:
   admin:
     permissions:
       double_posting_label: 'Topelt postitamine'
+    settings:
+      time_limit_label: 'Aja limiit'

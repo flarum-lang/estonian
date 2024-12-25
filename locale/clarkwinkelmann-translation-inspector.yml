@@ -8,4 +8,5 @@ clarkwinkelmann-translation-inspector:
       inspect: 'Kontrolli tõlkeid'
   lib:
     modal:
+      key: 'Tõlke võti'
       title: 'Tõlke inspekteerija'

@@ -3,5 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 walsgit_discussion_cards:
+  admin:
+    settings:
+      general:
+        where_title: 'Kus?'
   forum:
     replies: 'Vastuseid: {count}'

@@ -9,3 +9,4 @@ askvortsov-article-series:
   forum:
     article_item:
       next_article: 'Järgmine artikkel'
+      prev_article: 'Eelmine artikkel'

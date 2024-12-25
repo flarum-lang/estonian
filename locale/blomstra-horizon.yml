@@ -6,6 +6,7 @@ blomstra-horizon:
   admin:
     settings:
       trim_completed: 'Kärbi lõpetatud tööd'
+      trim_recent: 'Kärbi viimaseid teid'
       trim_recent_failed: 'Kärbi hiljutised ebaõnnestunud tööd'
       trim_title: 'Kärpimise seaded'
     stats:

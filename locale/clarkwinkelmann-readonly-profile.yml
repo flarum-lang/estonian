@@ -5,4 +5,5 @@
 clarkwinkelmann-readonly-profile:
   admin:
     settings:
+      disableEmailChange: 'Keela e-posti aadressi muutmine'
       disableLogin: 'Keela sisse logimine'

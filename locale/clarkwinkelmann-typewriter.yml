@@ -5,4 +5,5 @@
 clarkwinkelmann-typewriter:
   admin:
     settings:
+      defaultFile: 'Vaikimisi heli fail'
       muteByDefault: 'Vaigista vaikimisi'

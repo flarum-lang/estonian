@@ -4,5 +4,6 @@
 
 clarkwinkelmann-colorful-borders:
   forum:
+    apply: Rakenda
     default: Vaikeväärtus
     edit: 'Muuda stiili'

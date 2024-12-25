@@ -7,3 +7,5 @@ datitisev-maintenance:
     dashboard:
       disable_maintenance_mode_button: 'Lülita hooldusrežiim välja'
       enable_maintenance_mode_button: 'Lülita hooldusrežiim sisse'
+    settings:
+      title: Hooldusrežiim

@@ -7,3 +7,4 @@ clarkwinkelmann-mass-actions:
     select:
       all: Kõik
       none: Pole
+      read: Loe

@@ -5,4 +5,5 @@
 justoverclock-auto-post-badge-pro:
   admin:
     levelOne: 'Tase 1'
+    levelTree: 'Tase 3'
     levelTwo: 'Tase 2'

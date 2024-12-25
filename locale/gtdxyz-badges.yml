@@ -4,5 +4,6 @@
 
 gtdxyz-flarum-badges:
   admin:
+    create_category: 'Loo kategooria'
     new_badge: 'Uus silt'
     uncategorized: Liigitamata

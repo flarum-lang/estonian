@@ -7,4 +7,5 @@ clarkwinkelmann-clippy:
     settings:
       cdn: CDN
       cdn-options:
+        jsdelivr: jsDelivr
         s3: 'Amazon S3'

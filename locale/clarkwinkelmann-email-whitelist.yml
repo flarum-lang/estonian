@@ -5,4 +5,5 @@
 clarkwinkelmann-email-whitelist:
   admin:
     settings:
+      message: 'Kohandatud veateade'
       regex: Regulaarväljend

@@ -7,4 +7,5 @@ clarkwinkelmann-collapsible-posts:
     settings:
       header:
         key: 'Unikaalne andmebaasi võti'
+        label: Silt
       reasons: Põhjused

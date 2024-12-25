@@ -4,4 +4,5 @@
 
 jslirola-login2seeplus:
   forum:
+    link: 'Lingi nägemiseks logi sisse'
     post: 'Kogu postituse nägemiseks pead {login} või {register}'

@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-twemoji:
+  admin:
+    settings:
+      base: Peamine
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'

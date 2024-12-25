@@ -6,3 +6,5 @@ clarkwinkelmann-discussion-open-position:
   admin:
     settings:
       defaultOpenLastRead: 'Ava vestlus vaikimisi viimati loetud postituse koha pealt'
+      openLastOptions:
+        always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'

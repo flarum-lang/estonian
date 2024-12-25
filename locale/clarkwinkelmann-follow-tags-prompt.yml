@@ -7,4 +7,5 @@ clarkwinkelmann-follow-tags-prompt:
     controls:
       choose: 'Vali sildid, mida jälgida'
     modal:
+      later: 'Tuleta mulle hiljem meelde'
       title: 'Vali sildid, mida jälgida'

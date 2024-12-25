@@ -4,5 +4,6 @@
 
 custom-header:
   admin:
+    headerTagline: 'Hüüdlause päises'
     headerTitle: 'Päise pealkiri'
     headerTitle-help: 'Siin saad muuta oma päise peamist pealkirja'

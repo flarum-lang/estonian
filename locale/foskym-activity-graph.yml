@@ -7,3 +7,4 @@ foskym-activity-graph:
     settings:
       count_comments: 'Loe kommentaarid kokku'
       count_discussions: 'Vestluste arv'
+      count_likes: 'Meeldimiste arv'

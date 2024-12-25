@@ -8,22 +8,37 @@ fof-user-directory:
       view_user_directory: 'Vaata kasutajate nimekirja'
     settings:
       default-sort: 'Vaikimisi sorteerimine'
+      disable-global-search-source: 'Ära lisa kasutajate nimekirja foorumi üldise otsingu välja'
+      link: 'Lisa avalehele link kõigile kasutajatele, kes seda nimekirja näevad'
+      link-group-mentions: 'Seo grupi mainimised postitustes kasutajate nimekirjaga'
       use-small-cards: 'Kasuta väikseid kasutajate kaarte'
   forum:
     header:
       back_to_user_directory_tooltip: 'Tagasi kasutajate kataloogi'
     page:
+      empty_text: 'Ei leidnud ühtegi sinu otsingule vastavat kasutajat.'
       filter_button: 'Filtreeri gruppe'
+      load_more_button: '=> core.ref.load_more'
       nav: 'Kasutajate nimekiri'
+      refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} vestlus} other {{count} vestlust}}'
+        post-count: '{count, plural, one { {count} postitus} other {{count} postitust}}'
     search:
       field:
         placeholder: 'Otsi kõiki kasutajaid'
       kinds:
         group: Grupp
+      users_heading: 'Otsi kasutajatest "{query}"'
   lib:
     sort:
       default: Vaikeväärtus
       least_discussions: 'Viimased vestluseid'
       least_posts: 'Vähim postitusi'
       most_discussions: 'Enim vestluseid'
+      most_posts: 'Enim postitusi'
+      newest: Uusimad
       not_specified: 'Kasuta Flarumi vaikeväärtust'
+      oldest: Vanimad
+      username_az: 'Kasutajanimi (a-z)'
+      username_za: 'Kasutajanimi (z-a)'
