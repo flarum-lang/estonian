@@ -6,9 +6,13 @@ kilowhat-cimaise:
   forum:
     album-list:
       empty: 'Albumeid pole'
+      load-more: '=> kilowhat-cimaise.ref.load-more'
+      loading: '=> kilowhat-cimaise.ref.loading'
       new: 'Loo uus album'
       title: '=> kilowhat-cimaise.ref.albums'
     nav:
       albums: '=> kilowhat-cimaise.ref.albums'
       pictures: '=> kilowhat-cimaise.ref.pictures'
       user-pictures: '=> kilowhat-cimaise.ref.pictures'
+    picture-list:
+      title: 'Kõik pildid'

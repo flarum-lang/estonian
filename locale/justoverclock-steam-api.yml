@@ -7,4 +7,7 @@ justoverclock-steam-api:
     steamApiKey: 'Steam API võti'
     steamApiKey-help: 'Hangi oma TASUTA API võti aadressilt https://steamcommunity.com/dev/apikey'
   forum:
+    statusAway: Eemal
+    statusBusy: Hõivatud
+    statusOnline: 'On saidil'
     steamIdSaved: 'Steam ID on salvestatud'

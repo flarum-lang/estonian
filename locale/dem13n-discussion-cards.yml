@@ -7,6 +7,7 @@ dem13n:
     settings:
       actor_info: 'Näita autorit'
       choose_tags: 'Vali sildid'
+      show_replies: 'Näita vastuseid'
       small_cards: 'Peamiste kaartide arv'
   forum:
     replies: 'Vastuseid: {count}'

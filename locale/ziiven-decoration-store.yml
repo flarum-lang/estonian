@@ -8,5 +8,7 @@ ziven-decoration-store:
     close: Sulge
     confirm: Kinnita
     item-type: 'Kirje liik'
+    item-type-all: 'Kõik kirje liigid'
+    item-type-avatarFrame: 'Avatari raam'
     none: Pole
     ok: OK

@@ -8,5 +8,8 @@ kilowhat-audit:
       free: Tasuta
       pro: Pro
       title: Audit
+    limitedSettings:
+      configure: Seadista
+      title: 'Piiratud ligipääsu seaded'
     permissions:
       viewLimited: 'Vaata piiratud auditi logi'

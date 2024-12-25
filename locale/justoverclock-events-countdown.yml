@@ -7,3 +7,6 @@ justoverclock-events-countdown:
     endTime: 'Seadista oma sündmuste lõppemise aeg'
     evTitle: 'Sündmuste pealkiri'
     fontaw: 'Kohandatud Fontawesome ikoon'
+  forum:
+    days: Päeva
+    hours: Tundi

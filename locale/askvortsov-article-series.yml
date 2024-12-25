@@ -13,5 +13,8 @@ askvortsov-article-series:
     article_list:
       title: '{series} artikliseeriad'
     article_series_modal:
+      submit_button: Saada
       tag_id_label: 'Artiklite seeria silt'
       title: 'Artiklite seeriate seaded'
+    discussion_controls:
+      article_series_button: 'Artikliseeriate seaded'

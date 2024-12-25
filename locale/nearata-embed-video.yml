@@ -12,3 +12,6 @@ nearata-embed-video:
         logo: 'Logo URL'
         quality_switching: 'Kvaliteedi lülitamine'
         theme: 'Teema värv'
+      permissions:
+        can_create_video_player: 'Võib luua videopleieri'
+        can_view_video_player: 'Võib vaadata videopleierit'

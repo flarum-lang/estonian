@@ -8,6 +8,8 @@ fof-geoip:
       access_key_label: 'Ligipääsu võti'
       general:
         heading: 'Üldised seaded'
+      providers:
+        heading: 'IP kontrollimise teenus'
       service_ipapi-pro_label: 'IP API pro'
       service_ipapi_label: 'IP API'
       service_ipdata_label: IP-andmed

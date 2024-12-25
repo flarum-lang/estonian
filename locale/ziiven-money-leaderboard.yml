@@ -4,6 +4,7 @@
 
 ziven-money-leaderboard:
   forum:
+    leaderboard-list-empty: 'Sisu pole'
     leaderboard-list-title: 'Raha edetabel'
     leaderboard-list-user: Kasutaja
     leaderboard-load-more: 'Laadi lisa'

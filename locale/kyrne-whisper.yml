@@ -12,3 +12,5 @@ kyrne-whisper:
   forum:
     dropdown:
       tooltip: Vestlused
+    setup:
+      header_set_own: 'Privaatsõnumite seadistamiseks sisesta parool.'

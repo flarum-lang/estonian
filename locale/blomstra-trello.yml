@@ -9,3 +9,5 @@ blomstra-trello:
         board: 'Vali Trello töölaud'
         forum_tags: 'Kasuta foorumi silt kaardilt'
         trello_label: 'Vali Trello silt'
+    settings:
+      api_key_label: 'API võti'

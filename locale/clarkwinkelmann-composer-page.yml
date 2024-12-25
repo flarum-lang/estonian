@@ -12,4 +12,5 @@ clarkwinkelmann-composer-page:
       cancel: 'Välju koostajast'
       continue: 'Jätka vestlust'
     page:
+      heading: 'Alusta vestlust'
       title: 'Alusta vestlust'

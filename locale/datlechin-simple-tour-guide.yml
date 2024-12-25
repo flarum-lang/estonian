@@ -4,5 +4,7 @@
 
 datlechin-simple-tour-guide:
   admin:
+    edit_modal:
+      edit_step: 'Muuda {title}'
     settings:
       show_progress_label: 'Näita edenemist'

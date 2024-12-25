@@ -8,4 +8,8 @@ nearata-dsts:
       can_use_bbcode: 'Võib kasutada BB-koodi'
     settings:
       enabled: 'Sisse lülitatud'
+      fof_upload:
+        enabled: 'Sisse lülitatud'
       hide_only_first_post: 'Peida ainult esimene postitus'
+      require_like: 'Nõua meeldimisi'
+      require_reply: 'Nõua vastust'

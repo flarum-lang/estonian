@@ -7,6 +7,7 @@ miniflar-sidenav-download-button:
     permissions:
       view_download_button_label: 'Vaata külgribal allalaadimise nuppu'
     settings:
+      button_link_heading: 'Allalaadimise link'
       button_order_heading: 'Nuppude järjekord'
       labels:
         add_separator: 'Lisada eraldaja?'

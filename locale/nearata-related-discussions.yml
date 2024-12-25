@@ -12,3 +12,7 @@ nearata-related-discussions:
         title: 'Pealkirja järgi'
       max_discussions: 'Maks. vestlusi'
       max_discussions_help: 'Vaikeväärtus <strong>on</strong>.'
+      position: Positsioon
+      position_options:
+        first_post: 'Pärast esimest postitust'
+        last_post: 'Pärast viimast postitust'

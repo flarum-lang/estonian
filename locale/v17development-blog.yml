@@ -7,3 +7,6 @@ v17development-flarum-blog:
     blog: Blogi
     permissions:
       write_articles: 'Blogi artiklite kirjutamine ja muutmine'
+    settings:
+      blog_heading: Blogi
+      select_categories_button: 'Vali blogi kategooriad'

@@ -11,3 +11,8 @@ michaelbelgium-discussion-views:
   forum:
     modal_resetviews:
       submit_button: 'Jah, eemalda kohe'
+    post:
+      viewed_by: '{users} vaatas seda.'
+    viewlist:
+      guest: Külaline
+      title: 'Viimased vaatajad'

@@ -7,3 +7,6 @@ clarkwinkelmann-formatted-banner:
     settings:
       guestContent: 'Külalise vormistatud sisu'
       guestHtml: 'Külaliste HTML sisu'
+  forum:
+    alert:
+      refresh: 'Värskenda lehekülge'

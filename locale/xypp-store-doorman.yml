@@ -7,5 +7,7 @@ xypp-store-doorman:
     create:
       group: 'Grupp pärast registreerimist'
       select: 'Vali andmed'
+      submit: Kinnita
+      title: 'Vali andmed'
     key: 'Kutse võti'
     key-not-found: 'Võtit ei leitud'

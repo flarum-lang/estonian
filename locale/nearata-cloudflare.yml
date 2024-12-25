@@ -10,3 +10,5 @@ nearata-cloudflare:
       api_key: 'API võti'
       refresh_zone_button_label: 'Värskenda tsooni iD-d'
       security_level_label: 'Turvalisuse tase'
+      security_level_options:
+        low: Madal

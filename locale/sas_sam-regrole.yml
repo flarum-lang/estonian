@@ -7,3 +7,6 @@ sas_sam-regrole:
     settings:
       allowed_roles_label: 'Lubatud rollid'
       other_options_heading: 'Muud valikud'
+  forum:
+    choose_role_button_label: '=> sas_sam-regrole.ref.choose_a_role'
+    required_role_message: 'Pead valima rolli.'

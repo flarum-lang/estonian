@@ -11,3 +11,5 @@ flarum-ext-bbcode-5star-rating:
       stars_0: '0 tähte'
       stars_1: '0,5 tähte'
       stars_2: '1 täht'
+      stars_3: '1.5 tähte'
+      stars_4: '2 tähte'

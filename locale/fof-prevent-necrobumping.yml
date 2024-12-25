@@ -6,3 +6,4 @@ fof-prevent-necrobumping:
   admin:
     settings:
       days_label: Päeva
+      message_description_label: 'Kohandatud sõnumi kirjeldus'

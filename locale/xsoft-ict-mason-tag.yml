@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xsoft-mason-tag:
+  admin:
+    buttons:
+      new-field: 'Uus väli'
   forum:
     answers-modal:
       save: 'Salvesta väljad'
@@ -13,3 +16,5 @@ xsoft-mason-tag:
       edit-answers: 'Muuda väljasid'
     post-answers:
       no-answer: 'Vastust pole'
+    tags:
+      tags-label: Sildid

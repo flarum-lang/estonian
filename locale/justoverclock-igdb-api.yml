@@ -7,4 +7,6 @@ justoverclock-igdb-api:
     rawgApi: 'RawG API võti'
   forum:
     genres: Žanrid
+    offwebsite: 'Ametlik veebisait'
     publisher: Avaldaja
+    relDate: 'Väljalaske kuupäev'

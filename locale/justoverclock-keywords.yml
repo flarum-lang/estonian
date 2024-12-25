@@ -3,8 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-keywords:
+  admin:
+    removedef: 'Kustuta definitsioon'
+    word: Sõna
   forum:
     definition: Definitsioon
+    loadMore: 'Laadi rohkem'
     pagetitle: 'Sõnastiku lehekülg'
     searchtext: 'Kirjuta, et otsida sõnastikust...'
     term: Termin

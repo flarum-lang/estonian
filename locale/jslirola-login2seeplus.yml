@@ -5,6 +5,8 @@
 jslirola-login2seeplus:
   admin:
     hide: Peida
+    image: Pildid
+    link: Lingid
     title: Login2SeePlus
   forum:
     image: 'Pildi nägemiseks logi sisse'

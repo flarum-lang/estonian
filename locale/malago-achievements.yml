@@ -6,6 +6,9 @@ malago-achievements:
   forum:
     achievement_points: Punktid
     achievement_total_points: Kokku
+    hidden_achievements: 'Peidetud saavutused'
     list_heading: Saavutused
     new_achievement_close: Selge!
     new_achievement_name: Saavutus
+    other_achievements: 'Muud saavutused'
+    your_achievements: 'Sinu saavutused'

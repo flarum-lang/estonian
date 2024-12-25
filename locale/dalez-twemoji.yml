@@ -9,6 +9,7 @@ flarum-twemoji:
       baseph: 'Näidis: https://www.minusait.ee/'
       ext: Lisaprogramm
       folder: Kaust
+      folderph: 'Näidis: svg'
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'

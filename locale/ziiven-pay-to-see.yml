@@ -4,6 +4,7 @@
 
 pay-to-see:
   forum:
+    pay_to_see_content: 'Maksa, et sisu näha'
     tag_no_permission_title: 'Sisu nägemiseks maksa'
   lib:
     cancel: Loobu

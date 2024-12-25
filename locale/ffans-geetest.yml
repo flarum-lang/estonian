@@ -5,6 +5,8 @@
 ffans-geetest:
   admin:
     settings:
+      context_event_forgot_label: '=> core.forum.forgot_password.title'
       context_event_login_label: '=> core.ref.log_in'
+      context_event_signup_label: '=> core.ref.sign_up'
       product_service_label: 'CAPTCHA toode'
       product_service_v3_label: 'CAPTCHA (v3)'

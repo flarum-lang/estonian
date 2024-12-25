@@ -12,3 +12,6 @@ nearata-embed-twitch:
         channel: 'Kanali nimi'
         collection: 'Kogu ID'
         layout: Paigutus
+        type: 'Sisu liik'
+        video: 'Video ID'
+      save_changes: 'Salvesta muudatused'

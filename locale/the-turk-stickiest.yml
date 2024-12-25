@@ -7,5 +7,9 @@ the-turk-stickiest:
     settings:
       badge_icon_text: '=> core.ref.icon_text'
   forum:
+    badge:
+      sticky_tooltip: '=> the-turk-stickiest.ref.sticky'
+      super_sticky_tooltip: '=> the-turk-stickiest.ref.super_sticky'
+      tag_sticky_tooltip: '=> the-turk-stickiest.ref.tag_sticky'
     stickiest_modal:
       sticky_label: '=> flarum-sticky.ref.sticky'

@@ -7,6 +7,8 @@ clarkwinkelmann-colorful-borders:
     apply: Rakenda
     backgroundColor: Taustavärv
     borderColor: 'Piirjoone värv'
+    borderRadius: 'Piirjoone raadius'
+    borderWidth: 'Piirjoone laius'
     default: Vaikeväärtus
     edit: 'Muuda stiili'
     textColor: 'Teksti värv'

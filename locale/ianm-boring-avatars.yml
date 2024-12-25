@@ -9,3 +9,5 @@ ianm-boring-avatars:
       color2: 'Värv 2'
       color4: 'Värv 4'
       identifier: Identifikaator
+      identifier_display_name: 'Näidatav nimi'
+      identifier_id: 'Kasutaja ID'

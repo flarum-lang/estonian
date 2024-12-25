@@ -4,4 +4,7 @@
 
 foskym-issue-tracking:
   admin:
+    action:
+      heading: Tegevus
+      test_connection_button: 'Testi ühendust'
     provider_heading: 'Platformi pakkuja'

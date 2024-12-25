@@ -6,6 +6,7 @@ nomiscz-auth-steam:
   forum:
     alerts:
       already_linked: 'Su konto on Steami kontoga juba seostatud!'
+      error: 'Midagi läks valesti, palun proovi hiljem uuesti!'
     buttons:
       link: 'Seosta Steami konto'
       login: 'Logi sisse Steamiga'

@@ -4,8 +4,10 @@
 
 ziven-transfer-money:
   forum:
+    transfer-list-assign-at: 'Ülekande kuupäev'
     transfer-list-empty: 'Ülekannete ajalugu on tühi'
     transfer-list-id: ID
     transfer-list-load-more: 'Laadi lisa'
     transfer-list-target-user: Sihtkasutaja
+    transfer-list-transfer-amount: Summa
     transfer-list-type: Liik

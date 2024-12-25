@@ -14,6 +14,7 @@ ordinaryjellyfish-automod:
         flag_unsafe_images: 'Ebaturvalised pildid'
         flag_unsafe_images_help: 'Käivitab Google pildiotsingu turvalisusfiltriga ning märgib pildid, mis pole turvalised. Pea meeles, et see võib lisada viivituse postituse ilmumisele.'
       moderate_categories_label: 'Modereeri kategooriaid'
+      service_account: 'Teenuse konto'
       threshold: 'Kindluse lävi'
   forum:
     flag_reason: 'Automaatne moderaator märkis selle postituse. Põhjus: {reason}'

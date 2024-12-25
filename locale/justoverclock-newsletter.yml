@@ -5,6 +5,8 @@
 justoverclock-newsletter:
   admin:
     ctaText: 'Külasta oma kogukonda'
+    emailTitle: 'Uudiskirja pealkiri'
     newsLetterOptOutFooter: 'Sulle ei meeldi need e-kirjad?'
     newsLetterOptOutFooterUnsubscribe: 'Lõpeta jälgimine.'
     newsletterCountTextTwo: kasutajat!
+    sendingText: Saatmine...

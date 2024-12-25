@@ -7,5 +7,9 @@ michaelbelgium-mybb-to-flarum:
     content:
       convert_button: Migreeru
       form:
+        mybb:
+          host_label: 'Andmebaasi host'
+          title: 'MyBB seaded'
         options:
+          migrate_attachments_label: 'Migreeri lisatud failid'
           title: 'Muud valikut'

@@ -7,6 +7,9 @@ nearata-minecraft-avatars:
     retrieve_avatar_on_register:
       label: 'Hangi avatar registreerumisel'
   forum:
+    minotar_enabled: 'Sisse lülitatud'
+    placeholder: 'Kasutajanimi või UUID'
     submit_button: 'Salvesta muudatused'
     username_not_found: 'Kasutajanime ei leitud.'
     username_uuid_not_valid: 'Kasutajanimi või UUID pole korrektne.'
+    userpage_nav_button: 'Minecrafti avatarid'

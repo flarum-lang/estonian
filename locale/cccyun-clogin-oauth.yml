@@ -9,3 +9,5 @@ cccyun-clogin-oauth:
     appurl_label: 'API URL'
     openqq_label: 'Ava QQ sisselogimine'
     openwx_label: 'Ava WeChat sisselogimine'
+  forum:
+    with_qq_button: 'QQ kasutajakonto'

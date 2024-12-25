@@ -13,6 +13,7 @@ fof-ban-ips:
       date_label: Kuupäev
       user_label: Kasutaja
     permissions:
+      ban_ip_label: '=> fof-ban-ips.ref.ban_ip_addresses'
       view_banned_ip_list_label: 'Vaata blokeeritud IP-aadresside nimekirja'
   error:
     banned_ip_message: 'Autoriseerimine ebaõnnestus.'
@@ -27,6 +28,7 @@ fof-ban-ips:
       banned_tooltip: Blokeeritud
     user_controls:
       ban_button: '=> fof-ban-ips.ref.ban_label'
+      unban_button: '=> fof-ban-ips.ref.unban_label'
   lib:
     modal:
       check_button: Kontrolli

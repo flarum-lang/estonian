@@ -9,3 +9,5 @@ migratetoflarum-fake-data:
       discussion-count: 'Vestluste arv, mida luua'
       discussion-tags: 'Uue vestluse sildid'
       discussion-tags-none: Pole
+      discussion-tags-random: Juhuslik
+      post-count: 'Loodavate postituste arv'

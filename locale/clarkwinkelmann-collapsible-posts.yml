@@ -11,3 +11,6 @@ clarkwinkelmann-collapsible-posts:
         key: 'Unikaalne andmebaasi võti'
         label: Silt
       reasons: Põhjused
+  forum:
+    postControl:
+      collapse: Sulge

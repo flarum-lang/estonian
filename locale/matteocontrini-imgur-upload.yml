@@ -9,3 +9,5 @@ imgur-upload:
       embed-type:
         preview-without-link: 'Eelvaade ilma lingita'
         title: 'Põimimise liik'
+  forum:
+    loading: Üleslaadimine...

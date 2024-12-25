@@ -4,9 +4,12 @@
 
 sycho-github-milestone:
   admin:
+    all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
     default_filter: 'Vaikimisi filter'
     milestone: 'Eesmärgi ID'
     open: '=> sycho-github-milestone.ref.open'
     repository: 'GitHubi hoidla'
     repository_example: 'näidis: flarum/core'
+  forum:
+    last_updated: 'Viimati uuendatud {time}'

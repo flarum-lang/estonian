@@ -11,3 +11,8 @@ flagrow-ads:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
       under-header:
         placeholder: 'Sisesta oma reklaami kood siia.'
+      under-nav-items:
+        placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
+    settings:
+      adsense-title: 'AdSense seaded'
+      position-title: 'Reklaami paigutus'

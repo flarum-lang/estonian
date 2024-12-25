@@ -11,4 +11,6 @@ kilowhat-rich-embeds:
         separated: Eraldatud
       position: Asukoht
       positionOptions:
+        below: 'Lingi all'
         replace: 'Asenda link'
+      style: Stiil

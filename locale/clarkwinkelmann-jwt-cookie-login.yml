@@ -8,3 +8,4 @@ clarkwinkelmann-jwt-cookie-login:
       actorId: 'Flarum kasutaja ID adminiülesanneteks'
       cookieName: 'Küpsise nimi'
       publicKey: 'Avalik võti'
+      publicKeyAlgorithm: 'Avaliku võtme algoritm'

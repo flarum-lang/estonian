@@ -8,6 +8,7 @@ flarum-msemoji:
       base: Peamine
       ext: Lisaprogramm
       folder: Kaust
+      folderph: 'Näidis: svg'
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'

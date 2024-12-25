@@ -10,3 +10,4 @@ clarkwinkelmann-clippy:
       cdn-options:
         jsdelivr: jsDelivr
         s3: 'Amazon S3'
+      events: Sündmused

@@ -13,3 +13,7 @@ fof-oauth:
             remove_button: 'Eemalda võtmefail'
           keyfile_upload_help: 'Loo <a>võtmefail</a> ja laadi see siia üles'
           keyfile_upload_label: Võtmefail
+          team_id_label: 'Meeskonna ID'
+  forum:
+    log_in:
+      with_apple_button: 'Logi sisse teenusega {provider}'

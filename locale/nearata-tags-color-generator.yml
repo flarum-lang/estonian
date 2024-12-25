@@ -5,6 +5,10 @@
 nearata-tags-color-generator:
   admin:
     color_hue_label: Värvitoon
+    color_hue_options:
+      orange: Oraanž
+      random: Juhuslik
+      red: Punane
     color_luminosity_options:
       bright: Hele
       dark: Tume

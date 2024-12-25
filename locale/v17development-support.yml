@@ -5,6 +5,8 @@
 v17development-flarum-support:
   forum:
     ask_a_question_on_forums: 'Küsi küsimus foorumis'
+    create: Loo
     knowledge_base: Teabebaas
     or: või
+    send: Saada
     settings: '=> core.ref.settings'

@@ -13,3 +13,7 @@ nearata-auth-minecraft:
       minecraft_server:
         help: 'Näidis: minudomeen.ee'
         label: 'Minecraft serveri IP'
+  forum:
+    log_in_modal:
+      submit_button: Kinnita
+      title: 'Logi sisse Minecraftiga'

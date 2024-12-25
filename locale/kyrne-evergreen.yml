@@ -6,6 +6,10 @@ flarum-mentions:
   forum:
     composer:
       mention_tooltip: 'Kasutaja või postituse mainimine'
+    notifications:
+      others_text: '=> core.ref.some_others'
+      post_mentioned_text: '{username} vastas sinu postitusele'
+      user_mentioned_text: '{username} mainis sind'
 kyrne-evergreen:
   forum:
     post:

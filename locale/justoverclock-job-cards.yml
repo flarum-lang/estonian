@@ -4,8 +4,10 @@
 
 justoverclock-job-cards:
   forum:
+    actualSalaryField: 'Tegelik palk'
     avatarField: 'Avatar (URL)'
     fullNameField: 'Täispikk nimi'
     jobFormTitle: 'Töö kaart'
     jobProfile: 'Töö profiil'
     saveBtn: Salvesta
+    yearOfExperienceField: 'Kogemus aastates'

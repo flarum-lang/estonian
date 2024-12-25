@@ -9,3 +9,6 @@ justoverclock-last-tweet:
     theme: Teema
     tweet_number: 'Säutsu number'
     tweet_number-help: 'Pane siia säutsude arv, mida näidatakse (vaikeväärtus on 2)'
+  forum:
+    loading: 'Säutsude laadimine...'
+    widget-title: 'Viimane säuts'

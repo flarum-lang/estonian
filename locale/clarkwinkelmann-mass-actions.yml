@@ -4,10 +4,13 @@
 
 clarkwinkelmann-mass-actions:
   forum:
+    actions:
+      markAsRead: 'Märgi valitud loetuks'
     select:
       all: Kõik
       locked: Lukustatud
       none: Pole
       read: Loe
+      unlocked: Lukustamata
       unread: Lugemata
       visible: 'Pole kustutatud'

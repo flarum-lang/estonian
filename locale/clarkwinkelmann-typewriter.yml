@@ -12,3 +12,6 @@ clarkwinkelmann-typewriter:
         keys: Võtmed
       muteByDefault: 'Vaigista vaikimisi'
       sounds: Lisahelid
+  forum:
+    enable: 'Luba trükkimise hääled'
+    mute: 'Vaigista trükkimise helid'

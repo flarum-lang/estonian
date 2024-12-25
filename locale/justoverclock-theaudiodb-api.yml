@@ -7,4 +7,5 @@ justoverclock-theaudiodb-api:
     langcode: Keelekood
     langcode-help: 'Sisesta keelekood siia (saadaolevad koodid, EN, DE, FR, CN, IT, JP, RU, ES, PT, SE, NL, HU, NO, IL, PL)'
   forum:
+    countryart: Riik
     genres: Žanrid

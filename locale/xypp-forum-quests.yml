@@ -6,4 +6,7 @@ xypp-forum-quests:
   forum:
     condition_not_found: 'Tingimust {condition} ei leitud'
     quest:
+      done: '[Valmis]'
       load_more: 'Laadi rohkem'
+    re_available:
+      none: 'Ainult üks kord'

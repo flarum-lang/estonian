@@ -8,6 +8,7 @@ kilowhat-wordpress:
       api_key: 'Jagatud API võti'
       api_key_reset: 'Loo uus API võti'
       cookie_domain: 'Küpsise domeen'
+      default_actor_placeholder_search: 'Kirjuta kasutaja otsimiseks...'
       login_method_options:
         cookie: Küpsis
         iframe: 'Peidetud raam'

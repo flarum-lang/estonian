@@ -5,6 +5,8 @@
 michaelbelgium-umami:
   admin:
     settings:
+      domain:
+        label: Domeen
       site_id:
         label: 'Veebisaidi ID'
     widget:

@@ -6,7 +6,10 @@ the-turk-flamoji:
   admin:
     settings:
       auto_hide_label: 'Automaatne peitmine'
+      auto_hide_text: 'Peida valija kui emoji on valitud.'
       category_settings_heading: 'Kategooria seaded'
       emoji_settings_heading: 'Emoji seaded'
       general_ui_settings_heading: 'Üldised kasutajaliidese seaded'
+      show_category_buttons_label: 'Näita kkategooria nuppe'
+      show_preview_label: 'Näita eelvaate sektsiooni'
       show_variants_label: 'Näita variante'

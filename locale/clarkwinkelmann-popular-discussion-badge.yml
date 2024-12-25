@@ -6,5 +6,8 @@ clarkwinkelmann-popular-discussion-badge:
   admin:
     settings:
       mode: Toimimisrežiim
+      scheduler_frequency_options:
+        everyFiveMinutes: 'Iga 5 minuti tagant'
+        everyTenMinutes: 'Iga 10 minuti tagant'
   forum:
     badge_label: Populaarne

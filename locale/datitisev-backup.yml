@@ -9,5 +9,7 @@ datitisev-backup:
       aws: 'Amazon AWS S3'
       azure: 'Microsoft Azure'
       dropbox: Dropbox
+      ftp: FTP
       gdrive: 'Google Drive'
+      gridfs: GridFS
       local: 'Kohalik salvestusruum'

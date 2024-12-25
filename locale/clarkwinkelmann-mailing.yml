@@ -10,5 +10,7 @@ clarkwinkelmann-mailing:
     links:
       mail_individual: 'Saada sellele kasutajale e-kiri'
     modal_mail:
+      default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       recipients_label: Saajad
+      subject_label: Pealkiri
       title_text: 'Koosta e-kiri'

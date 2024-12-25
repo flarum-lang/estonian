@@ -6,7 +6,10 @@ xypp-user-decoration:
   forum:
     decoration-box:
       avatar: 'Avatari stiil'
+      card: 'Kasutaja kaardi stiil'
+      closed: Suletud
       error: 'Tundmatu liik'
+      loading: Laadimine
       name: 'Kasutajanime stiil'
       post: 'Postituse stiil'
     decoration-no-available: 'Dekoratsioone pole saadaval'

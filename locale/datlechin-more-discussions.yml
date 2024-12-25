@@ -10,3 +10,5 @@ datlechin-more-discussions:
       discussion_limit_label: 'Vestluse limiit'
       discussion_related_label: 'Seotud tulemused'
       filter_by_label: Filtreeri
+      filter_dropdown:
+        latest: Viimased

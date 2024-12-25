@@ -7,4 +7,7 @@ mattoid-store:
     settings:
       add-store-goods: 'Lisa kaubad'
       decorationStoreTimezone: ajavöönd
+      goods-code: Kood
+      goods-status: Staatus
+      goods-title: Pealkiri
       store-name: 'Poe nimi'

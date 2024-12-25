@@ -11,4 +11,6 @@ clarkwinkelmann-featured-discussions:
     modal:
       fields:
         until: Kuni
+      from:
+        not: 'Pole esile tõstetud'
       title: 'Tõsta vestlus esile'

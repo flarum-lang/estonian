@@ -10,6 +10,8 @@ danirod-plausible:
         label: Domeen
       enable:
         label: 'Sisse lülitatud'
+      proxy_domain:
+        label: 'Proksi domeen'
     validation:
       domain:
         regex: 'Sisestatud domeen pole korrektne'

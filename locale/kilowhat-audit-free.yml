@@ -11,3 +11,7 @@ kilowhat-audit:
       upgrade: 'Uuenda Pro-le'
     permissions:
       view: 'Vaata auditi logi'
+  lib:
+    browser:
+      empty: 'Tulemusi pole'
+      filterApply: Rakenda

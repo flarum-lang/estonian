@@ -7,3 +7,5 @@ mattoid-store-invite:
     settings:
       group-admin-view: 'Auditi õigused'
       group-view: 'Näita kasutajatele tooteid'
+      price: 'Tasude vähendamine'
+      show-index: 'Lisa avalehele'

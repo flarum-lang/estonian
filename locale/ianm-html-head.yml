@@ -5,6 +5,9 @@
 ianm-html-head:
   admin:
     create_button: Loo
+    modal:
+      create_title: 'Loo uus kirje'
+      edit_title: 'Muuda kirjet'
     table:
       active_label: Aktiivne
       delete_button: Kustuta

@@ -8,7 +8,9 @@ tohsakarat-tags-filter:
       filter_tags:
         accessible_label: 'siltide filter'
         all: kõik
+        keep_typing: Kirjutamine...
         label: '{text}'
         no_results: 'Tulemusi pole'
+        remove_filter: 'lõpeta otsimine;'
         search_label: Otsi...
         start_typing: 'Alusta kirjutamist...'

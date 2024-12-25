@@ -12,4 +12,7 @@ nodeloc-whisper:
     dropdown:
       tooltip: Vestlused
     modal:
+      help_start: 'Saada sõnum kasutajale {username}.'
+      search_recipients: 'Sisesta kasutajanimi...'
+      submit: Saada
       title: 'Saada sõnum'

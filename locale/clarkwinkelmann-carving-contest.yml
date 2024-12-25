@@ -5,5 +5,7 @@
 clarkwinkelmann-carving-contest:
   forum:
     page:
+      already-liked: 'See meeldib mulle'
       like: Meeldib
       loading: 'Sissekannete laadimine...'
+      unlike: 'Ei meeldi'

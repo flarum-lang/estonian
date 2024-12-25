@@ -8,3 +8,6 @@ glowingblue-localizd:
       title: 'Tõlgitud seaded'
     translation_key:
       translate: Tõlgi
+  forum:
+    errors:
+      deleted: 'Lehekülg võib olla kustutatud'

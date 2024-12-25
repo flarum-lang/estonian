@@ -10,5 +10,8 @@ clarkwinkelmann-vote-with-money:
   forum:
     vote:
       balance: 'Sinu saldo: {amount}'
+      label:
+        custom: 'Kohandatud summa'
       optionCustom: Kohandatud
+      submit: Saada
       title: 'Kinnita hääl'

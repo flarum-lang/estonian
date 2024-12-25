@@ -9,3 +9,6 @@ ianm-syndication:
       forum_activity: 'Foorumi aktiivsus'
       forum_new_discussions: 'Foorumi uued vestlused'
       user_last_posts: 'Selle kasutaja postitused'
+    feeds:
+      titles:
+        main_title: '{forum_name}'

@@ -3,7 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 geo-weather:
+  admin:
+    apiKey: 'API võti'
   forum:
+    clouds: Pilved
+    humidity: Niiskus
     rain: Vihm
     temp: 0°
     unknown: tundmatu

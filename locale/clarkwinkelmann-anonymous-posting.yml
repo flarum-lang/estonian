@@ -6,4 +6,5 @@ clarkwinkelmann-anonymous-posting:
   admin:
     settings:
       alwaysAnonymiseEdits: 'Alati anonümiseeri muutmisi'
+      composerHelpTextPositionHidden: Peidetud
       defaultAnonymity: 'Uus sisu on vaikimisi anonüümne'

@@ -8,3 +8,5 @@ clarkwinkelmann-catch-the-fish:
       add: Lisa
       delete: Kustuta
       edit: Muuda
+    new-fish-modal:
+      title: 'Uus kala'

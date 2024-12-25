@@ -5,6 +5,7 @@
 tituspijean-auth-ldap:
   admin:
     settings:
+      port: port
       title: 'LDAP seaded'
   forum:
     log_in_with: 'Logi sisse kasutades teenust {server}'

@@ -10,4 +10,7 @@ davwheat-share:
       menu: 'Tegevuste menüüs'
     display_options_label: 'Jagamise nupu stiil'
     preview:
+      dropdown:
+        delete: Kustuta
+        edit: Muuda
       reply: Vasta

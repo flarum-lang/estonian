@@ -16,3 +16,6 @@ fof-oauth:
       with_wordpress_button: '=> fof-oauth.forum.log_in.with_button'
     providers:
       wordpress: '=> fof-oauth.lib.providers.wordpress'
+  lib:
+    providers:
+      wordpress: WordPress

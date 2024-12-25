@@ -9,3 +9,4 @@ sycho-private-facade:
         options:
           show_header: 'Näita päist'
         title: 'Päise paigutus'
+      primary_color_bg: 'Kasuta peamise värvi tausta'

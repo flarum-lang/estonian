@@ -8,3 +8,5 @@ nyu8-email-filter:
     general: Üldine
     name_placeholder: 'Reegli nimi'
     rule_settings: 'Reegli seaded'
+    whitelist_literal:
+      label: 'Valge nimekiri'

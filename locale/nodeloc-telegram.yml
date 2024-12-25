@@ -11,3 +11,5 @@ nodeloc-telegram:
       title: 'TelegramProvide seaded'
   forum:
     log_in_with_telegram_button: 'Logi sisse Telegramiga'
+    settings:
+      notify_by_telegram_heading: Telegram
