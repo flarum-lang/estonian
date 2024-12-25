@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 pay-to-see:
+  forum:
+    tag_no_permission_title: 'Sisu nägemiseks maksa'
   lib:
+    cancel: Loobu
     confirm: Kinnita
     ok: OK
+    save: Salvesta

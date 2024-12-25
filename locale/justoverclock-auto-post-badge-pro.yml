@@ -4,6 +4,10 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    levelFive: 'Tase 5'
+    levelFour: 'Tase 4'
     levelOne: 'Tase 1'
+    levelSeven: 'Tase 7'
+    levelSix: 'Tase 6'
     levelTree: 'Tase 3'
     levelTwo: 'Tase 2'

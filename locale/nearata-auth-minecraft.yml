@@ -5,6 +5,11 @@
 nearata-auth-minecraft:
   admin:
     settings:
+      api_secret:
+        label: 'API salasõna'
+      api_url:
+        help: 'Näiteks: http://localhost:4567/verify'
+        label: 'API URL'
       minecraft_server:
         help: 'Näidis: minudomeen.ee'
         label: 'Minecraft serveri IP'

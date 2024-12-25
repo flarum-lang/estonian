@@ -4,5 +4,9 @@
 
 sycho-github-milestone:
   admin:
+    closed: '=> sycho-github-milestone.ref.closed'
+    default_filter: 'Vaikimisi filter'
+    milestone: 'Eesmärgi ID'
+    open: '=> sycho-github-milestone.ref.open'
     repository: 'GitHubi hoidla'
     repository_example: 'näidis: flarum/core'

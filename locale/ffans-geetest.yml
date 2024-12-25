@@ -5,4 +5,6 @@
 ffans-geetest:
   admin:
     settings:
+      context_event_login_label: '=> core.ref.log_in'
       product_service_label: 'CAPTCHA toode'
+      product_service_v3_label: 'CAPTCHA (v3)'

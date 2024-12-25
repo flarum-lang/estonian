@@ -6,3 +6,6 @@ fof-impersonate:
   admin:
     permissions:
       login: 'Logi sisse kui teine kasutaja'
+  lib:
+    modal:
+      title: 'Logi sisse kui teine kasutaja'

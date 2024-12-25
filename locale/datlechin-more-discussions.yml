@@ -8,3 +8,5 @@ datlechin-more-discussions:
       block_name_help: 'Bloki nimi (vaikimisi <code>Viimased vestlused</code>)'
       block_name_label: 'Blokeeri nimi'
       discussion_limit_label: 'Vestluse limiit'
+      discussion_related_label: 'Seotud tulemused'
+      filter_by_label: Filtreeri

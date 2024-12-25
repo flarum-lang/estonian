@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 the-turk-stickiest:
+  admin:
+    settings:
+      badge_icon_text: '=> core.ref.icon_text'
   forum:
     stickiest_modal:
       sticky_label: '=> flarum-sticky.ref.sticky'

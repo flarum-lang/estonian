@@ -6,3 +6,9 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 'Luba täisekraan'
     autoplay: 'Automaatne esitamine'
+  forum:
+    modal:
+      label:
+        channel: 'Kanali nimi'
+        collection: 'Kogu ID'
+        layout: Paigutus

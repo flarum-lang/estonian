@@ -5,5 +5,8 @@
 nodeloc-emoji:
   admin:
     settings:
+      auto_hide_label: 'Automaatne peitmine'
       category_settings_heading: 'Kategooria seaded'
       emoji_settings_heading: 'Emotikoni seaded'
+      general_ui_settings_heading: 'Üldised kasutajaliidese seaded'
+      show_variants_label: 'Näita variante'

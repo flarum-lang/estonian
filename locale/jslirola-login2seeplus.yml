@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 jslirola-login2seeplus:
+  admin:
+    hide: Peida
+    title: Login2SeePlus
   forum:
+    image: 'Pildi nägemiseks logi sisse'
     link: 'Lingi nägemiseks logi sisse'
     post: 'Kogu postituse nägemiseks pead {login} või {register}'

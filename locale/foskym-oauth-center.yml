@@ -9,3 +9,5 @@ foskym-oauth-center:
       index: avaleht
     permission:
       use_oauth: 'Kasuta OAuthi'
+    settings:
+      display_mode: 'Näitamise režiim'

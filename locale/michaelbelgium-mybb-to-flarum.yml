@@ -6,3 +6,6 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: Migreeru
+      form:
+        options:
+          title: 'Muud valikut'

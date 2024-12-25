@@ -7,4 +7,6 @@ the-turk-miserable-users:
     permissions:
       miserable_user_label: '=> the-turk-miserable-users.ref.miserable_user'
     settings:
+      loading_delay_label: 'Laadimise viivitus'
+      range_seconds_text: ' sekundit'
       range_separator_text: ' kuni '

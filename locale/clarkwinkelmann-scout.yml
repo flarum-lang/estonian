@@ -8,3 +8,4 @@ clarkwinkelmann-scout:
       driver: Draiver
       driverOption:
         'null': Nulli
+        tntsearch: TNTSearch

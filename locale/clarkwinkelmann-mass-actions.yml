@@ -6,5 +6,8 @@ clarkwinkelmann-mass-actions:
   forum:
     select:
       all: Kõik
+      locked: Lukustatud
       none: Pole
       read: Loe
+      unread: Lugemata
+      visible: 'Pole kustutatud'

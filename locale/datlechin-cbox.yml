@@ -7,3 +7,4 @@ datlechin-cbox:
     settings:
       box_id: 'Kasti ID'
       secret: Salasõna
+      show_when_user_not_login: 'Näita, kui kasutaja pole sisse loginud'

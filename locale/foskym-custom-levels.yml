@@ -5,4 +5,5 @@
 foskym-custom-levels:
   admin:
     settings:
+      expDesc: 'Saadaolevad muutujad: [expTotal] [expPercent] [nextLevel] [expToNextLevel]'
       levelDesc: 'Saadaolevad muutujad：[tase]'

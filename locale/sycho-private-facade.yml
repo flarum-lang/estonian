@@ -8,3 +8,4 @@ sycho-private-facade:
       header_layout:
         options:
           show_header: 'Näita päist'
+        title: 'Päise paigutus'

@@ -5,3 +5,7 @@
 malago-achievements:
   forum:
     achievement_points: Punktid
+    achievement_total_points: Kokku
+    list_heading: Saavutused
+    new_achievement_close: Selge!
+    new_achievement_name: Saavutus

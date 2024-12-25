@@ -7,3 +7,6 @@ blessing-oauth-client:
     popup:
       field:
         app-id: 'OAuth kliendi ID'
+        app-secret: 'OAuth kliendi salasõna'
+        button-icon: 'Sisselogimisnupu ikoon'
+        button-title-placeholder: '=> blessing-oauth-client.api.default-login-button-title'

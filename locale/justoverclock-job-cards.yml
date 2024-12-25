@@ -4,5 +4,8 @@
 
 justoverclock-job-cards:
   forum:
+    avatarField: 'Avatar (URL)'
+    fullNameField: 'Täispikk nimi'
+    jobFormTitle: 'Töö kaart'
     jobProfile: 'Töö profiil'
     saveBtn: Salvesta

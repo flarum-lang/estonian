@@ -6,3 +6,4 @@ sas_sam-regrole:
   admin:
     settings:
       allowed_roles_label: 'Lubatud rollid'
+      other_options_heading: 'Muud valikud'

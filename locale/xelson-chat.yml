@@ -61,6 +61,8 @@ xelson-chat:
       rejoin: 'Liitu uuesti'
     toolbar:
       disable_notifications: 'Lülita teavitused välja'
+      disable_sounds: 'Keela helid'
       enable_notifications: 'Lülita teavitused sisse'
+      enable_sounds: 'Luba helid'
       maximize: Maksimeeri
       minimize: Minimeeri

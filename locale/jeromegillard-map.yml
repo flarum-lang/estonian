@@ -4,5 +4,8 @@
 
 jeromegillard-map:
   admin:
+    settings:
+      zoom:
+        help: 'Ükskõik, mis täisarv vahemikus 0 kuni 18.'
     templates:
       map: Kaart

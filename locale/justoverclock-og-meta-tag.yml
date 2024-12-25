@@ -4,4 +4,6 @@
 
 justoverclock-og-meta-tag:
   admin:
+    ogdesc: 'Open Graph kirjeldus'
+    ogimage: 'Open Graph pilt'
     siteName: 'Saidi nimi'

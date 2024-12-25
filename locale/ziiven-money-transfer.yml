@@ -5,4 +5,7 @@
 ziven-transfer-money:
   forum:
     transfer-list-empty: 'Ülekannete ajalugu on tühi'
+    transfer-list-id: ID
     transfer-list-load-more: 'Laadi lisa'
+    transfer-list-target-user: Sihtkasutaja
+    transfer-list-type: Liik

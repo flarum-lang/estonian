@@ -8,5 +8,7 @@ clarkwinkelmann-translation-inspector:
       inspect: 'Kontrolli tõlkeid'
   lib:
     modal:
+      extension-unknown: 'Tundmatu lisaprogramm'
       key: 'Tõlke võti'
+      original: 'Algne inglisekeelne tõlge'
       title: 'Tõlke inspekteerija'

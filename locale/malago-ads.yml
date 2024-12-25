@@ -6,3 +6,8 @@ flagrow-ads:
   admin:
     buttons:
       save: 'Salvesta seaded'
+    positions:
+      between-posts:
+        placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
+      under-header:
+        placeholder: 'Sisesta oma reklaami kood siia.'

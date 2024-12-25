@@ -6,3 +6,9 @@ kilowhat-rich-embeds:
   admin:
     settings:
       layout: Paigutus
+      layoutOptions:
+        block: Plokk
+        separated: Eraldatud
+      position: Asukoht
+      positionOptions:
+        replace: 'Asenda link'

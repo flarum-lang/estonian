@@ -4,5 +4,10 @@
 
 davwheat-share:
   admin:
+    button_preview_header: Eelvaade
     display_options:
       icon: 'Ainult ikoonid'
+      menu: 'Tegevuste menüüs'
+    display_options_label: 'Jagamise nupu stiil'
+    preview:
+      reply: Vasta

@@ -5,5 +5,8 @@
 clarkwinkelmann-colorful-borders:
   forum:
     apply: Rakenda
+    backgroundColor: Taustavärv
+    borderColor: 'Piirjoone värv'
     default: Vaikeväärtus
     edit: 'Muuda stiili'
+    textColor: 'Teksti värv'

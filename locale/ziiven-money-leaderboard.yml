@@ -5,3 +5,5 @@
 ziven-money-leaderboard:
   forum:
     leaderboard-list-title: 'Raha edetabel'
+    leaderboard-list-user: Kasutaja
+    leaderboard-load-more: 'Laadi lisa'

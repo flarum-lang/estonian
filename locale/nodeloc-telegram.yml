@@ -7,4 +7,7 @@ nodeloc-telegram:
     settings:
       field:
         botUsername: 'Roboti kasutajanimi'
+        enableNotifications: 'Luba teavitused'
       title: 'TelegramProvide seaded'
+  forum:
+    log_in_with_telegram_button: 'Logi sisse Telegramiga'

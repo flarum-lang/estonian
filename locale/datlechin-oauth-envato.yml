@@ -8,3 +8,9 @@ fof-oauth:
       providers:
         envato:
           client_id_label: 'Kliendi ID'
+  forum:
+    providers:
+      envato: '=> fof-oauth.lib.providers.envato'
+  lib:
+    providers:
+      envato: Envato

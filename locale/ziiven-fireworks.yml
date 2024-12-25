@@ -4,4 +4,6 @@
 
 ziven-fireworks:
   admin:
+    option-acceleration: Kiirendamine
     option-hue: Värv
+    option-opacity: Läbipaistvus

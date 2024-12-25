@@ -7,4 +7,7 @@ fof-passport:
     popup:
       field:
         app-auth-url: 'OAuth autoriseerimise URL'
+        app-id: 'OAuth rakenduse ID'
+        app-secret: 'OAuth rakenduse salasõna'
         app-token-url: 'OAuth kontrollkoodi URL'
+        button-title: 'Sisselogimisnupu silt'

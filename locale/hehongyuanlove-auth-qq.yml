@@ -8,3 +8,10 @@ hehongyuanlove-auth-qq:
       client_id_label: 'Rakenduse ID'
       client_secret_label: 'Rakenduse salasõna'
       title: 'QQ seaded'
+  forum:
+    buttons:
+      link: 'Seosta QQ-ga'
+      login: '=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button'
+      unlink: 'Eemalda seos QQ-ga'
+    log_in:
+      with_qq_button: QQ

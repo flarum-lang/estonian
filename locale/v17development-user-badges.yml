@@ -4,4 +4,7 @@
 
 v17development-flarum-badges:
   admin:
+    create_category: 'Loo kategooria'
+    edit_category: 'Muuda kategooriat'
     uncategorized: Liigitamata
+    update_category: 'Uuenda kategooriat'

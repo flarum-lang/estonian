@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-see-past-first-post:
+  admin:
+    settings:
+      hide-first-post: 'Peida ka esimene postitus'
   forum:
     cant-see: 'Sul pole õigusi vastuste vaatamiseks'
     login-to-see: 'Logi sisse, et vastuseid näha'

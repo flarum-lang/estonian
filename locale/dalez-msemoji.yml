@@ -6,6 +6,8 @@ flarum-msemoji:
   admin:
     settings:
       base: Peamine
+      ext: Lisaprogramm
+      folder: Kaust
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'

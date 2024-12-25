@@ -6,3 +6,8 @@ flarum-ext-bbcode-5star-rating:
   forum:
     button:
       tooltip: 'vali 5 tärni hinnang'
+    modal:
+      headline: 'Vali oma hinnang'
+      stars_0: '0 tähte'
+      stars_1: '0,5 tähte'
+      stars_2: '1 täht'

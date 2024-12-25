@@ -5,5 +5,10 @@
 clarkwinkelmann-typewriter:
   admin:
     settings:
+      add: 'Lisa heli'
       defaultFile: 'Vaikimisi heli fail'
+      head:
+        file: Fail
+        keys: Võtmed
       muteByDefault: 'Vaigista vaikimisi'
+      sounds: Lisahelid

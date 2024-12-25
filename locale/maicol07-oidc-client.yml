@@ -6,4 +6,5 @@ maicol07-oidc-client:
   admin:
     settings:
       client:
+        id: 'Kliendi ID'
         title: 'Kliendi seaded'

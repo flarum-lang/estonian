@@ -10,3 +10,8 @@ askvortsov-article-series:
     article_item:
       next_article: 'Järgmine artikkel'
       prev_article: 'Eelmine artikkel'
+    article_list:
+      title: '{series} artikliseeriad'
+    article_series_modal:
+      tag_id_label: 'Artiklite seeria silt'
+      title: 'Artiklite seeriate seaded'

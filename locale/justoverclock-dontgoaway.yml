@@ -6,3 +6,5 @@ flarum-ext-dontgoaway:
   admin:
     modtitle: 'Hüpikakna pealkiri'
     modtitledesc: 'Kohanda hüpikakna pealkiri'
+    urltext: 'Sinu kohandatud pildi URL'
+    widthtext: 'Pildi laius'

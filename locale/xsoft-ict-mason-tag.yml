@@ -4,5 +4,12 @@
 
 xsoft-mason-tag:
   forum:
+    answers-modal:
+      save: 'Salvesta väljad'
+    answers:
+      choose-option: 'Tee valik'
+      no-option-selected: 'Ühtegi valikut pole tehtud'
     discussion-controls:
       edit-answers: 'Muuda väljasid'
+    post-answers:
+      no-answer: 'Vastust pole'

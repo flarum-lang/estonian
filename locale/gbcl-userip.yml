@@ -7,6 +7,10 @@ gbcl-userip:
     permissions:
       view_ip_info_label: 'Näita IP infot'
     service:
+      ipinfo:
+        label: IpInfo
+      ipsb:
+        label: IP.SB
       label: Teenus
   forum:
     unknownNotice: Tundmatu

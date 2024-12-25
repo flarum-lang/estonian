@@ -5,5 +5,7 @@
 ianm-gravatar:
   admin:
     settings:
+      defaults:
+        title: Vaikeväärtused
       proxy:
         title: 'Proksi gravatarid'

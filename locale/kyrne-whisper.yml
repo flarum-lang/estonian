@@ -4,6 +4,11 @@
 
 kyrne-whisper:
   admin:
+    permissions:
+      start_label: 'Privaatsete vestluste alustamine'
     settings:
       return_key: 'Võtme tagastamine saadab sõnumi'
       title: 'Sosistaja seaded'
+  forum:
+    dropdown:
+      tooltip: Vestlused

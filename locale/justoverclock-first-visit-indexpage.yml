@@ -4,5 +4,8 @@
 
 first-visit-indexpage:
   forum:
+    accept-rules: 'Olen tingimusi lugenud ja nõustun nendega'
+    agree-button: Nõustun...
     alert-message: 'Jätkamiseks nõustu palun nende tingimustega'
+    app-title: 'Foorumi reeglid'
     title: 'Foorumi reeglid...'

@@ -6,3 +6,4 @@ datlechin-pronouns:
   forum:
     change_pronouns:
       submit_button: '=> core.ref.save_changes'
+      title: 'Muuda eesliiteid'

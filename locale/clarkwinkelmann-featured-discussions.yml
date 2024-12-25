@@ -7,3 +7,8 @@ clarkwinkelmann-featured-discussions:
     settings:
       duration: 'Vaikimisi kestus (sekundites)'
       schedule: 'Graafik (CRON süntaks)'
+  forum:
+    modal:
+      fields:
+        until: Kuni
+      title: 'Tõsta vestlus esile'

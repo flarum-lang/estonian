@@ -4,6 +4,12 @@
 
 danirod-plausible:
   admin:
+    settings:
+      domain:
+        help: 'Domeen, mida kasutatakse statistika saatmiseks.'
+        label: Domeen
+      enable:
+        label: 'Sisse lülitatud'
     validation:
       domain:
         regex: 'Sisestatud domeen pole korrektne'

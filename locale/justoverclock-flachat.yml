@@ -5,3 +5,4 @@
 justoverclock-flachat:
   admin:
     publishKey: 'PubNub Publish võti (tasuta)'
+    subscribeKey: 'PubNub Subscribe võti (tasuta)'

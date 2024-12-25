@@ -6,5 +6,8 @@ datitisev-backup:
   admin:
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
+      aws: 'Amazon AWS S3'
       azure: 'Microsoft Azure'
+      dropbox: Dropbox
+      gdrive: 'Google Drive'
       local: 'Kohalik salvestusruum'

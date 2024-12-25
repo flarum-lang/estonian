@@ -6,3 +6,5 @@ nyu8-email-filter:
   admin:
     custom_failure_message_label: 'Kohandatud ebaõnnestumise teade'
     general: Üldine
+    name_placeholder: 'Reegli nimi'
+    rule_settings: 'Reegli seaded'

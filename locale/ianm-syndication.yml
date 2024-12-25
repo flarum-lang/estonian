@@ -5,5 +5,7 @@
 ianm-syndication:
   forum:
     autodiscovery:
+      discussion_last_posts: 'See vestlus'
       forum_activity: 'Foorumi aktiivsus'
       forum_new_discussions: 'Foorumi uued vestlused'
+      user_last_posts: 'Selle kasutaja postitused'

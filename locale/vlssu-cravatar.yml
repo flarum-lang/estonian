@@ -5,5 +5,7 @@
 vlssu-flarum-cravatar:
   admin:
     settings:
+      defaults:
+        title: Vaikeväärtused
       proxy:
         title: 'Proksi cravatarid'

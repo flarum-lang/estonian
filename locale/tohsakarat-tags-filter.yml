@@ -8,3 +8,7 @@ tohsakarat-tags-filter:
       filter_tags:
         accessible_label: 'siltide filter'
         all: kõik
+        label: '{text}'
+        no_results: 'Tulemusi pole'
+        search_label: Otsi...
+        start_typing: 'Alusta kirjutamist...'

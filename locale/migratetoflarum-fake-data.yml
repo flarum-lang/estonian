@@ -6,3 +6,6 @@ migratetoflarum-fake-data:
   lib:
     generator:
       bulk-mode: Hulgitöötlus
+      discussion-count: 'Vestluste arv, mida luua'
+      discussion-tags: 'Uue vestluse sildid'
+      discussion-tags-none: Pole

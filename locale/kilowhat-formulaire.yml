@@ -5,5 +5,9 @@
 kilowhat-formulaire:
   admin:
     permissions:
+      editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+      fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (kolmanda osapoole lisaprogrammide valikud)'
+      seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
+      seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'

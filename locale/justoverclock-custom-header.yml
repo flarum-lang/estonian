@@ -4,6 +4,8 @@
 
 custom-header:
   admin:
-    headerTagline: 'Hüüdlause päises'
+    facebookIcon: 'Link sinu Facebooki lehele'
+    headerTagline: 'Tunnuslause päises'
     headerTitle: 'Päise pealkiri'
     headerTitle-help: 'Siin saad muuta oma päise peamist pealkirja'
+    twitterIcon: 'Link Twitteri leheküljele'

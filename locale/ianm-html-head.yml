@@ -6,5 +6,9 @@ ianm-html-head:
   admin:
     create_button: Loo
     table:
+      active_label: Aktiivne
+      delete_button: Kustuta
       description_label: Kirjeldus
+      edit_button: Muuda
+      empty_text: 'Sissekandeid pole'
       header_label: Päis

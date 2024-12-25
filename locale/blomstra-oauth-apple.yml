@@ -9,3 +9,7 @@ fof-oauth:
         apple:
           client_id_label: 'Teenuse ID identifikaator'
           key_file_id_label: 'Võtme faili identifikaator'
+          keyfile_upload:
+            remove_button: 'Eemalda võtmefail'
+          keyfile_upload_help: 'Loo <a>võtmefail</a> ja laadi see siia üles'
+          keyfile_upload_label: Võtmefail

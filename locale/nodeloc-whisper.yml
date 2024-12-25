@@ -4,5 +4,12 @@
 
 nodeloc-whisper:
   admin:
+    permissions:
+      start_label: 'Privaatsete vestluste alustamine'
     settings:
       title: 'Sosistaja seaded'
+  forum:
+    dropdown:
+      tooltip: Vestlused
+    modal:
+      title: 'Saada sõnum'

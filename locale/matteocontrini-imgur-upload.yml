@@ -6,3 +6,6 @@ imgur-upload:
   admin:
     settings:
       allow-paste: 'Luba pildi üleslaadimine lõpikalaualt kopeerimisega'
+      embed-type:
+        preview-without-link: 'Eelvaade ilma lingita'
+        title: 'Põimimise liik'

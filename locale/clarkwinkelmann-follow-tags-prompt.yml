@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-follow-tags-prompt:
+  admin:
+    settings:
+      buttonOnFollowingPage: 'Näita nuppu jälgimise leheküljel'
   forum:
     controls:
       choose: 'Vali sildid, mida jälgida'

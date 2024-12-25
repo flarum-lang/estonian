@@ -6,3 +6,5 @@ v17development-flarum-support:
   forum:
     ask_a_question_on_forums: 'Küsi küsimus foorumis'
     knowledge_base: Teabebaas
+    or: või
+    settings: '=> core.ref.settings'

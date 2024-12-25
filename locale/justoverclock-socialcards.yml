@@ -7,3 +7,5 @@ flarum-ext-socialcards:
     settings:
       fblink: 'Facebooki link'
       showfacebook: 'Luba Facebook'
+      showyoutube: 'Luba Youtube kasutamine'
+      ytlink: 'Youtube link'

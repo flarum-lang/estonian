@@ -8,3 +8,7 @@ nearata-embed-video:
       options:
         airplay: Airplay
         hotkey: 'Klaviatuuri otsetee'
+        lang: 'Esitaja keel'
+        logo: 'Logo URL'
+        quality_switching: 'Kvaliteedi lülitamine'
+        theme: 'Teema värv'

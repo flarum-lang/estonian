@@ -5,3 +5,5 @@
 xypp-forum-quests:
   forum:
     condition_not_found: 'Tingimust {condition} ei leitud'
+    quest:
+      load_more: 'Laadi rohkem'

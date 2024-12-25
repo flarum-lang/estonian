@@ -8,3 +8,5 @@ nearata-cloudflare:
       title: 'Cloudflare arendusrežiim on aktiivne'
     settings:
       api_key: 'API võti'
+      refresh_zone_button_label: 'Värskenda tsooni iD-d'
+      security_level_label: 'Turvalisuse tase'

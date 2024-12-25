@@ -6,4 +6,5 @@ justoverclock-check-duplicate-discussions:
   admin:
     similarNumber: 'Sarnased vestlused, mida näidata'
   forum:
+    solvedSimilar: '- Lahendatud'
     title: 'Leiti sarnaseid teemasid!'

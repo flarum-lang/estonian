@@ -6,3 +6,5 @@ glowingblue-localizd:
   admin:
     settings:
       title: 'Tõlgitud seaded'
+    translation_key:
+      translate: Tõlgi

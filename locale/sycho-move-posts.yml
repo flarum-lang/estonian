@@ -4,5 +4,12 @@
 
 sycho-move-posts:
   admin:
+    permissions:
+      move_posts: '=> sycho-move-posts.ref.move_posts'
     settings:
       moved_first_post_content: 'Liigutatud vestluse (esimene postitus) sisu'
+  forum:
+    badge:
+      first_moved_tooltip: Liigutatud
+    discussion:
+      move_posts: '=> sycho-move-posts.ref.move_posts'

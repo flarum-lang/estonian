@@ -7,3 +7,9 @@ clarkwinkelmann-composer-page:
     settings:
       forPrivateDiscussions: 'Kasuta privaatsetes vestlustes'
       onlyInTags: 'Ainult järgnevates siltides (valikuline)'
+  forum:
+    nav:
+      cancel: 'Välju koostajast'
+      continue: 'Jätka vestlust'
+    page:
+      title: 'Alusta vestlust'

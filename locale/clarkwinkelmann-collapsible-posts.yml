@@ -5,6 +5,8 @@
 clarkwinkelmann-collapsible-posts:
   admin:
     settings:
+      add: 'Uus põhjus'
+      explanationUrl: 'Selgituse URL'
       header:
         key: 'Unikaalne andmebaasi võti'
         label: Silt

@@ -6,6 +6,7 @@ walsgit_discussion_cards:
   admin:
     settings:
       general:
+        allowedTags_label: 'Vali sildid'
         where_title: 'Kus?'
   forum:
     replies: 'Vastuseid: {count}'

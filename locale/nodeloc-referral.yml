@@ -4,6 +4,12 @@
 
 nodeloc-referral:
   admin:
+    permissions:
+      referral_key: 'Kes saab kutsuda'
     settings:
+      expires: Aegub
+      max_number: 'Maks. arv'
       price: Hind
       reward: Tasu
+  forum:
+    referral: Viitaja

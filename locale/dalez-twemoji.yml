@@ -6,6 +6,9 @@ flarum-twemoji:
   admin:
     settings:
       base: Peamine
+      baseph: 'Näidis: https://www.minusait.ee/'
+      ext: Lisaprogramm
+      folder: Kaust
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'

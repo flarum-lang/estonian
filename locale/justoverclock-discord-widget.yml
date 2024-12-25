@@ -5,3 +5,8 @@
 justoverclock-discord-widget:
   admin:
     channelId: 'Kanali ID'
+  forum:
+    channels: Kanalid
+    close: Sulge
+    joinUs: Liitu
+    onlineUsers: 'Kasutajad saidil: '

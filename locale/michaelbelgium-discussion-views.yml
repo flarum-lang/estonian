@@ -7,3 +7,7 @@ core:
     index_sort:
       popular_button: Populaarne
       unpopular_button: Ebapopulaarne
+michaelbelgium-discussion-views:
+  forum:
+    modal_resetviews:
+      submit_button: 'Jah, eemalda kohe'

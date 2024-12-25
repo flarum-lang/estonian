@@ -4,5 +4,9 @@
 
 nearata-tags-color-generator:
   admin:
+    color_hue_label: Värvitoon
     color_luminosity_options:
+      bright: Hele
+      dark: Tume
+      light: Hele
       random: Juhuslik

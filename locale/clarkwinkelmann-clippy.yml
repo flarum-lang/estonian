@@ -5,6 +5,7 @@
 clarkwinkelmann-clippy:
   admin:
     settings:
+      agent: Agent
       cdn: CDN
       cdn-options:
         jsdelivr: jsDelivr

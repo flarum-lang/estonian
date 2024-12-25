@@ -5,3 +5,6 @@
 justoverclock-igdb-api:
   admin:
     rawgApi: 'RawG API võti'
+  forum:
+    genres: Žanrid
+    publisher: Avaldaja

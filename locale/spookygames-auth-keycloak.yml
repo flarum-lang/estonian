@@ -5,4 +5,7 @@
 flarum-ext-auth-keycloak:
   admin:
     keycloak_settings:
+      client_id_label: 'Kliendi ID'
+      client_secret_label: 'Kliendi salasõna'
+      server_url_label: 'Serveri URL'
       title: 'Keycloack seaded'

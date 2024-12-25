@@ -6,4 +6,6 @@ foskym-issue-tracking-youtrack:
   admin:
     fields:
       heading: 'Probleemide jälgimine: YouTrack'
+      project_label: 'YouTrack projekti ID'
+      resolved_state_label: 'Lahendamise staatus'
       url_label: 'YouTrack URL'

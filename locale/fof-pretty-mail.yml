@@ -11,6 +11,7 @@ fof-pretty-mail:
     settings:
       attributes:
         body: 'Sisaldab tegelikku kirja sisu'
+        url: 'Flarum <code>UrlGenerator</code>'
       default: 'Vaikimisi mall'
       label: 'E-kirja mallid'
       reset: 'Taasta vaikeväärtused'

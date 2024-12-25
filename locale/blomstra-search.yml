@@ -4,5 +4,9 @@
 
 blomstra-search:
   admin:
+    analyzer:
+      label: 'Analüüsi keel'
+    elastic-index: Indeks
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    search-discussion-subjects: 'Otsi vestluste pealkirjadest'

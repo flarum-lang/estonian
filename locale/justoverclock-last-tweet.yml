@@ -4,5 +4,8 @@
 
 justoverclock-last-tweet:
   admin:
+    profile: 'Profiili URL'
+    profile-help: 'näidis - https://twitter.com/flarum'
+    theme: Teema
     tweet_number: 'Säutsu number'
     tweet_number-help: 'Pane siia säutsude arv, mida näidatakse (vaikeväärtus on 2)'

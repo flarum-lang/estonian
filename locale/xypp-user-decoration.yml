@@ -4,5 +4,10 @@
 
 xypp-user-decoration:
   forum:
+    decoration-box:
+      avatar: 'Avatari stiil'
+      error: 'Tundmatu liik'
+      name: 'Kasutajanime stiil'
+      post: 'Postituse stiil'
     decoration-no-available: 'Dekoratsioone pole saadaval'
     decorations: Dekoratsioonid

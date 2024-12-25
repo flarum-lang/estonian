@@ -3,5 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 dem13n:
+  admin:
+    settings:
+      actor_info: 'Näita autorit'
+      choose_tags: 'Vali sildid'
+      small_cards: 'Peamiste kaartide arv'
   forum:
     replies: 'Vastuseid: {count}'

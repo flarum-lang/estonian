@@ -5,4 +5,5 @@
 fof-stopforumspam:
   admin:
     settings:
+      api_key_label: 'API võti'
       username_label: 'Kasutajanime rämpspostikontroll'

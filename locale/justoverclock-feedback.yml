@@ -5,4 +5,6 @@
 justoverclock-feedback:
   admin:
     contactmail: 'E-posti aadress kuhu tagasisidet saata'
+    feedback1-icon-help: 'Sisesta tekstiikoone nagu "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐'
     feedback1-title: 'Tagasiside liik 1'
+    feedback2-title: 'Tagasiside liik 2'

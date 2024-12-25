@@ -6,4 +6,5 @@ shebaoting-money:
   admin:
     settings:
       initialmoney: 'Algne rahasumma uuel kasutajal'
+      moneyname: 'Selle raha nimi (nt: [money] punkti)'
       title: Seaded

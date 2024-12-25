@@ -8,3 +8,8 @@ hikarilan-passkey-login:
       relying_party:
         name:
           help: 'See on inimloetav nimi sinu saidile. Kui jätad selle tühjaks, siis kasutatakse hoopis foorumi pealkirja.'
+      timeout:
+        label: Aegumine
+  forum:
+    login:
+      with-passkey: 'Logi sisse passkey-ga'

@@ -4,5 +4,8 @@
 
 justoverclock-user-pc-specs:
   forum:
+    cabinet: 'Kabinet:'
+    gpu: 'GPU:'
     savePcSpecs: 'Salvesta arvuti parameetrid'
     so: 'Operatsioonisüsteem:'
+    storage: 'Salvestusruum:'

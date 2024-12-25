@@ -4,4 +4,5 @@
 
 justoverclock-reputation-score:
   admin:
+    resetRewardsButton: 'Nulli kõik kasutajate autasud'
     tagMinimumReputationLabel: 'Minimaalne reputatsiooni piirang'

@@ -5,5 +5,7 @@
 clarkwinkelmann-external-email-validation:
   admin:
     settings:
+      headers: 'Päringu päised'
+      headers-help: 'Üks päis rea kohta'
       method: 'Nõude meetod'
       uri: 'Nõude URI'

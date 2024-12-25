@@ -4,6 +4,9 @@
 
 nomiscz-auth-steam:
   forum:
+    alerts:
+      already_linked: 'Su konto on Steami kontoga juba seostatud!'
     buttons:
       link: 'Seosta Steami konto'
       login: 'Logi sisse Steamiga'
+      unlink: 'Eemalda Steami konto seos'

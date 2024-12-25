@@ -6,5 +6,6 @@ clarkwinkelmann-money-to-all:
   lib:
     modal:
       amount: Kogus
+      message: Sõnum
       notify: 'Saada veebiteavitus kasutajatele'
       title: 'Saada raha kõigile kasutajatele'

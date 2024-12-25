@@ -4,5 +4,8 @@
 
 flarum-ext-keywords:
   forum:
+    definition: Definitsioon
     pagetitle: 'Sõnastiku lehekülg'
+    searchtext: 'Kirjuta, et otsida sõnastikust...'
+    term: Termin
     title: Sõnastik

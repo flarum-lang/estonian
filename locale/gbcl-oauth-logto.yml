@@ -10,3 +10,11 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Liitu foorumiga kasutades Logto kontot {link}'
+  forum:
+    log_in:
+      with_logto_button: 'Logi sisse Logto kontoga'
+    providers:
+      logto: '=> fof-oauth.lib.providers.logto'
+  lib:
+    providers:
+      logto: Logto

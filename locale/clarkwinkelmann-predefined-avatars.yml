@@ -5,4 +5,5 @@
 clarkwinkelmann-predefined-avatars:
   admin:
     settings:
+      predefinedAvatarsDefault: 'Vaikimisi avatar'
       predefinedAvatarsOnly: 'Luba ainult eelmääratud avataride kasutamine'

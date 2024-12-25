@@ -4,5 +4,8 @@
 
 xypp-store-doorman:
   forum:
+    create:
+      group: 'Grupp pärast registreerimist'
+      select: 'Vali andmed'
     key: 'Kutse võti'
     key-not-found: 'Võtit ei leitud'

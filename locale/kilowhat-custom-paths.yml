@@ -5,6 +5,9 @@
 kilowhat-custom-paths:
   admin:
     settings:
+      extensions:
+        flarum-tags: 'Flarumi sildid'
+        kilowhat-formulaire: 'KILOWHAT Formulaire'
       head:
         name: Nimi
         path: Asukoht

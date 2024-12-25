@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 tituspijean-auth-ldap:
+  admin:
+    settings:
+      title: 'LDAP seaded'
   forum:
     log_in_with: 'Logi sisse kasutades teenust {server}'
     log_out: '=> core.ref.log_out'

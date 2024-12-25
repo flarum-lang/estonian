@@ -7,3 +7,6 @@ muhammedsaidckr-gemini:
     settings:
       api_key_help: 'Hangi Gemini API võti saidilt <a>google.gemini.com</a>.'
       api_key_label: 'API võti'
+      model_help: 'Vali mudel, mida kasutada.'
+      model_label: Mudel
+      role_label: Roll

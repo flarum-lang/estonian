@@ -8,3 +8,6 @@ fof-anti-spam:
       spamblock_users_label: 'Märgi kasutaja rämpspostitajaks'
     settings:
       button: Seaded
+      default-actions:
+        delete_discussions_label: 'Kustuta vestlused'
+        delete_posts_label: 'Kustuta postitused'

@@ -9,3 +9,6 @@ clarkwinkelmann-mailing:
   forum:
     links:
       mail_individual: 'Saada sellele kasutajale e-kiri'
+    modal_mail:
+      recipients_label: Saajad
+      title_text: 'Koosta e-kiri'

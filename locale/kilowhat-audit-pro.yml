@@ -4,5 +4,9 @@
 
 kilowhat-audit:
   admin:
+    header:
+      free: Tasuta
+      pro: Pro
+      title: Audit
     permissions:
       viewLimited: 'Vaata piiratud auditi logi'

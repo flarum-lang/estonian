@@ -7,4 +7,5 @@ foskym-activity-graph:
     settings:
       count_comments: 'Loe kommentaarid kokku'
       count_discussions: 'Vestluste arv'
+      count_invite_user_invites: 'Kasutaja kutsete arv (nõuab lisaprogrammi xypp/flarum-invite-user)'
       count_likes: 'Meeldimiste arv'

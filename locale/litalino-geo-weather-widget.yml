@@ -4,6 +4,9 @@
 
 geo-weather:
   forum:
+    rain: Vihm
+    temp: 0°
     unknown: tundmatu
     widget:
       title: 'Geo ilm'
+    wind: Kiirus

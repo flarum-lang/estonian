@@ -8,3 +8,5 @@ justoverclock-auto-post-count-badge:
       icon-manager:
         help_text: '=> core.ref.icon_text'
         title: 'Ikoonide haldamine'
+      label-manager:
+        title: 'Tekstisildi haldur'

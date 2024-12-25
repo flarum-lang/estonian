@@ -4,5 +4,9 @@
 
 ziven-decoration-store:
   lib:
+    cancel: Loobu
     close: Sulge
     confirm: Kinnita
+    item-type: 'Kirje liik'
+    none: Pole
+    ok: OK

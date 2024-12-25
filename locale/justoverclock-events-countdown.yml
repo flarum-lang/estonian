@@ -5,3 +5,5 @@
 justoverclock-events-countdown:
   admin:
     endTime: 'Seadista oma sündmuste lõppemise aeg'
+    evTitle: 'Sündmuste pealkiri'
+    fontaw: 'Kohandatud Fontawesome ikoon'

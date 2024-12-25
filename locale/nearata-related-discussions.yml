@@ -7,3 +7,8 @@ nearata-related-discussions:
     settings:
       allow_guests: 'Luba külalised'
       generator: Üldine
+      generator_options:
+        random: Juhuslik
+        title: 'Pealkirja järgi'
+      max_discussions: 'Maks. vestlusi'
+      max_discussions_help: 'Vaikeväärtus <strong>on</strong>.'

@@ -4,6 +4,11 @@
 
 michaelbelgium-umami:
   admin:
+    settings:
+      site_id:
+        label: 'Veebisaidi ID'
     widget:
       live: Laivis
       views: 'Lehekülje vaatamisi'
+      visitors: Külastajad
+      visits: Külastused

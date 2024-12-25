@@ -4,6 +4,10 @@
 
 xypp-answer-bounty:
   forum:
+    composer:
+      set: 'Määra autasu'
     modal:
+      clear: Tühjenda
       label: Summa
+      submit: Saada
       title: 'Määra autasu'
