@@ -459,6 +459,7 @@ CHANGELOG
 * [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+* [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 * [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
