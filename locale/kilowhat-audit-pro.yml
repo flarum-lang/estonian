@@ -8,8 +8,67 @@ kilowhat-audit:
       free: Tasuta
       pro: Pro
       title: Audit
+      upgrade: 'Uuenda PRO versioonile'
     limitedSettings:
       configure: Seadista
+      requiresExtension: 'Nõuab lisaprogrammi {extension}'
       title: 'Piiratud ligipääsu seaded'
     permissions:
       viewLimited: 'Vaata piiratud auditi logi'
+    settings:
+      limitedIpAddress: 'Vaata IP aadressi'
+  forum:
+    link:
+      all-audit: 'Augiti logi'
+      discussion-audit: 'Logi audit'
+      user-audit: 'Auditi logi (konto muudatused)'
+    modal:
+      all-title: 'Logi audit'
+  lib:
+    browser:
+      cache_cleared: 'Tühjendas vahemälu käsitsi'
+      client:
+        access_token: Ligipääsukood
+        api_key: 'API võti'
+        cli: Käsurida
+        session: Veebisessioon
+        unknown: 'Tundmatu klient'
+      controls:
+        hideRaw: 'Peida logi toorandmed'
+        showRaw: 'Näita logi toorandmeid'
+      deletedResource:
+        discussion: 'Vestlus #{id}'
+        group: 'Grupp #{id}'
+      discussion:
+        created: 'Alustas vestlust {discussion}'
+        deleted: 'Kustutas vestluse {discussion}'
+        hidden: 'Peitis vestluse {discussion}'
+        locked: 'Lukustas vestluse {discussion}'
+        merged_away: 'Liitis vestluse {discussion} vestlusega {new_discussion}'
+        restored: 'Taastas vestluse {discussion}'
+      empty: 'Tulemusi pole'
+      extension:
+        enabled: 'Lülitas sisse lisaprogrammi {package}'
+      filterApply: Rakenda
+      fof_ban_ips:
+        banned: 'Blokeeris IP-aadressi {ip}'
+        unbanned: 'Eemaldas blokeeringu IP-aadressilt {ip}'
+      loadMore: 'Laadi rohkem'
+      noReason: '(põhjust pole)'
+      noValue: '(väärtust pole)'
+      post:
+        created: 'Lisas postituse {post} vestluses {discussion}'
+      setting_changed: 'Muutis seadeid {key}'
+      tag:
+        updated: 'Uuendas silti {tag}'
+      user:
+        activated: 'Aktiveeris kasutaja {username} konto käsitsi'
+        activated_with_email: 'Aktiveeris kasutaja {username} konti lingiga'
+        avatar_changed: 'Muutis {username} avatari'
+        avatar_removed: 'Eemaldas {username} avatari'
+        created: 'Lõi kasutaja {username} konto'
+        deleted: 'Kustutas kasutaja {username}'
+        password_changed: 'Muutis kasutaja {username} parooli'
+        username_request_approved: 'Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}'
+        username_request_rejected: 'Lükkas tagasi kasutaja {username} kasutajanime muutmise'
+      withoutActor: '=> core.group.guest'

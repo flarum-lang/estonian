@@ -13,5 +13,47 @@ kilowhat-audit:
       view: 'Vaata auditi logi'
   lib:
     browser:
+      client:
+        access_token: Ligipääsukood
+        api_key: 'API võti'
+        cli: Käsurida
+        session: Veebisessioon
+        unknown: 'Tundmatu klient'
+      controls:
+        hideRaw: 'Peida logi toorandmed'
+      deletedResource:
+        discussion: 'Vestlus #{id}'
+        group: 'Grupp #{id}'
+        post: 'Postitus #{id}'
+        tag: 'Silt #{id}'
+        user: 'Kasutaja #{id}'
+      discussion:
+        deleted: 'Kustutas vestluse {discussion}'
+        hidden: 'Peitis vestluse {discussion}'
+        locked: 'Lukustas vestluse {discussion}'
+        merged_away: 'Liitis vestluse {discussion} vestlusega {new_discussion}'
+        restored: 'Taastas vestluse {discussion}'
       empty: 'Tulemusi pole'
       filterApply: Rakenda
+      filterPlaceholder: 'Filtreeri logid'
+      fof_ban_ips:
+        banned: 'Blokeeris IP-aadressile {ip}'
+        unbanned: 'Eemapdas IP-aadressilt {ip} blokeeringu'
+      genericResource:
+        comment: Kommentaar
+        post: Postitus
+      loadMore: 'Laadi rohkem'
+      noReason: '(põhjust pole)'
+      noValue: '(väärtust pole)'
+      permissionGroup:
+        everyone: '=> core.admin.permissions_controls.everyone_button'
+        members: '=> core.admin.permissions_controls.members_button'
+      tag:
+        deleted: 'Kustutas sildi {tag}'
+        updated: 'Uuendas silti {tag}'
+      user:
+        deleted: 'Kustutas kasutaja {username}'
+        password_changed: 'Muutis kasutaja {username} parooli'
+        username_request_approved: 'Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}'
+        username_request_rejected: 'Lükkas tagasi kasutaja {username} kasutajanime muutmise'
+      withoutActor: '=> core.group.guest'

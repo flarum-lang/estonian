@@ -6,6 +6,7 @@ flarum-gdpr:
   lib:
     data:
       uploads:
+        delete_description: 'Kustutab kõik kasutaja poolt üleslaaditud failid.'
         export_description: 'Kõik kasutaja poolt üles laaditud failid.'
 fof-upload:
   admin:
@@ -50,6 +51,7 @@ fof-upload:
       delete_uploads_of_others_label: 'Kustuta kasutajate üleslaadimised'
       download_label: 'Laadi failid alla'
     shared-uploads:
+      description: 'Laadib üles failid, mida saavad kasutada kõik sinu foorumi kasutajad.'
       no-files: 'Ühtegi jagatud faili pole veel üles laaditud.'
       title: 'Jagatud üleslaadimised'
       upload-new-button: 'Laadi üles uus fail'
