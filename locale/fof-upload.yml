@@ -11,12 +11,16 @@ flarum-gdpr:
 fof-upload:
   admin:
     inspect-mime:
+      laravel-validation: 'Laravel failide kinnitamine'
+      mime-fileinfo: 'PHP failiinfo (tagavaravariant)'
       no-file-selected: 'Faili pole'
       not-available: 'Tulemust pole'
       validation-failed: 'Evaõnnestus: {error}'
       validation-passed: Korras
     labels:
       aws-s3:
+        advanced_title: 'S3 säilituskoha lisaseaded'
+        endpoint: Lõpp-punkt
         key: Võti
         region: Regioon
         secret: Salasõna
@@ -24,21 +28,33 @@ fof-upload:
       composer_buttons:
         options:
           both: Mõlemad
+          media-btn: 'Ainult failihalduri nupp'
           upload-btn: 'Ainult üleslaadimise nupud'
         title: 'Composeri nupud'
       disable-download-logging:
+        title: 'Lülita allalaadimiste logimine välja'
         toggle: 'Lülita välja'
       disable-hotlink-protection:
+        title: 'Lülita otselinkimise kaitse välja'
         toggle: 'Lülita välja'
       imgur:
         client_id: 'Imgur kliendi ID'
+        title: 'Imgur piltide säilitamise seaded'
+      local:
+        title: 'Kohalike failide salvestamise seaded'
+      preferences:
+        max_file_size: 'Maksimaalne failisuurus (kilobaitides)'
+        title: 'Üldised eelistused'
       qiniu:
         key: Võti
         secret: Salasõna
+        title: 'QUNIU seaded'
       resize:
+        max_width: 'Maksimaalne pildi laius/kõrgus'
         title: 'Muuda pildi suurust'
         toggle: 'Muuda piltide suurust'
       watermark:
+        file: 'Laadi vesipilt üles'
         position: 'Vesipildi asukoht'
         title: 'Lisa vesipilt'
         toggle: 'Lisa vesipilt'
@@ -50,6 +66,9 @@ fof-upload:
     permissions:
       delete_uploads_of_others_label: 'Kustuta kasutajate üleslaadimised'
       download_label: 'Laadi failid alla'
+      upload_label: 'Failide üleslaadimine'
+      upload_shared_label: 'Jagatud failide üleslaadimine'
+      view_user_uploads_label: 'Kasutaja üleslaadimiste vaatamine'
     shared-uploads:
       description: 'Laadib üles failid, mida saavad kasutada kõik sinu foorumi kasutajad.'
       no-files: 'Ühtegi jagatud faili pole veel üles laaditud.'
@@ -58,6 +77,7 @@ fof-upload:
     templates:
       text-preview: 'Teksti eelvaade'
     upload_methods:
+      aws-s3: 'S3 või sellega ühilduv'
       awss3: 'AWS S3'
       imgur: Imgur
       local: Kohalik
