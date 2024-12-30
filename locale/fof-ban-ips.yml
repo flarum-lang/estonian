@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-ban-ips/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      bannedipdata:
+        anonymize_description: 'Kõigi IP-aadresside seos kasutajaga eemaldatakse, aga IP-aadress jääb blokeerituks koos põhjusega, mis selle juures on. Veendu, et ''põhjuse'' lahtris poleks PII andmeid.'
+        export_description: 'Kui IP-aadressi blokeerimine on seostatud kasutajaga (nt. kasutaja blokeeriti IP-aadressi alusel), siis kasutaja IP-aadress kaasatakse aruandesse koos põhjusega, miks see blokeeriti ja selle loomise kuupäev.'
 fof-ban-ips:
   admin:
     empty_text: 'Ühtegi blokeeritud IP-d ei leitud.'
@@ -9,14 +15,18 @@ fof-ban-ips:
       ban_ip_no_users: 'Kedagi ei blokeerita'
       update_title: 'Uuenda blokeeritud IP-d'
     page:
+      address_label: '=> fof-ban-ips.ref.address_label'
+      create_button: '=> fof-ban-ips.ref.ban_ip_button'
       creator_label: Looja
       date_label: Kuupäev
+      reason_label: '=> fof-ban-ips.ref.reason_label'
       user_label: Kasutaja
     permissions:
       ban_ip_label: '=> fof-ban-ips.ref.ban_ip_addresses'
       view_banned_ip_list_label: 'Vaata blokeeritud IP-aadresside nimekirja'
   error:
     banned_ip_message: 'Autoriseerimine ebaõnnestus.'
+    no_ips_found_message: 'Kasutaja jaoks ei leitud ühtegi IP-d.'
   forum:
     ban_ip_button: '=> fof-ban-ips.ref.ban_ip_button'
     modal:
@@ -31,8 +41,21 @@ fof-ban-ips:
       unban_button: '=> fof-ban-ips.ref.unban_label'
   lib:
     modal:
+      address_label: '=> fof-ban-ips.ref.address_label'
+      ban_button: '=> fof-ban-ips.ref.ban_label'
+      ban_ip_confirmation: 'Oled sa kindel, et soovid blokeerida foorumist selle IP-aadressi? See blokeerib selle IP-aadressi(de)ga kasutajatel sisselogimise ja registreerumise.'
+      ban_ip_users: '{count, plural, one {Kasutaja {users} blokeeritakse} other {Kasutajad {users} blokeeritakse}}'
       check_button: Kontrolli
+      reason_label: '=> fof-ban-ips.ref.reason_label'
       save_button: Salvesta
+      title: '=> fof-ban-ips.ref.ban_ip_addresses'
+      unban_button: '=> fof-ban-ips.ref.unban_label'
+      unban_ip_confirmation: 'Oled sa kindel, et soovid eemaldada blokeeringu sellelt kasutajalt ja kõigilt teistelt kasutajatelt muude IP-aadressidega?'
+      unban_ip_no_users: 'Kedagi teist ei blokeerita'
+      unban_ip_users: '{count, plural, one {Kasutajalt{users} eemaldatakse blokeering} other {Kasutajatelt {users} eemaldatakse blokeering}}'
+      unban_options_all_ip: 'Eemalda blokeering kõigilt IP-aadressidelt, mida <i>{username}</i> kasutas'
+      unban_options_only_ip: 'Eemalda blokeering ainult praeguselt IP-aadressilt (<code>{ip}</code>)'
+      unban_title: '=> fof-ban-ips.ref.unban_ip_addresses'
       unbanned_ips: 'Pole blokeeritud <code>{ips}</code>.'
   ref:
     address_label: 'IP aadress'

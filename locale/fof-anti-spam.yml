@@ -11,3 +11,8 @@ fof-anti-spam:
       default-actions:
         delete_discussions_label: 'Kustuta vestlused'
         delete_posts_label: 'Kustuta postitused'
+        delete_user_label: 'Kustuta kasutaja'
+      stopforumspam:
+        api_key_label: 'API võti'
+        frequency_label: Lävi
+        heading: StopForumSpam

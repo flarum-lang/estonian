@@ -8,8 +8,11 @@ gbcl-userip:
       view_ip_info_label: 'Näita IP infot'
     service:
       ipinfo:
+        description: 'Kasuta aadressi <b>https://ipinfo.io</b>, et saada täpsemat IP infot (kontrollkood on nõutud)'
+        key: 'IpInfo kontrollkood (Nõutud)'
         label: IpInfo
       ipsb:
+        description: 'Kasuta aadressi <b>https://ip.sb</b>, et saada tasuta IP asukoha infot (ära unusta limiiti)'
         label: IP.SB
       label: Teenus
   forum:

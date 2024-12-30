@@ -4,6 +4,8 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Lisa definitsioon'
+    definition: Definitsioon
     removedef: 'Kustuta definitsioon'
     word: Sõna
   forum:
