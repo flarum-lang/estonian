@@ -6,6 +6,8 @@ nearata-related-discussions:
   admin:
     settings:
       allow_guests: 'Luba külalised'
+      cache: Vahemälu
+      cache_help: 'Vorming peab olema <strong>0-31d0-23h0-59m</strong>'
       generator: Üldine
       generator_options:
         random: Juhuslik
@@ -16,3 +18,7 @@ nearata-related-discussions:
       position_options:
         first_post: 'Pärast esimest postitust'
         last_post: 'Pärast viimast postitust'
+        reply_block: 'Pärast vastuse blokeerimist'
+  forum:
+    discussion_list_title: 'Seotud vestlused'
+    no_results: 'Seotud vestlusi ei leitud'

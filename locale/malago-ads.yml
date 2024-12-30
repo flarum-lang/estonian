@@ -9,10 +9,21 @@ flagrow-ads:
     positions:
       between-posts:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
+        title: 'Reklaami paigutus postituste vahel'
       under-header:
         placeholder: 'Sisesta oma reklaami kood siia.'
+        title: 'Reklaami paigutus peamenüü all päises'
       under-nav-items:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
+        title: 'Reklaami paigutus üleval vasakul veerus avalehel siltide all'
     settings:
+      adsense-client-id: 'Sisesta oma avaldaja ID'
+      adsense-enable: 'AdSense on sisse lülitatud'
       adsense-title: 'AdSense seaded'
+      between-n-posts: 'Määra, kui mitme postituse järel reklaame näidata'
+      header-only-frontpage: 'Peamenüü all päises ja ainult avalehe all'
       position-title: 'Reklaami paigutus'
+      start-from-post: 'Määra alates, mis postitusest sa soovid reklaame näitama hakata'
+    tab:
+      description: 'Määra reklaamide eelistused ja asukohad.'
+      title: Reklaamid

@@ -4,8 +4,23 @@
 
 flarum-ext-dontgoaway:
   admin:
+    altdesc: 'Määra oma pildi "alt" omadus'
+    altext: 'Pildi "alt" omadus'
+    btn: 'Kohanda nuppu. Süntaksi näidis on lahtris'
+    btndesc: 'Võid nuppude jaoks seadistada teksti ja fontawesome ikooni'
+    enableExtLink: 'Lülita väliste linkide puhul hüpikaken sisse'
+    heightdesc: 'Määra oma pildi kõrgus (nt. 450)'
     heightext: 'Pildi kõrgus'
+    modtext: 'Tekst hüpikaknas'
+    modtextdesc: 'Siin saad seadistada teksti hüpikaknas.'
     modtitle: 'Hüpikakna pealkiri'
     modtitledesc: 'Kohanda hüpikakna pealkiri'
     urltext: 'Sinu kohandatud pildi URL'
+    urltextdesc: 'Aseta oma kohandatud pildi URL siia'
+    widthdesc: 'Määra oma pildi laius (nt. 450)'
     widthtext: 'Pildi laius'
+  forum:
+    cancelbutton: 'Jää siia!'
+    confbutton: Jätka
+    extlinktext: 'Välisele lingile klikkides lahkud sellelt saidilt'
+    extlinktitle: 'Väline link'

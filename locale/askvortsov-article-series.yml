@@ -13,6 +13,7 @@ askvortsov-article-series:
     article_list:
       title: '{series} artikliseeriad'
     article_series_modal:
+      order_label: 'Järjekorra indeks (sorteeritakse kasvavalt)'
       submit_button: Saada
       tag_id_label: 'Artiklite seeria silt'
       title: 'Artiklite seeriate seaded'

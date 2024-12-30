@@ -3,11 +3,49 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-transfer-money:
+  admin:
+    permission:
+      allow_use_transfer_money: 'Luba raha ülekandmine'
+    transfer-money-client-customization: 'Kliendi kohandamine'
+    transfer-money-client-customization-help: 'Kliendi jaoks arendatud funktsioonid. Võivad tekitada ootamatuid veatõrkeid teistele kasutajatele.'
+    transfer-money-timezone: Ajavöönd
+    transfer-money-timezone-default: Aasia/Shangai
+    transfer-money-timezone-help: 'Määra ülekande ajavöönd. Vaikeväärtus on "Aasia/Shanghai".'
   forum:
+    cancel: Loobu
+    current-money-amount: 'Saldo: '
+    need-money-amount: 'Kogu ülekantav summa: '
+    notifications:
+      user-transfer-money-details: 'Said raha {cost}. Ülekande nr：{id}'
+      user-transfer-money-to-you: '{username} kandis sulle raha üle'
+    ok: OK
+    receive-transfer-from-user: 'Saadud raha teiselt kasutajalt'
+    search_user_header: Kasutaja
+    transfer-error: 'Tõrge ülekandel'
+    transfer-error-insufficient-fund: 'Pole piisavalt raha'
+    transfer-error-no-permission: 'Sul pole selleks õiguseid'
+    transfer-error-no-target-user-selected: 'Palun vali kasutaja, kellele raha üle kanda'
     transfer-list-assign-at: 'Ülekande kuupäev'
     transfer-list-empty: 'Ülekannete ajalugu on tühi'
+    transfer-list-from-user: Kasutajalt
     transfer-list-id: ID
     transfer-list-load-more: 'Laadi lisa'
     transfer-list-target-user: Sihtkasutaja
     transfer-list-transfer-amount: Summa
+    transfer-list-transfer-notes: Märkmed
+    transfer-list-transfer-notes-none: Pole
     transfer-list-type: Liik
+    transfer-money: 'Kanna raha üle'
+    transfer-money-history: 'Ülekannete ajalugu'
+    transfer-money-in: Sisse
+    transfer-money-input-placeholder: 'Sisesta ülekande summa'
+    transfer-money-no-user-selected: 'Ühtegi kasutajat pole valitud'
+    transfer-money-notes: 'Märkmed (valikuline)'
+    transfer-money-out: Välja
+    transfer-money-search-user: 'Lisa kasutaja'
+    transfer-money-search-user-empty: 'Ühtegi kasutajat ei leitud'
+    transfer-money-search-user-placeholder: 'Kirjuta siia kasutajanime kolm esimest tähte'
+    transfer-money-success: 'Ülekanne on tehtud'
+    transfer-money-to: 'Kanna raha üle kasutajale {username}'
+    transfer-money-to-user: 'Kanna raha üle kasutajale (eemaldamiseks kliki)'
+    transfered-money-to: 'kandis {money} üle kasutajale'

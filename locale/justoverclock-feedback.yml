@@ -4,7 +4,53 @@
 
 justoverclock-feedback:
   admin:
-    contactmail: 'E-posti aadress kuhu tagasisidet saata'
+    background-color: 'Vidina taustavärv'
+    background-color-help: 'Sisesta taustavärv HEX-koodiga, nt. #000'
+    box-title: 'Kasti pealkiri'
+    box-title-help: 'Määra hüpikakna pealkiri (vana "Flarumi tagasside")'
+    collect-email: 'Näita kasutajatele (valikulist) e-posti aadressi'
+    collect-email-help: 'Kui see on sisse lülitatud, siis saavad kasutajad lisada tagasiside vormi oma e-posti aadressi'
+    contactdesc: 'See väli peab olema täidetud, et tagasiside vidin oleks sisse lülitatud'
+    contactmail: 'E-posti aadress, kuhu tagasisidet saata'
+    feedback1-icon: 'Tagasiside liigi 1 ikoon'
     feedback1-icon-help: 'Sisesta tekstiikoone nagu "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐'
     feedback1-title: 'Tagasiside liik 1'
+    feedback1-title-help: 'Kohanda oma "tagasiside liigi" nime siin'
+    feedback2-icon: 'Tagasiside liigi 2 ikoon'
+    feedback2-icon-help: 'Sisesta tekstiikoon nagu näiteks "⚠️, ☎️, ✏️" - Windowsil (Win + .) MacOS 🌐'
     feedback2-title: 'Tagasiside liik 2'
+    feedback2-title-help: 'Kohanda oma "tagasiside liigi 2" nime siin'
+    feedback3-icon: 'Tagasiside liigi 3 ikoon'
+    feedback3-icon-help: 'Sisesta tekstiikoon nagu näiteks "⚠️, ☎️, ✏️" - Windowsil (Win + .) MacOS 🌐'
+    feedback3-title: 'Tagasiside liik 3'
+    feedback3-title-help: 'Kohanda oma "tagasiside liigi 3" nime siin'
+    font-color: 'Vidina tekstivärv'
+    font-color-help: 'Sisesta teksti värv HEX-koodiga, nt. #000'
+    left_label: Vasakul
+    position: 'Vidina asukoht'
+    position-help: 'Vali tagasiside saatmise nupu asukoht'
+    right_label: Paremal
+  api:
+    validation_error: 'Sa ei saa saata tühja tagasisidet'
+  forum:
+    button-title: Tagasiside
+    email:
+      body: "Uus tagasiside {type} kasutajalt {user}!\n\n{message}\n\nE-posti aadress: {email}\nLink: {url}\n"
+      guest: 'anonüümne kasutaja'
+      subject: Tagasiside
+    feedback-widget:
+      back: Tagasi
+      contact-text: 'Või saada e-post!'
+      email-field-placeholder: 'E-post (valikuline väli)'
+      email-placeholder: 'E-post (valikuline)'
+      failed-message: 'Palun proovi uuesti. Kui see juhtub uuesti, siis proovi hoopis tavalise e-posti saatmist.'
+      failed-title: 'Oih, tekkis tõrge'
+      placeholder: 'Sisesta oma tagasiside siia'
+      submit: Saada
+      success: Aitäh!👊
+      title: 'Flarumi tagasiside'
+      type-message: 'Mis tagasisidet sa soovid jätta?'
+      types:
+        bug: Veateade
+        general: 'Üldine tagasiside'
+        idea: 'Mul on idee'

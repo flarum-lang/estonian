@@ -4,8 +4,32 @@
 
 custom-header:
   admin:
+    button-text: 'Vasaku nupu tekst'
+    button-text-help: 'Pane siia vasaku nupu tekst'
+    button2-text: 'Parema nupu tekst'
+    button2-text-help: 'Pane siia parema nupu tekst'
     facebookIcon: 'Link sinu Facebooki lehele'
+    facebookIcon-help: 'Kopeeri siia oma Facebooki lehekülje URL'
+    githubIcon: 'Link sinu GitHubi lehele'
+    githubIcon-help: 'Kopeeri siia oma GitHubi lehekülje URL'
+    headerBackgroundImage: 'Päise taustapilt'
+    headerBackgroundImage-help: 'Aseta siia oma kohandatud taustapildi URL'
     headerTagline: 'Tunnuslause päises'
+    headerTagline-help: 'Siin võid muuta oma tunnuslauset'
     headerTitle: 'Päise pealkiri'
     headerTitle-help: 'Siin saad muuta oma päise peamist pealkirja'
+    link-button-one: 'Vasaku nupu link'
+    link-button-one-help: 'Pane siia vasaku nupu URL'
+    link-button-two: 'Vasaku nupu link'
+    link-button-two-help: 'Pane siia vasaku nupu URL'
     twitterIcon: 'Link Twitteri leheküljele'
+    twitterIcon-help: 'Kopeeri siia oma Twitteri lehekülje URL'
+    youtubeIcon: 'Link sinu Youtube lehele'
+    youtubeIcon-help: 'Kopeeri siia oma Youtube lehekülje URL'
+  forum:
+    facebook: 'Jälgi meid Twitteris'
+    github: 'GitHubi lehekülg'
+    login: 'Logi sisse'
+    signup: Liitu
+    twitter: 'Jälgi meid Twitteris'
+    youtube: 'Jälgi meid Youtubes'

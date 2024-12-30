@@ -16,12 +16,17 @@ xypp-invite-user:
     invited_by_user_id_is_self: 'Sa ei saa iseennast kutsuda.'
     invited_each_other: 'Sind ei saa kutsuda kasutaja, kelle sa ise kutsusid.'
   forum:
+    condition:
+      user_invite: 'Kutsu kasutaja'
     confirm:
       accept: Aktsepteeri
       alert: 'Saad märkida ainult ühe kasutaja, kes sulle kutse saatis. Võid selle akna sulgeda oma profiilist->kutse'
       msg: 'Kasutaja {username} kutsus sind foorumisse. Kliki allolevale nupule, et kutse vastu võtta.'
       success: Korras.
       title: 'Kinnita kutsumine'
+    invite: Kutsu
+    notification:
+      user_invited_label: 'Kutse võeti vastu'
     page:
       code:
         code: 'Kutse kood'

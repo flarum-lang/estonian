@@ -3,8 +3,26 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-money-leaderboard:
+  admin:
+    permission:
+      allow_view_leaderboard: 'Edetabeli vaatamine'
+    settings:
+      leaderboard-additional-info: Lisainfo
+      leaderboard-additional-info-help: 'Näitab kasutajajärgu alguses lisainfot. Lõigu peitmiseks jäta see tühjaks.'
+      leaderboard-entry-position: 'Koht edetabelis'
+      leaderboard-entry-sideNav: Külgmenüüs
+      leaderboard-entry-topRightMenu: 'Üleval paremal menüüs'
+      leaderboard-hide-money-text: 'Peida kasutajanime järel raha nime'
+      leaderboard-icon: 'Edetabeli ikoon'
+      leaderboard-icon-help: 'Sisesta FontAwesome ikooni klassi nimi, kaasa arvatud <code>fas fa-</code> eesliide.'
+      leaderboard-init-load-count: 'Algne laadimiste arv'
+      leaderboard-load-more-count: 'Laadi rohkem arv'
+      leaderboard-max-load-count: 'Maks. laadimiste arv'
   forum:
     leaderboard-list-empty: 'Sisu pole'
+    leaderboard-list-money: 'Raha kogus'
+    leaderboard-list-rank: Järk
     leaderboard-list-title: 'Raha edetabel'
     leaderboard-list-user: Kasutaja
     leaderboard-load-more: 'Laadi lisa'
+    leaderboard-name: 'Raha edetabel'
