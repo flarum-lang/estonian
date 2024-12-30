@@ -9,6 +9,7 @@ fof-oauth:
         twitch:
           client_id_label: 'Kliendi ID'
           client_secret_label: 'Kliendi salasõna'
+          description: 'Registreeri oma foorum Twitchis {link}'
   forum:
     log_in:
       with_twitch_button: '=> fof-oauth.forum.log_in.with_button'

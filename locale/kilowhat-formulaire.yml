@@ -5,12 +5,319 @@
 kilowhat-formulaire:
   admin:
     permissions:
+      create: 'Vormide loomine (beeta)'
+      editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
       editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
+      editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+      export: 'Lisatud info eksportimine'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (kolmanda osapoole lisaprogrammide valikud)'
+      moderate: 'Kõikide vormide modereerimine'
       seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
+    settings:
+      checkbox-style: 'Märkekasti stiil'
+      horizontal-layout: 'Kasuta horisontaalset vormi paigutust'
+      horizontal-layout-locations:
+        discussionComposer: 'Vestluse loomine'
+        profileEdit: 'Profiili muutmise lehekülg'
+        profileView: 'Profiili vaatamise lehekülg'
+      max-file-size: 'Maks. failisuurus (kB)'
+      radio-style: Raadiovalik
+      style-options:
+        far-circle: 'FontAwesome tavaline ringi ikoon'
+        far-square: 'FontAwesome tavaline nelinurkne ikoon'
+        fas-circle: 'FontAwesome täidetud ringi ikoon'
+        fas-square: 'FontAwesome täidetud nelinurkne ikoon'
+        native: 'Vaikimisi veebisirvija eelistus'
+        switch: 'Flarumi lüliti'
+      title: 'Vormi üldised seaded'
+  api:
+    export:
+      meta:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+  forum:
+    auto-discussion-options-modal:
+      field:
+        content: 'Postita sisu'
+        tags: 'Vestluse sildid'
+        title: 'Vestluse pealkiri'
+      submit: 'Kontrolli muudatusi'
+      title: 'Automaatsed vestluse valikud'
+    badge:
+      hidden: Peidetud
+      locked: Lukustatud
+    choice:
+      other-label: 'Muu:'
+      other-placeholder: 'Liik:'
+    confirmation-email-options-modal:
+      field:
+        message: Sisu
+        title: Pealkiri
+      submit: 'Kinnita muudatused'
+      title: 'E-posti mall'
+    discussion-composer:
+      field:
+        content: Sõnum
+        poll: Küsitlus
+        tags: Sildid
+        title: Pealkiri
+    discussion-submission:
+      edit: Muuda
+      empty: 'Andmeid pole veel'
+    error-page:
+      denied-title: 'Ligipääs keelatud'
+      notfound-title: 'Ei leitud'
+    export:
+      fields: Väljad
+      format: Vorming
+      format-options:
+        csv: CSV
+        json: JSON
+        ods: ODS
+        xls: XLS
+        xlsx: XLSX
+      heading: 'Päis / võtmed'
+      heading-options:
+        key: 'Välja võtmed'
+        none: 'Päise rida pole'
+        title: 'Välja pealkirjad'
+      meta: Metaandmed
+      meta-options:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      more-meta: 'Rohkem metaandmete valikuid'
+      preview: Eelvaade
+      preview-primitives:
+        boolean-false: Väär
+        boolean-true: Tõene
+        excel-date: '(EXCELI KUUPÄEV)'
+      submit: 'Laadi alla'
+      title: 'Ekspordi vastused'
+    form-create:
+      button:
+        create: 'Loo vorm'
+      field:
+        title: Pealkiri
+      title: 'Uus vorm'
+    form-edit-header:
+      access-status:
+        both: 'Loomine ja muutmine'
+        closed: Suletud
+        create: 'Ainult loomine'
+        disabled: Mustand
+        edit: 'Ainult muutmine'
+        enabled: 'Sisse lülitatud'
+      back: Tagasi
+      category:
+        discussion: '=> kilowhat-formulaire.ref.type.discussion'
+        standalone: '=> kilowhat-formulaire.ref.type.standalone'
+        user: '=> kilowhat-formulaire.ref.type.user'
+      controls: Juhtelemendid
+      delete: 'Kustuta jäädavalt'
+      disable-expert-mode: 'Lülita asjatundja režiim välja'
+      enable-expert-mode: 'Lülita asjatundja režiim sisse'
+      fields:
+        private-title: 'Privaatne pealkiri'
+      hide: Kustuta
+      restore: Taasta
+      tabs:
+        access: Ligipääs
+        notifications: Teavitused
+        placement: Paigutus
+        submissions: Vastused
+        template: Mall
+      template-export: 'Malli import/eksport'
+    form-edit:
+      auto-discussion-options: 'Valikud uute vestluste jaoks'
+      email-confirmation-options: 'Kinnituskirja mall'
+      email-notification-options: 'Teavituskirja mall'
+      exiting-with-unsaved-data: 'Siin on salvestamata muudatusi. Oled sa kindel, et soovid lehelt lahkuda?'
+      field:
+        enable: 'Lülita sisse'
+        link: 'Vormi eriliigid'
+        permission-edit-any: 'Kõigi vastuste muutmine'
+        permission-edit-own: 'Oma vastuste muutmine'
+        permission-see-any: 'Kõikide sisestatud info nägemine'
+        permission-see-own: 'Enda sisestatud info nägemine'
+        show-on-creation:
+          discussion: 'Näita vestluse koostamisel'
+          user: 'Näita liitumisel'
+        title: 'Avalik pealkiri'
+      link-options:
+        all-tags: 'Iga sildi jaoks'
+        groups: Kasutajaprofiil
+        standalone: Eraldiseisev
+        tags: 'Vestluse väljad'
+      preview: 'Eelvaade uuel vahekaardil'
+      save-for-preview: 'Salvesta eelvaate jaoks'
+      section:
+        permissions: Õigused
+        template: Mall
+    form-index:
+      columns:
+        accept-submissions: Avatud
+        actions: Tegevused
+        allow-modification: Muudatused
+        enabled: 'Sisse lülitatud'
+        submissions: Vastused
+        title: Pealkiri
+      edit: Muuda
+      empty: 'Vorme pole'
+      header:
+        documentation: 'Täielik dokumentatsioon'
+        title: '=> kilowhat-formulaire.ref.manager'
+      load-more: 'Laadi rohkem'
+      new: 'Uus vorm'
+      search: 'Otsi vorme...'
+      show: Näita
+      submissions: Vastused
+      tabs:
+        discussion: '=> kilowhat-formulaire.ref.type.discussion'
+        standalone: '=> kilowhat-formulaire.ref.type.standalone'
+        user: '=> kilowhat-formulaire.ref.type.user'
+    form-sort:
+      latest: 'Uued vormid'
+      oldest: 'Vanimad vormid'
+    global-settings:
+      admin-only: 'Üldiseid seadeid saab muuta ainult foorumi administraator'
+      permissions:
+        editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
+        editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
+        editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
+        editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+        fill: '=> kilowhat-formulaire.ref.permissions.fill'
+        seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
+        seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
+        seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
+        seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
+      title: 'Üldised seaded'
+    items-editor:
+      add: 'Lisa rida'
+      remove: 'Eemalda rida'
+    nav:
+      forms: '=> kilowhat-formulaire.ref.manager'
+    options-editor:
+      columns:
+        key: '(Eksperdile) unikaalne võti'
+        title: Pealkiri
+      new-placeholder: 'Uus valik...'
+      remove: 'Eemalda valik'
+    permission-controls:
+      disabled_members_button: 'Non-activated and suspended members'
+      everyone_button: '=> core.admin.permissions_controls.everyone_button'
+      inherit: 'Kasuta vaikeväärtusi'
+      members_button: 'Aktiveeritud liikmed'
+    rich-text:
+      preview-placeholder: 'Eelvaate nägemiseks hakka kirjutama'
+    save-controls:
+      redo: 'Tee uuesti'
+      save: Salvesta
+      saved-at: 'Salvestatud {ago} tagasi'
+      undo: Tühista
+      unsaved-changes: 'Sul on salvestamata muudatusi'
+      validation-errors: 'Leidsime sinu sisestatud infos vigu'
+    select:
+      choose: 'Tee valik'
+    submission-index:
+      columns:
+        actions: Tegevused
+        date: Kuupäev
+        user: Kasutaja
+      empty: 'Vastuseid pole veel'
+      export: Ekspordi
+      form-edit: 'Muuda vormi'
+      guest: Külaline
+      load-more: 'Laadi rohkem'
+      search: 'Otsi vastuseid...'
+      show: Näita
+    submission-sort:
+      latest: 'Viimased vastused'
+      oldest: 'Vanimad vastused'
+    submission:
+      delete: 'Kustuta jäädavalt'
+      edit-submission: 'Muuda vastuseid'
+      form-closed: 'See vorm on suletud.'
+      hide: Kustuta
+      lock: Lukusta
+      restore: Taasta
+      submit-other: 'Saada veel üks'
+      unlock: Ava
+    template-editor:
+      add-field: 'Lisa väli'
+      delete: 'Kustuta väli'
+      description: Kirjeldus
+      duplicate: 'Tee väljast koopia'
+      email: E-post
+      integer: Täisarv
+      max: Maksimaalne
+      min: Minimaalne
+      missing-title: 'Ilma pealkirjata väli'
+      no-answer: 'Vastust pole'
+      regex: Regulaarväljend
+      required: Nõutud
+      title: Pealkiri
+      type:
+        checkbox: Märkekastid
+        content: Sisu
+        date: Kuupäev
+        items: 'Mitu sisendit'
+        long: 'Pikk tekst'
+        number: Arv
+        radio: Raadio
+        select: Rippvalik
+        short: 'Lühike tekst'
+        upload: 'Laadi üles'
+    upload-editor:
+      remove: 'Eemalda fail'
+      uploading: Üleslaadimine...
+  mail:
+    edit: Muuda
+    footer: 'Saadetud vormist {title}'
+    no-answer: 'Vastuseid pole'
+    sub-entries: '{count} vastust'
+  ref:
+    manager: 'Vormide haldamine'
+    permissions:
+      editOwnUser: 'Oma profiili väljade muutmine'
+      fill: 'Täida eraldiolevaid vorme'
+      seeAnyUser: 'Kõikide profiili väljade vaatamine'
+      seeOwnUser: 'Oma profiili vormide vaatamine'
+    submission-meta:
+      created_at: 'Loomise kuupäev'
+      link_id: 'Lingitud ressursi ID'
+      locked_at: 'Lukustamise kuupäev'
+      uid: 'Vastuse ID'
+      updated_at: 'Uuendamise kuupäev'
+      user_activated: 'Aktiveeritud konto'
+      user_displayname: 'Kasutaja näidatav nimi'
+      user_email: 'Kasutaja e-post'
+      user_id: 'Kasutaja ID'
+      user_username: Kasutajanimi
+    type:
+      discussion: 'Vestluse väljad'
+      standalone: 'Eraldiseisvad vormid'
+      user: Kasutajaprofiil

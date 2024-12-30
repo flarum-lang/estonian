@@ -25,6 +25,7 @@ datitisev-backup:
           description: 'AWS kasutajaandmete salasõna'
           label: Salasõna
         path-prefix:
+          description: 'Failide asukoha vaikimisi eesliide.'
           label: 'Asukoha eesliide'
         region:
           label: Piirkond
@@ -47,6 +48,9 @@ datitisev-backup:
         secret:
           label: 'Rakenduse salasõna'
       ftp:
+        host:
+          description: 'FTP hostinimi, nt: <em>ftp.sinudomeen.ee</em>.'
+          label: 'Kaugarvuti nimi'
         passive:
           description: 'Kas kasutada passiivset FTP ühendust serveriga.'
           toggle: 'Passiivne ühendus'
@@ -72,6 +76,7 @@ datitisev-backup:
           label: Kasutajanimi
       gdrive:
         client-id:
+          description: "Järgi juhendeid lingil https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md et luua Google projekt ja saada oma kliendi ID ja kliendi salasõna.\n"
           label: 'Kliendi ID'
         client-secret:
           description: ' '
@@ -81,7 +86,9 @@ datitisev-backup:
           label: 'Kausta ID'
         help:
           test_button: 'Kontrolli ühendust'
+          test_success_alert: 'Ühendus Google Drive-iga on loodud. Salvesta muudatused, et näha salvestamise seadeid.'
         refresh-token:
+          description: "Järgi juhendeid lingil https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md et saada ligipääsukood oma Google oAuth rakenduse jaoks.\n"
           label: 'Värskenda kontrollkoodi'
       local:
         target:

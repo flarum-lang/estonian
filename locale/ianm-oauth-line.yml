@@ -9,6 +9,7 @@ fof-oauth:
         line:
           client_id_label: 'Kanali ID'
           client_secret_label: 'Kanali salasõna'
+          description: 'Registreeri oma foorum LINE arendajate saidil {link}'
   forum:
     log_in:
       with_line_button: '=> fof-oauth.forum.log_in.with_button'

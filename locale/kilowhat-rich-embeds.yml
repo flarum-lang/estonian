@@ -4,13 +4,68 @@
 
 kilowhat-rich-embeds:
   admin:
+    preview:
+      loading: Laadimine...
+      refresh: Värskenda
+      title: Eelvaade
+    section:
+      flarum: Flarum
+      github: GitHub
+      google: Google
+      googledrive: 'Google Drive'
+      youtube: YouTube
     settings:
+      blacklist: 'URL-ide must nimekiri'
+      githubApiKey: 'GitHub API võti'
+      googleApiKey: 'Google SDK API võti'
       layout: Paigutus
       layoutOptions:
         block: Plokk
         separated: Eraldatud
       position: Asukoht
       positionOptions:
+        above: 'Lingi kohal'
         below: 'Lingi all'
         replace: 'Asenda link'
       style: Stiil
+      styleOptions:
+        horizontal: Horisontaalne
+        vertical: Vertikaalne
+      whitelist: 'URL-ide valge nimekiri'
+  api:
+    embed:
+      flarum:
+        discussion:
+          stats:
+            commentCount: Vastuseid
+            createdAt: 'Alguse kuupäev'
+            participantCount: Osalejaid
+          type: Vestlus
+        user:
+          avatarAlt: Avatar
+          stats:
+            commentCount: Kommentaare
+            discussionCount: Vestluseid
+            joinTime: 'Liitumise kuupäev'
+          type: Profiil
+      github:
+        issue:
+          stats:
+            commentCount: Kommentaarid
+          type: Probleem
+        privateRepoSuffix: '[privaatne]'
+        siteName: GitHub
+    error:
+      invalidUrl: 'URL {url} pole korrektne.'
+  lib:
+    controls:
+      imgCopied: Kopeeritud!
+      imgCopy: 'Kopeeri pildi URL'
+      imgOpen: 'Ava pilt uuel vahekaardil'
+      refresh: 'Värskenda andmeid'
+    embed:
+      altAvatar: 'Autori avatari pilt'
+      altFavicon: '{website} ikoon'
+      altImageFallback: '{website} Opengraph pilt'
+      missing:
+        retrieving: 'Info tõmbamine...'

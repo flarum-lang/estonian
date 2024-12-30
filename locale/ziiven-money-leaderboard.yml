@@ -18,6 +18,7 @@ ziven-money-leaderboard:
       leaderboard-init-load-count: 'Algne laadimiste arv'
       leaderboard-load-more-count: 'Laadi rohkem arv'
       leaderboard-max-load-count: 'Maks. laadimiste arv'
+      leaderboard-slug: Slug
   forum:
     leaderboard-list-empty: 'Sisu pole'
     leaderboard-list-money: 'Raha kogus'

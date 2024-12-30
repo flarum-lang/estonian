@@ -9,3 +9,4 @@ club-1-server-side-highlight:
     dark_theme_text_color: 'Tumeda teema teksti värv'
     light_theme_bg_color: 'Heleda teema taustavärv'
     light_theme_highlight_theme: 'Heleda teema esiletõstmise skeem'
+    light_theme_text_color: 'Heleda teema teksti värv'

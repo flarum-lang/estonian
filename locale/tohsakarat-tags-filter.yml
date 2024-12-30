@@ -8,6 +8,7 @@ tohsakarat-tags-filter:
       filter_tags:
         accessible_label: 'siltide filter'
         all: kõik
+        comment_filter: 'Tühistamiseks vajuta kinnitamise sildile'
         keep_typing: Kirjutamine...
         label: '{text}'
         no_results: 'Tulemusi pole'
