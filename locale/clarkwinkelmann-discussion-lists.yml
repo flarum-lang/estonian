@@ -6,6 +6,34 @@ clarkwinkelmann-discussion-lists:
   admin:
     permissions:
       createPrivate: 'Loo privaatsete vestluste nimekirja'
+      createPublic: 'Avalike vestluste nimekirjade loomine'
+      moderate: 'Kõikide vestluse nimekirjade muutmine ja kustutamine'
+      viewPrivate: 'Kõikide privaatsete nimekirjade vaatamine'
       viewPublic: 'Vaata avalikku vestluste nimekirja'
     settings:
       collapseSeries: 'Sulge seeriate indeks automaatselt'
+  forum:
+    edit:
+      delete: Kustuta
+      name: Nimi
+      ordering: Järjekord
+      orderingOptions:
+        addedAsc: 'Nimekirja lisamine (vähim loetust enim loetuni)'
+        addedDesc: 'Nimekirja lisamine (enim loetust vähim loetuni)'
+        createdAsc: 'Vestluse loomine (vanimatest uusimateni)'
+        createdDesc: 'Vestluse loomine (uusimatest vanemateni)'
+        manual: Käsitsi
+      save: Salvesta
+      title: 'Muuda nimekirja'
+      visibility: NÄhtavus
+      visibilityOptions:
+        private: 'Privaatne nimekiri'
+        public: 'Avalik nimekiri'
+        series: 'Avalik seeria'
+    series:
+      expand: Laienda
+      visit: 'Näita kõike'
+core:
+  forum:
+    index_sort:
+      discussionListDefault_button: 'Nimekirja järjestus'

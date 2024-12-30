@@ -5,7 +5,13 @@
 clarkwinkelmann-scout:
   admin:
     setting:
+      algoliaId: 'Algolia ID'
+      algoliaSecret: 'Algolia salasõna'
       driver: Draiver
       driverOption:
         'null': Nulli
         tntsearch: TNTSearch
+      limitPlaceholder: Automaatne
+      meilisearchHost: 'Meilisearchi host'
+      meilisearchKey: 'Meilisearchi võti'
+      queryMinLengthPlaceholder: Automaatne

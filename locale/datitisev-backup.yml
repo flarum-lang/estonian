@@ -4,12 +4,124 @@
 
 datitisev-backup:
   admin:
+    adapter-settings-modal:
+      aliyun:
+        access-id:
+          description: 'Sinu autentimise ligipääsukoodi ID'
+          label: 'Ligipääsu ID'
+        access-key:
+          description: 'Sinu autentimise ligipääsukoodi võti'
+          label: 'Ligipääsu võti'
+        endpoint:
+          description: 'Sinu salvestuskoha URL-i lõpp-punkt.'
+          label: Lõpp-punkt
+        path-prefix:
+          label: 'Asukoha eesliide'
+      aws:
+        credentials-key:
+          description: 'AWS kasutajaandmete võti'
+          label: Võti
+        credentials-secret:
+          description: 'AWS kasutajaandmete salasõna'
+          label: Salasõna
+        path-prefix:
+          label: 'Asukoha eesliide'
+        region:
+          label: Piirkond
+        version:
+          label: Versioon
+      azure:
+        container:
+          description: 'Azure konteiner'
+          label: Konteiner
+        endpoint:
+          label: Lõpp-punkt
+      dropbox:
+        help:
+          obtain-access-code-button: 'Ava Dropbox'
+          obtain-refresh-token-button: 'Kasuta koodi'
+        key:
+          label: 'Rakenduse võti'
+        refresh-token:
+          label: 'Värskenda kontrollkoodi'
+        secret:
+          label: 'Rakenduse salasõna'
+      ftp:
+        passive:
+          description: 'Kas kasutada passiivset FTP ühendust serveriga.'
+          toggle: 'Passiivne ühendus'
+        password:
+          description: 'FTP serveri parool.'
+          label: Parool
+        port:
+          description: 'FTP port (vaikeväärtus on 21).'
+          label: Port
+        private-key:
+          label: 'Privaatne võti'
+        root:
+          description: 'Kaugkausta peakaust (alamkaust), kuhu varukoopiaid salvestada.'
+          label: Peakaust
+        ssl:
+          description: 'Kas kasutada krüpteeritud SSL ühendust serveriga.'
+          toggle: SSL
+        timeout:
+          description: 'Mitu sekundit oodata FTP serveriga ühenduse loomiseks.'
+          label: Aegumine
+        username:
+          description: 'FTP serveri kasutajanimi.'
+          label: Kasutajanimi
+      gdrive:
+        client-id:
+          label: 'Kliendi ID'
+        client-secret:
+          description: ' '
+          label: 'Kliendi salasõna'
+        folder:
+          description: 'https://drive.google.com/drive/u/0/folders/ID'
+          label: 'Kausta ID'
+        help:
+          test_button: 'Kontrolli ühendust'
+        refresh-token:
+          label: 'Värskenda kontrollkoodi'
+      local:
+        target:
+          description: 'Määra kohalik kaust, kuhu varukoopiad salvestada.'
+          label: Sihtkoht
+      name_label: 'Asukoha nimi'
+      title: 'Seadista {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
       aws: 'Amazon AWS S3'
       azure: 'Microsoft Azure'
+      dospaces: 'Digital Ocean Spaces'
       dropbox: Dropbox
       ftp: FTP
       gdrive: 'Google Drive'
       gridfs: GridFS
       local: 'Kohalik salvestusruum'
+      rackspace: Rackspace
+      sftp: SFTP
+      webdav: Webdav
+      zip: ZIP-arhiiv
+    create_button: 'Lisa uus adapter'
+    delete_button: Kustuta
+    delete_confirmation: 'Oled sa kindel, et soovid kustutada "{name}" ({adapter})?'
+    nav:
+      description: 'Säilita koopiaid oma foorumist.'
+      label: Varukoopia
+    required-package-modal:
+      title: '{adapter} jaoks on vaja pakki'
+    required_package_button: Seadista
+    settings_button: Seadista
+    you-need-for:
+      aliyun: aliyuncs/aliyun-oss-flysystem
+      aws: league/flysystem-aws-s3-v3
+      azure: league/flysystem-azure
+      copy: league/flysystem-copy
+      dospaces: league/flysystem-aws-s3-v3
+      dropbox: spatie/flysystem-dropbox
+      gdrive: nao-pon/flysystem-google-drive
+      gridfs: league/flysystem-gridfs
+      rackspace: league/flysystem-rackspace
+      sftp: league/flysystem-sftp
+      webdav: league/flysystem-webdav

@@ -4,5 +4,31 @@
 
 askvortsov-saml:
   admin:
+    header:
+      text: 'Veendu, et metaandmete URL või metaandmed oleks täidetud.'
     labels:
+      authn_requests_signed: 'Kas allkirjastada autentimise päringud?'
+      idp_metadata: 'Sisesta teenusepakkuja metaandemete XML (alternatiivne URL-ile)'
+      idp_metadata_url: 'Teenusepakkuja metaandemete URL (alternatiivne XML-ile)'
+      logout_request_signed: 'Kas allkirjastada väljalogimise päringud?'
+      logout_response_signed: 'Kas allkirjastada väljalogimise vastused?'
       nameid_format: 'NameID vorming'
+      only_option: 'Kasutada SAML2 SSO-d kui ainust sisselogimise valikut?'
+      sign_metadata: 'Allkirjastada metaandmed?'
+      slo: 'Kas lülitada SLO sisse? Kui sinu IDP seda ei toeta, siis see ei tee midagi.'
+      want_messages_signed: 'Soovid sõnumeid allkirjastada?'
+      x509_cert: 'x509 sertifikaat (vajalik allkirjastamiseks, kui see on sisse lülitatud)'
+      x509_key: 'x509 privaatne võti (vajalik allkirjastamiseks, kui see on sisse lülitatud)'
+    options:
+      nameid_format:
+        emailAddress: 'E-post (vaikeväärtus. Kasuta, kui püsiv pole toetatud)'
+        persistent: 'Püsiv (kui toetatud, siis soovitatud)'
+        unspecified: Määramata
+    title: 'SAML2 SSO seadistused'
+  forum:
+    log_in:
+      enable_popups: 'Kas lubada sisselogimise ja liitumise hüpikaknad'
+      open_popup: 'Sisse logimiseks kliki siia'
+      with_saml_button: 'SAML2 SSO'
+    sign_up:
+      post_saml_title: 'Üks viimane samm...'

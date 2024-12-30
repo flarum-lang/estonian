@@ -3,10 +3,147 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-catch-the-fish:
+  admin:
+    permissions:
+      choose-name: 'Vali kala nimi pärast püüdmist'
+      choose-place: 'Vali pärast püüdmist kala asukoht'
+      list-rankings: 'Ligipääs edetabelile'
+      moderate: 'Raundide ja kalade haldamine'
+      participate: 'Raundides ja kala püüdmises osalemine'
+      visible: 'Vaata kalu'
+    settings:
+      alert-round: 'Näita avalehel teavitusi raundi nime ja kestusega'
+      animate-flip: 'Pööra kala pilte vastavalt suunale'
+      discussion: Vestlused
+      discussion-age: 'Kui vana (päevades) peab vestlus olema enne, kui sellele saab kala panna'
+      discussion-tags: 'Siltide valge nimekiri'
+      general: Üldine
+      post: Postitused
+      post-age: 'Kui vana (päevades) peab postitus olema enne, kui sellele saab kala panna'
+      post-probability: 'Tõenäosus, et see paigaldatakse postitusele, mitte vestlusele (%)'
+      tags-control:
+        add: 'Lisa valgesse nimekirja'
+        choose: 'Vali silt'
+        delete: 'Eemalda valgest nimekirjast'
+        down: 'Liiguta alla'
+        up: 'Liiguta üles'
+      tags-fallback:
+        last-line: Tagavara
+        single-line: 'Tõenäosuse jaoks peab olema vähemalt 2 silti'
+      tags-header:
+        probability: Tõenäosus
+        tag: Silt
+      time-to-place: 'Kala paigutamiseks jääv aeg enne (minutites), kui see paigaldatakse automaatselt'
+      user: Kasutajad
+  api:
+    cannot-catch-hold-fish: 'Eelmine püüdja peab kala vabastama enne, kui saad selle kinni püüda'
+    cannot-catch-own-fish: 'Sa ei saa püüda kala, mida sa oled ise asetanud'
+    default-fish-name: 'Kala nr. {number}'
+    fish-update-expired: 'Liiga hilja, sa ei saa enam seda kala muuta. See on vahepeal paigutatud automaatselt kuhugi mujale'
+    fish-update-wrong-user: 'Sa ei saa enam seda kala muuta. Keegi teine on selle juba tõenäoliselt kinni püüdnud'
+    invalid-discussion-id: 'Näib, et vestlust pole olemas. Äkki see kustutati just hiljuti'
+    invalid-post-id: 'Tundub, et postitust pole olemas, ehk see on hiljuti kustutatud'
+    invalid-user-id: 'Näib, et kasutajat pole olemas, ta on ilmselt hiljuti kustutatud'
+    model-deleted: 'Kala ei saa paigutada kustutatud vestlusesse või postitusse'
+    non-comment-post: 'Saab panna kalu ainult kommentaari postitustele'
+    random-error: 'Juhusliku pildi asukoha loomine ebaõnnestus'
+    round-finished: 'See raund on lõpetatud'
+    round-not-started: 'Seda raundi pole alustatud'
+    tag-not-allowed: 'Selle sildi alla ei saa kala panna'
+    too-many-placement-models: 'Hetkel saab paigutada ainult ühte kohta'
+    user-suspended: 'Kala ei saa paigaldada blokeeritud kasutajale'
+    wrong-catch-placement: 'Siin pole ühtegi kala. Äkki sa polnud piisavalt kiire ja keegi jõudis sinust ette'
   forum:
+    basket:
+      drag-help: 'Lohista kalad vestlusele, postitusele või kasutaja profiilile'
+      time: 'Aseta kuni: {time}'
+      title: Kalakorv
+    caught-fish-modal:
+      congratulation: 'Õnnitlused! Püüdsid kala. Oled püüdnud kokku {catch_count} kala.'
+      name: 'Kala nimi'
+      named-by: 'Nime andis'
+      placed-by: 'Kohale pani'
+      submit-continue: Jätka
+      submit-name: 'Salvesta nimi'
+      submit-name-place-later: 'Salvesta nimi ja vali peitmise koht'
+      submit-name-place-random: 'Salvesta nimi ja lase kalal end ise ära peita'
+      submit-place-later: 'Jep, valin peitmise koha'
+      submit-place-random: 'Lase kalal end ise ära peita'
+      title: 'Püüdsid kala!'
+    drop-area:
+      message: 'Võid kala siia lohistada'
+    edit-fish-modal:
+      title: 'Muuda kala "{name}"'
+    edit-fish:
+      create: 'Loo kala'
+      delete: 'Kustuta kala'
+      delete-confirmation: 'Kas kustutada kala "{name}"?'
+      name: Nimi
+      name-help: 'Praegune kala nimi. Saab muuta kasutajate poolt, kellel on õigus selle tegemiseks'
+      save: 'Salvesta kala'
+    edit-round-modal:
+      title: 'Muuda raundi "{name}"'
+    edit-round:
+      create: 'Loo raund'
+      delete: 'Kustuta raund'
+      delete-confirmation: 'Kas kustutada raund "{name}"?'
+      ends-at: 'Lõpu aeg'
+      name: Nimi
+      name-help: 'Selle raundi avalik nimi, seda näidatakse bänneril ja edetabelis'
+      save: 'Salvesta raund'
+      starts-at: 'Alguse aeg'
+    fish-image:
+      alt: 'Kala "{name}" pilt'
+      missing: 'Puuduva kala pilt'
     moderate:
       add: Lisa
       delete: Kustuta
       edit: Muuda
+      fishes: Kalad
+      rounds: Raundid
+    moving-fish:
+      login: 'Kalapüüdmiseks logi sisse'
+    nav:
+      rankings: 'Kalapüüdmise edetabel'
+      settings: 'Kala püüdmise seaded'
     new-fish-modal:
       title: 'Uus kala'
+    new-round-modal:
+      title: 'Uus raund'
+    page-ranking:
+      nothing: 'Ühtegi aktiivset raundi pole'
+      permission: 'Sul pole luba edetabeli nägemiseks'
+      title: Edetabel
+    round-alert:
+      message: 'Raund "{name}", püüa nii palju kalu kui saad kuni {time}'
+      rankings: 'Vaata edetabelit'
+    table-fish:
+      actions: Tegevused
+      edit: Muuda
+      image: Pilt
+      loading: Laadimine...
+      name: Nimi
+      new: 'Uus kala'
+      new-from-image: 'Loo uusi kalu hulgi piltide importimisega'
+      no-user-name: 'Pole ümber nimetatud'
+      no-user-place: Juhuslik
+      placement: 'Praegune asukoht'
+      title: 'Kalad raundist {name}'
+      upload: 'Laadi üles uus pilt'
+      user-name: 'Viimati nimetas'
+      user-place: 'Viimati asetas'
+    table-ranking:
+      count: 'Püütud kalu'
+      loading: Laadimine...
+      rank: Nimi
+      user: Kasutaja
+    table-round:
+      actions: Tegevused
+      edit: Muuda
+      end: Kuni
+      fishes: Kalad
+      loading: Laadimine...
+      name: Nimi
+      new: 'Uus raund'
+      start: Alates
+      title: Raundid
