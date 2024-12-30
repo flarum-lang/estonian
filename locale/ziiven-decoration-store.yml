@@ -3,12 +3,98 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-decoration-store:
+  admin:
+    data-add: Lisa
+    data-save: Salvesta
+    item-activate: Aktiveeri
+    item-activate-confirmation: 'Oled sa kindel, et soovid selle toote aktiveerida?'
+    item-activate-status: 'Aktiveerimise staatus'
+    item-activate-status-all: 'Kõik aktiveerimise staatused'
+    item-activate-status-down: Deaktiveeritud
+    item-activate-status-up: Aktiveeritud
+    item-add: 'Lisa toode'
+    item-assigned-at: Kuupäev
+    item-deactivate: Deaktiveeri
+    item-delete: Kustuta
+    item-delete-confirmation: 'Oled sa kindel, et soovid selle toote kustutada?'
+    item-discount: Allahindlus
+    item-discount-days: 'Allahindluse kestus (päevades)'
+    item-discount-none: Pole
+    item-edit: Muuda
+    item-filter-all: Kõik
+    item-id: ID
+    item-property-image: Pilt
+    item-property-image-upload: 'Laadi üles'
+    item-property-style: Stiil
+    item-property-style-text-effect: 'Teksti eelvaade'
+    item-type-selection: 'Vali tooteliik'
+    settings:
+      display-name: 'Näidatav nimi'
+      display-name-default: 'Kaunistuste pood'
+      timezone: Ajavöönd
+      timezone-default: Aasia/Shanghai
+  forum:
+    display-name-default: 'Kaunistuste pood'
+    equipment-modal-title: 'Kirjete nimekiri'
+    item-already-have: 'Kirje on juba ostetud'
+    item-expired: 'Tellimus on tühistatud'
+    item-property-style-text-effect: 'Eelvaate tekst'
+    item-purchase-cost: Ostuhind
+    item-purchase-date: 'Ostu kuupäev'
+    item-purchase-item-status: 'Kirje staatus'
+    item-purchase-item-status-0: 'Pole kasutuses'
+    item-purchase-item-status-1: Kasutuses
+    item-purchase-item-type: 'Kirje liik'
+    item-purchase-item-type-avatarFrame: 'Avatari raam'
+    item-purchase-item-type-profileBackground: 'Profiili taust'
+    item-purchase-item-type-usernameColor: 'Kasutajanime värv'
+    item-purchase-purchase-type: 'Ostu liik'
+    item-purchase-subscription-cost: 'Tellimuse hind'
+    item-purchase-title: 'Kirje nimi'
+    item-soldout: 'Välja müüdud'
+    item-subscribe: Telli
+    item-unsubscribe: 'Tühista tellimus'
+    my-decoration: 'Minu kaunistused'
+    notification-receive-subscription: 'Tellimustasu maha võtmine'
+    notifications:
+      subscription-fee-deduction-excerpt: 'Hind {cost}'
+    processing: Töötlemine
+    purchase-add-cart: 'Lisa ostukorvi'
+    purchase-confirmation: 'Ostu kinnitamine'
+    purchase-error: 'Tõrge ostmisel'
+    purchase-error-insufficient-fund: 'Pole piisavalt raha'
+    purchase-error-item-alreay-have: 'Sul juba on see toode'
+    purchase-history: 'Tellimuste ajalugu'
+    purchase-now: 'Mine ostlema'
+    purchase-success: 'Ost on sooritatud'
+    shopping-cart: Ostukorv
+    shopping-cart-close: Sulge
+    user-money-amount: 'Sul on'
+    view-shopping-cart: Ostukorv
   lib:
     cancel: Loobu
     close: Sulge
     confirm: Kinnita
+    item-amount: Laos
+    item-cost: Hind
+    item-cost-free: Tasuta
+    item-desc: Kirjeldus
+    item-discount-days-left: ' ({days} päeva järgi)'
+    item-discount-days-text: 'Allahindlus kestab: {days} päeva'
+    item-discount-ribbon: 'ALE {discount}%'
+    item-label: 'Kirje silt'
+    item-label-popular: Populaarne
+    item-label-recommend: Soovitatud
+    item-purchase-type: 'Ostu liik'
+    item-purchase-type-all: 'Kõik ostu liigid'
+    item-purchase-type-monthly: 'Kuine tellimus'
+    item-purchase-type-onetime: 'Ühekordne ost'
+    item-sold: Müügid
+    item-title: 'Kirje nimi'
     item-type: 'Kirje liik'
     item-type-all: 'Kõik kirje liigid'
     item-type-avatarFrame: 'Avatari raam'
+    item-type-profileBackground: 'Profiili taust'
+    item-type-usernameColor: 'Kasutajanime värv'
     none: Pole
     ok: OK

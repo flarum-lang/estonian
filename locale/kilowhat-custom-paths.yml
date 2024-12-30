@@ -5,10 +5,57 @@
 kilowhat-custom-paths:
   admin:
     settings:
+      disabled: 'Lisaprogramm pole sisse lülitatud'
       extensions:
+        clarkwinkelmann-discussion-bookmarks: 'ClarkWinkelmann''s vestluste järjehoidjad'
+        clarkwinkelmann-group-list: 'ClarkWinkelmann''s gruppide nimekiri'
+        clarkwinkelmann-post-bookmarks: 'ClarkWinkelmann''s postituste järjehoidjad'
         flarum-tags: 'Flarumi sildid'
         fof-pages: 'FriendsOfFlarumi leheküljed'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
       head:
         name: Nimi
         path: Asukoht
+      paths:
+        askvortsov-categories: Kategooriad
+        clarkwinkelmann-discussion-bookmarks: 'Vestluse järjehoidjad'
+        clarkwinkelmann-discussion-list: Nimekiri
+        clarkwinkelmann-discussion-lists-profile: 'Kasutajate nimekirjad'
+        clarkwinkelmann-group-list: 'Gruppide nimekiri'
+        clarkwinkelmann-post-bookmarks: 'Postituste järjehoidjad'
+        discussion: Vestlus
+        flamarkt-account: Konto
+        flamarkt-balance: 'Konto saldo'
+        flamarkt-cart: Ostukorv
+        flamarkt-categories: 'Kategooriate nimekiri'
+        flamarkt-category: 'Kategooria tooted'
+        flamarkt-identity: 'Konto identiteet'
+        flamarkt-order: Tellimus
+        flamarkt-orders: 'Konto tellimused'
+        flamarkt-product: Toode
+        flamarkt-products: 'Toodete indeks'
+        flamarkt-signup: Liitu
+        fof-byobu: 'Privaatsed vestlused'
+        fof-byobu-profile: 'Kasutaja vestlused'
+        fof-gamification-user-votes: 'Kasutaja hääled'
+        fof-masquerade: 'Profiili leht'
+        fof-moderator-notes-user-notes: 'Profiili märkmed'
+        fof-pages: Lehekülg
+        fof-user-directory: 'Kasutajate kataloog'
+        following: Jälgimisel
+        formulaire-form: Vorm
+        formulaire-profile: 'Profiili väljad'
+        index: 'Vestluste nimekiri (kui pole avalehel)'
+        notifications: 'Teavitused (mobiilil)'
+        settings: Seaded
+        tag: 'Vestluse silt'
+        tags: 'Siltide nimekiri'
+        user: 'Kasutaja profiil'
+        user-discussions: 'Kasutaja vestlused'
+        user-likes: 'Kasutaja meeldimised'
+        user-mentions: 'Kasutaja mainimised'
+        user-security: Turvalisus
+        v17development-blog-category: Kategooria
+        v17development-blog-compose: Koosta
+        v17development-blog-overview: Ülevaade
+        v17development-blog-post: Postitus

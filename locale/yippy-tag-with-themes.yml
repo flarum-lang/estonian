@@ -4,5 +4,7 @@
 
 yippy-tag-with-themes:
   admin:
+    helps:
+      design_default: 'Vali vaikimisi kujunduse paigutus'
     labels:
       design_default: 'Vestluse kujunduse paigutus'

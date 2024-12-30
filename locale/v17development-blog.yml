@@ -8,5 +8,57 @@ v17development-flarum-blog:
     permissions:
       write_articles: 'Blogi artiklite kirjutamine ja muutmine'
     settings:
+      allow_comments_label: 'Luba kommentaarid'
       blog_heading: Blogi
+      categories_heading: Kategooriad
+      default_article_image_label: 'Vaikimisi artikli pilt'
+      hide_on_discussion_list_label: 'Ära näita vestluste nimekirjas'
+      redirects_heading: Ümbersuunamised
       select_categories_button: 'Vali blogi kategooriad'
+      show_tag_hierarchy_label: 'Näita siltide hierarhiat'
+  forum:
+    article:
+      summary: Kokkuvõte
+      title: Pealkiri
+    article_settings:
+      fields:
+        highlight:
+          title: 'Esiletõstetud postitus'
+        image:
+          title: 'Artikli pilt'
+        summary:
+          placeholder: 'Palun sisesta kokkuvõte'
+          title: 'Artikli kokkuvõte'
+      title: 'Blogi postituste seaded'
+    blog: Blogi
+    categories: Kategooriad
+    comment_section:
+      comments: Kommentaarid
+    compose:
+      write_article: 'Kirjuta artikkel'
+    composer:
+      edit_categories: 'Muuda kategooriat'
+      no_title: 'Pealkirja pole'
+      nothing_to_preview: 'Pole midagi näidata'
+      post_article: 'Postita artikkel'
+      select_category: 'Vali kategooria'
+      update_settings: 'Uuenda blogi seadeid'
+      view: Vaata
+      write: Kirjuta
+    forum_nav: 'Foorumi menüü'
+    hidden: Peidetud
+    read_more: 'Loe lisa'
+    recent_posts: 'Viimased blogipostitused'
+    tools:
+      approve_article: 'Kiida artikkel heaks'
+      article_settings: 'Artikli seaded'
+      delete_forever: 'Kustuta igaveseks'
+      disable_comments: 'Lülita kommentaarid välja'
+      edit_article: 'Muuda artiklit'
+      enable_comments: 'Lülita kommentaarid sisse'
+      hide_article: 'Peida artikkel'
+      recover_article: 'Taasta artikkel'
+      rename_article: 'Nimeta artikkel ümber'
+      update_category: 'Uuenda kategooriaid'
+    validation:
+      missing_id: 'Puuduv ID'

@@ -4,5 +4,7 @@
 
 justoverclock-reputation-score:
   admin:
+    discussions: vestluseid
+    like: meeldimisi
     resetRewardsButton: 'Nulli kõik kasutajate autasud'
     tagMinimumReputationLabel: 'Minimaalne reputatsiooni piirang'

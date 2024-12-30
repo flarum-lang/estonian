@@ -4,9 +4,166 @@
 
 v17development-flarum-support:
   forum:
+    admin_overview: 'Ava admini ülevaade'
+    article:
+      article: Artikkel
+      articles: Artiklid
+      author: Autor
+      authors: Autorid
+      created_at: 'Loodud {date}'
+      hidden: Peidetud
+      last_modified: 'Viimati muudetud {date}'
+      not_found: 'Artiklit ei leitud'
+      share_article:
+        perma_link: 'Püsilink sellele artiklile:'
+        title: 'Jaga artiklit'
+      tools:
+        delete_forever: 'Kustuta igaveseks'
+        edit_article: 'Muuda artiklit'
+        edit_tags: 'Muuda artikli silte'
+        hide_article: 'Peida artikkel'
+        recover_article: 'Taasta artikkel'
+        rename_article: 'Nimeta artikkel ümber'
+        view_ratings: 'Vaata hinnanguid'
+    article_events:
+      article_hidden: '{username} peitis artikli'
     ask_a_question_on_forums: 'Küsi küsimus foorumis'
+    composer:
+      article_saved: 'Artikkel on salvestatud'
+      compose_article: 'Koosta artikkel'
+      compose_ticket: 'Koosta pilet'
+      enter_message_here: 'Sisesta oma sõnum siia'
+      manage_tags: 'Avalda silte'
+      new_article_title: 'Uue artikli pealkiri'
+      nothing_to_preview: 'Pole midagi näidata'
+      publish_article: 'Avalda artikkel'
+      publish_article_hint: 'Avalda artikkel pärast postitamist.'
+      view: Vaata
+      write: Kirjuta
     create: Loo
+    hero:
+      help_question: 'Millega me saame sulle abiks olla?'
     knowledge_base: Teabebaas
+    modals:
+      article_ratings:
+        confirm_delete_rating: 'Oled sa kindel, et tahad selle hinnangu kustutada?'
+        feedback: Tagasiside
+        loading_ratings: 'Hinnangute laadimine'
+        rating: Hinnang
+        title: 'Artikli hinnangud'
+        username: '=> core.ref.username'
+      audit_log:
+        article_created: 'Artikkel loodi'
+        no_more_events: 'Ühtegi sündmust ei leitud'
+    not_found:
+      title: 'Kirjet ei leitud'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
     or: või
+    overview:
+      back_to: 'Tagasi kategooriasse {category}'
+      category_not_found: 'Kategooriat ei leitud'
+      knowledge_base_overview: 'Teabebaasi ülevaade'
+      loading_articles: 'Artiklite laadimine'
+      no_articles_found: 'Sellest kategooriast ei leitud ühtegi kategooriat'
+      tools:
+        change_icon: 'Muud aikooni'
+        edit_description: 'Muuda kirjeldust'
+        new_article: 'Uus artikkel'
+        recount_articles: 'Loe artiklite arv üle'
+        rename_category: 'Nimeta kategooria ümber'
+    reopen: 'ava uuesti'
+    search:
+      back_to_search_results: 'Tagasi otsingutulemustesse'
+      search_knowledge_base: 'Tagasi teabebaasi'
+      searching: Otsimine
+      title: Otsi
     send: Saada
     settings: '=> core.ref.settings'
+    support_ratings:
+      enter_feedback: 'Sisesta oma tagasiside siia'
+      feedback: 'Aitäh sulle ülevaate eest. Kas sul on ka mingit tagasisidet?'
+      finished: 'Aitäh! Sinu tagasiside on salvestatud.'
+      validation:
+        cannot_rate_article: 'Sa ei saa seda artiklit hinnata.'
+        invalid_points: 'Vigane hinnang. Palun proovi uuesti.'
+        missing_article_id: 'Puuduv või vigane artikli ID'
+    support_tickets: 'KAsutajatoe piletid'
+    tickets:
+      compose_ticket:
+        not_allowed: 'Sa ei saa praegu uut piletit avada'
+        title: 'Kirjuta uus pilet'
+      fields:
+        assignees:
+          placeholder: 'Pileti staatus'
+        information:
+          title: 'Pileti info'
+        language:
+          empty: 'Keelt pole valitud'
+          placeholder: 'Vali keel'
+          title: Keel
+        private_note:
+          edit_button: 'Muuda märkust'
+          title: 'Privaatsed märkmed'
+        status:
+          title: Staatus
+        subject:
+          placeholder: 'Pileti teema'
+          title: Teema
+      load_more:
+        title: 'Laadi rohkem pileteid'
+      my_tickets:
+        no_tickets: 'Sul pole veel ühtegi piletit.'
+        title: 'Minu piletid'
+      new_tickets_dropdown:
+        no_tickets: 'Pileti teavitusi pole'
+        ticket_new: '{username} lõi pileti {ticket}'
+        title: 'Pileti teavitused'
+      opened_on: Avatud
+      overview:
+        all_tickets: 'Kõik piletid'
+        filter:
+          language:
+            any: 'Iga keel'
+          status:
+            title: 'Pileti staatus'
+        refresh: Värskenda
+        selection_closed: 'Suletud piletid'
+        selection_open: 'Avatud piletid'
+        selection_unfiltered: Filtreerimata
+        sort:
+          oldest: 'Vanimad enne'
+          recent_activity: 'Viimased tegevused'
+        title: 'Piletite ülevaade'
+      return_to_overview: 'Tagasi piletite ülevaatesse'
+      status:
+        closed:
+          close_after_posting: 'Sulge pilet pärast postitamist'
+          description: 'See pilet on suletud.'
+          title: Suletud
+        duplicate:
+          title: 'Tee koopia'
+        new:
+          description: 'See on vastamata pilet'
+          title: Uus
+        on_hold:
+          description: 'See pilet on ootel.'
+          title: Ootel
+        open:
+          title: Ava
+        pending:
+          title: Ootel
+        solved:
+          title: Lahendatud
+      subject: Teema
+      ticket: Pilet
+      ticket_does_not_exist: 'Küsitud tagasitoe pileteid ei leitud.'
+      ticket_overview: 'Pileti ülevaade'
+      tools:
+        assign_me: 'Määra mulle'
+        close_ticket: 'Sulge pilet'
+        remove_me: 'Eemalda mind'
+        update_note: 'Uuenda privaatset märkust'
+        update_subject: 'Uuenda teemat'
+        view_ticket: 'Vaata piletit'

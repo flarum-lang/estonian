@@ -4,14 +4,80 @@
 
 kilowhat-wordpress:
   admin:
+    health:
+      check: 'Kontrolli kohe'
+      errors: 'Leidsime mõningaid probleeme.'
+      healthy: 'Kõik näib korras olevat!'
+    role-group-sync:
+      choose:
+        group: 'Vali grupp'
+        role: 'Vali WordPressi roll...'
+      custom:
+        group: Kohandatud...
+        role: KOhandatud...
+      delete: 'Kustuta reegel'
+      head:
+        group: 'Flarumi grupp'
+        role: 'WordPressi roll'
+      role-loader:
+        loading: 'WordPressi rollide laadimine...'
+      selected-custom-group: Kohandatud
+    save-controls:
+      no-unsaved-changes: 'Kõik on salvestatud'
+      save: Salvesta
+      saved-at: 'Salvestatud {ago} tagasi'
     settings:
       api_key: 'Jagatud API võti'
       api_key_reset: 'Loo uus API võti'
+      comment_tag_custom: 'Kohandatud väärtused'
       cookie_domain: 'Küpsise domeen'
       default_actor_placeholder_search: 'Kirjuta kasutaja otsimiseks...'
       login_method_options:
         cookie: Küpsis
         iframe: 'Peidetud raam'
         redirect: 'Suuna ümber'
+      post_delete_options:
+        hide: 'Peida vestlused Flarumis'
+      post_hide_options:
+        delete: 'Kustuta vestlused Flarumist jäädavalt'
+        hide: 'Peida vestlused Flarumis'
+        lock: 'Lukusta vestlused Flarumis'
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
+      user_delete_options:
+        delete: 'Kustuta Flarumi kasutaja'
+      username_strategy: 'Uute kasutajate kasutajanimi'
+      username_strategy_options:
+        first_name: 'Eesnimi WordPressist'
+        random: 'Juhuslik kasutajanimi'
+        user_login: 'Kasutajanimi WordPressist'
       wordpress_url: 'WordPressi URL'
+    tabs:
+      comments: 'Kommentaaride integreerimine'
+      disabled: 'Välja lülitatud'
+      enabled: 'Sisse lülitatud'
+      sso: 'SSO integreerimine'
+      wizard: 'Pagaldamise abimees'
+    wizard:
+      install: Paigalda
+      wordpress_password: 'WordPressi admini parool'
+      wordpress_url: 'WordPressi URL'
+      wordpress_username: 'WordPressi admini kasutajanimi'
+  forum:
+    edit-user-modal:
+      edit_in_wordpress: 'Muuda WordPressis'
+    embed:
+      title: Kommentaarid
+    instant-login:
+      avatar_alt_text: 'WordPressi avatar'
+      welcome_unknown_user: 'Teretulemast tagasi!'
+    log_in:
+      with_wordpress_button: 'Logi sisse WordPressiga'
+    summary-post:
+      blog_link: 'Loe blogis'
+      head_label: 'WordPressi postitus'
+      read_more: 'Loe lisa'
+    thumbnail_alt_fallback: 'WordPressi postituse pisipilt'
+    welcome-modal:
+      submit: 'Lülita foorumi konto sisse'
+      title: Teretulemast!
+      username: 'Vali kasutajanimi'

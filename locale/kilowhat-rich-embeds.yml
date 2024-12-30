@@ -16,12 +16,17 @@ kilowhat-rich-embeds:
       youtube: YouTube
     settings:
       blacklist: 'URL-ide must nimekiri'
+      cacheProxy: 'Hoia pildid vaheserveris'
       githubApiKey: 'GitHub API võti'
       googleApiKey: 'Google SDK API võti'
+      imageProxy: 'OpenGraph piltide vaheserver'
       layout: Paigutus
       layoutOptions:
         block: Plokk
+        inline: 'Otse postituses'
         separated: Eraldatud
+      maxImageCount: 'Maksimaalne piltide arv eelvaates'
+      maxImageCountPlaceholder: 'Piiramatu jaoks jäta tühjaks'
       position: Asukoht
       positionOptions:
         above: 'Lingi kohal'
@@ -52,13 +57,45 @@ kilowhat-rich-embeds:
         issue:
           stats:
             commentCount: Kommentaarid
+            createdAt: Loodud
           type: Probleem
         privateRepoSuffix: '[privaatne]'
+        pull:
+          stats:
+            commentCount: Kommentaare
+            createdAt: Loodud
+            reviewCount: Ülevaateid
+        repo:
+          stats:
+            openIssueCount: 'Avatud probleemid'
+            subscriberCount: Vaatajaid
+          type:
+            private: 'Privaatne hoidla'
+            public: 'Avalik hoidla'
         siteName: GitHub
+      googledrive:
+        file:
+          stats:
+            createdTime: Loodud
+            modifiedTime: Muudetud
+            size: Failisuurus
+          type: Fail
+        siteName: 'Google Drive'
+      youtube:
+        siteName: YouTube
+        video:
+          stats:
+            commentCount: Kommentaare
+            likeCount: Meeldimisi
+            viewCount: Vaatamisi
+          type: Video
     error:
       invalidUrl: 'URL {url} pole korrektne.'
   lib:
     controls:
+      disable: 'Keela selles postituses teabe põimimine'
+      disableConfirmation: 'Sellest postitusest eemaldatakse kõik põimimised. Kas jätkan?'
+      expandDescription: 'Laienda kirjeldust'
       imgCopied: Kopeeritud!
       imgCopy: 'Kopeeri pildi URL'
       imgOpen: 'Ava pilt uuel vahekaardil'
@@ -68,4 +105,5 @@ kilowhat-rich-embeds:
       altFavicon: '{website} ikoon'
       altImageFallback: '{website} Opengraph pilt'
       missing:
+        other: 'Sellest lingist eelvaate loomine ebaõnnestus'
         retrieving: 'Info tõmbamine...'
