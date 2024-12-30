@@ -4,5 +4,33 @@
 
 clarkwinkelmann-scratchpad:
   admin:
+    compilation-alert:
+      failure: 'Kompileerimine ebaõnnestus!'
+      success: Kompileeritud!
+      view-output: 'Vaata väljundit'
+    compilation-modal:
+      npm: 'NPM väljund'
+      npm-not-run: 'NPM ei käivitunud'
+      title: 'Kompileerimise väljund'
+      webpack: 'Webpacki väljund'
+    controls:
+      compile: 'Compile JS'
+      delete: Kustuta
+      delete-confirmation: 'Kas kustutada "{title}" ?'
+      disable: 'Välja lülitamiseks kliki'
+      enable: 'Sisse lülitamiseks kliki'
+      new: Uus
+      refresh: Värskenda
+      save: Salvesta
+      settings: 'Redaktori seaded'
+    fields:
+      admin_js: 'Admini JS'
+      admin_less: 'Admini Less'
+      forum_js: 'Foorumi JS'
+      forum_less: 'Foorumi Less'
+      php: PHP
+    placeholders:
+      js-log: 'Tere, {frontend}!'
+      untitled: Pealkirjata
     settings:
       npm-install-command: 'NPM paigaldamise käsk'

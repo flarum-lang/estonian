@@ -5,4 +5,9 @@
 datlechin-title-length:
   admin:
     settings:
+      limit_help: 'Lülita sisse kohandatud pealkirja pikkuse piirang. Kui see on välja lülitatud, siis kasutatakse Flarumi vaikimisi pealkirja pikkuse piirangut.'
+      limit_label: 'Lülita sisse pealkirja pikkuse limiit'
+      max_help: 'Pealkirja maksimaalne pikkus. Maksimaalne väärtus on 1000.'
       max_label: 'Maksimaalne pikkus'
+      min_help: 'Pealkirja minimaalne pikkus. Minimaalne väärtus on 1.'
+      min_label: 'Minimaalne pikkus'

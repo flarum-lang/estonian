@@ -4,6 +4,12 @@
 
 yippy-tag-with-themes:
   admin:
+    designs:
+      data:
+        primary_background_color: 'Vali peamiste siltide taustavärv'
+        primary_font_class: 'Muuda peamist fonti'
+        tags: 'Vali peamised sildid'
+        themeName: 'Vali teema'
     helps:
       design_default: 'Vali vaikimisi kujunduse paigutus'
     labels:

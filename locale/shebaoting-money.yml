@@ -4,7 +4,50 @@
 
 shebaoting-money:
   admin:
+    automoderator:
+      action_name: 'Anna raha'
+      metric_name: Raha
+    autoremove:
+      - 'Ära kunagi eemalda raha'
+      - 'Kui vestlus/postitus peidetakse või taastatakse (vaikeväärtus)'
+      - 'Kui vestlus/postitus kustutatakse'
+    permissions:
+      edit_money_label: 'Muuda raha'
     settings:
+      extra_char_increment: 'Märkide kasvamine'
+      extra_char_threshold: 'Märkide lävi'
       initialmoney: 'Algne rahasumma uuel kasutajal'
+      moneyfordiscussion: 'Uue vestluse eest antud raha'
       moneyname: 'Selle raha nimi (nt: [money] punkti)'
+      noshowzero: 'Ära näita, kui väärtus on null'
       title: Seaded
+  forum:
+    load_more: 'Laadi rohkem'
+    log_amount: Kogus
+    log_balance: Saldo
+    log_description: Kirjeldus
+    log_type: Liik
+    log_type_deposit: Deposiit
+    log_type_reward: Tasu
+    log_type_transfer: Ülekanne
+    logs_description:
+      discussion_deleted: 'Kustutas vestluse › <a href="{url}">{title}</a>'
+      discussion_hidden: 'Peitis vestluse › <a href="{url}">{title}</a>'
+      discussion_restored: 'Taastas vestluse › <a href="{url}">{title}</a>'
+      posted_reply: 'Vastas vestlusele › <a href="{url}">{title}</a>'
+    logs_type:
+      discussion_replied: 'Vastas vestluses'
+      post_created: 'Postitus on loodud'
+      post_deleted: 'Postitus on kustutatud'
+      post_hidden: 'Postitus on peidetud'
+      post_restored: 'Postitus on taastatud'
+    point_log:
+      load_more: 'Loe lisa'
+      table:
+        headers:
+          amount: Summa
+          balance: Saldo
+          date: Kuupäev
+          reason: Põhjus
+    user_controls:
+      money_button: 'Muuda raha'
