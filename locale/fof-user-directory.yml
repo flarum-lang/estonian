@@ -29,6 +29,7 @@ fof-user-directory:
         placeholder: 'Otsi kõiki kasutajaid'
       kinds:
         group: Grupp
+        text: 'Vabalt valitud tekst'
       users_heading: 'Otsi kasutajatest "{query}"'
   lib:
     sort:

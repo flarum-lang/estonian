@@ -7,7 +7,11 @@ ianm-html-head:
     create_button: Loo
     modal:
       create_title: 'Loo uus kirje'
+      description_label: Kirjeldus
       edit_title: 'Muuda kirjet'
+      header_label: 'Kohandatud päise kirje'
+      save_button: Salvesta
+      text: 'Veendu, et süntaks oleks korrektne, kuna vigase info sisestamisega võid sa oma foorumi lõhkuda. Pärast salvestamist, lülita oma päise kirje lülitiga sisse või välja.'
     table:
       active_label: Aktiivne
       delete_button: Kustuta

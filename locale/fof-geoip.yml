@@ -2,6 +2,10 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-geoip/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      showIPCountry: 'Näita kasutajate postituste juures riigi lippu'
 fof-geoip:
   admin:
     settings:
@@ -14,4 +18,26 @@ fof-geoip:
       service_ipapi_label: 'IP API'
       service_ipdata_label: IP-andmed
       service_iplocation_label: 'IP asukoht'
+      service_ipsevenex_label: '7x Geolocation API'
       service_label: Teenus
+  forum:
+    alerts:
+      ip_copied: 'Kopeeritud IP aadress'
+    copy_ip_label: 'Kopeeri IP lõikelauale'
+    map_button_label: 'IP info'
+    map_modal:
+      as: ASN
+      country_code: Riigikood
+      error: Veateade
+      ip_address: 'IP aadress'
+      isp: ISP
+      mobile: Mobiilivõrk
+      not_enough_data: 'Kaardi joonistamiseks pole piisavalt infot'
+      organization: Organisatsioon
+      threat_level: 'Ohu tase'
+      threat_types: 'Ohu liik'
+      title: 'IP informatsioon'
+      zip_code: Postiindeks
+    user:
+      settings:
+        ip_country: 'Näita selle riigi lippu vastavalt minu IP aadressile'

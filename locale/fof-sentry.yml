@@ -6,4 +6,6 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry keskond'
+      javascript_label: 'Teata JavaSckripti veateadetest'
       user_feedback_label: 'Kasutaja tagasiside'

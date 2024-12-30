@@ -8,6 +8,37 @@ core:
       hot_button: Trendikas
       votes_button: 'Üles hääletamised'
 fof-gamification:
+  admin:
+    page:
+      alt_votes:
+        icon_name: 'Alternatiivse paigutuse ikooni nimi'
+      groups:
+        add: 'Lisa uus reegel'
+        column:
+          group: Grupp
+          maxPoints: 'Punkte maksimaalselt (kaasa arvatud)'
+          minPoints: 'Punkte minimaalselt (kaasa arvatud)'
+        delete: 'Kustuta reegel'
+        title: 'Automaatselt määratud grupid'
+      rankings:
+        blocked:
+          placeholder: 'admin, kasutaja1, kasutaja2'
+          title: 'Ignoreeritud kasutajad'
+        custom_image_1: '1. koha pilt'
+        custom_image_3: '3. koha pilt'
+        enable: 'Luba kohandatud piltide kasutamine'
+      ranks:
+        help:
+          color: '#ffffff'
+          name: Nimi
+          points: Punkte
+      save_settings: 'Salvesta seaded'
+      votes:
+        color_holder: '#ffffff'
+        points_placeholder: 'Punkte: '
+        title: Hääli
+    permissions:
+      see_voters_label: 'Vaata, kes hääletas'
   forum:
     mod_item: 'Vaata hääletajaid'
     modal:

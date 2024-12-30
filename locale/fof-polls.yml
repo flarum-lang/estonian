@@ -7,11 +7,19 @@ fof-polls:
     permissions:
       change_vote: 'Muuda vastust'
       moderate: 'Muuda ja eemalda küsitlusi'
+      self_edit: 'Lisatud küsitluste muutmine (nõuab postituste muutmise õigust)'
+      self_post_edit: '*Kõikide* oma postituse juures olevate küsitluste muutmine (nõuab postituste muutmise õigust)'
       start: 'Alusta küsitlust'
       start_global: 'Alusta üldist küsitlust'
+      upload_images: 'Kasutajad võivad küsitluse juurde pilte üles laadida'
       view_results_without_voting: 'Vaata tulemusi ilma hääletamata'
       vote: 'Vasta küsitlusele'
     settings:
+      allow_image_uploads: 'Luba küsitluste ja nende valikute jaoks piltide üleslaadimine'
+      allow_image_uploads_help: 'Kui see on sisse lülitatud, siis saavad kasutajad laadida üles pildi või lisada URL-i (kui see on valikutes sisse lülitatud, siis küsitlusele endale saab alati pilte lisada).'
+      allow_option_image: 'Luba iga küsitluse vastusevariandi jaoks pildi URL-i lisamine'
+      enable_global_polls: 'Lülita sisse üldiste küsitluste kasutamine'
+      enable_global_polls_help: 'Üldised küsitlused pole seotud ühegi konkreetse postitusega ja neid võib näha eraldi küsitluste leheküljelt.'
       general:
         heading: 'Üldised seaded'
         help: 'Need seaded määravad küsitluste lisaprogrammi peamised funktsioonid.'
@@ -24,6 +32,8 @@ fof-polls:
       image_height: 'Muuda pildi kõrgust'
       image_width: 'Muuda pildi laiust'
       max_options: 'Maksimaalne vastusevariantide arv küsitluses'
+      options_color_blend: 'Teksti värv küsitluste vastusevalikutes'
+      options_color_blend_help: 'Kasuta seda valikut, et teha küsitluse vastusevariandid paremini loetavaks. Lülita see valik välja, kui see põhjustab mingeid probleeme sinu foorumi välimusega.'
   forum:
     answers: Vastused
     compose:
@@ -34,17 +44,22 @@ fof-polls:
       polls_preview: 'Vaata küsitlust'
       success: 'Küsitlus on salvestatud.'
     composer_discussion:
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
+      no_permission_alert: 'Sul pole küsitluse alustamiseks õiguseid.'
     days_remaining: 'Küsitlus lõpeb {time}.'
+    max_votes_allowed: 'Küsitlusele vastamisel võib teha {max, plural, one {# valiku} other {# valikut}}.'
     modal:
       add_option_label: 'Lisa valik'
       add_title: 'Lisa küsitlus'
+      allow_change_vote_label: 'Luba kasutajatel oma vastust muuta'
       allow_multiple_votes_label: 'Luba inimestel valida mitu valikuvarianti'
       date_placeholder: 'Küsitluse lõpu kuupäev (valikuline)'
       delete: Kustuta
       edit_title: 'Muuda küsitlust'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Peida vastused kuni küsitlus lõpeb'
+      hide_votes_label_help: 'Kasutaja, kes lisas küsitluse, võib alati vastuseid näha.'
       image_option_placeholder: 'Link pildile (valikuline)'
       include_question: 'Sa pead lisama ka küsimuse'
       max: 'Sul võib olla maksimaalselt {max} vastusevarianti'
@@ -55,10 +70,13 @@ fof-polls:
       option_placeholder: Vastus
       options_label: Vastused
       poll_image:
+        alt_help_text: 'See tekst on nõutud, kui pilt on lisatud. Teksti näidatakse, kui pildi laadimine ebaõnnestub.'
         alt_label: 'Pildi alt tekst'
         help: 'Laadi üles pilt, mida näidatakse küsitluse kõrval (valikuline).'
         label: 'Küsitluse pilt'
+        later_help: 'Pildi saad üles laadida ka pärast küsitluse loomist.'
       poll_option_image:
+        help: 'Laadi üles pilt, mida näidatakse küsitluse vastusevariantide juures (valikuline).'
         label: 'Küsitluse vastuse pilt'
       public_poll_label: 'Luba inimestel näha, kes vastasid'
       question_placeholder: Küsimus
@@ -83,6 +101,7 @@ fof-polls:
       submit_button: Vasta
     poll_controls:
       delete_confirmation: 'Oled sa kindel, et soovid seda küsitlust kustutada?'
+      delete_error_message: 'Küsitluse kustutamisel läks midagi valesti.'
       delete_label: Kustuta
       delete_success_message: 'Küsitlus on kustutatud.'
       edit_label: Muuda
@@ -90,8 +109,11 @@ fof-polls:
     poll_ended: 'Küsitlus on lõppenud.'
     poll_form:
       delete: 'Kustuta küsitlus'
+      error: 'Küsitluse salvestamisel tekkis tõrge. Võta ühendust mõne administraatoriga.'
     poll_never_ends: 'Küsitlus ei lõpe kunagi'
+    polls_count: '{count, plural, one { {count} vastus} other {{count} vastust}}'
     polls_list:
+      empty_text: 'Näib, et siin pole ühtegi üldist kogukonna küsitlust.'
       load_more_button: '=> core.ref.load_more'
     polls_page:
       title: Küsitlused

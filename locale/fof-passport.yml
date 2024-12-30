@@ -8,6 +8,12 @@ fof-passport:
       field:
         app-auth-url: 'OAuth autoriseerimise URL'
         app-id: 'OAuth rakenduse ID'
+        app-scopes: 'OAuth päringu ulatus'
         app-secret: 'OAuth rakenduse salasõna'
         app-token-url: 'OAuth kontrollkoodi URL'
+        app-user-url: 'API URL, mis annab autentimisel kasutaja üksikasjad'
+        button-icon: 'Sisselogimisnupu ikoon'
         button-title: 'Sisselogimisnupu silt'
+        button-title-placeholder: '=> fof-passport.api.default-login-button-title'
+  api:
+    default-login-button-title: '=> core.ref.log_in'

@@ -4,6 +4,8 @@
 
 fof-recaptcha:
   admin:
+    permissions:
+      post_without_captcha: 'Postituste ja vestluste loomine ilma capthata'
     settings:
       forgot: '=> core.forum.forgot_password.title'
       help_text: 'Hangi oma Google reCAPTCHA kasutajaandmed <a>siit</a>.'
@@ -11,13 +13,17 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Saidi võti'
+      type_help: 'See lisaprogramm toetab ainult reCAPTCHA v2-te. Valitud liik peab olema sama, mis on reCAPTCHA kasutajakontol.'
       type_label: 'reCAPTCHA liik'
     test:
+      help_text: "See test kasutab üleval näidatud väärtuseid. Veendu, et sa laadiksid testi pärast seadete muutmist ja ära unusta pärast testi läbimist seadeid salvestada!\nAll näidatav ei pruugi kajastada salvestatud seadeid.\n"
       load_test_button: Laadi
       reload_button: 'Laadi uuesti'
       submit_button: Saada
+      success_message: 'Korras! reCAPTCHA on korrektselt seadistatud.'
       title: 'Testi reCAPTCHA-t'
   forum:
+    error: 'reCAPTCHA edastamisel tekkis tõrge. Proovi uuesti.'
     unknown_error: 'Tekkis tundmatu tõrge. Kontrolli Captchat ja proovi siis uuesti.'
 validation:
   recaptcha: 'reCAPTCHA kontroll ebaõnnestus.'

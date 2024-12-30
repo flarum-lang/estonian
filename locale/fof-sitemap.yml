@@ -8,6 +8,22 @@ fof-sitemap:
       advanced_options_label: Lisavalikud
       exclude_users: 'Jäta kõik kasutajaprofiilid sisukaardilt välja'
       exclude_users_help: 'Vaikimisi indekseeritakse kõik nähtavad kasutajad'
+      frequency:
+        daily: 'Iga päev'
+        hourly: 'Iga tund'
+        twice_daily: 'Kaks korda päevas'
       mode_help_multi_label: 'Mitme-faili režiim'
       mode_help_runtime_label: 'Runtime režiim'
       mode_label: Režiim
+      modes:
+        multi_file: 'Mitu faili'
+        runtime: Käivitamiseaeg
+      soft_404:
+        tags:
+          discussion:
+            minimum_item_threshold_help: 'Minimaalne vestluste arv sildi all, et seda saaks lisada sisukaardil.'
+            minimum_item_threshold_label: 'Silt: Minimaalne vestluste arv'
+        user:
+          comments:
+            minimum_item_threshold_help: 'Minimaalne kommentaaride/postituste arv, mis peaks kasutajal olema, et nende profiil lisataks sisukaardile.'
+            minimum_item_threshold_label: 'Kasutaja: Minimaalne kommentaaride/postituste arv'
