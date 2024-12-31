@@ -6,8 +6,11 @@ flarum-twemoji:
   admin:
     settings:
       base: Peamine
+      basehelp: 'Näpunäited:'
       baseph: 'Näidis: https://www.minusait.ee/'
+      disable_autocomplete: 'Peata automaatne lõpetamine'
       ext: Lisaprogramm
+      extph: 'Näiteks: .gif'
       folder: Kaust
       folderph: 'Näidis: svg'
   forum:

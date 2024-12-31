@@ -5,7 +5,10 @@
 flarum-ext-auth-keycloak:
   admin:
     keycloak_settings:
+      attribute_mapping_label: 'Kohandatud omaduste sidumine'
       client_id_label: 'Kliendi ID'
       client_secret_label: 'Kliendi salasõna'
+      delegate_avatars_label: 'Jaga avatarid'
+      role_mapping_label: 'Rollide sidumine gruppidega'
       server_url_label: 'Serveri URL'
       title: 'Keycloack seaded'
