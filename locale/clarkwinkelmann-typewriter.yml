@@ -11,7 +11,9 @@ clarkwinkelmann-typewriter:
         file: Fail
         keys: Võtmed
       muteByDefault: 'Vaigista vaikimisi'
+      showIntroductionPopup: 'Näita esimesel korral tutvustavat hüpikakent'
       sounds: Lisahelid
   forum:
-    enable: 'Luba trükkimise hääled'
-    mute: 'Vaigista trükkimise helid'
+    enable: 'Lülita trükkimise hääled sisse'
+    introductionMessage: 'Kliki, et trükkimise hääled sisse või välja lülitada'
+    mute: 'Lülita trükkimise hääled välja'

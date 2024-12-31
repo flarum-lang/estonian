@@ -8,7 +8,11 @@ fof-oauth:
       providers:
         envato:
           client_id_label: 'Kliendi ID'
+          client_secret_label: 'Kliendi salasõna'
+          description: 'Liitumine sinu foorumiga Envato kontoga {link}.'
   forum:
+    log_in:
+      with_envato_button: '=> fof-oauth.forum.log_in.with_button'
     providers:
       envato: '=> fof-oauth.lib.providers.envato'
   lib:

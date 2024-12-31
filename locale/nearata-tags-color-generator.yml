@@ -6,11 +6,19 @@ nearata-tags-color-generator:
   admin:
     color_hue_label: Värvitoon
     color_hue_options:
+      blue: Sinine
+      green: Roheline
+      monochrome: Halltoonides
       orange: Oraanž
+      pink: Roosa
+      purple: Lilla
       random: Juhuslik
       red: Punane
+      yellow: Kollane
+    color_luminosity_label: 'Värvi kirkus'
     color_luminosity_options:
       bright: Hele
       dark: Tume
       light: Hele
       random: Juhuslik
+    generate_color_button: 'Loo juhuslik värv'
