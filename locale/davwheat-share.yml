@@ -4,13 +4,18 @@
 
 davwheat-share:
   admin:
+    browser_support_notice: 'Valik "Jaga" on nähtav ainult seadmetes, mis toetavad Web Share API-t <a>Erinevate veebilehitsejate tuge näed siit.</a>'
     button_preview_header: Eelvaade
     display_options:
       icon: 'Ainult ikoonid'
       menu: 'Tegevuste menüüs'
+      text: 'Ainult tekst'
     display_options_label: 'Jagamise nupu stiil'
     preview:
       dropdown:
         delete: Kustuta
         edit: Muuda
       reply: Vasta
+  lib:
+    share: Jaga
+    share_a11y_label: 'Jaga postitust'

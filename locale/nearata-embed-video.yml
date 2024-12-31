@@ -15,3 +15,13 @@ nearata-embed-video:
       permissions:
         can_create_video_player: 'Võib luua videopleieri'
         can_view_video_player: 'Võib vaadata videopleierit'
+      video_types:
+        dash: Dash
+        flv: Flv
+        hls: Hls
+        shaka: Shaka
+        webtorrent: WebTorrent
+  forum:
+    button_tooltip_title: 'Põimitud video'
+    cannot_create: 'Sul pole videote lisamiseks õigeuseid'
+    cannot_view: 'Tõrge: Sul pole selle sisu vaatamiseks õiguseid'

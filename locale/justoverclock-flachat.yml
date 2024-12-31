@@ -5,4 +5,6 @@
 justoverclock-flachat:
   admin:
     publishKey: 'PubNub Publish võti (tasuta)'
+    publishKey-help: 'kopeeri siia avaldamise võti aadressilt https://dashboard.pubnub.com/signup'
     subscribeKey: 'PubNub Subscribe võti (tasuta)'
+    subscribeKey-help: 'kopeeri siia avaldamise võti aadressilt https://dashboard.pubnub.com/signup'

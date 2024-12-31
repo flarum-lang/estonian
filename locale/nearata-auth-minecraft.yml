@@ -6,6 +6,7 @@ nearata-auth-minecraft:
   admin:
     settings:
       api_secret:
+        help: 'Leiad selle kohast <strong>Plugins/OAuth/config.json</strong>'
         label: 'API salasõna'
       api_url:
         help: 'Näiteks: http://localhost:4567/verify'
@@ -14,6 +15,9 @@ nearata-auth-minecraft:
         help: 'Näidis: minudomeen.ee'
         label: 'Minecraft serveri IP'
   forum:
+    log_in_button_title: 'Logi sisse Minecraftiga'
     log_in_modal:
       submit_button: Kinnita
       title: 'Logi sisse Minecraftiga'
+    login_error: 'Sessiooni ei käivitatud või see on aegunud.'
+    modal_help: 'Liitu serveriga <strong>{server}</strong> ja seejärel kliki all olevale nupule.'

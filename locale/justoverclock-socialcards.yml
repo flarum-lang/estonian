@@ -7,6 +7,9 @@ flarum-ext-socialcards:
     settings:
       fblink: 'Facebooki link'
       ghlink: 'GitHub-i link'
-      showfacebook: 'Luba Facebook'
+      showGithub: 'Luba GitHubi kasutamine'
+      showfacebook: 'Luba Facebooki kasutamine'
+      showtwitter: 'Luba Twitteri kasutamine'
       showyoutube: 'Luba Youtube kasutamine'
+      twlink: 'Twitteri link'
       ytlink: 'Youtube link'

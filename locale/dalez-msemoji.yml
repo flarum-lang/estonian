@@ -6,9 +6,13 @@ flarum-msemoji:
   admin:
     settings:
       base: Peamine
+      basehelp: 'Näpunäide: Märk $ asendab selle automaatse versiooninumbriga. Tõstutundlik.'
+      baseph: 'Näiteks: https://www.veebisait.ee/'
       ext: Lisaprogramm
+      extph: 'Näide: .gif'
       folder: Kaust
       folderph: 'Näidis: svg'
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'
+      type_to_search_text: 'Trüki, et otsida emojit'

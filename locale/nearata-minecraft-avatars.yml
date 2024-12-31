@@ -5,9 +5,12 @@
 nearata-minecraft-avatars:
   admin:
     retrieve_avatar_on_register:
+      help: 'Sellise kasutajanimega Minecraft kontot pole. Steve või Alex on vaikimisi kujundus.'
       label: 'Hangi avatar registreerumisel'
   forum:
+    help_text: 'Kasutajanimi konverditakse UUID-ks.'
     minotar_enabled: 'Sisse lülitatud'
+    page_title: 'Minecraft avatarid'
     placeholder: 'Kasutajanimi või UUID'
     submit_button: 'Salvesta muudatused'
     username_not_found: 'Kasutajanime ei leitud.'

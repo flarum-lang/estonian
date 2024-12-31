@@ -6,7 +6,7 @@ flarum-twemoji:
   admin:
     settings:
       base: Peamine
-      basehelp: 'Näpunäited:'
+      basehelp: 'Näpunäited: Märk $ asendatakse automaatselt versiooninumbriga. Tõstutundlik.'
       baseph: 'Näidis: https://www.minusait.ee/'
       disable_autocomplete: 'Peata automaatne lõpetamine'
       ext: Lisaprogramm
