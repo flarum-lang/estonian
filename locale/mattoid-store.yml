@@ -4,10 +4,75 @@
 
 mattoid-store:
   admin:
+    error:
+      invalid-product: 'Vigane toode'
     settings:
       add-store-goods: 'Lisa kaubad'
+      days: päev
       decorationStoreTimezone: ajavöönd
+      edit-store-goods: 'Muuda tooteid'
+      goods-auto-deduction: 'Automaatne vähendamine'
       goods-code: Kood
+      goods-delete: Kustuta
+      goods-desc: Kahanevalt
+      goods-discount: 'Allahindlus (%)'
+      goods-discount-limit: 'Allahinnangu limiit'
+      goods-discount-limit-unit: Ühik
+      goods-edit: Muuda
+      goods-icon: Ikoon
+      goods-price: Hind
+      goods-repeat: 'Luba duplikaattooted'
       goods-status: Staatus
+      goods-stock: Laoseis
       goods-title: Pealkiri
+      goods-type: 'Ostu liik'
+      goods-upload-button: 'Laadi üles'
+      show-icon-button: Galerii
       store-name: 'Poe nimi'
+      store-timezone: Ajavöönd
+      store-timezone-requirement: Aasia/Shangai
+  forum:
+    button: Osta
+    buy-goods-fail: 'Raha tagastamine: {title}'
+    cart: ostukorv
+    days: päev
+    error:
+      automatic-renewal: 'Automaatne uuendamine pole sisse lülitatud'
+      automatic-renewal-fail: 'Automaatne uuendamine ebaõnnestus [{message}]'
+      file-exist: 'fail on juba olemas'
+      insufficient-inventory: 'Laoseis pole piisav'
+      invalid-product: 'Vigane toode'
+      user-balance-low: 'Kasutaja saldoseis pole piisav'
+    free: Tasuta
+    tital: Pood
+  lib:
+    cancel: Loobu
+    confirm: OK
+    item-cart-auto-deduction: 'Automaatne uuendamine'
+    item-cart-button-cancel: Loobu
+    item-cart-button-use: 'Lülita sisse'
+    item-cart-created: 'Ostmise aeg'
+    item-cart-outtime: 'Aegumise kuupäev'
+    item-cart-pay-amt: 'Ostu kogus'
+    item-cart-price: Hind
+    item-cart-status: 'makse staatus'
+    item-cart-title: 'Kauba pealkiri'
+    item-cart-type: 'Kauba liik'
+    item-created-at: 'Lisa aega'
+    item-desc: 'Toote kirjeldus'
+    item-discount: allahindlus
+    item-discount_limit: 'Allahindluse aja pikkus'
+    item-id: ID
+    item-invalid: 'Automaatne uuendamine'
+    item-limit-unit-days: päeva
+    item-limit-unit-hour: tund
+    item-limit-unit-minute: minut
+    item-limit-unit-second: sekund
+    item-price: Hind
+    item-status-0: 'Eemalda riiulitelt'
+    item-status-all: 'Kõik toodete staatused'
+    item-stock: Laoseis
+    item-type: 'Kauba liik'
+    item-type-all: 'Kõik kauba liigid'
+    list-empty: 'See koht on täiesti tühi'
+    list-load-more: veel

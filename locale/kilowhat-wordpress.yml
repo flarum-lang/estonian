@@ -26,12 +26,15 @@ kilowhat-wordpress:
       no-unsaved-changes: 'Kõik on salvestatud'
       save: Salvesta
       saved-at: 'Salvestatud {ago} tagasi'
+      unsaved-changes: 'Sul on salvestamata muudatusi'
     settings:
       api_key: 'Jagatud API võti'
       api_key_reset: 'Loo uus API võti'
       comment_tag_custom: 'Kohandatud väärtused'
       cookie_domain: 'Küpsise domeen'
       default_actor_placeholder_search: 'Kirjuta kasutaja otsimiseks...'
+      enable_comments: 'Lülita kommentaaride integreerimine sisse'
+      enable_sso: 'Lülita SSO integratsioon sisse'
       login_method_options:
         cookie: Küpsis
         iframe: 'Peidetud raam'
@@ -45,6 +48,7 @@ kilowhat-wordpress:
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
       user_delete_options:
         delete: 'Kustuta Flarumi kasutaja'
+        ignore: 'Ignoreeri (säilita Flarumi kasutaja)'
       username_strategy: 'Uute kasutajate kasutajanimi'
       username_strategy_options:
         first_name: 'Eesnimi WordPressist'
@@ -55,6 +59,7 @@ kilowhat-wordpress:
       comments: 'Kommentaaride integreerimine'
       disabled: 'Välja lülitatud'
       enabled: 'Sisse lülitatud'
+      general: 'Üldised seaded'
       sso: 'SSO integreerimine'
       wizard: 'Pagaldamise abimees'
     wizard:
@@ -65,10 +70,13 @@ kilowhat-wordpress:
   forum:
     edit-user-modal:
       edit_in_wordpress: 'Muuda WordPressis'
+    embed-link-modal:
+      open: 'Ava link'
     embed:
       title: Kommentaarid
     instant-login:
       avatar_alt_text: 'WordPressi avatar'
+      button: 'Logi kohe sisse ja värskenda'
       welcome_unknown_user: 'Teretulemast tagasi!'
     log_in:
       with_wordpress_button: 'Logi sisse WordPressiga'
@@ -78,6 +86,7 @@ kilowhat-wordpress:
       read_more: 'Loe lisa'
     thumbnail_alt_fallback: 'WordPressi postituse pisipilt'
     welcome-modal:
+      not_now: 'Jäta vahele ja jätka külalisena'
       submit: 'Lülita foorumi konto sisse'
       title: Teretulemast!
       username: 'Vali kasutajanimi'

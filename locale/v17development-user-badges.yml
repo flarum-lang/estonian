@@ -4,7 +4,28 @@
 
 v17development-flarum-badges:
   admin:
+    auto_moderator:
+      not_installed:
+        dismiss: 'Ära näita uuesti'
+        install: Paigalda
+    badge:
+      background_color: Taustavärv
+      icon_color: 'Ikooni värv'
+      label_color: 'Teksti värv'
+      visible: Nähtav
+    badge_category:
+      description: 'Kategooria kirjeldus'
+      enabled: 'Sisse lülitatud'
+      name: 'Kategooria nimi'
+    confirm_dialog:
+      'no': Ei
+      title: Kinnita
+      'yes': Jah
     create_category: 'Loo kategooria'
     edit_category: 'Muuda kategooriat'
     uncategorized: Liigitamata
     update_category: 'Uuenda kategooriat'
+  forum:
+    all_users: 'Vaata kõiki kasutajaid'
+    save_changes: 'Salvesta muudatused'
+    uncategorized: '=> v17development-flarum-badges.admin.uncategorized'

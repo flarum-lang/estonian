@@ -2,8 +2,54 @@
 # Use https://weblate.rob006.net/projects/flarum/foskym-custom-levels/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-user-directory:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
 foskym-custom-levels:
   admin:
+    levels:
+      add_button: 'Lisa tase'
+      edit_level: 'Muuda taset'
+      min_exp_required: 'Nõutud aegumine'
+      name: 'Taseme nimi'
+    pages:
+      index: Avaleht
+      levels: Tasemed
+    preview: Eelvaade
     settings:
       expDesc: 'Saadaolevad muutujad: [expTotal] [expPercent] [nextLevel] [expToNextLevel]'
       levelDesc: 'Saadaolevad muutujad：[tase]'
+  forum:
+    log:
+      load_more: 'Laadi rohkem'
+      no_more: 'Rohkem pole'
+      no_records: 'Andmeid pole'
+      reason: Põhjus
+      time: Aeg
+      type:
+        admin_edit: 'Admin muutis'
+        automoderator: 'Automaatne moderaator'
+        discussion_deleted: 'Vestlus kustutati. {title}'
+        discussion_hidden: 'Vestlus peideti. {title}'
+        discussion_restored: 'Vestlus taastati. {title}'
+        discussion_started: 'Vestlust alustati. {title}'
+        post_deleted: 'Postitus kustutati'
+        post_hidden: 'Postitus peideti'
+        post_posted: 'Tehti postitus'
+        post_restored: 'Postitus taastati'
+        store_purchase: 'Ostetud poest'
+        system_refresh: 'Süsteemi värskendamine'
+      view: Vaata
+    modal:
+      current: Praegune
+      submit_button: Salvesta
+  lib:
+    defaults:
+      level: Tase
+nodeloc-leaderboard:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
