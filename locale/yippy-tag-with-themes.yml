@@ -14,3 +14,9 @@ yippy-tag-with-themes:
       design_default: 'Vali vaikimisi kujunduse paigutus'
     labels:
       design_default: 'Vestluse kujunduse paigutus'
+    options:
+      design_options:
+        basic: Lihtne
+        basic_banner: 'Lihtne (Peamine bänner)'
+        basic_tab: 'Lihtne (peamine vahekaart)'
+        basic_tag: 'Lihtne (Peamine silt)'

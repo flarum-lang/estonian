@@ -3,10 +3,60 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-forum-quests:
+  admin:
+    allow_update: 'Luba kasutajaid käsitsi uuendada'
+    create-modal:
+      button: Loo
+      button-edit: Muuda
+      condition: Tingimus
+      description: Kirjeldus
+      edit: 'Muuda otsimise ülesannet'
+      hidden: Peidetud
+      icon: Ikoon
+      name: Nimi
+      new_item: 'Uus kirje'
+      re_available: 'Uuesti saadaval'
+      reward: Autasu
+      title: 'Loo otsimise ülesanne'
+    data: Andmed
+    re_available:
+      hour: 'Pärast X tundi'
+      none: 'Üks kord'
+    settings: Seaded
+    table:
+      create: Loo
+      description: Kirjeldus
+      id: Nr
+      load_more: 'Laadi rohkem'
+      name: Nimi
+      operation: Opereeri
+      remove_confirm: 'Oled sa kindel, et soovid selle otsimise ülesande eemaldada?'
+    timezone: Ajavöönd
+  api:
+    manual_condition_cannot_hidden: 'Käsitsi muudetavaid tingimusi ei saa peidetud ülesannetes kasutada: {condition}'
+    no_manual_update: 'Käsitsi uuendamine pole vajalik'
   forum:
     condition_not_found: 'Tingimust {condition} ei leitud'
+    condition_view:
+      button: 'Vaata tingimust'
+      name: Nimi
+      set_span: 'Määra vahemik'
+      span: Vahemikus
+      title: 'Tingimuse vaatamine'
+      value: Väärtus
+    notification:
+      quest_done: 'Lõpetasid just otsmise ülesande {name}!'
+      quest_done_label: 'Otsimise ülesanne on täidetud'
     quest:
       done: '[Valmis]'
       load_more: 'Laadi rohkem'
+      quest: 'Otsimise ülesanne'
+    quest_done:
+      all: Kõik
+      'false': Tegemata
+      'true': Valmis
     re_available:
+      day: 'Uuesti saadaval enne {value} päeva'
+      hour: 'Uuesti saadaval {value} tunni pärast'
       none: 'Ainult üks kord'
+    reward_not_found: 'Autasu {reward} pole leitud'

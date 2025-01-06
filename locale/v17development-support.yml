@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      subject: '{replier_display_name} vastas sinu piletile #{ticket_id}'
   forum:
     admin_overview: 'Ava admini ülevaade'
     article:
@@ -18,6 +21,7 @@ v17development-flarum-support:
         perma_link: 'Püsilink sellele artiklile:'
         title: 'Jaga artiklit'
       tools:
+        audit_log: 'Vaata aduditi logi'
         delete_forever: 'Kustuta igaveseks'
         edit_article: 'Muuda artiklit'
         edit_tags: 'Muuda artikli silte'
@@ -49,20 +53,28 @@ v17development-flarum-support:
     knowledge_base: Teabebaas
     modals:
       article_ratings:
+        article_not_rated: 'Seda artiklit pole veel hinnatud.'
         confirm_delete_rating: 'Oled sa kindel, et tahad selle hinnangu kustutada?'
         feedback: Tagasiside
         loading_ratings: 'Hinnangute laadimine'
+        no_ratings_found: 'Sinuotsinguparameetritele vastavat hinnangut ei leitud'
         rating: Hinnang
         title: 'Artikli hinnangud'
         username: '=> core.ref.username'
       audit_log:
         article_created: 'Artikkel loodi'
+        loading_auditlog: 'Auditi logi laadimine'
         no_more_events: 'Ühtegi sündmust ei leitud'
     not_found:
+      description: 'Vabandust, aga selles kohas pole enam seda artiklit või kategooriat.'
       title: 'Kirjet ei leitud'
     notifications:
       replied_to_ticket:
         content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Keegi vastas minu piletile'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Minu pilet lahendati'
     or: või
     overview:
       back_to: 'Tagasi kategooriasse {category}'
@@ -90,7 +102,11 @@ v17development-flarum-support:
     support_ratings:
       enter_feedback: 'Sisesta oma tagasiside siia'
       feedback: 'Aitäh sulle ülevaate eest. Kas sul on ka mingit tagasisidet?'
+      feedback_not_helpful: 'Kurb kuulda, et see artikkel polnud abiks. Mida sa otsisid?'
       finished: 'Aitäh! Sinu tagasiside on salvestatud.'
+      helful_article: 'Kas see artikkel oli sulle abiks?'
+      helful_support: 'Oled sa rahul sellega, kuidas sinu kasutajatoe piletit käsitleti?'
+      score: Punktid
       validation:
         cannot_rate_article: 'Sa ei saa seda artiklit hinnata.'
         invalid_points: 'Vigane hinnang. Palun proovi uuesti.'
@@ -100,9 +116,16 @@ v17development-flarum-support:
       compose_ticket:
         not_allowed: 'Sa ei saa praegu uut piletit avada'
         title: 'Kirjuta uus pilet'
+      convert_to_discussion:
+        button: 'Konverdi vestluseks'
+      convert_to_ticket:
+        button: 'Konverdi piletiks'
+        confirm: 'Oled sa kindel, et soovid selle vestluse piletiks konvertida?'
+        event: 'Vestlus {ticket_title} on konverditud piletiks'
       fields:
         assignees:
           placeholder: 'Pileti staatus'
+          title: 'Määratud kasutajatele'
         information:
           title: 'Pileti info'
         language:
@@ -113,6 +136,7 @@ v17development-flarum-support:
           edit_button: 'Muuda märkust'
           title: 'Privaatsed märkmed'
         status:
+          placeholder: 'Pileti staatus'
           title: Staatus
         subject:
           placeholder: 'Pileti teema'
@@ -120,6 +144,7 @@ v17development-flarum-support:
       load_more:
         title: 'Laadi rohkem pileteid'
       my_tickets:
+        description: 'Sellelt lehelt leiad kõik oma privaatsed piletid.'
         no_tickets: 'Sul pole veel ühtegi piletit.'
         title: 'Minu piletid'
       new_tickets_dropdown:
@@ -130,6 +155,10 @@ v17development-flarum-support:
       overview:
         all_tickets: 'Kõik piletid'
         filter:
+          assignees:
+            search: 'Otsi, kellele on määratud'
+            title: 'Filtreeri, kellele on määratud'
+            unassigned: Määramata
           language:
             any: 'Iga keel'
           status:
@@ -139,6 +168,8 @@ v17development-flarum-support:
         selection_open: 'Avatud piletid'
         selection_unfiltered: Filtreerimata
         sort:
+          least_recent: 'Viimase tegevusega eespool'
+          newest: 'Uuemad eespool'
           oldest: 'Vanimad enne'
           recent_activity: 'Viimased tegevused'
         title: 'Piletite ülevaade'
@@ -147,6 +178,7 @@ v17development-flarum-support:
         closed:
           close_after_posting: 'Sulge pilet pärast postitamist'
           description: 'See pilet on suletud.'
+          is_auto_closed: 'See pilet on mitteaktiivsuse tõttu suletud.'
           title: Suletud
         duplicate:
           title: 'Tee koopia'
@@ -161,6 +193,8 @@ v17development-flarum-support:
         pending:
           title: Ootel
         solved:
+          description: 'See pilet on märgitud lahendatuks'
+          mark_as_solved: 'Märgi see pilet lahendatuks'
           title: Lahendatud
       subject: Teema
       ticket: Pilet
@@ -171,5 +205,6 @@ v17development-flarum-support:
         close_ticket: 'Sulge pilet'
         remove_me: 'Eemalda mind'
         update_note: 'Uuenda privaatset märkust'
+        update_status: 'Uuenda pileti staatust'
         update_subject: 'Uuenda teemat'
         view_ticket: 'Vaata piletit'

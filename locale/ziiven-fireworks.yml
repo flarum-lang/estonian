@@ -5,5 +5,23 @@
 ziven-fireworks:
   admin:
     option-acceleration: Kiirendamine
+    option-brightness: Heledus
+    option-decay: Kadumine
+    option-delay: Viivitus
+    option-explosion: Plahvatus
+    option-flickering: Vilkumine
+    option-frication: Hõõrdumine
+    option-gravity: Gravitatsioon
     option-hue: Värv
+    option-intensity: Intensiivsus
+    option-line-width-explosion: 'Joone paksus (plahvatus)'
+    option-line-width-trace: 'Joone paksus (jälg)'
+    option-lineStyle: 'Joone stiil'
+    option-lineStyle-round: Ümar
+    option-lineStyle-square: Ruut
     option-opacity: Läbipaistvus
+    option-particles: Osasid
+    option-rockets-point: 'Raketi punkte'
+    option-trace-length: 'Jälje pikkus'
+    option-trace-speed: 'Jälje kiirus'
+    show-fireworks: 'Näita ilutulestikku'

@@ -3,9 +3,43 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 pay-to-see:
+  admin:
+    permission:
+      allow_bypass_pay2see: 'Luba sisu ostmisest määda minna'
+      allow_purchase_pay2see: 'Luba sisu ostmine'
+      allow_use_pay2see: 'Luba lugemiseks maksa kasutamine'
+    settings:
+      badge_icon: 'Aumärgi ikoon'
   forum:
+    modify_pay_to_see_price: 'Muuda sisu hinda'
+    notifications:
+      discussion_purchased: '{username} ostis sinu sisu'
+      discussion_purchased_cost: 'Said {cost}'
     pay_to_see_content: 'Maksa, et sisu näha'
+    pay_to_see_content_bypass: 'Maksa, et näha sisu [Õigusepõhine möödapääs]'
+    pay_to_see_content_label: 'Maksa, et näha sisu'
+    pay_to_see_owner_bypass: 'Maksa, et näha sisu [Omaniku möödapääs]'
+    purchase_button: 'Osta sisu'
+    purchase_confirmation: 'Osta sisu'
+    purchase_confirmation_text: 'Oled sa kindel, et soovid maksta {costText}?'
+    purchase_count: 'Ostude arv: {count}'
+    purchase_error_insufficient_fund: 'Pole piisavalt raha'
+    purchase_error_no_permission: 'Õiguseid pole'
+    purchase_error_not_found: 'Sisu ei saa osta'
+    purchase_success: Ostetud
+    purchase_unlocked_button: 'Sisu on avatud'
+    purchased_content: 'Ostetud sisu'
+    purchased_users: 'Ostnud kasutajad'
+    purchased_users_empty: 'Keegi pole veel ostnud'
+    remove: Eemalda
+    remove_pay_to_see_price_success: 'Maksa, et näha sisu on eemaldatud'
+    set_error_no_permission: 'Sul pole tasulisele sisule ligipääsemiseks õiguseid'
+    set_pay_to_see_price: 'Määra sisu hind'
+    set_pay_to_see_price_success: 'Sisu hinna komplekt'
+    tag_has_permission: 'Luba maksmine sisu nägemiseks'
+    tag_no_permission: 'Valitud siltidel ei saa kasutada lugemiseks maksa funktsiooni'
     tag_no_permission_title: 'Sisu nägemiseks maksa'
+    toolbar_tooltip: 'Sisesta maksa, et näha sisu'
   lib:
     cancel: Loobu
     confirm: Kinnita
