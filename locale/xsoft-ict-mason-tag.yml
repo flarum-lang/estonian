@@ -5,9 +5,53 @@
 xsoft-mason-tag:
   admin:
     buttons:
+      add-answer: 'Lisa vastus'
+      add-field: 'Lisa väli'
+      delete-answer: 'Kustuta vastus'
+      delete-field: 'Kustuta väli'
+      edit-answer: 'Muuda vastust'
+      edit-answer-prompt: 'Muuda sisu igal pool, kus seda kasutatakse'
+      edit-field: 'Kliki välja muutmiseks'
       new-field: 'Uus väli'
+      save-answer: 'Salvesta vastuse muudatused'
+      save-field: 'Salvesta välja muudatused'
+    fields:
+      add: 'Lisa väli {field}'
+      description: 'Välja kirjeldus'
+      edit: 'Muuda välja {field}'
+      is_suggested: 'Soovita kasutajatele vastuseid'
+      name: 'Välja nimi'
+      new-answer: 'Uus vastus'
+      new-answer-placeholder: 'Mingi tekst'
+      required: Nõutud
+      show_when_empty: 'Näita kui on tühi'
+    permissions:
+      fill-fields: 'Uues vestluses väljade täitmine'
+      see-other-fields: 'Kõigi vestluste väljade nägemine'
+      see-own-fields: 'Enda olemas olevas vestlustes väljade nägemine'
+      skip-required-fields: 'Võib nõutud lahtreid vahele jätta'
+      update-other-fields: 'Kõigi vestluste väljade uuendamine'
+      update-own-fields: 'Omaenda vestluse väljade uuendamine'
+    settings:
+      by-tag: 'Rakenda metaandmed ainult spetsiifilisele sildile'
+      by-tag-name: 'Mis siltidele lisatakse metaandmed?'
+      composer-height: 'Koostaja kõrgus'
+      composer-height-help: 'Vaikeväärtus on 200, see peaks olema kõrgem, et mahutada kõik väljad ära.'
+      composer-height-placeholder: '320'
+      fields-section-title-placeholder: 'Vaikimisi pealkirja ei näidata mingit'
+      n-columns: '{count} veergu'
+      tags-as-field: 'Näita siltide valijat kui välja'
+      tags-field-name: 'Siltide välja silt'
+      tags-field-name-placeholder: '=> xsoft-mason-tag.forum.tags.tags-label'
+    titles:
+      field-answers: 'Välja vastused'
+      field-settings: 'Välja seaded'
+      fields: Väljad
+      settings: Seaded
+      tag-settings: 'Sildi seaded'
   forum:
     answers-modal:
+      edit-title: 'Muuda {title} väljasid'
       save: 'Salvesta väljad'
     answers:
       choose-option: 'Tee valik'

@@ -5,7 +5,48 @@
 mattoid-store-invite:
   admin:
     settings:
+      auto-review: 'Automaatne ülevaatamine läbitud'
+      auto-review-username: 'Vaata kasutajad üle automaatselt'
+      group: 'Registreeri kasutajagrupp'
       group-admin-view: 'Auditi õigused'
       group-view: 'Näita kasutajatele tooteid'
+      mail: 'E-kirja mall'
+      mail-help: 'Näusoleku e-kirja sisu, mis saadetakse kutsututele'
+      mail-template: 'Tere [kasutaja, Sinu kutse kood on [kood]'
+      mail-title: 'E-kirja pealkiri'
       price: 'Tasude vähendamine'
       show-index: 'Lisa avalehele'
+      show-index-help: 'Näita avalehel ülevaatamise menüüd'
+  forum:
+    confirm-adopt: kinnita
+    confirm-refuse: keeldu
+    error:
+      email-not-exist: 'E-kiri ei saa olla tühi'
+      exception: 'Automaatne ülevaatamine ebaõnnestus [{message}]'
+      link-not-exist: 'link kutsutule ei saa olla tühi'
+      user-balance-low: 'Kasutaja saldo pole piisav'
+    invite: 'Kutse ülevaatamine'
+    mail:
+      send-invite-title: 'Kuste kood'
+    my-invite: 'Minu kutse'
+    system-review: 'Automaatne ülevaatamine süsteemi poolt'
+    username: 'Kutsutu kasutajanimi'
+    username-help: 'Kutsutu kasutajanime ei leitud foorumi registreeritud kasutajate hulgast'
+  lib:
+    item-button-expand: laienda
+    item-button-retract: kahanda
+    item-confirm-remark: 'Üle vaataja kommentaarid'
+    item-confirm-status: 'Ülevaate staatus'
+    item-confirm-time: 'Ülevaatamise aeg'
+    item-confirm-user: 'Üle vaatas'
+    item-email: 'Kutsuja e-post'
+    item-invite-code: Kutsu
+    item-last-year-total-num: 'Postituste arv eelmisel aastal'
+    item-post-num: 'Postituste arv'
+    item-status-adopt: adopteeri
+    item-status-all: Kõik
+    item-status-confirm: Kontrollimata
+    item-status-refuse: keeldu
+    item-user: Kutsuja
+    item-user-create-time: 'Kasutaja liitumise aeg'
+    item-username: 'Kutsuja kasutajanimi'

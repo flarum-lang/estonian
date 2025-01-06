@@ -7,6 +7,38 @@ walsgit_discussion_cards:
     settings:
       general:
         allowedTags_label: 'Vali sildid'
+        blogExtension_notActivated: '{icon} Nende seadete töötamiseks peab see lisaprogramm olema sisse lülitatud.'
+        blogExtension_notInstalled: '{icon} Nende seadete töötamiseks peab see lisaprogramm olema paigaldatud ja sisse lülitatud.'
+        blogExtension_title_end: ' siis saad määrata ka kaks (2) järgmist valikut:'
+        blogExtension_title_start: 'Kui sul on paigaldatud lisaprogramm '
+        cardOptions_title: 'Kaardi valikud'
+        defaultImage_title: 'Üldine vaikimisi pilt'
+        desktopCardWidth_label: 'Peamise kaardi laius töölaual'
+        onIndexPage_label: 'Aktiveeri kaardid avalehel'
+        primaryCardOptions_title: 'Peamise kaardi valikud'
+        primaryCards_label: 'Peamiste kaartide arv'
+        repostExtension_notActivated: '{icon} Selle valiku töötamiseks peab see lisaprogramm olema sisse lülitatud.'
+        repostExtension_notInstalled: '{icon} Selle valiku töötamiseks peab see lisaprogramm olema paigaldatud ja sisse lülitatud.'
+        repostExtension_title_end: ' siis saad määrata selle (2) järgneva valiku:'
+        repostExtension_title_start: 'Kui sul on paigaldatud lisaprogramm '
+        showAuthor_help: 'Kui see on aktiveeritus, siis näidatakse kaardil vestluse alustajat.'
+        showAuthor_label: 'Näita autorit'
+        showBadges_help: 'Kui see on aktiveeritus, siis kaardi üleval vasakul nurgas näidatakse aumärke.'
+        showBadges_label: 'Näita aumärke'
+        showViews_help: 'Kui see valik on sisse lülitatud, siis kaardil näidatakse vestluse vaatamiste arvu.'
+        showViews_label: 'Näita vaatamisi'
+        tabletCardWidth_label: 'Peamiste kaartide laius tahvlis'
         where_title: 'Kus?'
+    tag_modal:
+      desktopCardWidth_label: 'Peamiste kaartide laius töölaual'
+      primaryCards_label: 'Peamiste kaartide arv'
+      submit_button: Salvesta
+      tabletCardWidth_label: 'Peamiste kaartide laius tahvelarvutis'
+    tags:
+      activation_button: 'Aktiveeri see silt'
+      deactivation_button: 'Deaktiveeri see silt'
+      defaultImage_title: 'Vaikimisi pilt'
+      options_button: 'Teised vestluste kaardi seaded'
+      options_heading: 'Vestluste kaardid'
   forum:
     replies: 'Vastuseid: {count}'

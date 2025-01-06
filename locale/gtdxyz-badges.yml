@@ -4,8 +4,97 @@
 
 gtdxyz-flarum-badges:
   admin:
+    auto_moderator:
+      action_drivers:
+        badge_id: 'Aumärgi ID'
+        give_badge: 'Anna aumärk'
+        remove_badge: 'Eemalda aumärk'
+      badge_selector:
+        loading_badges: 'Aumärkide laadimine'
+        placeholder: 'Vali aumärk'
+      metric_drivers:
+        badges_received: 'Saadud aumärgid'
+      not_installed:
+        dismiss: 'Ära näita uuesti'
+        install: Paigalda
+        title: 'Autasusta kasutajaid aumärkidega automaatselt'
+      requirement_drivers:
+        has_badge: 'Kannab aumärki'
+    badge:
+      background_color: Taustavärv
+      description: 'Aumärgi kirjeldus'
+      icon: 'Aumärgi ikoon'
+      icon_color: 'Ikooni värv'
+      image: 'Aumärgi pildi URL'
+      image_placeholder: 'Sisesta aumärgi pildi URL'
+      is_image: 'Aumärk on pilt'
+      is_image_description: 'Kasuta vaikimisi aumärgi asemel pilti'
+      label_color: 'Teksti värv'
+      name: 'Aumärgi nimi'
+      visible: Nähtav
+      visible_description: 'Lülita see aumärk sisse. Kui see on välja lülitatud, siis aumärk pole nähtav.'
+    badge_category:
+      blockview: Ploki-vaade
+      description: 'Kategooria kirjeldus'
+      enabled: 'Sisse lülitatud'
+      enabled_description: 'Lülita see kategooria sisse. Kui kategooria on välja lülitatud, siis kategooria selles olevad aumärgis pole nähtavad.'
+      name: 'Kategooria nimi'
+    confirm_dialog:
+      'no': Ei
+      title: Kinnita
+      'yes': Jah
+    confirm_messages:
+      delete_badge: 'Oled sa kindel, et soovid seda aumärki eemaldada? See eemaldatakse kõigilt kasutajatelt ja seda sammu ei saa tagasi võtta.'
+      delete_category: 'Oled sa kindel, et soovid seda kategooriat eemaldada? Kui selles kategoorias on aumärke, siis need märgitakse kui ''liigitamata''.'
     create_category: 'Loo kategooria'
     edit_category: 'Muuda kategooriat'
     new_badge: 'Uus silt'
+    nothing_here_yet: 'Sa pole veel ühtegi aumärki või kategooriat loonud.'
+    number_of_badges_on_user_card: 'Aumärkide arv'
+    number_of_badges_on_user_card_help: 'Kasutaja kaardil näidatavate aumärkide arv'
+    permissions:
+      badge_detail_users: 'Näeb kasutajaid aumärgi üksikasjade lehel'
+      edit_card_badges: 'Kasutaja aumärkide kaardi muutmine'
+      edit_own_card_badges: 'Omaenda aumärkide kaardi muutmine'
+      give_badge: 'Anna kasutajale aumärk'
+      take_badge: 'Võta kasutajalt aumärk'
+    show_badges_on_user_card: 'Näita aumärke kasutaja kaardil'
     uncategorized: Liigitamata
+    update_badge: 'Uuenda aumärki'
     update_category: 'Uuenda kategooriat'
+  forum:
+    all_badges: 'Vaata kõiki aumärke'
+    all_users: 'Vaata kõiki kasutajaid'
+    badge:
+      badge: Aumärk
+      badge_details: 'Aumärgi üksikasjad'
+      badges: Aumärgid
+      category: 'Aumärgi kategooria'
+      description: 'Aumärgi kirjeldus'
+      earned_on: 'Aumärgi teenimise aeg'
+      earning_reason: 'Aumärgi väljateenimise põhjus'
+      name: 'Aumärgi nimi'
+      no_earning_reason: 'Väljateenimise põhjust pole lisatud'
+      others_link: '+ veel {count}'
+      received_on: 'Saadud {date}'
+      update_earning_reason: 'Uuenda väljateenimise põhjust'
+    badge_information: Aumärk
+    badges_in_card:
+      manage_badges: 'Halda aumärke'
+      title: 'Aumärgid kasutajakaardil'
+    give_badge: 'Anna aumärk'
+    hidden_badges: 'See kasutaja ei näita veel aumärke.'
+    moderation:
+      give_badge: 'Anna aumärk'
+      remove_badge: 'Eemalda kasutajalt aumärk'
+      remove_badge_confirm: 'Oled sa kindel, et soovid sellelt kasutajalt aumärgi eemaldada?'
+    no_received: 'Ükski kasutaja pole seda aumärki teeninud.'
+    notification:
+      settings: 'Sain uue aumärgi'
+      title: 'Said uue aumärgi'
+    save_changes: 'Salvesta muudatused'
+    select_badge: 'Vali aumärk'
+    uncategorized: liigitamata
+    update_badge: 'Uuenda aumärki'
+    user_has_badge: 'Kasutajal juba on see aumärk.'
+    user_no_badges: 'Sellel kasutajal pole veel ühtegi aumärki.'

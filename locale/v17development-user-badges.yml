@@ -5,15 +5,33 @@
 v17development-flarum-badges:
   admin:
     auto_moderator:
+      action_drivers:
+        badge_id: 'Aumärgi ID'
+        give_badge: 'Anna aumärk'
+        remove_badge: 'Eemalda aumärk'
+      badge_selector:
+        loading_badges: 'Aumärkide laadimine'
+        placeholder: 'Vali aumärk'
+      metric_drivers:
+        badges_received: 'Saadud aumärgid'
       not_installed:
         dismiss: 'Ära näita uuesti'
         install: Paigalda
+      requirement_drivers:
+        has_badge: 'Omab aumärki'
     badge:
       background_color: Taustavärv
+      description: 'Aumärgi kirjeldus'
+      icon: 'Aumärgi ikoon'
       icon_color: 'Ikooni värv'
+      image: 'Aumärgi pildi URL'
+      is_image: 'Aumärk on pilt'
+      is_image_description: 'Kasuta vaikimisi aumärgi asemel pilti'
       label_color: 'Teksti värv'
+      name: 'Aumärgi nimi'
       visible: Nähtav
     badge_category:
+      blockview: Ploki-vaade
       description: 'Kategooria kirjeldus'
       enabled: 'Sisse lülitatud'
       name: 'Kategooria nimi'
@@ -23,9 +41,38 @@ v17development-flarum-badges:
       'yes': Jah
     create_category: 'Loo kategooria'
     edit_category: 'Muuda kategooriat'
+    new_badge: 'Uus aumärk'
+    nothing_here_yet: 'Sa pole veel ühtegi aumärki või kategooriat loonud.'
+    number_of_badges_on_user_card: 'Aumärkide arv'
+    permissions:
+      give_badge: 'Kasutajale aumärgi andmine'
+      take_badge: 'Kasutajalt aumärgi võtmine'
+    show_badges_on_user_card: 'Näita kasutaja kaardil aumärki'
     uncategorized: Liigitamata
+    update_badge: 'Uuenda aumärki'
     update_category: 'Uuenda kategooriat'
   forum:
+    all_badges: 'Vaata kõiki aumärke'
     all_users: 'Vaata kõiki kasutajaid'
+    badge:
+      badge: Aumärk
+      badge_details: 'Aumärgi üksikasjad'
+      badges: Aumärgid
+      category: 'Aumärgi kategooria'
+      description: 'Aumärgi kirjeldus'
+      earned_on: 'Aumärk teeniti'
+      earning_reason: 'Aumärgi väljateenimise põhjus'
+      name: 'Aumärgi nimi'
+      no_earning_reason: 'Väljateenimise põhjust pole sisestatud'
+      others_link: '+ veel {count}'
+      received_on: 'Saadud {date}'
+      update_earning_reason: 'Uuenda väljateenimise põhjust'
+    badge_information: 'Aumärgi info'
+    give_badge: 'Anna aumärk'
+    no_received: 'Ükski kasutaja pole veel seda aumärki teeninud.'
     save_changes: 'Salvesta muudatused'
+    select_badge: 'Vali aumärk'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
+    update_badge: 'Uuenda aumärk'
+    user_has_badge: 'Sellel kasutajal on juba see aumärk.'
+    user_no_badges: 'Sellel kasutajal pole veel ühtegi aumärki.'

@@ -4,11 +4,86 @@
 
 nodeloc-emoji:
   admin:
+    my_emoji_section:
+      edit_emoji:
+        delete_emoji_button: 'Kustuta emoji'
+        delete_emoji_confirmation: 'Oled sa kindel, et soovid selle emoji kustutada?'
+        emoji_category_label: 'Kategooria kood'
+        emoji_title_label: 'Emoji nimi'
+        modal_title: 'Lisa Emoji'
+        path_or_url_label: 'Asukoht või URL'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_category_name_label: 'Kategooria nimi'
+        text_to_replace_label: 'Tekst, mida asendada'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'Ekspordi JSON'
+      heading_title: 'Kohandatud Emoji'
+      import_json_button: 'Impordi JSON'
+      import_myemoji_message: 'See impordib ainult emoji seadistused. Pildid pead üles laadima käsitsi.'
     settings:
       auto_hide_label: 'Automaatne peitmine'
+      auto_hide_text: 'Peida valija, kui emoij on valitud.'
       category_settings_heading: 'Kategooria seaded'
+      emoji_categories:
+        activities: '=> nodeloc-emoji.ref.emoji_categories.activities'
+        animals: '=> nodeloc-emoji.ref.emoji_categories.animals'
+        flags: '=> nodeloc-emoji.ref.emoji_categories.flags'
+        food: '=> nodeloc-emoji.ref.emoji_categories.food'
+        objects: '=> nodeloc-emoji.ref.emoji_categories.objects'
+        people: '=> nodeloc-emoji.ref.emoji_categories.people'
+        smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
+        symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
+        travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
+      emoji_data_label: 'Emoji andmed'
+      emoji_data_text: 'Seda kasutatakse sageli tõlgitud emoji nimede jaoks.'
       emoji_settings_heading: 'Emotikoni seaded'
+      emoji_style_label: 'Emoji stiil'
+      emoji_style_native_option: 'Kasutajaliidesega ühilduv'
+      emoji_version_label: 'Emoji versioon'
+      emoji_version_text: 'Mis emoji versiooni kasutada.'
       general_ui_settings_heading: 'Üldised kasutajaliidese seaded'
+      initial_category_label: 'Algne kategooria'
+      initial_category_text: 'Vaikimisi näidatakse esimesena emotikonide kategooriat.'
+      recents_count_label: 'Viimati kasutatud emojide arv'
+      recents_count_text: 'Viimati kasutatud emojide arv.'
       show_category_buttons_label: 'Näita kategooria nuppe'
       show_preview_label: 'Näita eelvaate sektsiooni'
+      show_recents_label: 'Näita (ja salvesta) kõige sagedamini kasutatud emojid'
+      show_search_label: 'Näita otsingulahtrit'
       show_variants_label: 'Näita variante'
+      show_variants_text: 'Mõningatel emojidel on nahavärvi variatsioone. Kui valitud emojil on variante, siis avaneb hüpikaken, millest saad valida soovitud variandi.'
+      specify_categories_label: 'Määra kategooriad'
+      specify_categories_text: 'Siin saad määrata kategooriate nimekirja ning valimisel näidatakse ainult neid kategooriaid.'
+  forum:
+    composer:
+      emoji_tooltip: 'Sisesta emoji'
+    emoji-button:
+      categories:
+        activities: '=> nodeloc-emoji.ref.emoji_categories.activities'
+        animals: '=> nodeloc-emoji.ref.emoji_categories.animals'
+        custom: '=> nodeloc-emoji.ref.emoji_categories.custom'
+        flags: '=> nodeloc-emoji.ref.emoji_categories.flags'
+        food: '=> nodeloc-emoji.ref.emoji_categories.food'
+        objects: '=> nodeloc-emoji.ref.emoji_categories.objects'
+        people: '=> nodeloc-emoji.ref.emoji_categories.people'
+        recents: '=> nodeloc-emoji.ref.emoji_categories.recents'
+        smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
+        symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
+        travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
+      no_myemoji_found_message: 'Muemojit ei leitud'
+      search_placeholder: 'Otsi emojit'
+  ref:
+    emoji_categories:
+      activities: Tegevused
+      animals: 'Loomad ja loodus'
+      custom: Kohandatud
+      flags: Lpiud
+      food: 'Toit ja jook'
+      objects: Objektid
+      people: Inimesed
+      recents: 'Hiljuti kasutatud emojid'
+      smileys: Emotikonid
+      symbols: Sümbolid
+      travel: 'Reisimine ja kohad'
