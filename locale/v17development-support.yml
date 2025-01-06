@@ -27,7 +27,9 @@ v17development-flarum-support:
         view_ratings: 'Vaata hinnanguid'
     article_events:
       article_hidden: '{username} peitis artikli'
+      article_modified: '{username} muutis seda artiklit.'
     ask_a_question_on_forums: 'Küsi küsimus foorumis'
+    ask_your_question_on_forum: 'Küsi oma küsimus foorumis'
     composer:
       article_saved: 'Artikkel on salvestatud'
       compose_article: 'Koosta artikkel'
@@ -41,6 +43,7 @@ v17development-flarum-support:
       view: Vaata
       write: Kirjuta
     create: Loo
+    discard: Loobu
     hero:
       help_question: 'Millega me saame sulle abiks olla?'
     knowledge_base: Teabebaas
@@ -63,10 +66,12 @@ v17development-flarum-support:
     or: või
     overview:
       back_to: 'Tagasi kategooriasse {category}'
+      back_to_main_categories: 'Tagasi peamisesse kategooriasse'
       category_not_found: 'Kategooriat ei leitud'
       knowledge_base_overview: 'Teabebaasi ülevaade'
       loading_articles: 'Artiklite laadimine'
       no_articles_found: 'Sellest kategooriast ei leitud ühtegi kategooriat'
+      no_categories_found: 'Vabandust, aga siit ei leitud ühtegi kategooriat...'
       tools:
         change_icon: 'Muud aikooni'
         edit_description: 'Muuda kirjeldust'
@@ -74,6 +79,7 @@ v17development-flarum-support:
         recount_articles: 'Loe artiklite arv üle'
         rename_category: 'Nimeta kategooria ümber'
     reopen: 'ava uuesti'
+    return_to_home: 'Tagasi teabebaasi avalehele'
     search:
       back_to_search_results: 'Tagasi otsingutulemustesse'
       search_knowledge_base: 'Tagasi teabebaasi'

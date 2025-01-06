@@ -15,6 +15,7 @@ gtdxyz-flarum-badges:
       metric_drivers:
         badges_received: 'Saadud aumärgid'
       not_installed:
+        content: 'See lisaprogramm pakub rohkem lisavõimalusi, kui lisaprogramm <a>Automaatne moderaator</a> on paigaldatud ja aktiveeritud. Kui paigaldada selle lisaprogrammi, siis võib kasutajatele anda aumärke automaatselt ilma kogukonna moderaatorita!'
         dismiss: 'Ära näita uuesti'
         install: Paigalda
         title: 'Autasusta kasutajaid aumärkidega automaatselt'
@@ -35,6 +36,7 @@ gtdxyz-flarum-badges:
       visible_description: 'Lülita see aumärk sisse. Kui see on välja lülitatud, siis aumärk pole nähtav.'
     badge_category:
       blockview: Ploki-vaade
+      blockview_description: 'Näita kategooria aumärke plokivaates aumärgi ülevaadet. Kui see on välja lülitatud, siis näitatakse kõiki aumärke tabelina.'
       description: 'Kategooria kirjeldus'
       enabled: 'Sisse lülitatud'
       enabled_description: 'Lülita see kategooria sisse. Kui kategooria on välja lülitatud, siis kategooria selles olevad aumärgis pole nähtavad.'
@@ -71,6 +73,7 @@ gtdxyz-flarum-badges:
       badges: Aumärgid
       category: 'Aumärgi kategooria'
       description: 'Aumärgi kirjeldus'
+      earned_count: '{count, plural, one {<b>kasutaja</b> on selle aumärgi välja teeninud} other {<b>kasutajat</b> on selle välja teeninud}}'
       earned_on: 'Aumärgi teenimise aeg'
       earning_reason: 'Aumärgi väljateenimise põhjus'
       name: 'Aumärgi nimi'

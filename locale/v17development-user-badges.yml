@@ -44,7 +44,11 @@ v17development-flarum-badges:
     new_badge: 'Uus aumärk'
     nothing_here_yet: 'Sa pole veel ühtegi aumärki või kategooriat loonud.'
     number_of_badges_on_user_card: 'Aumärkide arv'
+    number_of_badges_on_user_card_help: 'Kasutajakaardil näidatavate aumärkide arv'
     permissions:
+      badge_detail_users: 'Aumärgi lehel kasutajate nägemine'
+      edit_card_badges: 'Aumärkide muutmine kasutajakaardil'
+      edit_own_card_badges: 'Omaenda aumärkide muutmine kasutajakaardil'
       give_badge: 'Kasutajale aumärgi andmine'
       take_badge: 'Kasutajalt aumärgi võtmine'
     show_badges_on_user_card: 'Näita kasutaja kaardil aumärki'
@@ -68,8 +72,18 @@ v17development-flarum-badges:
       received_on: 'Saadud {date}'
       update_earning_reason: 'Uuenda väljateenimise põhjust'
     badge_information: 'Aumärgi info'
+    badges_in_card:
+      manage_badges: 'Halda aumärke'
+      title: 'Aumärgid kasutaja kaardil'
     give_badge: 'Anna aumärk'
+    moderation:
+      give_badge: 'Anna aumärk'
+      remove_badge: 'Eemalda kasutajalt aumärke'
+      remove_badge_confirm: 'Oled sa kindel, et soovid kasutajalt selle aumärgi eemaldada?'
     no_received: 'Ükski kasutaja pole veel seda aumärki teeninud.'
+    notification:
+      settings: 'Sain aumärgi'
+      title: 'Said uue aumärgi'
     save_changes: 'Salvesta muudatused'
     select_badge: 'Vali aumärk'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
