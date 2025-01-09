@@ -5,6 +5,7 @@
 fof-sentry:
   admin:
     settings:
+      dsn_backend_label: 'Sentry DSN (ainult admin)'
       dsn_label: 'Sentry DSN'
       environment_label: 'Sentry keskond'
       javascript_label: 'Teata JavaSckripti veateadetest'

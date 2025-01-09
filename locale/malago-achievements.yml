@@ -3,6 +3,39 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 malago-achievements:
+  admin:
+    achievement_modal:
+      active_label: Aktiivne
+      col_label: Veerg
+      col_placeholder: '0'
+      computation_placeholder: Number
+      description_label: Kirjeldus
+      description_placeholder: 'Saavutuse kirjeldus'
+      hidden_label: 'Peida kõigi saavutuste nimekirjast'
+      image_label: 'Pildi URL või ikooni kood'
+      image_placeholder: 'Saavutuse pildi URL'
+      name_label: Nimi
+      name_placeholder: 'Saavutuse nimi'
+      points_label: 'Punkte selle saavutuse eest'
+      points_placeholder: "0\n"
+      row_label: Rida
+      row_placeholder: '0'
+      title: 'Loo saavutus'
+      variable:
+        avatar: 'Avatar üles laaditud'
+        comments: 'Vestlusele saadud vastuseid'
+        contains: 'Sõnum sisaldab'
+        discussions: Vestluseid
+        edits: 'Muudetus postitusi'
+        likes: 'Antud meeldimisi'
+        manual: Käsitsi
+        meanwords: 'Sõnu keskmiselt'
+        posts: Postitusi
+        selflikes: 'Saadud meeldimisi'
+        tagposts: 'Postitused sildiga'
+        years: 'Aastaid registreeritud'
+      variable_label: Muutuja
+      width_label: 'Pildi laius'
   forum:
     achievement_points: Punktid
     achievement_total_points: Kokku
@@ -10,5 +43,6 @@ malago-achievements:
     list_heading: Saavutused
     new_achievement_close: Selge!
     new_achievement_name: Saavutus
+    new_achievement_title: 'Uus saavutus!'
     other_achievements: 'Muud saavutused'
     your_achievements: 'Sinu saavutused'

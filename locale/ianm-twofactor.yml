@@ -2,27 +2,66 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-twofactor/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Kustutab kõik 2FA andmed.'
+        export_description: 'Ekspordib 2FA staatuse ja krüpteeritud tagavarakoodid.'
 ianm-twofactor:
   admin:
     edit_group:
+      2fa_help: 'Nõua selle grupi kasutajatelt alati kahe-etapilise sisselogimise (2FA) kasutamist oma kontodel.'
       2fa_label: '2FA on nõutud'
+      admin_2fa_help: 'Grupi {adminName} liikmetel peab alati olema 2FA sisse lülitatud.'
+    permissions:
+      manage_others_label: 'Teiste kasutajate 2FA haldamine'
+      see_two_factor_status_label: 'Vaata teiste kasutajate 2FA staatust'
     settings:
+      forum_logo_qr: 'Lisa QR-koodi foorumi logo'
+      forum_logo_qr_width: 'Foorumi logo laius QR-koodis'
+      forum_logo_qr_width_help: 'Foorumi logo laius QG-koodis. Maks on 200.'
+      groups:
+        title: '2FA on nõutud gruppides'
       logo_qr: 'Logo QR-koodil'
+      tokens:
+        heading: Ligipääsukoodid
   email:
+    body:
+      status_changed: "Tere {recipient_display_name},\n\nKahe-etapiline autentimine {type} on sinu kontol sisse lülitatud {forum_url}.\n\nKui sina olid selle tegevuse algataja, siis ei pea sa siit midagi edasi tegema. Kui sa selle algataja pole, siis võta viivitamata ühendust foorumi administraatoriga.\n"
     status_type:
       disabled: 'välja lülitatud'
       enabled: 'sisse lülitatud'
+    subject:
+      status_changed: 'Kahe-etapiline autentimine {type} sinu kontole'
   forum:
+    log_in:
+      two_factor_placeholder: '2FA kontrollkood, nt., 123456'
+      two_factor_required_message: 'Jätkamiseks on vaja korrektset 2FA kontrollkoodi.'
     security:
       backup_codes: 'Sinu varukoodid'
       cancel_button: Loobu
+      cannot_disable: 'Praegused seaded määravad, et sa ei saa kahe-etapilist autentimist välja lülitada.'
+      cannot_disable_tooltip: '2FA ei saa välja lülitada'
+      confirm_disable_2fa_text: 'Oled sa kindel, et soovid kahe-etapilise autentimise välja lülitada?'
+      confirm_disable_2fa_text_other_user: 'Oled sa kindel, et soovid kasutaja {username} kahe-etapilist autentimist välja lülitada? See eemaldab kõik konto tagavara koodid ja lülitab 2FA välja.'
+      confirm_disable_2fa_title: 'Kinnita kahe-etapilise autentimise välja lülitamine'
       disable_2fa_button: 'Lülita 2FA välja'
       enable_2fa_button: 'Lülita 2FA sisse'
-      loading_qr: 'QR-koodi laadimine'
+      loading_qr: 'QR-koodi laadimine...'
       manual_tab: 'Käsitsi seadistamine'
       ok_button: OK
       qr_tab: 'Skänneeri QR-kood'
       saved_backup_codes_button: 'Ma salvestasin need koodid'
+      two_factor_enabled_confirmation: 'Kahe-etapiline autentimine on sinu kontol sisse lülitatud.'
       two_factor_heading: 2FA
       two_factor_title: 'Staatus:'
       verify_button: Kinnita
+    user_2fa:
+      alert_message: 'Et saaksid oma kontole jätkuvalt ligi pead kahe-etapilise autentimise välja lülitama.'
+  views:
+    reset_password:
+      two_factor_token_label: '2FA kontrollkood'
+    two_factor_token:
+      submit_button: 'Saada kood'
+      title: 'Kahe-etapiline autentimine'

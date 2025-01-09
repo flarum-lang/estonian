@@ -3,12 +3,45 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ianm-syndication:
+  admin:
+    settings:
+      entries-count: 'Kui palju sissekandeid uudisvoo kohta?'
+      forum-icons:
+        help: 'Näitab uudisvoogude ikoone kõigi vestluste, siltide ja vestlustel lehel.'
+        label: 'Näita foorumis Atom/RSS linke'
+      forum-link-format:
+        help: 'Vali, mis vormingut (Atom või RSS) peaks foorumi linkidel kasutama.'
+        label: 'Foorumi uudisvoo vorming'
+      full-text:
+        help: 'Kui see on välja lülitatud, siis uudisvood sisaldavad ainult väljavõtteid postitusest ja kasutajad peavad kõige lugemiseks foorumisse minema. Soovitame selle valiku jätta sisse lülitatuks, et olla lugupidavad kasutajate vasu, kes kasutavad RSS lugejaid.'
+        label: 'Täis-teksti uudisvood'
+      html:
+        help: 'Märgi see valik, et säilitada loodud uudisvood HTML. Kui see on välja lülitatud, siis näidatakse uudisvooge lihttekstina.'
+        label: 'Vormindatud uudisvood'
   forum:
     autodiscovery:
       discussion_last_posts: 'See vestlus'
       forum_activity: 'Foorumi aktiivsus'
       forum_new_discussions: 'Foorumi uued vestlused'
+      tag_activity: 'Tegevus sildiga {tag}'
+      tag_new_discussions: 'Vestlused sildiga {tag}'
       user_last_posts: 'Selle kasutaja postitused'
+    discussion:
+      feed_link: Uudisvoog
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Vastus: {discussion}'
       titles:
+        discussion_subtitle: 'Viimased sõnumid vestluses'
+        discussion_title: '{discussion_name}'
+        main_d_subtitle: 'Uusimad vestlused foorumis'
+        main_d_title: 'Uued vestlused foorumis {forum_name}'
+        main_subtitle: 'Viimane postitus foorumis'
         main_title: '{forum_name}'
+        tag_d_subtitle: 'Uued vestlused sildiga {tag}'
+        tag_d_title: 'Uus vestlus sildiga {tag}'
+        tag_subtitle: 'Viimased postitused sildiga {tag}'
+        tag_title: 'Tegevused sildiga {tag}'
+        user_subtitle: 'Viimased postitused ja kommentaarid sellelt kasutajalt.'
+        user_title: '{username}'

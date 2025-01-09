@@ -4,9 +4,31 @@
 
 justoverclock-auto-post-count-badge:
   admin:
+    levelFive: 'Muuda 5. taseme ikooni - "Monster"'
+    levelFive-help: 'aseta siia fontawesome ikoon, mida soovid 5. tasemel näidata (nt. "fas fa-square")'
+    levelFour: 'Muuda 4. taseme ikooni - "ÕPetaja"'
+    levelFour-help: 'aseta siia fontawesome ikoon, mida soovid 4. tasemel näidata (nt. "fas fa-square")'
+    levelOne: 'Muuda 1. taseme ikooni - "Beebi"'
+    levelOne-help: 'aseta siia fontawesome ikoon, mida soovid 1. tasemel näidata (nt. "fas fa-square")'
+    levelSix: 'Muuda 6. taseme ikooni - "Guru"'
+    levelSix-help: 'aseta siia fontawesome ikoon, mida soovid 6. tasemel näidata (nt. "fas fa-square")'
+    levelThree: 'Muuda 3. taseme ikooni - "Rääkija"'
+    levelThree-help: 'aseta siia fontawesome ikoon, mida soovid 3. tasemel näidata (nt. "fas fa-square")'
+    levelTwo: 'Muuda 2. taseme ikooni - "Uus kasutaja"'
+    levelTwo-help: 'aseta siia fontawesome ikoon, mida soovid 2. tasemel näidata (nt. "fas fa-square")'
     settings:
       icon-manager:
         help_text: '=> core.ref.icon_text'
         title: 'Ikoonide haldamine'
       label-manager:
+        help: 'Kohanda tasemete nimesid'
         title: 'Tekstisildi haldur'
+      tier: 'Tase {tier} : {from} kuni {to} postitust'
+  forum:
+    hasWritten: '{count, plural, one {# postitus kirjutatud} other {# postitust kirjutatud}}'
+    less1000post: Guru!
+    less100post: Rääkija
+    less10post: Beebi
+    less300post: Õpetaja
+    less50post: 'Uus kasutaja'
+    less600post: Monster!

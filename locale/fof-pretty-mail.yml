@@ -6,12 +6,22 @@ fof-pretty-mail:
   admin:
     css_settings:
       label: 'CSS-i seaded'
+      switch_label: 'Kaasa täielik foorumi CSS'
     nav:
       desc: 'Kohanda oma e-kirja HTML malle.'
     settings:
       attributes:
         body: 'Sisaldab tegelikku kirja sisu'
+        forumStyle: 'Sisaldab <strong>kogu foorumi CSS-i</strong>'
+        link: 'Sisaldab e-kirjas linki'
         url: 'Flarum <code>UrlGenerator</code>'
+      attributes_label: 'Saadaolevad omadused'
       default: 'Vaikimisi mall'
       label: 'E-kirja mallid'
+      newPost: 'Flarumi tellimuse uue postituse e-kiri'
+      notificationHelp: 'Neis kirjades on soovitatav kasutada stiili "$forumStyle" kuna neis võidakse kasutada BBCODE-i. Seis võib olla ka omadus "$user" milles on kogu kasutaja info.'
+      notifications: 'Teavituste mallid'
+      postMentioned: 'Flarumi postituse mainimise e-kiri'
       reset: 'Taasta vaikeväärtused'
+      template_help: 'Vaata igast mallist, kuidas iga omadust kasutada.'
+      userMentioned: 'Flarumi kasutaja mainimise e-kiri'
