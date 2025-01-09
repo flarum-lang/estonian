@@ -4,6 +4,18 @@
 
 fof-anti-spam:
   admin:
+    blocked_registrations:
+      attempted-at: 'Katse aeg'
+      button: 'Blokeeritud liitumised'
+      delete_entry: 'Kustuta sissekanne'
+      email: 'E-posti aadress'
+      ip: 'IP aadress'
+      login-provider: 'Sisselogimise teenus'
+      login-provider-data: 'Sisselogimise teenuse andmed'
+      no-records: 'Ühtegi blokeeritud liitumist ei leitud.'
+      sfs-data: 'StopForumSpam andmed'
+      title: 'Blokeeritud liitumised'
+      username: Kasutajanimi
     permissions:
       spamblock_users_label: 'Märgi kasutaja rämpspostitajaks'
     settings:
@@ -12,7 +24,33 @@ fof-anti-spam:
         delete_discussions_label: 'Kustuta vestlused'
         delete_posts_label: 'Kustuta postitused'
         delete_user_label: 'Kustuta kasutaja'
+        move_discussions_to_tags_label: 'Liiguta vestlused siltide alla'
       stopforumspam:
         api_key_label: 'API võti'
+        confidence_label: Kindlus
+        email_label: 'E-posti rämpsposti tõrje'
         frequency_label: Lävi
         heading: StopForumSpam
+        ip_label: 'IP aadressi rämpsposti tõrje'
+        region_closest_label: Lähimad
+        region_europe_label: Euroopa
+        region_us_label: USA
+        regional_endpoint_help: 'Vaikimisi suunatakse sind lähimasse serverisse, et anda sulle võimalikult kiire vastus. Kui soovid piirata saidi liiklust mingi konkreetse piirkonnaga, et pidada kinni ettevõtte või riigi privaatsusreeglitest, siis saad sundida looma ühenduse mingi konkreetse piirkonna kaudu.'
+        regional_endpoint_label: 'Asukohapõhine ligipääs'
+        username_label: 'Kasutajanime spämmikontroll'
+  forum:
+    spammer_modal:
+      hard_delete_discussions_help: 'See kustutab jäädavalt kõik selle kasutaja poolt algatatud vestlused. Kui see on välja lülitatud, siis vestlused peidetakse.'
+      hard_delete_discussions_label: 'Kustuta vestlused'
+      hard_delete_posts_help: 'See kustutab jäädavalt kõik selle kasutaja poolt tehtud postitused (kommentaarid, vastused jne.). Kui see on välja lülitatud, siis postitused peidetakse.'
+      hard_delete_posts_label: 'Kustuta postitused'
+      hard_delete_user_help: 'See kustutab jäädavalt selle kasutaja. Kui see on välja lülitatud, siis kasutaja blokeeritakse.'
+      hard_delete_user_label: 'Kustuta kasutaja'
+      intro: 'Kui kasutaja märgitakse spämmijaks, siis sooritatakse mitmed toimingud, mis sõltuvad lisaprogrammidest, mis on saadaval sinu foorumis.'
+      move_discussions_tag_help: 'See liigutab kõik selle kasutaja poolt alustatud vestlused sinu määratud sildi alla. Kui see on välja lülitatud, siis vestlused jäävad oma varasema sildi alla.'
+      move_discussions_tag_label: 'Liiguta vestlused karantiini sildi alla'
+      process_button: Töötle
+      report_to_sfs_label: 'Teavita StopForumSpam-i'
+      title: 'Märgi {username} spämmijaks'
+    user_controls:
+      spammer_button: Spämmija

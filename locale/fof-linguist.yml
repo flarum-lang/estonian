@@ -15,9 +15,12 @@ fof-linguist:
       button: 'Tühjenda vahemälu kohe'
     coverage:
       all-namespaces: Kõik
+      apply-missing-filter: 'Näita sobivaid puuduvaid tõlkeid'
       column-options:
         locale: 'Kelle järgi'
       columns:
+        all-except-admin: 'Foorum ja muu saidi osa'
+        all-frontends: 'Näita kõiki saidi tekste'
         namespace: Nimeruum
         total: Kokku
       count:
@@ -38,8 +41,18 @@ fof-linguist:
       output-loading: 'Väljundi laadimine...'
       title: Ekspordi
     filters:
+      for-extension: Lisaprogrammile
+      frontend: Saidil
+      frontend-all-except-admin: 'Kõik v.a. admin'
       mass-edit: 'Hulgi muutmine'
       missing: 'Leia puuduvad tõlked'
+      negation-options:
+        with: Koos
+        without: Ilma
+      operation-options:
+        and: Kõik
+        or: emb-kumb
+      results: 'Näidatakse {shown} sobivat tõlgest {total}-st'
       search: 'Otsi tõlgitavaid tekste...'
       type-options:
         any: 'Algne või kohandatud'
@@ -49,12 +62,15 @@ fof-linguist:
     import:
       input: Sisend
       locale: Keel
+      override-existing: 'Kirjuta minu olemas olevad kohandatud tõlked üle'
       submit: Impordi
       title: Impordi
     known-frontend:
       admin: Admin
       api: API
       forum: Foorum
+      lib: 'Lib (kasutatakse nii foorumis kui ka adminiliideses)'
+      ref: 'Viide (teiste võtmeta taaskasutamine)'
     known-namespace:
       core: 'Flarumi tuum'
       validation: 'Valideerimise tõrge'

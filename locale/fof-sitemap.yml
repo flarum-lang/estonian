@@ -18,7 +18,9 @@ fof-sitemap:
       modes:
         multi_file: 'Mitu faili'
         runtime: Käivitamiseaeg
+      risky_performance_improvements: 'Lülita sisse riskantsemad kiiruse parandamise võimalused'
       soft_404:
+        heading: 'Soft 404 ennetamine'
         tags:
           discussion:
             minimum_item_threshold_help: 'Minimaalne vestluste arv sildi all, et seda saaks lisada sisukaardil.'

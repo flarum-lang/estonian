@@ -4,6 +4,8 @@
 
 fof-best-answer:
   admin:
+    edit_tag:
+      qna_label: 'Luba selle sildi all parima vastuse kasutamine'
     permissions:
       best_answer: 'Vali parim vastus (omaenda arutelu)'
       best_answer_not_own_discussion: 'Vali parim vastus (mitte omaenda arutelu)'
@@ -24,20 +26,37 @@ fof-best-answer:
       remind_tags_help: 'Vali, mis siltides meeldetuletusi saadetakse. Meeldetuletusi saadetakse ainult nende vaatluste kohta, millel on valitud sildid.'
       remind_tags_label: 'Meeldetuletused siltides'
       remove_solutions_from_main_search: 'Eemalda lahendused peamisest otsingust'
+      schedule_on_one_server: 'Kasuta ajastaja jaoks ''onOneServer()'' direktiivi'
+      schedule_on_one_server_help: 'Nõuab Redis/Memcache kasutamist'
+      schedule_stop_overnight_help: '9pl - 8el serveri aeg'
       select_best_answer_reminder_days: 'Meeldetuletuste sagedus'
+      show_filter_label: 'Näitab filtris parima vastuse valikut'
       show_max_lines_label: 'Maksimaalne ridade arv eelvaates'
       solution_search: 'Lahendused otsimine'
       solution_search_help: 'Linna otsida parimate vastustega arutelusid'
       use_alt_ui: 'Alternatiivne paigutus'
       use_alt_ui_help: 'Parima vaesust nupud postituse jaluses'
+  email:
+    body:
+      awarded: "Hei {recipient_display_name},\n\nSuurepärane töö, {actor_display_name} märkis just sinu postituse vestluses {discussion_title} parimaks vastuseks. Aitäh, et olid abiks.\n\nVaata vestlust: {discussion_url}\n"
+      ba-set: "Hei {recipient_display_name},\n\n{actor_display_name} märkis just vestluses {discussion_title}, milles sa osaled parima vastuse.\n\nHeida pilk peale: {discussion_url}\n"
+      select: "Hei {recipient_display_name},\n\nLihtsalt mainime, et su küsimusele {discussion_title} on tulnud juba palju vastuseid. Loodetavasti on mõni neist aidanud sul sinu probleemi lahendada.\n\nSamuti oleks ka teistele kasutajatele abiks kui saaksid märkida selles vestluses parima vastuse. See aitab kasutajaid, kellel on sama küsimus ning väljendab tänu kasutajale, kes su küsimusele vastas. Nad annavad oma aega vabatahtlikult ning on kena neid selle eest tänada.\n\nVaata vestlust siit: {discussion_url} ja vali parim vastus.\n\nAitäh!\n"
+    subject:
+      awarded: '{display_name} märkis sinu postituse parimaks vastuseks'
+      ba-set: 'Parima vastuse märkis {display_name}'
+      select: 'Kas sa said oma küsimusele vastuse?'
   forum:
     answered_badge: Vastatud
     best_answer_button: 'Parim vastus'
+    best_answer_label: 'märkis kasutaja <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Küsimused pealkiri'
     discussion:
       jump_to_best_answer_button: 'Vaata parimat vastust'
+    errors:
+      mismatch: 'Selles vestluses valitud postitust pole.'
     filter:
+      accessible_label: 'Lahendatud/Lahendamata valik'
       all_label: 'Kõik küsimused'
       solved_label: 'Lahendatud küsimused'
       unsolved_label: 'Lahendamata küsimused'
@@ -46,8 +65,20 @@ fof-best-answer:
       cannot_ask_question: 'Ei saa küsimust esitada'
       solved_link: 'Lahendatud vestlused'
       unsolved_link: 'Lahendamata vestlused'
+    notification:
+      awarded: '{username} märkis sinu postituse parimaks vastuseks'
+      best_answer_in_discussion: '{username} märkis selle vestluse parimaks vastuseks'
+      content: 'Kui su küsimusele on vastatud, siis palun vali parim vastus'
+      preferences:
+        awarded_best_answer: 'Keegi märgib minu postituse kui parima vastuse'
+        best_answer_in_discussion: 'Vestluses, milles ma osalen märgitakse parim vastus'
+        select_best_answer: 'Automaatne meeldetuletus valida parim vastus vestluses, mille ma alustasin'
     remove_best_answer: 'Tühista valik'
+    search:
+      discussions_solutions_heading: 'Lahendusega vestlused'
     this_best_answer: 'Vali parim vastus'
+    user:
+      best-answer-count: '{count, plural, one { {count} parim vastus} other {{count} parimat vastust}}'
 fof-user-directory:
   lib:
     sort:
