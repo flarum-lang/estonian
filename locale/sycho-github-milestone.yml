@@ -12,4 +12,15 @@ sycho-github-milestone:
     repository: 'GitHubi hoidla'
     repository_example: 'näidis: flarum/core'
   forum:
+    all: '=> sycho-github-milestone.ref.all'
+    closed: '=> sycho-github-milestone.ref.closed'
+    complete: '{progress} valmis'
     last_updated: 'Viimati uuendatud {time}'
+    load_more: '=> core.forum.discussion_list.load_more_button'
+    open: '=> sycho-github-milestone.ref.open'
+    tasks_done: '{number} / {total}'
+    title: Eesmärk
+  ref:
+    all: Kõik
+    closed: Suletud
+    open: Avatud

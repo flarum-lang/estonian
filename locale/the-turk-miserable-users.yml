@@ -8,5 +8,22 @@ the-turk-miserable-users:
       miserable_user_label: '=> the-turk-miserable-users.ref.miserable_user'
     settings:
       loading_delay_label: 'Laadimise viivitus'
+      log_out_chance_label: 'Väljalogimise võimalus'
       range_seconds_text: ' sekundit'
       range_separator_text: ' kuni '
+      redirection_page_url_label: 'Ümbersuunamise lahekülje URL'
+  forum:
+    miserable_user:
+      indefinitely_label: 'Kogu aeg õnnetu'
+      limited_time_days_text: ' päeva'
+      limited_time_label: 'Õnnetu piiratud aega...'
+      not_miserable_label: 'Pole õnnetu'
+      status_heading: 'Õnnatu staatus'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Õnnetu kasutaja {username}'
+    user_badge:
+      miserable_user_tooltip: '=> the-turk-miserable-users.ref.miserable_user'
+    user_controls:
+      miserable_user_button: '=> the-turk-miserable-users.ref.miserable_user'
+  ref:
+    miserable_user: 'Õnnetu kasutaja'

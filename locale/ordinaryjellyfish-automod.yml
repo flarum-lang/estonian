@@ -4,6 +4,8 @@
 
 ordinaryjellyfish-automod:
   admin:
+    permissions:
+      bypass: 'Eira automod filtreid'
     settings:
       filter_enable: 'Eelseadistatud filtrid'
       filter_help: 'Need on filtrid, mis ma isiklikult tegin foorumi turvalisena hoidmiseks. Sisse lülitatud filtrid toimivad täpselt samamoodi nagu modereerimise kategooriad.'
@@ -13,6 +15,7 @@ ordinaryjellyfish-automod:
         doxxing_help: 'Algselt privaatse info avalik avaldamine üksikisiku või organisatsiooni kohta. Tavaliselt kuritahtliku eesmärgiga.'
         flag_unsafe_images: 'Ebaturvalised pildid'
         flag_unsafe_images_help: 'Käivitab Google pildiotsingu turvalisusfiltriga ning märgib pildid, mis pole turvalised. Pea meeles, et see võib lisada viivituse postituse ilmumisele.'
+      moderate_categories_enable: 'Lülita kategooriate modereerimine sisse'
       moderate_categories_label: 'Modereeri kategooriaid'
       service_account: 'Teenuse konto'
       threshold: 'Kindluse lävi'

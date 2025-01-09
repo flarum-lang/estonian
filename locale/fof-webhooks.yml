@@ -12,12 +12,25 @@ fof-webhooks:
         title: 'Nimetas vestluse `{1}` ümber'
       restored: 'Taastas vestluse `{1}`'
       started: 'Alustas vestlust `{1}`'
+    group:
+      created: 'Lõi grupi `{1}`'
+      deleted: 'Kustutas grupi `{1}`'
+      renamed: 'Nimetas ümber grupi. Uus nimi on `{1}`'
+    post:
+      approved: 'Kiitis heaks postituse sildiga `{1}`'
+      deleted: 'Kustutas postituse silidiga `{1}`'
+      hidden: 'Peitus postituse `{1}`'
+      posted: 'Uus postitus`{1}`'
+      revised: 'Muutis postitust `{1}`'
     user:
       deleted: 'Kustutas kasutaja `{1}`'
       registered: 'Uus kasutaja on registreeritud'
       renamed:
         description: 'Uus kasutajanimi: {1}'
   admin:
+    errors:
+      service_not_found: 'Teenust "{service}" ei leitud.'
+      url_invalid: 'URL ei sobi valitud teenuse jaoks.'
     settings:
       actions:
         flarum:
@@ -48,10 +61,16 @@ fof-webhooks:
             registered: Registreerunud
             renamed: '=> fof-webhooks.ref.renamed'
             title: 'Flarumi kasutaja'
+      debug_label: Veatuvastus
+      item:
+        tag_any_label: 'Ükskõik, milline silt'
       modal:
         events_label: Sündmused
         extra_text_label: 'Lisa tekst'
         group_label: Grupp
+        max_post_content_length_label: 'Maksimaalne postituse sisu pikkus'
+        name_label: Nimi
+        use_plain_text_label: 'Vähenda vormindamist postituse sisus'
       services:
         discord: Discord
         microsoft-teams: 'Microsoft Teams'

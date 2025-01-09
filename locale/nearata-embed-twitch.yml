@@ -6,7 +6,10 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 'Luba täisekraan'
     autoplay: 'Automaatne esitamine'
+    permissions:
+      create_twitch: 'Twitchi kasutamine'
   forum:
+    button_tooltip_title: 'Twitchi kasutamine'
     modal:
       label:
         channel: 'Kanali nimi'
@@ -14,4 +17,8 @@ nearata-embed-twitch:
         layout: Paigutus
         type: 'Sisu liik'
         video: 'Video ID'
+      options:
+        channel: Kanal
+        collection: Kogu
+        video: Video
       save_changes: 'Salvesta muudatused'

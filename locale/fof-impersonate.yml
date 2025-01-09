@@ -6,6 +6,16 @@ fof-impersonate:
   admin:
     permissions:
       login: 'Logi sisse kui teine kasutaja'
+    settings:
+      no_settings_available: 'Seadeid pole praegu saadaval Proovi paigaldada lisaprogramm fof/moderator-notes'
+      require_reason: 'Nõua enne teise kasutaja kehastamist põhjuse sisestamist.'
+      title: 'Kasutaja kehastamine'
   lib:
     modal:
+      impersonate_username: 'Logi sisse kui {username}'
+      label: 'Suure võimuga tuleb ka suur vastutus. Jätkates oled sa kasutaja {username} kuni sa välja logid.'
+      placeholder_optional: '(valikuline) Sisesta põhjus, miks sa lülitud sellele kasutajakontole'
+      placeholder_required: 'Enne jätkamist pead sisestama põhjuse, miks sa lülitud sellele kasutajakontole'
       title: 'Logi sisse kui teine kasutaja'
+    user_controls:
+      impersonate_button: 'Logi sisse kui kasutaja'

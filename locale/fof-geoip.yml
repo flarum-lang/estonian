@@ -6,6 +6,7 @@ fof-default-user-preferences:
   admin:
     settings:
       showIPCountry: 'Näita kasutajate postituste juures riigi lippu'
+      showIPCountry-help: 'See põhineb postitamise ajal kasutatud IP-aadressile. Riigi lipp (kui selle kasutamine on sisse lülitatud) on nähtav kõigile kasutajatele. Adminid näevad IP-aadressi.'
 fof-geoip:
   admin:
     permissions:
@@ -25,9 +26,13 @@ fof-geoip:
       service_ipapi_label: 'IP API'
       service_ipdata_description: 'Kasuta teenust <b>https://ipdata.co</b>, et teha kuni 1500 tasuta päringut päevas. Saadaval on ka tasulised paketid kõrgema limiidiga.'
       service_ipdata_label: IP-andmed
+      service_iplocation_description: 'Kasuta saiti <b>https://www.iplocation.net/</b>, et hankida riigi ja ISP andmed. Kontrollimiste limiit pole teada.'
       service_iplocation_label: 'IP asukoht'
+      service_ipsevenex_description: 'Kasuta tasuta API koodi saidilt <b>https://7x.ax</b>, et hallata kuni 20 päringut minuti kohta. Tasulistel plaanidel on saadaval ka kõrgem kasutuslimiit.'
       service_ipsevenex_label: '7x Geolocation API'
       service_label: Teenus
+      show_flag_help: 'Näita postituse autori aadressi vastavalt nende IP-le, aga samas ära näita nende IP-aadressi. Kasutaja peab selle valiku ka oma eelistustest sisse lülitama.'
+      show_flag_label: 'Näita iga postituse juures riigi lipu'
   forum:
     alerts:
       ip_copied: 'Kopeeritud IP aadress'

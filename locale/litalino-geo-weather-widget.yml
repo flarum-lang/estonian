@@ -5,9 +5,13 @@
 geo-weather:
   admin:
     apiKey: 'API võti'
+    apiKey-help: 'Aseta siia oma asuta API võti, mis on loodud saidil https://openweathermap.org/api'
+    lang: 'Vali väljundi keel (ainult 1 eesliide)'
+    lang-help: 'sellesse välja lisa oma keele eesliide (nt. et, fi, it, en). Kontrollib aadressilt <strong>https://openweathermap.org/api/one-call-api#multi</strong>'
   forum:
     clouds: Pilved
     humidity: Niiskus
+    not-supported: 'See veebisirvija ei toeta asukoha tuvastamist.'
     rain: Vihm
     temp: 0°
     unknown: tundmatu

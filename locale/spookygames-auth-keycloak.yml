@@ -9,6 +9,10 @@ flarum-ext-auth-keycloak:
       client_id_label: 'Kliendi ID'
       client_secret_label: 'Kliendi salasõna'
       delegate_avatars_label: 'Jaga avatarid'
+      encryption_algorithm_label: 'Krüpteerimise algoritm'
+      encryption_key_label: 'Krüpteerimise võti (või sertifikaat)'
+      keycloak_version_label: 'Keycloaki versioon'
+      realm_label: Sfäär
       role_mapping_label: 'Rollide sidumine gruppidega'
       server_url_label: 'Serveri URL'
       title: 'Keycloack seaded'

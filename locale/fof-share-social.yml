@@ -5,7 +5,9 @@
 fof-share-social:
   admin:
     settings:
+      canonical-urls: 'Kasuta jagamiseks kanoonilist URL-i'
       default-option: 'Vaikimisi jagamise valik'
+      plain-copy: 'Näita URL-i kopeerimise võimalust'
   forum:
     discussion:
       share_button: Jaga

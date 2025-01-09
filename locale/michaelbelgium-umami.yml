@@ -6,9 +6,19 @@ michaelbelgium-umami:
   admin:
     settings:
       domain:
+        help: 'Domeen, kus Umami asub.'
         label: Domeen
+      errors:
+        no_connection: 'Statistika tõmbamine ebaõnnestus. Palun kontrolli oma API kasutajaandmeid.'
+      password:
+        help: 'Valikuline. Ülaloleva kasutajakonto parool. (kasutatakse admini töölaua vidina jaoks)'
+        label: 'Konto parool'
       site_id:
+        help: 'Flarumi veebisaidi ID Umami saidil. Võid selle saidi info leida Umami seadetest.'
         label: 'Veebisaidi ID'
+      username:
+        help: 'Valikuline. Ülaloleval domeenil olev kasutajakonto. (kasutatakse admini töölaua vidina jaoks)'
+        label: 'Konto kasutajanimi'
     widget:
       live: Laivis
       views: 'Lehekülje vaatamisi'

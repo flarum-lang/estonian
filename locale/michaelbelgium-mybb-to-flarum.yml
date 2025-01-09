@@ -6,10 +6,25 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: Migreeru
+      description_text: 'Migreeri MyBB foorum sellele Flarumi saidile. Sisesta vajalik info ning seejärel kliki nupule "Migreeru".'
       form:
+        general:
+          migrate_categories_label: 'Migreeri kategooriad'
+          migrate_threadsPosts_label: 'Migreeri vestlused ja postitused'
+          migrate_userGroups_label: 'Migreeri kasutajagrupid'
+          migrate_users_label: 'Migreeri kasutajad'
+          title: 'Üldised valikud'
         mybb:
+          db_label: 'Andmebaasi nimi'
           host_label: 'Andmebaasi host'
+          password_label: 'Andmebaasi parool'
+          path_label: 'MyBB kaust'
+          prefix_label: 'Tabeli eesliide'
           title: 'MyBB seaded'
+          user_label: 'Andmabaasi kasutaja'
         options:
           migrate_attachments_label: 'Migreeri lisatud failid'
+          migrate_avatars_label: 'Avataride migreerimine'
+          migrate_soft_posts_label: 'Migreeri prügikastis olevad postitused'
+          migrate_soft_threads_label: 'Migreeri prügikastis olevad vestlused'
           title: 'Muud valikut'

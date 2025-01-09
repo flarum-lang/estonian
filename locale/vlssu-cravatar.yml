@@ -7,5 +7,12 @@ vlssu-flarum-cravatar:
     settings:
       defaults:
         title: Vaikeväärtused
+      force-default:
+        title: 'Sunni vaikeväärtus'
       proxy:
         title: 'Proksi cravatarid'
+      rating:
+        title: Hinnang
+  forum:
+    settings:
+      edit-cravatar: 'Halda avatari lehel cravatar.cn'

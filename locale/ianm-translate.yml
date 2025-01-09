@@ -6,20 +6,33 @@ ianm-translate:
   admin:
     glossary:
       button: Sõnastik
+      create_button: 'Loo uus termin'
       section:
         heading: 'Sõnastiku seaded'
+    permission:
+      edit-translation: 'Muuda tõlget käsitsi'
+      translate-to-all-locales: 'Vaata tõlget ükskõik, mis foorumi keeles'
+      translate-to-locale: 'Vaata tõlget kohalikus keeles'
     settings:
       bind-browser-language: 'Lisa veebisirvija keel'
       button: Seaded
       deepl:
+        api_key:
+          label: '=> ianm-translate.lib.settings.api-key'
         en_choice:
+          help: 'Kui tõlgitakse inglise keelde, siis vali, mis variatsiooni peaks kasutama.'
+          label: 'Inglise keele variant'
           options:
             en-GB: 'Inglise (UK) en-GB'
+            en-US: 'Inglise (US) en-US'
         formality:
+          label: Formaalsus
           options:
             default: Vaikeväätus
             prefer_less: 'Vähem ametlik'
             prefer_more: 'Rohkem ametlik'
+      general:
+        heading: 'Üldised seaded'
       google-cloud:
         api_key:
           label: '=> ianm-translate.lib.settings.api-key'
@@ -32,10 +45,16 @@ ianm-translate:
           label: 'Serveri URL'
       multi-lang-search: 'Mitmekeelne otsing'
       provider: 'Tõlketeenuse pakkuja'
+      providers:
+        heading: 'Tõlketeenuse seaded'
+      seemless: 'Sujuv tõlkimine'
       seo:
+        default-lang: 'Kattub foorumi vaikimisi keelega'
         heading: 'SEO seaded'
       translate-polls: 'Tõlgi küsitlused'
+      translate-quiz: 'Tõlgi küsitlusi'
   forum:
+    detected-language: 'See postitus on {postLang} keeles'
     discussion:
       post:
         close-translation: 'Sulge tõlge'
@@ -47,12 +66,19 @@ ianm-translate:
         title: 'Halda vestluse pealkirja tõlkeid'
       original-language: 'Algne keel ({detectedLang})'
       poll:
+        image-alt: 'Pildi ALT tekst (kui on olemas)'
         option: 'Küsitluse vastusevariant {number}'
-        question: 'Küsitluse küsimus'
+        question: Küsimus
         question-language: 'Küsitluse küsimus ({language})'
+        subtitle: Alampealkiri
         title: 'Halda küsitluste tõlkeid'
       post:
         title: 'Halda postituse tõlkeid'
+      quiz:
+        answer-additional: 'Korrektse vastluse selgitus'
+        option: 'Vastus {number}'
+        question: Küsimus
+        subtitle: Alampealkiri
       save-changes: '=> core.ref.save_changes'
       translations-label: Tõlked
     original-content:
