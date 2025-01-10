@@ -9,6 +9,8 @@ clarkwinkelmann-scout:
       algoliaSecret: 'Algolia salasõna'
       driver: Draiver
       driverOption:
+        algolia: Algolia
+        meilisearch: Meilisearch
         'null': Nulli
         tntsearch: TNTSearch
       limitPlaceholder: Automaatne

@@ -14,3 +14,6 @@ clarkwinkelmann-collapsible-posts:
   forum:
     postControl:
       collapse: Sulge
+    stream:
+      explanation: 'Miks ma seda näen?'
+      load: 'Laadi rohkem'

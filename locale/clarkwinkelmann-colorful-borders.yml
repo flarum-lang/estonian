@@ -3,6 +3,23 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-colorful-borders:
+  admin:
+    permissions:
+      editAnyPost: 'Kõigi postituste stiili muutmine'
+      editOwnPost: 'Omaenda postituse stiili muutmine'
+    settings:
+      colors:
+        all: 'Kõik värvid'
+        custom: 'Kohandatud värvide nimekiri'
+        custom-help: 'Komadega eraldatud nimekiri #hex või rg() väärtustest'
+        simple: 'Lihtne värvikomplekt'
+      enableBackgroundColor: 'Kohandatav taustavärv'
+      enableBorderColor: 'Kohandatav piirjoone värv'
+      enableBorderRadius: 'Kohandatav piirjoone raadius'
+      enableBorderWidth: 'Kohandatav piirjoone laius'
+      enableTextColor: 'Kohandatav teksti värv'
+      max: Maks
+      min: Min
   forum:
     apply: Rakenda
     backgroundColor: Taustavärv
@@ -11,4 +28,5 @@ clarkwinkelmann-colorful-borders:
     borderWidth: 'Piirjoone laius'
     default: Vaikeväärtus
     edit: 'Muuda stiili'
+    reset: 'Eemalda kohandatud stiil'
     textColor: 'Teksti värv'

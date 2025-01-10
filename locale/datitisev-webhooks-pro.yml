@@ -4,5 +4,14 @@
 
 fof-webhooks:
   actions:
+    extension:
+      installed: 'Paigaldas lisaprogrammi `{1}`'
+      updated: 'Uuendas lisaprogrammi `{1}`'
     poll:
       created: 'Lõi küsitluse `{1}`'
+      voted: 'Vastas küsitlusele `{1}`'
+    post:
+      reacted: 'Reageeris postitusele `{1}`'
+      unreacted: 'Eemaldas postituselt oma reaktsiooni'
+    user:
+      enabled2fa: 'Lülitas 2FA sisse'

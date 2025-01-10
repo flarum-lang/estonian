@@ -2,9 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum/convo-extensions-guest-posting/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  lib:
+    username:
+      deleted_text: Külaline
 guest-posting:
+  admin:
+    settings:
+      enableImport: 'Luba olemasolevate postituste eksportimine liitumisel'
+      sessionLifetime: 'Külalise sessiooni pikkus tundides'
+      title: 'Külalise postitamise seaded'
+      usernames: 'Juhuslikud kasutajanimed külalistele'
   forum:
     alert:
       signup: Liitu
     badge:
       guest: Külaline
+    modal:
+      import: 'Impordi minu {count} külalisena tehtud postitust'

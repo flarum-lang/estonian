@@ -7,8 +7,14 @@ datlechin-more-discussions:
     settings:
       block_name_help: 'Bloki nimi (vaikimisi <code>Viimased vestlused</code>)'
       block_name_label: 'Blokeeri nimi'
+      discussion_limit_help: 'Näidatavate vestluste arv (vaikimisi <code>5</code>)'
       discussion_limit_label: 'Vestluse limiit'
       discussion_related_label: 'Seotud tulemused'
+      filter_by_help: 'Filtreeri vestlusi (vaikimisi <code>viimased</code>)'
       filter_by_label: Filtreeri
       filter_dropdown:
         latest: Viimased
+        newest: Uusimad
+        oldest: Vanimad
+  forum:
+    block_default_name: 'Viimased vestlused'

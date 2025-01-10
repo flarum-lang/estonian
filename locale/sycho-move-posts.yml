@@ -15,3 +15,15 @@ sycho-move-posts:
       move_posts: '=> sycho-move-posts.ref.move_posts'
     error:
       move_old_post_to_newer_discussion: '=> sycho-move-posts.ref.status.old_to_new_move'
+    modal:
+      discussion_name: '=> core.forum.composer_discussion.title_placeholder'
+      new_discussion: 'Uus vestlus'
+      submit: Jätka
+      title: '=> sycho-move-posts.ref.move_posts'
+    post:
+      move: 'Liigutamiseks vali'
+      moving: 'Postituse liigutamine'
+  ref:
+    move_posts: 'Liiguta postitusi'
+    status:
+      old_to_new_move: 'Vana postitust ei saa liigutada uuemasse vestlusesse.'
