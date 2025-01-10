@@ -4,10 +4,53 @@
 
 foskym-oauth-center:
   admin:
+    action:
+      delete_all_records_button: 'Kustuta kõik andmed'
+      delete_all_records_confirm: 'Kinnita kõigi andmete kustutamine'
+      delete_all_records_success: 'Kõik andmed on kustutatud'
+    clients:
+      add_button: 'Lisa klient'
+      client_desc: Kirjeldus
+      client_home: Avaleht
+      client_icon: Ikoon
+      client_id: 'Kliendi ID'
+      client_name: Nimi
+      client_secret: 'Kliendi salasõna'
+      edit_client: 'Muuda klienti'
+      redirect_uri: 'Ümbersuunamise URI'
+      scope: Ulatus
     page:
       clients: 'Halda kliente'
       index: avaleht
+      scopes: 'Halda ulatusi'
+      tokens: 'Halda kontrollkoode'
     permission:
       use_oauth: 'Kasuta OAuthi'
+    scopes:
+      add_button: 'Lisa ulatus'
+      edit_scope: 'Muuda ulatust'
+      scope: Ulatus
+      scope_desc: Kirjeldus
+      visible_fields: 'Nähtavad väljad'
     settings:
+      access_lifetime: 'Ligipääsukoodi pikkus (sekundites)'
       display_mode: 'Näitamise režiim'
+    tokens:
+      add_token: 'Lisa kontrollkood'
+      delete_token: 'Kustuta kontrollkood'
+  forum:
+    authorize:
+      access: 'Ligipääs kohta'
+      agree: Nõustu
+      deny: Keela
+    authorized:
+      delete_all_button: 'Kustuta kõik logid'
+      delete_button: 'Kustuta see logi'
+      load_more: 'Laadi rohkem'
+      no_more_records: 'Andmeid pole'
+      no_records: 'Andmed puuduvad'
+    page:
+      label:
+        authorized: 'autoriseerimise logid'
+      title:
+        authorize: Autoriseeri

@@ -7,6 +7,9 @@ fof-webhooks:
     extension:
       installed: 'Paigaldas lisaprogrammi `{1}`'
       updated: 'Uuendas lisaprogrammi `{1}`'
+    ip:
+      banned: 'IP blokeeritud `{1}`'
+      unbanned: 'IP blokeering eemaldatud`{1}`'
     poll:
       created: 'Lõi küsitluse `{1}`'
       voted: 'Vastas küsitlusele `{1}`'
@@ -15,3 +18,34 @@ fof-webhooks:
       unreacted: 'Eemaldas postituselt oma reaktsiooni'
     user:
       enabled2fa: 'Lülitas 2FA sisse'
+  admin:
+    settings:
+      actions:
+        extiverse:
+          bazaar:
+            extensionwasinstalled: 'Lisaprogramm paigaldatud'
+            extensionwasupdated: 'Lisaprogramm uuendatud'
+            title: 'Extiverse turg'
+        fof:
+          banips:
+            ipwasbanned: Blokeeritud
+            ipwasunbanned: 'Blokeering eemaldatud'
+            title: 'FriendsOfFlarum blokeeri IP-d'
+          byobu:
+            discussionmadepublic: 'Vestlus tehti avalikuks'
+            title: 'FriendsOfFlarum Byobu'
+          gamification:
+            title: 'FriendsOfFlarum mängustamine'
+          polls:
+            pollwascreated: Loonud
+            pollwasvoted: Vastanud
+            title: 'FriendsOfFlarum küsitlused'
+          reactions:
+            postwasreacted: 'Reageerinud postitusele'
+            postwasunreacted: 'Postituselt reaktsioon eemaldatud'
+            title: 'FriendsOfFlarum reaktsioonid'
+          twofactor:
+            title: 'FriendsOfFlarum kahe-etapiline autentimine'
+            userenabledtwofactor: 'Kasutaja lülitas kahe-etapilise autentimise sisse'
+      services:
+        custom: Kohandatud

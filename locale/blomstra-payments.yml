@@ -8,7 +8,14 @@ blomstra-payments:
       accept_label: 'Olen lugenud ja nõustun makse <link>tingimustega</link>.'
       continue_button: 'Jätka makset'
       title: 'Aktsepteeri kasutajatingimused'
+    pay-to-post:
+      purchase: 'Osta avaldamise õigus'
+      purchase-control: 'Avaldamiseks maksa'
+    pay-to-view:
+      purchase-completed: Avatud
+      purchase-control: 'Maksmiseks vaata'
     stripe:
       interval_once: '1 kord'
     subscription-card:
+      cancel-control: Loobu
       ptv: 'Vaatamiseks maksa'

@@ -9,5 +9,33 @@ blomstra-trello:
         board: 'Vali Trello töölaud'
         forum_tags: 'Kasuta foorumi silt kaardilt'
         trello_label: 'Vali Trello silt'
+      no_available_labels_label: 'Silte pole saadaval'
+      no_available_tags_label: 'Foorumi silte pole saadaval'
     settings:
       api_key_label: 'API võti'
+      api_token_label: 'API kontrollkood'
+      button:
+        add: Lisa
+        remove: Eemalda
+      default_board_label: 'Vaikimisi töölaud'
+      in_trello: Trellos
+      label:
+        boards: 'Töölaua seaded'
+        general: Üldine
+        labels: 'Siltide seaded'
+      no_available_boards_label: 'Töölaudasid pole saadaval'
+      save: 'Salvesta muudatused'
+      selected_boards_label: 'Valitud töölauad'
+      tag: Silt
+  forum:
+    controls:
+      view_on_trello_button: 'Vaata Trello kaarti'
+    modals:
+      fields:
+        board: 'Vali trello kaart'
+        lane: 'Vali Trello rida'
+        member: 'Vali Trello liige'
+      no_available_boards_label: 'Töölaudasid pole saadaval'
+      title: 'Saada Trellosse'
+  lib:
+    original_post: 'Algne postitus'
