@@ -4,13 +4,40 @@
 
 clarkwinkelmann-featured-discussions:
   admin:
+    permissions:
+      feature: 'Halda esilesõstetud vestlusi'
     settings:
       duration: 'Vaikimisi kestus (sekundites)'
+      eventPost: 'Kui ajastust muudetakse, siis loo sündmuse postitus'
       schedule: 'Graafik (CRON süntaks)'
   forum:
+    badge: Esiletõstetud
+    controls:
+      feature: 'Esiletõstetud vestlus'
     modal:
+      action:
+        cancel: Loobu
+        submit: Saafa
       fields:
+        from: Alates
         until: Kuni
       from:
+        manual: 'Kuupäev käsitsi'
+        next: 'Järgmine vahemik'
         not: 'Pole esile tõstetud'
       title: 'Tõsta vestlus esile'
+      until:
+        auto: Automaatne
+        manual: 'Kuupäev käsitsi'
+    nav:
+      schedule: 'Esiletõstmise ajastamine'
+    post:
+      auto: (automaatne)
+      scheduled: 'Ajastatud olema esiletõstetud vahemikus {from} kuni {until}'
+      unscheduled: 'Pole enam asjastatud olema esile tõstetud'
+    schedule:
+      custom: Kohandatud
+      drop-error: 'Vigane vestluse link'
+      drop-here: 'Ajastamiseks lohista siia'
+      empty: 'Vestuseid pole'
+      help: "Lohista vestluseid lehel või teisest aknast, et muuta nende ajastamist. Ajastamise eemaldamiseks kasuta kolme-täpi menüüd.\n"

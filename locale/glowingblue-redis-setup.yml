@@ -6,3 +6,7 @@ glowingblue-redis-setup:
   admin:
     settings:
       enable_cache: 'Kasuta Redis vahemälu'
+      enable_queue: 'Lülita Redis järjekord sisse'
+      enable_redis_sessions: 'Lülita Redis sessioonid sisse (pärast selle seade muutmist logitakse kõik kasutajad välja)'
+      horizon_config: 'Horisontaalne seadistus (vorming: JSON).'
+      horizon_help_text: 'See edastatakse kohta <code>(new \Blomstra\Horizon\Extend\Horizon)->config(...))</code>'

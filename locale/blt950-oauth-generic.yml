@@ -9,4 +9,15 @@ fof-oauth:
         generic:
           client_id_label: 'Kliendi ID'
           client_secret_label: 'Kliendi salasõna'
+          display_name_parameter_label: 'Näidatava nime parameetrid'
+          email_address_parameter_label: 'E-posti aadressi parameetrid'
+          id_parameter_label: 'Kasutaja ID parameetrid'
           scopes_label: Ulatus
+  forum:
+    log_in:
+      with_generic_button: '=> fof-oauth.forum.log_in.with_button'
+    providers:
+      generic: '=> fof-oauth.lib.providers.generic'
+  lib:
+    providers:
+      generic: Üldine

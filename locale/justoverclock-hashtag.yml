@@ -6,3 +6,6 @@ justoverclock-hashtag:
   admin:
     settings:
       regexlabel: 'Hashtag regulaarväljendid'
+  forum:
+    post:
+      hashtag_link_tooltip: 'Leisa selle hashtagiga seotud postitusi'

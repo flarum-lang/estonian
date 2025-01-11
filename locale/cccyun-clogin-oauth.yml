@@ -6,8 +6,33 @@ cccyun-clogin-oauth:
   admin:
     appid_label: APPID
     appkey_label: APPKEY
+    appurl_help: 'Peab algama eesliitega http:// või https:// ja lõppema kaldkriipsuga /'
     appurl_label: 'API URL'
     openqq_label: 'Ava QQ sisselogimine'
+    opensina_label: 'Ava Weibo sisselogimine'
     openwx_label: 'Ava WeChat sisselogimine'
   forum:
+    alerts:
+      already_linked: 'Kolmas konto on juba seostatud!'
+      already_used: 'Kolmas konto on juba teise kasutajaga seotud!'
+      error: 'Midagi läks valesti. Proovi hiljem uuesti!'
+      link_success: 'Kolmas konto on seostatud.'
+      unlink_success: 'Kolmanda konto seos on eemaldatud.'
+      unlinked: 'Kolmas konto pole seotud kontoga sellel saidil. Palun liitu esmalt foorumiga ja seejärel proovi seos luua.'
+    modals:
+      buttons:
+        cancel: Ei!
+        confirm: 'Jah, eemalda seos kontoga'
+      confirm_qq: 'Oled sa kindel, et soovid eemaldada seost oma QQ kontoga?'
+      confirm_sina: 'Oled sa kindel, et soovid eemaldada seost oma Weibo kontoga?'
+      confirm_wx: 'Oled sa kindel, et soovid eemaldada seost oma WeChat kontoga?'
+      link_qq: 'Seosta QQ kontoga'
+      link_sina: 'Seosta Weibo kontoga'
+      link_wx: 'Seosta WeChat kontoga'
+      no_providers: 'Sul pole muid sisselogimise teenuseid! Pead ilmselt oma parooli nullima.'
+      unlink_qq: 'Eemalda seos QQ kontoga'
+      unlink_sina: 'Eemalda seos Weibo kontoga'
+      unlink_wx: 'Eemalda seos WeChat kontoga'
     with_qq_button: 'QQ kasutajakonto'
+    with_sina_button: 'Weibo sisselogimine'
+    with_wx_button: 'WeChat sisselogimine'

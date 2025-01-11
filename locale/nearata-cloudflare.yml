@@ -8,6 +8,17 @@ nearata-cloudflare:
       title: 'Cloudflare arendusrežiim on aktiivne'
     settings:
       api_key: 'API võti'
+      minify_setting:
+        css: 'Minify CSS'
+        html: 'Minify HTML'
+        js: 'Minify JS'
+        section_title: 'Minify seaded'
+      r2:
+        access_key_id: 'Ligipääsuvõtme ID'
+        access_key_secret: 'Ligipääsuvõtme salasõna'
+        public_domain: 'Avalik domeen'
+        s3_api: 'S3 API'
+        section_title: R2
       refresh_zone_button_label: 'Värskenda tsooni iD-d'
       security_level_label: 'Turvalisuse tase'
       security_level_options:

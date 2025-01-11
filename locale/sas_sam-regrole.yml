@@ -6,6 +6,7 @@ sas_sam-regrole:
   admin:
     settings:
       allowed_roles_label: 'Lubatud rollid'
+      allowed_roles_text: 'Vali rollid, mida kasutajad saavad endale ise määrata.'
       other_options_heading: 'Muud valikud'
   forum:
     choose_role_button_label: '=> sas_sam-regrole.ref.choose_a_role'
