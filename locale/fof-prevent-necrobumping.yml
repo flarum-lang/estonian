@@ -6,4 +6,15 @@ fof-prevent-necrobumping:
   admin:
     settings:
       days_label: Päeva
+      message_agreement_label: 'Kohandatud sõnumiga nõusolek (märkekast)'
       message_description_label: 'Kohandatud sõnumi kirjeldus'
+      message_title_help: 'Kasuta aja teksti jaoks koodi <code>[time]</code>, nt. "14 päeva".'
+      message_title_label: 'Kohandatud sõnumi pealkiri'
+      tags_title: Sildid
+  forum:
+    composer:
+      warning:
+        checkbox_label: 'Olen teadlik, et vestlus on vana, aga sooviksin sellele siiski vastata.'
+        description: 'Võimalik, et edasine vestlus pole enam vajalik ning see teema taaselustamine ei ole vajalik.'
+        error: 'See vestlus on liiga vana, et sellele vastata.'
+        title: 'See vestlus on rohkem kui <b>{time}</b> vana.'

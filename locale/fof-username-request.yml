@@ -10,7 +10,12 @@ fof-username-request:
       request_username: 'Kasutajanime muutmise küsimine'
   email:
     body:
+      approved: "Tere {recipient_display_name},\n\nSinu soov saada oma uueks kasutajanimeks \"{new_username}\" on {actor_display_name} poolt heaks kiidetud.\n\nVõid nüüd logida sisse oma uue kasutajanimega: {login_url}\n"
       noReasonProvided: 'Põhjust pole lisatud.'
+      rejected: "Tere {recipient_display_name},\n\n{actor_display_name} lükkas tagasi sinu soovi saada oma vana kasutajanime \"{old_username}\" asemel uueks kasutajanimeks \"{requested_username}\".\n\nPõhjus: {reason}\n"
+    subject:
+      approved: '{display_name} kiitis heaks sinu kasutajanime muutmise nimeks {requested_username}'
+      rejected: '{display_name} lükkas tagasi sinu kasutajanime muutmise - {requested_username}'
   forum:
     nickname_modals:
       action:
@@ -42,8 +47,11 @@ fof-username-request:
     pending_requests:
       empty_text: 'Kasutajanime muutmise soovi ei leitud.'
       nickname_exerpt: 'Küsitud kasutajanimi: {requestedName}'
+      nickname_item_text: '{name} soovib muuta oma hüüdnime'
       title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
+      username_exerpt: 'Soovitud kasutajanimi: {requestedName}'
+      username_item_text: '{name} soovib muuta oma kasutajanime'
     settings:
       nickname_request_button: 'Muuda hüüdnime'
       username_request_button: 'Muuda kasutajanime'
@@ -53,18 +61,28 @@ fof-username-request:
       action:
         approval_label: 'Kiida heaks'
         decision_title: Otsus
+        help_text: 'Palun veendu, et soovitud kasutajanime muudatus vastaks foorumi juhenditele.'
+        name: '{name} soovib oma uueks kasutajanimeks "{requestedName}"'
         reason_title: 'Tagasilükkamise põhjus'
         rejected_label: 'Lükka tagasi'
         submit_button: Saada
         success: 'Otsus on saadetud.'
         title: '=> fof-username-request.ref.username_change_request'
       request:
+        confirmation_message: 'Sinu kasutajanime muutmise soov on edastataud ja see ootab heakskiitu.'
+        current_request: 'Oled juba palunud saada oma uueks kasutajanimeks "{name}". Sa võid kas oma soovi uuendada või selle kustutada.'
         delete_button: 'Kustuta soov'
         deleted: 'Kasutajanime muutmise soov on tagasi lükatud.'
         dismiss_button: '=> core.ref.okay'
         submit_button: 'Saada soov'
+        title: 'Palu kasutajanime muutmist'
       results:
+        approved: 'Sinu kasutajanime muutmise soov on aktsepteeritud'
         dismiss_button: '=> core.ref.okay'
+        new_name: 'Sinu kasutajanimi on nüüd muudetud. Uus kasutajanimi: {name}'
+        reason: 'Tagasilükkamise põhjus: <i>"{reason}"</i>.'
+        rejected: 'Sinu kasutajanime muutmise soov lükati tagasi'
+        resubmit: 'Võid esitada oma kasutajanime muudatuse uuesti oma kasutajakonto seadetest, kui soovid seda teha.'
         title: 'Kasutajanime muutmise soov'
   ref:
     name_change_request: 'Nime muutmise soov'

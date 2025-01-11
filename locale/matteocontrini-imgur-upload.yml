@@ -5,9 +5,16 @@
 imgur-upload:
   admin:
     settings:
-      allow-paste: 'Luba pildi üleslaadimine lõpikalaualt kopeerimisega'
+      allow-paste: 'Luba pildi üleslaadimine lõikelaualt kopeerimisega'
       embed-type:
+        full-with-link: 'Täis-suuruses pilt lingiga'
+        full-without-link: 'Täissuuruses pilt ilma lingita'
+        preview-with-link: 'Eelvaade (1024px) lingiga täis-suuruses pildile'
         preview-without-link: 'Eelvaade ilma lingita'
         title: 'Põimimise liik'
+      hide-markdown-image: 'Peida Markdown pildi nupp'
   forum:
+    done: Valmis!
+    error: Viga
     loading: Üleslaadimine...
+    upload: 'Üleslaadimiseks vajuta või kopeeri siia'

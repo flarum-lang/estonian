@@ -11,20 +11,28 @@ flarum-gdpr:
 fof-upload:
   admin:
     inspect-mime:
+      guessed-extension: 'Vaikimisi faililaiend (kui algne pole valges nimekirjas)'
       laravel-validation: 'Laravel failide kinnitamine'
+      mime-detector: 'Failitüübi tuvastaja (peamine)'
       mime-fileinfo: 'PHP failiinfo (tagavaravariant)'
       no-file-selected: 'Faili pole'
       not-available: 'Tulemust pole'
+      select: 'Vali alt fail, et inspekteerida väärtuseid, mida kasutatakse. Faili ei salvestata.'
+      title: 'Inspekteeri failitüüpi'
       validation-failed: 'Evaõnnestus: {error}'
       validation-passed: Korras
     labels:
       aws-s3:
         advanced_title: 'S3 säilituskoha lisaseaded'
+        bucket: Korv
+        custom_url: 'Kohandatud S3 URL'
         endpoint: Lõpp-punkt
         key: Võti
         region: Regioon
         secret: Salasõna
         title: 'AWS S3 salvestamise seaded'
+      client_extension:
+        title: 'Kasutaja lisatud failide laiendid'
       composer_buttons:
         options:
           both: Mõlemad
@@ -40,12 +48,17 @@ fof-upload:
       imgur:
         client_id: 'Imgur kliendi ID'
         title: 'Imgur piltide säilitamise seaded'
+        tos: 'Sina oled vastutav selle eest, sinu foorumi kasutajad järgivad Imguri <a>kasutustingimusi</a>'
+      inspect-mime: 'Testi failitüüpi'
       local:
+        cdn_url: 'Sisu jagamise URL-id (eesliidesega failid)'
         title: 'Kohalike failide salvestamise seaded'
       preferences:
         max_file_size: 'Maksimaalne failisuurus (kilobaitides)'
+        mime_types: 'Seadista oma failitüüpi, üleslaadimise tüübi kaardistamine'
         title: 'Üldised eelistused'
       qiniu:
+        bucket: Korv
         key: Võti
         secret: Salasõna
         title: 'QUNIU seaded'
@@ -64,6 +77,7 @@ fof-upload:
       description: 'Seadista üleslaadimise teenused ja eelistused.'
       title: 'Laadi üles'
     permissions:
+      access_shared_label: 'Ligipääs jagatud failidele failihalduris'
       delete_uploads_of_others_label: 'Kustuta kasutajate üleslaadimised'
       download_label: 'Laadi failid alla'
       upload_label: 'Failide üleslaadimine'
@@ -75,7 +89,16 @@ fof-upload:
       title: 'Jagatud üleslaadimised'
       upload-new-button: 'Laadi üles uus fail'
     templates:
+      bbcode-image: 'BB-koodi pildi mall'
+      file: 'Vaikimisi faili allalaadimise mall'
+      file_description: "Näitab failinime ja üldist infot. Allalaadimis suunatakse läbi PHP, mis lubab koguda statistikat ja kaitseb otsese linkimise eest.\n"
+      image: 'Vaikimisi pildi allalaadimise mall'
+      image-preview: 'Lõpeta pildi eelvaate mall'
+      just-url: 'Ainult URL'
+      just-url_description: "Sisestab ainult URL-i. Näitamist võivad mõjutada teised lisaprogrammid, mis saavad automaatselt linke luua. Allalaadimise funktsioone pole, statistikat ei koguta ning otselinkide kaitsemist ignoreeritakse.\n"
+      markdown-image: 'Markdowni pildi mall'
       text-preview: 'Teksti eelvaade'
+      text-preview_description: "Sisestab tekstifaili eelvaate (esimesed 5 rida) koos võimalusega seda laiendada, et näha kogu faili sisu.\n"
     upload_methods:
       aws-s3: 'S3 või sellega ühilduv'
       awss3: 'AWS S3'
@@ -89,6 +112,7 @@ fof-upload:
       could_not_detect_mime: 'Selle failitüübi tuvastamine ebaõnnestus, palun proovi uuesti.'
       forbidden_type: 'Seda tüüpi failide üleslaadimine pole lubatud.'
       max_upload_file_size_form: 'Maksimaalne failisuuruse limiit.'
+      max_upload_file_size_ini: 'Üleslaetava faili maksimaalne suurus on php.ini-s ületatud.'
       no_file_uploaded: 'Ühtegi faili ei laaditud üles.'
       no_files_made_it_to_upload: 'Palun laadi faile, mis pole suuremad kui {max}kb.'
       no_upload_tmp_folder: 'Failide üleslaadimiseks pole ajutiste failide kausta.'
@@ -114,6 +138,8 @@ fof-upload:
       expand: 'Laienda eelvaateid'
       no_snippet: '<eelvaate vidinat pole saadaval>'
       no_snippet_preview: '<eelvaadet näidatakse siin pätast postitamist>'
+    validation:
+      max_size: 'Üleslaadimisi, mis on suuremad kui {max} kb ei aktsepteerita.'
   lib:
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Midagi pole valitud} one {Vali fail} other {Vali failid}}'
@@ -136,6 +162,7 @@ fof-upload:
         hide_fail: 'Faili "{fileName}" privaatseks tegemine ebaõnnestus'
         hide_success: 'Fail tehti privaatseks'
         loading: 'Faili privaatseks tegemine...'
+        show_confirmation: 'Oled sa kindel, et soovid teha faili "{fileName}" avalikuks? Faili avalikuks tegemine, teeb selle nähtavaks kõigile, kellel on ligipääs avalikult lingile ja kõik saavad seda failihalduriga jagada.'
         show_fail: 'Faili "{fileName}" avalikuks tegemine ebaõnnestus'
         show_success: 'Fail tehti avalikuks'
       load_more_files_btn: 'Laadi rohkem faile'

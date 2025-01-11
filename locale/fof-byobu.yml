@@ -11,14 +11,18 @@ fof-byobu:
       create_private_discussions_with_users: 'Privaatsete vestluste loomine kasutajatega'
       edit_group_recipients: 'Privaatsest vestlusest osavõtvate gruppide muutmine'
       edit_user_recipients: 'Privaatsest vestlusest osavõtvate kasutajate muutmine'
+      make_private_into_public: 'Muuda privaatne vestlus avalikuks'
+      view_private_discussions-when-flagged: 'Teiste kasutajate privaatsete vestluste vaatamine, kui see on sobimatuks märgitud'
     settings:
       badge-icon: 'byobu vestluse silt'
+      enable-make-public-option: 'Lülita sisse võimalus teha vestlusi avalikuks'
       general:
         heading: 'Üldised seaded'
         help: 'Need seaded juhivad byobu peamisi funktsioone.'
       icon:
         heading: 'Ikooni seaded'
         help: 'Need seaded määravad foorumis kasutatavad byobu ikoonid.'
+      post-event-icon: 'Byobu postituste sündmused'
   email:
     subject:
       private_discussion_added: '[Privatne vestlus] {display_name} lisas sind privaatsesse vestlusesse'
@@ -40,6 +44,12 @@ fof-byobu:
     composer_private_discussion:
       submit_button: 'Postita privaatne vestlus'
       title_placeholder: 'Privaatse vestluse pealkiri'
+    confirm:
+      make_public: 'Oled sa kindel, et soovid eemaldada saatjad ja teha see vestlus nähtavaks kõigile, kes näevad selle sildiga vestlusi?'
+    input:
+      search_recipients: 'Osaleja valimiseks hakka kasutajanime trükkima...'
+    labels:
+      recipients: '{count, plural, one {{count} osaleja} other {{count} osalejat}}'
     modal:
       help:
         add_recipients: 'See vestlus on nähtav ainult kasutajatele, keda sa oled siin valinud. Lisaks sinule peab olema valitud vähemalt 1 saaja.'
@@ -51,11 +61,15 @@ fof-byobu:
         selected_users: 'Valitud kasutajad'
       titles:
         add_recipients: 'Lisa oma vestlusesse saajaid'
+        update_recipients: 'Uuenda {title} osalejaid'
     nav:
       nav_item: 'Privaatsed vestlused'
+      start_button: 'Arutle privaatselt'
     notifications:
       pd_added_label: 'Keegi lisas mind olemasolevasse privaatsesse vestlusesse'
       pd_added_text: '{username} lisas sind privaatsesse vestlusesse'
+      pd_label: 'Keegi kaasas mind uude privaatsesse vestlusesse'
+      pd_reply_label: 'Keegi postitatas privaatsesse vestlusesse, milles ma osalen'
       pd_reply_text: '{username} postitas privaatsesse vestlusesse, millest sa oled osa'
       pd_text: '{username} alustas sinuga privaatset vestlust'
       pd_user_left_label: 'Kasutaja lahkus privaatsest vestlusest, milles sa osaled'
@@ -63,6 +77,8 @@ fof-byobu:
     post:
       recipients_modified:
         added: '{username} lisas saaja {added}.'
+        added_and_removed: '{username} lisas vestlusesse osalejad {added} ja eemaldas {removed}.'
+        made_public: '{username} eemaldas kõik osalejad ja tegi vestluse avalikuks'
         removed: '{username} eemaldas saaja {removed}.'
         removed_self: '{username} lahkus privaatsest vestlusest.'
     search:

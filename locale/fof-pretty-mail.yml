@@ -5,6 +5,7 @@
 fof-pretty-mail:
   admin:
     css_settings:
+      help: 'Võid soovi korral kaasata kirja HTML-is foorumi CSS-i. Kui lülitad selle sisse, siis võib sul olla probleeme mõningate e-posti teenuste pakkujatega.'
       label: 'CSS-i seaded'
       switch_label: 'Kaasa täielik foorumi CSS'
     nav:
@@ -14,8 +15,10 @@ fof-pretty-mail:
         body: 'Sisaldab tegelikku kirja sisu'
         forumStyle: 'Sisaldab <strong>kogu foorumi CSS-i</strong>'
         link: 'Sisaldab e-kirjas linki'
+        settings: 'Võimaldab sul suhelda SettingsRepositoryInterface-iga'
         url: 'Flarum <code>UrlGenerator</code>'
       attributes_label: 'Saadaolevad omadused'
+      confirm: 'Oled sa kindel, et soovid vaikimisi e-kirja malli taas kasutusse võtta'
       default: 'Vaikimisi mall'
       label: 'E-kirja mallid'
       newPost: 'Flarumi tellimuse uue postituse e-kiri'
