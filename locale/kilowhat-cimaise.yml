@@ -20,6 +20,7 @@ kilowhat-cimaise:
       license-key: Võti
       license-label: Silt
       licenses: Litsentsid
+      mapboxToken: 'Mapboxi kontrollkood'
       sticker-key: Võti
       sticker-label: Silt
       sticker-url: URL
@@ -80,6 +81,8 @@ kilowhat-cimaise:
       awaiting-approval: 'Ootab heakskiitu'
       favorite: Lemmik
       hidden: Peidetud
+    discussion-controls:
+      attach-album: 'Lisa või eemalda album'
     edit-album-modal:
       title: 'Muuda albumit "{title}"'
     edit-album:
@@ -129,9 +132,24 @@ kilowhat-cimaise:
       taken-at: 'Tehtud {ago} tagasi'
     picture-sort:
       latest: 'Viimane üleslaadimine'
+      latestTake: 'Viimane foto'
       oldest: 'Vanimad üleslaadimised'
+      oldestTake: 'Vanim foto'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
+      in-album: Albumis
+    post-stream:
+      uploaded: '{username} laadis üles {count} pilti'
+    upload-modal:
+      drop-file: 'või lohista siia'
+      processing: Töötlemine
+      publishSilently: 'Avalda vaikselt'
+      reload: 'Laadi mustandite nimekiri uuesti'
+      select-file: 'Vali fail'
+      submit: Saada
+      submitInComposer: Jätka
+      titleInComposer: 'Muuda pilte'
+      uploading: Üleslaadimine
   ref:
     albums: Albumid
     by-user: Kasutaja

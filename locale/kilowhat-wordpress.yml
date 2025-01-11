@@ -31,29 +31,37 @@ kilowhat-wordpress:
       api_key: 'Jagatud API võti'
       api_key_reset: 'Loo uus API võti'
       comment_tag_custom: 'Kohandatud väärtused'
+      comment_tag_custom_help: 'Komadega eraldatud nimekiri siltide ID-dest'
+      comment_tag_none: 'Ära määra sildile'
       cookie_domain: 'Küpsise domeen'
       default_actor_placeholder_search: 'Kirjuta kasutaja otsimiseks...'
       enable_comments: 'Lülita kommentaaride integreerimine sisse'
       enable_sso: 'Lülita SSO integratsioon sisse'
+      force_username_choice: 'Lase kasutajatel esimese külastuse ajal nende kasutajanimi valida'
       login_method_options:
         cookie: Küpsis
         iframe: 'Peidetud raam'
         redirect: 'Suuna ümber'
       post_delete_options:
         hide: 'Peida vestlused Flarumis'
+        lock: 'Säilita Flarumi vestlus ja lukusta'
       post_hide_options:
         delete: 'Kustuta vestlused Flarumist jäädavalt'
         hide: 'Peida vestlused Flarumis'
         lock: 'Lukusta vestlused Flarumis'
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
+      use_post_date: 'Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana'
       user_delete_options:
         delete: 'Kustuta Flarumi kasutaja'
         ignore: 'Ignoreeri (säilita Flarumi kasutaja)'
       username_strategy: 'Uute kasutajate kasutajanimi'
+      username_strategy_help: 'Kui kasutajanimi on Flarumis juba olemas, siis lisatakse sellele number'
       username_strategy_options:
         first_name: 'Eesnimi WordPressist'
         random: 'Juhuslik kasutajanimi'
         user_login: 'Kasutajanimi WordPressist'
+      welcome_message: 'Tutvustav sõnum'
+      wordpress_login_only: 'Luba ainult WordPressi sisselogimine'
       wordpress_url: 'WordPressi URL'
     tabs:
       comments: 'Kommentaaride integreerimine'
@@ -72,11 +80,13 @@ kilowhat-wordpress:
       edit_in_wordpress: 'Muuda WordPressis'
     embed-link-modal:
       open: 'Ava link'
+      title: 'Välja kommentaaridest'
     embed:
       title: Kommentaarid
     instant-login:
       avatar_alt_text: 'WordPressi avatar'
       button: 'Logi kohe sisse ja värskenda'
+      welcome_known_user: 'Teretulemast tagasi, {avatar} <strong>{name}</strong>!'
       welcome_unknown_user: 'Teretulemast tagasi!'
     log_in:
       with_wordpress_button: 'Logi sisse WordPressiga'

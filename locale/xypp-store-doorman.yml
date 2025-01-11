@@ -5,9 +5,20 @@
 xypp-store-doorman:
   forum:
     create:
+      activate: 'Aktiveeri automaatselt'
+      count: 'Kasutamiste arv'
       group: 'Grupp pärast registreerimist'
       select: 'Vali andmed'
       submit: Kinnita
       title: 'Vali andmed'
+    has_used: 'Kasutas {count} korda'
     key: 'Kutse võti'
     key-not-found: 'Võtit ei leitud'
+    send:
+      cancel: Loobu
+      email: E-post
+      failed: 'E-kirja saatmine ebaõnnestus'
+      submit: Saada
+      title: 'Saada kutse e-post'
+      url: 'Kutse URL'
+    showcase: 'Saab kutsuda {count} korda, pärast liitumist gruppi {group}, automaatne aktiveerimine: {activate}'

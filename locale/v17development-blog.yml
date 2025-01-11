@@ -6,14 +6,21 @@ v17development-flarum-blog:
   admin:
     blog: Blogi
     permissions:
+      approve_posts: 'Võib kiita heaks blogipostitusi'
+      auto_approve_posts: 'Postita artikleid ilma heakskiiduta'
       write_articles: 'Blogi artiklite kirjutamine ja muutmine'
     settings:
+      add_sidebar_nav_label: 'Lisa külgriba menüüsse'
       allow_comments_label: 'Luba kommentaarid'
       blog_heading: Blogi
       categories_heading: Kategooriad
       default_article_image_label: 'Vaikimisi artikli pilt'
+      featured_count_label: 'Maks. esiletõstetud postitusi'
       hide_on_discussion_list_label: 'Ära näita vestluste nimekirjas'
+      hide_tags_in_taglist_label: 'Peida sildid siltide nimekirja'
+      no_categories_selected: 'Kategooriaid pole valitud'
       redirects_heading: Ümbersuunamised
+      require_review_label: 'Blogi postitused nõuavad ülevaatamist'
       select_categories_button: 'Vali blogi kategooriad'
       show_tag_hierarchy_label: 'Näita siltide hierarhiat'
   forum:
@@ -25,30 +32,40 @@ v17development-flarum-blog:
         highlight:
           title: 'Esiletõstetud postitus'
         image:
+          helper_text: 'Parim pildi resolutsioon sotsiaalmeedia jaoks: 1200x630'
           title: 'Artikli pilt'
         summary:
+          helper_text: 'Seda kokkuvõtet näidatakse blogi ülevaate leheküljel ja seda kasutatakse SEO parandamiseks.'
           placeholder: 'Palun sisesta kokkuvõte'
           title: 'Artikli kokkuvõte'
       title: 'Blogi postituste seaded'
     blog: Blogi
     categories: Kategooriad
+    category_empty: 'Selles kategoorias pole ühtegi blogipostitust.'
     comment_section:
       comments: Kommentaarid
     compose:
       write_article: 'Kirjuta artikkel'
     composer:
       edit_categories: 'Muuda kategooriat'
+      enter_message_here: 'Sisesta oma sõnum siia'
       no_title: 'Pealkirja pole'
       nothing_to_preview: 'Pole midagi näidata'
       post_article: 'Postita artikkel'
+      post_without_blog_info: 'Oled sa kindel, et soovid seda blogipostitust avaldada? Kokkuvõte ja pilt on veel puudu.'
       select_category: 'Vali kategooria'
       update_settings: 'Uuenda blogi seadeid'
       view: Vaata
       write: Kirjuta
     forum_nav: 'Foorumi menüü'
     hidden: Peidetud
+    no_more_posts: 'Rohkem blogipostitusi pole.'
     read_more: 'Loe lisa'
     recent_posts: 'Viimased blogipostitused'
+    return_to_overview: 'Tagasi blogi ülevaatesse '
+    review_article:
+      approve_article: 'Kiida artikkel heaks'
+      pending_review_title: 'Ootab ülevaatamist'
     tools:
       approve_article: 'Kiida artikkel heaks'
       article_settings: 'Artikli seaded'

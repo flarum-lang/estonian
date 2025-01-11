@@ -4,10 +4,16 @@
 
 clarkwinkelmann-clippy:
   admin:
+    events:
+      animation: Animatsioon
+      name: Sündmus
+      text: Tekst
     settings:
       agent: Agent
       cdn: CDN
       cdn-options:
+        custom: Kohandatud
         jsdelivr: jsDelivr
         s3: 'Amazon S3'
       events: Sündmused
+      path: 'Kohandatud CDN asukoht'

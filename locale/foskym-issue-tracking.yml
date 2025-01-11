@@ -5,6 +5,48 @@
 foskym-issue-tracking:
   admin:
     action:
+      delete_all_issues_button: 'Kustuta kõik probleemid'
+      delete_all_issues_confirmation: 'Oled sa kindel, et soovid kõiki probleeme kustutada?'
+      delete_all_issues_success: 'Kõik probleemid on kustutatud'
+      delete_imported_issues_button: 'Kustuta imporditud probleemid'
+      delete_imported_issues_confirmation: 'Oled sa kindel, et soovid kõiki imporditud probleeme kustutada?'
+      delete_imported_issues_success: 'Imporditud probleemid on kustutatud'
       heading: Tegevus
+      import_issues_button: 'Impordi probleemid'
+      import_issues_confirmation: 'Oled sa kindel, et soovid kõik probleemid importida?'
+      import_issues_success: 'Probleemid on imporditud'
       test_connection_button: 'Testi ühendust'
+      test_connection_success: 'Ühendus on loodud'
+    enable_create_issue_label: 'Luba kasutajatel Flarumis probleeme lisada'
+    enable_import_by_display_name_label: 'Impordi probleemid nimede järgi'
     provider_heading: 'Platformi pakkuja'
+  forum:
+    cannot_create_issue: 'Ainult loetav'
+    composer:
+      body_placeholder: 'Probleemi kirjeldus'
+      discard_confirmation: 'Oled sa kindel, et soovid sellest probleemist loobuda?'
+      submit_button: 'Saada probleem'
+      title: 'Loo uus probleem'
+      title_placeholder: 'Probleemi pealkiri'
+    discussion:
+      issue_link: Vaata
+    header:
+      back_to_issues_tooltip: 'Tagasi probleemide juurde'
+    hero:
+      complete: '{progress} valmis'
+      last_updated: '=> foskym-issue-tracking.forum.last_updated'
+      resolved: Lahendatud
+      tasks_done: '{number} / {total}'
+      unresolved: Lahendamata
+    issue_opened_by: '{username} avas probleemi {time}'
+    last_updated: 'Viimati uuendatud {time}'
+    new_issue: 'Uus probleem'
+    progress: Edenemine
+    provider:
+      error:
+        title: 'Teenusepakkuja tõrge'
+    sort:
+      latest_button: Viimased
+      newest_button: Uusimad
+      oldest_button: Vanimad
+    title: 'Probleemide jälgimine'

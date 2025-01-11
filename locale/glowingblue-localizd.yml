@@ -7,7 +7,13 @@ glowingblue-localizd:
     settings:
       title: 'Tõlgitud seaded'
     translation_key:
+      help: 'See valik on mitmekeelne kasutades <b>Localizd</b> + <a>Linguist</a>.'
+      modal_title: 'Lisa tõlked Linguistiga'
       translate: Tõlgi
   forum:
     errors:
+      causes: 'Põhjus võib olla üks järgnevatest'
       deleted: 'Lehekülg võib olla kustutatud'
+      does_not_exist: 'Seda lehte ei pruugi eksisteerida'
+      logged_in_only: 'See lehekülg on saadaval ainult sisseloginud kasutajatele'
+      no_permission: 'Sul pole selle lehekülje vaatamiseks õiguseid'

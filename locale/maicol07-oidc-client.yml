@@ -8,4 +8,21 @@ maicol07-oidc-client:
       client:
         http_proxy: 'HTTP proksiserver'
         id: 'Kliendi ID'
+        secret: 'Kliendi salasõna'
         title: 'Kliendi seaded'
+      other:
+        manage_account_url: 'Konto haldamise URL'
+        remove_signup_btn: 'Eemalda liitumise nupp'
+        sso_mode: 'SSO režiim'
+        sync_avatars: 'Sünkrooni kasutaja avatar'
+        time_drift: 'JWT ajanihe'
+        title: 'Muud seaded'
+      provider:
+        title: 'Teenusepakkuja seaded'
+        url: 'Teenusepakkuja URL'
+  forum:
+    buttons:
+      connect_account: 'Ühenda kontoga {name}'
+      disconnect_account: 'Katkesta ühendus kontoga {name}'
+      login: 'Logi sisse kontole {name}'
+      manage_account: 'Halda kontot'

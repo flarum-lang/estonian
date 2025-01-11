@@ -8,7 +8,15 @@ clarkwinkelmann-translation-inspector:
       inspect: 'Kontrolli tõlkeid'
   lib:
     modal:
+      actual: 'tõlked praeguses keeles'
+      edit: 'Muuda GitHubis'
       extension-unknown: 'Tundmatu lisaprogramm'
       key: 'Tõlke võti'
       original: 'Algne inglisekeelne tõlge'
       title: 'Tõlke inspekteerija'
+    nav:
+      inspect: 'Inspekteeri tõlget'
+    tooltip:
+      cancel: Loobu
+      description: 'Kliki tõlkele, mida soovid inspekteerida'
+      title: 'Inspekteeri tõlget'

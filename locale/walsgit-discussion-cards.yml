@@ -15,6 +15,7 @@ walsgit_discussion_cards:
         defaultImage_title: 'Üldine vaikimisi pilt'
         desktopCardWidth_label: 'Peamise kaardi laius töölaual'
         onIndexPage_label: 'Aktiveeri kaardid avalehel'
+        otherOptions_title: 'Valikud, mis nõuavad teiste lisaprogrammide olemasolu'
         primaryCardOptions_title: 'Peamise kaardi valikud'
         primaryCards_label: 'Peamiste kaartide arv'
         repostExtension_notActivated: '{icon} Selle valiku töötamiseks peab see lisaprogramm olema sisse lülitatud.'

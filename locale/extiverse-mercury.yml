@@ -7,4 +7,5 @@ extiverse-mercury:
     extension-updates-page:
       extension-is-up-to-date: 'On ajakohane'
       extension-name: Lisaprogramm
+      highest-version: 'Viimane väljalase'
       installed-version: 'Paigaldatud versioon'
