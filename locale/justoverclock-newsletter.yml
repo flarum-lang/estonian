@@ -5,8 +5,37 @@
 justoverclock-newsletter:
   admin:
     ctaText: 'Külasta oma kogukonda'
+    emailSentErrorMessage: 'Kirjade saatmine ebaõnnestus.'
+    emailSentSuccessMessage: 'Kirjad on saadetud!'
     emailTitle: 'Uudiskirja pealkiri'
+    lastNewsletterSent: 'Viimane uudiskiri saadeti'
+    lastNewsletterSentDescription: 'viimati saadetud uudiskirja pealkiri'
+    lastNewsletterSentText: 'saadeti: '
     newsLetterOptOutFooter: 'Sulle ei meeldi need e-kirjad?'
     newsLetterOptOutFooterUnsubscribe: 'Lõpeta jälgimine.'
+    newsletterCountText: 'Sinu uudiskiri saadetakse kõigile ülal loetletud tellijatele.'
     newsletterCountTextTwo: kasutajat!
+    noNewsletterSent: 'Andmeid pole'
+    sendEmailButtonText: 'Saada kiri kõigile tellijatele'
     sendingText: Saatmine...
+    textOrHtml: 'Uudiskirja sisu (tekst või HTML)'
+    totalSubscribers: 'Tellijaid kokku'
+    totalSubscribersCount: 'tellijate koguarv'
+  forum:
+    consent: Loen
+    dataProcessingModalContent: "<p><strong>Purpose</strong></p>\n<p>This policy outlines our approach to collecting, processing, and storing personal data for newsletter\nsubscriptions in compliance with the General Data Protection Regulation (GDPR). It ensures that individuals\nhave full control over their data and understand how it is used.</p>\n<p><strong>Clear consent</strong></p>\n<p>We collect newsletter subscriptions only through a clear, affirmative opt-in process.\nSubscribers must actively check an unchecked box or click a dedicated \"Agree\" switch button to give consent.\nPre-ticked checkboxes or implied consent are not used.</p>\n<p><strong>Data Minimization</strong></p>\n<p>We only collect the necessary data for sending newsletters: Email address (required). </p>\n<p><strong>Opt-out</strong></p>\n<p>Subscribers can opt-out at any time. Every newsletter includes an unsubscribe link that is easy to find and use.\n</p>\n<p><strong>Data Retention</strong></p>\n<p>Personal data is storedin our database only for the duration of the subscription. If a subscriber opts out, their email\naddress and other personal data are deleted unless required by law or for legitimate purposes (e.g., maintaining a suppression list to avoid future emails).</p>\n<p><strong>Secure Data Handling</strong></p>\n<p>We ensure appropriate technical and organizational measures to protect subscribers’ data, such as:\nEncrypting data during transmission. Regular audits of our data storage and processing systems.</p>\n"
+    emailNotFound: 'Tellijat ei leitud või ta on juba kustutatud'
+    emailRequired: 'E-posti aadress on nõutud'
+    invalidEmailHint: 'Vigane e-posti aadress'
+    newsLetterDescription: 'meie uudiskiri. Palun sisesta oma e-post ja vajuta sisestusklahvi'
+    newsLetterModalTitle: 'Andmete töötlemise poliitika *'
+    newsLetterTitle: Telli
+    optOutPageDescription: "<p>Mõistame, et eelistused muutuvad ning meil on kahju näha sind lahkumas. Kui sa ei soovi enam meie uudiskirja\nsaada, siis kliki allolevale nupule. Seejärel ei saa sa meilt enam mingeid uudiseid või pakkumisi.</p>\n<p>Sooviksime teada, kas on midagi, mida saaksime teha, et oma uudiskirja parandada või kas sul oleks mingit tagasisidet.\nKui muudad oma meelt, siis võid tulevikus uue tellimuse teha!</p>\n<p>Aitäh sulle sinu aja eest ning loodame, et näeme sind veel.</p>\n"
+    optOutPageTitle: 'Postkast ajab üle? Siit saad loobuda meie uudiskirjast.'
+    optOutPlaceholder: 'Sisesta oma e-posti aadress siia...'
+    subscribe: Telli
+    subscriberDeleted: 'Tellija on kustutatud'
+    subscriberExist: 'See e-posti aadress on juba tellija.'
+    successMessage: 'Oled nüüd tellinud meie uudiskirja!'
+    successUnsubscribedMessage: 'Oled nüüd meie uudiskirja tellimuse tühistanud!'
+    unSubscribe: 'Tühista tellimus'

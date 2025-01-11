@@ -3,9 +3,19 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-money-to-all:
+  admin:
+    settings:
+      send: 'Saada raha kõigile kasutajatele'
+  forum:
+    notification:
+      moneyReceived: 'Said just {amount}'
   lib:
     modal:
       amount: Kogus
       message: Sõnum
+      messagePlaceholder: 'Lisa teavituse juurde sõnum'
       notify: 'Saada veebiteavitus kasutajatele'
+      preview: 'Praegused seaded vastavad {count} kasutajale.'
+      submit: Saada
+      success: '{count} kasutajale saadeti raha!'
       title: 'Saada raha kõigile kasutajatele'

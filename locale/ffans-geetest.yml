@@ -5,8 +5,28 @@
 ffans-geetest:
   admin:
     settings:
+      config:
+        id_label: 'Kinnita ID'
+        key_label: 'Kinnitamise võti'
+        product_label: 'Animatsiooni stiil'
+        product_popup_help_text: 'Kontrollimise paneeli keskel'
+        product_popup_label: Hüpikaken
       context_event_forgot_label: '=> core.forum.forgot_password.title'
       context_event_login_label: '=> core.ref.log_in'
       context_event_signup_label: '=> core.ref.sign_up'
       product_service_label: 'CAPTCHA toode'
       product_service_v3_label: 'CAPTCHA (v3)'
+    test:
+      help_text: 'Kasuta ülalolevaid üldiseid seadeid, et testida CAPTCHA-t.'
+      load_button: Laadi
+      reload_button: 'Laadi uuesti'
+      submit_button: Saada
+      title: 'Testi CAPTCHA-t'
+  lib:
+    verify:
+      error_message: 'Kontrollimine ebaõnnestus.'
+      error_retry_message: 'Kontrollimine ebaõnnestus, palun proovi uuesti.'
+      init_error_message: 'Käivitamise kontrollimine ebaõnnestus.'
+      not_pass_message: 'Kontrolli ei läbitud.'
+      required_message: 'Palun täida CAPTCHA.'
+      success_message: Kontrollimine.

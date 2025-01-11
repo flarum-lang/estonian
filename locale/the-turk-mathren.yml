@@ -5,5 +5,19 @@
 the-turk-mathren:
   admin:
     settings:
+      cdn_options_heading: 'CDN valikud'
       delimiters_label: Eraldajad
+      delimiters_text: 'Eralda komadega. <strong>%e%</strong> tähendab matemaatilist avaldist.'
+      java_syntax_text: 'Pead need kirjutama kasutades JavaSkripti süntaksit.'
       katex_options_heading: 'KaTeX valikud'
+      macros_label: Makrod
+      macros_text: 'Kohandatud makrode kogu.'
+      maximum_expand_limit_text: 'Maksimaalne laiendamise limiit'
+      maximum_size_text: 'Maksimaalne suurus (em)'
+      minimum_thickness_text: 'Minimaalne paksus (em)'
+      other_options_heading: 'Muud valikud'
+      output_mode_label: 'Väljundi režiim'
+      sizing_options_heading: 'Suuruse valikud'
+  forum:
+    composer:
+      asciimath_only: 'Ainult AsciiMath'

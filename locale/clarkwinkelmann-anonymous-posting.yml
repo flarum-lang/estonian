@@ -6,5 +6,28 @@ clarkwinkelmann-anonymous-posting:
   admin:
     settings:
       alwaysAnonymiseEdits: 'Alati anonümiseeri muutmisi'
+      avatarAdd: 'Lisa avatari reegel'
+      avatarAvatarUrl: 'Avatari URL'
+      avatarFieldKey: 'Välja võti'
+      avatarFieldValue: 'Välja väärtus'
+      avatarFormId: 'Formi ID'
+      avatars: 'Anonüümsed avatarid'
       composerHelpTextPositionHidden: Peidetud
+      composerHelpTextPositionTooltip: 'Vihje (sildi järel)'
+      composerHelpTextPositionVisible: 'Nähtav (sildi all)'
       defaultAnonymity: 'Uus sisu on vaikimisi anonüümne'
+  forum:
+    composerControls:
+      anonymize: 'Postita anonüümselt'
+    discussionControls:
+      anonymize: Anonümiseeri
+    discussionList:
+      genericReplyText: 'Viimati vastatud {ago} tagasi'
+    postPrivacy:
+      mine: Mina
+      mineHelp: 'Seda infot näed ainult sina'
+      profile: 'Nähtav ainult sulle'
+  lib:
+    userMeta:
+      initials: '?'
+      username: Anonüümne

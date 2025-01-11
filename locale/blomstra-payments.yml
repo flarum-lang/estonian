@@ -8,6 +8,16 @@ blomstra-payments:
       accept_label: 'Olen lugenud ja nõustun makse <link>tingimustega</link>.'
       continue_button: 'Jätka makset'
       title: 'Aktsepteeri kasutajatingimused'
+    access-portal:
+      options: valikud
+      purchase: osta
+      subscribed: tellitud
+    backers-widget:
+      backers: Toetajad
+      none: 'Toetajaid pole veel.'
+    nav:
+      access_portal: 'Ligipääsu portaal'
+      user_subscriptions: Tellimused
     pay-to-post:
       purchase: 'Osta avaldamise õigus'
       purchase-control: 'Avaldamiseks maksa'

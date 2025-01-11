@@ -3,6 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 kyrne-websocket:
+  admin:
+    pusher_settings:
+      app_host_label: Host
+      app_id_label: 'Rakenduse ID'
+      app_key_label: 'Rakenduse võti'
+      app_port_label: Port
+      app_secret_label: 'Rakenduse salasõna'
+      stats_label: 'Statistika intervall'
   forum:
     discussion_page:
       viewing_title: 'Praegu siin:'
