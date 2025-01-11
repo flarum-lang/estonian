@@ -4,12 +4,71 @@
 
 the-turk-flamoji:
   admin:
+    custom_emojis_section:
+      edit_emoji:
+        delete_emoji_button: 'Kustuta emoji'
+        delete_emoji_confirmation: 'Oled sa kindel, et soovid selle emoji kustutada?'
+        emoji_title_label: 'Emoji pealkiri'
+        modal_title: 'Lisa emoji'
+        path_or_url_label: 'Kaust või URL'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Asendatav tekst'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'Ekspordi JSON'
+      heading_title: 'Kohandatud emoji'
+      import_json_button: 'Impordi JSON'
     settings:
       auto_hide_label: 'Automaatne peitmine'
       auto_hide_text: 'Peida valija kui emoji on valitud.'
       category_settings_heading: 'Kategooria seaded'
+      emoji_categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
       emoji_settings_heading: 'Emoji seaded'
+      emoji_style_label: 'Emoji stiil'
+      emoji_version_label: 'Emoji versioon'
       general_ui_settings_heading: 'Üldised kasutajaliidese seaded'
+      initial_category_label: 'Algne kategooria'
       show_category_buttons_label: 'Näita kkategooria nuppe'
       show_preview_label: 'Näita eelvaate sektsiooni'
       show_variants_label: 'Näita variante'
+      specify_categories_label: 'Määra kategooriad'
+  forum:
+    composer:
+      emoji_tooltip: 'Sisesta emoji'
+    emoji-button:
+      categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        custom: '=> the-turk-flamoji.ref.emoji_categories.custom'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        recents: '=> the-turk-flamoji.ref.emoji_categories.recents'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      no_emojis_found_message: 'Emojisid ei leitud'
+      search_placeholder: 'Otsi emojit'
+  ref:
+    emoji_categories:
+      activities: Tegevused
+      animals: 'Loomad ja loodus'
+      custom: Kohandatud
+      flags: Lipud
+      food: 'Toit ja jook'
+      objects: Objektid
+      people: Inimesed
+      smileys: Emotikonid
+      symbols: Sümbolid
+      travel: 'Reisimine ja kohad'

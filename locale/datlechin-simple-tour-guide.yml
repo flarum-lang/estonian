@@ -4,7 +4,25 @@
 
 datlechin-simple-tour-guide:
   admin:
+    add_step: 'Lisa uus samm'
+    description: Kirjeldus
+    description_placeholder: 'Sammu kirjeldus.'
     edit_modal:
+      delete_step: 'Kustuta samm'
+      delete_step_confirmation: 'Oled sa kindel, et soovid selle sammu kustutada?'
       edit_step: 'Muuda {title}'
+    'no': Ei
     settings:
+      allow_close_label: 'Luba sulgemine'
       show_progress_label: 'Näita edenemist'
+    target: Sihtkoht
+    title: Pealkiri
+    title_placeholder: 'Sammu pealkiri.'
+    'yes': Jah
+  forum:
+    done_btn_text: Valmis
+    next_btn_text: Järgmine
+    prev_btn_text: Eelmine
+    user_controls:
+      reset_tour_guide: 'Alusta uuesti tuuri'
+      reset_tour_guide_confirmation: 'Oled sa kindel, et soovid seda kasutajat sundida uuesti tuuri läbima?'
