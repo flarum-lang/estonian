@@ -10,6 +10,16 @@ the-turk-stickiest:
     badge:
       sticky_tooltip: '=> the-turk-stickiest.ref.sticky'
       super_sticky_tooltip: '=> the-turk-stickiest.ref.super_sticky'
+      super_tag_sticky_tooltip: '=> the-turk-stickiest.ref.super_tag_sticky'
       tag_sticky_tooltip: '=> the-turk-stickiest.ref.tag_sticky'
+    discussion_controls:
+      sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
+    post_stream:
+      discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
+      discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
     stickiest_modal:
       sticky_label: '=> flarum-sticky.ref.sticky'
+      submit_button: '=> core.ref.save_changes'
+      super_sticky_label: '=> the-turk-stickiest.ref.super_sticky'
+      tag_sticky_label: '=> the-turk-stickiest.ref.tag_sticky'
+      tags_label: '=> flarum-tags.ref.tags'

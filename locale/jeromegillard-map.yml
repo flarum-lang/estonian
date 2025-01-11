@@ -5,7 +5,32 @@
 jeromegillard-map:
   admin:
     settings:
+      mapbox:
+        help: 'Registreeru tasuta saidil <a>mapbox.com</a>, et saada ligipääsukood. Palun pea lugu nende <b>autoriõigustest</b>.'
+        label: 'Mapbox võti'
+      maptiler:
+        help: 'Registreeru tasuta saidil <a>maptiler.com</a>, et saada ligipääsukood. Palun pea lugu nende <b>autoriõigustest</b>.'
+        label: 'MapTiler kontrollkood'
+      osm:
+        help: 'OpenStreetMap on OK kaardi seadistamiseks, aga kui hakkad kasutama seda reaalsel saidil, siis loe esmalt OpenStreetMap <a>Kasutamise poliitikat</a>.'
+      style:
+        help: 'Vali kaardi stiil <a>Heida pilk nende stiilidele</a>.'
+        label: 'Vaikimisi stiil teenusele {provider}'
+      thunderforest:
+        help: 'Registreeru tasuta saidil <a>thunderforest.com</a>, et saada API võti. Palun pea lugu nende <b>kasutustingimustest</b>.'
+        label: 'Thunderforest API võti'
+      tiles_provider:
+        help: 'Vali teenusepakkuja, kelle kaarti kasutatakse'
+        label: 'Vaikimisi kaarditeenuse pakkuja'
       zoom:
         help: 'Ükskõik, mis täisarv vahemikus 0 kuni 18.'
+        label: 'Vaikimisi suurenduse tase'
     templates:
+      file_description: 'Näita foorumis kaarti. Algset faili saab alla laadida. Kaarditeenuse pakkuja ja stiili saab määrata lisaprogrammi seadetest. <b>Selle töötamiseks peab sul olema paigaldatud lisaprogramm flarum/bbcode</b>.'
       map: Kaart
+  forum:
+    text_editor:
+      bbcode_tooltip: 'sisesta kaart'
+      location_placeholder: KUHU
+      marker_description_placeholder: 'Markeri hüpiku sisu. Markeri peitmiseks jäta pealkiri ja kirjeldus tühjaks.'
+      marker_title_placeholder: 'Markeri pealkiri'

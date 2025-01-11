@@ -6,6 +6,16 @@ clarkwinkelmann-jwt-cookie-login:
   admin:
     settings:
       actorId: 'Flarum kasutaja ID adminiülesanneteks'
+      authorizationHeader: 'Kohandatud autoriseerimise päise väärtus'
       cookieName: 'Küpsise nimi'
+      emailTemplate: 'E-kirja mall'
+      hiddenIframe: 'Peidetud Iframe URL'
+      logoutRedirect: 'Väljalogimise ümbersuunamise URL'
       publicKey: 'Avalik võti'
       publicKeyAlgorithm: 'Avaliku võtme algoritm'
+      usernameTemplate: 'Kasutajanime mall'
+  forum:
+    alert:
+      login: 'Oled automaatselt ühendatud.'
+      logout: 'Sinu sessioon on aegunud.'
+      refresh: 'Värskenda lehekülge'

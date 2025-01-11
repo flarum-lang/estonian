@@ -11,4 +11,9 @@ nearata-cloudflare:
       refresh_zone_button_label: 'Värskenda tsooni iD-d'
       security_level_label: 'Turvalisuse tase'
       security_level_options:
+        essentially_off: 'Põhimõtteliselt väljas'
+        high: Kõrge
         low: Madal
+        medium: Keskmine
+        'off': Väljas
+        under_attack: 'Rünnaku all'

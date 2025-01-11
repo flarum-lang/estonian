@@ -8,4 +8,16 @@ datitisev-maintenance:
       disable_maintenance_mode_button: 'Lülita hooldusrežiim välja'
       enable_maintenance_mode_button: 'Lülita hooldusrežiim sisse'
     settings:
+      active_label: 'Hooldusrežiimi staatus'
+      disable_admin_label: 'Keela admini ligipääs'
+      disable_api_label: 'Keela kogu API ligipääs'
+      message_label: 'Vealehe sõnum'
       title: Hooldusrežiim
+      title_label: 'Vealehe pealkiri'
+  lib:
+    maintenance_active_disabled_api_message: 'API on praegu kõigi jaoks välja lülitatud.'
+    maintenance_active_message: 'See foorum on hetkel hooldamisel.'
+  views:
+    error:
+      message: 'Teeme praegu veidi hooldustöid. Oleme varsti tagasi!'
+      title: Hooldus

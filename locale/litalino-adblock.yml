@@ -4,7 +4,20 @@
 
 adblock:
   admin:
+    adblock-action-backup: varunda
+    adblock-action-message: sõnum
+    adblock-alt: Alt
+    adblock-div: 'Vali bänneri silt, kus HTML-koodi näidatakse'
+    adblock-div-placeholder: 'Nt. ''#content, .App-content, .IndexPage, container'''
     adblock-img: Img
     adblock-img-placeholder: 'https://domeen/pilt.png'
+    adblock-notice-content: 'Sõnumi sisu'
+    adblock-notice-element-placeholder: 'Nt. ''#content, .App-content, .IndexPage, container'''
+    adblock-supportRedirectUrl: 'Toeta meid link'
+    adblock-supportRedirectUrl-placeholder: 'Palun sisesta korrektne URL või jäta see tühjaks'
+    adblock-supportUsMessage: 'Toeta meid sõnumeid'
+    adblock-supportUsMessage-placeholder: 'Palun toeta meid lülitades AdBlockeri meie saidil välja.'
+    adblock-supportUsTitle: 'Toeta meid'
+    adblock-supportUsTitle-placeholder: 'Palun toeta meid'
     adblock-url: URL
     adblock-url-placeholder: 'https://domeen'

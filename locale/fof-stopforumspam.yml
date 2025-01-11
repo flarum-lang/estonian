@@ -6,4 +6,18 @@ fof-stopforumspam:
   admin:
     settings:
       api_key_label: 'API võti'
+      confidence_label: Kindlus
+      email_label: 'E-kirja spämmikontroll'
+      frequency_label: Lävi
+      ip_label: 'IP-aadressi spämmikontroll'
+      region_closest_label: Lähim
+      region_europe_label: Euroopa
+      region_us_label: USA
+      regional_endpoint_label: 'Geograafiline ligipääs'
       username_label: 'Kasutajanime rämpspostikontroll'
+  api:
+    error:
+      unknown: 'Kasutajast teavitamine saidil StopForumSpam ebaõnnestus.'
+  forum:
+    message:
+      spam: 'Sinu info märgiti spämmiks.'

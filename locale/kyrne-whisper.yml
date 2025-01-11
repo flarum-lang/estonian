@@ -10,7 +10,26 @@ kyrne-whisper:
       return_key: 'Võtme tagastamine saadab sõnumi'
       title: 'Sosistaja seaded'
   forum:
+    chat:
+      cant_send_toomany: 'Palun oota enne uute sõnumite saatmist kasutaja {username} vastust'
+      failed_to_decrypt: '[Dekrüpteerimine ebaõnnestus]'
+      start_of_conversation: 'Alusta vestlust'
     dropdown:
       tooltip: Vestlused
+    modal:
+      already: 'Sul on juba vestlus kasutajaga {username}.'
+      copied: 'Sinu sõnum on lõikelauale kopeeritud.'
+      help: 'Vestluse alustamiseks hakka kirjutama kasutajanime.'
+      more_users: 'Kui sa ei näe kasutajat, keda sa otsid, siis pole nad privaatsõnumite saatmist veel seadistanud.'
+      search_recipients: 'Sisesta kasutajanimi...'
+      submit: 'Saada ja alusta vestlusi'
+      title: 'Alusta vestlust'
     setup:
+      button_import: Impordi
+      button_setup: Seadista
+      confirm_password: 'Kinnita parool'
       header_set_own: 'Privaatsõnumite seadistamiseks sisesta parool.'
+      invalid_password: 'Sinu parool polnud korrektne.'
+      passwords_mismatch: 'Paroolid ei kattunud'
+      success: 'Privaatsõnumid on nüüd valmis, sinu lehekülg laaditakse nüüd uuesti...'
+      title: 'Seadista privaatsõnumid'
