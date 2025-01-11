@@ -5,8 +5,15 @@
 clarkwinkelmann-formatted-banner:
   admin:
     settings:
+      dismissible: 'Luba bännerit eirata'
       guestContent: 'Külalise vormistatud sisu'
       guestHtml: 'Külaliste HTML sisu'
+      hideWelcomeHero: 'Peida teretulemast suur pilt'
+      memberContent: 'Liikme vormindatud sisu'
+      memberHtml: 'Liikme HTML sisu'
+      replaceWelcomeHero: 'Asenda teretulemast suur pilt bänneriga'
   forum:
     alert:
+      login: 'Oled automaatselt ühendatud.'
+      logout: 'Sinu sessioon on aegunud.'
       refresh: 'Värskenda lehekülge'

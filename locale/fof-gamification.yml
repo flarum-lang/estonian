@@ -12,6 +12,8 @@ fof-gamification:
     page:
       alt_votes:
         icon_name: 'Alternatiivse paigutuse ikooni nimi'
+      convert:
+        button: 'Konverdi meeldimised poolt hääletusteks'
       groups:
         add: 'Lisa uus reegel'
         column:
@@ -34,25 +36,50 @@ fof-gamification:
           color: '#ffffff'
           name: Nimi
           points: Punkte
+        ranks: 'Kohandatud tasemed'
+        title: Tasemed
       save_settings: 'Salvesta seaded'
       votes:
+        allow_self_votes: 'Kasutajad võivad omaenda postitusele hääle anda'
         color_holder: '#ffffff'
         points_placeholder: 'Punkte: '
+        points_title: 'Punktide kohahoidja'
         title: Hääli
+        upvotes_only: 'Luba ainult poolt hääletamine'
+        vote_color: 'Hindamise värv'
     permissions:
+      downvote_notifications: 'Saa teavitus vastu hääletamise kohta'
       see_ranking_page: 'Vaata hinnangute lehte'
       see_voters_label: 'Vaata, kes hääletas'
+      see_votes_label: 'Poolt/vastu hääletuste arvu nägemine'
+      upvote_notifications: 'Saa teavitus poolt hääletamise kohta'
+      vote_label: 'Postituste poolt/vastu hääletamine'
+  email:
+    subject:
+      postVoted: '{display_name} hindas sinu postitust'
   forum:
     mod_item: 'Vaata hääletajaid'
     modal:
+      downvotes_label: 'Vastu hääletajad:'
       title: Hääletajad
+      upvotes_label: 'Poolt hääletajad:'
     nav:
       name: Hinnang
+    notification:
+      downvote: '{username} hääletas sinu postituse vastu'
+      prefrences:
+        vote: 'Kui minu postituse poolt/vastu hääletatakse'
+      upvote: '{username} hääletas sinu postituse poolt'
+    post:
+      downvote_button: 'Hääleta posti vastu'
+      upvote_button: 'Hääleta posti pool'
     ranking:
       amount: Punkte
       name: Kasutaja
       rank: Koht
     user:
+      card:
+        points: '{count, plural, one { {count} punkt} other {{count} punkti}}'
       rank: '{rank}'
       votes_link: Hääli
     vote_title: 'Näita, kes jääletas'

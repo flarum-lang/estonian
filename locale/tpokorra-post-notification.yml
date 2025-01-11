@@ -8,5 +8,17 @@ tpokorra-post-notification:
       new_discussion: 'Uut vestlust kirjeldav silt'
       new_post: 'Uut postitust kirjeldav silt'
       post_approval: 'Silt, mis kirjeldab uut postitust, mis vajab heakskiitmist'
+      recipients:
+        new_discussion:
+          bcc: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse pimekoopia uute postituste kohta'
+          to: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse kiri uute vestluste kohta'
+        new_post:
+          bcc: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse pimekoopia uute postituste kohta'
+          to: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse kiri uute postituste kohta'
+        post_approval:
+          to: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse kiri uute postituste kohta'
+        revised_post:
+          bcc: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse pimekoopia muudetud postituste kohta'
+          to: 'Komadega eraldatud nimekiri e-posti aadressidest, kuhu saadetakse kiri muudetud postituste kohta'
       revised_post: 'Üle vaadatud postitust kirjeldav silt'
       title: 'Postituse teavituste seaded'

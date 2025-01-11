@@ -5,6 +5,15 @@
 clarkwinkelmann-readonly-profile:
   admin:
     settings:
+      disableAccessTokens: 'Lülita ligipääsu koodi loomine välja'
       disableAvatarEdit: 'Keela avatari muutmine'
       disableEmailChange: 'Keela e-posti aadressi muutmine'
       disableLogin: 'Keela sisse logimine'
+      disablePasswordChange: 'Lülita parooli vahetamine ja nullimine välja'
+  api:
+    blocked_actions:
+      accessToken: 'Ligipääsukoodi loomine on välja lülitatud'
+      avatar: 'Avatari muutmine on välja lülitatud'
+      email: 'Sellelt leheküljelt ei saa e-posti aadressi muuta'
+      login: 'Sisselogimise lõpp-punkt on välja lülitatud'
+      password: 'Sellelt lehelt ei saa parooli muuta'
