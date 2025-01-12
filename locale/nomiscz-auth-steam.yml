@@ -3,11 +3,30 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nomiscz-auth-steam:
+  admin:
+    settings:
+      api_key_label: 'API võti'
+      title: 'Steamiga autentimise seaded'
+      use_steam_powered_domain: 'Kasuta domeeni steamcommunity.com (Hiinas blokeeritud) asemel domeeni steampowered.com'
   forum:
     alerts:
       already_linked: 'Su konto on Steami kontoga juba seostatud!'
+      already_used: 'See Steami konto on juba mõne teise kasutajaga seotud!'
       error: 'Midagi läks valesti, palun proovi hiljem uuesti!'
+      link_success: 'Seos Steami kontoga on loodud.'
+      unlink_success: 'Seos Steami kontoga on tühistatud.'
     buttons:
       link: 'Seosta Steami konto'
       login: 'Logi sisse Steamiga'
       unlink: 'Eemalda Steami konto seos'
+    modals:
+      link:
+        title: 'Seosta Steami kontoga'
+      unlink:
+        buttons:
+          cancel: Ei!
+          confirm: 'Jah, eemalda seos'
+        info:
+          confirm: 'Oled sa kindel, et soovid seose Steami kontoga eemaldada?'
+          no_providers: 'Sul pole muid teenusepakkujaid! Sa pead ilmselt oma parooli nullima.'
+        title: 'Eemalda seos Steami kontoga'

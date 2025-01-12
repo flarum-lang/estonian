@@ -9,13 +9,17 @@ davwheat-virtual-authors:
       view_virtual_authors_page: 'Vaata kõigi virtuaalsete autorite üksikasju'
     settings:
       authors_in_sidebar: 'Näitab autoreid külgribal, mitte esimese postituse kohal'
+      authors_in_sidebar_help: 'Sellel pole mingit mõju blogi lisaprogrammidele.'
       auto_save_message: 'Uute ja olemasolevate virtuaalsete autorite juures salvestatakse automaatselt.'
       create_new: 'Loo uus virtuaalne autor'
+      discussion_badge: 'Näita virtuaalsete autorite vestluste juures aumärki'
       errored: 'Virtuaalsete autorite laadimine serverist ebaõnnestus.'
       link_to_va_from_discussion: 'Näitab linki kastis ''Autorid'' linki kõigile selle virtuaalse autori vestlustele'
       next: 'Järgmine lehekülg'
       prev: 'Eelmine lehekülg'
       search_placeholder: 'Otsi nime järgi'
+      virtual_authors_page_disabled: 'Lülita virtuaalsete autorite nimekiri kõigi kasutajate jaoks.'
+      virtual_authors_page_disabled_help: 'See kirjutab üle õigused selle funktsiooni jaoks.'
     virtual_author_item:
       delete_a11y_tooltip: Kustuta
       delete_confirmation: 'Kas kustutada virtuaalne autor?'
@@ -31,6 +35,7 @@ davwheat-virtual-authors:
       add_button: Lisa
       add_new: 'Vali uued virtuaalsed autorid'
       added_button: Lisatud
+      credit_placeholder: 'Autori andmed (valikuline)'
       delete_button: Eemalda
       delete_confirmation: 'Kas eemaldada virtuaalne autor vestlusest?'
       existing: 'Praegused virtuaalsed autorid'
@@ -41,6 +46,7 @@ davwheat-virtual-authors:
       title: 'Määra virtuaalsed autorid'
       virtual_author_exists: 'Juba valitud!'
     virtual_author_page:
+      credited_discussions: '{displayName} vestlused'
       discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
       meta_title: '{displayName} - Autorid'
     virtual_authors_list:
@@ -56,6 +62,7 @@ davwheat-virtual-authors:
       heading: Autorid
       item_link_tooltip: 'Vaata kõiki vestlus kasutajalt {displayName}'
   lib:
+    discussion-badge: '{count, plural, one {On virtuaalne autor}, other {On virtuaalsed autorid}}'
     edit_modal:
       fields:
         description: 'Kirjeldus (autori kohta)'

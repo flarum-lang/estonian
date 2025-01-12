@@ -8,5 +8,11 @@ sycho-private-facade:
       header_layout:
         options:
           show_header: 'Näita päist'
+          show_only_logo: 'Näita ainult logo'
         title: 'Päise paigutus'
+      illustration_path: 'Illustratsiooni pilt'
       primary_color_bg: 'Kasuta peamise värvi tausta'
+  forum:
+    log_in_label: '=> core.ref.log_in'
+    or_label: või
+    sign_up_label: '=> core.ref.sign_up'

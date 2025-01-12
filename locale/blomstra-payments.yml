@@ -3,6 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 blomstra-payments:
+  admin:
+    edit-group:
+      select-pta-product: '(PTA) Nõutud toode'
+    edit-tag:
+      select-bounty-product: '(Annetus) Nõutud toode'
+      select-ptv-product: '(PTV) Nõutud toode'
+    permission:
+      enable-bounties: 'Luba annetused'
+    settings:
+      pk: 'Avaldatav (API) võti'
+      sk: 'Salajane (API) võti'
   forum:
     accept-terms-modal:
       accept_label: 'Olen lugenud ja nõustun makse <link>tingimustega</link>.'
@@ -15,6 +26,12 @@ blomstra-payments:
     backers-widget:
       backers: Toetajad
       none: 'Toetajaid pole veel.'
+    bounties:
+      enable-control: 'Luba annetused'
+      purchase-control: 'Lisa annetus'
+    choose-bounty-amount-modal:
+      checkout-control: Kassa
+      title: 'Vali annetuse summa'
     nav:
       access_portal: 'Ligipääsu portaal'
       user_subscriptions: Tellimused
@@ -24,8 +41,14 @@ blomstra-payments:
     pay-to-view:
       purchase-completed: Avatud
       purchase-control: 'Maksmiseks vaata'
+      purchase-log-in: 'Vaatamiseks logi sisse ja maksa'
+    post_stream:
+      bounty_added_text: '{username} lisas annetuse summas {amount}.'
     stripe:
       interval_once: '1 kord'
     subscription-card:
+      bounty: Annetus
       cancel-control: Loobu
+      pta: 'Makstud ligipääs'
+      ptp: 'Makstud avaldamiseks'
       ptv: 'Vaatamiseks maksa'

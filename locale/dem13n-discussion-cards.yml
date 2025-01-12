@@ -6,8 +6,16 @@ dem13n:
   admin:
     settings:
       actor_info: 'Näita autorit'
+      badges: 'Näita aumärke'
       choose_tags: 'Vali sildid'
+      default_img: 'Vaikimisi pilt'
+      desktop_card_width: 'Peamiste kaartide laius lauaarvuti ekraanil: {percent}%'
+      mark_cards: 'Märgi lugemata vestlustega kaardid'
+      output_on_index_page: 'Väljund avalehel'
+      preview_text: 'Näita lühiteksti'
       show_replies: 'Näita vastuseid'
+      show_views: 'Näita vaatamisi (kui sul on paigaldatud lisaprogramm "Flarumite Simple Discussion Views")'
       small_cards: 'Peamiste kaartide arv'
+      tablet_card_width: 'Peamiste kaartide laius tahvelarvutil: {percent}%'
   forum:
     replies: 'Vastuseid: {count}'

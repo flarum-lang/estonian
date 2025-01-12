@@ -4,9 +4,22 @@
 
 muhammedsaidckr-gemini:
   admin:
+    permissions:
+      use_gemini_assistant_label: 'Kasuta Gemini assistenti'
     settings:
       api_key_help: 'Hangi Gemini API võti saidilt <a>google.gemini.com</a>.'
       api_key_label: 'API võti'
+      enable_on_discussion_started_help: 'Vestlus saab vastuse vastavalt esimese postituse sisule, kui vestlus on juba alustatud.'
+      enable_on_discussion_started_label: 'Lülita sisse alustatud vestlustes'
+      enabled_tags_help: 'Vali, mis silte kasutatakse vastuse loomiseks.'
+      enabled_tags_label: 'Lubatud sildid'
       model_help: 'Vali mudel, mida kasutada.'
       model_label: Mudel
+      prompt_help: 'Sisesta käsk, mida kasutatakse vastuse loomiseks. Muutujat [pealkiri] ei tohiks muuta.'
+      prompt_label: Käsurida
+      role_help: 'Vali rollid, kellel on lubatud vastuseid genereerida.'
       role_label: Roll
+      user_prompt_badge_help: 'Tekst, mida näidatakse kasutaja käsurea kõrval.'
+      user_prompt_badge_label: 'Kasutaja käsurea märk'
+      user_prompt_help: 'Sisesta kasutaja ID, mida kasutatakse vastuse genereerimisel. Vaikeväärtus on vestluse alustaja.'
+      user_prompt_label: 'Kasutaja käsurida'

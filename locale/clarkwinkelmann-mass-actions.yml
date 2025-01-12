@@ -3,11 +3,24 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-mass-actions:
+  admin:
+    permissions:
+      controls: 'Vaata masstoimingute valiku juhtelemente'
   forum:
     actions:
+      delete: 'Valitud on igaveseks kustutamine'
+      deleteConfirmation: '{count, plural, one {Oled sa kindel, et soovid valitud vestluse püsivalt kustutada?} other {Oled sa kindel, et soovid valitud vestlused püsivalt kustutada?}}'
+      hide: 'Kustuta valitud'
+      lock: 'Lukusta valitud'
       markAsRead: 'Märgi valitud loetuks'
+      restore: 'Taasta valitud'
+      tags: Sildid
+      tags-add: 'Lisa <em>{tag}</em>'
+      tags-edit: 'Muuda silte'
+      unlock: 'Eemalda valitute lukustatud'
     select:
       all: Kõik
+      hidden: Prügikastis
       locked: Lukustatud
       none: Pole
       read: Loe

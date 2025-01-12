@@ -19,6 +19,7 @@ nodeloc-lottery:
       no_post_in_discussion_alert: 'Sa pole vastanud vestlusele.'
     days: päeva
     days_remaining: 'loterii lõpeb {time}.'
+    endDateText: 'Loterii on lõppenud!'
     hours: tundi
     lottery_ended: 'See loterii on lõppenud.'
     minutes: minutit
@@ -70,6 +71,7 @@ nodeloc-lottery:
       title: Osalejad
       title_winners: Võitjad
     public_lottery: 'Vaata osalejaid'
+    seconds: sekundit
     tooltip:
       badge: loterii
     widget-title: 'Sündmuse alguseni on aega...'

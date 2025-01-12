@@ -4,9 +4,22 @@
 
 justoverclock-igdb-api:
   admin:
+    composerAlert: 'Näita koostaja hoiatust uute vestluste juures'
     rawgApi: 'RawG API võti'
+    rawgApi-help: 'Sisesta siia oma tasuta API võti, mille said aadressilt https://rawg.io/signup'
   forum:
+    availableOn: Saadaval
+    game-title-alert-box: 'Kas see on vestlus mängu kohta?'
+    game-title-alert-box-description: 'Kui alustad vestlust mängu kohta, siis info automaatseks tõmbamiseks sisesta pealkirjana AINULT mängu pealkiri (nt. Call of Duty modern warfare) ilma muude sõnadeta.'
+    gamesPage: 'Uued ja tulevased mängud'
     genres: Žanrid
+    genresPage: Žanrid
+    metacriticScore: 'MetaCriticu skoor'
+    noConnection: 'Oih! Videomängude andmebaas ei vasta hetkel. Palun proovi hiljem uuesti.'
     offwebsite: 'Ametlik veebisait'
+    pageTitle: 'Uued ja tulevased mängud'
+    pagetitle: 'Uued ja tulevased mängud'
     publisher: Avaldaja
     relDate: 'Väljalaske kuupäev'
+    relDatePage: 'Väljaandmise kuupäev'
+    seeOnMetaCritic: 'Vaata saidil Metacritic'
