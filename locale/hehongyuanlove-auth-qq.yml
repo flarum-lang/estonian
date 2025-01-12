@@ -15,3 +15,14 @@ hehongyuanlove-auth-qq:
       unlink: 'Eemalda seos QQ-ga'
     log_in:
       with_qq_button: QQ
+    modals:
+      link:
+        title: 'Seosta QQ-ga'
+      unlink:
+        buttons:
+          cancel: Loobu
+          confirm: 'Eemalda seos'
+        info:
+          confirm: 'Oled sa kindel, et soovid eemaldada seose oma QQ-kontoga?'
+          no_providers: 'Sul pole ühtegi muud sisselogimise meetodit. Palun nulli eelnevalt oma parool.'
+        title: 'Eemalda seos QQ-ga'

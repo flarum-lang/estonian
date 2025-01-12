@@ -10,6 +10,7 @@ v17development-flarum-blog:
       auto_approve_posts: 'Postita artikleid ilma heakskiiduta'
       write_articles: 'Blogi artiklite kirjutamine ja muutmine'
     settings:
+      add_hero_label: 'Näita teretulemast bännerit'
       add_sidebar_nav_label: 'Lisa külgriba menüüsse'
       allow_comments_label: 'Luba kommentaarid'
       blog_heading: Blogi
@@ -19,6 +20,8 @@ v17development-flarum-blog:
       hide_on_discussion_list_label: 'Ära näita vestluste nimekirjas'
       hide_tags_in_taglist_label: 'Peida sildid siltide nimekirja'
       no_categories_selected: 'Kategooriaid pole valitud'
+      redirect_articles_label: 'Suuna blogiartiklid ümber'
+      redirect_tags_label: 'Suuna blogi sildid ümber'
       redirects_heading: Ümbersuunamised
       require_review_label: 'Blogi postitused nõuavad ülevaatamist'
       select_categories_button: 'Vali blogi kategooriad'
@@ -30,6 +33,7 @@ v17development-flarum-blog:
     article_settings:
       fields:
         highlight:
+          helper_text: 'Anna sellele postitusele suur pilt blogi ülevaate lehel.'
           title: 'Esiletõstetud postitus'
         image:
           helper_text: 'Parim pildi resolutsioon sotsiaalmeedia jaoks: 1200x630'
@@ -47,8 +51,10 @@ v17development-flarum-blog:
     compose:
       write_article: 'Kirjuta artikkel'
     composer:
+      comment_section: 'Kommentaaride sektsioon pole artikli kirjutamise ajal saadaval.'
       edit_categories: 'Muuda kategooriat'
       enter_message_here: 'Sisesta oma sõnum siia'
+      no_blog_tags_selected: 'Ükski valitud siltidest pole blogi silt. Palun vali vähemalt üks.'
       no_title: 'Pealkirja pole'
       nothing_to_preview: 'Pole midagi näidata'
       post_article: 'Postita artikkel'
@@ -65,6 +71,8 @@ v17development-flarum-blog:
     return_to_overview: 'Tagasi blogi ülevaatesse '
     review_article:
       approve_article: 'Kiida artikkel heaks'
+      approve_article_approved: 'Artikkel on heaks kiidetud ja avaldatud'
+      pending_review: 'See artikkel ootab ülevaatamist ja seda pole veel avaldatud'
       pending_review_title: 'Ootab ülevaatamist'
     tools:
       approve_article: 'Kiida artikkel heaks'
@@ -77,5 +85,9 @@ v17development-flarum-blog:
       recover_article: 'Taasta artikkel'
       rename_article: 'Nimeta artikkel ümber'
       update_category: 'Uuenda kategooriaid'
+    utils:
+      redirect:
+        link: 'Kui lehekülg ei suuna sind ümber, siis <a>kliki siia</a>'
+        title: 'Ümbersuunamine sinu blogi artiklile...'
     validation:
       missing_id: 'Puuduv ID'

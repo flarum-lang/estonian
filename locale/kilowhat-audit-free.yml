@@ -21,6 +21,7 @@ kilowhat-audit:
         unknown: 'Tundmatu klient'
       controls:
         hideRaw: 'Peida logi toorandmed'
+        showRaw: 'Näita toorlogi'
       deletedResource:
         discussion: 'Vestlus #{id}'
         group: 'Grupp #{id}'
@@ -28,11 +29,13 @@ kilowhat-audit:
         tag: 'Silt #{id}'
         user: 'Kasutaja #{id}'
       discussion:
+        created: 'Alistas vestlust {discussion}'
         deleted: 'Kustutas vestluse {discussion}'
         hidden: 'Peitis vestluse {discussion}'
         locked: 'Lukustas vestluse {discussion}'
         merged_away: 'Liitis vestluse {discussion} vestlusega {new_discussion}'
         restored: 'Taastas vestluse {discussion}'
+        unlocked: 'Eemaldas vestluse {discussion} lukustuse'
       empty: 'Tulemusi pole'
       filterApply: Rakenda
       filterPlaceholder: 'Filtreeri logid'
@@ -48,11 +51,20 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      post:
+        created: 'Lõi postituse {post} vestluses {discussion}'
+      setting_changed: 'Muuda seadet {key}'
       tag:
         deleted: 'Kustutas sildi {tag}'
         updated: 'Uuendas silti {tag}'
       user:
+        avatar_changed: 'Muutis kasutaja {username} avatari'
+        avatar_removed: 'Eemaldas kasutaja {username} avatari'
+        bio_changed: 'Muutis kasutaja {username} lühikirjeldust'
+        created: 'Lõi kasutaja {username} konto'
         deleted: 'Kustutas kasutaja {username}'
+        logged_in: 'Logis sisse kasutaja {username} kontoga'
+        logged_out: 'Logis välja kasutaja {username} kontolt'
         password_changed: 'Muutis kasutaja {username} parooli'
         username_request_approved: 'Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}'
         username_request_rejected: 'Lükkas tagasi kasutaja {username} kasutajanime muutmise'

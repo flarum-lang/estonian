@@ -9,3 +9,8 @@ ianm-gravatar:
         title: Vaikeväärtused
       proxy:
         title: 'Proksi gravatarid'
+      rating:
+        title: Hinnang
+  forum:
+    settings:
+      edit-gravatar: 'Halda avatari saidil gravatar.com'

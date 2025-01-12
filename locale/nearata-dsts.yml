@@ -5,11 +5,33 @@
 nearata-dsts:
   admin:
     permissions:
+      can_bypass_like: 'Võib meeldimisest mööda minna'
+      can_bypass_login: 'Võib sisselogimisest mööda minna'
+      can_bypass_reply: 'Võib vastamisest mööda minna'
       can_use_bbcode: 'Võib kasutada BB-koodi'
     settings:
       enabled: 'Sisse lülitatud'
       fof_upload:
         enabled: 'Sisse lülitatud'
+        require_like: 'Meeldimine on nõutud'
+        require_reply: 'Nõua vastust'
+        section_title: Üleslaadimised
       hide_only_first_post: 'Peida ainult esimene postitus'
       require_like: 'Nõua meeldimisi'
       require_reply: 'Nõua vastust'
+  forum:
+    composer:
+      dsts_tooltip: DSTS
+    post:
+      bbcode:
+        hidden_content: 'Peidetud sisu'
+        like_text: 'Selle sisu nägemiseks pead selle postituse meeldivaks märkima'
+        login_text: 'Selle sisu nägemiseks pead sisse logima'
+        reply_text: 'Selle sisu nägemiseks pead vestlusele vastama'
+      fof_upload:
+        like_text: 'Faili nägemiseks pead märkima postituse meeldivaks'
+        login_text: 'Faili nägemiseks pead sisse logima'
+        reply_text: 'Faili nägemiseks pead vestlusele vastama'
+      like_tooltip: 'Sisu nägemiseks pead sa märkima postituse meeldivaks'
+      login_tooltip: 'Sisu vaatamiseks pead sisse logima'
+      reply_tooltip: 'Sisu nägemiseks pead vestlusele vastama'

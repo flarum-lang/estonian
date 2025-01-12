@@ -11,16 +11,24 @@ nodeloc-lottery:
       seeParticipants: 'Vaata osalejaid'
       self_edit: 'Loteriide muutmine (nõuab postituse muutmise õigust)'
       start: 'Käivita loterii'
+    settings:
+      max_options: 'Maksimaalne valikute arv loterii kohta'
   forum:
     composer_discussion:
       add_lottery: '=> nodeloc-lottery.forum.moderation.add'
       edit_lottery: '=> nodeloc-lottery.forum.moderation.edit'
       in_queue_alert: 'Osalesid loetriis.'
+      no_permission_alert: 'Sul pole õiguseid loterii alustamiseks.'
       no_post_in_discussion_alert: 'Sa pole vastanud vestlusele.'
     days: päeva
     days_remaining: 'loterii lõpeb {time}.'
     endDateText: 'Loterii on lõppenud!'
+    had_enter: 'Oled osalemas loteriis.'
     hours: tundi
+    hurry_up: 'Uus "sündmus" on lähedal! Alustame...'
+    lottery:
+      cannot_cancel_lottery: 'Osalejad ei saa oma osalemist tühistada'
+      submit_button: 'Kliki osalemiseks'
     lottery_ended: 'See loterii on lõppenud.'
     minutes: minutit
     modal:
@@ -30,6 +38,7 @@ nodeloc-lottery:
       allow_multiple_votes_label: 'Luba inimestel sisestada mitu valikut'
       amount: Kogus
       best_answers: 'Parim vastus'
+      date_placeholder: 'Loosi tõmbamise aeg'
       discussions_started: 'Vestlust on alustatud'
       edit_title: 'Muuda loetriid'
       hide_votes_label: 'Peida, kuni loterii lõpeb'
@@ -42,6 +51,7 @@ nodeloc-lottery:
       likes_received: 'Meeldimisi saadud'
       lotteries_made: 'Loterii on alustatud'
       lottery_placeholder: Auhinnad
+      max: 'Sul on maksimaalselt {max} vastust'
       max_participants: 'Maks. osalejaid'
       min: 'Pead sisestama vähemalt 2 vastust'
       min_participants: 'Min. osalejaid'
@@ -51,6 +61,7 @@ nodeloc-lottery:
       not_enough: 'Pole piisavalt'
       option_placeholder: Lävi
       options_label: 'Piiravad tingimused'
+      participants_help: 'Tühista, kui osalejaid on liiga vähe ja keela osalemine, kui maksimaalne osalejate arv on ületatud..'
       participants_label: Osalejad
       posts_made: 'Tehtud postitusi'
       price: Hind
@@ -66,12 +77,14 @@ nodeloc-lottery:
     notification:
       drawLottery: 'Õnnitlused, võitsid loterii.'
       fail: 'Loterii ebaõnnestus, kuna osalejaid polnud piisavalt.'
+      finish: 'Loterii oli edukas. Palun saada võitjatele teade.'
     participants_modal:
       lottery_canceled: 'Tühistatud, kuna osalejaid polnud piisavalt.'
       title: Osalejad
       title_winners: Võitjad
     public_lottery: 'Vaata osalejaid'
     seconds: sekundit
+    too_many_participants: 'Liiga palju osalejaid'
     tooltip:
       badge: loterii
     widget-title: 'Sündmuse alguseni on aega...'

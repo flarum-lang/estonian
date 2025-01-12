@@ -6,10 +6,13 @@ nodeloc-telegram:
   admin:
     settings:
       field:
+        botToken: 'Boti kood'
         botUsername: 'Roboti kasutajanimi'
         enableNotifications: 'Luba teavitused'
       title: 'TelegramProvide seaded'
   forum:
+    link_telegram_button: 'Telegrami link'
     log_in_with_telegram_button: 'Logi sisse Telegramiga'
     settings:
       notify_by_telegram_heading: Telegram
+      unblock_telegram_bot: 'Näib, et sa pole TelegramProvide robotit autoriseerinud või blokeerinud. Saada sõnum kasutajale <a>{username}</a> TelegramProvide et teavitused sisse lülitada'

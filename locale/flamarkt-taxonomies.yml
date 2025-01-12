@@ -15,18 +15,24 @@ flamarkt-taxonomies:
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
         name: '=> flamarkt-taxonomies.ref.field.name'
         rangeSeparatorText: kuni
+        showLabel: 'Näita liigitamise silti koos terminiga'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
         tagScope: 'Ainult määratud sildid'
         tagScopePlaceholder: 'Kirjuta, et otsi silte...'
         type: Liik
       section:
         browsing: Sirvimine
+        filling: Täitmine
+        info: Info
         scope: Ulatus
       slugger-options:
         random: 'Juhuslik identifikaator'
       submit:
         edit: '=> flamarkt-taxonomies.ref.submit.edit'
         new: '=> flamarkt-taxonomies.ref.submit.new'
+      title:
+        edit: 'Muuda liigitamist'
+        new: 'Loo liigitamine'
       type-options:
         discussions: Vestlused
         products: Tooted
@@ -49,15 +55,34 @@ flamarkt-taxonomies:
       title:
         edit: 'Muuda terminit'
         new: 'Loo termin'
+    menu:
+      discussions: 'Vestluste liigitamised'
+      products: 'Toote liigitamised'
+      title: Liigitamised
+      users: 'Kasutaja liigitamised'
+    page:
+      create:
+        taxonomy: 'Loo liigitamine'
+        term: 'Loo termin'
+      title: Ligiitamised
     permissions:
+      editOwnDiscussion: 'Muuda oma vestluste liigitamisi'
       ownDisabledMembers: 'Aktiveeritud liikmed'
+      seeAnyDiscussion: 'Vaata liigitamisi kõigil vestlustel'
+      seeOwnDiscussion: 'Vaata liigitamisi omaenda vestlustel'
+    settings:
+      goToPage: 'Mine seadistamise lehele'
   forum:
+    blog:
+      widget:
+        title: Liigitamised
     composer:
       choose: 'Vali {taxonomy}'
     discussion:
       edit: 'Muuda {taxonomy}'
     user:
       edit: 'Muuda {taxonomy}'
+      nav: Liigitamised
   lib:
     modal:
       custom: 'Kasuta {value}'

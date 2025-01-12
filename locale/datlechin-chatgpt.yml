@@ -13,8 +13,11 @@ datlechin-chatgpt:
       enable_on_discussion_started_label: 'Kasuta alustatud vestlustes'
       enabled_tags_help: 'Vali, mis silte kasutatakse vastuste loomiseks.'
       enabled_tags_label: 'Lubatud sildid'
+      max_tokens_help: '<a>Mis on kontrollkoodid ja kuidas neid loetakse?</a>'
+      max_tokens_label: 'Maks. kontrollkoode'
       model_help: 'Vaata lisainfot <a>mudelite</a> kohta (vaikeväärtus on: <code>text-davinci-003</code>).'
       model_label: Mudel
       user_prompt_badge_help: 'Tekst, mida näidatakse kasutaja käsurea kõrval.'
       user_prompt_badge_label: 'Kasutaja käsurea silt'
+      user_prompt_help: 'Sisesta kasutaja ID, mida kasutatakse vastuse genereerimiseks. Vaikimisi kasutatakse vestluse alustajat.'
       user_prompt_label: 'Kasutaja käsurida'

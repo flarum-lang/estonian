@@ -6,8 +6,11 @@ justoverclock-user-pc-specs:
   forum:
     cabinet: 'Kabinet:'
     cpu: 'Protsessor:'
-    gpu: 'GPU:'
+    gpu: 'Videokaart:'
     motherboard: 'Emaplaat:'
+    pcSpecsOf: 'Arvuti parameetrid:'
+    ram: 'Vahemälu:'
     savePcSpecs: 'Salvesta arvuti parameetrid'
     so: 'Operatsioonisüsteem:'
+    specsSaved: 'Arvuti info on salvestatud!'
     storage: 'Salvestusruum:'

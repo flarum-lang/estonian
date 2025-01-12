@@ -10,3 +10,4 @@ blomstra-search:
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
     search-discussion-subjects: 'Otsi vestluste pealkirjadest'
+    search-post-bodies: 'Otsi kommentaaridest'
