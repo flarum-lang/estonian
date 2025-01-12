@@ -4,6 +4,66 @@
 
 davwheat-virtual-authors:
   admin:
+    permissions:
+      set_virtual_authors: 'Määra vestlustele virtuaalsed autorid'
+      view_virtual_authors_page: 'Vaata kõigi virtuaalsete autorite üksikasju'
     settings:
+      authors_in_sidebar: 'Näitab autoreid külgribal, mitte esimese postituse kohal'
+      auto_save_message: 'Uute ja olemasolevate virtuaalsete autorite juures salvestatakse automaatselt.'
       create_new: 'Loo uus virtuaalne autor'
+      errored: 'Virtuaalsete autorite laadimine serverist ebaõnnestus.'
+      link_to_va_from_discussion: 'Näitab linki kastis ''Autorid'' linki kõigile selle virtuaalse autori vestlustele'
+      next: 'Järgmine lehekülg'
+      prev: 'Eelmine lehekülg'
       search_placeholder: 'Otsi nime järgi'
+    virtual_author_item:
+      delete_a11y_tooltip: Kustuta
+      delete_confirmation: 'Kas kustutada virtuaalne autor?'
+      description: Kirjeldus
+      edit: 'Muuda virtuaalset autorit'
+      id: ID
+      name: 'Näidatav nimi'
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
+  forum:
+    discussion_controls:
+      set_virtual_authors: 'Määra virtuaalsed autorid'
+    set_modal:
+      add_button: Lisa
+      add_new: 'Vali uued virtuaalsed autorid'
+      added_button: Lisatud
+      delete_button: Eemalda
+      delete_confirmation: 'Kas eemaldada virtuaalne autor vestlusest?'
+      existing: 'Praegused virtuaalsed autorid'
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
+      none_existing: 'Ühtegi virtuaalset autorit pole valitud.'
+      save: 'Salvesta muudatused'
+      search: 'Otsi virtuaalset autorit'
+      title: 'Määra virtuaalsed autorid'
+      virtual_author_exists: 'Juba valitud!'
+    virtual_author_page:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      meta_title: '{displayName} - Autorid'
+    virtual_authors_list:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      empty_text: 'Näib, et siin pole autoreid.'
+      filter_name_placeholder: 'Filtreeri nime järgi'
+      meta_title: 'Kõik autorid'
+      no_description: 'See autor proovib hoida enda ümber veidi salapära.'
+      sidebar_link: Autorid
+      title: 'Kõik autorid'
+    virtual_authors_panel:
+      error: 'Autorite laadimine ebaõnnestus.'
+      heading: Autorid
+      item_link_tooltip: 'Vaata kõiki vestlus kasutajalt {displayName}'
+  lib:
+    edit_modal:
+      fields:
+        description: 'Kirjeldus (autori kohta)'
+        name: 'Näidatav nimi'
+      submit_edit: 'Salvesta muudatused'
+      submit_new: 'Loo virtuaalne autor'
+      title_edit: 'Muuda virtuaalset autorit'
+      title_new: 'Uus virtuaalne autor'
+  ref:
+    discussion_count: '{count, plural, one {# vestlus}, other {# vestlust}}'
+    no_description: '(kirjeldust pole määratud)'

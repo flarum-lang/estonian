@@ -8,4 +8,6 @@ justoverclock-reputation-score:
     like: meeldimisi
     posts: postitust
     resetRewardsButton: 'Nulli kõik kasutajate autasud'
+    settings:
+      maxPoints: 'Maksimaalsed maine punktid'
     tagMinimumReputationLabel: 'Minimaalne reputatsiooni piirang'

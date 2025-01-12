@@ -3,12 +3,38 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 yippy-auth-ldap:
+  admin:
+    settings:
+      domains:
+        banner: 'Domeen {index}'
+        data:
+          base_dn_help: 'Semikooloniga eraldatud'
+          filter: 'Filter, mida rakendada'
+          host: 'Domeenis või serveri IP-aadressid'
+          host_help: 'Komadega eraldatud'
+          port: Port
+          port_help: 'Mitte-SSL (port 389) või SSL (port 636).'
+          use_ssl: 'Kasuta SSL-i'
+          use_tls: 'Kasuta TSL-i'
+          version: 'LDAP versioon'
+        header:
+          admin: 'LDAP admin'
+          flarum: 'Flarumi kasutaja profiil'
+          search_fields: 'LDAP konto otsing'
+          search_fields_description: 'Loo nimekiri LDAP väljadest, mida võrrelda kasutaja poolt antud kasutajanimega.'
+          server: 'LDAP serveri seaded'
+        title: 'LDAP domeen'
+      method_name: 'LDAP serveri nimi (näidatakse pärast teksti "Logi sisse kasutades")'
+      title: 'LDAP seaded'
   forum:
     account_found: 'Serverist {server} leiti konto'
     errors:
       account:
+        disabled: 'Sinu konto on välja lülitatud, võta ühendust {server} administraatoriga.'
+        expired: 'Sinu konto on aegunud, võta ühendust {server} administraatoriga.'
         incorrect_details: 'Sisestati vigane parool.'
         invalid_inputs: 'Sisendväljad ei saa olla tühjad'
+        locked: 'Sinu konto on lukustatud, võta ühendust {server} administraatoriga.'
         not_found: 'Sinu kontot ei leitud serverist {server}.'
         password_expired: 'Sinu parool on aegunud.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
