@@ -6,6 +6,11 @@ yippy-auth-ldap:
   forum:
     account_found: 'Serverist {server} leiti konto'
     errors:
+      account:
+        incorrect_details: 'Sisestati vigane parool.'
+        invalid_inputs: 'Sisendväljad ei saa olla tühjad'
+        not_found: 'Sinu kontot ei leitud serverist {server}.'
+        password_expired: 'Sinu parool on aegunud.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
     log_in_with: 'Logi sisse serveriga {server}'
     log_out: '=> core.ref.log_out'

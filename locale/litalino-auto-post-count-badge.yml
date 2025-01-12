@@ -13,3 +13,11 @@ justoverclock-auto-post-count-badge:
         title: 'Ikoonide haldamine'
       label-manager:
         title: 'Tekstitiltide haldamine'
+  forum:
+    less1000post: Guru!
+    less100post: Rääkija
+    less10post: Beebi
+    less300post: Õpetaja
+    less50post: 'Uus kasutaja'
+    less600post: Monster!
+    posts: postitust

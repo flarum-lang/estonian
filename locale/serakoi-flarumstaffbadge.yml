@@ -8,3 +8,7 @@ serakoi-flarumstaffbadge:
       label: 'Personali sildi taustavärv'
     staffBadgeTextColor:
       help: 'Sildi värv (vaike'
+  forum:
+    edit_user:
+      tagList:
+        placeholder: 'Eralda komaga ,'

@@ -32,6 +32,7 @@ v17development-flarum-support:
     article_events:
       article_hidden: '{username} peitis artikli'
       article_modified: '{username} muutis seda artiklit.'
+      article_public: '{username} tegi artikli avalikuks'
     ask_a_question_on_forums: 'Küsi küsimus foorumis'
     ask_your_question_on_forum: 'Küsi oma küsimus foorumis'
     composer:
@@ -58,6 +59,7 @@ v17development-flarum-support:
         feedback: Tagasiside
         loading_ratings: 'Hinnangute laadimine'
         no_ratings_found: 'Sinuotsinguparameetritele vastavat hinnangut ei leitud'
+        rated_on: Hinnatud
         rating: Hinnang
         title: 'Artikli hinnangud'
         username: '=> core.ref.username'
@@ -79,6 +81,7 @@ v17development-flarum-support:
     overview:
       back_to: 'Tagasi kategooriasse {category}'
       back_to_main_categories: 'Tagasi peamisesse kategooriasse'
+      back_to_overview: 'Tagasi teabebaasi ülevaatesse'
       category_not_found: 'Kategooriat ei leitud'
       knowledge_base_overview: 'Teabebaasi ülevaade'
       loading_articles: 'Artiklite laadimine'
@@ -94,8 +97,10 @@ v17development-flarum-support:
     return_to_home: 'Tagasi teabebaasi avalehele'
     search:
       back_to_search_results: 'Tagasi otsingutulemustesse'
+      no_results: 'Otsing sõnaga {searchterm} ei andnud tulemusi.'
       search_knowledge_base: 'Tagasi teabebaasi'
       searching: Otsimine
+      searching_for: 'Sõna {searchterm} otsing'
       title: Otsi
     send: Saada
     settings: '=> core.ref.settings'
@@ -109,8 +114,10 @@ v17development-flarum-support:
       score: Punktid
       validation:
         cannot_rate_article: 'Sa ei saa seda artiklit hinnata.'
+        guest: 'Palun logi sisse enne, kui sa hindad seda artiklid.'
         invalid_points: 'Vigane hinnang. Palun proovi uuesti.'
         missing_article_id: 'Puuduv või vigane artikli ID'
+        neutral_emoji_disabled: 'Neutraalne emoji on välja lülitatud.'
     support_tickets: 'KAsutajatoe piletid'
     tickets:
       compose_ticket:
@@ -208,3 +215,7 @@ v17development-flarum-support:
         update_status: 'Uuenda pileti staatust'
         update_subject: 'Uuenda teemat'
         view_ticket: 'Vaata piletit'
+    utils:
+      redirect:
+        link: 'Kui leht ei suuna sind ümber, siis <a>kliki siia</a>'
+        title: 'Sinu suunamine teabebaasi artiklile...'

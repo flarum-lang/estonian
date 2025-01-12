@@ -26,21 +26,37 @@ shebaoting-money:
     log_amount: Kogus
     log_balance: Saldo
     log_description: Kirjeldus
+    log_time: Aeg
     log_type: Liik
     log_type_deposit: Deposiit
     log_type_reward: Tasu
     log_type_transfer: Ülekanne
     logs_description:
+      created_discussion: 'Lisas vestluse › <a href="{url}">{title}</a>'
+      created_reply: 'Lõi vastuse › <a href="{url}">{title}</a>'
       discussion_deleted: 'Kustutas vestluse › <a href="{url}">{title}</a>'
       discussion_hidden: 'Peitis vestluse › <a href="{url}">{title}</a>'
       discussion_restored: 'Taastas vestluse › <a href="{url}">{title}</a>'
+      liked: 'Märkis kasutaja {user} postituse meeldivaks › <a href="{url}">{title}</a>'
       posted_reply: 'Vastas vestlusele › <a href="{url}">{title}</a>'
+      reply_received: 'Sai vastuse kasutajaöt {username} › <a href="{url}">{title}</a>'
     logs_type:
+      discussion_deleted: 'Vestlus kustutatud'
+      discussion_hidden: 'Vestlus peidetud'
       discussion_replied: 'Vastas vestluses'
+      discussion_restored: 'Vestlus taastatud'
+      discussion_started: 'Vestlus alustatud'
+      liked: 'Märkis postituse meeldivaks'
       post_created: 'Postitus on loodud'
       post_deleted: 'Postitus on kustutatud'
       post_hidden: 'Postitus on peidetud'
       post_restored: 'Postitus on taastatud'
+      registration: 'Registreerumise boonus'
+    modal:
+      current: 'Praegune:'
+      submit_button: '=> core.ref.save_changes'
+      title: '{username} raha'
+    no_money_logs: 'Raha logid pole saadaval'
     point_log:
       load_more: 'Loe lisa'
       table:
@@ -49,5 +65,6 @@ shebaoting-money:
           balance: Saldo
           date: Kuupäev
           reason: Põhjus
+      title: 'Punkide muutmise andmed'
     user_controls:
       money_button: 'Muuda raha'

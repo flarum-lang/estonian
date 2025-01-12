@@ -4,9 +4,15 @@
 
 nyu8-email-filter:
   admin:
+    blacklist_literal:
+      description: 'E-posti aadressid mustas nimekirjas'
+      label: 'Must nimekiri'
+      placeholder: 'E-post musta nimekirja'
     custom_failure_message_label: 'Kohandatud ebaõnnestumise teade'
     general: Üldine
     name_placeholder: 'Reegli nimi'
     rule_settings: 'Reegli seaded'
     whitelist_literal:
+      description: 'E-posti aadressid valges nimekirjas'
       label: 'Valge nimekiri'
+      placeholder: 'E-post valgesse nimekirja...'

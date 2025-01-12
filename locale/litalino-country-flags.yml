@@ -5,6 +5,12 @@
 justoverclock-country-flags:
   admin:
     countryColumn: Riik
+    required_label: 'Nõutud riik sisenemiseks'
     showFlagsOnPosts: 'Näita postitustel lippe'
   forum:
+    binding_country_click: 'Kliki kohe'
+    clickToSelectCountry: 'Vali oma riik'
+    countrySaved: 'Riik on salvestatud!'
+    field_placeholder: 'Kinnita riigi lipud'
     inputCountryCode: 'Riigi kood'
+    saveButton: Salvesta

@@ -12,8 +12,12 @@ kyrne-whisper:
   forum:
     chat:
       cant_send_toomany: 'Palun oota enne uute sõnumite saatmist kasutaja {username} vastust'
+      cant_start: 'Ei saa alustada vestlust'
       failed_to_decrypt: '[Dekrüpteerimine ebaõnnestus]'
+      read: Loetud
+      send: 'Saada sõnum'
       start_of_conversation: 'Alusta vestlust'
+      text_placeholder: 'Kirjuta oma sõnum'
     dropdown:
       tooltip: Vestlused
     modal:

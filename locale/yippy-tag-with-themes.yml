@@ -6,10 +6,15 @@ yippy-tag-with-themes:
   admin:
     designs:
       data:
+        child_background_color: 'Muuda alamkirje taustavärvi'
+        outline_background_color: 'Muuda piirjoone värvi'
         primary_background_color: 'Vali peamiste siltide taustavärv'
         primary_font_class: 'Muuda peamist fonti'
         tags: 'Vali peamised sildid'
         themeName: 'Vali teema'
+      header:
+        color_theme: 'Kohanda vaikimisi värviskeemi'
+        theme: 'Kohandatud teema'
     helps:
       design_default: 'Vali vaikimisi kujunduse paigutus'
     labels:
