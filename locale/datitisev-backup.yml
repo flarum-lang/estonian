@@ -12,12 +12,19 @@ datitisev-backup:
         access-key:
           description: 'Sinu autentimise ligipääsukoodi võti'
           label: 'Ligipääsu võti'
+        bucket:
+          description: 'Säilituskorv on kasutuses.'
+          label: Korv
         endpoint:
           description: 'Sinu salvestuskoha URL-i lõpp-punkt.'
           label: Lõpp-punkt
         path-prefix:
+          description: 'Valikuline vaikimisi failide eesliide.'
           label: 'Asukoha eesliide'
       aws:
+        bucket:
+          description: 'S3 korv, kuhu üles laadida.'
+          label: Korv
         credentials-key:
           description: 'AWS kasutajaandmete võti'
           label: Võti
@@ -28,22 +35,29 @@ datitisev-backup:
           description: 'Failide asukoha vaikimisi eesliide.'
           label: 'Asukoha eesliide'
         region:
+          description: 'Sinu korvi piirkond.'
           label: Piirkond
         version:
+          description: 'Määra versioon või jäta tühjaks, et kasutada kõige viimast.'
           label: Versioon
       azure:
         container:
           description: 'Azure konteiner'
           label: Konteiner
         endpoint:
+          description: 'Sinu salvestuskoha lõpp-punkti URL.'
           label: Lõpp-punkt
       dropbox:
         help:
           obtain-access-code-button: 'Ava Dropbox'
+          obtain-access-code-label: 'Hangi ligipääsukood (nõuab rakenduse võtit)'
           obtain-refresh-token-button: 'Kasuta koodi'
+          obtain-refresh-token-label: 'Kasuta ligipääsukoodi, et hankida värskendamise kood (nõuab rakenduse võtit ja salasõna)'
+          obtain-refresh-token-success: 'Värskendamise kood on hangitud ja uuendatud! Salvesta, et info jääks alles.'
         key:
           label: 'Rakenduse võti'
         refresh-token:
+          description: 'Kasuta allolevaid väljasid, et hankida värskendamise kood või tee seda käsitsi järgides juhendeid lingil https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
           label: 'Värskenda kontrollkoodi'
         secret:
           label: 'Rakenduse salasõna'
@@ -61,6 +75,7 @@ datitisev-backup:
           description: 'FTP port (vaikeväärtus on 21).'
           label: Port
         private-key:
+          description: 'Privaatse võtme asukoht (eelistatavalt täispikkuses). Seda kasutatakse FTP ühenduse autentimisel.'
           label: 'Privaatne võti'
         root:
           description: 'Kaugkausta peakaust (alamkaust), kuhu varukoopiaid salvestada.'
@@ -117,6 +132,7 @@ datitisev-backup:
       description: 'Säilita koopiaid oma foorumist.'
       label: Varukoopia
     required-package-modal:
+      content: "Selle draiveri kasutamiseks pead installima ühe konkreetse paketi. Saad seda teha käivitades oma Flarumi peakaustas järgneva composeri käsu: <code>composer require {package}</code>.\n"
       title: '{adapter} jaoks on vaja pakki'
     required_package_button: Seadista
     settings_button: Seadista

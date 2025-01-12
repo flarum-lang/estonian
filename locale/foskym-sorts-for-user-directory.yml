@@ -44,7 +44,20 @@ foskym-sorts-for-user-directory:
         least_likes_received: 'Vähim saadud meeldimisi'
         most_likes_received: 'Enim saadud meeldimisi'
       core:
+        least_comments: 'Vähim kommentaare'
+        least_recently_seen: 'Kõige vähem nähtud'
+        most_comments: 'Enim kommentaare'
+        most_groups_count: 'Enim gruppe'
         most_monthly_comments: 'Enim igakuiseid kommentaare'
         most_monthly_discussions: 'Enim igakuiseid vestlusi'
         nickname_az: 'Hüüdnimi (a-z)'
         nickname_za: 'Hüüdnimi (z-a)'
+        recently_seen: 'Hiljuti nähtud'
+      v17development-user-badges:
+        most_badges_count: 'Enim aumärke'
+      xypp-invite-user:
+        most_invited_user: 'Enim kutsutud kasutajaid'
+      ziven-daily-check-in:
+        most_total_checkin: 'Enim vaadanud'
+        most_total_continuous_checkin: 'Enim pidevaid vaatamisi'
+        recently_checkin: 'Hiljuti vaadanud'

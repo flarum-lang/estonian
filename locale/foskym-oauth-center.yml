@@ -17,6 +17,7 @@ foskym-oauth-center:
       client_name: Nimi
       client_secret: 'Kliendi salasõna'
       edit_client: 'Muuda klienti'
+      grant_types: 'Kasutusõiguse liigid'
       redirect_uri: 'Ümbersuunamise URI'
       scope: Ulatus
     page:
@@ -29,11 +30,18 @@ foskym-oauth-center:
     scopes:
       add_button: 'Lisa ulatus'
       edit_scope: 'Muuda ulatust'
+      is_default: Vaikeväärtus
+      method: Meetod
+      resource_path: 'Ressursi asukoht'
       scope: Ulatus
       scope_desc: Kirjeldus
+      scope_icon: Ikoon
+      scope_name: Nimi
       visible_fields: 'Nähtavad väljad'
     settings:
       access_lifetime: 'Ligipääsukoodi pikkus (sekundites)'
+      allow_delete_records: 'Luba autoriseerimis sissekannete kustutamine'
+      allow_implicit: 'Luba selge kasutusõigus (vastuse_liik=kood)'
       display_mode: 'Näitamise režiim'
     tokens:
       add_token: 'Lisa kontrollkood'
@@ -43,8 +51,10 @@ foskym-oauth-center:
       access: 'Ligipääs kohta'
       agree: Nõustu
       deny: Keela
+      require_these_scopes: 'Nõuab neid ulatusi'
     authorized:
       delete_all_button: 'Kustuta kõik logid'
+      delete_all_confirm: 'Kinnita kõigi logide kustutamine'
       delete_button: 'Kustuta see logi'
       load_more: 'Laadi rohkem'
       no_more_records: 'Andmeid pole'

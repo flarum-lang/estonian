@@ -14,6 +14,7 @@ kilowhat-audit:
       requiresExtension: 'Nõuab lisaprogrammi {extension}'
       title: 'Piiratud ligipääsu seaded'
     permissions:
+      view: 'Vaata auditi logi'
       viewLimited: 'Vaata piiratud auditi logi'
     settings:
       limitedIpAddress: 'Vaata IP aadressi'
@@ -24,6 +25,8 @@ kilowhat-audit:
       user-audit: 'Auditi logi (konto muudatused)'
     modal:
       all-title: 'Logi audit'
+      discussion-title: 'Vestluste auditi logi'
+      user-title: 'Kasutaja auditi logi'
   lib:
     browser:
       cache_cleared: 'Tühjendas vahemälu käsitsi'
@@ -34,11 +37,19 @@ kilowhat-audit:
         session: Veebisessioon
         unknown: 'Tundmatu klient'
       controls:
+        filterAction: 'Näita sama toimingu logisid'
+        filterClient: 'Näita selle kliendi tüübi logisid'
+        filterDiscussion: 'Näita logisid, mis mõjutavad sama vestlust'
+        filterIp: 'Näita selle IP logisid'
+        filterUser: 'Näita logisid, mis mõjutavad sama kasutajat'
         hideRaw: 'Peida logi toorandmed'
         showRaw: 'Näita logi toorandmeid'
       deletedResource:
         discussion: 'Vestlus #{id}'
         group: 'Grupp #{id}'
+        post: 'Postitus #{id}'
+        tag: 'Silt #{id}'
+        user: 'KAsutaja #{id}'
       discussion:
         created: 'Alustas vestlust {discussion}'
         deleted: 'Kustutas vestluse {discussion}'
@@ -46,28 +57,44 @@ kilowhat-audit:
         locked: 'Lukustas vestluse {discussion}'
         merged_away: 'Liitis vestluse {discussion} vestlusega {new_discussion}'
         restored: 'Taastas vestluse {discussion}'
+        tagged: 'Vestluse {discussion} sildid on uuendatud. Vanad: {old_tags}. Uued: {new_tags}'
+        unlocked: 'Avatud vestlus {discussion}'
       empty: 'Tulemusi pole'
       extension:
+        disabled: 'Lisaprogrammi {package} välja lülitamine'
         enabled: 'Lülitas sisse lisaprogrammi {package}'
       filterApply: Rakenda
+      filterPlaceholder: 'Filtreeri logisidi'
       fof_ban_ips:
         banned: 'Blokeeris IP-aadressi {ip}'
         unbanned: 'Eemaldas blokeeringu IP-aadressilt {ip}'
+      genericResource:
+        comment: KOmmentaar
+        post: Postitus
       loadMore: 'Laadi rohkem'
       noReason: '(põhjust pole)'
       noValue: '(väärtust pole)'
+      permissionGroup:
+        everyone: '=> core.admin.permissions_controls.everyone_button'
+        members: '=> core.admin.permissions_controls.members_button'
       post:
         created: 'Lisas postituse {post} vestluses {discussion}'
       setting_changed: 'Muutis seadeid {key}'
       tag:
+        created: 'Lisas sildi {tag}'
+        deleted: 'Kustutas sildi {tag}'
         updated: 'Uuendas silti {tag}'
       user:
         activated: 'Aktiveeris kasutaja {username} konto käsitsi'
         activated_with_email: 'Aktiveeris kasutaja {username} konti lingiga'
         avatar_changed: 'Muutis {username} avatari'
         avatar_removed: 'Eemaldas {username} avatari'
+        bio_changed: 'Muudis kasutaja {username} lühikirjeldust'
         created: 'Lõi kasutaja {username} konto'
         deleted: 'Kustutas kasutaja {username}'
+        impersonated: 'Kehastas kasutajat {username}'
+        logged_in: 'Logis sisse kasutaja {username} kontoga'
+        logged_out: 'Logged out {username} account'
         password_changed: 'Muutis kasutaja {username} parooli'
         username_request_approved: 'Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}'
         username_request_rejected: 'Lükkas tagasi kasutaja {username} kasutajanime muutmise'

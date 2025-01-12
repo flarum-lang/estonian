@@ -6,6 +6,7 @@ flarum-ext-keywords:
   admin:
     addRow: 'Lisa definitsioon'
     definition: Definitsioon
+    parseonce: 'Loe sõna postitusest üks kord'
     removedef: 'Kustuta definitsioon'
     word: Sõna
   forum:
@@ -13,5 +14,6 @@ flarum-ext-keywords:
     loadMore: 'Laadi rohkem'
     pagetitle: 'Sõnastiku lehekülg'
     searchtext: 'Kirjuta, et otsida sõnastikust...'
+    tagline: 'Kas soovid rohkem teada saada selle saidi kasutustingimuste kohta? Vaata lisainfot sõnastikust'
     term: Termin
     title: Sõnastik

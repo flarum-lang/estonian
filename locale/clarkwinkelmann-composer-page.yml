@@ -6,11 +6,15 @@ clarkwinkelmann-composer-page:
   admin:
     settings:
       forPrivateDiscussions: 'Kasuta privaatsetes vestlustes'
+      forPrivateDiscussionsHelp: 'Integreerib Byobu vestluse koostamise lehekülje'
       onlyInTags: 'Ainult järgnevates siltides (valikuline)'
   forum:
     nav:
       cancel: 'Välju koostajast'
       continue: 'Jätka vestlust'
+    page-private:
+      heading: 'Alusta privaatset vestlust'
+      title: 'Alusta privaatset vestlust'
     page:
       heading: 'Alusta vestlust'
       title: 'Alusta vestlust'

@@ -5,16 +5,29 @@
 clarkwinkelmann-discussion-lists:
   admin:
     permissions:
-      createPrivate: 'Loo privaatsete vestluste nimekirja'
+      createPrivate: 'Loo privaatsete vestluste nimekiri'
       createPublic: 'Avalike vestluste nimekirjade loomine'
+      createSeriesFromAny: 'Loo vestluste seeriad sisuga teistelt kasutajatelt'
+      createSeriesFromOwn: 'Loo vestluste seeria omaenda sisuga'
       moderate: 'Kõikide vestluse nimekirjade muutmine ja kustutamine'
       viewPrivate: 'Kõikide privaatsete nimekirjade vaatamine'
       viewPublic: 'Vaata avalikku vestluste nimekirja'
     settings:
       collapseSeries: 'Sulge seeriate indeks automaatselt'
+  api:
+    manualLimit: 'Käsitsi sorteeritud nimekirjades ei saa olla rohkem kui 50 vestlust'
+    seriesAnyAddNotAllowed: 'Võid seeriate nimekirja lisada ainult omaenda vestluseid'
+    seriesAnyConversionNotAllowed: 'Nimekirja konvertimine seeriaks ebaõnnestus, kuna seal on vestlusi, mida sa ei algatanud'
   forum:
+    badge:
+      private: 'Privaatne nimekiri'
+      series: 'Avalikud seeriad'
+    discussion:
+      add: 'Lisa nimekirja'
+      new: 'Uus nimekiri'
     edit:
       delete: Kustuta
+      deleteConfirmation: 'Kas sa tõesti soovid selle vestluse jäädavalt kustutada?'
       name: Nimi
       ordering: Järjekord
       orderingOptions:
@@ -30,8 +43,11 @@ clarkwinkelmann-discussion-lists:
         private: 'Privaatne nimekiri'
         public: 'Avalik nimekiri'
         series: 'Avalik seeria'
+    profile:
+      link: Nimekirjad
     series:
       expand: Laienda
+      kind: Seeriad
       visit: 'Näita kõike'
 core:
   forum:

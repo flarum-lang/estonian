@@ -7,3 +7,10 @@ imdong-spam-alert:
     permissions:
       see-spam-info: 'Vaata rämpsposti infot'
       set-spam: 'märgi rämpspostituseks'
+    settings:
+      btn-name: Spämm
+  forum:
+    post:
+      spam-hide-tips: 'Spämm on peidetud'
+    settings:
+      notify_post_spam_hide_label: 'Prügi on peidetud sildi pärast'

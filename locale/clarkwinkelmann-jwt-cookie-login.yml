@@ -6,6 +6,7 @@ clarkwinkelmann-jwt-cookie-login:
   admin:
     settings:
       actorId: 'Flarum kasutaja ID adminiülesanneteks'
+      audience: 'JWT sihtgrupp / Firebase projekti ID'
       authorizationHeader: 'Kohandatud autoriseerimise päise väärtus'
       cookieName: 'Küpsise nimi'
       emailTemplate: 'E-kirja mall'
@@ -13,6 +14,8 @@ clarkwinkelmann-jwt-cookie-login:
       logoutRedirect: 'Väljalogimise ümbersuunamise URL'
       publicKey: 'Avalik võti'
       publicKeyAlgorithm: 'Avaliku võtme algoritm'
+      publicKeyAlgorithmHelp: 'Nõutud ainult avaliku võtme korral. Nt. RS256'
+      publicKeyHelp: 'Jäta tühjaks, et kasutada Google Firebase võtmeid'
       usernameTemplate: 'Kasutajanime mall'
   forum:
     alert:

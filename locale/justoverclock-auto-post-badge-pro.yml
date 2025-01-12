@@ -4,12 +4,32 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    cologBackg: Taustavärv
+    colorBg: 'Edenemisriba taust'
+    colorBgTwo: Taust
+    fromPost: 'Postituste numbrist'
+    icon: Ikoon
     levelEight: 'Tase 8'
+    levelEighteen: 'Tase 18'
+    levelEleven: 'Tase 11'
+    levelFifteen: 'Tase 15'
     levelFive: 'Tase 5'
     levelFour: 'Tase 4'
+    levelFourteen: 'Tase 14'
     levelNine: 'Tase 9'
     levelOne: 'Tase 1'
     levelSeven: 'Tase 7'
+    levelSeventeen: 'Tase 17'
     levelSix: 'Tase 6'
+    levelSixteen: 'Tase 16'
+    levelTen: 'Tase 10'
+    levelThirteen: 'Tase 13'
     levelTree: 'Tase 3'
+    levelTwelve: 'Tase 12'
     levelTwo: 'Tase 2'
+    text: Tekst
+    toPost: 'Postituse numbrini'
+  forum:
+    hasWritten: 'Kasutaja on kirjutanud'
+    nextBadge: 'Uus aumärk tuleb'
+    posts: postitust

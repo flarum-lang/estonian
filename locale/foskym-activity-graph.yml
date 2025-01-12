@@ -14,12 +14,15 @@ foskym-activity-graph:
       from_year_help: 'Alusta aktiivsus graafiku aastat'
       times_display_format: 'Kordade näitamise vorming'
       times_display_format_help: 'Kasutatakse aktiivsuse graafiku näitamiseks. nt. "korda", "[count] korda"'
+      tooltip_position: 'Abiinfo asukoht'
       tooltip_position_options:
         bottom: All
         left: Vasakul
         right: Paremal
+        top: Üleval
   forum:
     label:
+      activity_graph: 'Tegevuse graafik'
       categories:
         achievements_achieved: Saavutusi
         badges_assigned: 'Määratud aumärke'
@@ -34,6 +37,7 @@ foskym-activity-graph:
         username_requests_nickname: 'Hüüdnime muutmise päringuid'
         username_requests_username: 'Kasutajanime muutmise päringuid'
       name_map: en
+      total_times: 'Kokku {total} sellel aastal'
   lib:
     defaults:
       times_display_format:

@@ -10,12 +10,23 @@ clarkwinkelmann-discussion-open-position:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
+      suggestFirstTime: 'Näita kasutajale küsimust, et nad saaksid esimest korda vestlust avades oma eelistuse valida'
   forum:
     firstTimePrompt:
+      fromAlways: 'Vestluste lingid viivad viimase loetud postituseni'
+      fromNever: 'Vestluse lingid avavad esimese postituse'
       more: Lisavalikud
+      openLastOptions:
+        always: 'Ava alati hoopis viimane postitus, mida ma lugesin'
+        never: 'Ava alati hoopis esimene postitus'
     preferences:
       discussionOpenLastRead: 'Vestluste nimekiri'
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
+  ref:
+    openLastOptions:
+      always: 'Ava alati vestlused viimasest loetud postitusest'
+      never: 'Ava vestlus alati esimesest postitusest'
+      unread: 'Ava vestlused viimati loetud postitusest ainult siis, kui seal on uusi vastuseid'

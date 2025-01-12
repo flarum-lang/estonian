@@ -16,6 +16,7 @@ datlechin-keyboard-shortcuts:
       back: Tagasi
       close: Sulge
       first_post: 'Esimene postitus'
+      flags: 'Sobimatuks märgistamine'
       follow: 'Jälgi/Lõpeta jälgimine'
       help: Abiinfo
       last_post: 'Viimane postitus'
@@ -24,6 +25,7 @@ datlechin-keyboard-shortcuts:
       new_discussion: 'Uus vestlus'
       notifications: Teavitused
       pin_nav: 'Kinnita navigeerimisriba'
+      refresh: Värskenda
       reply: Vasta
       search: Otsi
       session: 'Kasutajate rippmenüü'
