@@ -7,7 +7,10 @@ xelson-chat:
     permissions:
       create:
         channel: 'Alusta kanaleid'
+        chat: 'Jututoa alustamine'
+      enabled: 'Jututoa lubamine'
       moderate:
+        delete: 'Kustuta jututoa sõnumid'
         vision: 'Kustutatud sõnumite vaatamine'
     settings:
       charlimit: 'Maksimaalne märkide arv sõnumis'
@@ -19,6 +22,7 @@ xelson-chat:
         number: 'Sõnumite arv reas'
         time: 'Perioodi pikkus'
         title: 'Liigse postitamise tõrje'
+      title: 'Jututoa seaded'
   forum:
     chat:
       edit_modal:
@@ -26,20 +30,59 @@ xelson-chat:
           color:
             label: Värv
             validator: 'HEX vormingus'
+          delete:
+            button: 'Kustuta jututuba'
+            desc: 'Kopeeri jututoa nimi, et jätkata'
+            placeholder: 'Jututoa nimi'
+            title: 'Oled sa kindel, et soovid selle jututoa kustutada?'
           icon:
             label: '=> core.ref.icon'
             validator: '=> core.ref.icon_text'
+          leave: 'Lahku jututoast'
+          return: 'Sisene jututuppa'
           title:
+            label: 'Jututoa nimi'
             validator: 'Vähemalt 1 sümbol'
           users:
             edit: 'Vali ja muuda kasutajaid'
+        moderator:
+          got: 'Said endale just moderaatoriõigused jututoas {chatname}!'
+          lost: 'Kaotasid just moderaatoriõigused jututoas {chatname}.'
         save_button: '=> core.ref.save_changes'
         search:
           failed: 'Ühtegi sobivat kasutajat ei leitud'
           invited: Kutsutud
           placeholder: 'Otsi kasutajaid'
+        title: 'Jututoa seaded'
+      kick: 'Löö välja'
       leave: Lahku
       list:
+        add_modal:
+          channel: Kanal
+          chat: Jututuba
+          create:
+            channel: 'Loo uus kanal'
+            chat: 'Loo uus kanal'
+          form:
+            color:
+              label: '=> xelson-chat.forum.chat.edit_modal.form.color.label'
+              validator: '=> xelson-chat.forum.chat.edit_modal.form.color.validator'
+            icon:
+              label: '=> core.ref.icon'
+              validator: '=> core.ref.icon_text'
+            title:
+              channel: 'Kanali nimi'
+              chat: 'Kanali nimi'
+              validator: 'Vähemalt 1 sümbol'
+            users: 'Valitud kasutajad'
+          search:
+            failed: 'Sobivaid kasutajaid ei leitud'
+            invited: Kutsutud
+            more_results: 'Ja veel {more_results} ...'
+            placeholder: 'Otsi kasutajaid'
+          title: 'Vali kasutajad'
+        pin: 'Kinnita paneel'
+        placeholder: 'Filtreeri jututubasid'
         preview:
           empty: 'Sõnumeid pole'
       message:
@@ -49,6 +92,8 @@ xelson-chat:
         censored: 'Logi sisse, et näha seda sõnumit!'
         deleted: kustutas
         events:
+          chat:
+            created: '{creatorname} lõi {chatname} ja kutsus {usernames}'
           users:
             invited: '{editorname} kutsus {usernames}'
         type:
@@ -59,10 +104,18 @@ xelson-chat:
       moder: Moderaator
       placeholder: 'Kitjuta oma sõnum...'
       rejoin: 'Liitu uuesti'
+      welcome:
+        header: 'Teretulemast Neon Chati-!'
+        subheader: 'Palun vali vestlemiseks paremalt jututuba'
+    index:
+      chat_link: Jututuba
     toolbar:
+      chat:
+        settings: 'Jututoa seaded'
       disable_notifications: 'Lülita teavitused välja'
       disable_sounds: 'Keela helid'
       enable_notifications: 'Lülita teavitused sisse'
       enable_sounds: 'Luba helid'
       maximize: Maksimeeri
       minimize: Minimeeri
+      title: Jututuba

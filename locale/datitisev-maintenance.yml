@@ -2,21 +2,29 @@
 # Use https://weblate.rob006.net/projects/flarum/datitisev-maintenance/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  lib:
+    error:
+      maintenance_message: 'Foorum on praegu hooldusrežiimis.'
 datitisev-maintenance:
   admin:
     dashboard:
       disable_maintenance_mode_button: 'Lülita hooldusrežiim välja'
       enable_maintenance_mode_button: 'Lülita hooldusrežiim sisse'
+    permissions:
+      allow_bypass_maintenance_label: 'Mine hooldusrežiimist mööda (seade peab olema sisse lülitatud)'
     settings:
       active_label: 'Hooldusrežiimi staatus'
       disable_admin_label: 'Keela admini ligipääs'
       disable_api_label: 'Keela kogu API ligipääs'
+      error_page_label: 'Veateate leht HTML/Blade'
       message_label: 'Vealehe sõnum'
       title: Hooldusrežiim
       title_label: 'Vealehe pealkiri'
   lib:
     maintenance_active_disabled_api_message: 'API on praegu kõigi jaoks välja lülitatud.'
     maintenance_active_message: 'See foorum on hetkel hooldamisel.'
+    maintenance_active_not_db_message: 'Hooldusrežiim on lülitatud sisse kasutades <code>config.php</code> faili.'
   views:
     error:
       message: 'Teeme praegu veidi hooldustöid. Oleme varsti tagasi!'

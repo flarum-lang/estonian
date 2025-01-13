@@ -4,6 +4,8 @@
 
 kilowhat-wordpress:
   admin:
+    edit_css:
+      title: 'Muuda kohandatud põimitud CSS-i'
     health:
       check: 'Kontrolli kohe'
       errors: 'Leidsime mõningaid probleeme.'
@@ -34,23 +36,29 @@ kilowhat-wordpress:
       comment_tag_custom_help: 'Komadega eraldatud nimekiri siltide ID-dest'
       comment_tag_none: 'Ära määra sildile'
       cookie_domain: 'Küpsise domeen'
+      default_actor_placeholder_invalid: 'Võimalik vigane väärtus: {value} - Trüki kasutaja otsimiseks...'
       default_actor_placeholder_search: 'Kirjuta kasutaja otsimiseks...'
       enable_comments: 'Lülita kommentaaride integreerimine sisse'
       enable_sso: 'Lülita SSO integratsioon sisse'
       force_username_choice: 'Lase kasutajatel esimese külastuse ajal nende kasutajanimi valida'
+      login_method: 'Üldine sisselogimise mehhanism'
       login_method_options:
         cookie: Küpsis
         iframe: 'Peidetud raam'
         redirect: 'Suuna ümber'
+      post_delete: 'Tegevus, kui WordPressi postitus kustutatakse jäädavalt'
       post_delete_options:
         hide: 'Peida vestlused Flarumis'
+        ignore: 'Ignoreeri (säilita Flarumi vestluse olek)'
         lock: 'Säilita Flarumi vestlus ja lukusta'
       post_hide_options:
         delete: 'Kustuta vestlused Flarumist jäädavalt'
         hide: 'Peida vestlused Flarumis'
+        ignore: 'Ignoreeri (lukusta vestlus vastavalt seadele Luba kommentaarid)'
         lock: 'Lukusta vestlused Flarumis'
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
       use_post_date: 'Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana'
+      user_delete: 'Tegevus, kui kasutaja kustutatakse WordPressist'
       user_delete_options:
         delete: 'Kustuta Flarumi kasutaja'
         ignore: 'Ignoreeri (säilita Flarumi kasutaja)'

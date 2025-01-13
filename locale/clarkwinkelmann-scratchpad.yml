@@ -20,6 +20,7 @@ clarkwinkelmann-scratchpad:
       disable: 'Välja lülitamiseks kliki'
       enable: 'Sisse lülitamiseks kliki'
       new: Uus
+      new-confirmation: 'Praegune scratchpad pole salvestatud. Kas hüljata see ja alustada uut?'
       refresh: Värskenda
       save: Salvesta
       settings: 'Redaktori seaded'
@@ -29,8 +30,19 @@ clarkwinkelmann-scratchpad:
       forum_js: 'Foorumi JS'
       forum_less: 'Foorumi Less'
       php: PHP
+      title: 'Scratchpadi nimi'
     placeholders:
       js-log: 'Tere, {frontend}!'
+      php-comment: 'Registreeri laiendajad siin'
       untitled: Pealkirjata
     settings:
+      compile-automatically: 'Kompileeri JS salvestamisel automaatselt'
+      empty-for-default: 'Vaikimisi käsu jaoks jäta tühjaks'
+      indent: 'Tühikute arv taandes'
       npm-install-command: 'NPM paigaldamise käsk'
+      single-column: 'Grupeeri redaktorid ühe veeruna, mitte kolmena'
+      theme: 'CodeMirrori teema (mõju nägemiseks on vaja leht uuesti laadida)'
+      theme-auto: 'Automaatne (vaikimis on hele teema, dracula on tume teema)'
+      title: 'Scratchpadi seaded'
+      validate-live: 'Esita päring kontrollida LESS-i ja PHP-d enne salvestamist'
+      webpack-command: 'Webpacki käsk'

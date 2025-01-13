@@ -12,12 +12,24 @@ xypp-store:
   forum:
     create: 'Loo kirje'
     create-modal:
+      button: Loo
+      confirm_delete: 'Oled sa kindel, et soovid selle kirje kustutada?'
+      delete-button: Kusuta
       desc: Kirjeldus
+      edit-button: Muuda
+      expire_time: Aegumine
       name: Nimi
       price: Hind
+      provider: Teenusepakkuja
+      provider_data: 'Teenusepakkuja andmed'
       provider_data_default: 'Vaikimisi andmed'
+      provider_data_error: 'Palun vali teenusepakkuja ja andmed'
       providers:
+        no_select_data: 'Vali teenusepakkuja andmed'
         special_data: 'Valitud andmed'
+        unknown: 'Vali teenusepakkuja'
+        unknown_data: 'Pead esmalt valima teenusepakkuja'
+      success: 'Kirje on loodud'
       title: 'Loo kirje'
       use_cnt: 'Mitu korda saab kasutada'
     edit-result:
@@ -29,10 +41,12 @@ xypp-store:
       delete_button: Kustuta
       infinity_use: 'Piiramatu kasutus'
       no_record: 'Ostu pole'
+      not_found: 'Kirjet ei leitud'
       rest_cnt: 'Saab kasutada {0} korda'
       title: Ostetud
       use: Kasuta
     item:
+      expire: '{0} kestus'
       infinity_count: 'Piiramatu saadavus'
       no_available: 'Ühtegi kirjet pole saadaval'
       not_found: 'Kirjet ei leitud'
@@ -43,6 +57,7 @@ xypp-store:
       all: Kõik
       error:
         no-preview: 'Eelvaadet pole'
+        title: 'Tundmatu teenusepakkuja'
     purchase: Osta
     purchase-confirm: 'Kinnitada ost?'
     purchase-history: Ostetud
@@ -53,6 +68,11 @@ xypp-store:
         not_enough_money: 'Pole piisavalt raha'
         unknown: 'Tundmatu tõrge'
       success: Korras
+    query-modal:
+      purchase:
+        title: 'Osta kirje'
+      use:
+        title: 'Kasuta kirjet'
     show_case: Vitriin
     store: Pood
     unavailable:
@@ -65,3 +85,4 @@ xypp-store:
         expired: 'Kirje on aegunud'
         id_not_found: 'Kirje ID-d ei leitud'
         unknown: 'Tundmatu viga'
+      success: Korras

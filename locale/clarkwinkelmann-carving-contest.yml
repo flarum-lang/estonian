@@ -3,9 +3,50 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-carving-contest:
+  admin:
+    colors:
+      all: 'Ükskõik, milline värv'
+      custom: 'Kohanda värvide nimekirja'
+      custom-help: 'Komadega eraldatud nimekiri #hex või rgb() väärtustest'
+      simple: 'Lihtne värviskeem'
+    permissions:
+      like: 'Sissekannete meeldimine'
+      moderate: Modereeri
+      participate: Osale
+      view: 'Vaata sissekandeid'
+    settings:
+      colorMode: 'Kasuta lõikamise asemel värvimist'
+      maxEntriesPerUser: 'Maksimaalne arv kasutaja kohta'
   forum:
+    likes_modal:
+      title: 'Kasutajad, kellele see meeldis'
+    modal:
+      name: 'Sinu loomingu nimi'
+      submit: Esita
+      title: Osale
+      tools:
+        circle: Ring
+        square: Ruut
+    nav:
+      contest: 'Nikerdamise võistlus'
     page:
       already-liked: 'See meeldib mulle'
+      already-participated: 'Osalen juba'
+      delete-confirmation: 'Oled sa kindel, et soovid kustutada "{name}", mille esitas {username}?'
       like: Meeldib
+      likes:
+        liked_by_self_text: '{users} kasutajale meeldib see.'
+        liked_by_text: '{count, plural, one {{users} kasutajale meeldib see.} other {{users} kasutajale meeldib see.}}'
+        others_link: '=> core.ref.some_others'
+        you_text: '=> core.ref.you'
+      load-more: 'Laadi rohkem sissekandeid'
       loading: 'Sissekannete laadimine...'
+      participate: Osale
+      refresh: Värskenda
+      sort:
+        fewerLikes: 'Vähem meeldimisi'
+        leastRecent: Vanimad
+        mostLikes: 'Rohkem meeldimisi'
+        mostRecent: 'Hiljuti postitatud'
+      title: 'Kõrvitsa nikerdamise võistlus'
       unlike: 'Ei meeldi'

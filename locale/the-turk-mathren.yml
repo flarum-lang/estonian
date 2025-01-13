@@ -5,9 +5,21 @@
 the-turk-mathren:
   admin:
     settings:
+      alias_block_asciimath_delimiters_text: '<strong>Alias</strong> eraldajad plokina AsciiMath kasutamiseks'
+      alias_block_delimiters_text: '<strong>Alias</strong> eraldajad plokina kasutamiseks'
+      alias_inline_asciimath_delimiters_text: '<strong>Alias</strong> eraldajad reasiseseks AsciiMath kasutamiseks'
+      alias_inline_delimiters_text: '<strong>Alias</strong> eraldajad reasisesseks kasutamiseks'
+      bbcode_delimiters_rule_text: 'BB-koodi eraldajateks võivad olla ainult suur- ja väiketähed ning sidekriipsud.'
+      block_asciimath_delimiters_text: '<strong>BB-koodi</strong> eraldajad plokina AsciiMath kasutamiseks'
+      block_delimiters_text: '<strong>BB-koodi</strong> eraldajad plokina kasutamiseks'
+      cdn_asciimath2tex_text: 'CDN URL <strong>asciimath2tex</strong> jaoks'
+      cdn_katex_text: 'CDN URL <strong>KaTeX</strong> jaoks'
       cdn_options_heading: 'CDN valikud'
       delimiters_label: Eraldajad
       delimiters_text: 'Eralda komadega. <strong>%e%</strong> tähendab matemaatilist avaldist.'
+      error_color_label: 'Toetamata käskude või vigase LaTeX-i värv'
+      inline_asciimath_delimiters_text: '<strong>BB-koodi</strong> eraldajad reasiseseks AsciiMath kasutamiseks'
+      inline_delimiters_text: '<strong>BB-koodi</strong> eraldajad reasiseseks kasutamiseks'
       java_syntax_text: 'Pead need kirjutama kasutades JavaSkripti süntaksit.'
       katex_options_heading: 'KaTeX valikud'
       macros_label: Makrod
@@ -17,7 +29,12 @@ the-turk-mathren:
       minimum_thickness_text: 'Minimaalne paksus (em)'
       other_options_heading: 'Muud valikud'
       output_mode_label: 'Väljundi režiim'
+      output_mode_text: 'Vali väljundi markup keel'
       sizing_options_heading: 'Suuruse valikud'
+      sri_katex_text: 'SRI hash <strong>KaTeX</strong> jaoks'
+      throw_on_error_label: 'Toetamata käsu või vigase LaTeX puhul näidatakse veateadet'
   forum:
     composer:
       asciimath_only: 'Ainult AsciiMath'
+      inline_expression: 'Reasisesed väljendid'
+      inline_expression_asciimath: 'Reasisesed väljendid (AsciiMath)'
