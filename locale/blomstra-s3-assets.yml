@@ -5,8 +5,27 @@
 blomstra-s3-assets:
   admin:
     settings:
+      s3acl:
+        help: 'Määra selle korvi ACL'
+        label: ACL
+      s3bucket:
+        help: 'S3 korv'
+        label: Korv
+      s3endpoint:
+        help: 'S3 lõpp-punkt'
+        label: Lõpp-punkt
       s3key:
         help: abiinfo
         label: Võti
+      s3path-style-endpoint:
+        help: 'Lülita asukoha stiilis säilituskoht'
+        label: 'S3 asukoha stiilis lõpp-punkt'
+      s3region:
+        help: 'S3 piirkond'
+        label: Piirkond
       s3secret:
+        help: 'S3 ligipääsu salasõna'
         label: Salasõna
+      s3url:
+        help: 'S3 URL'
+        label: URL

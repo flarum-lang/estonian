@@ -11,4 +11,5 @@ serakoi-flarumstaffbadge:
   forum:
     edit_user:
       tagList:
+        heading: 'Kasutaja siltide nimekiri'
         placeholder: 'Eralda komaga ,'

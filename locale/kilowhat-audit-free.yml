@@ -13,6 +13,7 @@ kilowhat-audit:
       view: 'Vaata auditi logi'
   lib:
     browser:
+      cache_cleared: 'Tühjendas käsitsi vahemälu'
       client:
         access_token: Ligipääsukood
         api_key: 'API võti'

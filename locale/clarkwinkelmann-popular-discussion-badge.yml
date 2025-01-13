@@ -5,9 +5,23 @@
 clarkwinkelmann-popular-discussion-badge:
   admin:
     settings:
+      add: 'Lisa teine tingimus'
+      and: JA
+      comments: Kommentaarid
+      comments_placeholder: '0'
+      hours: h
       mode: Toimimisrežiim
+      mode_options:
+        scheduler: 'Ajastaja (CRON)'
+      or: VÕI
       scheduler_frequency_options:
+        everyFifteenMinutes: 'Iga 15 minuti tagant'
         everyFiveMinutes: 'Iga 5 minuti tagant'
         everyTenMinutes: 'Iga 10 minuti tagant'
+        everyThirtyMinutes: 'Iga 30 minuti tagant'
+        hourly: 'Kord tunnis'
+      views: Vaatamisi
+      views_placeholder: '0'
+      within_placeholder: kõik
   forum:
     badge_label: Populaarne

@@ -18,6 +18,7 @@ kilowhat-rich-embeds:
       blacklist: 'URL-ide must nimekiri'
       cacheProxy: 'Hoia pildid vaheserveris'
       githubApiKey: 'GitHub API võti'
+      githubOrgWhitelist: 'Organisatsioonide valge nimekiri'
       googleApiKey: 'Google SDK API võti'
       imageProxy: 'OpenGraph piltide vaheserver'
       layout: Paigutus

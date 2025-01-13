@@ -7,6 +7,22 @@ maicol07-sso:
     settings:
       client_api_key: 'API võti'
       client_name: Nimi
+      client_name_help: 'Flarumi saidi nimi'
       client_url: URL
       client_url_help: 'Flarumi saidi URL'
+      client_verify_ssl: 'Kinnita SSL'
+      cookies_prefix: 'Küpsiste nime eesliide'
+      jwt_iss: 'Määraja domeen'
+      jwt_section_subtitle: 'JWT laienduse seaded'
+      jwt_signer_key: 'Allkirjastaja võti'
+      jwt_signing_algorithm: 'Allkirjastamise viis'
+      login_url: 'Sisselogimise URL'
+      logout_url: 'Väljalogimise URL'
+      manage_account_btn_open_in_new_tab: 'Ava konto haldamine uuel vahekaardil'
+      manage_account_url: 'Konto haldamise URL'
+      remove_login_btn: 'Eemalda sisselogimise nupp'
+      remove_signup_btn: 'Eemalda liitumise nupp'
+      signup_url: 'Liitumise URL'
       title: 'SSO seaded'
+  forum:
+    manage_account_btn: 'Halda kontot'

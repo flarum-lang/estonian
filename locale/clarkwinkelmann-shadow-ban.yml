@@ -4,6 +4,13 @@
 
 clarkwinkelmann-shadow-ban:
   forum:
+    banUser:
+      quick: Kiirvalikud
+      quickChoiceDays: '{count, plural, one {# päev} other {# päeva}}'
+      quickChoiceReset: 'Pole blokeeritud'
+      submit: Salvesta
+      title: 'Sulge {username} konto'
+      until: 'Kuni kuupäev (UTC)'
     discussionControl:
       hide: 'Peida vari'
       restore: 'Varju taastamine'

@@ -2,8 +2,47 @@
 # Use https://weblate.rob006.net/projects/flarum/xypp-user-decoration/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-xypp-user-decoration:
+xypp-store:
   forum:
+    create-modal:
+      providers:
+        decoration: Dekoratsioon
+    type:
+      decoration: Dekoratsioon
+    unavailable:
+      decoration:
+        dumplicate: 'On enda oma'
+xypp-user-decoration:
+  admin:
+    permissions:
+      create_decoration: 'Loo/Muuda dekoratsiooni'
+      delete_decoration: 'Kustuta teised dekoratsioonid'
+      offer_decoration: 'Paku dekoratsiooni'
+      view-all: 'Vaata kõiki dekoratsioone'
+    settings:
+      avatar_hijack:
+        title: 'Avatari kaaperdamine'
+      no_decorate_class_filter:
+        desc: 'Klassi nimed, mis takistavad avataride ja kasutajanimede moondumist dekoratsioonide sees. Üks rea kohta ja ilma punktita selle alguses'
+        title: 'Dekoreerimise klassi filtrit pole'
+      username_hijack:
+        title: 'Kasutajanime kaaperdamine'
+      view-all:
+        desc: 'Kas kõigi vaatamise õigus on sisse lülitatud?'
+        title: 'Vaata kõiki'
+  forum:
+    create: Loo
+    create-modal:
+      edit-button: Muuda
+      edit-title: 'Muuda dekoratsiooni #{0}'
+      title: 'Loo dekoratsioon'
+      type:
+        avatar: Avatar
+        post: Postitus
+        title: Liik
+        usercard: 'Kasutaja kaart'
+        username: Kasutajanimi
+    create-success: 'Dekoratsioon on loodud'
     decoration-box:
       avatar: 'Avatari stiil'
       card: 'Kasutaja kaardi stiil'
@@ -11,6 +50,19 @@ xypp-user-decoration:
       error: 'Tundmatu liik'
       loading: Laadimine
       name: 'Kasutajanime stiil'
+      no-login: 'Eelvaate nägemiseks logi sisse'
       post: 'Postituse stiil'
     decoration-no-available: 'Dekoratsioone pole saadaval'
+    decoration:
+      change_button: Muuda
+      delete_button: Kustuta
+      delete_confirm: 'Oled sa kindel, et soovid seda dekoratsiooni kustutada?'
+      remove_button: Eemalda
     decorations: Dekoratsioonid
+    modal:
+      button: Pakkumine
+      loading: Laadimine
+      tip: 'Palun vali dekoratsioon'
+      title: 'Paku dekoratsiooni'
+    page:
+      show-decorations: Dekoratsioonid

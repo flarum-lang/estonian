@@ -9,7 +9,21 @@ hikarilan-passkey-login:
         name:
           help: 'See on inimloetav nimi sinu saidile. Kui jätad selle tühjaks, siis kasutatakse hoopis foorumi pealkirja.'
       timeout:
+        help: 'Ligipääsu võtme kinnitamise aegumine sekundites. Vaikeväärtus on 60 sekundit.'
         label: Aegumine
   forum:
     login:
       with-passkey: 'Logi sisse passkey-ga'
+    user:
+      settings:
+        alias-modal:
+          label: 'Ja nüüd anname ligipääsu võtmele alias.'
+          title: 'Ligipääsu võti on registreeritud!'
+        item:
+          revoke: '=> core.forum.security.revoke_access_token'
+          revoke_success: 'Ligipääsu võti on tühistatud.'
+        passkeys:
+          add-new-passkey: 'Lisa ligipääsu võti'
+          error: 'Tekkis sisemine tõrge. Palun proovi hiljem uuesti.'
+          label: 'Ligipääsu võti on parooli asendus, mis kinnitab sinu isikut kasutades sõrmejälge, näotuvastust, seadme parooli või PIN-i.'
+          title: 'Ligipääsu võti'

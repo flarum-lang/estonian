@@ -83,6 +83,10 @@ kilowhat-wordpress:
       wordpress_password: 'WordPressi admini parool'
       wordpress_url: 'WordPressi URL'
       wordpress_username: 'WordPressi admini kasutajanimi'
+  api:
+    health:
+      api-error-other: 'WordPressi API-ga ühendumine andis veateate: {message}'
+      comments-mismatch-wordpress: 'Kommentaaride integreerimine on sisse lülitatud WordPressis, aga mitte Flarumis'
   forum:
     edit-user-modal:
       edit_in_wordpress: 'Muuda WordPressis'

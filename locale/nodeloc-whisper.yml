@@ -7,12 +7,28 @@ nodeloc-whisper:
     permissions:
       start_label: 'Privaatsete vestluste alustamine'
     settings:
+      return_key: 'Sisestusklahvi vajutamine saadab sõnumi'
       title: 'Sosistaja seaded'
   forum:
+    chat:
+      cant_start: 'Ei saa alustada vestlust'
+      chat_with: 'Saada sõnum'
+      messages_multiple: '{count} sõnumi kokku'
+      messages_single: 'Uus vestlus'
+      read: Loe
+      send: 'Saada sõnum'
+      send_success: 'Sõnum on saadetud'
+      start: 'Alusta vestlust'
+      start_of_conversation: 'Vestluse algus'
+      text_placeholder: 'Kirjuta oma sõnum'
     dropdown:
       tooltip: Vestlused
     modal:
+      already: 'Sul juba on vestlus kasutajaga {username}.'
+      copied: 'Sinu sõnum on kopeeritud lõikelauale.'
+      help: 'Alusta kasutajanime sisestamist, et alustada vestlust.'
       help_start: 'Saada sõnum kasutajale {username}.'
+      more_users: 'Kui sa ei leia kasutajat, keda sa otsid, siis nende privaatsõnumite saatmine pole seadistatud.'
       search_recipients: 'Sisesta kasutajanimi...'
       submit: Saada
       title: 'Saada sõnum'

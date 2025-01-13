@@ -5,12 +5,31 @@
 clarkwinkelmann-mailing:
   admin:
     permissions:
+      mail_all: 'Saada e-kiri gruppidele või kõigile kasutajatele'
       mail_individual: 'Saada e-kirjad individuaalsetele kasutajatele'
+  api:
+    no_recipients: 'Ühtegi saajat ei leitud'
+  email:
+    default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
   forum:
     links:
+      mail_all: 'Saada e-kiri'
       mail_individual: 'Saada sellele kasutajale e-kiri'
     modal_mail:
+      as_html_label: 'Saada HTML-ina'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
+      message_label: Sõnum
       recipients_label: Saajad
+      recipients_placeholder: 'Lisa rohkem saajaid...'
       subject_label: Pealkiri
+      submit_button: Saada
       title_text: 'Koosta e-kiri'
+    modal_sent:
+      on_its_way: 'Super! Sinu kiri on teel saajatele {recipientsCount}!'
+      title_text: 'Kiri on saadetud!'
+    recipient_kinds:
+      email: E-post
+      group: Grupp
+      user: Kasutaja
+  ref:
+    default_subject: 'Sõnum foorumi administraatorilt'

@@ -11,6 +11,7 @@ kilowhat-formulaire:
       editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
       export: 'Lisatud info eksportimine'
+      exportUserDetails: 'Ligipääs kasutaja privaatsetele andmetele esportimisel'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (kolmanda osapoole lisaprogrammide valikud)'
@@ -37,6 +38,7 @@ kilowhat-formulaire:
         switch: 'Flarumi lüliti'
       title: 'Vormi üldised seaded'
   api:
+    duplicate-field-key: 'Võti peab olema unikaalne'
     export:
       meta:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
@@ -50,6 +52,8 @@ kilowhat-formulaire:
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    unauthorized-form: 'Sul pole õigusi vormi {id} täitmiseks'
+    unknown-form: 'Tundmatu vormi ID {id}'
   forum:
     auto-discussion-options-modal:
       field:
@@ -163,6 +167,7 @@ kilowhat-formulaire:
         permission-edit-own: 'Oma vastuste muutmine'
         permission-see-any: 'Kõikide sisestatud info nägemine'
         permission-see-own: 'Enda sisestatud info nägemine'
+        send-confirmation-to-participants: 'Saada kinnituskiri osalejatele'
         show-on-creation:
           discussion: 'Näita vestluse koostamisel'
           user: 'Näita liitumisel'
@@ -272,13 +277,16 @@ kilowhat-formulaire:
       description: Kirjeldus
       duplicate: 'Tee väljast koopia'
       email: E-post
+      fill-permission: '(Ekspertidele) Täida õigused'
       integer: Täisarv
       max: Maksimaalne
+      mime: 'Failitüüp (komadega eraldatud, teisel poolel võib kasutada kohatäitjaid)'
       min: Minimaalne
       missing-title: 'Ilma pealkirjata väli'
       no-answer: 'Vastust pole'
       regex: Regulaarväljend
       required: Nõutud
+      rich: 'Vormindatud tekst (TextFormatter)'
       title: Pealkiri
       type:
         checkbox: Märkekastid
@@ -302,12 +310,18 @@ kilowhat-formulaire:
   ref:
     manager: 'Vormide haldamine'
     permissions:
+      editAnyDiscussion: 'Kõigi vestluse väljade muutmine'
+      editAnyUser: 'Kõigi profiili väljade muutmine'
+      editOwnDiscussion: 'Omaenda vestluse väljade muutmine'
       editOwnUser: 'Oma profiili väljade muutmine'
       fill: 'Täida eraldiolevaid vorme'
+      seeAnyDiscussion: 'Kõigi vestluste väljade vaatamine'
       seeAnyUser: 'Kõikide profiili väljade vaatamine'
+      seeOwnDiscussion: 'Omaenda vestluse väljade vaatamine'
       seeOwnUser: 'Oma profiili vormide vaatamine'
     submission-meta:
       created_at: 'Loomise kuupäev'
+      hidden_at: 'Prügikasti saatmise kuupäev'
       link_id: 'Lingitud ressursi ID'
       locked_at: 'Lukustamise kuupäev'
       uid: 'Vastuse ID'

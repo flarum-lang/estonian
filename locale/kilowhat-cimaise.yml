@@ -5,6 +5,7 @@
 kilowhat-cimaise:
   admin:
     permissions:
+      attachCimaiseAlbum: 'Albumite käsitsi lisamine vestlusesse'
       createCommunityAlbums: 'Kogukonna albumite loomine'
       createPersonalAlbums: 'Isiklike albumite loomine'
       hideOwnAlbum: 'Oma albumite peitmine'
@@ -39,6 +40,7 @@ kilowhat-cimaise:
       refresh: Värskenda
       storage:
         conversions: 'Vestluseid: {size}'
+        originals: 'Algsed: {size}'
   api:
     picture-edit:
       unauthorized:
@@ -61,11 +63,13 @@ kilowhat-cimaise:
       discussion: 'Mine vestlusesse'
       empty: 'Pilte pole'
       loading: '=> kilowhat-cimaise.ref.loading'
+      personal: '<a>{username}</a> isiklik album1'
       upload: 'Laadi pilt üles'
     album-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
+      delete-confirmation: 'Kas kustutada album "{title}"?'
       edit: Muuda
       hide: '=> kilowhat-cimaise.ref.hide'
       restore: '=> kilowhat-cimaise.ref.restore'
@@ -76,6 +80,7 @@ kilowhat-cimaise:
       select: Vali
       selected: 'Valitud:'
       submit: Saada
+      title: 'Lisa album "{title}"'
       unselect: 'Tühista valik'
     badge:
       awaiting-approval: 'Ootab heakskiitu'
@@ -100,6 +105,7 @@ kilowhat-cimaise:
       title: 'Pealkirja lisamiseks kliki'
     license-label:
       not-specified: Määramata
+      not-specified-help: 'Vaikimisi autoriõiguseid vaata saidi kasutustingimusi'
     nav:
       albums: '=> kilowhat-cimaise.ref.albums'
       pictures: '=> kilowhat-cimaise.ref.pictures'
@@ -110,6 +116,8 @@ kilowhat-cimaise:
       approve: 'Kiida heaks'
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
+      delete-confirmation: 'Kas kustutada pilt "{title}"?'
+      editor: 'Kärbi ja lisa mask'
       hide: '=> kilowhat-cimaise.ref.hide'
       remove-favorite: 'Eemalda lemmik'
       restore: '=> kilowhat-cimaise.ref.restore'
@@ -148,6 +156,7 @@ kilowhat-cimaise:
       select-file: 'Vali fail'
       submit: Saada
       submitInComposer: Jätka
+      title: 'Laadi üles pilte albumisse "{title}"'
       titleInComposer: 'Muuda pilte'
       uploading: Üleslaadimine
   ref:

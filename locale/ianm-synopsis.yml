@@ -5,8 +5,18 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        help: 'Kui see on sisse lülitatud, siis näidatakse kokkuvõtte asemel vaikimisi kõige asjakohasema postituse väljavõtet'
+        label: 'Keela otsimisel kokkuvõte'
+      excerpt-length:
+        help: 'Kui mitut märki postitusest näidatakse.'
+        label: 'Kokkuvõtte pikkus märkides'
+      excerpt-type:
+        label: 'Kas postitust peaks näitama kui väljavõtet?'
       first-label: 'Esimene postitus'
       last-label: 'Viimane postitus'
+      rich-excerpts:
+        label: 'Näita väljavõtteid kasutades rikkaliku tekstivormingut'
   forum:
     user:
       settings:

@@ -5,8 +5,22 @@
 tituspijean-auth-ldap:
   admin:
     settings:
+      account_prefix: 'Konto eesliide'
+      account_suffix: 'Konto eesliide'
+      admin_password: 'LDAP admini parool (jäta tühjaks, et siduda anonüümselt)'
+      base_dn: 'BaasDN (eraldatuna komadega)'
+      filter: 'Filter, mida rakendada (valikuline)'
+      follow_referrals: 'Jälgi LDAP severiga liitmiseks viiteid'
+      hosts: 'LDAP domeenid või serveri IP-aadressid (eraldatuna komadega)'
+      method_name: 'LDAP serveri nimi (näidatakse pärast teksti "Logi sisse")'
+      onlyUse: 'Peida tavapärane Flarumi sisselogimise viis'
       port: port
+      search_user_fields: 'LDAP kasutaja otsingu väljad (eraldatuna komadega)'
       title: 'LDAP seaded'
+      use_ssl: 'Kasuta SSL-i'
+      use_tls: 'Kasuta TLS-i'
+      user_mail: 'LDAP kasutaja meili väli'
+      user_username: 'LDAP kasutajanimi väli'
   forum:
     log_in_with: 'Logi sisse kasutades teenust {server}'
     log_out: '=> core.ref.log_out'
