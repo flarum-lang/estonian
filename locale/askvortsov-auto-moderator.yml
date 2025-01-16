@@ -8,6 +8,7 @@ askvortsov-auto-moderator:
       activate_email: 'Aktiveeri e-post'
       add_to_group: 'Lisa gruppi'
       remove_from_group: 'Eemalda grupist'
+      suspend: Külmuta
     automoderator_instructions:
       header: 'Lisaprogrammi juhendid'
     automoderator_page:
@@ -16,11 +17,14 @@ askvortsov-auto-moderator:
       list_heading: Kriteerium
     criterion_page:
       actions_label: Tegevused
+      actions_on_gain_heading: 'Tegevus, kui vastab nõuetele'
+      actions_on_loss_heading: 'Tegevus, kui ei vasta enam nõuetele'
       add_action: 'Lisa tegevus'
       add_metric: 'Lisa parameeter'
       back: 'Tagasi kriteeriumit enimekirja'
       delete_button: '=> core.ref.delete'
       description_label: Kirjeldus
+      driver_missing_ext: 'See draiver sõltub lisaprogrammist, mida pole paigaldatud.'
       icon_label: Ikoon
       loading: '=> core.ref.loading'
       metrics_and_requirements_help: 'Need määravad, kas kasutajad vastavad sellele kriteeriumile või mitte. Jälgitakse väärtuste vahemikku, nõuded on jah tingimused.'
@@ -31,9 +35,12 @@ askvortsov-auto-moderator:
       new_criterion: 'Loo kriteerium'
       requirements_heading: Nõuded
     criterion_status:
+      action_validation_errors: 'Tegevuse draiveri kontrollimisel tekkisid järgmised vead:'
       heading: 'Staatuse kontroll'
       invalid: 'Kriteerium on vigane. Palun kontrolli draiveri veateateid.'
       no_actions: 'Selle kriteeriumi jaoks pole toiminguid seadistatud. Midagi ei juhtu, kui kasutaja vastab sellele kriteeriumile või siis enam ei vasta sellele.'
+      no_metrics_or_reqs: 'Selle nõude jaoks pole kriteeriumeid määratud. See tähendab, et see kriteerium rakendatakse KÕIGILE kasutajatele.'
+      requirement_validation_errors: 'Nüude draiveri kontrollimisel tekkisid järgmised vead:'
       valid: 'See kriteerium on korrektne!'
     group_selector:
       placeholder: 'Vali grupp'
@@ -49,6 +56,8 @@ askvortsov-auto-moderator:
     requirement_drivers:
       email_confirmed: 'Kinnitatud e-post'
       in_group: Grupis
+    suspend_selector:
+      indefinitely: 'Külmutada jäädavalt?'
   lib:
     group_id: 'Grupi ID'
     managed_groups:
