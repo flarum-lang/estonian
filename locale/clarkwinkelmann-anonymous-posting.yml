@@ -21,8 +21,12 @@ clarkwinkelmann-anonymous-posting:
       anonymize: 'Postita anonüümselt'
     discussionControls:
       anonymize: Anonümiseeri
+      deanonymize: 'Eemalda anonümiseerimine'
     discussionList:
       genericReplyText: 'Viimati vastatud {ago} tagasi'
+    postControls:
+      anonymize: Anonümiseeri
+      deanonymize: 'Eemalda anonümiseerimine'
     postPrivacy:
       mine: Mina
       mineHelp: 'Seda infot näed ainult sina'

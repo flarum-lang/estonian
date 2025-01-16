@@ -5,9 +5,15 @@
 blomstra-database-queue:
   admin:
     settings:
+      backoff_help: "Sekundite arv, mida oodata enne, kui tundmatu erandiga tööd proovitakse uuesti.\n"
+      backoff_label: 'Tõmba tagasi'
       memory_help: "Mälu limiit megabaitides.\n"
       memory_label: Mälu
+      rest_help: "Puhkeperioodi pikkus sekundites ega töö vahel.\n"
+      rest_label: Puhkus
+      retries_help: "Mitu korda tööd uuesti proovitakse enne, kui see märgitakse ebaõnnestunuks.\n"
       retries_label: 'Uuesti proovismisi'
+      timeout_help: "Mitu sekundit võib alamprosess töötada.\n"
       timeout_label: Aegumine
     stats:
       auto_refresh: 'Automaatne värskendamine'

@@ -18,17 +18,23 @@ askvortsov-auto-moderator:
       actions_label: Tegevused
       add_action: 'Lisa tegevus'
       add_metric: 'Lisa parameeter'
+      back: 'Tagasi kriteeriumit enimekirja'
       delete_button: '=> core.ref.delete'
       description_label: Kirjeldus
       icon_label: Ikoon
       loading: '=> core.ref.loading'
+      metrics_and_requirements_help: 'Need määravad, kas kasutajad vastavad sellele kriteeriumile või mitte. Jälgitakse väärtuste vahemikku, nõuded on jah tingimused.'
       metrics_and_requirements_label: 'Parameetrid ja nõuded'
       metrics_heading: Parameetrid
       name_label: Nimi
+      negated: 'Eitatud?'
       new_criterion: 'Loo kriteerium'
       requirements_heading: Nõuded
     criterion_status:
       heading: 'Staatuse kontroll'
+      invalid: 'Kriteerium on vigane. Palun kontrolli draiveri veateateid.'
+      no_actions: 'Selle kriteeriumi jaoks pole toiminguid seadistatud. Midagi ei juhtu, kui kasutaja vastab sellele kriteeriumile või siis enam ei vasta sellele.'
+      valid: 'See kriteerium on korrektne!'
     group_selector:
       placeholder: 'Vali grupp'
     metric_drivers:

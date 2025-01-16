@@ -9,11 +9,17 @@ clarkwinkelmann-popular-discussion-badge:
       and: JA
       comments: Kommentaarid
       comments_placeholder: '0'
+      conditions: 'Populaarse aumärgi tingimused'
+      conditions_help: "See on kõigi postituste koguarv, kaasa arvatud esimene postitus. Vaatamisi saadakse kas MichaelBelgium või Flarumite lisaprogrammidest. Andud ajavahemikku kastutatakse kommentaaride või vaatamiste arvu lugemiseks viimase n tunni jooksul. Ajavahemiku jaoks on toetatud ainult MichaelBelgium lisaprogramm. Kui soovid lugeda absoluutselt kõiki kommentaare või vaateid, siis jäta ajavahemiku lahter tühjaks või sisesta sinna 0.\n"
       hours: h
       mode: Toimimisrežiim
+      mode_help: "Saidi režiim on efektiivne lahendus, mid ei kasuta andmebaasi. Ajastatud režiim nõuab CRON-i seadistamist ja võimaldab tingimustes kasutada ajavahemikke.\n"
       mode_options:
+        frontend: Sait
         scheduler: 'Ajastaja (CRON)'
       or: VÕI
+      scheduler_frequency: 'Ajastatud režiimi sagedus'
+      scheduler_frequency_help: "Kui sageli uuendatakse ajastatud režiimis (CRON) populaarsuse staatust. (Saidi režiimis on staatus alati koheselt uuendatud)\n"
       scheduler_frequency_options:
         everyFifteenMinutes: 'Iga 15 minuti tagant'
         everyFiveMinutes: 'Iga 5 minuti tagant'
@@ -22,6 +28,7 @@ clarkwinkelmann-popular-discussion-badge:
         hourly: 'Kord tunnis'
       views: Vaatamisi
       views_placeholder: '0'
+      within: vahemikus
       within_placeholder: kõik
   forum:
     badge_label: Populaarne
