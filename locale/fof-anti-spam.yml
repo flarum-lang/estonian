@@ -21,14 +21,19 @@ fof-anti-spam:
     settings:
       button: Seaded
       default-actions:
+        delete_discussions_help: 'See kustutab jäädavalt kõigi selle kasutaja poolt alustatud vestlused. Kui see on välja lülitatud, siis pannakse need prügikasti.'
         delete_discussions_label: 'Kustuta vestlused'
+        delete_posts_help: 'See kustutab jäädavalt kõigi selle kasutaja poolt tehtud postitused. Kui see on välja lülitatud, siis pannakse postitused prügikasti.'
         delete_posts_label: 'Kustuta postitused'
+        delete_user_help: 'See kustutab jäädavalt selle kasutaja. Kui see on välja lülitatud, siis kasutaja konto külmutatakse.'
         delete_user_label: 'Kustuta kasutaja'
         heading: 'Vaikimisi modereerimise tegevused'
         move_discussions_to_tags_label: 'Liiguta vestlused siltide alla'
       stopforumspam:
         api_key_label: 'API võti'
         confidence_label: Kindlus
+        email_hash_help: 'Kui sa ei soovi e-postiaadressi ennast saata, siis saada e-posti aadressi MD5 räsi. See meetod läheb mööda kõigist mustadest nimekirjadest normaliseerimine peitmise kannete kontrollimisest.'
+        email_hash_label: 'Kasuta räsitud e-posti aadressi'
         email_label: 'E-posti rämpsposti tõrje'
         frequency_label: Lävi
         heading: StopForumSpam
@@ -38,6 +43,7 @@ fof-anti-spam:
         region_us_label: USA
         regional_endpoint_help: 'Vaikimisi suunatakse sind lähimasse serverisse, et anda sulle võimalikult kiire vastus. Kui soovid piirata saidi liiklust mingi konkreetse piirkonnaga, et pidada kinni ettevõtte või riigi privaatsusreeglitest, siis saad sundida looma ühenduse mingi konkreetse piirkonna kaudu.'
         regional_endpoint_label: 'Asukohapõhine ligipääs'
+        sfs_lookup_label: 'Kontrolli liitumisi'
         username_label: 'Kasutajanime spämmikontroll'
   forum:
     spammer_modal:
