@@ -3,11 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flamarkt-backoffice:
+  admin:
+    settingsInBackoffice: 'Adminiliidese seaded'
   backoffice:
     nav:
       dashboard: Töölaud
       searchPlaceholder: '=> core.admin.nav.search_placeholder'
       users: Kasutajad
+    permissions:
+      backoffice: 'Kasuta Backoffice adminiliidest'
     settingsNotAvailableForNonAdmin: 'Sellel lisaprogrammil on seadeid, aga ainult adminid võivad neid näha ja muuta.'
     users:
       field:
@@ -22,3 +26,4 @@ flamarkt-backoffice:
   lib:
     header:
       admin_button: '=> core.forum.header.admin_button'
+      backoffice_button: Backoffice

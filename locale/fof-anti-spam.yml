@@ -24,6 +24,7 @@ fof-anti-spam:
         delete_discussions_label: 'Kustuta vestlused'
         delete_posts_label: 'Kustuta postitused'
         delete_user_label: 'Kustuta kasutaja'
+        heading: 'Vaikimisi modereerimise tegevused'
         move_discussions_to_tags_label: 'Liiguta vestlused siltide alla'
       stopforumspam:
         api_key_label: 'API võti'

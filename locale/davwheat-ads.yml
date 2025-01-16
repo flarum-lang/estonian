@@ -9,9 +9,15 @@ davwheat:
         bypassAds: 'Peida foorumist reklaamid'
       settings:
         add_script: Uus
+        admin_bypass_warning: "Flarumi õiguste süsteemi omapära tõttu, ei näe adminigrupi liikmed\nfoorumis reklaame. Kui soovid oma reklaame testida, siis külasta foorumit\nprivaatses režiimis.\n"
+        alert:
+          code_has_script: 'Üks või rohkem sinu reklaamidest sisaldab skripti silti, mis pole lubatud. Eemalda see ja proovi uuesti.'
+          fix_errors: 'Palun paranda enne salvestamist vead'
+        allow_after_placeholder: 'Postituste vahel: Näita reklaami pärast vastamise nuppu'
         between_posts_gap: 'Postituste vahel: vahe reklaamide vahel'
         code_input: 'HTML kood'
         code_input_disabled: 'Luba see asukoht, et selle HTML koodi muuta.'
+        enabled_locations: 'Lubatud reklaamide asukoht'
         js_input: 'Javaskripti kood'
         js_input_disabled: 'Luba see asukoht, et selle JS koodi muuta.'
         pub_id: 'AdSense Avaldaja ID'
@@ -20,8 +26,10 @@ davwheat:
           fix_errors: 'Paranda enne salvestamist vead'
           saved: 'Kõik muudatused salvestati'
           saving: Salvestamine...
+        script_deletion: 'Skripti eemaldamiseks jäta tekstikast tühjaks ja vajuta ''Salvesta muudatused''.'
         script_urls: 'Kohandatud skriptide URL(-id)'
         use_adsense: 'Kasuta AdSense-i'
+        warning: "<b>Juhendid:</b>\n<br></br>\n<b>HTML</b> - Sisesta reklaami HTML-i sisu siia kasti. Ära sisesta sellesse kasti ühtegi {script} silti. Neid ei käivitata.\n<br></br>\n<b>JS</b> - Sisesta kohandatud Javaskripti kood. Siia <b>EI TOHIKS</b> sisestada {script} silti ennast.\n"
     lib:
       locations:
         between_posts: 'Postituste vahel'

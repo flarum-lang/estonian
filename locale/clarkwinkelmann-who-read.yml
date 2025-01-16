@@ -5,12 +5,18 @@
 clarkwinkelmann-who-read:
   admin:
     permissions:
+      mark-unread: 'Oma kasutaja puhul vestluste mitteloetuks märkimine'
       see-read: 'Vaata lugemise staatust'
       see-subscription: 'Vaata jälgimise staatust'
       see-unread: 'Vaata teste kasutajate lugemata staatust'
     settings:
+      hide-when-behind: 'Kui kasutaja on nii mitme postitusega maas, siis peida ta täielikult'
       max-visible: 'Maksimaalne kasutajate arv enne, kui näitatakse "vaata rohkem"'
       only-groups: 'Näita ainult nende kasutajate loetud staatust, kes kuuluvad sellesse gruppi'
+      show-between-posts: 'Näita postituste vahel lugemise staatust'
+      show-count-of-readers-who-stopped: 'Näita kasutajate arvu, kes lõpetasid lugemise selle asemel, et näidata postituste vahel, kes lugesid'
+      show-in-discussion-list: 'Näita lugejaid vestluste nimekirjas'
+      show-in-hero: 'Näita lugejaid vestluse päises'
       unread-icon: 'Lubemata embleemi ikoon'
   forum:
     badges:
