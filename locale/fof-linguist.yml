@@ -8,17 +8,20 @@ fof-linguist:
       apply: Rakenda
       copy-original: 'Kopeeri algne tekst'
       delete-all: 'Kustuta kõik tõlked'
+      delete-all-confirm: "See kustutab KÕIK sinu {count} kohandatud tõlget. Veendu, et sa oleksid eksportinud või varundanud kõik, mida sa soovid alles hoida.\n"
       delete-redundant: 'Kustuta üleliigsed tõlked'
       delete-redundant-confirm: "See kustutab {count} tõlget, millel on identne algne tekst ja tõlge. See võib olla kasulik puhastamiseks pärast keelepaki uuendamist.\n"
       load-more: 'Laadi rohkem'
       reset: 'Taasta algne'
     clear-cache:
       button: 'Tühjenda vahemälu kohe'
+      text: "Uusi tõlkeid pole praegu veel kasutusse pandud. Märkus: vahemälu tühjendamine võib sinu saidi ajutiselt aeglasemaks teha.\n"
     coverage:
       all-namespaces: Kõik
       apply-missing-filter: 'Näita sobivaid puuduvaid tõlkeid'
       column-options:
         locale: 'Kelle järgi'
+        namespace: Saidil
       columns:
         all-except-admin: 'Foorum ja muu saidi osa'
         all-frontends: 'Näita kõiki saidi tekste'
@@ -41,6 +44,7 @@ fof-linguist:
       output-empty: 'Tühi väljund'
       output-loading: 'Väljundi laadimine...'
       title: Ekspordi
+      warning: "Eksportimisel kasutatakse Flarumi Yaml-vormingul põhinevaid tõlkefaile, mis on kavandatud jagama tõlkeid erinevate foorumite ja keelepaki haldajate vahel. Vorming pole mõeldud kõikide tõlgete liigutamiseks uude foorumisse. Sõltuvalt sinu olukorrast, võib andmebaasi otsene kopeerimine olla parem variant.\n"
     filters:
       for-extension: Lisaprogrammile
       frontend: Saidil
@@ -62,8 +66,11 @@ fof-linguist:
       with-own-translations: 'Minu tõlked'
     import:
       input: Sisend
+      input-placeholder: 'Kogudus oma Yaml failid siia'
       locale: Keel
       override-existing: 'Kirjuta minu olemas olevad kohandatud tõlked üle'
+      results: "Importimine on lõpetatud. {imported} teksti impodriti ja {identical} identset teksti jäeti vahele. Lehekülge värskendatakse nüüd, et näidata uusi tõlkeid.\n"
+      results-with-ignore: "Importimine on lõpetatud. {imported} teksti impodriti, {ignored} olemasolevat teksti ignoreeriti ja {identical} identset teksti jäeti vahele. Lehekülge värskendatakse nüüd, et näidata uusi tõlkeid.\n"
       submit: Impordi
       title: Impordi
     known-frontend:

@@ -28,6 +28,7 @@ fof-anti-spam:
         delete_user_help: 'See kustutab jäädavalt selle kasutaja. Kui see on välja lülitatud, siis kasutaja konto külmutatakse.'
         delete_user_label: 'Kustuta kasutaja'
         heading: 'Vaikimisi modereerimise tegevused'
+        move_discussions_to_tags_help: 'See liigutab kõik selle kasutaja poolt tehtud postitused sinu valitud sildi (siltide) alla. Siltide valiku eemaldamine jätab vestluse selle alge sildi (või siltide) alla. Sellel pole mingit mõju, kui valik ''Kustuta vestlused'' on sisse lülitatud.'
         move_discussions_to_tags_label: 'Liiguta vestlused siltide alla'
       stopforumspam:
         api_key_label: 'API võti'
@@ -37,12 +38,14 @@ fof-anti-spam:
         email_label: 'E-posti rämpsposti tõrje'
         frequency_label: Lävi
         heading: StopForumSpam
+        introduction: "Kontrollib uue kasutaja andmeid registreerumisel <a>StopForumSpam</a> andmebaasist. Kui näitajate <code>kindlus</code> või <code>sagedus</code> lävi on ületatud, siis kasutja ei saa sinu saidile kasutajakontot luua.\n\nToetatud on ka SSO registreerumine kasutades lisaprogramme <code>fof/oauth</code> ja <code>fof/passport</code>. Muud SSO teenusepakkujad peaksid ka töötama, aga neid pole testitud.\n"
         ip_label: 'IP aadressi rämpsposti tõrje'
         region_closest_label: Lähimad
         region_europe_label: Euroopa
         region_us_label: USA
         regional_endpoint_help: 'Vaikimisi suunatakse sind lähimasse serverisse, et anda sulle võimalikult kiire vastus. Kui soovid piirata saidi liiklust mingi konkreetse piirkonnaga, et pidada kinni ettevõtte või riigi privaatsusreeglitest, siis saad sundida looma ühenduse mingi konkreetse piirkonna kaudu.'
         regional_endpoint_label: 'Asukohapõhine ligipääs'
+        report_blocked_registrations_label: 'Teavita blokeeritud registreerumistest'
         sfs_lookup_label: 'Kontrolli liitumisi'
         username_label: 'Kasutajanime spämmikontroll'
   forum:

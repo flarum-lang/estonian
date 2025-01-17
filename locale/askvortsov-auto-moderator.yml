@@ -9,6 +9,7 @@ askvortsov-auto-moderator:
       add_to_group: 'Lisa gruppi'
       remove_from_group: 'Eemalda grupist'
       suspend: Külmuta
+      unsuspend: 'Emalda külmutamine'
     automoderator_instructions:
       header: 'Lisaprogrammi juhendid'
     automoderator_page:
@@ -16,6 +17,7 @@ askvortsov-auto-moderator:
       criterion_invalid: 'Kriteerium on vigane. Lisainfo saamiseks kontrolli palun selle seadeid'
       list_heading: Kriteerium
     criterion_page:
+      actions_help: 'Tegevus käivitatakse, kui kasutaja hakkab vastama uuele kriteeriumile. Kui kasutaja ei vasta enam nõuetele, siis sellest johtuvalt võidakse käivitada muid tegevusi.'
       actions_label: Tegevused
       actions_on_gain_heading: 'Tegevus, kui vastab nõuetele'
       actions_on_loss_heading: 'Tegevus, kui ei vasta enam nõuetele'
@@ -44,6 +46,8 @@ askvortsov-auto-moderator:
       valid: 'See kriteerium on korrektne!'
     group_selector:
       placeholder: 'Vali grupp'
+    in_group_settings:
+      regex: 'Sobiva e-posti aadressi muster (kaldkriipsud pole lubatud)'
     metric_drivers:
       best_answers: 'Parimad vastused'
       discussions_entered: 'Vestlusesse sisenetud'
@@ -55,11 +59,17 @@ askvortsov-auto-moderator:
       posts_made: 'Tehtud postitusi'
     requirement_drivers:
       email_confirmed: 'Kinnitatud e-post'
+      email_matches_regex: 'E-posti aadress vastab mustrile'
       in_group: Grupis
+      suspended: Külmutatud
     suspend_selector:
+      days: 'Mitmeks päevaks külmutada'
       indefinitely: 'Külmutada jäädavalt?'
+    undefined_driver_item:
+      text: 'VIGA! Draiver <strong>{driverName}</strong> pole määratletud. Ilmselt lisas selle lisaprogramm, mis pole praegu enam paigaldatud. Pead selle lisaprogrammi uuesti paigaldama või selle draiveri eemaldama, et kriteerium oleks taas kehtiv.'
   lib:
     group_id: 'Grupi ID'
     managed_groups:
       group_item: '<badge></badge> {groupName}'
+      groups_not_editable: 'Ebakõlade vältimiseks ei saa automaatse moderaatori kriteeriiumi poolt hallatavaid gruppe kasutajatele käsitsi lisada või eemaldada.'
       header: 'Hallatud grupid:'
