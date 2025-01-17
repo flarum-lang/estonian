@@ -12,15 +12,24 @@ fof-sitemap:
         daily: 'Iga päev'
         hourly: 'Iga tund'
         twice_daily: 'Kaks korda päevas'
+      frequency_label: 'Kui sageli peaks ajastaja vahemälus oleva sisukaardi uuesti looma?'
+      mode_help: 'Õige režiimi valimine vastavalt sinu foorumi suurusele on kriitlise tähtsusega.'
+      mode_help_large: '50 000 on sisukaardi tehniline limiit. Kui rul on rohkem sissekandeid, siis kasuta seda valikut!'
+      mode_help_multi: 'Parim suurtele foorumitele alates 10 000 kirjest. Mitmeosalised kokkupakitud sisukaardifailid luuakse ja säilitatakse kaustas /public'
       mode_help_multi_label: 'Mitme-faili režiim'
+      mode_help_runtime: 'Väiksed foorumid, mis on täenäoliselt jagatud veebimajutuse keskkonnas ning neis on vestlusei, kasutjaid ja silte kokku vähem kui 10 000 ühiikut. Sisukaart luuakse automaatselt iga päringu ajal.'
       mode_help_runtime_label: 'Runtime režiim'
+      mode_help_schedule: 'Järgnevavd režiimid lisavad oma ülesanded Flarumi ajastajasse.'
+      mode_help_schedule_setup: 'Kui Flarumi ajastaja pole korrektselt seadistatud, siis järgnevad režiimid ei tööta. Vaata siit <a>lisaintof</a>.'
       mode_label: Režiim
       modes:
         multi_file: 'Mitu faili'
         runtime: Käivitamiseaeg
       risky_performance_improvements: 'Lülita sisse riskantsemad kiiruse parandamise võimalused'
+      risky_performance_improvements_help: 'Need parandused teevad CRON tööd kiiremaks miljoni reaga andmebaasides, aga võivad lõhkuda ühilduvuse mõningate lisaprogrammidega.'
       soft_404:
         heading: 'Soft 404 ennetamine'
+        help: 'Kui mudelis on vähe või pole üldse asjakohast sisu, siis Google ja muud robotid võivad märkida need "soft 404" lehekülgedeks. Selle elimineerimiseks, määra minimaalne kirjete arv, mida on vajalik iga sissekande tegemiseks.'
         tags:
           discussion:
             minimum_item_threshold_help: 'Minimaalne vestluste arv sildi all, et seda saaks lisada sisukaardil.'
