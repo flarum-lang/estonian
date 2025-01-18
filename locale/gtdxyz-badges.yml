@@ -73,6 +73,7 @@ gtdxyz-flarum-badges:
       badges: Aumärgid
       category: 'Aumärgi kategooria'
       description: 'Aumärgi kirjeldus'
+      earned_by_count: '{count, plural, one {<b># kasutaja</b> teenis välja} other {<b># kasutajat</b> teenis välja}}'
       earned_count: '{count, plural, one {<b>kasutaja</b> on selle aumärgi välja teeninud} other {<b>kasutajat</b> on selle välja teeninud}}'
       earned_on: 'Aumärgi teenimise aeg'
       earning_reason: 'Aumärgi väljateenimise põhjus'
@@ -83,7 +84,10 @@ gtdxyz-flarum-badges:
       update_earning_reason: 'Uuenda väljateenimise põhjust'
     badge_information: Aumärk
     badges_in_card:
+      description: 'Võid valida, mis aumärgid on sinu kasutajakaardil nähtavad. Kui sa ei vali midagi, siis need valitakse sinna automaatselt.'
+      hit_limit: 'Sinu kasutajakaardil on ruumi ainult <b> {limit, plural, one {<b>ühele aumärgile</b>} other {<b># aumärgile</b>}}</b>. Eemalda mõnu aumärk, et sellele ruumi teha.'
       manage_badges: 'Halda aumärke'
+      select_limit: 'Võid valida {limit, plural, one {<b>ühe aumärgi</b>} other {<b># aumärki</b>}}, mis on nähtav(ad) sinu kasutajakaardil.'
       title: 'Aumärgid kasutajakaardil'
     give_badge: 'Anna aumärk'
     hidden_badges: 'See kasutaja ei näita veel aumärke.'

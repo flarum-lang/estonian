@@ -18,6 +18,7 @@ the-turk-flamoji:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'Ekspordi JSON'
       heading_title: 'Kohandatud emoji'
+      import_emojis_message: 'See impordib ainult emoji seadistused. Emojide pildid pead üles laadima kästitsi.'
       import_json_button: 'Impordi JSON'
     settings:
       auto_hide_label: 'Automaatne peitmine'
@@ -33,15 +34,26 @@ the-turk-flamoji:
         smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
         symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
         travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      emoji_data_label: 'Emoji andmed'
+      emoji_data_text: 'Seda kasutatakse tavaliselt emoji nimede tõlgete jaoks.'
       emoji_settings_heading: 'Emoji seaded'
       emoji_style_label: 'Emoji stiil'
+      emoji_style_native_option: Natiivne
       emoji_version_label: 'Emoji versioon'
+      emoji_version_text: 'Kasutatav emoji versioon.'
       general_ui_settings_heading: 'Üldised kasutajaliidese seaded'
       initial_category_label: 'Algne kategooria'
+      initial_category_text: 'Vaikimisi alustab emoji valija Emotikonide kategooriaga.'
+      recents_count_label: 'Hiljuti kasutatud emojide arv'
+      recents_count_text: 'Mitu hiljuti kasutatud emojit salvestada.'
       show_category_buttons_label: 'Näita kkategooria nuppe'
       show_preview_label: 'Näita eelvaate sektsiooni'
+      show_recents_label: 'Näita (ja salvesta) enim kasutatud emojid'
+      show_search_label: 'Näita otsinu sisendit'
       show_variants_label: 'Näita variante'
+      show_variants_text: 'Mõningatel emojidel on nahatooni variatsioone. Kui valitud emojil on selliseid variatsioone, siis nende valimisel avaneb hüpikaken, millest kasutaja saav valida oma eelistatud variandi.'
       specify_categories_label: 'Määra kategooriad'
+      specify_categories_text: 'Siin saad määrata kategooriate nimekirja ning emoji valija näitab ainult neid kategooriaid.'
   forum:
     composer:
       emoji_tooltip: 'Sisesta emoji'
@@ -69,6 +81,7 @@ the-turk-flamoji:
       food: 'Toit ja jook'
       objects: Objektid
       people: Inimesed
+      recents: 'Hiljutised emojid'
       smileys: Emotikonid
       symbols: Sümbolid
       travel: 'Reisimine ja kohad'

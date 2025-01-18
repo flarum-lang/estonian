@@ -23,3 +23,5 @@ the-turk-stickiest:
       super_sticky_label: '=> the-turk-stickiest.ref.super_sticky'
       tag_sticky_label: '=> the-turk-stickiest.ref.tag_sticky'
       tags_label: '=> flarum-tags.ref.tags'
+  ref:
+    sticky: '=> flarum-sticky.ref.sticky'
