@@ -14,6 +14,7 @@ walsgit_discussion_cards:
         cardOptions_title: 'Kaardi valikud'
         defaultImage_title: 'Üldine vaikimisi pilt'
         desktopCardWidth_label: 'Peamise kaardi laius töölaual'
+        onIndexPage_help: 'Kui see on aktiveeritud, siis lehekülg <em>kõik vestlused</em> näitab kaarte.'
         onIndexPage_label: 'Aktiveeri kaardid avalehel'
         otherOptions_title: 'Valikud, mis nõuavad teiste lisaprogrammide olemasolu'
         previewText_label: 'Eelvaate tekst'
@@ -31,6 +32,7 @@ walsgit_discussion_cards:
         showViews_help: 'Kui see valik on sisse lülitatud, siis kaardil näidatakse vestluse vaatamiste arvu.'
         showViews_label: 'Näita vaatamisi'
         tabletCardWidth_label: 'Peamiste kaartide laius tahvlis'
+        where_info: 'Vali, kus sa soovid vestluse kaarte kasutada.'
         where_title: 'Kus?'
     tag_modal:
       desktopCardWidth_label: 'Peamiste kaartide laius töölaual'

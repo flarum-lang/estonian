@@ -17,6 +17,7 @@ v17development-flarum-badges:
       not_installed:
         dismiss: 'Ära näita uuesti'
         install: Paigalda
+        title: 'Autasusta kasutajaid aumärgiga automaatselt'
       requirement_drivers:
         has_badge: 'Omab aumärki'
     badge:
@@ -25,11 +26,13 @@ v17development-flarum-badges:
       icon: 'Aumärgi ikoon'
       icon_color: 'Ikooni värv'
       image: 'Aumärgi pildi URL'
+      image_placeholder: 'Sisesta aumärgi pildi URL'
       is_image: 'Aumärk on pilt'
       is_image_description: 'Kasuta vaikimisi aumärgi asemel pilti'
       label_color: 'Teksti värv'
       name: 'Aumärgi nimi'
       visible: Nähtav
+      visible_description: 'Lülita see aumärk sisse. Kui see on välja lülitatud, siis see pole nähtav.'
     badge_category:
       blockview: Ploki-vaade
       description: 'Kategooria kirjeldus'
@@ -39,6 +42,9 @@ v17development-flarum-badges:
       'no': Ei
       title: Kinnita
       'yes': Jah
+    confirm_messages:
+      delete_badge: 'Oled sa kindel, et soovid selle aumärgi kustutada? See kustutatakse kõigilt kasutajatelt ja see on pöördumatu.'
+      delete_category: 'Oled sa kindel, et soovid selle kategooria kustutada? Kui selles kategoorias on aumärke, siis need märgitakse kui ''liigitamata''.'
     create_category: 'Loo kategooria'
     edit_category: 'Muuda kategooriat'
     new_badge: 'Uus aumärk'
