@@ -2,12 +2,25 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-boring-avatars/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      boringavatar:
+        anonymize_description: 'Kustutab boring avatarid ja loob uued juhuslikud.'
+        delete_description: 'Kustutab boring avatarid.'
+        export_description: 'Lisab boring avatarid eksporditavasse ZIP-faili.'
 ianm-boring-avatars:
   admin:
     settings:
       color1: 'Värv 1'
       color2: 'Värv 2'
+      color3: 'Värv 3'
       color4: 'Värv 4'
+      color5: 'Värv 5'
       identifier: Identifikaator
       identifier_display_name: 'Näidatav nimi'
+      identifier_email: E-post
+      identifier_help: "Kasutatakse iga kasutaja jaoksunikaalse avatari loomiseks.\n"
       identifier_id: 'Kasutaja ID'
+      theme: Teema
+      theme_help: "Teema, mida kasutatakse boring avataride jaoks.\n"
