@@ -6,5 +6,11 @@ clarkwinkelmann-email-whitelist:
   admin:
     settings:
       blacklist: 'Must nimekiri'
+      blacklistHelp: "Üks väljend rea kohta. Kui must nimekiri on olemas, siis kõik, mis selles pole on sisuliselt valges nimekirjas.\n"
       message: 'Kohandatud veateade'
-      regex: Regulaarväljend
+      regex: Regulaaravaldis
+      regexHelp: "Lülitu dpmeenide nimekirjast regulaaravaldiste kontrollimisele. Igal real peab olema korrektne regulaaravaldis koos eraldajaga.\n"
+      whitelist: 'Valge nimekiri'
+      whitelistHelp: "Üks väljend rea kohta. Seda peetakse mustast nimekirjast olulisemaks.\n"
+  api:
+    fallbackMessage: 'E-posti aadress pole valges nimekirjas.'

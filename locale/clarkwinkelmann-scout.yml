@@ -5,15 +5,23 @@
 clarkwinkelmann-scout:
   admin:
     setting:
+      algoliaConnectTimeout: 'Algolia Connect aegumine (valikuline)'
       algoliaId: 'Algolia ID'
+      algoliaReadTimeout: 'Algolia Read aegumine (valikuline)'
       algoliaSecret: 'Algolia salasõna'
+      algoliaWriteTimeout: 'Algolia write aegumine (valikuline)'
       driver: Draiver
       driverOption:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': Nulli
         tntsearch: TNTSearch
+      limit: 'Vaikimisi tulemuste limiit'
       limitPlaceholder: Automaatne
       meilisearchHost: 'Meilisearchi host'
       meilisearchKey: 'Meilisearchi võti'
+      prefix: 'Indekseeri nime eesliide (valikuline)'
+      queryMinLength: 'Minimaalne päringu pikkus soovituste saamiseks'
       queryMinLengthPlaceholder: Automaatne
+      queue: 'Töötle indeksi uuendusi järjekorras'
+      tntsearchMaxDocs: 'TNT otsingu maks. Dokumente (valikuline, maksimaalne tulemuste arv)'

@@ -17,6 +17,8 @@ clarkwinkelmann-catch-the-fish:
       discussion: Vestlused
       discussion-age: 'Kui vana (päevades) peab vestlus olema enne, kui sellele saab kala panna'
       discussion-tags: 'Siltide valge nimekiri'
+      discussion-tags-help: "Kui sa ei vali ühtegi silti, siis saab valida vestluseid, mis vastavad aja seadetele. Kui on valitud vähemalt mõni silt, siis peab vestlusel olema valitud äks neist siltidest. Tõenäosus on võimalus, et valik tehakse pärast seda, kui kõik muud valikud on juba läbi proovitud. Siltide nimekiri on alati tagavaravariant, seega veendum et sildi all oleks vähemalt üks vestlus.\n"
+      discussion-tags-unavailable: 'Seaded pole saadaval, kuna lisaprogramm Sildid on välja lülitatud.'
       general: Üldine
       post: Postitused
       post-age: 'Kui vana (päevades) peab postitus olema enne, kui sellele saab kala panna'
@@ -35,16 +37,22 @@ clarkwinkelmann-catch-the-fish:
         tag: Silt
       time-to-place: 'Kala paigutamiseks jääv aeg enne (minutites), kui see paigaldatakse automaatselt'
       user: Kasutajad
+      user-age: 'Kui kaua (päevades) peab kasutaja olema aktiivne enne, kui tema kontole saav kala paigaldada'
+      user-probability: 'Tõenäosus, et on paigaldatud kasutajaprofiilile (%)'
   api:
     cannot-catch-hold-fish: 'Eelmine püüdja peab kala vabastama enne, kui saad selle kinni püüda'
     cannot-catch-own-fish: 'Sa ei saa püüda kala, mida sa oled ise asetanud'
     default-fish-name: 'Kala nr. {number}'
     fish-update-expired: 'Liiga hilja, sa ei saa enam seda kala muuta. See on vahepeal paigutatud automaatselt kuhugi mujale'
     fish-update-wrong-user: 'Sa ei saa enam seda kala muuta. Keegi teine on selle juba tõenäoliselt kinni püüdnud'
+    inactive-discussion: 'Kala ei saa paigaldada vestlusele, mis on olnud mitteaktiivne rohkem, kui {days} päeva'
+    inactive-post: 'Kala ei saa paigaldada postitusele, mis on üle {days} päeva vana'
+    inactive-user: 'Kala ei saa paigaldada kasutajale, kes on olenur rohkem, kui {days} päeva mitteaktiivne'
     invalid-discussion-id: 'Näib, et vestlust pole olemas. Äkki see kustutati just hiljuti'
     invalid-post-id: 'Tundub, et postitust pole olemas, ehk see on hiljuti kustutatud'
     invalid-user-id: 'Näib, et kasutajat pole olemas, ta on ilmselt hiljuti kustutatud'
     model-deleted: 'Kala ei saa paigutada kustutatud vestlusesse või postitusse'
+    model-private: 'Kala ei saa paigutada privaatsele vestlusele või postitusele'
     non-comment-post: 'Saab panna kalu ainult kommentaari postitustele'
     random-error: 'Juhusliku pildi asukoha loomine ebaõnnestus'
     round-finished: 'See raund on lõpetatud'
@@ -61,8 +69,10 @@ clarkwinkelmann-catch-the-fish:
     caught-fish-modal:
       congratulation: 'Õnnitlused! Püüdsid kala. Oled püüdnud kokku {catch_count} kala.'
       name: 'Kala nimi'
+      name-help: 'Võid soovi korral kalale uue nime anda. Nimi peab vastama foorumi reeglitele.'
       named-by: 'Nime andis'
       placed-by: 'Kohale pani'
+      placement-help: 'Võid peita kala ükskõik kuhu sa soovid foorumi viimastes vestlustes või aktiivseta kasutajate profiililehtedel. Sa ei saa püüda kala, mille sa ise paigutasid.'
       submit-continue: Jätka
       submit-name: 'Salvesta nimi'
       submit-name-place-later: 'Salvesta nimi ja vali peitmise koht'
@@ -72,6 +82,7 @@ clarkwinkelmann-catch-the-fish:
       title: 'Püüdsid kala!'
     drop-area:
       message: 'Võid kala siia lohistada'
+      missing-from-store: 'Seda kala andmetest ei leitud'
     edit-fish-modal:
       title: 'Muuda kala "{name}"'
     edit-fish:
@@ -91,6 +102,8 @@ clarkwinkelmann-catch-the-fish:
       name: Nimi
       name-help: 'Selle raundi avalik nimi, seda näidatakse bänneril ja edetabelis'
       save: 'Salvesta raund'
+      starting-pack: Stardipakett
+      starting-pack-help: 'Kaasab mõningaid kalu juba alguses'
       starts-at: 'Alguse aeg'
     fish-image:
       alt: 'Kala "{name}" pilt'
@@ -136,6 +149,7 @@ clarkwinkelmann-catch-the-fish:
       count: 'Püütud kalu'
       loading: Laadimine...
       rank: Nimi
+      title: 'Raundi {name} tulemused'
       user: Kasutaja
     table-round:
       actions: Tegevused

@@ -8,7 +8,9 @@ blomstra-payments:
       select-pta-product: '(PTA) Nõutud toode'
     edit-tag:
       select-bounty-product: '(Annetus) Nõutud toode'
+      select-ptp-product: '(PTP) Nõutud toode'
       select-ptv-product: '(PTV) Nõutud toode'
+      visible-from: 'Peida postitused selle lävi juures'
     permission:
       enable-bounties: 'Luba annetused'
     settings:
@@ -32,6 +34,10 @@ blomstra-payments:
     choose-bounty-amount-modal:
       checkout-control: Kassa
       title: 'Vali annetuse summa'
+    exceptions:
+      out-of-bounds-amount:
+        max: 'Makse summas {amount} pole lubatud. Maksimaalne summa on {max}.'
+        min: 'Makse summas {amount} pole lubatud. Minimaalne summa on {min}.'
     nav:
       access_portal: 'Ligipääsu portaal'
       user_subscriptions: Tellimused
@@ -49,6 +55,9 @@ blomstra-payments:
     subscription-card:
       bounty: Annetus
       cancel-control: Loobu
+      none: 'Makseid või aktiivseid tellimusi pole'
       pta: 'Makstud ligipääs'
       ptp: 'Makstud avaldamiseks'
       ptv: 'Vaatamiseks maksa'
+    tag:
+      require-payment-label: 'Makse on nõutud'

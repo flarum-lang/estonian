@@ -5,25 +5,41 @@
 clarkwinkelmann-money-rewards:
   admin:
     permissions:
+      createMoney: 'Loo autasustamisel raha'
       customAmounts: 'Vali kohandatud summa, mida tasuks anda'
       rewardWithMoney: 'Tasusta teisi kasutajaid rahaga'
       seeMoneyRewardHistory: 'Vaata teiste kasutajate tasude ajalugu'
     settings:
+      decimals: 'Maksimaalne kümnendkohtade arv kohandatud summades'
       max: 'Kohandatud väärtuste maksimaalne väärtus'
       min: 'Kohandatud koguste minimaalne väärtus'
       preselection: 'Eelvalitud summad (eraldatud komadega, valikuline)'
   api:
     error:
+      decimals: 'Summa on piiratud {decimals} kümnendkohaga.'
       notEnoughFunds: 'Pole piisavalt raha.'
   forum:
     modal:
       balance: 'Sinu saldo: {amount}'
       label:
         comment: 'Kommentaar (avalik)'
+        create: 'Loo raha minu kontolt rahavõtmise asemel'
         custom: 'Kohandatud summa'
       optionCustom: Kohandatud
       submit: Saada
+      success: 'Postituse autorile on saadetud autasu!'
+      target: 'Autasusta kasutaja {username} postitust #{number}'
+      title: 'Autasusta postitust'
+    post:
+      action: Autasu
+      disallowedOther: 'Sa ei saa seda postitust autasustada. Põhjus on tõenäoliselt see, et autor on anonüümne või on oma kustutanud.'
+      disallowedOwn: 'Sa ei saa omaenda postitust autasustada.'
+      section: Autasud
+    profile:
+      nav: Autasud
+      title: Autasud
     record:
       comment: 'Kommentaar:'
       from: alates
+      post: '<a>postituse #{number}</a> vestluse "{title}" eest'
       to: kuni
