@@ -8,3 +8,5 @@ justoverclock-flachat:
     publishKey-help: 'kopeeri siia avaldamise võti aadressilt https://dashboard.pubnub.com/signup'
     subscribeKey: 'PubNub Subscribe võti (tasuta)'
     subscribeKey-help: 'kopeeri siia avaldamise võti aadressilt https://dashboard.pubnub.com/signup'
+  forum:
+    writeinchat: 'Kirjuta jututuppa...'

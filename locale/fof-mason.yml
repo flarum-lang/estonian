@@ -19,6 +19,7 @@ fof-mason:
     fields:
       add: 'Lisa väli {field}'
       description: 'Välja kirjeldus'
+      description-help: "Valikuline kirjeldus, miks seda välja on vaja.\n"
       edit: 'Muuda välja {field}'
       icon: Ikoon
       icon-preview: 'eelvaade: {preview}'
@@ -33,6 +34,8 @@ fof-mason:
       show_when_empty-help: 'Kas välja näidatakse vestluses, kui sellesse pole midagi sisestatud'
       user_values_allowed: 'Kasutaja väärtused on lubatud'
       validation: 'Kasutaja väärtuste kontrollimine'
+    messages:
+      delete-field-confirmation: "Oled sa kindel, et soovid kustutada välja \"{name}\"? Väli ja selle vastused eemaldatakse kõigist vestlustest, mis neid kasutavad. Kas kustutada väli?\n"
     permissions:
       fill-fields: 'Väljade täitmine kõigis uutes vestlustes'
       see-other-fields: 'Väljade nägemine kõigis olemasolevates vestlustes'
@@ -41,8 +44,13 @@ fof-mason:
       update-other-fields: 'Kõigi vestluse väljade uuendamine'
       update-own-fields: 'Omaenda vestlustes väljade muutmine'
     settings:
+      column-count: 'Veergude arv väljade näitamisel'
+      fields-in-hero: 'Näita väljasid esimese postituse asemel vestluse bänneris'
       fields-section-title: 'Kohandatud väljade sektsiooni pealkiri'
+      fields-section-title-help: "Kasutajad näevad seda teksti kohandatud väljade kohal redaktoris ja vestluses.\n"
       fields-section-title-placeholder: 'Vaikimisi pealkirja ei näidata'
+      hide-empty-fields-section: 'Peida pealkiri ja juhtelemendid, kui kõik väljad tühjad ja peidetud'
+      labels-as-placeholders: 'Näita veerge kui kohatäitjaid vormis'
       n-columns: '{count} veergu'
       tags-as-field: 'Näita siltide valijat väljana'
       tags-as-field-help: "See peidab tavapärase siltide valija ning näitab selle asemel kohandatud väljade rippvalikut. See töötab ainult siis, kui sa oled lubanud valida ainult ühe peamise ja ühe teisejärgulise sildi!\n"

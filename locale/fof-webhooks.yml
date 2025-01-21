@@ -21,12 +21,14 @@ fof-webhooks:
       deleted: 'Kustutas postituse silidiga `{1}`'
       hidden: 'Peitus postituse `{1}`'
       posted: 'Uus postitus`{1}`'
+      restored: 'Taastas postituse vestluses `{1}`'
       revised: 'Muutis postitust `{1}`'
     user:
       deleted: 'Kustutas kasutaja `{1}`'
       registered: 'Uus kasutaja on registreeritud'
       renamed:
         description: 'Uus kasutajanimi: {1}'
+        title: 'Muutis `{1}` kasutajanime'
   admin:
     errors:
       service_not_found: 'Teenust "{service}" ei leitud.'

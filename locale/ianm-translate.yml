@@ -11,6 +11,7 @@ ianm-translate:
         heading: 'Sõnastiku seaded'
     permission:
       edit-translation: 'Muuda tõlget käsitsi'
+      refresh-translation: 'Sunni vahemälus olevate tõlgete uuesti tõlkimine'
       translate-to-all-locales: 'Vaata tõlget ükskõik, mis foorumi keeles'
       translate-to-locale: 'Vaata tõlget kohalikus keeles'
     settings:
@@ -18,6 +19,7 @@ ianm-translate:
       button: Seaded
       deepl:
         api_key:
+          help: 'Registreeru lingil {link}. Draiver tuvastab tasuta/pro võtme liigi.'
           label: '=> ianm-translate.lib.settings.api-key'
         en_choice:
           help: 'Kui tõlgitakse inglise keelde, siis vali, mis variatsiooni peaks kasutama.'
@@ -26,6 +28,7 @@ ianm-translate:
             en-GB: 'Inglise (UK) en-GB'
             en-US: 'Inglise (US) en-US'
         formality:
+          help: 'Kui see on saadaval, siis tõlkeis saab kasutada erinevaid formaalsuse tasemeid. Määra oma eelistus siin.'
           label: Formaalsus
           options:
             default: Vaikeväätus
@@ -33,24 +36,35 @@ ianm-translate:
             prefer_more: 'Rohkem ametlik'
       general:
         heading: 'Üldised seaded'
+        help: 'Need seaded juhivad tõlkesüsteemi üldist käitmist.'
       google-cloud:
         api_key:
+          help: 'Registreeru lingil {link} API võtme saamiseks. See draiver kasutab V2 API - Basic.'
           label: '=> ianm-translate.lib.settings.api-key'
       libre:
         api_key:
+          help: '(valikuline) Kui sinu LibreTranslate server vajab API võtit, siis sisesta see siia.'
           label: '=> ianm-translate.lib.settings.api-key'
         port:
+          help: 'LibreTranslate serveri serveri port. Kui kasutad omaenda serverit, siis sisesta port siia.'
           label: 'Serveri port'
         url:
+          help: 'LibreTranslate serveri URL. Kui kasutad omaenda serverit, siis sisesta siia URL. Skeem peaks olema kas ''http'' või ''https''.'
           label: 'Serveri URL'
       multi-lang-search: 'Mitmekeelne otsing'
+      multi-lang-search-help: 'Kui see on sisse lülitatud, siis kaasab otsing kogu sisu kõiki tõlkeid.'
       provider: 'Tõlketeenuse pakkuja'
       providers:
         heading: 'Tõlketeenuse seaded'
+        help: 'Vali oma eelistatud tõlketeenuse pakkuja ja seadista seda siin.'
       seemless: 'Sujuv tõlkimine'
+      seemless-help: 'Beeta funktsioon. Kui see on sisse lülitatud, siis kõik kasutajate sisu tõlgitakse automaatselt kõigisse teistesse saadaolevatesse foorumi keeltese. Kui kasutaja vaatab mitmekeelset sisu, siis tõlkeid näidatakse automaatselt.'
       seo:
         default-lang: 'Kattub foorumi vaikimisi keelega'
+        default-lang-help: 'Kui see on sisse lülitatud, siis hreflang sildile <code>x-default</code> lisatakse vaikimisi keel.'
         heading: 'SEO seaded'
+        help: 'Need seaded kontrollivad tõlkesüsteemi käitumist seoses otingumootorite optimiseerimisega.'
+      translate-all-enabled: 'Luba kõik tõlke keeled'
       translate-polls: 'Tõlgi küsitlused'
       translate-quiz: 'Tõlgi küsitlusi'
   forum:
@@ -58,6 +72,7 @@ ianm-translate:
     discussion:
       post:
         close-translation: 'Sulge tõlge'
+        translated-updated: 'Tõlget uuendati viimati {time} kasutades teenust {provider}'
       title:
         detected-language: '{postLang}'
     manage-translations:

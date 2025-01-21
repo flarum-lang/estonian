@@ -6,11 +6,26 @@ ianm-gravatar:
   admin:
     settings:
       defaults:
+        identicon_label: 'identicon: geomeetrilised mustrid, mis põhinevad e-posti räsil'
+        monsterid_label: 'monsterid: genereeritud ''kollid'' erinevate värvide, nägude jms.'
+        mp_label: 'mp: (mystery-person) lihtne multika-stiilis inimese siluett a simple (ei muutu e-posti räsiga)'
+        retro_label: 'retro: ägedad genereeritud mängu-stiilis 8-bitised pikslilised näod'
+        robohash_label: 'robohash: genereeritud robotid erinevate värvide, nägude jms'
         title: Vaikeväärtused
+        wavatar_label: 'wavatar: genereeritud näod erinevate taustadega'
+      force-default:
+        helptext: 'Sunnib vaikimisi komplekti kasutamist isegi kui e-posti räsi lingib kohandatud üleslaaditud avatare'
+        title: 'Sunni peale vaikeväärtus'
       proxy:
         title: 'Proksi gravatarid'
       rating:
+        g_label: 'g: sobivad näitamiseks kõigil veebisaitidel ja igasuguse sihtgrupi jaoks'
+        pg_label: 'pg: võib sisaldada ebaviisakaid žeste, provotseerivaid isikuid, kergemaid vandesõnu või vähest vägivalda'
+        r_label: 'r: võib sisaldada tõsiseid roppusi, tõsist vägivalda, alastust või narkootikumide kasutamist'
         title: Hinnang
+        x_label: 'x: võib sisaldada seksuaalse sisuga pilte või eriti häirivat vägivalda'
+      replace-flarum-custom:
+        title: 'Asenda foorumis olevad kohandatud avatarid'
   forum:
     settings:
       edit-gravatar: 'Halda avatari saidil gravatar.com'

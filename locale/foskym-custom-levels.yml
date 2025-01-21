@@ -9,20 +9,42 @@ fof-user-directory:
       most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
 foskym-custom-levels:
   admin:
+    auto_remove:
+      - 'Ära kunagi eemalda kogemuspunkte'
+      - 'Kui postitus/vastus peidetakse või kustutatakse (vaikeväärtus)'
+      - 'Kui postitus/vastus on püsivalt kustutatud'
+    go_to_forum_quests: 'Foorumi retkede lisaseaded'
     levels:
       add_button: 'Lisa tase'
+      delete_confirmation: 'Kinnita selle taseme kustutamine?'
       edit_level: 'Muuda taset'
       min_exp_required: 'Nõutud aegumine'
       name: 'Taseme nimi'
     pages:
       index: Avaleht
       levels: Tasemed
+    permissions:
+      edit_exp: 'Muuda kasutaja kogemuspunkte'
     preview: Eelvaade
     settings:
+      autoRemove: 'Eemalda kogemuspunkte automaatselt'
+      cascadeRemove: 'Kui vestlus eemaldatakse, siis eemaldatakse vastuste kogemuspunktid'
+      discussionMaxTimes: 'Maksimaalne vestluste arv, mida kasutaja saab päevas teha, 0 tähendab, et limiiti pole'
       expDesc: 'Saadaolevad muutujad: [expTotal] [expPercent] [nextLevel] [expToNextLevel]'
+      expForDiscussion: 'Iga vestluse eest saadud kogemuspunktid'
+      expForLike: 'Meeldimise eest saadud kogemuspunktid'
+      expForPost: 'Iga postituste eest saadud kogemuspunktid'
+      expForPostDesc: 'Arv ilma komakohtadeta. Või vahemik, nt.「[1, 10]」tähendab, et see on juhuslik number 1 ja 10 vahel'
+      expText: 'Sisesta tekst, mida näidatakse kogemuspunktidena (nt. [expTotal] kogemuspunkti)'
       levelDesc: 'Saadaolevad muutujad：[tase]'
+      levelText: 'Sisesta tekst, mida näidatakse tasemete juures (nt. Järk, tase)'
+      postMaxTimes: 'Maksimaalne postituste arv, mida võib päevas teha, 0 tähendab, et limiiti pole'
+      postMinLength: 'Minimaalne postituse pikkus, 0 tähendab, et limiiti pole'
   forum:
+    label:
+      exp_logs: 'Kogemuspunktide logid'
     log:
+      exp: 'Kogemuspunktide vahetamine'
       load_more: 'Laadi rohkem'
       no_more: 'Rohkem pole'
       no_records: 'Andmeid pole'
@@ -31,26 +53,49 @@ foskym-custom-levels:
       type:
         admin_edit: 'Admin muutis'
         automoderator: 'Automaatne moderaator'
+        comment_deleted_in_deleted_discussion: 'Kommentaar kustutati kustutatud vestluses'
         discussion_deleted: 'Vestlus kustutati. {title}'
         discussion_hidden: 'Vestlus peideti. {title}'
         discussion_restored: 'Vestlus taastati. {title}'
         discussion_started: 'Vestlust alustati. {title}'
+        forum_quests: 'Foorumi retked: Lõpetatud {name}'
         post_deleted: 'Postitus kustutati'
         post_hidden: 'Postitus peideti'
+        post_liked: 'Postitus märgitu meeldivaks'
         post_posted: 'Tehti postitus'
         post_restored: 'Postitus taastati'
+        post_unliked: 'Postitus märgiti mittemeeldivaks'
         store_purchase: 'Ostetud poest'
+        system_clear: 'Süsteemi tühjendamine'
         system_refresh: 'Süsteemi värskendamine'
       view: Vaata
     modal:
       current: Praegune
       submit_button: Salvesta
+      title: 'Muuda kogemuspunkte'
+    notifications:
+      level_updated: 'Õnnitlused! Jõudsid tasemele {level}!'
+    settings:
+      notify_level_updated: 'Teavita, kui taset uuendatakse'
+    user_controls:
+      edit_exp_button: 'Muuda kogemuspunkte'
   lib:
     defaults:
+      exp: '[expTotal] kogemuspunkte'
       level: Tase
+    error:
+      calculation: 'Kogemuspunktide arvutamine on vale.'
     integrations:
       automoderator:
+        action_name: 'Anna kogemuspunkte'
         metric_name: Exp
+      forum-quests:
+        reward_name: Kogemuspunktid
+      store:
+        item_name: Kogemuspunktid
+      user-directory:
+        least_exp: 'Vähem kogemuspunkte'
+        most_exp: 'Enim kogemuspunkte'
 nodeloc-leaderboard:
   lib:
     sort:

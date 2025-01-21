@@ -31,6 +31,7 @@ foskym-sorts-for-user-directory:
       sort_by_likes_received: 'Sorteeri meeldimiste järgi (nõuab lisaprogrammi Likes Received)'
       sort_by_money: 'Sorteeri raha järgi (nõuab lisaprogrammi Antoinefr Money)'
       sort_by_nickname: 'Sorteeri hüüdnime järgi (nõuab hüüdnime kasutamist)'
+      sort_by_recently_seen: 'Sorteeri hiljuti nähtute järgi'
   forum:
     user_card:
       monthly_comments: 'Kommentaare kuus {count}'
