@@ -19,6 +19,7 @@ xypp-user-decoration:
       delete_decoration: 'Kustuta teised dekoratsioonid'
       offer_decoration: 'Paku dekoratsiooni'
       view-all: 'Vaata kõiki dekoratsioone'
+      view_decoration: 'Teiste dekoratsioonide vaatamine'
     settings:
       avatar_hijack:
         title: 'Avatari kaaperdamine'
@@ -33,8 +34,13 @@ xypp-user-decoration:
   forum:
     create: Loo
     create-modal:
+      button: Loo
+      delete-button: Kustuta
+      desc: Kirjeldus
       edit-button: Muuda
       edit-title: 'Muuda dekoratsiooni #{0}'
+      name: nimi
+      style: Stiilileht
       title: 'Loo dekoratsioon'
       type:
         avatar: Avatar
@@ -59,6 +65,8 @@ xypp-user-decoration:
       delete_confirm: 'Oled sa kindel, et soovid seda dekoratsiooni kustutada?'
       remove_button: Eemalda
     decorations: Dekoratsioonid
+    delete-success: Kustutatud
+    delete_confirm: 'Oled sa kindel, et soovid selle kaunistuse kustutada?'
     modal:
       button: Pakkumine
       loading: Laadimine
@@ -66,3 +74,5 @@ xypp-user-decoration:
       title: 'Paku dekoratsiooni'
     page:
       show-decorations: Dekoratsioonid
+    user_controls:
+      offer: 'Paku dekoratsiooni'

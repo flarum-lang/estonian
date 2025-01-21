@@ -5,10 +5,19 @@
 xypp-invite-user:
   admin:
     condition:
+      user_be_invited: 'Kutsu mind'
       user_invite: 'Kutsu kasutajaid'
     settings:
+      invite_each_other:
+        description: 'Kasutajad saavad saavad kutsuda kasutajaid, kes kutsusid neid.'
+        title: 'Üksteise kutsumine'
       invite_new_user_only:
+        description: 'Ära luba kasutajatel kutsuda kasutajaid, kelle registreerimise aeg on hilisem kui neil endil.'
         title: 'Luba ainult uute kasutajate kutsumine'
+      reward_be_invited:
+        title: 'Autasuta valmistust saada kutse'
+      reward_invite:
+        title: 'Autasusta kutsumist'
   api:
     has_already_be_invited: 'Oled juba aktsepteerinud teise kasutaja kutse.'
     invited_an_elder_user: 'Kutsuja registreerumise aeg varasem, kui sinu oma.'
@@ -17,6 +26,7 @@ xypp-invite-user:
     invited_each_other: 'Sind ei saa kutsuda kasutaja, kelle sa ise kutsusid.'
   forum:
     condition:
+      user_be_invited: 'Saa kutse'
       user_invite: 'Kutsu kasutaja'
     confirm:
       accept: Aktsepteeri
@@ -26,6 +36,7 @@ xypp-invite-user:
       title: 'Kinnita kutsumine'
     invite: Kutsu
     notification:
+      user_invited: '{username} võttis just su kutse vastu.'
       user_invited_label: 'Kutse võeti vastu'
     page:
       code:

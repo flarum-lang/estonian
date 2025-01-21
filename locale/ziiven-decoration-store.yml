@@ -58,7 +58,7 @@ ziven-decoration-store:
     notification-receive-subscription: 'Tellimustasu maha võtmine'
     notifications:
       subscription-fee-deduction-excerpt: 'Hind {cost}'
-    processing: Töötlemine
+    processing: Töötlemine...
     purchase-add-cart: 'Lisa ostukorvi'
     purchase-confirmation: 'Ostu kinnitamine'
     purchase-error: 'Tõrge ostmisel'

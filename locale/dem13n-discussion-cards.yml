@@ -13,6 +13,7 @@ dem13n:
       mark_cards: 'Märgi lugemata vestlustega kaardid'
       output_on_index_page: 'Väljund avalehel'
       preview_text: 'Näita lühiteksti'
+      settings_error: 'Tühjenda vahemälu, lülita see lisaprogramm välja, kliki nuppu Eemalda (paremal), kinnita, et andmed on kustutatud, seejärel lülita lisaprogramm sisse'
       show_replies: 'Näita vastuseid'
       show_views: 'Näita vaatamisi (kui sul on paigaldatud lisaprogramm "Flarumite Simple Discussion Views")'
       small_cards: 'Peamiste kaartide arv'

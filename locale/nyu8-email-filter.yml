@@ -7,7 +7,7 @@ nyu8-email-filter:
     blacklist_literal:
       description: 'E-posti aadressid mustas nimekirjas'
       label: 'Must nimekiri'
-      placeholder: 'E-post musta nimekirja'
+      placeholder: 'E-post musta nimekirja...'
     custom_failure_message_label: 'Kohandatud ebaõnnestumise teade'
     general: Üldine
     name_placeholder: 'Reegli nimi'

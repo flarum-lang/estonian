@@ -13,6 +13,7 @@ datlechin-more-discussions:
       filter_by_help: 'Filtreeri vestlusi (vaikimisi <code>viimased</code>)'
       filter_by_label: Filtreeri
       filter_dropdown:
+        hot: 'Trendikas (nõutud lisaprogramm fof/gamification)'
         latest: Viimased
         newest: Uusimad
         oldest: Vanimad

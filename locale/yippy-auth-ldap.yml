@@ -6,8 +6,12 @@ yippy-auth-ldap:
   admin:
     settings:
       domains:
+        add: 'Lisa domeen'
         banner: 'Domeen {index}'
         data:
+          admin_dn_help: 'Anonüümseks sidumiseks jäta tühjaks'
+          admin_password: Parool
+          base_dn: 'Baas DN-id'
           base_dn_help: 'Semikooloniga eraldatud'
           filter: 'Filter, mida rakendada'
           host: 'Domeenis või serveri IP-aadressid'
@@ -16,7 +20,11 @@ yippy-auth-ldap:
           port_help: 'Mitte-SSL (port 389) või SSL (port 636).'
           use_ssl: 'Kasuta SSL-i'
           use_tls: 'Kasuta TSL-i'
+          user_mail: 'Määra e-posti väli'
+          user_nickname_fields: 'Määra hüüdnime väli'
+          user_username: 'Määra kasutajanime väli'
           version: 'LDAP versioon'
+          version_help: 'Võib olla ainult 2 või 3 (vaikeväärtus on 3).'
         header:
           admin: 'LDAP admin'
           flarum: 'Flarumi kasutaja profiil'
@@ -25,6 +33,7 @@ yippy-auth-ldap:
           server: 'LDAP serveri seaded'
         title: 'LDAP domeen'
       method_name: 'LDAP serveri nimi (näidatakse pärast teksti "Logi sisse kasutades")'
+      onlyUse: 'Peida tavapärane Flarumi sisselogimise viis'
       title: 'LDAP seaded'
   forum:
     account_found: 'Serverist {server} leiti konto'
@@ -38,5 +47,9 @@ yippy-auth-ldap:
         not_found: 'Sinu kontot ei leitud serverist {server}.'
         password_expired: 'Sinu parool on aegunud.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
+      csrf_token_mismatch: 'Oled liiga kaua aega mitteaktiivne olnud. Palun värskenda lehekülge ja proovi siis uuesti'
+      domains:
+        no_domains: 'Admini seadetes pole domeeni määratud. Muuda lisaprogrammi seadeid.'
+      not_authenticated: 'Sidumise serverit {server} ei leitud valede kasutajaandmete tõttu. Muuda lisaprogrammi seadeid.'
     log_in_with: 'Logi sisse serveriga {server}'
     log_out: '=> core.ref.log_out'

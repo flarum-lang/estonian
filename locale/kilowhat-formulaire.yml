@@ -67,7 +67,7 @@ kilowhat-formulaire:
       locked: Lukustatud
     choice:
       other-label: 'Muu:'
-      other-placeholder: 'Liik:'
+      other-placeholder: Liik...
     confirmation-email-options-modal:
       field:
         message: Sisu
@@ -232,7 +232,7 @@ kilowhat-formulaire:
       new-placeholder: 'Uus valik...'
       remove: 'Eemalda valik'
     permission-controls:
-      disabled_members_button: 'Non-activated and suspended members'
+      disabled_members_button: 'Mitteaktiivsed ja külmutatud liikmed'
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 'Kasuta vaikeväärtusi'
       members_button: 'Aktiveeritud liikmed'

@@ -18,6 +18,7 @@ blomstra-realtime:
       anonymous-user: '[Anonüümne]'
       no-activity: 'Keegi ei kirjuta'
       people-are-typing: '{number, plural, one {# inimene kirjutab} other {# inimest kirjutavad}}'
+      users-are-typing: '{count, plural, one {{users} kirjutab} other {{users}{others, plural, =1 { & # muud} =0 {} other { & # muud}} kirjutavad}}'
     user:
       settings:
         heading: Reaalajas

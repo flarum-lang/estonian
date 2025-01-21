@@ -45,7 +45,7 @@ walsgit-recycle-bin:
       submit_button: 'Kustuta need postitused jäädavalt'
       success: 'Valitud postitused on kustutatud'
       text_end: ' postitust <u>jäävalt kustutada</u>?'
-      text_start: 'Oled sa kindel, et soovid need '
+      text_start: 'Oled sa kindel, et soovid need <u>igaveseks kustutada</u> '
       title: 'Kustuta need postitused jäädavalt'
     mass_help_text: 'Palun oota kuni lehekülge värskendatakse pärast massiline taastamist või kustutamist'
     mass_restore_modal:

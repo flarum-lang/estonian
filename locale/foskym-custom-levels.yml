@@ -48,6 +48,9 @@ foskym-custom-levels:
   lib:
     defaults:
       level: Tase
+    integrations:
+      automoderator:
+        metric_name: Exp
 nodeloc-leaderboard:
   lib:
     sort:

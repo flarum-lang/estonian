@@ -6,6 +6,7 @@ flamarkt-taxonomies:
   admin:
     edit-taxonomy:
       delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Kas sa tõesti soovid kustutada taksonoomiat {name}? Kõik selle taksonoomia all olevad terminid kustutatakse. Seda taksonoomiat kasutavaid vestlus EI KUSTUTATA.\n"
       field:
         allowCustomValues: 'Luba kohandatud väärtused'
         color: '=> flamarkt-taxonomies.ref.field.color'
