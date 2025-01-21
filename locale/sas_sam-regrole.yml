@@ -9,6 +9,7 @@ sas_sam-regrole:
       allowed_roles_label: 'Lubatud rollid'
       allowed_roles_text: 'Vali rollid, mida kasutajad saavad endale ise määrata.'
       force_users_label: 'Sunni kasutjaid valima endale vähemalt ühe rolli'
+      force_users_text: 'Kui see on sisse lülitatud, siis kasutajad, kellel pole rohkem rolle valitud, külmutatakse ning nad ei saa foorumit kasutada enne, kui nad valivad omale rolli (kasutajad, kellel pole õigus oma kasutajagruppe muuta jäetakse välja).'
       other_options_heading: 'Muud valikud'
   forum:
     choose_role_button_label: '=> sas_sam-regrole.ref.choose_a_role'
@@ -19,5 +20,6 @@ sas_sam-regrole:
     required_role_message: 'Pead valima rolli.'
     sign_up_modal:
       choose_role_heading: '=> sas_sam-regrole.ref.choose_a_role'
+    suspended_temporarily_message: 'Külmustasime ajutiselt su konto senikauaks, kui sa valid omale rolli.'
   ref:
     choose_a_role: 'Vali roll'

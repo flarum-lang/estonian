@@ -11,6 +11,7 @@ the-turk-miserable-users:
       log_out_chance_label: 'Väljalogimise võimalus'
       range_seconds_text: ' sekundit'
       range_separator_text: ' kuni '
+      redirection_chance_label: 'Ümbersuunamise võimalus'
       redirection_page_url_label: 'Ümbersuunamise lahekülje URL'
   forum:
     miserable_user:
