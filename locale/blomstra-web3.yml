@@ -6,6 +6,7 @@ blomstra-web3:
   admin:
     settings:
       infura-project-id: 'Infura projekti ID'
+      signup-with-email: 'Liituma e-postiga'
   forum:
     connect-wallet-modal:
       goback: Tagasi
@@ -14,12 +15,15 @@ blomstra-web3:
     evm-connect-wallet-modal:
       bind: '=> blomstra-web3.ref.bind'
       disconnect: '=> blomstra-web3.ref.disconnect'
+      disconnect-and-unbind: 'Ühenda lahti ja eemalda seos'
       select: '=> blomstra-web3.ref.select'
     log-in:
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
+      with-wallet: 'Logi sisse web3-ga'
     polkadot-connect-wallet-modal:
       attach_address: '=> blomstra-web3.ref.bind'
       connection-request-rejected: 'Ühendus lükati tagasi'
+      disconnect: '=> blomstra-web3.ref.disconnect'
       select: '=> blomstra-web3.ref.select'
       title: '=> blomstra-web3.ref.polkadot-wallets'
       unattach_address: '=> blomstra-web3.ref.unbind'

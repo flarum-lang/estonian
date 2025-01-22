@@ -5,9 +5,38 @@
 justoverclock-reputation-score:
   admin:
     discussions: vestluseid
+    historyBestAnswerSet: 'Reputatsiooni punktid kasvasid parima vastuse saamise pärast.'
+    historyBestAnswerUnset: 'Reputatsiooni punktid vähenesid parima vastuse staatuse kaotamise pärast.'
+    historyDiscussionClosed: 'Reputatsiooni punktid vähenesid, kuna sinu vestlus suleti.'
+    historyDiscussionCreated: 'Reputatsiooni punktid kasvasid vestluse alustamise pärast.'
+    historyFlagCreated: 'Reputatsiooni punktid kasvasid, kuna teatasid sobimatust kasutajast.'
+    historyLikeSet: 'Reputatsiooni punktid tõusid meeldimise saamise pärast.'
+    historyLikeUnset: 'Reputatsiooni punktid vähenesid meeldimise äravõtmise pärast.'
+    historyPostCreated: 'Reputatsiooni punktid tõusid postituse loomise pärast.'
     like: meeldimisi
+    permission:
+      canEarnReputationForDiscussion: 'Võib teenida reputatsiooni punkte vestluse loomise eest'
+    pointsDecreased: 'Punkte vähenes'
+    pointsIncreased: 'Punkte tuli juurde'
     posts: postitust
     resetRewardsButton: 'Nulli kõik kasutajate autasud'
     settings:
+      bestAnswerPoints: 'Punkte "parima vastuse" eest'
+      discussionPoints: 'Uue vestluse loomise eest saadavad punktid'
       maxPoints: 'Maksimaalsed maine punktid'
+      postPoints: 'Punkte postituse loomise eest'
     tagMinimumReputationLabel: 'Minimaalne reputatsiooni piirang'
+  forum:
+    discussionCount: 'Vestluste arv'
+    emptyReputationHistory: 'Selle kasutaja kohta ei leitud ajalugu...'
+    notEnoughReputationMessage: 'Sul pole sellele postitusele vastamiseks piisavalt reputatsiooni punkte'
+    pageTitle: '20 enim usaldatud kasutajat'
+    reputation: Reputatsioon
+    reputationBar: Reputatsioonupunktid
+    reputationDecreasedNotification: 'Oi! Sinu reputatsioon on kahanemas!'
+    reputationHistory: 'Reputatsiooni ajalugu'
+    reputationIncreasedNotification: 'Sinu reputatsioon on tõusmas! Jätka samas vaimus!'
+    tagReputationWarningTitle: Hoiatus!
+    topReputation: 'Kõrgeim reputatsioon'
+    totalPosts: 'Postitusi kokku'
+    trust: Reputatsioon

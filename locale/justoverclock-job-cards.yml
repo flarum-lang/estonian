@@ -4,10 +4,20 @@
 
 justoverclock-job-cards:
   forum:
+    actualOccupationField: 'Tegelik töökoht/amet'
     actualSalaryField: 'Tegelik palk'
+    available: 'Otsib tööd'
+    availableForHireField: 'Otsib tööd'
     avatarField: 'Avatar (URL)'
+    companyNameField: 'Ettevõtte nimi'
+    fieldNotFilled: 'Väli pole täidetud!'
+    formSaved: 'Vorm on salvestatud'
     fullNameField: 'Täispikk nimi'
     jobFormTitle: 'Töö kaart'
     jobProfile: 'Töö profiil'
+    'no': Ei
+    notAvailable: 'Pole saadaval'
     saveBtn: Salvesta
+    showInsidePostsField: 'Kas näidata töö kaarti postituste sees?'
     yearOfExperienceField: 'Kogemus aastates'
+    'yes': Jah

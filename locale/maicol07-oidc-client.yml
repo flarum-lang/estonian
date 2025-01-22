@@ -6,10 +6,14 @@ maicol07-oidc-client:
   admin:
     settings:
       client:
+        cert_path: 'Sertifikaadi asukoht (kui kasutad enda poolt allkirjastatud sertifikaati)'
+        enable_pkce: 'Lülita PKCE sisse (soovitatud)'
         http_proxy: 'HTTP proksiserver'
         id: 'Kliendi ID'
         secret: 'Kliendi salasõna'
+        timeout: 'Päringu aegumine'
         title: 'Kliendi seaded'
+        verify_ssl: 'Päringute ajal SSL-i kontrollimine'
       other:
         manage_account_url: 'Konto haldamise URL'
         remove_signup_btn: 'Eemalda liitumise nupp'
@@ -18,6 +22,15 @@ maicol07-oidc-client:
         time_drift: 'JWT ajanihe'
         title: 'Muud seaded'
       provider:
+        code_challenge_method: 'Koodi väljakutse meetod'
+        endpoints:
+          authorize: 'Autoriseerimise lõpp-punkti URL'
+          jwks: 'JWKS lõpp-punkti URL'
+          logout: 'Sessiooni lõppemise (väljalogimise) lõpp-punkti URL'
+          token: 'Kontrollkoodi lõpp-punkti URL'
+          userinfo: 'Kasutajainfo lõpp-punkti URL'
+        id_token_signing_alg: 'ID kontrollkoodi allkirjastamise algoritm'
+        issuer: 'Väljaandja URL'
         title: 'Teenusepakkuja seaded'
         url: 'Teenusepakkuja URL'
   forum:

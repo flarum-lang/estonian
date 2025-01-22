@@ -17,6 +17,7 @@ justoverclock-igdb-api:
     metacriticScore: 'MetaCriticu skoor'
     noConnection: 'Oih! Videomängude andmebaas ei vasta hetkel. Palun proovi hiljem uuesti.'
     offwebsite: 'Ametlik veebisait'
+    pageText: 'Kui mõtled, et mis mängud on tulemas välja sellel aastal, siis panime need kõik ühele lehele kokku. Seda nimekirja uuendatakse jooksvalt, kui siia lisatakse uusi kuupäevi, kui mõningate mängude välja andmine hilineb ja tuleb mingeid suuri põrutavaid uudiseid. See peaks aitama sul planeerida mängudega seotud küsimusi mitme järgneva kuu jooksul. Kuna mängude kalender on pidevas muutumises, siis soovitame tungivalt sul lisada see lehekülg järjehoidjatesse.'
     pageTitle: 'Uued ja tulevased mängud'
     pagetitle: 'Uued ja tulevased mängud'
     publisher: Avaldaja
