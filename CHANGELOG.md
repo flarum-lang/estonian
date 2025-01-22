@@ -432,6 +432,7 @@ CHANGELOG
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
 * [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
