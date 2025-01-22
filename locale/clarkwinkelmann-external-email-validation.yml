@@ -5,7 +5,11 @@
 clarkwinkelmann-external-email-validation:
   admin:
     settings:
+      body: 'Nõude sisu'
+      default-error-message: 'Vaikimisi veateade'
       headers: 'Päringu päised'
       headers-help: 'Üks päis rea kohta'
       method: 'Nõude meetod'
       uri: 'Nõude URI'
+  api:
+    email-validation-error: 'E-posti aadress ei läbinud välist kontrolli.'

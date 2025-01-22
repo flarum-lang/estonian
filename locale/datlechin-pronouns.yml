@@ -3,7 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-pronouns:
+  admin:
+    settings:
+      icon_help: 'Lülita see valik sisse, kui soovid asesõna teksti asemel kasutada ikooni.'
+      icon_label: 'Asesõnade ikoon'
+      prefix_help: 'Seda teksti näidatakse kasutaja asesõna ees. Jäta tühjaks, kui sa ei soovi midagi näidata.'
+      prefix_label: Asesõnad
   forum:
     change_pronouns:
+      help: 'Sinu asesõnad on nähtavad sinu profiilil ja kasutajakaardil. <a>Mis on isiklikud asesõnad ja miks need peaksid olema olulised?</a>'
       submit_button: '=> core.ref.save_changes'
       title: 'Muuda eesliiteid'
+    settings:
+      change_pronouns_button: 'Asesõnade muutmine'

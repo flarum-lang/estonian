@@ -5,34 +5,45 @@
 blomstra-web3:
   admin:
     settings:
+      allow-sign-up: 'Luba liitumine web3-ga'
       infura-project-id: 'Infura projekti ID'
+      prioritize-web3-auth-modals: 'Ava vaikimisi web3 sisenemine/liitumine'
       signup-with-email: 'Liituma e-postiga'
   forum:
     connect-wallet-modal:
+      evm-wallets: 'EVM rahakott'
       goback: Tagasi
       polkadot-wallets: '=> blomstra-web3.ref.polkadot-wallets'
       signature-invalid: 'Allkiri on vigane.'
+      title: 'Ühenda rahakott'
     evm-connect-wallet-modal:
       bind: '=> blomstra-web3.ref.bind'
       disconnect: '=> blomstra-web3.ref.disconnect'
       disconnect-and-unbind: 'Ühenda lahti ja eemalda seos'
       select: '=> blomstra-web3.ref.select'
+      title: 'EVM rahakotid'
     log-in:
+      basic-login-link: 'Tagasi tavalisele sisselogimisele'
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
       with-wallet: 'Logi sisse web3-ga'
     polkadot-connect-wallet-modal:
       attach_address: '=> blomstra-web3.ref.bind'
       connection-request-rejected: 'Ühendus lükati tagasi'
       disconnect: '=> blomstra-web3.ref.disconnect'
+      goback: 'Tagasi rahakottide juurde'
       select: '=> blomstra-web3.ref.select'
       title: '=> blomstra-web3.ref.polkadot-wallets'
       unattach_address: '=> blomstra-web3.ref.unbind'
     settings:
       unbind: '=> blomstra-web3.ref.unbind'
       unbind_confirm: 'Oled sa kindel, et soovid selle aadressi oma kontolt eemaldada?'
+      wallet-connect-button: 'Ühenda rahakott'
+      wallets_heading: Rahakotid
     sign-up:
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
+      with-wallet: 'Liitu web3-ga'
   ref:
     bind: 'Seosta aadress'
     disconnect: 'Katkesta ühendus'
+    polkadot-wallets: 'Täpilised rahakotid'
     select: 'Vali aadress'

@@ -7,3 +7,7 @@ imdong-visible-to-op-only:
     permissions:
       view-hide-post: 'Vaata peidetud sisu'
       view-post: 'Vaata postitust'
+  forum:
+    button_tooltip_only_op_see: 'Ainult vestluse alustajad näevad'
+    hidden_content_only_op_see: 'See sisu on nähtav ainult vestluse alustajale'
+    only_op_see: 'Ainult vestluse alustajad näevad'

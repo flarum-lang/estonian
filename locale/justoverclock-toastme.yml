@@ -4,4 +4,9 @@
 
 flarum-ext-toastme:
   admin:
+    background: 'Taustavärv (HEX-vormingus)'
+    backgrounddesc: 'Sisesta taustavärv HEX-vormingus - nt. "#ffcc00"'
     dest: 'URL sihtkoht'
+    durdesc: 'Kasuta millisekundeid - näiteks "3000" tähendab 3 sekundit'
+    gravity: 'Gravitatsioon - võib olla "üles" või "alla"'
+    position: 'Asukoht - võib olla "vasakul", "paremal" või "keskel"'
