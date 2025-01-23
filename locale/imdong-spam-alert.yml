@@ -11,6 +11,7 @@ imdong-spam-alert:
       btn-name: Spämm
   forum:
     post:
+      btn-set-spam: 'Märgi spämmiks'
       spam-hide-tips: 'Spämm on peidetud'
     settings:
       notify_post_spam_hide_label: 'Prügi on peidetud sildi pärast'

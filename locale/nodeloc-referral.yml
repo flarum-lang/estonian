@@ -12,4 +12,13 @@ nodeloc-referral:
       price: Hind
       reward: Tasu
   forum:
+    cost: Hind
+    count: Järgi
+    create_time: 'Loomise aeg'
+    invite_code: 'Kutse kood'
+    is_expire: 'Aegunud?'
+    purchase_expire_tip: 'Kutse kood aegub {invite_code_expires} päeva pärast'
+    purchase_help_tip: 'Iga kutse kood maksab {invite_code_price} punkti. Iga kutsutud kasutaja eest saad autasuks {invite_code_reward} punkti.'
+    purchase_invite_code: 'Osta kutse kood'
+    purchase_max_tip: 'Ostu kogus (kuni {invite_code_max_number} korraga)'
     referral: Viitaja

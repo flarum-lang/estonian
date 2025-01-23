@@ -4,6 +4,18 @@
 
 justoverclock-auto-post-count-badge:
   admin:
+    levelFive: 'Muuda taseme 5 silti - "Monster"'
+    levelFive-help: 'aseta siia fontawesome ikoon, mida sa soovid näidata tasemel 5 (nt. "fas fa-square")'
+    levelFour: 'Muuda taseme 4 silti - "Õpetaja"'
+    levelFour-help: 'aseta siia fontawesome ikoon, mida sa soovid näidata tasemel 4 (nt. "fas fa-square")'
+    levelOne: 'Muuda taseme 1 silti - "Beebi"'
+    levelOne-help: 'aseta siia fontawesome ikoon, mida sa soovid näidata tasemel 1 (nt. "fas fa-square")'
+    levelSix: 'Muuda taseme 6 silti - "Guru"'
+    levelSix-help: 'aseta siia fontawesome ikoon, mida sa soovid näidata tasemel 6 (nt. "fas fa-square")'
+    levelThree: 'Muuda taseme 3 silti - "Rääkija"'
+    levelThree-help: 'aseta siia fontawesome ikoon, mida sa soovid näidata tasemel 3 (nt. "fas fa-square")'
+    levelTwo: 'Muuda taseme 2 silti - "Uus kasutaja"'
+    levelTwo-help: 'aseta siia fontawesome ikoon, mida sa soovid näidata tasemel 2 (nt. "fas fa-square")'
     settings:
       color:
         bg1: 'Taust 1'
@@ -12,12 +24,16 @@ justoverclock-auto-post-count-badge:
         help_text: '=> core.ref.icon_text'
         title: 'Ikoonide haldamine'
       label-manager:
+        help: 'Kohanda tasemete nimesid'
         title: 'Tekstitiltide haldamine'
+      tier: 'Tase {tier} : {from} kuni {to} postitust'
   forum:
+    hasWritten: 'Postitusi: {count, plural, one {# postitus} other {# postitust}}'
     less1000post: Guru!
     less100post: Rääkija
     less10post: Beebi
     less300post: Õpetaja
     less50post: 'Uus kasutaja'
     less600post: Monster!
+    nextBadge: 'Järgmine silt'
     posts: postitust

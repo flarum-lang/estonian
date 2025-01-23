@@ -4,11 +4,23 @@
 
 clarkwinkelmann-follow-tags-prompt:
   admin:
+    homepage:
+      following: Jälgimine
     settings:
+      allDiscussionsOnFollowingPageForGuests: 'Näita jälgimise lehel külalistele kõiki vestlusi'
+      availableTagStrategy: 'Sildid, mida hüpikaknas pakutakse'
       buttonOnFollowingPage: 'Näita nuppu jälgimise leheküljel'
+      tagStrategy:
+        all: 'Kõik sildid'
+        list: 'All valitud sildid'
+        primary: 'Esimese taseme peamised sildid'
+        primaryAndChildren: 'Kõikide tasemete peamised sildid'
+        primaryAndSecondary: 'Esimese taseme peamised sildid ja teisejärgulised sildid'
+        secondary: 'Ainult teisejärgulised sildid'
   forum:
     controls:
       choose: 'Vali sildid, mida jälgida'
     modal:
+      continue: 'Edasi foorumisse'
       later: 'Tuleta mulle hiljem meelde'
       title: 'Vali sildid, mida jälgida'

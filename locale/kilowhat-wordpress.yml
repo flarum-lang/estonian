@@ -10,6 +10,9 @@ kilowhat-wordpress:
       check: 'Kontrolli kohe'
       errors: 'Leidsime mõningaid probleeme.'
       healthy: 'Kõik näib korras olevat!'
+      not-run: 'Tervisekontroll on saadaval, kui oled WordPressi ja Flarumi ühendanud.'
+      request-error: 'Tervisekontrolli tegemine ebaõnnestus.'
+      title: Tervisekontroll
     role-group-sync:
       choose:
         group: 'Vali grupp'
@@ -32,6 +35,8 @@ kilowhat-wordpress:
     settings:
       api_key: 'Jagatud API võti'
       api_key_reset: 'Loo uus API võti'
+      api_key_reset_confirm: "Kas ta tõesti soovid luua uue jagatud API võtme? Vana lõpetab töötamise ja seda peab WordPress plugina seadetes käsitsi uuendama.\n"
+      comment_author_sync: 'Määra vestluse autor SSO-st'
       comment_tag_custom: 'Kohandatud väärtused'
       comment_tag_custom_help: 'Komadega eraldatud nimekiri siltide ID-dest'
       comment_tag_none: 'Ära määra sildile'
@@ -56,6 +61,8 @@ kilowhat-wordpress:
         hide: 'Peida vestlused Flarumis'
         ignore: 'Ignoreeri (lukusta vestlus vastavalt seadele Luba kommentaarid)'
         lock: 'Lukusta vestlused Flarumis'
+      post_thumbnail_list: 'Näita WordPressi postituse pisipilti Flarumi vestluste nimekirjas'
+      post_thumbnail_summary: 'Näita WordPressi postituse pisipilti väljavõtte kohal'
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
       use_post_date: 'Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana'
       user_delete: 'Tegevus, kui kasutaja kustutatakse WordPressist'
@@ -69,7 +76,10 @@ kilowhat-wordpress:
         random: 'Juhuslik kasutajanimi'
         user_login: 'Kasutajanimi WordPressist'
       welcome_message: 'Tutvustav sõnum'
+      wordpress_login_full_page: 'Ava hüpikakna asemel WordPressi sisselogimise lehekülg'
       wordpress_login_only: 'Luba ainult WordPressi sisselogimine'
+      wordpress_login_path: 'WordPressi sisselogimise asukoht'
+      wordpress_login_path_help: 'Vajalik ainult siis, kui sa nimetasid oma sisselogimise lõpp-punkti käsitsi või plugina kaudu'
       wordpress_url: 'WordPressi URL'
     tabs:
       comments: 'Kommentaaride integreerimine'
@@ -81,16 +91,29 @@ kilowhat-wordpress:
     wizard:
       install: Paigalda
       wordpress_password: 'WordPressi admini parool'
+      wordpress_password_help: 'Parooli kasutatakse ainult algse seadistamise jaoks ja seda ei salvestada.'
       wordpress_url: 'WordPressi URL'
+      wordpress_url_help: 'Link sinu WordPressi kodulehele'
       wordpress_username: 'WordPressi admini kasutajanimi'
   api:
+    blocked_actions:
+      login: 'Sinu konto on seotud WordPressiga. Kasuta ühendamiseks peamise veebisaidi sisselogimisvormi.'
+      password_reset: 'Sinu konto on seotud WordPressiga. Kasuta parooli taastamiseks peamise veebisaidi sisselogimisvormi.'
     health:
       api-error-other: 'WordPressi API-ga ühendumine andis veateate: {message}'
       comments-mismatch-wordpress: 'Kommentaaride integreerimine on sisse lülitatud WordPressis, aga mitte Flarumis'
+      wordpress-url-https: 'Väljas "WordPressi URL" peaksolema HTTPS (praegune väärtus on "{url}")'
+      wordpress-url-index-php: 'Väljas "WordPressi URL" ei peaks olema "/index.php" (praegune väärtus on "{url}")'
+      wordpress-url-invalid: 'Väli "WordPressi URL" ei näi olevat korrektne URL (praegune väärtus on "{url}")'
+      wordpress-url-missing: 'Väli "WordPressi URL" peab olema täidetud'
+      wordpress-url-trailing-slash: 'Välja "WordPressi URL" lõpus ei peaks olema kaldkriipsu (praegune väärtus on "{url}")'
+    wizard:
+      already_installed: "Flarum on juba WordPressiga seotud. Juhendaja käivitamiseks kustuta Flarumis \"WordPress URL\" ja WordPressis \"Flarum Shared API Key\".\n"
   forum:
     edit-user-modal:
       edit_in_wordpress: 'Muuda WordPressis'
     embed-link-modal:
+      message: 'Lehekülg proovib sind suunata siia {href}'
       open: 'Ava link'
       title: 'Välja kommentaaridest'
     embed:
@@ -98,10 +121,13 @@ kilowhat-wordpress:
     instant-login:
       avatar_alt_text: 'WordPressi avatar'
       button: 'Logi kohe sisse ja värskenda'
+      message: 'Võid kasutada foorumit oma peamise veebisaidi kontoga'
       welcome_known_user: 'Teretulemast tagasi, {avatar} <strong>{name}</strong>!'
       welcome_unknown_user: 'Teretulemast tagasi!'
     log_in:
       with_wordpress_button: 'Logi sisse WordPressiga'
+    settings:
+      edit_on_wordpress: 'Muuda peamise veebisaidi parooli peamisel veebisaidil'
     summary-post:
       blog_link: 'Loe blogis'
       head_label: 'WordPressi postitus'
