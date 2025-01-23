@@ -20,6 +20,7 @@ justoverclock-reputation-score:
     pointsIncreased: 'Punkte tuli juurde'
     posts: postitust
     resetRewardsButton: 'Nulli kõik kasutajate autasud'
+    resetRewardsSuccess: 'Kõik autasud on kustutatud'
     settings:
       bestAnswerPoints: 'Punkte "parima vastuse" eest'
       discussionPoints: 'Uue vestluse loomise eest saadavad punktid'

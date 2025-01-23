@@ -6,6 +6,11 @@ kyrne-websocket:
   admin:
     chart:
       title: 'Websocket statistika'
+    help:
+      cert_path: 'Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Asukoht sinu SSL (https) sertifikaadile SERVERIS, milles su websocket on - tavaliselt .crt või .pem fail.'
+      passphrase: 'Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Parooli kasutatakse sinu sertifikaati - pole tavaliselt vajalik.'
+      pk_path: 'Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Asukoht sinu SSL (https) privaatvõtmele SERVERIS, milles su websocket on - tavaliselt .key või .pem fail.'
+      self_signed: 'Vajalik ainult siis, kui kasutad ssl-i ja MITTE pööratud vaheserverit. Lülita see sisse, kui sinu SSL (https) sertifikaat on allkirjastatud sinu enda poolt.'
     pusher_settings:
       app_host_label: Host
       app_id_label: 'Rakenduse ID'

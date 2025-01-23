@@ -18,16 +18,23 @@ blomstra-trello:
         add: Lisa
         remove: Eemalda
       default_board_label: 'Vaikimisi töölaud'
+      guest_workspace: 'Külalise töölaud'
       in_trello: Trellos
+      include_secondary_tags_label: 'Kaasa teisejärgulised sildid'
       label:
         boards: 'Töölaua seaded'
         general: Üldine
         labels: 'Siltide seaded'
+      member_id_label: 'Liikme ID'
       no_available_boards_label: 'Töölaudasid pole saadaval'
+      no_label_name: 'Sildi nime pole'
       save: 'Salvesta muudatused'
       selected_boards_label: 'Valitud töölauad'
       tag: Silt
   forum:
+    badges:
+      trello:
+        tooltip: 'On olemas Trellos'
     controls:
       view_on_trello_button: 'Vaata Trello kaarti'
     modals:
