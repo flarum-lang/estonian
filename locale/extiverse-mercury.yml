@@ -9,3 +9,12 @@ extiverse-mercury:
       extension-name: Lisaprogramm
       highest-version: 'Viimane väljalase'
       installed-version: 'Paigaldatud versioon'
+    header-secondary:
+      no-token: 'Kontrollkood on nõutud'
+      updates: '{count, plural, =0 {Uuendusi pole} one {Üks uuendus} other {# uuendust}}'
+    settings:
+      token: 'Extiverse kontrollkood (<a>nõutud</a>)'
+  email:
+    new-extension-update:
+      body: "Hei {recipient_display_name}!\n\nSinu Flarumi kogukonnast leiti {count} uuendust.\nOn soovitatav, et uuendaksid niipea kui võimalik.\n\nUuendused hõlmavad järgmisi lisaprogramme {extensions}.\n\nLisainfot saad oma kogukonna lehelt: {url}.\n"
+      subject: '{count, plural, one {Sinu kogukonnale on saadaval üks uuendus} other {Sinu kogukonnale on saadaval # uuendust}}'

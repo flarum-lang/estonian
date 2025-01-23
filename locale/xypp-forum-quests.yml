@@ -20,6 +20,7 @@ xypp-forum-quests:
       title: 'Loo otsimise ülesanne'
     data: Andmed
     re_available:
+      day: 'Enne X päeva'
       hour: 'Pärast X tundi'
       none: 'Üks kord'
     settings: Seaded

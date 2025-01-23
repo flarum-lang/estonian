@@ -4,12 +4,24 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Võib personalimärki muuta'
+      canEditTagList:
+        label: 'Võib siltide nimekirja muuta'
+    staffBadge:
+      help: 'Personali märgi tekst (PERSONAL)'
+      label: 'Personali märgi tekst'
     staffBadgeTextBg:
+      help: 'Märgi värv (vaikeväärtus in ''rgb(70, 209, 96)'')'
       label: 'Personali sildi taustavärv'
     staffBadgeTextColor:
       help: 'Sildi värv (vaike'
+      label: 'Personali märgi värv'
   forum:
     edit_user:
+      heading: 'Personali märgi kasutamine on sisse lülitatud'
+      placeholder: 'Märgi aktiveerimiseks vali sisendiks ''tõene'''
       tagList:
         heading: 'Kasutaja siltide nimekiri'
         placeholder: 'Eralda komaga ,'

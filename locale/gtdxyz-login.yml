@@ -8,7 +8,7 @@ core:
       username_or_email_placeholder: E-post
 gtdxyz-login:
   admin:
-    login_default: Vaikrväärtus
+    login_default: Vaikeväärtus
     login_email: E-post
     login_identification: 'Logi sisse'
     login_username: Kasutajanimi
@@ -16,3 +16,4 @@ gtdxyz-login:
     error:
       email_failed: 'E-posti aadressi kinnitamine ebaõnnestus'
       failed: 'kinnitamine ebaõnnestus'
+      useranem_failed: 'Kasutajanime kontrollimine ebaõnnestus'

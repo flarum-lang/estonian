@@ -8,6 +8,7 @@ flarum-msemoji:
       base: Peamine
       basehelp: 'Näpunäide: Märk $ asendab selle automaatse versiooninumbriga. Tõstutundlik.'
       baseph: 'Näiteks: https://www.veebisait.ee/'
+      disable_autocomplete: 'Lülita automaatne lõpetamine välja'
       ext: Lisaprogramm
       extph: 'Näide: .gif'
       folder: Kaust
