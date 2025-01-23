@@ -7,7 +7,9 @@ acpl-lscache:
     cache_enabled_label: 'Lülita LSCache sisse'
     permissions:
       purge: '=> acpl-lscache.ref.purge_cache'
+    public_cache_ttl_label: 'Vaikimisi avalik vahemälu TTL'
     purge_all: '=> acpl-lscache.ref.purge_cache'
+    serve_stale_label: 'Edasta seismajäänud sisu'
   forum:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'

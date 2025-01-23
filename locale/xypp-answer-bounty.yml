@@ -3,11 +3,28 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-answer-bounty:
+  admin:
+    permissions:
+      moderate: 'Teiste autasude muutmine'
+      use: 'Määra autasu'
+  api:
+    bounty: 'Autasu sinu parima vastuse eest'
+    bounty_clear: 'Tühjenda autasu'
+    bounty_sent: 'Autasu on saadetud. Palun uue parima vastuse määramist eemalda parima vastuse märgistus eelmiselt.'
+    bounty_set: 'Määra autasu'
+    not_enough_money: 'Sul pole piisavalt raha autasu määramiseks.'
   forum:
+    badge: Autasu
     composer:
+      edit: 'Autasu ({bounty})'
+      set: 'Määra autasu'
+    discussion:
+      edit: 'Muuta autasu ({bounty})'
       set: 'Määra autasu'
     modal:
       clear: Tühjenda
       label: Summa
       submit: Saada
       title: 'Määra autasu'
+    tip: 'See vestlus otsib parimat vastus ja pakub autasu <span>{money}</span>.'
+    tip-ans: 'Määra autasu <span>{money}</span>'

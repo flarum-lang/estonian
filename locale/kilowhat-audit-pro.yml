@@ -29,6 +29,7 @@ kilowhat-audit:
       user-title: 'Kasutaja auditi logi'
   lib:
     browser:
+      audit_log_cleared: 'Auditi logist kustutati {deleted_count} sissekannet'
       cache_cleared: 'Tühjendas vahemälu käsitsi'
       client:
         access_token: Ligipääsukood
@@ -51,12 +52,14 @@ kilowhat-audit:
         tag: 'Silt #{id}'
         user: 'KAsutaja #{id}'
       discussion:
+        create_date_changed: 'Muutis vestluse {discussion} alguskuupäeva. Vana {old_date}. Uus {new_date}'
         created: 'Alustas vestlust {discussion}'
         deleted: 'Kustutas vestluse {discussion}'
         hidden: 'Peitis vestluse {discussion}'
         locked: 'Lukustas vestluse {discussion}'
         merged_away: 'Liitis vestluse {discussion} vestlusega {new_discussion}'
         restored: 'Taastas vestluse {discussion}'
+        split_into: 'Jaga {post_count} postitust uude vestlusesse {discussion}'
         tagged: 'Vestluse {discussion} sildid on uuendatud. Vanad: {old_tags}. Uued: {new_tags}'
         unlocked: 'Avatud vestlus {discussion}'
       empty: 'Tulemusi pole'
@@ -78,8 +81,17 @@ kilowhat-audit:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
       post:
+        approved: 'Kiitis heaks kasutaja {postuser} postituse {post} vestluses {discussion}'
         created: 'Lisas postituse {post} vestluses {discussion}'
+        deleted: 'Kustutas kasutaja {postuser} postituse {post} vestluses {discussion}'
+        edit_date_changed: 'Muutis kasutaja {postuser} postituse {post} muutmise kuupäeva. Vana {old_date}. Uus {new_date}'
+        flagged: 'Märkis kasutaja {postuser} postituse {post} vestluses {discussion} sobimatuks. Põhjus {reason}'
+        hidden: 'Peitis kasutaja {postuser} postituse {post} vestluses {discussion}'
+        restored: 'Taastas kasutaja {postuser} postituse {post} vestluses {discussion}'
+        revised: 'Vaatas üle kasutaja {postuser} postituse {post} vestluses {discussion}'
+        user_changed: 'Muutis postituse {post} autorit. Vana {old_user}. Uus {new_user}'
       setting_changed: 'Muutis seadeid {key}'
+      setting_changed_with_values: 'Muutis seadet {key}. Vana väärtus {old_value}. Uus väärtus {new_value}'
       tag:
         created: 'Lisas sildi {tag}'
         deleted: 'Kustutas sildi {tag}'
@@ -92,6 +104,8 @@ kilowhat-audit:
         bio_changed: 'Muudis kasutaja {username} lühikirjeldust'
         created: 'Lõi kasutaja {username} konto'
         deleted: 'Kustutas kasutaja {username}'
+        email_change_requested: 'Soovis saada kasutaja {username} uueks e-posti aadressiks {new_email}'
+        email_changed: 'Muutis kasutaja {username} e-posti aadressi. Vana {old_email}. Uus {new_email}'
         groups_changed: 'Muutis kasutaja {username} gruppe. Vanad: {old_groups}. Uued: {new_groups}'
         impersonated: 'Kehastas kasutajat {username}'
         logged_in: 'Logis sisse kasutaja {username} kontoga'
@@ -104,6 +118,8 @@ kilowhat-audit:
         password_change_requested: 'Nõudis kasutaja {username} parooli muutmist'
         password_changed: 'Muutis kasutaja {username} parooli'
         provider_connected: 'Ühendas teenuse {provider} kasutaja {username} kontoga'
+        suspended: 'Külmutas kasutaja {username} kuni {until}'
+        unsuspended: 'Kasutaja {username} külmutamine eemaldati'
         username_changed: 'Muutis kasutaja {username} kasutajanime. Vana: {old_username}. Uus:{new_username}'
         username_request_approved: 'Kiitis heaks kasutaja {username} kasutajanime muutmise. Vana kasutajanimi oli {old_username}, uus on {new_username}'
         username_request_rejected: 'Lükkas tagasi kasutaja {username} kasutajanime muutmise'

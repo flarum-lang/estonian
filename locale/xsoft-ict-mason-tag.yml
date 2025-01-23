@@ -15,16 +15,21 @@ xsoft-mason-tag:
       new-field: 'Uus väli'
       save-answer: 'Salvesta vastuse muudatused'
       save-field: 'Salvesta välja muudatused'
+      show-user-answers: 'Näita mitte-soovitatud vastuseid ({count})'
     fields:
       add: 'Lisa väli {field}'
       description: 'Välja kirjeldus'
       edit: 'Muuda välja {field}'
+      icon: Ikoon
+      icon-preview: 'eelvaade: {preview}'
       is_suggested: 'Soovita kasutajatele vastuseid'
       name: 'Välja nimi'
       new-answer: 'Uus vastus'
       new-answer-placeholder: 'Mingi tekst'
       required: Nõutud
       show_when_empty: 'Näita kui on tühi'
+      user_values_allowed: 'Lubatud kasutaja väärtused'
+      validation: 'Kasutaja väärtuste kontrollimine'
     permissions:
       fill-fields: 'Uues vestluses väljade täitmine'
       see-other-fields: 'Kõigi vestluste väljade nägemine'
@@ -38,6 +43,7 @@ xsoft-mason-tag:
       composer-height: 'Koostaja kõrgus'
       composer-height-help: 'Vaikeväärtus on 200, see peaks olema kõrgem, et mahutada kõik väljad ära.'
       composer-height-placeholder: '320'
+      fields-section-title: 'Kohandatud väljade sektsiooni pealkiri'
       fields-section-title-placeholder: 'Vaikimisi pealkirja ei näidata mingit'
       n-columns: '{count} veergu'
       tags-as-field: 'Näita siltide valijat kui välja'

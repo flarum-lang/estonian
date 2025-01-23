@@ -19,17 +19,22 @@ mattoid-store-invite:
       show-index-help: 'Näita avalehel ülevaatamise menüüd'
   forum:
     confirm-adopt: kinnita
+    confirm-invite-price: 'Kutse tasu vähendamine'
     confirm-refuse: keeldu
+    email: 'Kutsutu e-post'
     error:
+      email-exist: 'Kutsutu e-posti aadress on juba olemas'
       email-not-exist: 'E-kiri ei saa olla tühi'
       exception: 'Automaatne ülevaatamine ebaõnnestus [{message}]'
       link-not-exist: 'link kutsutule ei saa olla tühi'
+      lock-resources: 'Praegune ressurss on lukustatud. Palun proovi hiljem uuesti'
       user-balance-low: 'Kasutaja saldo pole piisav'
     invite: 'Kutse ülevaatamine'
     mail:
       send-invite-title: 'Kuste kood'
     my-invite: 'Minu kutse'
     system-review: 'Automaatne ülevaatamine süsteemi poolt'
+    title: Kutsu
     username: 'Kutsutu kasutajanimi'
     username-help: 'Kutsutu kasutajanime ei leitud foorumi registreeritud kasutajate hulgast'
   lib:

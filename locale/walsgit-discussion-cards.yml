@@ -28,6 +28,7 @@ walsgit_discussion_cards:
         showAuthor_label: 'Näita autorit'
         showBadges_help: 'Kui see on aktiveeritus, siis kaardi üleval vasakul nurgas näidatakse aumärke.'
         showBadges_label: 'Näita aumärke'
+        showLastPostInfo_label: 'Näita viimase postituse infot'
         showReplies_label: 'Näita vastuste arvu'
         showViews_help: 'Kui see valik on sisse lülitatud, siis kaardil näidatakse vestluse vaatamiste arvu.'
         showViews_label: 'Näita vaatamisi'
@@ -39,6 +40,7 @@ walsgit_discussion_cards:
       primaryCards_label: 'Peamiste kaartide arv'
       submit_button: Salvesta
       tabletCardWidth_label: 'Peamiste kaartide laius tahvelarvutis'
+      title: 'Vestluskaardi seaded - '
     tags:
       activation_button: 'Aktiveeri see silt'
       deactivation_button: 'Deaktiveeri see silt'

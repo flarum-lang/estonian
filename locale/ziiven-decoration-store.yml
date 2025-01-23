@@ -15,6 +15,7 @@ ziven-decoration-store:
     item-add: 'Lisa toode'
     item-assigned-at: Kuupäev
     item-deactivate: Deaktiveeri
+    item-deactivate-confirmation: 'Oled sa kindel, et soovid selle kirje deaktiveerida?'
     item-delete: Kustuta
     item-delete-confirmation: 'Oled sa kindel, et soovid selle toote kustutada?'
     item-discount: Allahindlus
@@ -34,6 +35,7 @@ ziven-decoration-store:
       timezone: Ajavöönd
       timezone-default: Aasia/Shanghai
   forum:
+    display-name: 'Näidatav nimi'
     display-name-default: 'Kaunistuste pood'
     equipment-modal-title: 'Kirjete nimekiri'
     item-already-have: 'Kirje on juba ostetud'
@@ -49,14 +51,19 @@ ziven-decoration-store:
     item-purchase-item-type-profileBackground: 'Profiili taust'
     item-purchase-item-type-usernameColor: 'Kasutajanime värv'
     item-purchase-purchase-type: 'Ostu liik'
+    item-purchase-subscribe-item-status-0: 'Tellimine. Pole kasutusel'
     item-purchase-subscription-cost: 'Tellimuse hind'
     item-purchase-title: 'Kirje nimi'
     item-soldout: 'Välja müüdud'
     item-subscribe: Telli
+    item-subscription-deduction-days: 'Tellimustasu võetakse maha {days} päeva pärast'
     item-unsubscribe: 'Tühista tellimus'
     my-decoration: 'Minu kaunistused'
+    navigate: Navigeeri
     notification-receive-subscription: 'Tellimustasu maha võtmine'
     notifications:
+      subscription-expired: 'Sinu tellimus {title} on aegunud'
+      subscription-fee-deduction: 'Tellimuse tasu {title}'
       subscription-fee-deduction-excerpt: 'Hind {cost}'
     processing: Töötlemine...
     purchase-add-cart: 'Lisa ostukorvi'
@@ -66,7 +73,9 @@ ziven-decoration-store:
     purchase-error-item-alreay-have: 'Sul juba on see toode'
     purchase-history: 'Tellimuste ajalugu'
     purchase-now: 'Mine ostlema'
+    purchase-subscribe-confirmation: 'Oled sa kindel, et soovid maksta {cost}, et seda tellida?'
     purchase-success: 'Ost on sooritatud'
+    purchase-unsubscribe-confirmation: 'Oled sa kindel, et soovid selle tellimuse tühistada?'
     shopping-cart: Ostukorv
     shopping-cart-close: Sulge
     user-money-amount: 'Sul on'
@@ -75,6 +84,7 @@ ziven-decoration-store:
     cancel: Loobu
     close: Sulge
     confirm: Kinnita
+    delete-error: 'Viga kustutamisel'
     item-amount: Laos
     item-cost: Hind
     item-cost-free: Tasuta
@@ -83,12 +93,14 @@ ziven-decoration-store:
     item-discount-days-text: 'Allahindlus kestab: {days} päeva'
     item-discount-ribbon: 'ALE {discount}%'
     item-label: 'Kirje silt'
+    item-label-owned: Omanik
     item-label-popular: Populaarne
     item-label-recommend: Soovitatud
     item-purchase-type: 'Ostu liik'
     item-purchase-type-all: 'Kõik ostu liigid'
     item-purchase-type-monthly: 'Kuine tellimus'
     item-purchase-type-onetime: 'Ühekordne ost'
+    item-purchase-type-yearly: 'Iga-aastane tellimus'
     item-sold: Müügid
     item-title: 'Kirje nimi'
     item-type: 'Kirje liik'
@@ -96,5 +108,10 @@ ziven-decoration-store:
     item-type-avatarFrame: 'Avatari raam'
     item-type-profileBackground: 'Profiili taust'
     item-type-usernameColor: 'Kasutajanime värv'
+    list-empty: 'Sisu pole'
+    list-load-more: 'Laadi rohkem'
     none: Pole
     ok: OK
+    save-error: 'Viga salvestamisel'
+    save-error-item-expired: 'Kirje on aegunud'
+    submit-error-field-empty: 'Pead sisestama nõutud väärtused'
