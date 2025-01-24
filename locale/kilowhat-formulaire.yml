@@ -15,6 +15,8 @@ kilowhat-formulaire:
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (kolmanda osapoole lisaprogrammide valikud)'
+      listForms: 'Kustutamiata vorminde nimekirja vaatamine'
+      listSubmissions: 'Vastuste nimekirja vaatamine'
       moderate: 'Kõikide vormide modereerimine'
       seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
@@ -25,8 +27,11 @@ kilowhat-formulaire:
       horizontal-layout: 'Kasuta horisontaalset vormi paigutust'
       horizontal-layout-locations:
         discussionComposer: 'Vestluse loomine'
+        discussionEdit: 'Vestluse muutmine hüpikaknas'
+        discussionView: 'Vestluse vaatamise konteiner'
         profileEdit: 'Profiili muutmise lehekülg'
         profileView: 'Profiili vaatamise lehekülg'
+        standaloneView: 'Eraldiseisev vaatamise lehekülg'
       max-file-size: 'Maks. failisuurus (kB)'
       radio-style: Raadiovalik
       style-options:
@@ -52,6 +57,10 @@ kilowhat-formulaire:
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    file-already-belongs-form: 'Fail {id} kuulub teise vormi'
+    file-already-belongs-submission: 'Fail {id} kuulub teisele vastusele'
+    formatter-parsing-error: 'Sisu näitamine ebaõnnestus: {message}'
+    not-allowed-to-fill-field: 'Sul pole luba selle välja väärtust muuta'
     unauthorized-form: 'Sul pole õigusi vormi {id} täitmiseks'
     unknown-form: 'Tundmatu vormi ID {id}'
   forum:
@@ -161,8 +170,12 @@ kilowhat-formulaire:
       email-notification-options: 'Teavituskirja mall'
       exiting-with-unsaved-data: 'Siin on salvestamata muudatusi. Oled sa kindel, et soovid lehelt lahkuda?'
       field:
+        accept-submissions: 'Aktsepteeri uus vastuseid'
+        allow-modification: 'Luba kasutajatel muuta nende varasemaid vastuseid'
+        automatic-discussion: 'Loo vormist automaatselt vestlus'
         enable: 'Lülita sisse'
         link: 'Vormi eriliigid'
+        max-submissions: 'Maksimaalne vastamiste arv (kui piirangut pole, siis jäta tühjaks)'
         permission-edit-any: 'Kõigi vastuste muutmine'
         permission-edit-own: 'Oma vastuste muutmine'
         permission-see-any: 'Kõikide sisestatud info nägemine'
@@ -173,6 +186,7 @@ kilowhat-formulaire:
           user: 'Näita liitumisel'
         title: 'Avalik pealkiri'
       link-options:
+        all-groups: 'Kõigile gruppidele'
         all-tags: 'Iga sildi jaoks'
         groups: Kasutajaprofiil
         standalone: Eraldiseisev
@@ -182,6 +196,8 @@ kilowhat-formulaire:
       section:
         permissions: Õigused
         template: Mall
+      warnings:
+        linked-form-is-draft: "See vorm on praegu veel mustand. Anna kasutajatele \"Ligipääs\" väljadele, et need oleksid foorumis nähtavad.\n"
     form-index:
       columns:
         accept-submissions: Avatud
@@ -255,6 +271,7 @@ kilowhat-formulaire:
       empty: 'Vastuseid pole veel'
       export: Ekspordi
       form-edit: 'Muuda vormi'
+      form-show: 'Uus vastus'
       guest: Külaline
       load-more: 'Laadi rohkem'
       search: 'Otsi vastuseid...'
@@ -264,12 +281,14 @@ kilowhat-formulaire:
       oldest: 'Vanimad vastused'
     submission:
       delete: 'Kustuta jäädavalt'
+      edit-forbidden: 'Sa ei saa seda vastust enam muuta.'
       edit-submission: 'Muuda vastuseid'
       form-closed: 'See vorm on suletud.'
       hide: Kustuta
       lock: Lukusta
       restore: Taasta
       submit-other: 'Saada veel üks'
+      submitted-successfully: 'Sinu vastus on saadetud.'
       unlock: Ava
     template-editor:
       add-field: 'Lisa väli'
@@ -284,6 +303,7 @@ kilowhat-formulaire:
       min: Minimaalne
       missing-title: 'Ilma pealkirjata väli'
       no-answer: 'Vastust pole'
+      other: 'Luba väärtus "muu"'
       regex: Regulaarväljend
       required: Nõutud
       rich: 'Vormindatud tekst (TextFormatter)'
@@ -307,6 +327,8 @@ kilowhat-formulaire:
     footer: 'Saadetud vormist {title}'
     no-answer: 'Vastuseid pole'
     sub-entries: '{count} vastust'
+    title-new-submission: 'Uus vastus - {title}'
+    title-your-submission: 'Sinu vastus - {title}'
   ref:
     manager: 'Vormide haldamine'
     permissions:

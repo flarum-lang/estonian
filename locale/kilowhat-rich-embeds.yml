@@ -38,6 +38,7 @@ kilowhat-rich-embeds:
         horizontal: Horisontaalne
         vertical: Vertikaalne
       whitelist: 'URL-ide valge nimekiri'
+      youtubeNoCookie: 'Kasuta YouTube ilma küpsisteda iframe domeeni'
   api:
     embed:
       flarum:

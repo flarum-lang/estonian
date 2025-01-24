@@ -8,13 +8,23 @@ kilowhat-cimaise:
       attachCimaiseAlbum: 'Albumite käsitsi lisamine vestlusesse'
       createCommunityAlbums: 'Kogukonna albumite loomine'
       createPersonalAlbums: 'Isiklike albumite loomine'
+      editOwnAlbum: 'Omaenda albumi pealkirja ja kirjelduse muutmine'
+      editOwnImage: 'Omaenda piltide muutmine (kärpimine, maskide lisamine ja kleepsude kasutamine)'
+      editOwnPublishedImage: 'Omaenda piltide muutmine pärast avaldamist'
       hideOwnAlbum: 'Oma albumite peitmine'
       hideOwnPicture: 'Oma piltide peitmine'
+      licenseOwnPublishedPicture: 'Omaenda pildi litsentsi muutmine pärast avaldamist'
       moderate: Modereeri
       publishSilently: 'Piltide avaldamine vaikselt (ilma sündmuse postituseta)'
+      renameOwnPublishedPicture: 'Omaenda pildi pealkirja ja kirjelduse muutmine pärast avaldamist'
+      uploadCommunityPicturesWithoutApproval: 'Kogukonna albumitesse piltide üleslaadimine ilma heakskiiduta'
+      uploadPersonalPicturesWithoutApproval: 'Isiklikesse albumitesse piltide üleslaadimine ilma heakskiiduta'
       uploadPictures: 'Piltide üleslaadimine'
       view: Vaatamine
+      viewExif: 'EXIF info vaatamine (kaasa arvatud asukohta)'
     settings:
+      autoCreateDiscussionAlbum: 'Loo automaatselt iga vestluse jaoks album'
+      autoCreateDiscussionAlbumHelp: "Loo automaatselt vestlusega samanimeline album ja määra albumi autoriks vestluse algataja. See funktsioon läheb mööda albumi loomise õigustest ja seda rakendatakse kõigile siltidele..\n"
       columnTheme: 'Veeru teema'
       license-add: 'Lisa litsents'
       license-description: Kirjeldus
@@ -22,9 +32,14 @@ kilowhat-cimaise:
       license-label: Silt
       licenses: Litsentsid
       mapboxToken: 'Mapboxi kontrollkood'
+      neverSyncDiscussionAlbumTitles: 'Ära kunagi sünkroniseeri vestluste ja albumite pealkirju'
+      requireLicense: 'Nõua litsentsi valimist alt nimekirjast'
+      requireLicenseHelp: "Vaikimisi saavad kasutajad litsentsi valimise vahele jätta. Veendu, et sinu veebisaidi kasutamise tingimused määravad, mida võib teha piltidega, mille litsents pole määratud.\n"
+      sticker-add: 'Lisa kleepekas'
       sticker-key: Võti
       sticker-label: Silt
       sticker-url: URL
+      stickers: Kleepekad
       watermarkFile: 'Piltide vesipilt'
       watermarkPlacement: 'Vesipildi paigutus'
       watermarkPlacementOptions:
@@ -41,14 +56,31 @@ kilowhat-cimaise:
       storage:
         conversions: 'Vestluseid: {size}'
         originals: 'Algsed: {size}'
+        section: 'Säilitusruum (hinnanguline)'
   api:
     picture-edit:
       unauthorized:
         author: 'Vigane autor, muutmine pole lubatud'
+        crop: 'Vigane kärpimine, muutmine pole lubatud'
         description: 'Vigane kirjeldus, muutmine pole lubatud'
+        isApprovedApprove: 'Vigane heakskiitmise staatus, heakskiitmine pole lubatud'
+        isApprovedUnApprove: 'Vigane heakskiitmise staatus, mitte-heakskiitmine pole lubatud'
+        isDraftSubmit: 'Vigane mustandi staatus, lisamine pole lubatud'
+        isDraftUnSubmit: 'Vigane mustand staatus, tagasivõtmine pole lubatud'
+        isFavorite: 'Vigane järjehoidja staatus, muutmine pole lubatud'
+        isHiddenHide: 'Vigane peitmise staatus, peitmine pole lubatud'
+        isHiddenRestore: 'Vigane peitmise staatus, taastamine pole lubatud'
         license: 'Vigane litsents, muutmine pole lubatud'
+        stickers: 'Vigased kleepekas, muutmine pole lubatus'
         takenAt: 'Vigane tegemise kuupäev, muutmine pole lubatud'
         title: 'Vigane pealkiri, muutmine pole lubatud'
+    post-edit:
+      cannotAttachAlreadySubmitted: 'Pilti {id} ei saa lisada, kuna see on juba lisatud'
+      cannotAttachFromExternalAlbum: 'Pilti {id} ei saa lisada, kuna see kuulub välisesse albumisse'
+      cannotAttachHasNoAlbum: 'Vestlusega pole seotud ühtegi albumit'
+      cannotAttachToNonComment: 'Pilte ei saa käsitsi lisada postitustele, mis pole kommentaarid'
+      cannotAttachUnauthorized: 'Pilti {id} ei saa lisada, kuna see ei kuulu sulle'
+      cannotFindPicturesFromRelation: 'Soovitud pilti ei leitud andmebaasist'
   forum:
     album-list:
       empty: 'Albumeid pole'

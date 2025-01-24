@@ -9,4 +9,7 @@ fof-sentry:
       dsn_label: 'Sentry DSN'
       environment_label: 'Sentry keskond'
       javascript_label: 'Teata JavaSckripti veateadetest'
+      javascript_trace_sample_rate: 'Saidi jõudluse jälgimise kiirus (0-100)'
+      monitor_performance_label: 'Adminiliidese jõudluse jälgimise kiirus (0-100)'
+      send_user_emails_label: 'Kas saata koos Sentry aruandega ka kasutaja e-posti aadress?'
       user_feedback_label: 'Kasutaja tagasiside'
