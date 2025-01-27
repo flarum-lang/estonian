@@ -11,12 +11,12 @@ fof-reactions:
         label: URL
         title: CDN
       convert:
-        button: 'Konverdi vanad reaktsioonid'
-        converted: 'Kõik {number} reaktsiooni on konverditud'
-        converting: 'Sinu reaktsioone konverditakse. Värskenda oma saiti paari minuti pärast, et näha protsessi lõppu. (Konvertimine võib võtta aega sõltuvalt reaktsioonide arvule sinu saidil)'
-        help: 'Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone konvertida. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.'
+        button: 'Teisenda vanad reaktsioonid'
+        converted: 'Kõik {number} reaktsiooni on teisendatud'
+        converting: 'Sinu reaktsioone teisendatakse. Värskenda oma saiti paari minuti pärast, et näha protsessi lõppu. (Sõltuvalt reaktsioonide arvust sinu saidil võib see teisendamine veidi aega võtta)'
+        help: 'Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone teisendada. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.'
       reactions:
-        Helptext: 'Sisesta emoji või font-awesome ikooni nimi (dentifikaator) ja vali mis tööpi sa sooviksid kasutada.'
+        Helptext: 'Sisesta emoji või font-awesome ikooni nimi (identifikaator) ja vali mis tüüpi sa sooviksid kasutada.'
         delete_confirmation: 'Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada.'
         help:
           display: Nähtav
@@ -35,10 +35,10 @@ fof-reactions:
             upvoteLabel: 'Konverdi reaktsioonid üles hääletamiseks'
           legend: Integreerimised
           likes:
-            Helptext: 'Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt meeldimiseks konvertida'
-            Label: 'Konverdi reaktsioonid meeldimisteks'
+            Helptext: 'Sisesta reaktsiooni identifikaator, mida sa sooviksid automaatselt meeldimiseks teisendada'
+            Label: 'Teisenda reaktsioonid meeldimisteks'
             legend: Meeldimised
-          warning: 'Sama reaktsiooni <strong>ei saa</strong> konvertida meeldimiseks <strong>ja</strong> ülespoole hääletamiseks'
+          warning: 'Sama reaktsiooni <strong>ei saa</strong> teisendada meeldimiseks <strong>ja</strong> ülespoole hääletamiseks'
         react_own_posts_help: 'Kui see on sisse lülitatud, siis võib kasutaja (sõltuvalt õigustest) reageerida nende endi postitustele. Kui sa ei soovi, et kasutajad saaksid omaenda postitustele reageerida, siis lülita see valik välja.'
         react_own_posts_label: 'Kasutajad võivad reageerida omaenda postitustele,'
         save_settings: 'Salvesta seaded'
@@ -47,15 +47,15 @@ fof-reactions:
       react_posts_label: 'Reageeri postitustele'
       see_reactions_label: 'Vaata, kes reageerisid postitustele'
   forum:
-    disabled-reaction: 'Sa ei saa hetkel seda rektsiooni kasutada. Palun värskenda lehekülge'
+    disabled-reaction: 'Sa ei saa hetkel seda reaktsiooni kasutada. Palun värskenda lehekülge'
     mod_item: 'Vaata reaktsioone'
     modal:
       anonymous_count: '{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}'
       no_reactions: 'Ühtegi reaktsiooni pole veel'
-      title: Raektsioonid
+      title: Reaktsioonid
     notification: '{username} reageeris ({reaction}) sinu postitusele'
     react_button_label: Reageeri
     reacting-own-post: 'Sa ei saa reageerida omaenda postitusele'
     settings:
       notify_post_reacted_label: 'Keegi reageeris minu postitusele'
-    warning: 'Sinu reaktsioon on konverditud'
+    warning: 'Sinu reaktsioon on teisendatud'
