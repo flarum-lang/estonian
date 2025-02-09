@@ -8,18 +8,26 @@ nearata-cloudflare:
       title: 'Cloudflare arendusrežiim on aktiivne'
     settings:
       api_key: 'API võti'
+      api_key_help: 'API kontrollkoodi loomiseks järgi juhendit <strong><url>API kontrollkoodi loomine</url></strong>.'
+      confirm_text: 'Oled sa kindel?'
       minify_setting:
         css: 'Minify CSS'
+        css_help: 'Vähenda oma veebisaidi CSS failide suurust automaatselt.'
         html: 'Minify HTML'
+        html_help: 'Vähenda oma veebisaidi HTML failide suurust automaatselt.'
         js: 'Minify JS'
+        js_help: 'Vähenda oma veebisaidi JavaSkripti failide suurust automaatselt.'
         section_title: 'Minify seaded'
       r2:
         access_key_id: 'Ligipääsuvõtme ID'
         access_key_secret: 'Ligipääsuvõtme salasõna'
+        bucket_name: 'Korvi nimi'
         public_domain: 'Avalik domeen'
         s3_api: 'S3 API'
         section_title: R2
+      refer_to: 'Vaata lisainfot <strong><url>siit lehelt</url></strong>.'
       refresh_zone_button_label: 'Värskenda tsooni iD-d'
+      refresh_zone_help: 'Vajuta ülalolevale nupule <strong>ainult</strong> siis, kui domeeni nime muudatakse.'
       security_level_label: 'Turvalisuse tase'
       security_level_options:
         essentially_off: 'Põhimõtteliselt väljas'

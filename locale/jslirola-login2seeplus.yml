@@ -4,11 +4,16 @@
 
 jslirola-login2seeplus:
   admin:
+    code: Kood
     hide: Peida
     image: Pildid
     link: Lingid
+    post:
+      title: 'Peida sisu, mis ületab selle pikkuse (<em>-1</em> et näidata kõike.)'
     title: Login2SeePlus
   forum:
+    code: 'Koodi nägemiseks logi sisse'
     image: 'Pildi nägemiseks logi sisse'
     link: 'Lingi nägemiseks logi sisse'
     post: 'Kogu postituse nägemiseks pead {login} või {register}'
+    post_login: 'Kogu postituse nägemiseks pead {login}'

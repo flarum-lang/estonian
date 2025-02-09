@@ -12,10 +12,13 @@ clarkwinkelmann-money-to-all:
   lib:
     modal:
       amount: Kogus
+      lastActivity: 'Piira kasutajatele, kes on aktiivsed pärast järgnevat kuupäeva'
       message: Sõnum
+      messageHelp: 'Valikuline. See sõnum kirjutab õle vaikimisi teavituste sõnumi. Maini tekstis ka summat, kuna muidu ei näidata seda kusagil.'
       messagePlaceholder: 'Lisa teavituse juurde sõnum'
       notify: 'Saada veebiteavitus kasutajatele'
       preview: 'Praegused seaded vastavad {count} kasutajale.'
       submit: Saada
       success: '{count} kasutajale saadeti raha!'
+      suspended: 'Kaasa külmutatud kasutajad'
       title: 'Saada raha kõigile kasutajatele'

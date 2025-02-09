@@ -4,8 +4,10 @@
 
 justoverclock-country-flags:
   admin:
+    bind_label: 'Seosta nõutud sisenemise riigiga'
     countryColumn: Riik
     required_label: 'Nõutud riik sisenemiseks'
+    set_on_registration_label: 'Luba liitumisel riigi määramine'
     showFlagsOnPosts: 'Näita postitustel lippe'
   forum:
     binding_country_click: 'Kliki kohe'

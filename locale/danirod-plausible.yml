@@ -9,10 +9,17 @@ danirod-plausible:
         help: 'Domeen, mida kasutatakse statistika saatmiseks.'
         label: Domeen
       enable:
+        help: 'Kasuta seda valikut, kui soovid kaasata jälgimiskoodi.'
         label: 'Sisse lülitatud'
+      exclude_admin:
+        help: 'Selle abil jäetakse adminid sisu jälgimisest välja.'
+        label: 'Eira adminiliidest'
       proxy_domain:
+        help: 'Kust JS koodi laaditakse. Jäta tühjaks, kui soovid kasutada plausible.io. See aitab ennetada reklaaiblokeerijatel jälgimiskoodi eemaldamist. Vaata lisainfot Plausible dokumentatsioonist.'
         label: 'Proksi domeen'
     validation:
       domain:
         regex: 'Sisestatud domeen pole korrektne'
         required: 'Domeen peab olema sisestatud'
+      proxy_domain:
+        regex: 'Sisestatud proksi domeen pole korrektne'

@@ -5,6 +5,7 @@
 justoverclock-reputation-score:
   admin:
     discussions: vestluseid
+    fiveYearSeniority: '5+ aasta staaži'
     historyBestAnswerSet: 'Reputatsiooni punktid kasvasid parima vastuse saamise pärast.'
     historyBestAnswerUnset: 'Reputatsiooni punktid vähenesid parima vastuse staatuse kaotamise pärast.'
     historyDiscussionClosed: 'Reputatsiooni punktid vähenesid, kuna sinu vestlus suleti.'
@@ -13,9 +14,14 @@ justoverclock-reputation-score:
     historyLikeSet: 'Reputatsiooni punktid tõusid meeldimise saamise pärast.'
     historyLikeUnset: 'Reputatsiooni punktid vähenesid meeldimise äravõtmise pärast.'
     historyPostCreated: 'Reputatsiooni punktid tõusid postituse loomise pärast.'
+    historyPostDeleted: 'Reputatsioonipunte vähendatakse, kui postitus kustutatakse või peidetakse.'
     like: meeldimisi
+    oneYearSeniority: '1+ aasta staaži'
     permission:
       canEarnReputationForDiscussion: 'Võib teenida reputatsiooni punkte vestluse loomise eest'
+      canEarnReputationForLikes: 'Võib meeldimiste andmise eest reputatsiooni punkte teenida'
+      canEarnReputationForPost: 'Võib postituse loomise eest reputatsiooni punkte teenida'
+      canPostWithReputation: 'Ligipääs minimaalsete reputatsiooni punktidega'
     pointsDecreased: 'Punkte vähenes'
     pointsIncreased: 'Punkte tuli juurde'
     posts: postitust
@@ -24,9 +30,13 @@ justoverclock-reputation-score:
     settings:
       bestAnswerPoints: 'Punkte "parima vastuse" eest'
       discussionPoints: 'Uue vestluse loomise eest saadavad punktid'
+      flagPoints: 'Punkte postituse uuesti postitamise eest'
+      likePoints: 'Punkte meeldimise saamise eest'
       maxPoints: 'Maksimaalsed maine punktid'
       postPoints: 'Punkte postituse loomise eest'
+      seniorityRewardThreshold: 'Staaži lävi'
     tagMinimumReputationLabel: 'Minimaalne reputatsiooni piirang'
+    threeYearSeniority: '3+ aasta staaži'
   forum:
     discussionCount: 'Vestluste arv'
     emptyReputationHistory: 'Selle kasutaja kohta ei leitud ajalugu...'
@@ -41,3 +51,4 @@ justoverclock-reputation-score:
     topReputation: 'Kõrgeim reputatsioon'
     totalPosts: 'Postitusi kokku'
     trust: Reputatsioon
+    xPostsReached: '{count} jõudis auhinnani!'

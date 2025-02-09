@@ -11,9 +11,12 @@ blomstra-trello:
         trello_label: 'Vali Trello silt'
       no_available_labels_label: 'Silte pole saadaval'
       no_available_tags_label: 'Foorumi silte pole saadaval'
+    permissions:
+      add_to_trello: 'Võib linkida vestluse Trelloga'
     settings:
       api_key_label: 'API võti'
       api_token_label: 'API kontrollkood'
+      available_boards_label: 'Saadaolevad töölauad'
       button:
         add: Lisa
         remove: Eemalda
@@ -25,23 +28,33 @@ blomstra-trello:
         boards: 'Töölaua seaded'
         general: Üldine
         labels: 'Siltide seaded'
+      mapping:
+        add_new: 'Lisa seostamine'
+        no_mappings_for_board: 'Selle töölaua jaoks pole ühtegi sildiga seostamist'
+      mappings_label: 'Foorumi siltide sidumine Trello siltidega'
       member_id_label: 'Liikme ID'
       no_available_boards_label: 'Töölaudasid pole saadaval'
       no_label_name: 'Sildi nime pole'
+      no_selected_boards_label: 'Ühtegi töölauda pole valitud'
       save: 'Salvesta muudatused'
       selected_boards_label: 'Valitud töölauad'
       tag: Silt
+      unmapped_warning_label: 'Hoiata seostamata siltide kohta'
   forum:
     badges:
       trello:
         tooltip: 'On olemas Trellos'
     controls:
+      send_to_trello_button: 'Saada Trellosse'
       view_on_trello_button: 'Vaata Trello kaarti'
     modals:
       fields:
         board: 'Vali trello kaart'
         lane: 'Vali Trello rida'
         member: 'Vali Trello liige'
+        member_selected: '{count, plural, one {# liige} other {# liiget}} valitud'
+      no_available_board_lanes: 'Ühtegi töölaua rida pole saadaval'
+      no_available_board_members: 'Ühtegi töölaua liiget pole saadaval'
       no_available_boards_label: 'Töölaudasid pole saadaval'
       title: 'Saada Trellosse'
   lib:

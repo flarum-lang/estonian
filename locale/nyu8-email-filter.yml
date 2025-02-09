@@ -9,7 +9,10 @@ nyu8-email-filter:
       label: 'Must nimekiri'
       placeholder: 'E-post musta nimekirja...'
     blacklist_regex:
+      description: 'E-posti regulaaravaldised musta nimekirja'
+      label: 'Musta nimekirja regulaaravaldised'
       placeholder: 'Regulaaravaldis musta nimekirja...'
+    custom_failure_message_hint: 'Kohandatud veateade, mida näidatakse sobimatu e-posti aadressi puhul. Kui see lahter on tühi, siis näidatakse vaikimisi sõnumit.'
     custom_failure_message_label: 'Kohandatud ebaõnnestumise teade'
     general: Üldine
     invalid_regular_expression: 'Vigane regulaaravaldis'
@@ -20,5 +23,10 @@ nyu8-email-filter:
       label: 'Valge nimekiri'
       placeholder: 'E-post valgesse nimekirja...'
     whitelist_regex:
+      description: 'E-posti regulaaravaldised valgesse nimekirja'
       label: 'Regulaaravaldiste valge nimekiri'
       placeholder: 'Regulaaravaldis valgesse nimekirja...'
+  forum:
+    blacklist_exception: 'See e-posti aadress või selle domeen on selle kogukonna mustas nimekirjas.'
+    generic_exception: 'Midagi läks valesti. Võta ühendust selle kogukonna administraatoriga.'
+    whitelist_exception: 'See e-posti aadress või selle domeen pole selle kogukonna valges nimekirjas.'

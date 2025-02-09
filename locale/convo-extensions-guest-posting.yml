@@ -15,8 +15,12 @@ guest-posting:
       usernames: 'Juhuslikud kasutajanimed külalistele'
   forum:
     alert:
+      create-account: 'Loo kohe konto ja impordi oma {count} postitust!'
+      create-account-posts-and-votes: 'Loo kohe konto ja impordi oma {postCount} postitust ja {voteCount} vastust!'
+      create-account-votes-only: 'Loo kohe konto ja impordi oma {count} vastust!'
       signup: Liitu
     badge:
       guest: Külaline
     modal:
       import: 'Impordi minu {count} külalisena tehtud postitust'
+      import-votes: 'Impordi minu {postCount} külalisena tehtud postitust ja {voteCount} häält'

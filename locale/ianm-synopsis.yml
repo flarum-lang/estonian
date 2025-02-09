@@ -12,12 +12,17 @@ ianm-synopsis:
         help: 'Kui mitut märki postitusest näidatakse.'
         label: 'Kokkuvõtte pikkus märkides'
       excerpt-type:
+        help: 'Vali kas kokkuvõtte jaoks kasutatakse esimest või viimast postitust'
         label: 'Kas postitust peaks näitama kui väljavõtet?'
       first-label: 'Esimene postitus'
       last-label: 'Viimane postitus'
       rich-excerpts:
+        help: 'Kui see on sisse lülitatud, siis kokkuvõttesse kaasatakse pilte, põimitud sisu ma muud mittetekstilist sisu kaasatakse sisu kokkuvõttes'
         label: 'Näita väljavõtteid kasutades rikkaliku tekstivormingut'
+      tags-enabled: 'Lisaprogramm <code>flarum/tags</code> peab olema sisse lülitatud. Need saavad vaikeväärtuseks, kui igale sildile ei määrata eraldi seadeid.'
   forum:
     user:
       settings:
+        show-summaries: 'Näita vestluste nimekirjas väljavõtet igast vestlusest (arvutis/tahvlil)'
+        show-summaries-mobile: 'Näita vestluste nimekirjas väljavõtet igast vestlusest (mobiilil)'
         summaries-heading: Kokkuvõte

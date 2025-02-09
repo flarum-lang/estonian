@@ -5,9 +5,13 @@
 blomstra-search:
   admin:
     analyzer:
+      help: "Analüüside võimaldab otsingul aru saada, millal sõnad lõppevad ning võtab\nindekseerimiseks ette keelepõhised parandamised.\n"
       label: 'Analüüsi keel'
+    elastic-endpoint: 'Elastiku lõpp-punkt'
     elastic-index: Indeks
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    match-sentences: 'Otsi ainult täispikka lauset'
+    match-words: 'Otsing otsib ainult täissõnu'
     search-discussion-subjects: 'Otsi vestluste pealkirjadest'
     search-post-bodies: 'Otsi kommentaaridest'

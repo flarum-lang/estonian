@@ -3,12 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-sudo-mode:
+  admin:
+    settings:
+      duration: 'Kui kaua (sekundites) adminirežiim aktiivsena püsib'
   api:
     errors:
       cookieOnly: 'Saadaval ainult küpsiste korral'
       incorrectPassword: 'Parool on vigane'
   lib:
     sudo:
+      message: "Sisesta oma parool, et siseneda adminirežiimi. Mõne tunni pärast palutakse sul end uuesti tuvastada.\n"
       password: Parool
       submit: Saada
       title: 'Kinnita ligipääs'
