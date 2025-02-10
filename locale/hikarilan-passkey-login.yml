@@ -6,8 +6,11 @@ hikarilan-passkey-login:
   admin:
     settings:
       relying_party:
+        id:
+          label: 'Sõltuva osapoole ID'
         name:
           help: 'See on inimloetav nimi sinu saidile. Kui jätad selle tühjaks, siis kasutatakse hoopis foorumi pealkirja.'
+          label: 'Sõltuva osapoole nimi'
       timeout:
         help: 'Ligipääsu võtme kinnitamise aegumine sekundites. Vaikeväärtus on 60 sekundit.'
         label: Aegumine

@@ -4,12 +4,16 @@
 
 justoverclock-country-flags:
   admin:
+    bind_help: 'Lisa kontole jõuga riik, kui kasutaja pole seda ise määranud'
     bind_label: 'Seosta nõutud sisenemise riigiga'
     countryColumn: Riik
+    required_help: 'Selle valiku töötamiseks pead lubama oma riigi valimise'
     required_label: 'Nõutud riik sisenemiseks'
     set_on_registration_label: 'Luba liitumisel riigi määramine'
     showFlagsOnPosts: 'Näita postitustel lippe'
+    showFlagsOnPosts_text: 'Näita lippe (teksti) postituste juures'
   forum:
+    binding_country: 'Märkasime, et sa pole märkinud oma asukohta. Palun vali esmalt oma riik. Saad postitada alles pärast oma riigi valimist.'
     binding_country_click: 'Kliki kohe'
     clickToSelectCountry: 'Vali oma riik'
     countrySaved: 'Riik on salvestatud!'

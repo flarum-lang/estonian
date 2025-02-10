@@ -17,6 +17,7 @@ the-turk-mathren:
       cdn_options_heading: 'CDN valikud'
       delimiters_label: Eraldajad
       delimiters_text: 'Eralda komadega. <strong>%e%</strong> tähendab matemaatilist avaldist.'
+      enable_editor_buttons_label: 'Näita nuppu tekstiredaktoris'
       error_color_label: 'Toetamata käskude või vigase LaTeX-i värv'
       inline_asciimath_delimiters_text: '<strong>BB-koodi</strong> eraldajad reasiseseks AsciiMath kasutamiseks'
       inline_delimiters_text: '<strong>BB-koodi</strong> eraldajad reasiseseks kasutamiseks'
@@ -36,5 +37,7 @@ the-turk-mathren:
   forum:
     composer:
       asciimath_only: 'Ainult AsciiMath'
+      block_expression: 'Blokeeri väljend'
+      block_expression_asciimath: 'Blokeeri väljend (AsciiMath)'
       inline_expression: 'Reasisesed väljendid'
       inline_expression_asciimath: 'Reasisesed väljendid (AsciiMath)'

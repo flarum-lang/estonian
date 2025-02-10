@@ -9,6 +9,7 @@ datlechin-more-discussions:
       block_name_label: 'Blokeeri nimi'
       discussion_limit_help: 'Näidatavate vestluste arv (vaikimisi <code>5</code>)'
       discussion_limit_label: 'Vestluse limiit'
+      discussion_related_help: 'Otsi seotud tulemusi vestluse pealkirjade järgi. <b>Hoiatus:</b> see võib mõjutada sinu saidi kiirust, eriti, kui sul on suur foorum. Selle lahendamiseks võid kasutada seda valikut koos lisaprogrammiga <b>clarkwinkelmann/flarum-ext-scout</b>.'
       discussion_related_label: 'Seotud tulemused'
       filter_by_help: 'Filtreeri vestlusi (vaikimisi <code>viimased</code>)'
       filter_by_label: Filtreeri
@@ -17,5 +18,7 @@ datlechin-more-discussions:
         latest: Viimased
         newest: Uusimad
         oldest: Vanimad
+        top: Üles
+        votes: 'Ülespoole hääletamised (nõutud lisaprogramm fof/gamification)'
   forum:
     block_default_name: 'Viimased vestlused'

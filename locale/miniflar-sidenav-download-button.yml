@@ -10,10 +10,13 @@ miniflar-sidenav-download-button:
       button_link_heading: 'Allalaadimise link'
       button_link_text: 'Sisesta korrektne URL (nt. https://sinusait.ee).'
       button_order_heading: 'Nuppude järjekord'
+      button_order_text: 'Muuda seda seadet, et kohandada selle vidina paigutust oma Flarumi külgribal. Mida kõrgem on number, seda kõrgemal on see vidin külgribal (see väärtus võib olla nii positiivne kui ka negatiivne).'
       enter_link_message: 'Palun sisesta korrektne URL.'
       labels:
         add_separator: 'Lisada eraldaja?'
+        disable_widget: 'Lülita Flarumi vidin välja ja kasuta hoopis Afrux toega vidinat'
       separator_order_heading: 'Eraldaja järjekord'
+      separator_order_text: 'Muuda seda seadet, et kohandada eraldaja paigutust oma Flarumi külgribal. Mida kõrgem on number, seda kõrgemal on eraldaja külgribal (see väärtus võib olla nii positiivne kui ka negatiivne).'
   forum:
     index:
       download_button: 'Laadi alla'

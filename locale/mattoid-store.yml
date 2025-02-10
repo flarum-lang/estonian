@@ -20,6 +20,9 @@ mattoid-store:
       goods-discount-limit-unit: Ühik
       goods-edit: Muuda
       goods-icon: Ikoon
+      goods-item-delete: 'Oled sa kindel, et soovid seda kirjet kustutada?'
+      goods-item-status-0: 'Oled sa kindel, et sa soovid seda kirjet nimekirja lisada?'
+      goods-item-status-1: 'Oled sa kindel, et soovid selle kirje riiulitelt eemaldada?'
       goods-price: Hind
       goods-repeat: 'Luba duplikaattooted'
       goods-status: Staatus
@@ -27,6 +30,7 @@ mattoid-store:
       goods-title: Pealkiri
       goods-type: 'Ostu liik'
       goods-upload-button: 'Laadi üles'
+      group-view: 'Luba kasutajagruppidel poodi ligi pääseda'
       show-icon-button: Galerii
       store-name: 'Poe nimi'
       store-timezone: Ajavöönd
@@ -35,6 +39,7 @@ mattoid-store:
     button: Osta
     buy-goods-fail: 'Raha tagastamine: {title}'
     cart: ostukorv
+    ckeck-goods-outtime: 'Kontrolli toote aegumise kuupäeva'
     days: päev
     error:
       automatic-renewal: 'Automaatne uuendamine pole sisse lülitatud'
@@ -42,8 +47,10 @@ mattoid-store:
       file-exist: 'fail on juba olemas'
       insufficient-inventory: 'Laoseis pole piisav'
       invalid-product: 'Vigane toode'
+      store-goods-non-existent: 'Toodet pole olemas või need on nimekirjast eemaldatud'
       user-balance-low: 'Kasutaja saldoseis pole piisav'
     free: Tasuta
+    infinite: Piiramatult
     tital: Pood
   lib:
     cancel: Loobu
@@ -69,9 +76,14 @@ mattoid-store:
     item-limit-unit-minute: minut
     item-limit-unit-second: sekund
     item-price: Hind
+    item-status: 'Kauba staatus'
     item-status-0: 'Eemalda riiulitelt'
+    item-status-1: Nimekiri
     item-status-all: 'Kõik toodete staatused'
+    item-status-down: 'Nimekirjast eemaldamine'
+    item-status-up: Nimekiri
     item-stock: Laoseis
+    item-title: 'Kauba nimi'
     item-type: 'Kauba liik'
     item-type-all: 'Kõik kauba liigid'
     list-empty: 'See koht on täiesti tühi'

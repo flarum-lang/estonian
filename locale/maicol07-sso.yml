@@ -6,11 +6,15 @@ maicol07-sso:
   admin:
     settings:
       client_api_key: 'API võti'
+      client_api_key_help: 'Sinu Flarumi saidi API võti.'
       client_name: Nimi
       client_name_help: 'Flarumi saidi nimi'
+      client_password_token: 'Parooli kontrollkood'
+      client_password_token_help: 'Juhuslik parooli kontrollkood, mida kasutatakse Flarumi saidile sisselogimiseks.'
       client_url: URL
       client_url_help: 'Flarumi saidi URL'
       client_verify_ssl: 'Kinnita SSL'
+      client_verify_ssl_help: 'Kinnita Flarumi saidi SSL-i staatus, kui sellele tehakse päringuid (soovitatud).'
       cookies_prefix: 'Küpsiste nime eesliide'
       jwt_iss: 'Määraja domeen'
       jwt_section_subtitle: 'JWT laienduse seaded'
@@ -20,6 +24,7 @@ maicol07-sso:
       logout_url: 'Väljalogimise URL'
       manage_account_btn_open_in_new_tab: 'Ava konto haldamine uuel vahekaardil'
       manage_account_url: 'Konto haldamise URL'
+      provider_mode: 'Kasuta seda valikut, et kasutada teenusepakkuja režiimi (SSO kahe Flarumi saidi vahel). Võimaldab kahele Flarumi saidile logida sisse selle Flarumi saidi kasutajakontoga. See lülitab välja tavapärase SSO funktsiooni teiste veebisaitidega kasuatmiseks.'
       remove_login_btn: 'Eemalda sisselogimise nupp'
       remove_signup_btn: 'Eemalda liitumise nupp'
       signup_url: 'Liitumise URL'

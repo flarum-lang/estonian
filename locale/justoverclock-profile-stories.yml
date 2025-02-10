@@ -14,6 +14,8 @@ justoverclock-profile-stories:
   forum:
     StoryModalTitle: lugu
     createStory: 'Loo lugu'
+    editStoryModal: 'Muuda lugu'
+    editStoryModalBtn: Kinnita
     globalStories: 'Kasutajate lood'
     globalStoriesDescription: 'Selles osas on meie kasutajate lood!'
     globalStoriesEmpty: 'Ühtegi lugu pole veel.'
@@ -28,12 +30,20 @@ justoverclock-profile-stories:
     saveBtn: Salvesta
     stories: Lood
     stories-count: ' {count, plural, one { {count} lugu} other {{count} lugu}}'
+    storyBtnTextInput: 'Nupu tekst'
     storyContentCta: 'nupu tekst'
     storyContentLink: URL
     storyContentText: 'Loo tekst või HTML'
     storyCta: 'Nupu tekst'
     storyIcon: 'fas fa-user'
+    storyIconInput: 'Lingi nupp'
     storyImage: 'Loo pildi URL (eelistatud suurus on 500x300)'
+    storyImgInput: Pilt
+    storyLinkButtonInput: 'Lingi nupp'
+    storyLinkInput: Link
+    storyTextInput: 'Loo tekst'
     storyTitle: 'Loo pealkiri (lühike)...'
+    storyTitleInput: 'Loo pealkiri'
     successDelete: 'Lugu on kustutatud!'
+    successEdited: 'Lugu on muudetud!'
     youDontHavePermission: 'Sul pole uue loo lisamiseks õiguseid!'

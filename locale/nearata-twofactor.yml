@@ -15,18 +15,28 @@ nearata-twofactor:
         passcode_placeholder: '6-kohaline kood'
       auth_buttons:
         app: 'Autentimise rakendus'
+      placeholder_label: 'Vali autentimise viis...'
       submit_button_label: 'Logi sisse'
+      title: 'Kahe-etapiline autentimine'
     settings:
       app:
+        button_help: 'Saad ligipääsu koodi oma autentimise rakenduselt.'
         button_label: 'Autentimise rakendus'
         setup:
           close_button_label: Sulge
           disable:
             button_label: 'Lülita välja'
+            enter_code_disable: 'Sisesta kood, et lülitada välja kahe-etapilise autentimise rakendus.'
             success: 'Autentimise rakendus on välja lülitatud.'
           enable:
+            backups:
+              copy_button_label: Kopeeri
+              download_button_label: 'Laadi alla'
+              download_file_format: "{website_title} | {website_url}\n\nHoia need tagavarakoodid kusagil turvalises, aga kergesti kättesaadavas kohas.\n\nKOODIDE NIMEKIRI\n\n{codes}\n\n* Iga varukoodi saab kasutada ainult ühe korra.\n* Neid koode PEAB kasutana etteantud järjekorras.\n* Need koodid loodi: {date}.\n"
+              message: "Hoia need taastamise koodid turvalises kohas. Kui kaotad oma kahe-etapilise autentimise seadme, siis neid ühekordseid koode saab kasutada määratud järjekorras, et sinu kontole sisse logida.\n"
             button_label: 'Lülita sisse'
             enter_code_manually: 'Sisesta kood käsitsi'
+            scan_qr: 'Skänni seda QR-koodi oma kahe-etapilise autentimise seadmega, et seadistada oma konto.'
             success: 'Autentimise rakendus on sisse lülitatud.'
           invalid_passcode: 'Vigane parool või kood.'
           passcode_placeholder: '6-kohaline kood'
@@ -39,5 +49,6 @@ nearata-twofactor:
     edit_user:
       app:
         label: 'Autentimise rakendus'
+      disable_confirmation: 'Oled sa kindel. Oled keelamas seda autentimise meetodit kasutaja jaoks.'
       placeholder_text: 'Pole midagi välja lülitada'
       section_title: 'Kahe-etapiline autentimine'
