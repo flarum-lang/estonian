@@ -30,6 +30,7 @@ fof-best-answer:
       schedule_on_one_server_help: 'Nõuab Redis/Memcache kasutamist'
       schedule_stop_overnight_help: '9pl - 8el serveri aeg'
       select_best_answer_reminder_days: 'Meeldetuletuste sagedus'
+      select_best_answer_tags_label: 'Parimate vastustega vestluste sildid'
       show_filter_label: 'Näitab filtris parima vastuse valikut'
       show_max_lines_label: 'Maksimaalne ridade arv eelvaates'
       solution_search: 'Lahendused otsimine'

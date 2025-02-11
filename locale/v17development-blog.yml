@@ -11,6 +11,7 @@ v17development-flarum-blog:
       write_articles: 'Blogi artiklite kirjutamine ja muutmine'
     settings:
       add_hero_label: 'Näita teretulemast bännerit'
+      add_hero_text: 'Näita teretulemast bännerit blogi lehekülgedel, kui neid polnud veel suletud.'
       add_sidebar_nav_label: 'Lisa külgriba menüüsse'
       add_sidebar_nav_text: 'Lisa link blogile külgriba menüüsse.'
       allow_comments_label: 'Luba kommentaarid'

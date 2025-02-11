@@ -5,6 +5,10 @@
 blomstra-s3-assets:
   admin:
     settings:
+      aws-section: 'Need seaded on nõutud nii AWS S3 kui S3-ga ühilduvate korvide jaoks'
+      configured_by_environment: 'Sinu korvi seaded on eelseadistatud. Siin pole midagi vaadata.'
+      s3-compatible-section: 'Need seaded on nõutud S3-ga ühilduvate korvide jaoks'
+      s3-compatible-section-help: 'Jäta need seaded tühjaks, kui kasutad AWS S3-e'
       s3acl:
         help: 'Määra selle korvi ACL'
         label: ACL

@@ -10,6 +10,7 @@ mattoid-store:
       add-store-goods: 'Lisa kaubad'
       days: päev
       decorationStoreTimezone: ajavöönd
+      decorationStoreTimezone-requirement: 'Määra ajavöönd. Vaikeväärtus on "Aasia/Shangai"'
       edit-store-goods: 'Muuda tooteid'
       goods-auto-deduction: 'Automaatne vähendamine'
       goods-code: Kood
@@ -19,6 +20,7 @@ mattoid-store:
       goods-discount-limit: 'Allahinnangu limiit'
       goods-discount-limit-unit: Ühik
       goods-edit: Muuda
+      goods-hide: 'Sul pole õigust tooteid piiratud ajaks peita'
       goods-icon: Ikoon
       goods-item-delete: 'Oled sa kindel, et soovid seda kirjet kustutada?'
       goods-item-status-0: 'Oled sa kindel, et sa soovid seda kirjet nimekirja lisada?'
@@ -33,6 +35,7 @@ mattoid-store:
       group-view: 'Luba kasutajagruppidel poodi ligi pääseda'
       show-icon-button: Galerii
       store-name: 'Poe nimi'
+      store-name-requirement: 'Poe nimi, mida näidatakse avalehel, avalehe menüüs ja pealkirja ribal'
       store-timezone: Ajavöönd
       store-timezone-requirement: Aasia/Shangai
   forum:
@@ -86,5 +89,7 @@ mattoid-store:
     item-title: 'Kauba nimi'
     item-type: 'Kauba liik'
     item-type-all: 'Kõik kauba liigid'
+    item-type-limit: 'Piiratud ajaga kehtivus'
+    item-type-permanent: 'Püsiv kehtivus'
     list-empty: 'See koht on täiesti tühi'
     list-load-more: veel

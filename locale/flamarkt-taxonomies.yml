@@ -76,9 +76,12 @@ flamarkt-taxonomies:
       reset-term-order: 'Taasta kirjete nimekiri tähestiku järjekorras'
       title: Ligiitamised
     permissions:
+      editAnyDiscussion: 'Kõigi vestluste taksonoomiate muutmine'
       editAnyUser: 'Iga kasutaja taksonoomia muutmine'
       editOwnDiscussion: 'Muuda oma vestluste liigitamisi'
       editOwnUser: 'Enda kasutaja taksonoomia muutmine'
+      heading: Taksonoomiad
+      moderate: 'Seadista saadaolevaid taksonoomiaid'
       ownDisabledEveryone: 'Aktiveerimata ja külmutatud kasutajad'
       ownDisabledMembers: 'Aktiveeritud liikmed'
       seeAnyDiscussion: 'Vaata liigitamisi kõigil vestlustel'

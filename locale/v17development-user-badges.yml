@@ -15,6 +15,7 @@ v17development-flarum-badges:
       metric_drivers:
         badges_received: 'Saadud aumärgid'
       not_installed:
+        content: 'See lisaprogramm pakub rohkem funktsioone kui sul on paigaldatud ja aktiveeritud lisaprogramm <a>Auto Moderator</a>. Kui paigaldad selle lisaprogrammi, siis saavad kasutajad automaatselt autasuks aumärke ilma kogukonna moderaatori vahelesegamiseta!'
         dismiss: 'Ära näita uuesti'
         install: Paigalda
         title: 'Autasusta kasutajaid aumärgiga automaatselt'
@@ -35,8 +36,10 @@ v17development-flarum-badges:
       visible_description: 'Lülita see aumärk sisse. Kui see on välja lülitatud, siis see pole nähtav.'
     badge_category:
       blockview: Ploki-vaade
+      blockview_description: 'Näita kategooria aumärke sildi ülevaates aumärke kategooriates. Kui see on välja lülitatud, siis näidatakse aumärke tabelina.'
       description: 'Kategooria kirjeldus'
       enabled: 'Sisse lülitatud'
+      enabled_description: 'Lülita see kategooria sisse. Kui see on välja lülitatud, siis kategooria ja selles olevad aumärgid peidetakse.'
       name: 'Kategooria nimi'
     confirm_dialog:
       'no': Ei
@@ -70,6 +73,8 @@ v17development-flarum-badges:
       badges: Aumärgid
       category: 'Aumärgi kategooria'
       description: 'Aumärgi kirjeldus'
+      earned_by_count: '{count, plural, one {Teenis <b># kasutaja</b>} other {Teenis <b># kasutajat</b>}}'
+      earned_count: '{count, plural, one {<b># kasutaja</b> on selle aumärgi välja teeninud} other {<b># kasutajat</b> on selle aumärgi välja teeninud}}'
       earned_on: 'Aumärk teeniti'
       earning_reason: 'Aumärgi väljateenimise põhjus'
       name: 'Aumärgi nimi'
@@ -79,7 +84,10 @@ v17development-flarum-badges:
       update_earning_reason: 'Uuenda väljateenimise põhjust'
     badge_information: 'Aumärgi info'
     badges_in_card:
+      description: 'Võid oma kasutajakaardil näha olevaid aumärke muuta valides oma aumärkide vahel. Kui sa ei vali midagi, siis valitakse need automaatselt.'
+      hit_limit: 'Sinu kaardil on ruumi ainult <b> {limit, plural, one {<b>ühele aumärgile</b>} other {<b># aumärgile</b>}}</b>. Tühista mõne eelneva aumärgi valimine, et sellele ruumi teha.'
       manage_badges: 'Halda aumärke'
+      select_limit: 'Võid valida {limit, plural, one {<b>ühe aumärgi</b>} other {<b># aumärki</b>}}, mis on nähtavad sin ukasutaja kaardil.'
       title: 'Aumärgid kasutaja kaardil'
     give_badge: 'Anna aumärk'
     moderation:

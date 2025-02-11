@@ -42,7 +42,10 @@ foskym-oauth-center:
       access_lifetime: 'Ligipääsukoodi pikkus (sekundites)'
       allow_delete_records: 'Luba autoriseerimis sissekannete kustutamine'
       allow_implicit: 'Luba selge kasutusõigus (vastuse_liik=kood)'
+      authorization_method_fetch: 'Autoriseerimise viis on tõmbamine (Pole otseselt ümbersuunamine)'
       display_mode: 'Näitamise režiim'
+      enforce_state: 'Sunni peale staatuse kontrollimine (staatuse parameeter)'
+      require_exact_redirect_uri: 'Nõua tõpset ümbersuunamise URI'
     tokens:
       add_token: 'Lisa kontrollkood'
       delete_token: 'Kustuta kontrollkood'

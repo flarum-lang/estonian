@@ -8,10 +8,13 @@ xelson-chat:
       create:
         channel: 'Alusta kanaleid'
         chat: 'Jututoa alustamine'
+      delete: 'Jututoa sõnumite kustutamine'
+      edit: 'Jututoa vestluste muutmine'
       enabled: 'Jututoa lubamine'
       moderate:
         delete: 'Kustuta jututoa sõnumid'
         vision: 'Kustutatud sõnumite vaatamine'
+      post: 'Postita jututuppa'
     settings:
       charlimit: 'Maksimaalne märkide arv sõnumis'
       display:
@@ -58,6 +61,8 @@ xelson-chat:
       leave: Lahku
       list:
         add_modal:
+          alerts:
+            exists: 'Sa ei saa selle kasutajaga teist privaatsõnumit luua!'
           channel: Kanal
           chat: Jututuba
           create:
@@ -85,17 +90,34 @@ xelson-chat:
         placeholder: 'Filtreeri jututubasid'
         preview:
           empty: 'Sõnumeid pole'
+        unpin: 'Eemalda paneeli kinnitus'
       message:
         actions:
           hide: Peida
           resend: 'Saada uuesti'
         censored: 'Logi sisse, et näha seda sõnumit!'
         deleted: kustutas
+        deleted_forever: 'igaveseks kustutatud. Kustutas'
         events:
+          channel:
+            created: '{creatorname} lõi kanali {chatname}'
           chat:
             created: '{creatorname} lõi {chatname} ja kutsus {usernames}'
+          color:
+            edited: '{editorname} muutis jututoa värvi. Vana {old} Uus {new}'
+          icon:
+            edited: '{editorname} muutis jututoa ikooni. Vana {old}. Uus {new}'
+          pm:
+            created: '{creatorname} alustas vestlust kasutajaga {username}'
+          self:
+            entered: '{username} sisenes jututuppa'
+            leaved: '{username} lahkus jututoast'
+          title:
+            edited: '{editorname} muutis jututoa pealkirja. Vana {old} Uus {new}'
           users:
             invited: '{editorname} kutsus {usernames}'
+            invited_kicked: '{editorname} kutsus kasutajad {invitednames} ja viskas välja kasutajad {kickednames}'
+            kicked: '{editorname} viskas välja kasutaja {usernames}'
         type:
           code: '<Code />'
           event: Sündmus
@@ -107,8 +129,13 @@ xelson-chat:
       welcome:
         header: 'Teretulemast Neon Chati-!'
         subheader: 'Palun vali vestlemiseks paremalt jututuba'
+    errors:
+      chatdenied: 'Sinu kasutajagrupil pole lubatud sõnumeid kirjutada'
+      removed: 'Sind eemaldati jututoast'
+      unauthenticated: 'Ainult registreerunud kasutajad saavad jututuba kasutada'
     index:
       chat_link: Jututuba
+    pusher_not_found: 'Jututoa reaalajas uuendamiseks on vaja teenust Pusher või Websockets.'
     toolbar:
       chat:
         settings: 'Jututoa seaded'

@@ -51,7 +51,10 @@ ziven-decoration-store:
     item-purchase-item-type-profileBackground: 'Profiili taust'
     item-purchase-item-type-usernameColor: 'Kasutajanime värv'
     item-purchase-purchase-type: 'Ostu liik'
+    item-purchase-status-button-0: 'Varusta ühikuga'
+    item-purchase-status-button-1: 'Eemalga ühik'
     item-purchase-subscribe-item-status-0: 'Tellimine. Pole kasutusel'
+    item-purchase-subscribe-item-status-1: 'Tellimine. Kasutuses'
     item-purchase-subscription-cost: 'Tellimuse hind'
     item-purchase-title: 'Kirje nimi'
     item-soldout: 'Välja müüdud'
@@ -63,6 +66,7 @@ ziven-decoration-store:
     notification-receive-subscription: 'Tellimustasu maha võtmine'
     notifications:
       subscription-expired: 'Sinu tellimus {title} on aegunud'
+      subscription-expired-excerpt: 'Sul pole piisavalt {cost} raha, et tellida'
       subscription-fee-deduction: 'Tellimuse tasu {title}'
       subscription-fee-deduction-excerpt: 'Hind {cost}'
     processing: Töötlemine...
@@ -102,6 +106,7 @@ ziven-decoration-store:
     item-purchase-type-onetime: 'Ühekordne ost'
     item-purchase-type-yearly: 'Iga-aastane tellimus'
     item-sold: Müügid
+    item-stock-remaining: Laoseis
     item-title: 'Kirje nimi'
     item-type: 'Kirje liik'
     item-type-all: 'Kõik kirje liigid'

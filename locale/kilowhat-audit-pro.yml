@@ -11,6 +11,7 @@ kilowhat-audit:
       upgrade: 'Uuenda PRO versioonile'
     limitedSettings:
       configure: Seadista
+      introduction: 'Vali, mida piiratud ligipääsuga kasutajad võivad näha'
       requiresExtension: 'Nõuab lisaprogrammi {extension}'
       title: 'Piiratud ligipääsu seaded'
     permissions:
@@ -58,10 +59,14 @@ kilowhat-audit:
         hidden: 'Peitis vestluse {discussion}'
         locked: 'Lukustas vestluse {discussion}'
         merged_away: 'Liitis vestluse {discussion} vestlusega {new_discussion}'
+        merged_into: 'Liitis {post_count} postitust vestlusest {original_discussion_ids_count} vestlusega {discussion}'
+        renamed: 'Nimetas vestluse ümber. Vana pealkiri: {old_title} Uus pealkiri: {new_title}'
         restored: 'Taastas vestluse {discussion}'
+        split_away: 'Jagas {post_count} postitust vestlusest {discussion} uude vestlusesse {new_discussion}'
         split_into: 'Jaga {post_count} postitust uude vestlusesse {discussion}'
         tagged: 'Vestluse {discussion} sildid on uuendatud. Vanad: {old_tags}. Uued: {new_tags}'
         unlocked: 'Avatud vestlus {discussion}'
+        user_changed: 'Vestluse {discussion} autorit muudeti. Vana: {old_user} Uus: {new_user}'
       empty: 'Tulemusi pole'
       extension:
         disabled: 'Lisaprogrammi {package} välja lülitamine'
@@ -80,10 +85,13 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      permission_changed: 'Õigust {permission} on muudetud. Vana grupp: {old_groups} Uus grupp: {new_groups}'
       post:
         approved: 'Kiitis heaks kasutaja {postuser} postituse {post} vestluses {discussion}'
+        create_date_changed: 'Kasutaja {postuser} postituse {post} alustamise kuupäeva muudeti. Vana kuupäev: {old_date} Uus kuupäev: {new_date}'
         created: 'Lisas postituse {post} vestluses {discussion}'
         deleted: 'Kustutas kasutaja {postuser} postituse {post} vestluses {discussion}'
+        dismissed_flags: 'Eirati kasutaja {postuser} postituse {post} märkimist sobimatuks vestluses {discussion}'
         edit_date_changed: 'Muutis kasutaja {postuser} postituse {post} muutmise kuupäeva. Vana {old_date}. Uus {new_date}'
         flagged: 'Märkis kasutaja {postuser} postituse {post} vestluses {discussion} sobimatuks. Põhjus {reason}'
         hidden: 'Peitis kasutaja {postuser} postituse {post} vestluses {discussion}'

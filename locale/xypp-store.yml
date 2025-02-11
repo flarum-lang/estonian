@@ -17,7 +17,9 @@ xypp-store:
       delete-button: Kusuta
       desc: Kirjeldus
       edit-button: Muuda
+      edit-title: 'Muuda kirjet #{0}'
       expire_time: Aegumine
+      expire_time_tip: 'Jäta tühjaks, et välja lülitada või määra number, mis näitab aegumist sekundites.'
       name: Nimi
       price: Hind
       provider: Teenusepakkuja
@@ -29,6 +31,8 @@ xypp-store:
         special_data: 'Valitud andmed'
         unknown: 'Vali teenusepakkuja'
         unknown_data: 'Pead esmalt valima teenusepakkuja'
+      rest_cnt: Järgi
+      rest_cnt_tip: 'Jäta see tühjaks, et aegumist poleks. Või määra soovitud number.'
       success: 'Kirje on loodud'
       title: 'Loo kirje'
       use_cnt: 'Mitu korda saab kasutada'
@@ -38,12 +42,16 @@ xypp-store:
     edit_button: Muuda
     history:
       confirm_delete: 'Oled sa kindel, et soovid kustutada kirje, mille sa otsid?'
+      confirm_use: 'Kinnitada kasutamist?'
       delete_button: Kustuta
+      expire: 'Aegub {0}'
+      forever: 'Saadaval alati'
       infinity_use: 'Piiramatu kasutus'
       no_record: 'Ostu pole'
       not_found: 'Kirjet ei leitud'
       rest_cnt: 'Saab kasutada {0} korda'
       title: Ostetud
+      unable_to_use: 'Seda kirjet ei saa kasutada'
       use: Kasuta
     item:
       expire: '{0} kestus'
@@ -75,14 +83,18 @@ xypp-store:
         title: 'Kasuta kirjet'
     show_case: Vitriin
     store: Pood
+    time_segs: päevad|tunnid|minutid
     unavailable:
       common:
+        no_rest: 'Pole enam järgi'
         unknown: 'Ei saa osta'
     use_result:
       fail:
         cannot: 'Ei saa seda kirjet kasutada'
         error: 'Viga kirje kasutamisel'
         expired: 'Kirje on aegunud'
+        fail_expire: 'Selle kirje aegumise märkimine ebaõnnestus'
         id_not_found: 'Kirje ID-d ei leitud'
+        not_enough: 'Pole kasutamiseks piisavalt'
         unknown: 'Tundmatu viga'
       success: Korras
