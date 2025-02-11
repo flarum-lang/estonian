@@ -26,13 +26,16 @@ kilowhat-cimaise:
       autoCreateDiscussionAlbum: 'Loo automaatselt iga vestluse jaoks album'
       autoCreateDiscussionAlbumHelp: "Loo automaatselt vestlusega samanimeline album ja määra albumi autoriks vestluse algataja. See funktsioon läheb mööda albumi loomise õigustest ja seda rakendatakse kõigile siltidele..\n"
       columnTheme: 'Veeru teema'
+      columnThemeHelp: 'Kasuta alumise paneeli asemel külgriba.'
       license-add: 'Lisa litsents'
       license-description: Kirjeldus
       license-key: Võti
       license-label: Silt
       licenses: Litsentsid
       mapboxToken: 'Mapboxi kontrollkood'
+      mapboxTokenHelp: 'Sisesta korrektne kontrollkoos, et näidata pildi metaandmetes asukohta kaardil.'
       neverSyncDiscussionAlbumTitles: 'Ära kunagi sünkroniseeri vestluste ja albumite pealkirju'
+      neverSyncDiscussionAlbumTitlesHelp: "Vaikimisi antakse lingitud albumile täpselt sama pealkiri kui vestlusel, mille järgi see on nimetatud ka siis, kui vestluse nime hiljem muudetakse. Kui album nimetatakse ümber käsitsi, siis vestluse pealkirjadega seda ei sünkroonita.\n"
       requireLicense: 'Nõua litsentsi valimist alt nimekirjast'
       requireLicenseHelp: "Vaikimisi saavad kasutajad litsentsi valimise vahele jätta. Veendu, et sinu veebisaidi kasutamise tingimused määravad, mida võib teha piltidega, mille litsents pole määratud.\n"
       sticker-add: 'Lisa kleepekas'
@@ -41,6 +44,7 @@ kilowhat-cimaise:
       sticker-url: URL
       stickers: Kleepekad
       watermarkFile: 'Piltide vesipilt'
+      watermarkFileHelp: 'Sisestatud pilt rakendatakse üks-ühele kõigile üleslaadimistele, välja arvatud väikseimad eelvaated.'
       watermarkPlacement: 'Vesipildi paigutus'
       watermarkPlacementOptions:
         bottomLeft: 'All vasakul'

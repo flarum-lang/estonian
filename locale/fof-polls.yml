@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'Küsitluse käivitamine ebaõnnestus'
       start_poll_button: 'Alusta üldist küsitlust'
       submit_button: Vasta
+      total_votes: 'Anti {count, plural, one {# hääl} other {# häält}}'
     poll_controls:
       delete_confirmation: 'Oled sa kindel, et soovid seda küsitlust kustutada?'
       delete_error_message: 'Küsitluse kustutamisel läks midagi valesti.'

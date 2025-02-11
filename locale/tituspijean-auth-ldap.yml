@@ -7,6 +7,7 @@ tituspijean-auth-ldap:
     settings:
       account_prefix: 'Konto eesliide'
       account_suffix: 'Konto eesliide'
+      admin_dn: 'LDAP admini nimi (jäta tühjaks, et siduda anonüümselt)'
       admin_password: 'LDAP admini parool (jäta tühjaks, et siduda anonüümselt)'
       base_dn: 'BaasDN (eraldatuna komadega)'
       filter: 'Filter, mida rakendada (valikuline)'

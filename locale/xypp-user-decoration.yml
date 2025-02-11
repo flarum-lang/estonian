@@ -41,6 +41,7 @@ xypp-user-decoration:
       edit-title: 'Muuda dekoratsiooni #{0}'
       name: nimi
       style: Stiilileht
+      tip: 'Kasuta klassi .base et valida sihtsilt, kasuta silti .element-xxx et lisada uus element'
       title: 'Loo dekoratsioon'
       type:
         avatar: Avatar

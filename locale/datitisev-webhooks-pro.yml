@@ -14,8 +14,10 @@ fof-webhooks:
       created: 'Lõi küsitluse `{1}`'
       voted: 'Vastas küsitlusele `{1}`'
     post:
+      downvoted: 'Hinda postitust allapoole'
       reacted: 'Reageeris postitusele `{1}`'
       unreacted: 'Eemaldas postituselt oma reaktsiooni'
+      upvoted: 'Hinda postitust ülespoole'
     user:
       enabled2fa: 'Lülitas 2FA sisse'
   admin:
@@ -35,6 +37,7 @@ fof-webhooks:
             discussionmadepublic: 'Vestlus tehti avalikuks'
             title: 'FriendsOfFlarum Byobu'
           gamification:
+            postwasvoted: 'Postitust hinnati üles/allapoole'
             title: 'FriendsOfFlarum mängustamine'
           polls:
             pollwascreated: Loonud

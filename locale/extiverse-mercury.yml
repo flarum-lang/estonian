@@ -14,6 +14,7 @@ extiverse-mercury:
       updates: '{count, plural, =0 {Uuendusi pole} one {Üks uuendus} other {# uuendust}}'
     settings:
       token: 'Extiverse kontrollkood (<a>nõutud</a>)'
+      token-description: "Hangi API kontrollkood saidilt <a>Extiverse</a>, et Mercury saaks turvaliselt suhelda sinu Flarum kogukonnaga.\n"
   email:
     new-extension-update:
       body: "Hei {recipient_display_name}!\n\nSinu Flarumi kogukonnast leiti {count} uuendust.\nOn soovitatav, et uuendaksid niipea kui võimalik.\n\nUuendused hõlmavad järgmisi lisaprogramme {extensions}.\n\nLisainfot saad oma kogukonna lehelt: {url}.\n"

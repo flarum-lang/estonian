@@ -5,6 +5,9 @@
 justoverclock-check-duplicate-discussions:
   admin:
     similarNumber: 'Sarnased vestlused, mida näidata'
+    similarNumber-help: 'sisesta sarnaste vestluste arv, mida vestluse koostamisel näidatakse'
   forum:
+    foundDiscussion: 'Soovime tõsta esile mõningaid vestlusi, mis võivad kattuda sinu teemaga. Oleks tore, kui proovid vältida topelt-teemade tegemist.'
+    identicalWarning: 'Hoiatus: sinu vestluse pealkiri on identne juba olemasoleva vestlusega!'
     solvedSimilar: '- Lahendatud'
     title: 'Leiti sarnaseid teemasid!'
