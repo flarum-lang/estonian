@@ -10,6 +10,8 @@ flarum-gdpr:
         export_description: 'Kõik kasutaja poolt üles laaditud failid.'
 fof-upload:
   admin:
+    help_texts:
+      disable-hotlink-protection: "Otse linkimise kaitse takistab pildi lisamist teistele saitidele. Praegune meetod nõuab csrf kontrollkoodi ja postituse ID-d.\n"
     inspect-mime:
       guessed-extension: 'Vaikimisi faililaiend (kui algne pole valges nimekirjas)'
       laravel-validation: 'Laravel failide kinnitamine'
