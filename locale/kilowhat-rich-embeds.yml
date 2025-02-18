@@ -4,6 +4,8 @@
 
 kilowhat-rich-embeds:
   admin:
+    permissions:
+      disableOnAnyPost: 'Põimimised väljalülitamine ükskõik millises postituses'
     preview:
       loading: Laadimine...
       refresh: Värskenda
@@ -17,9 +19,11 @@ kilowhat-rich-embeds:
     settings:
       blacklist: 'URL-ide must nimekiri'
       cacheProxy: 'Hoia pildid vaheserveris'
+      flarumApiPreviews: 'Lülita Flarumi edasijõudnud eelvaated sisse'
       githubApiKey: 'GitHub API võti'
       githubOrgWhitelist: 'Organisatsioonide valge nimekiri'
       googleApiKey: 'Google SDK API võti'
+      imageEmbeds: 'Piltide rikkalik põimimine'
       imageProxy: 'OpenGraph piltide vaheserver'
       layout: Paigutus
       layoutOptions:
@@ -65,11 +69,14 @@ kilowhat-rich-embeds:
         pull:
           stats:
             commentCount: Kommentaare
+            commitCount: Panustamisi
             createdAt: Loodud
             reviewCount: Ülevaateid
+          type: Tõmbamisi
         repo:
           stats:
             openIssueCount: 'Avatud probleemid'
+            stargazerCount: Tähti
             subscriberCount: Vaatajaid
           type:
             private: 'Privaatne hoidla'
@@ -81,6 +88,7 @@ kilowhat-rich-embeds:
             createdTime: Loodud
             modifiedTime: Muudetud
             size: Failisuurus
+          thumbnailAlt: 'Google Drive-i faili eelvaade'
           type: Fail
         siteName: 'Google Drive'
       youtube:
@@ -89,7 +97,9 @@ kilowhat-rich-embeds:
           stats:
             commentCount: Kommentaare
             likeCount: Meeldimisi
+            publishedAt: Avaldatud
             viewCount: Vaatamisi
+          thumbnailAlt: 'Video pisipilt'
           type: Video
     error:
       invalidUrl: 'URL {url} pole korrektne.'
