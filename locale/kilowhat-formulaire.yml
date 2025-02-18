@@ -24,6 +24,7 @@ kilowhat-formulaire:
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     settings:
       checkbox-style: 'Märkekasti stiil'
+      history-controls: 'Näita esitamise lehel tühistamise/kordamise nuppu'
       horizontal-layout: 'Kasuta horisontaalset vormi paigutust'
       horizontal-layout-locations:
         discussionComposer: 'Vestluse loomine'
@@ -31,9 +32,13 @@ kilowhat-formulaire:
         discussionView: 'Vestluse vaatamise konteiner'
         profileEdit: 'Profiili muutmise lehekülg'
         profileView: 'Profiili vaatamise lehekülg'
+        signUp: 'Liitumise hüpikaken (ainult Formulaire väljad)'
+        standaloneEdit: 'Eraldi täitmise/muutmise lehekülg'
         standaloneView: 'Eraldiseisev vaatamise lehekülg'
       max-file-size: 'Maks. failisuurus (kB)'
+      noByobuFields: 'Ära integreeri vestluse väljasid privaatsete vestlustega lisaprogrammis Byobu'
       radio-style: Raadiovalik
+      side-nav-on-submission: 'Näita lisamise lehel külgriba'
       style-options:
         far-circle: 'FontAwesome tavaline ringi ikoon'
         far-square: 'FontAwesome tavaline nelinurkne ikoon'
@@ -43,6 +48,7 @@ kilowhat-formulaire:
         switch: 'Flarumi lüliti'
       title: 'Vormi üldised seaded'
   api:
+    cannot-change-form-type: 'Sa ei saa muuta vormi liiki, kui sellel vormil on juba vastuseid'
     duplicate-field-key: 'Võti peab olema unikaalne'
     export:
       meta:
@@ -62,7 +68,9 @@ kilowhat-formulaire:
     formatter-parsing-error: 'Sisu näitamine ebaõnnestus: {message}'
     not-allowed-to-fill-field: 'Sul pole luba selle välja väärtust muuta'
     unauthorized-form: 'Sul pole õigusi vormi {id} täitmiseks'
+    unauthorized-scoped-form: 'Sa ei saa täita vormi ID {id} praeguse sildi kombinatstioonidega'
     unknown-form: 'Tundmatu vormi ID {id}'
+    unsupported-discussion-form: 'Sa ei saa täita vormi ID {id} seda liiki vestluses'
   forum:
     auto-discussion-options-modal:
       field:
@@ -151,6 +159,7 @@ kilowhat-formulaire:
         user: '=> kilowhat-formulaire.ref.type.user'
       controls: Juhtelemendid
       delete: 'Kustuta jäädavalt'
+      delete-confirmation: 'Vorm "{title}" kustutatakse jäädavalt'
       disable-expert-mode: 'Lülita asjatundja režiim välja'
       enable-expert-mode: 'Lülita asjatundja režiim sisse'
       fields:
@@ -169,6 +178,7 @@ kilowhat-formulaire:
       email-confirmation-options: 'Kinnituskirja mall'
       email-notification-options: 'Teavituskirja mall'
       exiting-with-unsaved-data: 'Siin on salvestamata muudatusi. Oled sa kindel, et soovid lehelt lahkuda?'
+      expert-mode-warning: "Eksperdirežiim on sisse lülitatud. See võimaldab sul muuta välja identifikaatoreid ja õiguseid igal väljal eraldi. Veendu, et sa oleksid tuttav nende funktsioonide dokumentatsiooniga, kuna need võivad ka sinu saidi lõhkuda!\n"
       field:
         accept-submissions: 'Aktsepteeri uus vastuseid'
         allow-modification: 'Luba kasutajatel muuta nende varasemaid vastuseid'
@@ -176,6 +186,7 @@ kilowhat-formulaire:
         enable: 'Lülita sisse'
         link: 'Vormi eriliigid'
         max-submissions: 'Maksimaalne vastamiste arv (kui piirangut pole, siis jäta tühjaks)'
+        notify-emails: 'Saada koopia andmetest neile komadega eraldatud e-posti aadressidele'
         permission-edit-any: 'Kõigi vastuste muutmine'
         permission-edit-own: 'Oma vastuste muutmine'
         permission-see-any: 'Kõikide sisestatud info nägemine'
@@ -185,6 +196,7 @@ kilowhat-formulaire:
           discussion: 'Näita vestluse koostamisel'
           user: 'Näita liitumisel'
         title: 'Avalik pealkiri'
+        web-confirmation-message: 'Sõnumi kinnitus veebis (vormindamine on sisse lülitatud)'
       link-options:
         all-groups: 'Kõigile gruppidele'
         all-tags: 'Iga sildi jaoks'
@@ -198,6 +210,7 @@ kilowhat-formulaire:
         template: Mall
       warnings:
         linked-form-is-draft: "See vorm on praegu veel mustand. Anna kasutajatele \"Ligipääs\" väljadele, et need oleksid foorumis nähtavad.\n"
+        show-on-signup-invalid-permissions: "Kui soovid kasutada \"näita liitumisel\", siis peab heakskiitmata liikmetel olema õigused \"näe enda oma\" ja \"muuda enda oma\".\n"
     form-index:
       columns:
         accept-submissions: Avatud
@@ -209,6 +222,7 @@ kilowhat-formulaire:
       edit: Muuda
       empty: 'Vorme pole'
       header:
+        discuss: 'Vestlus Flarumis'
         documentation: 'Täielik dokumentatsioon'
         title: '=> kilowhat-formulaire.ref.manager'
       load-more: 'Laadi rohkem'
