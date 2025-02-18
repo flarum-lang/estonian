@@ -5,7 +5,20 @@
 v17development-flarum-support:
   emails:
     replied_to_ticket:
+      body: "Tere {recipient_display_name},\n\n{replier_display_name} vastas sinu piletile #{ticket_id} (teema \"{subject}\").\n\nVastamiseks kasuta allolevat linki:\n{url}\n\nOotema sinu vastust või seda, et märgid pileti lahendatuks.\n"
       subject: '{replier_display_name} vastas sinu piletile #{ticket_id}'
+    ticket_pending_reply:
+      body: "Tere {recipient_display_name},\n\n{replier_display_name} vastas mõni aeg tagasi sinu piletile #{ticket_id} (kuupäeval {replied_date}) ja me ootame sinu vastust.\n\nSinu pileti link on:\n{url}\n\nKui probleem on lahendatud, siis märgi see pilet lahendatuks.\n"
+      subject: 'Pilet #{ticket_id} ootab sinu vastust'
+    ticket_pending_reply_closed:
+      body: "Tere {recipient_display_name},\n\n{replier_display_name} vastas mõni aeg tagasi sinu piletile #{ticket_id}. Kahjuks pole me sinu käest vastust saanud. Sinu pilet on vastuse viibimise tõttu automaatselt suletud.\n\nKui soovid vastata, siis sinu pileti link on:\n{url}\n"
+      subject: 'Pilet #{ticket_id} on tegevusetuse tõttu suletud'
+    ticket_resolved:
+      body: "Tere {recipient_display_name},\n\nSinu pilet #{ticket_id} on märgitud lahendatuks. See tähendab, et see on nüüd suletud.\n\nLink sinu piletile:\n{url}\n\nKui see tundub olevat viga, siis saad pileti uuesti avada sellele vastates.\n"
+      subject: 'Pilet #{ticket_id} on märgitud lahendatuks'
+    ticket_status_update:
+      body: "Tere {recipient_display_name},\n\nSinu pileti #{ticket_id} uus staatus on {new_status}.\n\nLink sinu piletile:\n{url}\n"
+      subject: 'Pileti #{ticket_id} uus staatus on {new_status}'
   forum:
     admin_overview: 'Ava admini ülevaade'
     article:
@@ -46,10 +59,12 @@ v17development-flarum-support:
       publish_article: 'Avalda artikkel'
       publish_article_hint: 'Avalda artikkel pärast postitamist.'
       view: Vaata
+      warning_save_changes: "HOIATUS: Oled sellelt lehelt ilma oma muudatusi salvestamata lahkumas. Kas sa soovid oma muudatused enne lahkumist salvestada?\n\n[OK] = Jah, salvesta. [CANCEL] = Ei, ära salvesta\n"
       write: Kirjuta
     create: Loo
     discard: Loobu
     hero:
+      check_forum: 'Kui sa ei leia, mida sa otsid, siis <a>vaata meie foorumit</a>'
       help_question: 'Millega me saame sulle abiks olla?'
     knowledge_base: Teabebaas
     modals:
@@ -67,8 +82,10 @@ v17development-flarum-support:
         article_created: 'Artikkel loodi'
         loading_auditlog: 'Auditi logi laadimine'
         no_more_events: 'Ühtegi sündmust ei leitud'
+        title: 'Artikli auditi logi'
     not_found:
       description: 'Vabandust, aga selles kohas pole enam seda artiklit või kategooriat.'
+      solution: 'Otsimiseks võid kasutada üleval olevat otsingulahtrit.'
       title: 'Kirjet ei leitud'
     notifications:
       replied_to_ticket:
@@ -99,9 +116,11 @@ v17development-flarum-support:
       back_to_search_results: 'Tagasi otsingutulemustesse'
       no_results: 'Otsing sõnaga {searchterm} ei andnud tulemusi.'
       search_knowledge_base: 'Tagasi teabebaasi'
+      searched_for: 'Otsisid sõna {searchterm}. See andis {results} tulemust.'
       searching: Otsimine
       searching_for: 'Sõna {searchterm} otsing'
       title: Otsi
+      use_searchbox_below: 'Kasuta allolevat otsingut, et otsida meie teabebaasist.'
     send: Saada
     settings: '=> core.ref.settings'
     support_ratings:
@@ -112,9 +131,13 @@ v17development-flarum-support:
       helful_article: 'Kas see artikkel oli sulle abiks?'
       helful_support: 'Oled sa rahul sellega, kuidas sinu kasutajatoe piletit käsitleti?'
       score: Punktid
+      switch_sort_score:
+        description: 'Näita ainult artikleid, mis on saanud tagasisidet sorteerides alates madalaimast hinnatud artiklist.'
+        label: 'Näita artiklite hinnanguid madalamast kõrgeimani'
       validation:
         cannot_rate_article: 'Sa ei saa seda artiklit hinnata.'
         guest: 'Palun logi sisse enne, kui sa hindad seda artiklid.'
+        invalid_discussion: 'Oih, midagi läks valesti. Sa ei saa seda artiklit või piletit hinnata.'
         invalid_points: 'Vigane hinnang. Palun proovi uuesti.'
         missing_article_id: 'Puuduv või vigane artikli ID'
         neutral_emoji_disabled: 'Neutraalne emoji on välja lülitatud.'
@@ -122,9 +145,12 @@ v17development-flarum-support:
     tickets:
       compose_ticket:
         not_allowed: 'Sa ei saa praegu uut piletit avada'
+        private_support: 'Privaatse kasutajatoe jaoks võid luua uue pileti meie kasutajatoe platformil. Mitte-privaatseid küsimusi võid arutada <a>meie avalikus foorumis</a>.'
         title: 'Kirjuta uus pilet'
       convert_to_discussion:
         button: 'Konverdi vestluseks'
+        confirm: 'Oled sa kindel, et soovid teisendada selle pileti avalikuks vestluseks? Kui keegi on jaganud privaatset infot, siis see tehakse ka avalikuks.'
+        event: "Pilet {ticket_title} on teisendatud vestluseks\n\nKas soovid kohe sellele vestlusele minna?\n"
       convert_to_ticket:
         button: 'Konverdi piletiks'
         confirm: 'Oled sa kindel, et soovid selle vestluse piletiks konvertida?'
@@ -134,18 +160,24 @@ v17development-flarum-support:
           placeholder: 'Pileti staatus'
           title: 'Määratud kasutajatele'
         information:
+          placeholder: 'Kirjuta meile, millega saame sind aidata'
           title: 'Pileti info'
         language:
+          description: 'Sinu kasutajatoe piletit käsitletakse keeles {language}.'
           empty: 'Keelt pole valitud'
           placeholder: 'Vali keel'
           title: Keel
         private_note:
           edit_button: 'Muuda märkust'
+          info: 'Privaatsed märkmed on nähtavad ainult teistele kasutajatuge pakkujatele. See pole kliendile nähtav.'
+          placeholder: 'Näiteks: 1. mai 2025 - Nimi: Kliendi kustutamine andmebaasist'
+          tip: 'VIHJE: Kui töötad mitme inimesega ühe pileti kallal, siis lisa märkmele oma nimi ja kuupäev.'
           title: 'Privaatsed märkmed'
         status:
           placeholder: 'Pileti staatus'
           title: Staatus
         subject:
+          description: 'Proovi kirjeldada oma probleemi ühe lühikese lausega.'
           placeholder: 'Pileti teema'
           title: Teema
       load_more:
@@ -157,10 +189,12 @@ v17development-flarum-support:
       new_tickets_dropdown:
         no_tickets: 'Pileti teavitusi pole'
         ticket_new: '{username} lõi pileti {ticket}'
+        ticket_updated: '{username} vastas piletile {ticket}'
         title: 'Pileti teavitused'
       opened_on: Avatud
       overview:
         all_tickets: 'Kõik piletid'
+        description: 'Naerata, sa oled kangelane, kes aitab inimeste päeval korda minna.'
         filter:
           assignees:
             search: 'Otsi, kellele on määratud'
@@ -169,7 +203,9 @@ v17development-flarum-support:
           language:
             any: 'Iga keel'
           status:
+            filter_count: '{count, plural, one {# filter} other {# filtrit}}'
             title: 'Pileti staatus'
+        no_tickets: 'Sinu kriteeriumitele vastavaid pileteid pole. See näitab ilmselt seda, et teed head tööd!'
         refresh: Värskenda
         selection_closed: 'Suletud piletid'
         selection_open: 'Avatud piletid'
@@ -180,14 +216,17 @@ v17development-flarum-support:
           oldest: 'Vanimad enne'
           recent_activity: 'Viimased tegevused'
         title: 'Piletite ülevaade'
+      reminders_sent: '{count, plural, one {Saadeti üks meeldetuletus} other {# meeldetuletust saadetud}}'
       return_to_overview: 'Tagasi piletite ülevaatesse'
       status:
         closed:
           close_after_posting: 'Sulge pilet pärast postitamist'
           description: 'See pilet on suletud.'
           is_auto_closed: 'See pilet on mitteaktiivsuse tõttu suletud.'
+          is_closed: 'Kui pilet on suletud, siis sellele vastamine avab selle uuesti. Soovitame pileti uuesti avada ainult siis, kui probleem pole lahendatud. Kui see on uus probleem, siis palun ava uus pilet.'
           title: Suletud
         duplicate:
+          description: 'See pilet on märgitud kui duplikaat.'
           title: 'Tee koopia'
         new:
           description: 'See on vastamata pilet'
@@ -196,8 +235,11 @@ v17development-flarum-support:
           description: 'See pilet on ootel.'
           title: Ootel
         open:
+          description: 'Sellel piletil on uus vastus ja see ootab sinu vastust.'
           title: Ava
         pending:
+          description: 'See pilet ootab kasutaja vastust.'
+          description_user: 'Ootame sinu vastust väi, et pilet märgitakse lahendatuks.'
           title: Ootel
         solved:
           description: 'See pilet on märgitud lahendatuks'
@@ -205,6 +247,7 @@ v17development-flarum-support:
           title: Lahendatud
       subject: Teema
       ticket: Pilet
+      ticket_activity: 'Kasutajalt {username}, viimane tegevus {date}'
       ticket_does_not_exist: 'Küsitud tagasitoe pileteid ei leitud.'
       ticket_overview: 'Pileti ülevaade'
       tools:

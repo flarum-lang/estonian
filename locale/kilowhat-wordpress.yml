@@ -4,6 +4,8 @@
 
 kilowhat-wordpress:
   admin:
+    appearance:
+      edit_css_button: 'Muuda kohandatud CSS-i ainult WordPressiga põimimise jaoks'
     edit_css:
       title: 'Muuda kohandatud põimitud CSS-i'
     health:
@@ -32,6 +34,7 @@ kilowhat-wordpress:
       save: Salvesta
       saved-at: 'Salvestatud {ago} tagasi'
       unsaved-changes: 'Sul on salvestamata muudatusi'
+      validation-errors: 'Leidsime sinu esitatud sisus probleeme'
     settings:
       api_key: 'Jagatud API võti'
       api_key_reset: 'Loo uus API võti'
@@ -41,21 +44,28 @@ kilowhat-wordpress:
       comment_tag_custom_help: 'Komadega eraldatud nimekiri siltide ID-dest'
       comment_tag_none: 'Ära määra sildile'
       cookie_domain: 'Küpsise domeen'
+      cookie_domain_help: "Seda seadet kasutatakse ainult siis, kui kasutad küpsisega sisselogimist. Vajad seda väärtust ainult siis, kui saidid on erinevatel alamdomeenidel.\n"
       default_actor_placeholder_invalid: 'Võimalik vigane väärtus: {value} - Trüki kasutaja otsimiseks...'
       default_actor_placeholder_search: 'Kirjuta kasutaja otsimiseks...'
       enable_comments: 'Lülita kommentaaride integreerimine sisse'
       enable_sso: 'Lülita SSO integratsioon sisse'
+      excerpt_html_nodes: 'Sisu väljavõtte pikkus (HTML sisu järgi)'
       force_username_choice: 'Lase kasutajatel esimese külastuse ajal nende kasutajanimi valida'
+      force_username_choice_help: 'Vaikimisi väärtus, mis sisestatakse üleval valitud reeglida.'
+      iframe_redirect_delay: 'Iframe ümbersuunamise viivitus (millisekundites)'
       login_method: 'Üldine sisselogimise mehhanism'
+      login_method_help: "\"Küpsis\" töötab ainult siis, kui WordPress ja Flarum jagavad kõrgema astme domeeni. \"Ümbersuunamine\" tekitab ümbersuunamise igal sisselogimisel ka siis, kui kasutaja ei plaani foorumit külastada. \"Peidetud Iframe\" õhendab ainult siis, kui külastad Flarumit, põhjustades esimesel avamisel lehe taaslaadimise. Kombineerituna alloleva \"Iframe viivitusega\" saab seda kasutada ainult sisselogimisel.\n"
       login_method_options:
         cookie: Küpsis
         iframe: 'Peidetud raam'
         redirect: 'Suuna ümber'
       post_delete: 'Tegevus, kui WordPressi postitus kustutatakse jäädavalt'
       post_delete_options:
+        delete: 'Kustuta vestlus päsivalt Flarumist'
         hide: 'Peida vestlused Flarumis'
         ignore: 'Ignoreeri (säilita Flarumi vestluse olek)'
         lock: 'Säilita Flarumi vestlus ja lukusta'
+      post_hide: 'Toiming, kui WordPressi postitus peidetakse (liigutatakse prügikasti või mustanditesse)'
       post_hide_options:
         delete: 'Kustuta vestlused Flarumist jäädavalt'
         hide: 'Peida vestlused Flarumis'
@@ -63,12 +73,15 @@ kilowhat-wordpress:
         lock: 'Lukusta vestlused Flarumis'
       post_thumbnail_list: 'Näita WordPressi postituse pisipilti Flarumi vestluste nimekirjas'
       post_thumbnail_summary: 'Näita WordPressi postituse pisipilti väljavõtte kohal'
+      role_group_sync: 'Rolli ja grupi sünkroniseerimine'
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
       use_post_date: 'Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana'
       user_delete: 'Tegevus, kui kasutaja kustutatakse WordPressist'
+      user_delete_desc: 'Kui valid "kustuta", siis kustutatakse ainult kasutaja, mitte nende sisu Flarumis.'
       user_delete_options:
         delete: 'Kustuta Flarumi kasutaja'
         ignore: 'Ignoreeri (säilita Flarumi kasutaja)'
+        suspend: 'Külmuta Flarum kasutajakonto igaveseks (Lisaprogramm Suspend peab olema sisse lülitatud)'
       username_strategy: 'Uute kasutajate kasutajanimi'
       username_strategy_help: 'Kui kasutajanimi on Flarumis juba olemas, siis lisatakse sellele number'
       username_strategy_options:
@@ -76,6 +89,7 @@ kilowhat-wordpress:
         random: 'Juhuslik kasutajanimi'
         user_login: 'Kasutajanimi WordPressist'
       welcome_message: 'Tutvustav sõnum'
+      welcome_message_help: 'Seda sõnumit näidatakse, kui kasutaja külastab foorumit esimest korda koos kasutajanime valikuga (kui see on sisse lülitatud).'
       wordpress_login_full_page: 'Ava hüpikakna asemel WordPressi sisselogimise lehekülg'
       wordpress_login_only: 'Luba ainult WordPressi sisselogimine'
       wordpress_login_path: 'WordPressi sisselogimise asukoht'
@@ -112,6 +126,9 @@ kilowhat-wordpress:
   forum:
     edit-user-modal:
       edit_in_wordpress: 'Muuda WordPressis'
+      should_not_edit_email: 'Peaksid muutma e-posti aadressi WordPressis. <a>Muuda sellegipoolest</a>'
+      unlink: 'Eemalda kasutaja seos WordPressi kasutajaga'
+      warning: "Seda kasutajat hoitakse WordPressiga sünkroonis. Peaksid muutma e-posti ja parooli WordPressis.\n"
     embed-link-modal:
       message: 'Lehekülg proovib sind suunata siia {href}'
       open: 'Ava link'
@@ -134,6 +151,7 @@ kilowhat-wordpress:
       read_more: 'Loe lisa'
     thumbnail_alt_fallback: 'WordPressi postituse pisipilt'
     welcome-modal:
+      default_message: 'Teretulemast foorumisse. Vali kasutajanimi ning oledki valmis jätkama!'
       not_now: 'Jäta vahele ja jätka külalisena'
       submit: 'Lülita foorumi konto sisse'
       title: Teretulemast!

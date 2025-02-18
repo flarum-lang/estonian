@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Sulge valija kui ikoon on valitud'
       enableRecent: 'Näita viimati kasutatuid'
       enableSearch: 'Luba otsimine'
       enableTones: 'Luba toonide kasutamine'
@@ -12,5 +13,16 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Peida Flarumi emoji valimise nupp'
       searchPosition: 'Liiguta otsing ja toonid alla'
   forum:
+    filters:
+      activity: Tegevused
+      animals_nature: 'Loomad ja loodus'
+      flags: Lipud
+      food_drink: 'Toit ja jook'
+      objects: Objektid
+      recent: Hiljutised
+      smileys_people: 'Emotikonid ja inimesed'
+      symbols: Sümbolid
+      tones: Mitmekesisus
+      travel_places: 'Reisimine ja kohad'
     picker_button: 'Emoji valija'
     search_placeholder: Otsi...

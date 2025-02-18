@@ -6,6 +6,7 @@ colored:
   admin:
     donate: 'Toeta seda lisaprogrammi'
     settings:
+      custom_css_help: 'Lisa kohandatud CSS stiilid, mida sa soovid siin rakendada.'
       custom_css_label: 'KOhandatud CSS'
       elements:
         alerts_description: 'Lisab süsteemiteadetele värvilise piirjoone'
@@ -22,8 +23,11 @@ colored:
         dropdown_description: 'Lisab rippmenüüle taustavärvi'
         dropdown_help: 'Lülita rippmenüüde värvimine sisse.'
         dropdown_label: Rippmenüüd
+        header_description: 'Lisab värvilise piirjoone foorumi päisesse'
         header_help: 'Lülita päise värvimine sisse.'
         header_label: 'Päise piirjoon'
+        hero_description: 'Lehe peamise bänneri taustavärvid'
+        hero_help: 'Luba foorumi päise värvimine.'
         hero_label: 'Peamine bänner'
         navigation_description: 'Lisab menüüle värvilise piirjoone'
         navigation_help: 'Lülita menüüriba värvimine sisse.'
@@ -38,6 +42,7 @@ colored:
       tag_mode_first: 'Esimene silt'
       tag_mode_label: 'Sildi värvirežiim'
       tag_mode_second: 'Teine silt'
+      tag_position_help: 'Vali kohandatava sildi asukoht.'
       tag_position_label: 'Sildi asukoht'
       transition_custom_help: 'Sisesta kohandatud kiirus sekundites (nt. 0.7)'
       transition_custom_label: 'Kohandatud kiirus'

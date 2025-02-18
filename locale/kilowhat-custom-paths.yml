@@ -7,23 +7,43 @@ kilowhat-custom-paths:
     settings:
       disabled: 'Lisaprogramm pole sisse lülitatud'
       extensions:
+        askvortsov-categories: 'Askvortsovi kategooriad'
+        clarkwinkelmann-composer-page: 'ClarkWinkelmanni postitamise lehekülg'
         clarkwinkelmann-discussion-bookmarks: 'ClarkWinkelmann''s vestluste järjehoidjad'
+        clarkwinkelmann-discussion-lists: 'ClarkWinkelmanni vestluste nimekiri'
         clarkwinkelmann-group-list: 'ClarkWinkelmann''s gruppide nimekiri'
         clarkwinkelmann-post-bookmarks: 'ClarkWinkelmann''s postituste järjehoidjad'
+        flamarkt-balance: 'Flamarkti tasakaal'
+        flamarkt-categories: 'Flamarkti kategooriad'
+        flamarkt-core: 'Flamarkti tuum'
+        flamarkt-identity: 'Flamarkti identiteet'
+        flamarkt-signup-page: 'Flamarkti liitumise lehekülg'
+        flarum-flags: 'Flarumi sobimatuks märgistamised'
+        flarum-subscriptions: 'Flarumi tellimused'
         flarum-tags: 'Flarumi sildid'
+        fof-byobu: 'FriendsOfFlarumi Byobu'
+        fof-gamification: 'FriendsOfFlarumi mängurežiim'
+        fof-masquerade: 'FriendsOfFlarumi Maskeraad'
+        fof-moderator-notes: 'FriendsOfFlarumi moderaatori märkmed'
         fof-pages: 'FriendsOfFlarumi leheküljed'
+        fof-user-directory: 'FriendsOfFlarumi kasutajate kataloog'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
+        v17development-blog: 'v17development''s Flarumi blogi'
+        v17development-user-badges: 'v17developmenti kasutaja aumärgid'
       head:
         name: Nimi
         path: Asukoht
       paths:
         askvortsov-categories: Kategooriad
+        clarkwinkelmann-composer-page: 'Postitamise lehekülg'
+        clarkwinkelmann-composer-page-tag: 'Sildi postitamise lehekülg'
         clarkwinkelmann-discussion-bookmarks: 'Vestluse järjehoidjad'
         clarkwinkelmann-discussion-list: Nimekiri
         clarkwinkelmann-discussion-lists-profile: 'Kasutajate nimekirjad'
         clarkwinkelmann-group-list: 'Gruppide nimekiri'
         clarkwinkelmann-post-bookmarks: 'Postituste järjehoidjad'
         discussion: Vestlus
+        flags: 'Sobimatuks märgistamine (mobiilil)'
         flamarkt-account: Konto
         flamarkt-balance: 'Konto saldo'
         flamarkt-cart: Ostukorv
@@ -37,6 +57,7 @@ kilowhat-custom-paths:
         flamarkt-signup: Liitu
         fof-byobu: 'Privaatsed vestlused'
         fof-byobu-profile: 'Kasutaja vestlused'
+        fof-gamification: Hinnangud
         fof-gamification-user-votes: 'Kasutaja hääled'
         fof-masquerade: 'Profiili leht'
         fof-moderator-notes-user-notes: 'Profiili märkmed'
@@ -45,6 +66,7 @@ kilowhat-custom-paths:
         following: Jälgimisel
         formulaire-form: Vorm
         formulaire-profile: 'Profiili väljad'
+        formulaire-submission: Lisamised
         index: 'Vestluste nimekiri (kui pole avalehel)'
         notifications: 'Teavitused (mobiilil)'
         settings: Seaded
@@ -59,3 +81,8 @@ kilowhat-custom-paths:
         v17development-blog-compose: Koosta
         v17development-blog-overview: Ülevaade
         v17development-blog-post: Postitus
+        v17development-user-badges-item: 'Aumärgi üksikasjad'
+        v17development-user-badges-overview: 'Aumärkide ülevaade'
+        v17development-user-badges-user-badges: 'Profiili amärgid'
+      redirect: 'Suuna Flarumi asukohad uutele asukohtadele'
+      reset: 'Nulli asukoht'

@@ -10,9 +10,19 @@ nodeloc-lottery:
       moderate: 'Loetriide muutmine ja eemaldamine'
       seeParticipants: 'Vaata osalejaid'
       self_edit: 'Loteriide muutmine (nõuab postituse muutmise õigust)'
+      self_post_edit: '*Kõikide* oma postituse küljes olevate loteriide muutmine (nõuab postituse muutmise õigust)'
       start: 'Käivita loterii'
     settings:
+      allow_option_image: 'Luba iga loterii valikule lisada pildi URL'
       max_options: 'Maksimaalne valikute arv loterii kohta'
+      options_color_blend: 'Teksti värvi sulatamine loterii valikutes'
+  email:
+    body:
+      drawLottery: "Hei {recipient_display_name},\n\nÕnnitlused! Võitsid vestluse {discussion_title} autorilt {actor_display_name} .\n\nVaata seda siin: {discussion_url}\n"
+      fail: "Hei {recipient_display_name},\n\nVabandust, aga vestluses {discussion_title} polnud piiavalt osalejaid.\n\nHeida sellele siin pilk peale: {discussion_url}\n"
+      finish: "Hei {recipient_display_name},\n\nÕnnitlused! Loetii on edukalt lõpetatud.\n\nVaata vestlust siit {discussion_url} ja lõpeta loterii.\n\nAitäh!\n"
+    subject:
+      drawLottery: 'Loteriis osalemise teavitus {discussion_title}'
   forum:
     composer_discussion:
       add_lottery: '=> nodeloc-lottery.forum.moderation.add'
