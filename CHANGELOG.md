@@ -430,6 +430,7 @@ CHANGELOG
 * [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 * [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 * [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
