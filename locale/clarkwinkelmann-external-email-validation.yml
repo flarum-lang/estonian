@@ -6,10 +6,12 @@ clarkwinkelmann-external-email-validation:
   admin:
     settings:
       body: 'Nõude sisu'
+      body-help: 'Võid sisestada lühikoode, mis asendatakse e-posti väärtusega. Vaata lisainfot README-failist.'
       default-error-message: 'Vaikimisi veateade'
       headers: 'Päringu päised'
       headers-help: 'Üks päis rea kohta'
       method: 'Nõude meetod'
       uri: 'Nõude URI'
+      uri-help: 'Võid sisestada lühikoode, mis asendatakse e-posti väärtusega. Vaata lisainfot README-failist.'
   api:
     email-validation-error: 'E-posti aadress ei läbinud välist kontrolli.'

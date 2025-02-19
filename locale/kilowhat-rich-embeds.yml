@@ -19,10 +19,13 @@ kilowhat-rich-embeds:
     settings:
       blacklist: 'URL-ide must nimekiri'
       cacheProxy: 'Hoia pildid vaheserveris'
+      cacheProxyHelp: 'Pildid pannakse kettale vahemällu vastavalt nende HTTP päisele'
       flarumApiPreviews: 'Lülita Flarumi edasijõudnud eelvaated sisse'
       githubApiKey: 'GitHub API võti'
       githubOrgWhitelist: 'Organisatsioonide valge nimekiri'
+      googleApiAuthConfig: 'Google SDK Auth Config asukoht või JSON'
       googleApiKey: 'Google SDK API võti'
+      googledriveApiPreviews: 'Kasuta võimekat API-toega Google Drive eelvaateid'
       imageEmbeds: 'Piltide rikkalik põimimine'
       imageProxy: 'OpenGraph piltide vaheserver'
       layout: Paigutus
@@ -42,7 +45,9 @@ kilowhat-rich-embeds:
         horizontal: Horisontaalne
         vertical: Vertikaalne
       whitelist: 'URL-ide valge nimekiri'
+      withoutOpengraphHelp: 'Pealkiri, kirjeldus ja pilt eemaldatakse lehe HTML-ist'
       youtubeNoCookie: 'Kasuta YouTube ilma küpsisteda iframe domeeni'
+      youtubePlayer: 'Luba Youtube videote esitamine eelvaates'
   api:
     embed:
       flarum:

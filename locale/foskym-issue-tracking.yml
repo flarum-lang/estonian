@@ -17,6 +17,7 @@ foskym-issue-tracking:
       import_issues_success: 'Probleemid on imporditud'
       test_connection_button: 'Testi ühendust'
       test_connection_success: 'Ühendus on loodud'
+    enable_auto_import_label: 'Impordi probleemid lugemisel automaatselt Flarumisse'
     enable_create_issue_label: 'Luba kasutajatel Flarumis probleeme lisada'
     enable_import_by_display_name_label: 'Impordi probleemid nimede järgi'
     enable_import_by_username_label: 'Impordi probleeme kasutajanime järgi'

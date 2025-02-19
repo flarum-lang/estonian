@@ -18,11 +18,15 @@ shebaoting-money:
       extra_char_increment: 'Märkide kasvamine'
       extra_char_points: 'Punkte kasvu kohta'
       extra_char_threshold: 'Märkide lävi'
+      extra_char_threshold_help: 'Minimaalne märkide arv enne kui lisapunkte rakendatakse.'
       helpextensionlikes: 'Nõuab lisaprogrammi <code>flarum/likes</code>'
       initialmoney: 'Algne rahasumma uuel kasutajal'
       moneyfordiscussion: 'Uue vestluse eest antud raha'
+      moneyforlike: 'Raha antud, kui postitusele lisatakse meeldimine'
+      moneyforpost: 'Uue postituse eest antud raha'
       moneyname: 'Selle raha nimi (nt: [money] punkti)'
       noshowzero: 'Ära näita, kui väärtus on null'
+      postminimumlength: 'Postituse minimaalne pikkus raha saamiseks (0 et välja lülitada)'
       title: Seaded
   forum:
     load_more: 'Laadi rohkem'
@@ -41,9 +45,14 @@ shebaoting-money:
       discussion_deleted: 'Kustutas vestluse › <a href="{url}">{title}</a>'
       discussion_hidden: 'Peitis vestluse › <a href="{url}">{title}</a>'
       discussion_restored: 'Taastas vestluse › <a href="{url}">{title}</a>'
+      discussion_started: 'Alustas vestlust › <a href="{url}">{title}</a>'
       liked: 'Märkis kasutaja {user} postituse meeldivaks › <a href="{url}">{title}</a>'
+      liked_by: 'Kasutajale {username} meeldis postitus› <a href="{url}">{title}</a>'
+      no_permission: 'Sul pole teiste kasutajate punktide nägemiseks õiguseid.'
       posted_reply: 'Vastas vestlusele › <a href="{url}">{title}</a>'
       reply_received: 'Sai vastuse kasutajaöt {username} › <a href="{url}">{title}</a>'
+      unliked_by: 'Kasutajale {username} ei meeldinud postitus › <a href="{url}">{title}</a>'
+      unliked_post: 'Märkis postituse mittemeeldivaks › <a href="{url}">{title}</a>'
     logs_type:
       discussion_deleted: 'Vestlus kustutatud'
       discussion_hidden: 'Vestlus peidetud'
@@ -64,6 +73,7 @@ shebaoting-money:
     point_log:
       link: 'Punktide andmed'
       load_more: 'Loe lisa'
+      no_permission: 'Sul pole teiste kasutajate punktide nägemiseks õiguseid.'
       table:
         headers:
           amount: Summa

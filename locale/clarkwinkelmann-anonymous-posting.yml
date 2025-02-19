@@ -4,6 +4,8 @@
 
 clarkwinkelmann-anonymous-posting:
   admin:
+    permissions:
+      reveal: 'Anonüümsete vestluste ja postituste tegelike autorite nägemine'
     settings:
       alwaysAnonymiseEdits: 'Alati anonümiseeri muutmisi'
       avatarAdd: 'Lisa avatari reegel'
@@ -20,6 +22,7 @@ clarkwinkelmann-anonymous-posting:
   forum:
     composerControls:
       anonymize: 'Postita anonüümselt'
+      anonymizeHelp: 'Moderaatorid teavad, et sina oled see, kes selle sisu lõi'
     discussionControls:
       anonymize: Anonümiseeri
       deanonymize: 'Eemalda anonümiseerimine'
@@ -28,6 +31,7 @@ clarkwinkelmann-anonymous-posting:
     postControls:
       anonymize: Anonümiseeri
       deanonymize: 'Eemalda anonümiseerimine'
+      deanonymizeConfirmation: 'See teeb postituse algse autori uuesti avalikuks. Kas jätkan?'
     postPrivacy:
       mine: Mina
       mineHelp: 'Seda infot näed ainult sina'

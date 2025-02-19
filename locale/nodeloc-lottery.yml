@@ -40,6 +40,7 @@ nodeloc-lottery:
       cannot_cancel_lottery: 'Osalejad ei saa oma osalemist tühistada'
       submit_button: 'Kliki osalemiseks'
     lottery_ended: 'See loterii on lõppenud.'
+    max_votes_allowed: 'loterii lubab hääletades teha {max, plural, one {# valiku} other {# valikut}}.'
     minutes: minutit
     modal:
       add_option_label: 'Lisa valik'

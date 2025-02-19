@@ -8,6 +8,7 @@ kyrne-whisper:
       start_label: 'Privaatsete vestluste alustamine'
     settings:
       return_key: 'Võtme tagastamine saadab sõnumi'
+      set_own_password: 'Luba kasutajatel luua omaenda parool - SSO ühilduvus'
       title: 'Sosistaja seaded'
   forum:
     chat:

@@ -101,7 +101,9 @@ kilowhat-formulaire:
       edit: Muuda
       empty: 'Andmeid pole veel'
     error-page:
+      denied-description: 'Näib, et sul pole sellele sisule ligipääsu. Proovi sisselogimist.'
       denied-title: 'Ligipääs keelatud'
+      notfound-description: 'Seda sisu pole kas olemas või äkki sul pole sellele lihtsalt ligipääsu.'
       notfound-title: 'Ei leitud'
     export:
       fields: Väljad

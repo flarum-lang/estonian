@@ -4,6 +4,7 @@
 
 pay-to-see:
   admin:
+    error_need_one_tag: 'Palun vali vähemalt üks silt'
     permission:
       allow_bypass_pay2see: 'Luba sisu ostmisest määda minna'
       allow_purchase_pay2see: 'Luba sisu ostmine'

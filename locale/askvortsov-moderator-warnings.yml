@@ -23,10 +23,13 @@ askvortsov-moderator-warnings:
       restore_button: Taasta
     warning_list:
       add_button: 'Uus hoiatus'
+      no_warnings: 'Näib, et siin pole mingeid hoiatusi.'
     warning_list_item:
       linked_post: 'Lingitud postitus'
       private_comment: 'Moderaatorile nähtavad kommentaarid'
       public_comment: Hoiatus
     warning_modal:
+      confirmation_message: 'Sinu hoiatus on salvestatud. Selle nägemiseks värskenda lehekülge.'
       heading: 'Hoiata kasutajat <strong>{username}</strong>'
+      private_comment_heading: 'Miks saab kasutaja <strong>{username}</strong> neid hoiatusi? Need kommentaarid on nähtavad AINULT teistele moderaatoritele.'
       submit_button: 'Salvesta hoiatus'

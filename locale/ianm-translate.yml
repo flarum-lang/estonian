@@ -57,6 +57,7 @@ ianm-translate:
       providers:
         heading: 'Tõlketeenuse seaded'
         help: 'Vali oma eelistatud tõlketeenuse pakkuja ja seadista seda siin.'
+      readme-none: 'See draiver ei nõua mingit lisaseadistamist.'
       seemless: 'Sujuv tõlkimine'
       seemless-help: 'Beeta funktsioon. Kui see on sisse lülitatud, siis kõik kasutajate sisu tõlgitakse automaatselt kõigisse teistesse saadaolevatesse foorumi keeltese. Kui kasutaja vaatab mitmekeelset sisu, siis tõlkeid näidatakse automaatselt.'
       seo:

@@ -18,6 +18,7 @@ the-turk-diff:
       lineLevel: 'Rea tasemel'
       mainPostOnly: 'Säilita ainult peamise postituse versioone'
       neighborLines: 'Naaber read'
+      separateBlock: 'Näita erinevuste võrdlemisel tekstiosade vahel eraldajaid'
       textFormatting: 'Luba eelvaates teksti vormindamine'
       title: 'Erinevuste seaded'
       wordLevel: 'Sõna tasemel'

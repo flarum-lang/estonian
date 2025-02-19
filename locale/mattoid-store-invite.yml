@@ -29,12 +29,14 @@ mattoid-store-invite:
       exception: 'Automaatne ülevaatamine ebaõnnestus [{message}]'
       link-not-exist: 'link kutsutule ei saa olla tühi'
       lock-resources: 'Praegune ressurss on lukustatud. Palun proovi hiljem uuesti'
+      review-failed: 'Oled saanud tagasi lõkatud avalduse info. Palun proovi hiljem uuesti [{date}]'
       user-balance-low: 'Kasutaja saldo pole piisav'
     invite: 'Kutse ülevaatamine'
     mail:
       send-invite-title: 'Kuste kood'
     my-invite: 'Minu kutse'
     remark: märkus
+    remark-help: 'Nähtav ainult iseendale ja haldajatele (võib jätta tühjaks).'
     system-review: 'Automaatne ülevaatamine süsteemi poolt'
     title: Kutsu
     username: 'Kutsutu kasutajanimi'
@@ -50,6 +52,7 @@ mattoid-store-invite:
     item-create-time: 'Loomise kuupäev'
     item-email: 'Kutsuja e-post'
     item-invite-code: Kutsu
+    item-last-year-reject-num: 'Viimasel aastal tagasilükkamiste arv'
     item-last-year-total-num: 'Postituste arv eelmisel aastal'
     item-post-num: 'Postituste arv'
     item-query: 'Otsi kutsuja/kutsutu/e-posti järgi'

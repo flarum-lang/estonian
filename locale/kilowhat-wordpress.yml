@@ -116,6 +116,8 @@ kilowhat-wordpress:
     health:
       api-error-other: 'WordPressi API-ga ühendumine andis veateate: {message}'
       comments-mismatch-wordpress: 'Kommentaaride integreerimine on sisse lülitatud WordPressis, aga mitte Flarumis'
+      config-url-https: 'Flarum URL, mis on määratud failis config.php peaks algama väärtusega HTTPS (praegune väärtus: "{url}")'
+      debug-mode: 'Flarumi veatuvastusrežiim on sisse lülitatud. Kui oled veatuvastusega ühele poole saanud, siis lülita see välja'
       wordpress-url-https: 'Väljas "WordPressi URL" peaksolema HTTPS (praegune väärtus on "{url}")'
       wordpress-url-index-php: 'Väljas "WordPressi URL" ei peaks olema "/index.php" (praegune väärtus on "{url}")'
       wordpress-url-invalid: 'Väli "WordPressi URL" ei näi olevat korrektne URL (praegune väärtus on "{url}")'

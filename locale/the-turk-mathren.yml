@@ -32,6 +32,7 @@ the-turk-mathren:
       other_options_heading: 'Muud valikud'
       output_mode_label: 'Väljundi režiim'
       output_mode_text: 'Vali väljundi markup keel'
+      quote_button_text: 'Tsiteerimise nupu sisse lülitamiseks pead sa lisaprogrammi <code>flarum/mentions</code> sisse lülitama.'
       sizing_options_heading: 'Suuruse valikud'
       sri_katex_text: 'SRI hash <strong>KaTeX</strong> jaoks'
       throw_on_error_label: 'Toetamata käsu või vigase LaTeX puhul näidatakse veateadet'

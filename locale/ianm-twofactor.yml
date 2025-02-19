@@ -52,8 +52,12 @@ ianm-twofactor:
       loading_qr: 'QR-koodi laadimine...'
       manual_tab: 'Käsitsi seadistamine'
       ok_button: OK
+      qr_code_alt: 'Kahe-etapilise autentimise QR-kood'
       qr_tab: 'Skänneeri QR-kood'
       saved_backup_codes_button: 'Ma salvestasin need koodid'
+      two_factor_apps: 'Rakendused nagu {google}, {authy}, {microsoft} ja paljud muud on tasuta saadaval.'
+      two_factor_disabled: 'Sellel kontol on kahe-etapiline autentimine välja lülitatud.'
+      two_factor_enabled: 'Sellel kontol on kahe-etapiline autentimine sisse lülitatud.'
       two_factor_enabled_confirmation: 'Kahe-etapiline autentimine on sinu kontol sisse lülitatud.'
       two_factor_heading: 2FA
       two_factor_title: 'Staatus:'

@@ -15,6 +15,7 @@ clarkwinkelmann-post-stream-search:
       searchInDiscussion: 'Otsi vestluseid'
     post:
       opBadge: 'Vestluse alustaja'
+      opBadgeTooltip: 'Kliki, et näidata vastuseid ainult sellelt kasutajalt'
     postControls:
       authorFilter: 'Näita ainult vastuseid sellele autorile'
     stream:

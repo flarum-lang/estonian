@@ -8,8 +8,10 @@ clarkwinkelmann-jwt-cookie-login:
       actorId: 'Flarum kasutaja ID adminiülesanneteks'
       audience: 'JWT sihtgrupp / Firebase projekti ID'
       authorizationHeader: 'Kohandatud autoriseerimise päise väärtus'
+      authorizationHeaderHelp: 'Jäta see väli tühjaks, <code>Authorization</code> päises on <code>Kontrollkood <JWT token></code>.'
       cookieName: 'Küpsise nimi'
       emailTemplate: 'E-kirja mall'
+      emailTemplateHelp: 'Kasuta <code>{sub}</code> süntaksit, et kasutada JWT omadust'
       hiddenIframe: 'Peidetud Iframe URL'
       logoutRedirect: 'Väljalogimise ümbersuunamise URL'
       publicKey: 'Avalik võti'
@@ -17,6 +19,7 @@ clarkwinkelmann-jwt-cookie-login:
       publicKeyAlgorithmHelp: 'Nõutud ainult avaliku võtme korral. Nt. RS256'
       publicKeyHelp: 'Jäta tühjaks, et kasutada Google Firebase võtmeid'
       usernameTemplate: 'Kasutajanime mall'
+      usernameTemplateHelp: 'Kasuta <code>{sub}</code> süntaksit, et kasutada JWT omadust'
   forum:
     alert:
       login: 'Oled automaatselt ühendatud.'

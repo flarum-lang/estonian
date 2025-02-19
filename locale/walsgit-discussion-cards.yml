@@ -45,6 +45,7 @@ walsgit_discussion_cards:
         showViews_label: 'Näita vaatamisi'
         tabletCardWidth_help: 'Määra peamise kaardi laius (%) tahvelarvutil. (vahemikus 10 kuni 100)'
         tabletCardWidth_label: 'Peamiste kaartide laius tahvlis'
+        useBlogImages_label: 'Kasuta blogi vaikimisi ja esiletõstetud pilte'
         useBlogSummary_label: 'Kasuta blogi postituse kokkuvõtet eelvaate tekstina'
         viewsExtension_notActivated: '{icon} Valiku töötamiseks on vaja see lisaprogramm aktiveerida.'
         viewsExtension_notInstalled: '{icon} Valiku töötamiseks on vaja see lisaprogramm paigaldada ja aktiveerida.'
