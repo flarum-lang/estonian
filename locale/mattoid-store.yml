@@ -47,6 +47,7 @@ mattoid-store:
     error:
       automatic-renewal: 'Automaatne uuendamine pole sisse lülitatud'
       automatic-renewal-fail: 'Automaatne uuendamine ebaõnnestus [{message}]'
+      cart-use-fail: 'Kauba kasutamine ebaõnnestus'
       file-exist: 'fail on juba olemas'
       insufficient-inventory: 'Laoseis pole piisav'
       invalid-product: 'Vigane toode'

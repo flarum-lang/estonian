@@ -18,6 +18,7 @@ yippy-auth-ldap:
           host_help: 'Komadega eraldatud'
           port: Port
           port_help: 'Mitte-SSL (port 389) või SSL (port 636).'
+          search_user_fields: Otsinguväljad
           use_ssl: 'Kasuta SSL-i'
           use_tls: 'Kasuta TSL-i'
           user_mail: 'Määra e-posti väli'

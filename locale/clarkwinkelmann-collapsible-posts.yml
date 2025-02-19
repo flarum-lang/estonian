@@ -8,6 +8,7 @@ clarkwinkelmann-collapsible-posts:
       add: 'Uus põhjus'
       explanationUrl: 'Selgituse URL'
       header:
+        explanation: 'Kohandatud selgitus'
         key: 'Unikaalne andmebaasi võti'
         label: Silt
       reasons: Põhjused

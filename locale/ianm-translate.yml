@@ -82,7 +82,7 @@ ianm-translate:
       original-language: 'Algne keel ({detectedLang})'
       poll:
         image-alt: 'Pildi ALT tekst (kui on olemas)'
-        option: 'Küsitluse vastusevariant {number}'
+        option: 'Vastusevariant {number}'
         question: Küsimus
         question-language: 'Küsitluse küsimus ({language})'
         subtitle: Alampealkiri
@@ -94,6 +94,7 @@ ianm-translate:
         option: 'Vastus {number}'
         question: Küsimus
         subtitle: Alampealkiri
+        title: 'Halda küsitluse tõlkeid'
       save-changes: '=> core.ref.save_changes'
       translations-label: Tõlked
     original-content:

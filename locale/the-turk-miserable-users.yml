@@ -7,6 +7,7 @@ the-turk-miserable-users:
     permissions:
       miserable_user_label: '=> the-turk-miserable-users.ref.miserable_user'
     settings:
+      broken_page_chance_label: 'Katkise lehe muutmine'
       loading_delay_label: 'Laadimise viivitus'
       log_out_chance_label: 'Väljalogimise võimalus'
       range_seconds_text: ' sekundit'

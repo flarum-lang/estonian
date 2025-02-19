@@ -12,6 +12,7 @@ nodeloc-referral:
       price: Hind
       reward: Tasu
   forum:
+    actives: Tegevused
     cost: Hind
     count: Järgi
     create_time: 'Loomise aeg'

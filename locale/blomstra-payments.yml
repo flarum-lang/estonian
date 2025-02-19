@@ -7,13 +7,18 @@ blomstra-payments:
     edit-group:
       select-pta-product: '(PTA) Nõutud toode'
     edit-tag:
+      bump-others: '(PTB) Lubab teistel vestlusi esile tõsta'
+      bump-others-description: "Kui see on sisse lülitatud, siis vestluse autor saab makse abil vestlust esile tõsta.\n"
       select-bounty-product: '(Annetus) Nõutud toode'
+      select-ptb-product: '(PTB) nõutud toode'
+      select-ptb-product-description: "Toote valimiseks on vaja enne selle eest maksta, et saaksid vestlusi esile tõsta.\n"
       select-ptp-product: '(PTP) Nõutud toode'
       select-ptv-product: '(PTV) Nõutud toode'
       visible-from: 'Peida postitused selle lävi juures'
     permission:
       enable-bounties: 'Luba annetused'
     settings:
+      link-to-terms: 'Maksetingimuste URL'
       pk: 'Avaldatav (API) võti'
       sk: 'Salajane (API) võti'
   forum:
@@ -27,7 +32,9 @@ blomstra-payments:
       subscribed: tellitud
     backers-widget:
       backers: Toetajad
+      label: '{currency} {sum} küsitud'
       none: 'Toetajaid pole veel.'
+      pledged: Küsitud
     bounties:
       enable-control: 'Luba annetused'
       purchase-control: 'Lisa annetus'
@@ -41,13 +48,21 @@ blomstra-payments:
     nav:
       access_portal: 'Ligipääsu portaal'
       user_subscriptions: Tellimused
+    pay-to-bump:
+      description: '{count, plural, one {Seda vestlust tõsteti esile} other {{count} inimest tõstsid seda vestlust esile}}.'
+      purchase-control: 'Maksa esile tõstmiseks'
+      purchase-log-in: 'Logi sisse ja maksa edasitõstmise eest'
     pay-to-post:
       purchase: 'Osta avaldamise õigus'
       purchase-control: 'Avaldamiseks maksa'
+      purchase_required: "Vestlus avaldatakse pärast seda kui oled lõpetanud makse läbi meie makseteenusepakkuja Stripe. Ostmiseks ja maksevalikute nägemiseks kliki.\n"
     pay-to-view:
+      description: "Sellest punktist edasi vaatamiseks on vaja maksta. Maksta saad läbi meie makseteenuse pakkuja Stripe.\n"
       purchase-completed: Avatud
       purchase-control: 'Maksmiseks vaata'
       purchase-log-in: 'Vaatamiseks logi sisse ja maksa'
+    payment-options-modal:
+      title: 'Maksevalikud grupile {group} ligipääsemiseks'
     post_stream:
       bounty_added_text: '{username} lisas annetuse summas {amount}.'
     stripe:
@@ -57,7 +72,12 @@ blomstra-payments:
       cancel-control: Loobu
       none: 'Makseid või aktiivseid tellimusi pole'
       pta: 'Makstud ligipääs'
+      ptb: 'Makstud esiletõstmine'
       ptp: 'Makstud avaldamiseks'
       ptv: 'Vaatamiseks maksa'
     tag:
       require-payment-label: 'Makse on nõutud'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Enim toetatud'

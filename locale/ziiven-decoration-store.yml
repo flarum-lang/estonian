@@ -27,6 +27,7 @@ ziven-decoration-store:
     item-property-image: Pilt
     item-property-image-upload: 'Laadi üles'
     item-property-style: Stiil
+    item-property-style-select-from-gallery: 'Sisseehitatud stiil'
     item-property-style-text-effect: 'Teksti eelvaade'
     item-type-selection: 'Vali tooteliik'
     settings:

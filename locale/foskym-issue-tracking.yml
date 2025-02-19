@@ -19,6 +19,7 @@ foskym-issue-tracking:
       test_connection_success: 'Ühendus on loodud'
     enable_create_issue_label: 'Luba kasutajatel Flarumis probleeme lisada'
     enable_import_by_display_name_label: 'Impordi probleemid nimede järgi'
+    enable_import_by_username_label: 'Impordi probleeme kasutajanime järgi'
     provider_heading: 'Platformi pakkuja'
   forum:
     cannot_create_issue: 'Ainult loetav'

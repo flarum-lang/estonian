@@ -45,6 +45,7 @@ askvortsov-pwa:
         push_notif_preference_default_to_email_label: 'Push teavitused e-posti teavituste järgi?'
         push_notif_preference_default_to_email_text: 'Kui see on sisse lülitatud, siis mobiiliteavitusi lülitatakse automaatselt sisse samades kohtades, kus teavitused meilile on vaikimisi sisse lülitatud. Kui see funktsioon on välja lülitatud, siis on kasutajate jaoks mobiiliteavitused automaatselt välja lülitatud.'
         user_max_subscriptions_label: 'Maks, push teavituste arv kasutaja kohta'
+        window_controls_overlay_label: 'Kas kasutada Windowsi juhtelementide ülepaigutust?'
       refreshed_message: 'PWA seadeid on uuendatud.'
       status_check_heading: 'Staatuse kontrollimine'
       submit_button: 'Salvesta seaded'

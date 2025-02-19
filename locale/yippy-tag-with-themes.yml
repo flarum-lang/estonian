@@ -5,6 +5,7 @@
 yippy-tag-with-themes:
   admin:
     designs:
+      add: 'Lisa siltidele kujundusi'
       data:
         child_background_color: 'Muuda alamkirje taustavärvi'
         outline_background_color: 'Muuda piirjoone värvi'
@@ -12,6 +13,7 @@ yippy-tag-with-themes:
         primary_font_class: 'Muuda peamist fonti'
         tags: 'Vali peamised sildid'
         themeName: 'Vali teema'
+        unread_color: 'Muuda lugemata taustavärvi'
       header:
         color_theme: 'Kohanda vaikimisi värviskeemi'
         theme: 'Kohandatud teema'

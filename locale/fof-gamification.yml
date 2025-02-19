@@ -42,6 +42,7 @@ fof-gamification:
       votes:
         allow_self_votes: 'Kasutajad võivad omaenda postitusele hääle anda'
         color_holder: '#ffffff'
+        icon_name: 'Üles/Alla hääletamise ikoon'
         points_placeholder: 'Punkte: '
         points_title: 'Punktide kohahoidja'
         title: Hääli

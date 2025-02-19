@@ -56,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Privaatse vestluse pealkiri'
     confirm:
       make_public: 'Oled sa kindel, et soovid eemaldada saatjad ja teha see vestlus nähtavaks kõigile, kes näevad selle sildiga vestlusi?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Osaleja valimiseks hakka kasutajanime trükkima...'
     labels:

@@ -48,6 +48,7 @@ ianm-twofactor:
       confirm_disable_2fa_title: 'Kinnita kahe-etapilise autentimise välja lülitamine'
       disable_2fa_button: 'Lülita 2FA välja'
       enable_2fa_button: 'Lülita 2FA sisse'
+      enter_token: 'Sisesta kontrollkood'
       loading_qr: 'QR-koodi laadimine...'
       manual_tab: 'Käsitsi seadistamine'
       ok_button: OK

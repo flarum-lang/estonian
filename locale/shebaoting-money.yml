@@ -14,8 +14,11 @@ shebaoting-money:
     permissions:
       edit_money_label: 'Muuda raha'
     settings:
+      autoremove: 'Uuenda raha automaatselt'
       extra_char_increment: 'Märkide kasvamine'
+      extra_char_points: 'Punkte kasvu kohta'
       extra_char_threshold: 'Märkide lävi'
+      helpextensionlikes: 'Nõuab lisaprogrammi <code>flarum/likes</code>'
       initialmoney: 'Algne rahasumma uuel kasutajal'
       moneyfordiscussion: 'Uue vestluse eest antud raha'
       moneyname: 'Selle raha nimi (nt: [money] punkti)'
@@ -31,6 +34,7 @@ shebaoting-money:
     log_type_deposit: Deposiit
     log_type_reward: Tasu
     log_type_transfer: Ülekanne
+    log_type_withdrawal: Mahaarvamine
     logs_description:
       created_discussion: 'Lisas vestluse › <a href="{url}">{title}</a>'
       created_reply: 'Lõi vastuse › <a href="{url}">{title}</a>'
@@ -58,6 +62,7 @@ shebaoting-money:
       title: '{username} raha'
     no_money_logs: 'Raha logid pole saadaval'
     point_log:
+      link: 'Punktide andmed'
       load_more: 'Loe lisa'
       table:
         headers:

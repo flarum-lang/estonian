@@ -6,6 +6,8 @@ xypp-sticky-card:
   forum:
     already: 'Vestlus on juba esiletõstetud.'
     default: Vaikimisi
+    giveup: 'Loobu ostust'
     loading: Laadimine...
     no-card: 'Ühtegi kaarti ei saa kasutada.'
     not-used: Kasutamata
+    used: 'Kasutatud {0}'

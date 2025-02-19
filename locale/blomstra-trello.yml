@@ -30,6 +30,7 @@ blomstra-trello:
         labels: 'Siltide seaded'
       mapping:
         add_new: 'Lisa seostamine'
+        modal_title: 'Uus sildi seos'
         no_mappings_for_board: 'Selle töölaua jaoks pole ühtegi sildiga seostamist'
       mappings_label: 'Foorumi siltide sidumine Trello siltidega'
       member_id_label: 'Liikme ID'

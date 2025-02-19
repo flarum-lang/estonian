@@ -7,6 +7,7 @@ fof-stopforumspam:
     settings:
       api_key_label: 'API võti'
       confidence_label: Kindlus
+      email_hash_label: 'Kasutaja räsiga e-posti aadress'
       email_label: 'E-kirja spämmikontroll'
       frequency_label: Lävi
       ip_label: 'IP-aadressi spämmikontroll'

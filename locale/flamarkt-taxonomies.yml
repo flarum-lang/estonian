@@ -51,6 +51,7 @@ flamarkt-taxonomies:
         regex: Regulaarväljendid
     edit-term:
       delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Kas sa tõesti soovid terminit {name} kustutada? Seda terminit kasutavaid vestlusi EI kustutata.\n"
       field:
         color: '=> flamarkt-taxonomies.ref.field.color'
         description: '=> flamarkt-taxonomies.ref.field.description'
@@ -76,6 +77,7 @@ flamarkt-taxonomies:
       reset-term-order: 'Taasta kirjete nimekiri tähestiku järjekorras'
       title: Ligiitamised
     permissions:
+      bypassTermCounts: 'Eira terminite arvu nõuet'
       editAnyDiscussion: 'Kõigi vestluste taksonoomiate muutmine'
       editAnyUser: 'Iga kasutaja taksonoomia muutmine'
       editOwnDiscussion: 'Muuda oma vestluste liigitamisi'
@@ -87,11 +89,14 @@ flamarkt-taxonomies:
       seeAnyDiscussion: 'Vaata liigitamisi kõigil vestlustel'
       seeAnyUser: 'Iga kasutaja taksonoomiate vaatamine'
       seeOwnDiscussion: 'Vaata liigitamisi omaenda vestlustel'
+      seeOwnUser: 'Oma kasutaja taksonoomiate nägemine'
     settings:
       goToPage: 'Mine seadistamise lehele'
   api:
     error:
       cannot_use_taxonomies_on_model: 'Sul pole luba selles kontekstis taksonoomiat kasutada'
+      discussion_taxonomy_not_in_scope: 'Taksonoomia "{slug}" pole praeguste sildikombinatsioonidega saadaval'
+      invalid_filter_taxonomy: 'Vigane "{type}" taksonoomia filtri võti "{slug}"'
   forum:
     blog:
       widget:
@@ -107,6 +112,7 @@ flamarkt-taxonomies:
     modal:
       bypassTermCounts: 'Eira terminite arvu'
       custom: 'Kasuta {value}'
+      placeholder: '{count, plural, one {Vali termin...} other {Vali # terminit...}}'
       placeholderOptional: Vali...
       submit: OK
       title:

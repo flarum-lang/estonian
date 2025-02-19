@@ -5,6 +5,7 @@
 maicol07-oidc-client:
   admin:
     settings:
+      callback_title: 'Tagasihelistamise URL-id'
       client:
         cert_path: 'Sertifikaadi asukoht (kui kasutad enda poolt allkirjastatud sertifikaati)'
         enable_pkce: 'Lülita PKCE sisse (soovitatud)'
@@ -32,6 +33,7 @@ maicol07-oidc-client:
         id_token_signing_alg: 'ID kontrollkoodi allkirjastamise algoritm'
         issuer: 'Väljaandja URL'
         title: 'Teenusepakkuja seaded'
+        token_endpoint_auth_method: 'Kontrollkoodi lõpp-punkti autentimisviis'
         url: 'Teenusepakkuja URL'
   forum:
     buttons:

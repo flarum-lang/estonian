@@ -15,6 +15,8 @@ fof-user-directory:
   forum:
     header:
       back_to_user_directory_tooltip: 'Tagasi kasutajate kataloogi'
+    hero:
+      title: '=> fof-user-directory.forum.page.nav'
     page:
       empty_text: 'Ei leidnud ühtegi sinu otsingule vastavat kasutajat.'
       filter_button: 'Filtreeri gruppe'

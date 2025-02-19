@@ -9,6 +9,7 @@ the-turk-mathren:
       alias_block_delimiters_text: '<strong>Alias</strong> eraldajad plokina kasutamiseks'
       alias_inline_asciimath_delimiters_text: '<strong>Alias</strong> eraldajad reasiseseks AsciiMath kasutamiseks'
       alias_inline_delimiters_text: '<strong>Alias</strong> eraldajad reasisesseks kasutamiseks'
+      allow_asciimath_label: 'Luba AsciiMath süntaks'
       bbcode_delimiters_rule_text: 'BB-koodi eraldajateks võivad olla ainult suur- ja väiketähed ning sidekriipsud.'
       block_asciimath_delimiters_text: '<strong>BB-koodi</strong> eraldajad plokina AsciiMath kasutamiseks'
       block_delimiters_text: '<strong>BB-koodi</strong> eraldajad plokina kasutamiseks'

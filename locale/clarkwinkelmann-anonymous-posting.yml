@@ -12,6 +12,7 @@ clarkwinkelmann-anonymous-posting:
       avatarFieldValue: 'Välja väärtus'
       avatarFormId: 'Formi ID'
       avatars: 'Anonüümsed avatarid'
+      composerHelpTextPosition: 'Koostaja abiinfo teksti asukoht'
       composerHelpTextPositionHidden: Peidetud
       composerHelpTextPositionTooltip: 'Vihje (sildi järel)'
       composerHelpTextPositionVisible: 'Nähtav (sildi all)'

@@ -4,8 +4,13 @@
 
 walsgit_discussion_cards:
   admin:
+    errors:
+      desktopCardWidth: 'Peamise kaardi laius töölaual peab olema number vahemikus 10 kuni 100'
+      primaryCards: 'Peamiste kaartide arv peab olema positiivne number (0 või suurem)'
+      tabletCardWidth: 'Peamise kaardi laius tahvelarvutil peab olema number vahemikus 10 kuni 100'
     settings:
       general:
+        allowedTags_help: 'Vestluse kaardid aktiveeritakse ja näidatakse valitud siltide lehekülgedel.'
         allowedTags_label: 'Vali sildid'
         blogExtension_notActivated: '{icon} Nende seadete töötamiseks peab see lisaprogramm olema sisse lülitatud.'
         blogExtension_notInstalled: '{icon} Nende seadete töötamiseks peab see lisaprogramm olema paigaldatud ja sisse lülitatud.'
@@ -13,13 +18,17 @@ walsgit_discussion_cards:
         blogExtension_title_start: 'Kui sul on paigaldatud lisaprogramm '
         cardOptions_title: 'Kaardi valikud'
         defaultImage_title: 'Üldine vaikimisi pilt'
+        desktopCardWidth_help: 'Määra peamise kaardi laius (%) töölaual. (vahemikus 10 kuni 100)'
         desktopCardWidth_label: 'Peamise kaardi laius töölaual'
         markReadCards_help: 'Kui see on sisse lülitatud, siis loetud vestlustel on heledamad pealkiri ja tekst.'
         onIndexPage_help: 'Kui see on aktiveeritud, siis lehekülg <em>kõik vestlused</em> näitab kaarte.'
         onIndexPage_label: 'Aktiveeri kaardid avalehel'
+        otherOptions_info: 'Järgnevad valikud nõuavad töötamiseks teisi lisaprogramme. <strong>OLULINE: palun loe <u>kogul</u> infot iga üksiku valiku kohta ja soorita enne nende aktiveerimist nõutud sammud</strong>.'
         otherOptions_title: 'Valikud, mis nõuavad teiste lisaprogrammide olemasolu'
         previewText_label: 'Eelvaate tekst'
+        primaryCardOptions_info: 'Vali, kui soovid kasutada peamisi kaarte (suuremad kaardid iga lehe üleval kasutades vestluse kaarte). 0 kui ei soovi neid kasutada.'
         primaryCardOptions_title: 'Peamise kaardi valikud'
+        primaryCards_help: 'Suuremate kaartide arv iga lehe ülaosas kasutades vestluste kaarte. (positiivne number 0 või suurem)'
         primaryCards_label: 'Peamiste kaartide arv'
         repostExtension_notActivated: '{icon} Selle valiku töötamiseks peab see lisaprogramm olema sisse lülitatud.'
         repostExtension_notInstalled: '{icon} Selle valiku töötamiseks peab see lisaprogramm olema paigaldatud ja sisse lülitatud.'
@@ -34,13 +43,21 @@ walsgit_discussion_cards:
         showReplies_label: 'Näita vastuste arvu'
         showViews_help: 'Kui see valik on sisse lülitatud, siis kaardil näidatakse vestluse vaatamiste arvu.'
         showViews_label: 'Näita vaatamisi'
+        tabletCardWidth_help: 'Määra peamise kaardi laius (%) tahvelarvutil. (vahemikus 10 kuni 100)'
         tabletCardWidth_label: 'Peamiste kaartide laius tahvlis'
+        useBlogSummary_label: 'Kasuta blogi postituse kokkuvõtet eelvaate tekstina'
+        viewsExtension_notActivated: '{icon} Valiku töötamiseks on vaja see lisaprogramm aktiveerida.'
+        viewsExtension_notInstalled: '{icon} Valiku töötamiseks on vaja see lisaprogramm paigaldada ja aktiveerida.'
         where_info: 'Vali, kus sa soovid vestluse kaarte kasutada.'
         where_title: 'Kus?'
     tag_modal:
+      desktopCardWidth_help: 'Määra peamise kaardi laius (%) töölaual (üldine seade: {default}%, min: 10% ja maks: 100%).'
       desktopCardWidth_label: 'Peamiste kaartide laius töölaual'
+      intro_text: 'Siin saad määrata erinevaid vestluskaartide seadeid praeguse sildi lehel.'
+      primaryCards_help: 'Lehe ülaosas näidatavate suurte kaartide arv (üldine seade : {default}, min: 0).'
       primaryCards_label: 'Peamiste kaartide arv'
       submit_button: Salvesta
+      tabletCardWidth_help: 'Määra peamise kaardi laius (%) tahvelarvutil (üldine seade: {default}%, min: 10% ja maks: 100%).'
       tabletCardWidth_label: 'Peamiste kaartide laius tahvelarvutis'
       title: 'Vestluskaardi seaded - '
     tags:

@@ -5,6 +5,7 @@
 acpl-lscache:
   admin:
     cache_enabled_label: 'Lülita LSCache sisse'
+    cache_exclude_label: 'Jäta kaustad vahemälust välja'
     permissions:
       purge: '=> acpl-lscache.ref.purge_cache'
     public_cache_ttl_label: 'Vaikimisi avalik vahemälu TTL'

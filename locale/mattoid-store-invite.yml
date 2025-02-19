@@ -14,6 +14,7 @@ mattoid-store-invite:
       mail-help: 'Näusoleku e-kirja sisu, mis saadetakse kutsututele'
       mail-template: 'Tere [kasutaja, Sinu kutse kood on [kood]'
       mail-title: 'E-kirja pealkiri'
+      post-num: 'Postituse arv'
       price: 'Tasude vähendamine'
       show-index: 'Lisa avalehele'
       show-index-help: 'Näita avalehel ülevaatamise menüüd'
@@ -33,25 +34,31 @@ mattoid-store-invite:
     mail:
       send-invite-title: 'Kuste kood'
     my-invite: 'Minu kutse'
+    remark: märkus
     system-review: 'Automaatne ülevaatamine süsteemi poolt'
     title: Kutsu
     username: 'Kutsutu kasutajanimi'
     username-help: 'Kutsutu kasutajanime ei leitud foorumi registreeritud kasutajate hulgast'
   lib:
+    item-apply-rmark: 'Rakenda märkus'
     item-button-expand: laienda
     item-button-retract: kahanda
     item-confirm-remark: 'Üle vaataja kommentaarid'
     item-confirm-status: 'Ülevaate staatus'
     item-confirm-time: 'Ülevaatamise aeg'
     item-confirm-user: 'Üle vaatas'
+    item-create-time: 'Loomise kuupäev'
     item-email: 'Kutsuja e-post'
     item-invite-code: Kutsu
     item-last-year-total-num: 'Postituste arv eelmisel aastal'
     item-post-num: 'Postituste arv'
+    item-query: 'Otsi kutsuja/kutsutu/e-posti järgi'
+    item-reject-total-num: 'Kogunenud tagasilükkamiste arv'
     item-status-adopt: adopteeri
     item-status-all: Kõik
     item-status-confirm: Kontrollimata
     item-status-refuse: keeldu
+    item-total-num: 'Kogunenud lisamiste arv'
     item-user: Kutsuja
     item-user-create-time: 'Kasutaja liitumise aeg'
     item-username: 'Kutsuja kasutajanimi'

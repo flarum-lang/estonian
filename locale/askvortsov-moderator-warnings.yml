@@ -28,4 +28,5 @@ askvortsov-moderator-warnings:
       private_comment: 'Moderaatorile nähtavad kommentaarid'
       public_comment: Hoiatus
     warning_modal:
+      heading: 'Hoiata kasutajat <strong>{username}</strong>'
       submit_button: 'Salvesta hoiatus'

@@ -8,6 +8,7 @@ pay-to-see:
       allow_bypass_pay2see: 'Luba sisu ostmisest määda minna'
       allow_purchase_pay2see: 'Luba sisu ostmine'
       allow_use_pay2see: 'Luba lugemiseks maksa kasutamine'
+    set_permission_tag: 'Sildi õiguse seaded'
     settings:
       badge_icon: 'Aumärgi ikoon'
   forum:
