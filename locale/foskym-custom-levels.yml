@@ -88,7 +88,7 @@ foskym-custom-levels:
     integrations:
       automoderator:
         action_name: 'Anna kogemuspunkte'
-        metric_name: Exp
+        metric_name: Kogemuspunktid
       forum-quests:
         reward_name: Kogemuspunktid
       store:

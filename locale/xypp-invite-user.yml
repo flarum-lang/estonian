@@ -9,7 +9,7 @@ xypp-invite-user:
       user_invite: 'Kutsu kasutajaid'
     settings:
       invite_each_other:
-        description: 'Kasutajad saavad saavad kutsuda kasutajaid, kes kutsusid neid.'
+        description: 'Kasutajad saavad kutsuda kasutajaid, kes kutsusid neid.'
         title: 'Üksteise kutsumine'
       invite_new_user_only:
         description: 'Ära luba kasutajatel kutsuda kasutajaid, kelle registreerimise aeg on hilisem kui neil endil.'

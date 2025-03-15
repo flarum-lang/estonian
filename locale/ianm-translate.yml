@@ -46,7 +46,7 @@ ianm-translate:
           help: '(valikuline) Kui sinu LibreTranslate server vajab API võtit, siis sisesta see siia.'
           label: '=> ianm-translate.lib.settings.api-key'
         port:
-          help: 'LibreTranslate serveri serveri port. Kui kasutad omaenda serverit, siis sisesta port siia.'
+          help: 'LibreTranslate serveri port. Kui kasutad omaenda serverit, siis sisesta port siia.'
           label: 'Serveri port'
         url:
           help: 'LibreTranslate serveri URL. Kui kasutad omaenda serverit, siis sisesta siia URL. Skeem peaks olema kas ''http'' või ''https''.'
