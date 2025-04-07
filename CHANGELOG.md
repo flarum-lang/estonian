@@ -213,6 +213,7 @@ CHANGELOG
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
