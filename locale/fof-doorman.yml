@@ -6,6 +6,32 @@ fof-doorman:
   admin:
     doorkey_required: 'Sa pead sisestama kutse koodi'
     invalid_doorkey: 'Sisestatud kutse kood on vigane.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: Lisas
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Halda
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Kasutamisi
+      content:
+        delete: 'Oled sa kindel, et soovid kustutada kutse koodi "{key}"?'
+        invalid_column: '=> core.admin.users.grid.columns.invalid_column'
+        no_created_by: 'Tundmatu kasutaja'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Kasutatud {totalUses} kord} other {Kasutatud {totalUses} korda}}'
+          used_times: '{remaining, plural, =0 {Piiramatu} one {{remainingUses} kasutamine järgi} other {{remainingUses} kasutamist järgi}}'
+        warning: 'Selle kutse koodi kasutamise limiit on täis.'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Saada kutsed grupile {group}'
       help: 'Nimekiri võib olla eraldatud komade, tühikute või koma ja tühikuga. Kirjuta e-posti aadressid ükshaaval või kopeeri siia terve nimekiri ja vajuta tühikule, et need lisada.'
@@ -15,6 +41,47 @@ fof-doorman:
       send: 'Saada kirjad'
       success: 'Kirjad on saadetud'
       title: 'Saata kutse koodid'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Loo ja lisa veel üks'
+        submit_button: 'Loo kutse kood'
+        title: 'Loo uus kutse kood'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Salvesta muudatused'
+        title: 'Muuda kutse koodi'
+      send_invites:
+        group: 'Saadetakse kutsed grupile {group}'
+        help: 'Aadresside eraldamiseks võid kasutada koma, tühikut või koma ja tühikut. Sisesta iga e-posti aadress eraldi või kopeeri e-posti aadresside nimekiri siia ja vajuta tühikut, et need lisada.'
+        invalid_emails: 'Need e-posti aadressid on vigased: {emails}'
+        max_use_conflict: 'E-posti aadresside arv on suurem, kui selle koodi maksimaalne lubatud kasutamiskordade arv.'
+        placeholder: 'Sisesta e-posti aadressid siia'
+        send: 'Saada kirjad'
+        success: 'Kirjad on saadetud'
+        title: 'Saada kutsete koodid'
     nav:
       desc: 'Loo kutsete koodid, millega kasutajad saavad liituda ja kes määratakse kindlasse gruppi'
     page:
@@ -39,6 +106,28 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Piiramatu} one {{remaining} kasutus järgi} other {{remaining} kasutust järgi}}'
         warning: 'Seda kutse koodi on kasutatud juba maksimaalne kasutamiskordade arv.'
       title: Uksehoidja
+    ref:
+      fields:
+        activates_user:
+          help: 'Aktiveerib kasutaja liitumisel alati.'
+          label: 'Aktiveerib kasutajad'
+        group:
+          help: 'Grupp, millesse kasutaja pärast selle koodiga registreerumist automaatselt lisatakse.'
+          label: Grupp
+        key:
+          help: 'Kood, mille kasutaja peab liitumisel sisestama.'
+          label: Võti
+        max_uses:
+          help: 'Koodi kasutamiste maksimaalne arv. Sisesta 0, et piirangut mitte lisada'
+          label: 'Maks. kasutajaid'
+    settings:
+      create_doorkey_button: 'Loo kutse kood'
+      optional_usage: 'Tee kutse kood liitumisel valikuliseks'
+      search: 'Otsi võtmeid'
+      total_doorkeys: 'Võtmeid kokku: {count}'
+  email:
+    body: "Tere,\n\nSind on kutsutud liituma foorumiga {forum}.\n\nKui oled valmis oma kontot looma, siis lihtsalt kliki alloleval lingil ja sisesta liitumisel allolev kutse kood.\n\nLink: {url}\nKutse kood: {code}\n\nKui tundub, et see kiri saadeti sulle kogemata, siis lihtsalt ignoreeri seda.\n"
+    subject: 'Kutsu liituma'
   forum:
     email:
       body: "Tere,\n\nSind on kutsutud liituma foorumiga {forum}.\n\nKui oled valmis oma kontot looma, siis lihtsalt kliki järgneval lingil ja sisesta registreerumisel kood:\n\nLink: {url}\nKutse kood: {code}\n\nKui tundub, et see kiri pole mõeldud sulle, siis lihtsalt ignoreeri seda kirja.\n"
