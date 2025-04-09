@@ -14,6 +14,9 @@ blomstra-realtime:
       typing-indicator: 'Trükkimise indikaator'
       typing-indicator-help: 'Kui see on sisse lülitatud, siis saavad kasutajad näha teiste kasutajate arvu, kes vestluses vastust trükivad. Kui see on välja lülitatud, siis trükkimise tegevus eemaldatakse kasutajaliidesest ja veebitoimingutest.'
   forum:
+    push:
+      discussion-list-new-activity: '{count, plural, one {Näita # uuendatud vestlust} other {Näita # uuendatud vestlust}}'
+      discussion-list-new-activity-with-auto-release: '{count, plural, one {# vestluses on} other {# vestluses on}} uuuendatud tegevusi ja need avaldatakse {releaseTimeout} sekundi pärast. Kliki, et kohe näidata.'
     typing-indicator:
       anonymous-user: '[Anonüümne]'
       no-activity: 'Keegi ei kirjuta'

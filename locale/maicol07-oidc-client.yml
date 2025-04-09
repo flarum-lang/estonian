@@ -12,6 +12,7 @@ maicol07-oidc-client:
         http_proxy: 'HTTP proksiserver'
         id: 'Kliendi ID'
         secret: 'Kliendi salasõna'
+        subtitle: "Sisesta siia sinu OpenID ühenduse teenusepakkujalt saadud andmed. Lisainfot vaata dokumentatsioonist.\n"
         timeout: 'Päringu aegumine'
         title: 'Kliendi seaded'
         verify_ssl: 'Päringute ajal SSL-i kontrollimine'

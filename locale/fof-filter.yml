@@ -6,7 +6,7 @@ fof-filter:
   admin:
     auto_merge_title: 'Automaatne liitmine'
     bad_words_help: 'Sisesta tekst või sõnad, mida filtreerida. Iga rea kohta üks. Kui kasutaja postitus sisaldab teksti, mida sa soovid filtreerida, siis märgitakse postitus ülevaatamiseks.'
-    cooldownLabel: 'Liiguta järjest tehtud postitused'
+    cooldownLabel: 'Liida järjest tehtud postitused'
     countLabel: 'Sensori tolerantsus'
     email:
       default_subject: 'Seoses sinu viimase postitusega'

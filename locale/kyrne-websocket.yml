@@ -26,6 +26,8 @@ kyrne-websocket:
       stats_label: 'Statistika intervall'
       title: 'Websocket/Pusheri seaded'
   forum:
+    discussion_list:
+      show_updates_text: '{count, plural, one {Näita # uuendatud vestlust} other {Näita # uuendatud vestlust}}'
     discussion_page:
       viewing_title: 'Praegu siin:'
     widget:

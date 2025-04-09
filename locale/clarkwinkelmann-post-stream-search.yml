@@ -6,6 +6,7 @@ clarkwinkelmann-post-stream-search:
   admin:
     settings:
       authorQuickFilter: 'Postituse autori kiirfilter'
+      dropdownAccess: 'Ligipääs vestluste rippmenüüga'
       sideNavAccess: 'Ligipääs saidi külgriba vestluste kaudu'
   forum:
     cannotGoToPost:

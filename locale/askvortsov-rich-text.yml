@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: 'Kas näidata redaktoris rikasteksti redaktori lülitit?'
   forum:
     settings:
       composer_heading: Composer
@@ -35,4 +38,5 @@ askvortsov-rich-text:
       sub_tooltip: 'Alaindeks <{modifierKey}-,>'
       sup_tooltip: 'Ülaindeks <{modifierKey}-.>'
       text_type_tooltip: 'Vali teksti liik'
+      toggle_button: 'Rikasteksti lüliti'
       unordered_list_tooltip: 'Loetelu <shift-{modifierKey}-8>'
