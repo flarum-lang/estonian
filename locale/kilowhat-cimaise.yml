@@ -99,7 +99,7 @@ kilowhat-cimaise:
       discussion: 'Mine vestlusesse'
       empty: 'Pilte pole'
       loading: '=> kilowhat-cimaise.ref.loading'
-      personal: '<a>{username}</a> isiklik album1'
+      personal: '<a>{username}</a> isiklik album'
       upload: 'Laadi pilt üles'
     album-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
