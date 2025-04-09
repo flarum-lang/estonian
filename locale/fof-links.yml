@@ -30,6 +30,7 @@ fof-links:
     links:
       create_button: 'Loo link'
       links: Lingid
+      preconfigured: 'Selle foorumi lingid on eelseadistatud ja neid ei saa siin muuta.'
     settings:
       show_icons_only_on_tablet: 'Näita ikoone ainult tahvlite ekraanidel'
   ref:

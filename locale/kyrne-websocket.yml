@@ -22,6 +22,7 @@ kyrne-websocket:
       local_cert_path: 'Kohaliku SSL sertifikaadi asukoht'
       local_pk_path: 'Kohaliku SSL privaatse võtme asukoht'
       passphrase: '(Valikuline) SSL võtme parool'
+      reverse_proxy: 'Pööratud proksi tugi'
       stats_label: 'Statistika intervall'
       title: 'Websocket/Pusheri seaded'
   forum:

@@ -16,6 +16,7 @@ nodeloc-lottery:
       allow_option_image: 'Luba iga loterii valikule lisada pildi URL'
       max_options: 'Maksimaalne valikute arv loterii kohta'
       options_color_blend: 'Teksti värvi sulatamine loterii valikutes'
+      options_color_blend_help: 'Kasuta seda värvisegamiseks, et teha loterii valikute lugemine loetavamaks. Lülita see valik välja, kui see ei sobi sinu foorumi välimusega või hoopis vähendab loetavust.'
   email:
     body:
       drawLottery: "Hei {recipient_display_name},\n\nÕnnitlused! Võitsid vestluse {discussion_title} autorilt {actor_display_name} .\n\nVaata seda siin: {discussion_url}\n"
@@ -98,4 +99,5 @@ nodeloc-lottery:
     too_many_participants: 'Liiga palju osalejaid'
     tooltip:
       badge: loterii
+      votes: '{count, plural, one {# hääl} other {# häält}}'
     widget-title: 'Sündmuse alguseni on aega...'

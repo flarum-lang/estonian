@@ -14,6 +14,8 @@ fof-gamification:
         icon_name: 'Alternatiivse paigutuse ikooni nimi'
       convert:
         button: 'Konverdi meeldimised poolt hääletusteks'
+        converted: 'Kõik {number} meeldimist on teisendatud'
+        converting: 'Sinu meeldimisi teisendatakse. Värskenda oma saiti mõne minuti pärast, et näha selle töö lõppu. (Teisendamine võib võtta aega sõltuvalt sinu foorumis olevate meeldimiste koguarvust)'
       groups:
         add: 'Lisa uus reegel'
         column:
@@ -41,10 +43,16 @@ fof-gamification:
       save_settings: 'Salvesta seaded'
       votes:
         allow_self_votes: 'Kasutajad võivad omaenda postitusele hääle anda'
+        alternate_layout: 'Kasuta vestluste nimekirjas alternatiivset hääletamise paigutust'
+        alternate_post_layout: 'Kasuta postitustes alternatiiveset hääletamise paigutust'
         color_holder: '#ffffff'
+        discussion_page: 'Näita vestluste nimekirjas kokku antud häälte arvu'
+        first_post_only: 'Luba ainult vestluse esimese postituse üles või alla hääletamist'
+        icon_help: 'Sisesta ükskõik, mis Font-Awesome ikoon järelliitega -up ja -down. Näiteks : arrow, thumbs, chevron'
         icon_name: 'Üles/Alla hääletamise ikoon'
         points_placeholder: 'Punkte: '
         points_title: 'Punktide kohahoidja'
+        rate_limit: 'Sunni peale hääletamiste limiit (10 sekundit)'
         title: Hääli
         upvotes_only: 'Luba ainult poolt hääletamine'
         vote_color: 'Hindamise värv'

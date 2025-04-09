@@ -27,6 +27,7 @@ kilowhat-wordpress:
         group: 'Flarumi grupp'
         role: 'WordPressi roll'
       role-loader:
+        error: 'Rollide valimisel WordPressist tekkis tõrge. Saad siiski veel käsitsi rollide nimed sisestada.'
         loading: 'WordPressi rollide laadimine...'
       selected-custom-group: Kohandatud
     save-controls:
@@ -40,6 +41,7 @@ kilowhat-wordpress:
       api_key_reset: 'Loo uus API võti'
       api_key_reset_confirm: "Kas ta tõesti soovid luua uue jagatud API võtme? Vana lõpetab töötamise ja seda peab WordPress plugina seadetes käsitsi uuendama.\n"
       comment_author_sync: 'Määra vestluse autor SSO-st'
+      comment_tag: 'Uute kommentaaride lõime silt'
       comment_tag_custom: 'Kohandatud väärtused'
       comment_tag_custom_help: 'Komadega eraldatud nimekiri siltide ID-dest'
       comment_tag_none: 'Ära määra sildile'
@@ -75,6 +77,7 @@ kilowhat-wordpress:
       post_thumbnail_summary: 'Näita WordPressi postituse pisipilti väljavõtte kohal'
       role_group_sync: 'Rolli ja grupi sünkroniseerimine'
       section_general_intro: 'Põhiseaded on lisaprogrammi töötamiseks vajalikud.'
+      summary_as_last_post: 'Määra viimane postitus vestluses kui kokkuvõttev postitus'
       use_post_date: 'Kasuta Wordpressi postituse kuupäeva vestluse loomise ajana'
       user_delete: 'Tegevus, kui kasutaja kustutatakse WordPressist'
       user_delete_desc: 'Kui valid "kustuta", siis kustutatakse ainult kasutaja, mitte nende sisu Flarumis.'
@@ -111,6 +114,7 @@ kilowhat-wordpress:
       wordpress_username: 'WordPressi admini kasutajanimi'
   api:
     blocked_actions:
+      email_change: 'See konto on seotud WordPressiga. Kasuta oma e-posti aadressi muutmiseks peamist veebisaidi profiili.'
       login: 'Sinu konto on seotud WordPressiga. Kasuta ühendamiseks peamise veebisaidi sisselogimisvormi.'
       password_reset: 'Sinu konto on seotud WordPressiga. Kasuta parooli taastamiseks peamise veebisaidi sisselogimisvormi.'
     health:
@@ -118,6 +122,8 @@ kilowhat-wordpress:
       comments-mismatch-wordpress: 'Kommentaaride integreerimine on sisse lülitatud WordPressis, aga mitte Flarumis'
       config-url-https: 'Flarum URL, mis on määratud failis config.php peaks algama väärtusega HTTPS (praegune väärtus: "{url}")'
       debug-mode: 'Flarumi veatuvastusrežiim on sisse lülitatud. Kui oled veatuvastusega ühele poole saanud, siis lülita see välja'
+      role-group-sync-incomplete: 'Rolli ja grupi sünkroonimise seaded pole kõik täidetud'
+      role-group-sync-syntax: 'Rolli ja grupi sünkroonimise seadetes on kodeerimise probleem'
       wordpress-url-https: 'Väljas "WordPressi URL" peaksolema HTTPS (praegune väärtus on "{url}")'
       wordpress-url-index-php: 'Väljas "WordPressi URL" ei peaks olema "/index.php" (praegune väärtus on "{url}")'
       wordpress-url-invalid: 'Väli "WordPressi URL" ei näi olevat korrektne URL (praegune väärtus on "{url}")'
@@ -130,6 +136,7 @@ kilowhat-wordpress:
       edit_in_wordpress: 'Muuda WordPressis'
       should_not_edit_email: 'Peaksid muutma e-posti aadressi WordPressis. <a>Muuda sellegipoolest</a>'
       unlink: 'Eemalda kasutaja seos WordPressi kasutajaga'
+      unlink_help: 'Kui see e-posti aadress kattub WordPressi kasutaja e-posti aadressiga, siis see lingitakse uuesti järgmisel korral, kui kasutaja logib WordPressi saidile sisse.'
       warning: "Seda kasutajat hoitakse WordPressiga sünkroonis. Peaksid muutma e-posti ja parooli WordPressis.\n"
     embed-link-modal:
       message: 'Lehekülg proovib sind suunata siia {href}'

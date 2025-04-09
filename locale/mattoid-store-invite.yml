@@ -10,6 +10,8 @@ mattoid-store-invite:
       group: 'Registreeri kasutajagrupp'
       group-admin-view: 'Auditi õigused'
       group-view: 'Näita kasutajatele tooteid'
+      invite-calm-down-period: 'Kutse jahtumise periood (päevades)'
+      invite-validity-period: 'Kutse koodi kehtivus (päevades)'
       mail: 'E-kirja mall'
       mail-help: 'Näusoleku e-kirja sisu, mis saadetakse kutsututele'
       mail-template: 'Tere [kasutaja, Sinu kutse kood on [kood]'
@@ -32,6 +34,7 @@ mattoid-store-invite:
       review-failed: 'Oled saanud tagasi lõkatud avalduse info. Palun proovi hiljem uuesti [{date}]'
       user-balance-low: 'Kasutaja saldo pole piisav'
     invite: 'Kutse ülevaatamine'
+    link-2: 'Kutse kett 2'
     mail:
       send-invite-title: 'Kuste kood'
     my-invite: 'Minu kutse'
@@ -61,6 +64,9 @@ mattoid-store-invite:
     item-status-all: Kõik
     item-status-confirm: Kontrollimata
     item-status-refuse: keeldu
+    item-this-year-pass-num: 'Sobivaid sellel aastal'
+    item-this-year-reject-num: 'Tagasilükkamisi sellel aastal'
+    item-this-year-total-num: 'Panuseid sellel aastal'
     item-total-num: 'Kogunenud lisamiste arv'
     item-user: Kutsuja
     item-user-create-time: 'Kasutaja liitumise aeg'

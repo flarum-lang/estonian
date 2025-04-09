@@ -16,6 +16,7 @@ maicol07-oidc-client:
         title: 'Kliendi seaded'
         verify_ssl: 'Päringute ajal SSL-i kontrollimine'
       other:
+        logout_from_provider: 'Väljalogimise teenusepakkuja (kui SSO režiim on sisse lülitatud)'
         manage_account_btn_open_in_new_tab: 'Ava konto haldamise lehekülg uuel vahekaardil'
         manage_account_url: 'Konto haldamise URL'
         remove_signup_btn: 'Eemalda liitumise nupp'

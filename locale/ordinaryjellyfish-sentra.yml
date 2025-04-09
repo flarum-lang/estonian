@@ -28,6 +28,7 @@ ordinaryjellyfish-sentra:
       content_safety_settings:
         analyze_images: 'Analüüsi pilte'
       heading: Teenused
+    view_documentation: 'Vaata dokumentatsiooni'
   forum:
     flag_detail: 'Positus vastas kriteeriumile {categories}. Tase: {severities}'
     flag_reason: 'Sentra märkis selle postituse sobimatuks. Põhjus: {reason}'

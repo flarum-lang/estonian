@@ -34,7 +34,7 @@ v17development-flarum-support:
         perma_link: 'Püsilink sellele artiklile:'
         title: 'Jaga artiklit'
       tools:
-        audit_log: 'Vaata aduditi logi'
+        audit_log: 'Vaata auditi logi'
         delete_forever: 'Kustuta igaveseks'
         edit_article: 'Muuda artiklit'
         edit_tags: 'Muuda artikli silte'
@@ -141,7 +141,7 @@ v17development-flarum-support:
         invalid_points: 'Vigane hinnang. Palun proovi uuesti.'
         missing_article_id: 'Puuduv või vigane artikli ID'
         neutral_emoji_disabled: 'Neutraalne emoji on välja lülitatud.'
-    support_tickets: 'KAsutajatoe piletid'
+    support_tickets: 'Kasutajatoe piletid'
     tickets:
       compose_ticket:
         not_allowed: 'Sa ei saa praegu uut piletit avada'

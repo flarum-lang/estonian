@@ -6,10 +6,11 @@ adblock:
   admin:
     adblock-action: 'Vali teavitus'
     adblock-action-backup: varunda
+    adblock-action-help: 'Siin saad muuta vaikimisi teavitust ''message, backup'''
     adblock-action-message: sõnum
     adblock-action-notice: teavitus
     adblock-alt: Alt
-    adblock-alt-placeholder: 'Pildi alternatiiv tekst'
+    adblock-alt-placeholder: 'Pildi alternatiivtekst'
     adblock-div: 'Vali bänneri silt, kus HTML-koodi näidatakse'
     adblock-div-placeholder: 'Nt. ''#content, .App-content, .IndexPage, container'''
     adblock-img: Img
@@ -17,6 +18,7 @@ adblock:
     adblock-notice-content: 'Sõnumi sisu'
     adblock-notice-content-help: 'Siin saad sisu muuta'
     adblock-notice-content-placeholder: 'Hei! Kas sa palun saaksid meid aidata? Tean, et reklaamid on mõnikord liiga häirivad ning sa soovid kasutada Adblocki. Aga palun toeta meid lisades see veebisait valgesse nimekirja. See aitab meil hoida saiti avatuna tasuta. Aitäh sulle abi eest!'
+    adblock-notice-content-sup: 'Toetab üleval olevat välikest teksti sõnumi sisus'
     adblock-notice-content-sup-placeholder: 'Vajuta x, et sulgeda teavitused ja näidata sisu.'
     adblock-notice-element: 'Vali silt, kus teavitusi näidatakse'
     adblock-notice-element-placeholder: 'Nt. ''#content, .App-content, .IndexPage, container'''
