@@ -423,7 +423,7 @@ CHANGELOG
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * `nodeloc-ignore-hidden-tags`
-* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* `nodeloc-lottery`
 * [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
 * [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
