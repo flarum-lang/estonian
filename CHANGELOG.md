@@ -39,6 +39,7 @@ CHANGELOG
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
