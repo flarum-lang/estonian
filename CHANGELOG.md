@@ -426,8 +426,8 @@ CHANGELOG
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * `nodeloc-ignore-hidden-tags`
 * `nodeloc-lottery`
-* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
-* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* `nodeloc-my-emoji`
+* `nodeloc-referral`
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 * [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
