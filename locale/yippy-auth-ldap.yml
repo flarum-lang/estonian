@@ -7,7 +7,7 @@ yippy-auth-ldap:
     settings:
       domains:
         add: 'Lisa domeen'
-        banner: 'Domeen {index}'
+        banner: 'Domeen {index} - [{isEnabled}]'
         data:
           admin_dn_help: 'Anonüümseks sidumiseks jäta tühjaks'
           admin_password: Parool
