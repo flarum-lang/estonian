@@ -15,10 +15,17 @@ datitisev-maintenance:
       allow_bypass_maintenance_label: 'Mine hooldusrežiimist mööda (seade peab olema sisse lülitatud)'
     settings:
       active_label: 'Hooldusrežiimi staatus'
+      allow_bypass_hint: 'Ei lähe mööda, kui andmebaas pole saadaval. Rakendatakse foorumile ja API-le (kui API pole faili <code>config.php</code> kaudu täielikult välja lülitatud). Kui see on välja lülitatud, siis adminid saavad ikka API-le ligi (Kui API pole just täielikult välja lülitatud) ja nii ei lukustata sind välja.'
+      allow_bypass_label: 'Luba foorumi ja API hooldamisest mööda minna vastavalt õigustele'
       disable_admin_label: 'Keela admini ligipääs'
       disable_api_label: 'Keela kogu API ligipääs'
+      error_page_file_hint: 'Asukoht Flarumi põhikaustas - kus asuvad kaustad <code>vendor</code> ja <code>storage</code>.'
+      error_page_file_label: 'Veateate lehekülje asukoht'
       error_page_label: 'Veateate leht HTML/Blade'
       message_label: 'Vealehe sõnum'
+      prefer_db_hint: 'Tavapäraselt kirjutavad failis <code>config.php</code> seaded üle siin olevad seaded. Lülita see valik sisse, kui soovid, et need valikud kirjutavad üle config failis olevad seaded nii, et neid kasutatakse ainult siis, kui andmebaas pole saadaval.'
+      prefer_db_label: 'Eelista andmebaasi seadeid failis <code>config.php</code> olevate asemel'
+      settings_notice: 'Need seaded ei saa olla praegu kehtivad seaded. Veendu, et neid ei kirjutata faili <code>config.php</code> poolt üle.'
       title: Hooldusrežiim
       title_label: 'Vealehe pealkiri'
   lib:
