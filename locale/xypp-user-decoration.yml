@@ -22,11 +22,13 @@ xypp-user-decoration:
       view_decoration: 'Teiste dekoratsioonide vaatamine'
     settings:
       avatar_hijack:
+        desc: 'See plugin proovib kaaperdada avatari meetodit kasutaja mudelis ning sisestada isikuinfot, mille järgi kasutajat tuvastada. Kui mõni plugin on selle tõttu kokku jooksnud, siis võid selle funktsiooni välja lülitatud.'
         title: 'Avatari kaaperdamine'
       no_decorate_class_filter:
         desc: 'Klassi nimed, mis takistavad avataride ja kasutajanimede moondumist dekoratsioonide sees. Üks rea kohta ja ilma punktita selle alguses'
         title: 'Dekoreerimise klassi filtrit pole'
       username_hijack:
+        desc: 'See plugin proovib kaaperdada kasutajanime meetodit kasutaja mudelis ning sisestada isikuinfot, mille järgi kasutajat tuvastada. Kui mõni plugin on selle tõttu kokku jooksnud, siis võid selle funktsiooni välja lülitatud.'
         title: 'Kasutajanime kaaperdamine'
       view-all:
         desc: 'Kas kõigi vaatamise õigus on sisse lülitatud?'

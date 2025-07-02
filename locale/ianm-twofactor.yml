@@ -26,6 +26,8 @@ ianm-twofactor:
       logo_qr: 'Logo QR-koodil'
       tokens:
         heading: Ligipääsukoodid
+        kill_inactive_tokens: 'Tapa mitteaktiivsed koodid'
+        kill_inactive_tokens_age_days: 'Tapa mitteaktiivsed koodid pärast (päeva)'
   email:
     body:
       status_changed: "Tere {recipient_display_name},\n\nKahe-etapiline autentimine {type} on sinu kontol sisse lülitatud {forum_url}.\n\nKui sina olid selle tegevuse algataja, siis ei pea sa siit midagi edasi tegema. Kui sa selle algataja pole, siis võta viivitamata ühendust foorumi administraatoriga.\n"
@@ -40,21 +42,34 @@ ianm-twofactor:
       two_factor_required_message: 'Jätkamiseks on vaja korrektset 2FA kontrollkoodi.'
     security:
       backup_codes: 'Sinu varukoodid'
+      backup_codes_instruction: 'Palun säilita need koodid turvalisse kohta. Neid saab kasutada sinu kontole ligi pääsemiseks, kui kaotad oma peamise sisselogimisviisi. Seda ei näidata enam uuesti.'
+      backup_codes_remaining: 'Järgi jäänud varukoode:'
       cancel_button: Loobu
       cannot_disable: 'Praegused seaded määravad, et sa ei saa kahe-etapilist autentimist välja lülitada.'
       cannot_disable_tooltip: '2FA ei saa välja lülitada'
+      change_device_button: 'Muuda seadet'
+      change_device_description: 'Liiguta 2-etapiline autentimine uuele seadmele'
+      change_device_heading: 'Muuda autentimise seadet'
+      change_device_title: 'Muuda seadet'
       confirm_disable_2fa_text: 'Oled sa kindel, et soovid kahe-etapilise autentimise välja lülitada?'
       confirm_disable_2fa_text_other_user: 'Oled sa kindel, et soovid kasutaja {username} kahe-etapilist autentimist välja lülitada? See eemaldab kõik konto tagavara koodid ja lülitab 2FA välja.'
       confirm_disable_2fa_title: 'Kinnita kahe-etapilise autentimise välja lülitamine'
+      continue_button: Jätka
+      device_changed_confirmation: 'Sinu autentimise seaded on edukalt muudetud.'
       disable_2fa_button: 'Lülita 2FA välja'
       enable_2fa_button: 'Lülita 2FA sisse'
+      enter_current_token: 'Sisesta kontrollkood praeguselt seadmelt'
+      enter_new_token: 'Sisesta kontrollkood uuest seadmest'
       enter_token: 'Sisesta kontrollkood'
       loading_qr: 'QR-koodi laadimine...'
+      manual_entry_instruction: 'Sisesta näidatav kontrollkood oma autentimise rakendusse, seejärel sisesta genereeritud kontrollkood, et 2-etapiline autentimine sisse lülitada.'
       manual_tab: 'Käsitsi seadistamine'
+      new_backup_codes: 'Sinu uued varukoodid'
       ok_button: OK
       qr_code_alt: 'Kahe-etapilise autentimise QR-kood'
       qr_tab: 'Skänneeri QR-kood'
       saved_backup_codes_button: 'Ma salvestasin need koodid'
+      scan_qr_instruction: 'Skänni QR-koodi oma autentimise rakendusega ning seejärel sisesta näidatav kontrollkood, et 2-etapiline autentimine sisse lülitada.'
       two_factor_apps: 'Rakendused nagu {google}, {authy}, {microsoft} ja paljud muud on tasuta saadaval.'
       two_factor_disabled: 'Sellel kontol on kahe-etapiline autentimine välja lülitatud.'
       two_factor_enabled: 'Sellel kontol on kahe-etapiline autentimine sisse lülitatud.'
@@ -62,6 +77,7 @@ ianm-twofactor:
       two_factor_heading: 2FA
       two_factor_title: 'Staatus:'
       verify_button: Kinnita
+      verify_current_device_message: 'Palun sisesta kontrollkood oma praegusest autentimise seadmest, et kinnitada oma isik.'
     user_2fa:
       alert_message: 'Et saaksid oma kontole jätkuvalt ligi pead kahe-etapilise autentimise välja lülitama.'
   views:
