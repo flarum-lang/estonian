@@ -7,6 +7,7 @@ hikarilan-passkey-login:
     settings:
       relying_party:
         id:
+          help: 'Edastava osapoole ID on unikaalne sinu saidi identifikaator. See on domeeni nimini ilma eesliiteta. Näiteks, kui sinu veebisait on https://example.com, siis rp ID on example.com. Kui jätad selle tühjaks, siis kasutatakse praegust domeeni.'
           label: 'Sõltuva osapoole ID'
         name:
           help: 'See on inimloetav nimi sinu saidile. Kui jätad selle tühjaks, siis kasutatakse hoopis foorumi pealkirja.'
@@ -20,7 +21,7 @@ hikarilan-passkey-login:
     user:
       settings:
         alias-modal:
-          label: 'Ja nüüd anname ligipääsu võtmele alias.'
+          label: 'Ja nüüd anname ligipääsu võtmele aliase.'
           title: 'Ligipääsu võti on registreeritud!'
         item:
           revoke: '=> core.forum.security.revoke_access_token'

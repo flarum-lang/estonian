@@ -18,7 +18,7 @@ fof-doorman:
         uses: Kasutamisi
       content:
         delete: 'Oled sa kindel, et soovid kustutada kutse koodi "{key}"?'
-        invalid_column: '=> core.admin.users.grid.columns.invalid_column'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
         no_created_by: 'Tundmatu kasutaja'
         no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
         uses:

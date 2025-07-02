@@ -9,7 +9,8 @@ fof-socialprofile:
       editOwn: 'Omaenda sotsiaalse profiili muutmine'
       view: 'Vaata sotsiaalmeedia profiili'
     settings:
-      allow_external_favicons_label: 'Luba väliste veebisaidi ikoonide kasutamist (kasutab DuckDuckGo''s favicon API-t)'
+      allow_external_favicons_label: 'Luba väliste veebisaidi ikoonide kasutamist (kasutab välise teenusepakkuja faviconi API-t)'
+      favicon_provider_label: 'Välise Faviconi teenuse pakkuja'
   forum:
     edit:
       add: 'Lisa nupud oma sotsiaalmeedia saitidele'
