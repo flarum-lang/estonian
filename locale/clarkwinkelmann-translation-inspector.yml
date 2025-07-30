@@ -10,9 +10,11 @@ clarkwinkelmann-translation-inspector:
     modal:
       actual: 'tõlked praeguses keeles'
       edit: 'Muuda GitHubis'
+      extension: Määras
       extension-unknown: 'Tundmatu lisaprogramm'
       key: 'Tõlke võti'
       original: 'Algne inglisekeelne tõlge'
+      path: 'Määratud kohas'
       title: 'Tõlke inspekteerija'
     nav:
       inspect: 'Inspekteeri tõlget'

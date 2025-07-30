@@ -28,11 +28,14 @@ fof-horizon:
         max-runtime: 'Maks. käivitusaeg'
         max-throughput: 'Maks. läbilaskevõime'
         max-wait-time: 'Maks. ootamise aeg'
+        redis-blocked-clients: 'Blokeeritud kliente'
+        redis-connected-clients: 'Ühendatud kliente'
         redis-cpu-sys: 'Redis protsessori süsteem'
         redis-cpu-user: 'Redis Protsessori kasutus'
         redis-max-memory: 'Redis maks. mälu'
         redis-memory-policy: 'Redis mälu poliitika'
         redis-memory-policy-tooltip: "Mälu poliitika määrab kuidas Redis valib mida eemaldada kui\nmälulimiit (maxmemory) on täis. Vaikeväärtus on `noeviction`: Uusi väärtuseid \nei salvestata, kui mälulimiit on täis. Kliki dokumentatsiooni vaatamiseks.\n"
+        redis-ops-per-sec: 'Toimingud sekundis'
         redis-peak-memory: 'Redis mälu kõrgeim kasutus'
         redis-used-memory: 'Kasutatud Redis mälu'
         status:

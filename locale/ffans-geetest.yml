@@ -18,7 +18,9 @@ ffans-geetest:
         product_popup_label: Hüpikaken
         standalone_help_text: 'Kasta selle stsenaariumi jaoks eraldsiseisvat seadistust.'
         standalone_label: Eraldiseisev
+        title: '{context} seadistamine'
       context_event_forgot_label: '=> core.forum.forgot_password.title'
+      context_event_label: 'Sündmuse kontekst'
       context_event_login_label: '=> core.ref.log_in'
       context_event_signup_label: '=> core.ref.sign_up'
       product_service_help_text: 'GeeTest CAPTCHA versioon, mida sa soovid kasutada.'

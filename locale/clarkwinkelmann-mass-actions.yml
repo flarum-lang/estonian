@@ -14,10 +14,12 @@ clarkwinkelmann-mass-actions:
       lock: 'Lukusta valitud'
       markAsRead: 'Märgi valitud loetuks'
       restore: 'Taasta valitud'
+      sticky: 'Valiti kleepuv'
       tags: Sildid
       tags-add: 'Lisa <em>{tag}</em>'
       tags-edit: 'Muuda silte'
       unlock: 'Eemalda valitute lukustatud'
+      unsticky: 'Valiti mittekleepuv'
     select:
       all: Kõik
       hidden: Prügikastis

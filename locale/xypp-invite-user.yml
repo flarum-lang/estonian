@@ -15,8 +15,10 @@ xypp-invite-user:
         description: 'Ära luba kasutajatel kutsuda kasutajaid, kelle registreerimise aeg on hilisem kui neil endil.'
         title: 'Luba ainult uute kasutajate kutsumine'
       reward_be_invited:
+        description: 'Tasu kutsutule. (Nõuab lisaprogrammi antoinefr/flarum-ext-money)'
         title: 'Autasuta valmistust saada kutse'
       reward_invite:
+        description: 'Tasu kutsujale. (Nõuab lisaprogrammi antoinefr/flarum-ext-money)'
         title: 'Autasusta kutsumist'
   api:
     has_already_be_invited: 'Oled juba aktsepteerinud teise kasutaja kutse.'
