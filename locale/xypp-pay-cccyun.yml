@@ -5,21 +5,33 @@
 xypp-pay-cccyun:
   admin:
     other:
+      add-row: 'Lisa rida'
+      color: Värv
+      confirm-delete: 'Oled sa kindel, et soovid selle sissekande kustutada?'
+      delete-row: 'Kustuta rida'
+      display: 'Näidatav nimi'
       icon: Ikoon
+      pay-type: 'Makse liik'
     settings:
       amount-max: 'Maksimaalne summa'
       amount-min: 'Minimaalne summa'
+      base_url: 'Baas URL (lõpeb kaldkriipsuga /)'
       expired_minutes: 'Aegumine (minutites)'
       ignore_ssl: 'Ignoreeri SSL-i veateateid'
       pay-alipay: 'Kasuta Alipay-d'
       pay-qqpay: 'Kasuta QQ Pay-d'
       pay-wxpay: 'Kasuta WeChat Pay-d'
+      pid: 'Partneri ID'
+      private-key: '(V2) Partneri privaatne võti'
+      public-key: '(V2) Platformi avalik võti'
       ua-alipay: 'Alipay UA'
       ua-qq: 'QQ UA'
       ua-wechat: 'WeChat UA'
+      use-v2: 'Kasuta v2 API(RSA Ver)'
   api:
     invalid_amount: 'Vigane summa'
     invalid_pay_type: 'Vigane makse liik'
+    pay_type_disabled: 'Valitud makse liik on välja lülitatud'
     payment_is_done: 'Makse on tehtud'
     payment_is_expired: 'Makse on aegunud'
     unknown_error: 'Tundmatu tõlrge'
@@ -29,7 +41,9 @@ xypp-pay-cccyun:
     add_money:
       amount: Summa
       confirm: Maksa
+      cost: 'Vaja on￥{cost} (CNY)'
     history:
+      amount: '￥{amount}'
       create: Loo
       expire: Aegub
       pay: Maksa
@@ -39,11 +53,19 @@ xypp-pay-cccyun:
     pay-done: 'Makse on sooritatud'
     pay-done-btn: 'Mine ajaloo lehele'
     pay-modal:
+      amount: '￥{amount}'
+      back: Tagasi
       done: Valmis
+      no-limit: '[ükskõik milline]'
+      open_window: 'Kui hüpikakent ei ilmu, siis kliki siia.'
+      qr: 'Makse lõpetamiseks skänneeri QR kood'
+      qr-fail: 'QR koodi laadimine ebaõnnestus'
       title: Maksa
+      window: 'Palu lõpeta makse uues aknas'
     recharge-modal:
       amount: Summa
       confirm: Maksa
+      money: 'Maksab￥{amount}'
   lib:
     alipay: Alipay
     qqpay: 'QQ Pay'

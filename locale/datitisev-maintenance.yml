@@ -21,6 +21,7 @@ datitisev-maintenance:
       disable_api_label: 'Keela kogu API ligipääs'
       error_page_file_hint: 'Asukoht Flarumi põhikaustas - kus asuvad kaustad <code>vendor</code> ja <code>storage</code>.'
       error_page_file_label: 'Veateate lehekülje asukoht'
+      error_page_hint: 'Blade-ga saad kasutada muutujaid $app, $translator, $settings, $title ja $message.'
       error_page_label: 'Veateate leht HTML/Blade'
       message_label: 'Vealehe sõnum'
       prefer_db_hint: 'Tavapäraselt kirjutavad failis <code>config.php</code> seaded üle siin olevad seaded. Lülita see valik sisse, kui soovid, et need valikud kirjutavad üle config failis olevad seaded nii, et neid kasutatakse ainult siis, kui andmebaas pole saadaval.'

@@ -7,11 +7,14 @@ fof-polls:
     permissions:
       change_vote: 'Muuda vastust'
       moderate: 'Muuda ja eemalda küsitlusi'
+      moderate_group: 'Muuda ja eemalda küsitluste gruppe'
       self_edit: 'Lisatud küsitluste muutmine (nõuab postituste muutmise õigust)'
       self_post_edit: '*Kõikide* oma postituse juures olevate küsitluste muutmine (nõuab postituste muutmise õigust)'
       start: 'Alusta küsitlust'
       start_global: 'Alusta üldist küsitlust'
+      start_group: 'Loo küsitluse grupp'
       upload_images: 'Kasutajad võivad küsitluse juurde pilte üles laadida'
+      view_group: 'Vaata vestluste gruppe'
       view_results_without_voting: 'Vaata tulemusi ilma hääletamata'
       vote: 'Vasta küsitlusele'
     settings:
@@ -20,6 +23,8 @@ fof-polls:
       allow_option_image: 'Luba iga küsitluse vastusevariandi jaoks pildi URL-i lisamine'
       enable_global_polls: 'Lülita sisse üldiste küsitluste kasutamine'
       enable_global_polls_help: 'Üldised küsitlused pole seotud ühegi konkreetse postitusega ja neid võib näha eraldi küsitluste leheküljelt.'
+      enabled_poll_groups: 'Lülita vestluste grupid sisse'
+      enabled_poll_groups_help: 'Küsitluste grupid võimaldavad üldiseid küsitlusi grupeerida ja neid koos vastaval lehel näidata.'
       general:
         heading: 'Üldised seaded'
         help: 'Need seaded määravad küsitluste lisaprogrammi peamised funktsioonid.'
@@ -94,6 +99,7 @@ fof-polls:
     page:
       nav: Küsitlused
       nav-all: 'Kõik üldised küsitlused'
+      nav-groups: 'Küsitluste grupid'
     poll:
       cannot_change_vote: 'Sa ei saa oma vastust pärast vastamist enam muuta.'
       cannot_start_poll_button: 'Küsitluse käivitamine ebaõnnestus'
@@ -111,6 +117,31 @@ fof-polls:
     poll_form:
       delete: 'Kustuta küsitlus'
       error: 'Küsitluse salvestamisel tekkis tõrge. Võta ühendust mõne administraatoriga.'
+    poll_groups:
+      composer:
+        add_title: 'Lisa küsitluse grupp'
+        delete: 'Kustuta küsitluse grupp'
+        edit_title: 'Muuda küsitluse gruppi'
+        groups_manager: 'Küsitluste gruppide haldamine'
+        save_changes: '=> core.ref.save_changes'
+        success: 'Küsitluste grupp on salvestatud.'
+        view_group: 'Vaata küsitluste gruppe'
+      controls:
+        add_poll_label: 'Lisa küsitlus'
+        delete_confirmation: 'Oled sa kindel, et soovid selle küsitluste grupi kustutada?'
+        delete_error_message: 'Küsitluste grupi kustutamisel läks midagi valesti.'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Küsitluste grupp on kustutatud.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Vaata küsitluste gruppi'
+      list_page:
+        add_poll_button: 'Lisa küsitluste grupp'
+        cannot_start_poll_group_button: 'Küsitluste gruppi ei saa alustada'
+        empty_text: 'Näib, et siin pole küsitluste gruppe.'
+        load_more_button: '=> core.ref.load_more'
+        no_polls: 'Selles grupis pole küsitlusi.'
+        start_poll_group_button: 'Alusta küsitluste gruppi'
+        title: 'Küsitluste grupid'
     poll_never_ends: 'Küsitlus ei lõpe kunagi'
     polls_count: '{count, plural, one { {count} vastus} other {{count} vastust}}'
     polls_list:
