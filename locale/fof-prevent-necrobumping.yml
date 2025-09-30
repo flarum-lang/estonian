@@ -15,6 +15,8 @@ fof-prevent-necrobumping:
     composer:
       warning:
         checkbox_label: 'Olen teadlik, et vestlus on vana, aga sooviksin sellele siiski vastata.'
+        cta: 'Kas soovid hoopis uut vestlust alustada?'
+        cta_button: '=> core.ref.start_a_discussion'
         description: 'Võimalik, et edasine vestlus pole enam vajalik ning see teema taaselustamine ei ole vajalik.'
         error: 'See vestlus on liiga vana, et sellele vastata.'
         title: 'See vestlus on rohkem kui <b>{time}</b> vana.'

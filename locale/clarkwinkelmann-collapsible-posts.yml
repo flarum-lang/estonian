@@ -4,17 +4,27 @@
 
 clarkwinkelmann-collapsible-posts:
   admin:
+    permission:
+      collapse: 'Peida postitused'
     settings:
       add: 'Uus põhjus'
       explanationUrl: 'Selgituse URL'
+      explanationUrlHelp: 'Valikuline. Näidatakse peidetud postituste all'
       header:
         explanation: 'Kohandatud selgitus'
         key: 'Unikaalne andmebaasi võti'
         label: Silt
       reasons: Põhjused
   forum:
+    badge:
+      post: Peidetud
+    modal:
+      title: 'Peida postitus'
+      uncollapse: Näita
     postControl:
       collapse: Sulge
+      uncollapse: Näita
     stream:
       explanation: 'Miks ma seda näen?'
+      hidden: '{count, plural, one {# postitus peideti põhjusel {reason}} other {# postitust peideti põhjusel {reason}}}'
       load: 'Laadi rohkem'

@@ -84,6 +84,11 @@ fof-upload:
         max_width: 'Maksimaalne pildi laius/kõrgus'
         title: 'Muuda pildi suurust'
         toggle: 'Muuda piltide suurust'
+      svg-sanitizer:
+        allow_animate: 'Lülita SVG animatsioonid sisse'
+        allow_animate_help: 'SVG animatsioonide sisselülitamine võib lisada turvariske, kuna SVG-s võib olla ohtlikku koodi. Lülita see funktsioon sisse ainult siis, kui usaldada oma kasutajaid.'
+        help: 'Seadista, kuidas SVG faile üleslaadimisel töödeldakse ja puhastatakse. SVG failid võivad sisaldada potentsiaalselt ohtlikke skripte ja seetõttu tuleks neisse ettevaatusega suhtuda. Üleslaetud SVG-d puhastatakse üleslaadimisel ja ohtlikud skriptid ja sildid eemaldatakse.'
+        title: 'SVG puhastaja'
       watermark:
         file: 'Laadi vesipilt üles'
         position: 'Vesipildi asukoht'

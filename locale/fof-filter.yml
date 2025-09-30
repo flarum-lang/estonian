@@ -10,12 +10,13 @@ fof-filter:
     countLabel: 'Sensori tolerantsus'
     email:
       default_subject: 'Seoses sinu viimase postitusega'
-      default_text: "Aitäh, et postitasid foorumisse! Kahjuks sinu positus kustutati, kuna see sisaldas midagi, mida me oma foorumis näha ei soovi.\n\nKui arvad, et tegu on veaga, siis ära muretse. Iga eemaldatud positus vaadatakse moderaatori poolt üle. Kui nad jõuavad järeldusele, et posituse eemaldamine oli viga, siis sinu teema taastatakse foorumis.                \n\nAitäh mõistmise eest.\n"
-    email_help: 'Märgitud e-kirja sisu. Sobib nii HTML kui ka lihttekst.'
+      default_text: "%USERNAME%,\n\nAitäh, et postitasid foorumisse! Kahjuks sinu positus kustutati, kuna see sisaldas midagi, mida me oma foorumis näha ei soovi.\n\nKui arvad, et tegu on veaga, siis ära muretse. Iga eemaldatud positus vaadatakse moderaatori poolt üle. Kui nad jõuavad järeldusele, et posituse eemaldamine oli viga, siis sinu teema taastatakse foorumis.\n                \n\nAitäh mõistmise eest.\n"
+    email_help: "Märgitud e-kirja sisu. Sobib nii HTML kui ka lihttekst. Kasutajanime sisestamiseks kasuta muutujat %USERNAME%.\n"
     filter_label: 'Tekstid, mida filtreerida'
     help2: 'Intervall minutites, mil sama kasutaja arutelud automaatselt liidetakse.'
     input:
       email_body: Sisu
+      email_help: 'Jäta tühjaks, et tõlget kasutada. Võid kasutada FoF Linguisti, et e-posti tõlkida.'
       email_label: 'E-posti seaded'
       email_subject: Pealkiri
       filter_title: 'Tekstid, mida filtreerida'
