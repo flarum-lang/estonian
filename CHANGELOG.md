@@ -190,6 +190,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
