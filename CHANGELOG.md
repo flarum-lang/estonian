@@ -373,7 +373,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
-* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+* `kk14569-anti-gmail-alias`
 * [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
