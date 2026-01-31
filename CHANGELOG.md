@@ -268,6 +268,7 @@ CHANGELOG
 * [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`glowingblue/localizd`](https://flarum.org/extension/glowingblue/localizd)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
