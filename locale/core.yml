@@ -56,6 +56,12 @@ core:
     dashboard:
       clear_cache_button: 'Puhasta vahemälu'
       description: 'Foorumi ülevaade.'
+      info_button: 'Süsteemi info'
+      info_modal:
+        copy_button: 'Kopeeri lõikelauale'
+        copy_error: 'Lõikelauale kopeerimine ebaõnnestus'
+        copy_success: 'Süsteemi info on kopeeritud lõikelauale'
+        title: 'Süsteemi info'
       io_error_message: 'Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.'
       status:
         headers:
@@ -118,8 +124,11 @@ core:
       smtp_heading: 'SMTP seaded'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Selle lisaprogrammi autor ei arendata seda enam ning seega ei pruugi see uuendusi saada.'
+      abandoned_with_replacement: '{replacement} on asendanud selle lisaprogrammi. Kaalu üle minemist uuemale lisaprogrammile.'
       configure_scopes: 'Kõik õigused'
       confirm_purge: 'Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?'
+      deprecated: Aegunud
       disabled: Keelatud
       enable_to_see: 'Luba laiendusel näha ja muuta seadeid.'
       enabled: Lubatud
@@ -139,6 +148,7 @@ core:
         button_label: 'LOE MIND'
         no_readme: 'Sellel laiendusel ei paista LOE MIND faili olevat'
         title: '{extName} dokumentatsioon'
+      replaced: Asendatud
     header:
       get_help: Abi
       log_out_button: '=> core.ref.log_out'
@@ -190,6 +200,7 @@ core:
       participate_heading: Osalemine
       post_without_throttle_label: 'Ilma vahepausita vastamine'
       read_heading: Vaatamine
+      remove_scope_label: 'Eemalda ulatus {scope}'
       rename_discussions_label: 'Vestluste ümbernimetamine'
       reply_to_discussions_label: 'Vestlustele vastamine'
       search_users_label: 'Kasutajate otsimine'
@@ -610,6 +621,7 @@ core:
       csrf_token_mismatch: 'Oled olnud liiga kaua mitteaktiivne.'
       csrf_token_mismatch_return_link: 'Mine tagasi, et uuesti proovida'
       invalid_confirmation_token: 'See kinnituslink pole õige või seda on juba kasutatud.'
+      method_not_allowed: 'See lehekülg ei toeta seda nõutud meetodit.'
       not_authenticated: 'Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.'
       not_found: 'Nõutud lehte ei leitud.'
       not_found_return_link: 'Mine tagasi lehele {forum}'
