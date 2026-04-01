@@ -56,6 +56,7 @@ fof-upload:
           media-btn: 'Ainult failihalduri nupp'
           upload-btn: 'Ainult üleslaadimise nupud'
         title: 'Composeri nupud'
+      configured_by_environment: 'Sinu salvestusruumi seaded on keskkonna muutujatega juba seadistatud.'
       disable-download-logging:
         title: 'Lülita allalaadimiste logimine välja'
         toggle: 'Lülita välja'

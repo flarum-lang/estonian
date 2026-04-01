@@ -31,3 +31,4 @@ maicol07-sso:
       title: 'SSO seaded'
   forum:
     manage_account_btn: 'Halda kontot'
+    no_login_url_error: 'Sisselogimise URL-i pole määratud. Palun kontrolli SSO seadeid!'
