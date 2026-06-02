@@ -141,6 +141,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/et/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/et/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/et/) |
 | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/datlechin-bbcode-hide-content/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content/et/) |
 | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/datlechin-birthdays/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/et/) |
 | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/datlechin-copy-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links/et/) |
