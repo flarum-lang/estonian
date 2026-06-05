@@ -79,6 +79,7 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/et/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/et/) |
+| [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/et/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/et/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-byobu/et/) |
 | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-categories/et/) |
