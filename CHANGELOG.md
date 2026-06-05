@@ -105,6 +105,7 @@ CHANGELOG
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
