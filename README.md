@@ -77,6 +77,7 @@ php flarum cache:clear
 
 | Lisaprogramm | Staatus |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/et/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/et/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/et/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/et/) |
