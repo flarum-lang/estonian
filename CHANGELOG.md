@@ -5,14 +5,14 @@ CHANGELOG
 1.0.0 (XXXX-XX-XX)
 ------------------
 
-**Üldised muudatused**:
+**General changes**:
 
-* Day.js tõlked on uuendatud.
-* Flarumi tuuma tõlked on uuendatud.
-* Kinnitatud tõlkeid uuendati.
+* Updated Flarum core translations (564 added).
+* Updated validation translations (103 added).
+* Updated Day.js translations.
 
 
-**Lisati uute lisaprogrammide tugi**:
+**Added support for new extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
@@ -135,8 +135,8 @@ CHANGELOG
 * [`datitisev/flarum-webhooks-pro`](https://flarum.org/extension/datitisev/flarum-webhooks-pro)
 * [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
-* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
 * [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
@@ -264,8 +264,8 @@ CHANGELOG
 * [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
 * [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
-* [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
 * [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
 * [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
@@ -340,8 +340,8 @@ CHANGELOG
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
 * [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
-* [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
+* [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
 * [`justoverclock/igdb-api`](https://github.com/justoverclockl/igdb-api)
 * [`justoverclock/imdb-api`](https://github.com/justoverclockl/imdb-api)
 * [`justoverclock/flarum-ext-infocards`](https://github.com/justoverclockl/flarum-ext-infocards)
@@ -409,10 +409,10 @@ CHANGELOG
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
 * [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
-* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
@@ -513,10 +513,10 @@ CHANGELOG
 * [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
+* [`xypp/store`](https://github.com/zxy19/store)
 * [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
 * [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
 * [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
-* [`xypp/store`](https://github.com/zxy19/store)
 * [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
