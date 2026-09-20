@@ -5,14 +5,14 @@ CHANGELOG
 2.0.0 (XXXX-XX-XX)
 ------------------
 
-**Üldised muudatused**:
+**General changes**:
 
-* Day.js tõlked on uuendatud.
-* Flarumi tuuma tõlked on uuendatud.
-* Kinnitatud tõlkeid uuendati.
+* Updated Flarum core translations (537 added).
+* Updated validation translations (28 added).
+* Updated Day.js translations.
 
 
-**Lisati uute lisaprogrammide tugi**:
+**Added support for new extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
