@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Lisa <code>rel="me"</code> omadus identiteedi kinnitamiseks teistel saitidel'
       visibility:
         guest-only:
-          help: 'Ainult {guest} näeb seda linki. Ülalolevad õigused peaks olema ''{everyone}''.'
           label: 'Ainult {guest}?'
         help: 'Lingid on vaikimisi nähtaval ainult <code>{admin}</code> kasutajatele. Kohanda õigusi, et määrata, kes näevad seda linki.'
         help-disabled: 'Salvesta link enne, kui muudad selle nähtavuse seadeid.'
