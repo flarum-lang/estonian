@@ -20,8 +20,13 @@ flarum-gdpr:
         heading: 'GDPR-i seaded'
         help_text: 'Otsid GDPR seadeid? Leiad need lisaprogrammi lehelt.'
       user_table_data:
+        column: Veerg
         help_text: "Enamasti tabeli <code>kasutaja</code> lisatud veerge hallatakse automaatselt ning andmete eksportimisel kui ka kustutamisel.\nAga on ka erandeid, mis on loetletud all.\n"
+        'no': Ei
+        redacted_on_export: 'Eemaldatakse eksportimisel'
         title: 'Kasutaja tabeli andmed'
+        type: Liik
+        'yes': Jah
     nav:
       gdpr_button: 'GDPR-i integreerimised'
     permissions:
@@ -76,7 +81,10 @@ flarum-gdpr:
       anonymization_button: 'Anonümiseeri kasutaja'
       comments_label: 'Kommentaarid (valikuline)'
       confirm: 'Oled sa kindel, et soovid kustutada kasutaja {name} konto režiimis {mode}?'
+      confirmed_at: 'Kinnitatud: {date}'
       deletion_button: 'Kustuta kasutaja'
+      eligible_at: 'Sobib automaatseks töötlemiseks: {date}'
+      requested_at: 'Päringu kuupäev: {date}'
       text: '{name} on küsinud konto kustutamist.'
       title: 'Protsessi kustutamise nõue'
     request_erasure:
