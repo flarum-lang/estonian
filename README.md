@@ -51,6 +51,7 @@ php flarum cache:clear
 | --- | --- |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-akismet/et/) |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-approval/et/) |
+| [`flarum/audit`](https://github.com/flarum/audit) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-audit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-audit/et/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-bbcode/et/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-emoji/et/) |
 | [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-extension-manager/et/) |
@@ -119,6 +120,7 @@ php flarum cache:clear
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-pages/et/) |
 | [`fof/polls`](https://github.com/FriendsOfFlarum/polls) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-polls/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-polls/et/) |
 | [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-profile-image-crop/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-profile-image-crop/et/) |
+| [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-pwa/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-pwa/et/) |
 | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-pwned-passwords/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-pwned-passwords/et/) |
 | [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-reactions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-reactions/et/) |
 | [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/fof-recaptcha/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-recaptcha/et/) |
