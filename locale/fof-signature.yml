@@ -3,10 +3,20 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-signature:
+  admin:
+    permissions:
+      edit_signature_others: 'Teise kasutajate allkirja muutmine'
   forum:
     buttons:
       edit: 'Muuda allkirja'
       save: 'Salvesta allkiri'
       signature: Allkiri
+    editor:
+      placeholder: 'Muuda oma allkirja siin'
     errors:
       max_char_limit_exceed: 'Maksimaalne märkide arv ületatud.'
+      max_image_count_exceed: 'Maksimaalne piltide arv ületatud.'
+    profile:
+      click: 'Klki, et kirjutada oma allkiri'
+    settings:
+      heading: Allkiri
