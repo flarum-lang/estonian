@@ -4,6 +4,16 @@
 
 core:
   admin:
+    announcements:
+      empty: 'Teadaandeid ei leitud.'
+      hide: 'Peida teadaanded'
+      load_error: 'Teadaannete laadimine ebaõnnestus. Proovi hiljem uuesti.'
+      read_more: 'Loe lisa'
+      refresh: 'Värskenda teadaandeid'
+      retry: 'Proovi uuesti'
+      show: 'Näita teadaandeid'
+      title: Teadaanded
+      view_all: 'Vaata kõiki lehel discuss.flarum.org'
     appearance:
       colored_header_label: 'Värviline päis'
       colors_heading: Värvid
@@ -29,6 +39,8 @@ core:
       logo_text: 'Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.'
       title: Välimus
     basics:
+      abandoned_extensions_heading: 'Hüljatud lisaprogrammid'
+      abandoned_extensions_sync_button: 'Kontrolli kohe'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Vaikimisi keel'
       description: 'Määra oma foorumi pealkiri, keel ja teised põhiseaded.'
@@ -166,6 +178,7 @@ core:
         discussion: Vestlus
         feature: Funktsioonid
         formatting: Vormindus
+        forum-widget: 'Foorumi vidinad'
         language: Keeled
         moderation: Modereerimine
         other: 'Teised laiendused'
@@ -273,6 +286,9 @@ core:
       must_not_be_multidimensional_array_message: 'Filter {filter} ei tohi olla mitmemõõduline andmemassiiv.'
     invalid_username_message: 'Kasutajanimes võivad olla vaid tähed, numbrid ja sidekriips.'
   email:
+    abandoned_extensions:
+      line_no_replacement: '- {package} (ühtegi alternatiivi pole saadaval)'
+      line_with_replacement: '- {package} (soovitatud alternatiiv: {replacement})'
     activate_account:
       body: "Tere {username}!\n\nKeegi (loodetavasti sina ise!) liitus selle meiliaadressiga {forum} lehele.\n\nKui see olid sina, siis kliki konto aktiveerimiseks allolevale lingile:\n{url}\n\nKui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.\n"
       subject: 'Aktiveeri oma uus konto'
@@ -519,6 +535,7 @@ core:
       dismiss_a11y_label: 'Hülga teavitus'
     badge:
       hidden_tooltip: Peidetud
+    connection_restored_message: 'Sinu ühendus on taastatud.'
     data_segment:
       label: '{label}:'
     datetime_formats:
@@ -548,7 +565,9 @@ core:
       generic_cross_origin_message: 'Ups! Päringuga läks midagi valesti. Palun laadi lehekülg ja proovi uuesti.'
       generic_message: 'Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.'
       missing_dependencies_message: '{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}'
+      network_message: 'Sinu ühendusega näib olevat mingi probleem. Palun kontrolli oma võrguühendust ja proovi uuesti.'
       not_found_message: 'Nõutud ressurssi ei leitud.'
+      offline_message: 'Tundub, et sul pole internetiühendust. Palun kontrolli oma ühendust ja proovi uuesti.'
       payload_too_large_message: 'Teostatud päring oli liiga mahukas.'
       permission_denied_message: 'Sul ei ole selle jaoks õigusi.'
       rate_limit_exceeded_message: 'Postitad liiga kiiresti. Proovi mõne sekundi pärast uuesti.'
