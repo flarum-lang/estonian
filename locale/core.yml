@@ -5,6 +5,9 @@
 core:
   admin:
     announcements:
+      about: 'Viimased uudised ja teadaanded ametlikust Flarumi kogukonnast aadressil discuss.flarum.org.'
+      comments_label: '{count, plural, one {# kommentaar} other {# kommentaari}}'
+      description: 'Viimased uudised ja teadaanded Flarumi meeskonnalt.'
       empty: 'Teadaandeid ei leitud.'
       hide: 'Peida teadaanded'
       load_error: 'Teadaannete laadimine ebaõnnestus. Proovi hiljem uuesti.'
@@ -40,7 +43,11 @@ core:
       title: Välimus
     basics:
       abandoned_extensions_heading: 'Hüljatud lisaprogrammid'
+      abandoned_extensions_notify_admins_label: 'Saada adminidele kiri, kui nädalase kontrolli käigus leitakse uus hüljetud lisaprogramm'
       abandoned_extensions_sync_button: 'Kontrolli kohe'
+      abandoned_extensions_sync_error: 'Hüljatud lisaprogrammide nimekirja tõmbamine ebaõnnestus. Proovi hiljem uuesti.'
+      abandoned_extensions_sync_success: 'Hüljatud lisaprogrammide nimekirja on uuendatud. Leiti {count} lisaprogramm(i).'
+      abandoned_extensions_text: 'Flarumi kogukond haldab nimekirja <a>hüljatud lisaprogrammidest</a>. Kui sinu saidil olev lisaprogramm esineb selles nimekirjas, siis antakse sellest adminiliideses märku.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Vaikimisi keel'
       description: 'Määra oma foorumi pealkiri, keel ja teised põhiseaded.'
@@ -287,8 +294,10 @@ core:
     invalid_username_message: 'Kasutajanimes võivad olla vaid tähed, numbrid ja sidekriips.'
   email:
     abandoned_extensions:
+      body: "Tere {username},\n\nJärgnevad paigaldatud lisaprogrammid on märgitud hüljatuks:\n\n{extensions}\n\nPalun vaata need üle ning kaalu, kas nende asemel oleks võimalik kasutada mõnda alternatiivi.\n"
       line_no_replacement: '- {package} (ühtegi alternatiivi pole saadaval)'
       line_with_replacement: '- {package} (soovitatud alternatiiv: {replacement})'
+      subject: 'Toiming on vajalik: tuvastati hüljatud lisaprogramm(e)'
     activate_account:
       body: "Tere {username}!\n\nKeegi (loodetavasti sina ise!) liitus selle meiliaadressiga {forum} lehele.\n\nKui see olid sina, siis kliki konto aktiveerimiseks allolevale lingile:\n{url}\n\nKui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.\n"
       subject: 'Aktiveeri oma uus konto'
