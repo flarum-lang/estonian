@@ -3,9 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-forum-stats-widget:
+  admin:
+    settings:
+      decimal_places:
+        help: 'Komekohtade arv suurte numbrite puhul (0-2).'
+        label: Komakohti
   forum:
     widget:
       stats:
         comment_post_count: Postitusi
         discussion_count: Vestlusi
-        user_count: Kasu
+        user_count: Kasutajaid
+      title: 'Foorumi statistika'
