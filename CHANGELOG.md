@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (581 added).
+* Updated Flarum core translations (590 added).
 * Updated validation translations (103 added).
 * Updated Day.js translations.
 
@@ -488,6 +488,7 @@ CHANGELOG
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
