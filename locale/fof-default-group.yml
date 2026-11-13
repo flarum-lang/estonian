@@ -6,3 +6,4 @@ fof-default-group:
   admin:
     settings:
       info: 'All saad valida grupi, millesse kasutajad määratakse, kui nende konto aktiveeritakse.'
+      label: 'Vaikimisi grupp'

@@ -2,6 +2,9 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-views/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  ref:
+    most_viewed: 'Enim vaadatud'
 fof-discussion-views:
   admin:
     permissions:
