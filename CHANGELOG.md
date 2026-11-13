@@ -2,6 +2,48 @@ CHANGELOG
 =========
 
 
+2.0.4 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (25% complete)
+* [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) (5% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (50% complete)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (25% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (0% complete)
+* [`forumaker/bento`](https://github.com/forumaker/Bento) (6% complete)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship) (1% complete)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (2% complete)
+* [`forumaker/magicdice`](https://github.com/forumaker/magicdice) (6% complete)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider) (3% complete)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover) (4% complete)
+* [`forumaker/vk-oauth`](https://github.com/forumaker/VK-Oauth) (16% complete)
+* [`forumaker/yandex-oauth`](https://github.com/forumaker/Yandex-Oauth) (16% complete)
+* [`forumaker/yandex-smartcaptcha`](https://github.com/forumaker/Yandex-SmartCaptcha) (7% complete)
+* [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) (1% complete)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection) (1% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (1% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (0% complete)
+* [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n) (11% complete)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish) (0% complete)
+* [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) (6% complete)
+* [`xxb5724/ner`](https://github.com/Xiaoxiaobai5724/ner) (50% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) (1 added, 100% complete)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (1 added, 43% complete)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (1 added, 50% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (1 added, 59% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (1 added, 21% complete)
+
+
+All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/estonian/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-11-10)
 ------------------
 
