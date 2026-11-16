@@ -36,17 +36,27 @@ ramon-avocado:
       colored_border_style_left: 'Vasak piirjoon'
       colored_border_style_none: Pole
       disc_style_default: Vaikeväärtus
+      disc_style_label: 'Vestluse lehekülje stiil'
       featured_tags_empty: 'Silte ei leitud.'
+      font_custom_family_label: 'Kohandatud fondi perekond'
       font_family_custom: Kohandatud…
+      font_family_inter: 'Sisemine — kujundusega kaasas'
       font_family_label: 'Foorumi font'
+      font_family_system: 'Süsteemi font — pole midagi alla laadida, katab kõik skriptid'
       footer_address_label: Aadress
+      footer_contact_help: 'Välja peitmiseks jäta see tühjaks.'
       footer_copyright_label: Autoriõigused
       footer_email_label: E-post
+      footer_enabled_label: 'Lülita kujunduse jalus sisse'
+      footer_legal_help: 'Näidatakse autoriõiguste kõrval. Näiteks kasutustingimused ja privaatsusdokument.'
+      footer_legal_label: 'Juriidilise info lingid'
+      footer_links_label: 'Navigeerimise lingid'
       footer_list_add: 'Lisa link'
       footer_list_down: 'Liiguta alla'
       footer_list_label_placeholder: Silt
       footer_list_remove: Eemalda
       footer_list_up: 'Liiguta üles'
+      footer_list_url_placeholder: '/tags või https://…'
       footer_phone_label: Telefon
       footer_social_add: 'Lisa võrk'
       footer_social_label: 'Sotsiaalsed võrgud'
@@ -80,9 +90,11 @@ ramon-avocado:
       section_bookmarks: Järjehoidjad
       section_changelog: 'Muudatuste nimekiri'
       section_colored: Värvitud
+      section_disc_hero_icon: 'Vestluse päise ikoon'
       section_discussion: 'Vestluse lehekülg'
       section_font: Font
       section_footer: Jalus
+      section_footer_contacts: 'Kontaktid ja sotsiaalmeedia'
       section_footer_links: Lingid
       section_footer_text: Tekst
       section_guests: Külalised
@@ -96,6 +108,7 @@ ramon-avocado:
       section_online: 'Kasutajaid veebis'
       section_posts: Postitust
       section_search: Otsi
+      section_showcase: Portfolio
       section_tag_icon_svg: 'Sildi ikoonid (SVG)'
       section_team: 'Meeskonna lehekülg'
       section_titles_heading: 'Sektsioonide pealkirjad'
@@ -103,8 +116,12 @@ ramon-avocado:
       showcase_image_style_default: 'Vaikeväärtus (kompaktne)'
       showcase_image_style_full: 'Täissuuruses pilt'
       spinner_option_avocado: Avocado
+      spinner_option_b2: Pöörlev
+      spinner_option_css_orbital: 'Orbiit (CSS)'
       spinner_option_custom: Kohandatud
       spinner_option_flarum: Flarum
+      spinner_option_orbital: Orbiit
+      spinner_option_pl3: Pulsseeriv
       tag_picker_placeholder: 'Vali sildid…'
       team_desc_label: 'Lehekülje kirjeldus'
       team_desc_placeholder: 'Tutvu inimestega selle kogukonna taga.'
