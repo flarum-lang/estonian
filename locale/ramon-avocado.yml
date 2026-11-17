@@ -6,20 +6,25 @@ ramon-avocado:
   admin:
     edit_tag:
       svg_current: 'SVG ikoonikomplekt'
+      svg_invalid: 'See pole SVG fail. Palun lisa korrektne SVG.'
       svg_label: 'SVG ikoon'
       svg_mono_title: 'Sobita teksti vävvriga'
       svg_remove_button: 'Eemalda SVG'
       svg_replace_button: Asenda
       svg_size_reset: Nulli
       svg_size_title: 'Ikoon isuurus'
+      svg_too_large: 'SVG logo on liiga suur (maksimaalne suurus on {max} KB).'
       svg_upload_button: 'Vali fail'
     footer_settings:
       footer_company: 'Ettevõte info'
       footer_company_description: 'Ettevõtte kirjeldus'
+      footer_company_description_placeholder: 'Lühike ettevõtte või foorumi kirjeldus...'
       footer_company_logo_url: 'Ettevõtte logo URL'
       footer_company_name: 'Ettevõtte nimi'
       footer_copyright_text: 'Autoriõiguste tekst'
+      footer_enabled: 'Kasuta kohandatud jalust'
       footer_links_config: 'Jaluse linkide seadistamine'
+      footer_show_social: 'Näita sotsiaalmeedia linke'
       footer_social: 'Sotsiaalmeedia lingid'
     loading: Laadimine…
     saved: Salvestatud
@@ -27,17 +32,28 @@ ramon-avocado:
     search_tags: 'Otsi silte…'
     settings:
       banner_image_label: 'Bänneri pilt'
+      categories_heading_label: 'Kategooriate sektsiooni pealkiri'
       changelog_description_label: 'Lehekülje kirjeldus'
+      changelog_enabled_help: 'Näitab muudatuste logi lehekülge, mis teeb sildid toodeteks ja nende vestlused väljalaseteks. Vajab siltide lisaprogrammi.'
+      changelog_enabled_label: 'Kasuta muudatuste logi lehekülge'
       changelog_tags_label: Tooted
       changelog_title_label: 'Lehekülje pealkiri'
       changelog_title_placeholder: 'Muudatuste nimekiri'
+      clock_format_12: '12 tundi (2:30 PL)'
+      clock_format_24: '24 tundi (14:30)'
       clock_format_label: 'Kellaaja vorming'
       colored_border_style_full: 'TÄielik piirjoon'
       colored_border_style_left: 'Vasak piirjoon'
       colored_border_style_none: Pole
+      colored_enabled_label: 'Lülita sisse värvilised aktsendid'
+      composer_preview_label: 'Eelvaade redaktoris'
+      custom_default_avatar_label: 'Kohandatud vaikimisi avatar'
       disc_style_default: Vaikeväärtus
       disc_style_label: 'Vestluse lehekülje stiil'
       featured_tags_empty: 'Silte ei leitud.'
+      featured_tags_help: 'Valitud koategooriad, mida tõstetakse tähe märgiga avalehel ja kategooriate lehel esile.'
+      featured_tags_label: 'Esiletõstetud kategooriad'
+      following_heading_label: 'Jälgitavate vestluste pealkiri'
       font_custom_family_label: 'Kohandatud fondi perekond'
       font_family_custom: Kohandatud…
       font_family_inter: 'Sisemine — kujundusega kaasas'
@@ -71,18 +87,40 @@ ramon-avocado:
       group_footer: Jalus
       group_home: Avaleht
       groups_aria: 'Seadete grupid'
+      hero_deco_divider_help: 'Näitab kahe dekoratiivse ikooni vajel eraldajat (nt. "vs" sümbol spordi saitidel).'
+      hero_deco_divider_icon_label: 'Eraldaja ikooni klass'
+      hero_deco_divider_label: 'Näita dekoreerivate ikoonide vahel eraldajat'
       hero_decoration_icon_count_label: 'Dekoreeritud ikoonide arv'
+      hero_decoration_icon_count_one: '1 ikoon (esimene alamsilt)'
+      hero_decoration_icon_count_two: '2 ikooni (esimene ja teine alamsilt)'
+      hero_decoration_icon_opacity_label: 'Ikooni läbipaistmatus (0-100)'
+      hide_links_for_guests_label: 'Peida külaliste linke'
       home_feed_count_label: 'Vestluste arv'
       home_feed_sort_label: Järjekord
       home_feed_sort_latest: 'Viimased tegevused'
       home_feed_sort_popular: 'Populaarsed vestlused'
+      loading_spinner_style_label: 'Laadija stiil'
+      logo_colored_label: 'Värvi logo foorumi värvi'
+      logo_enabled_help: 'Näitab päises kohandatud logo.'
+      logo_enabled_label: 'Kasuta kohandatud logo'
+      logo_offset_y_label: 'Vertikaalne kohandamine (px)'
       logo_svg_label: 'Logo SVG'
+      new_discussion_composer_label: 'Uue vestluse redaktor'
+      popular_heading_label: 'Populaarsete vestluste pealkiri'
+      post_badge_position_below: 'Kasutajanime all (eraldi real)'
+      post_badge_position_default: 'Flarumi vaikeväärtus (väljas — ketas avatari kohal)'
+      post_badge_position_inline: 'Kasutajanime kõrval'
+      post_badge_position_label: 'Grupi silt postituses'
+      post_badge_position_side: 'Avatari all (vasakul veerus)'
+      post_badge_position_side_icons: 'Avatari all - ainult ikoonid külg-külje kõrval'
       post_cta_position_1: 'Pärast estimest postitust'
       post_cta_position_2: 'Pärast teist postitust'
       post_cta_position_3: 'Pärast kolmandat postitust'
       post_cta_position_4: 'Pärast neljandat postitust'
       post_cta_position_5: 'Pärast viiendat postitust'
       post_cta_position_end: 'Vestluse lõpus'
+      presence_enabled_label: 'Näita, kes loeb vestlust'
+      reply_dock_label: 'Hõljuv vastuse mull'
       search_clear: 'Tühjenda otsing'
       search_empty: 'Seadeid ei leitud.'
       search_placeholder: 'Otsi seadeid…'
@@ -113,8 +151,18 @@ ramon-avocado:
       section_team: 'Meeskonna lehekülg'
       section_titles_heading: 'Sektsioonide pealkirjad'
       section_user_card: 'Kasutaja kaart'
+      show_action_icons_help: 'Näitab nuppudel Meeldib ja Vasta Font Awesome nuppe.'
+      show_action_icons_label: 'Näita nuppudel Meeldib ja Vasta ikoone'
+      show_online_count_help: 'Näitab "X kasutajat foorumi" teksti võrgus oleva kasutaja avatari kõrval.'
+      show_online_count_label: 'Näita võrgus olijate arvu teksti'
+      show_online_users_help: 'Näita hetkel foorumis olevate kasutajate arvu.'
+      show_online_users_label: 'Näita võrgus olevate kasutajate arvu'
+      show_share_help: 'Lisa iga postituse juurde jagamise nupp.'
+      show_share_label: 'Näita postitustes jagamis enuppu'
       showcase_image_style_default: 'Vaikeväärtus (kompaktne)'
       showcase_image_style_full: 'Täissuuruses pilt'
+      showcase_image_style_label: 'Kaardi pildi stiil'
+      spinner_custom_code_label: 'Kohandatud laadija kood'
       spinner_option_avocado: Avocado
       spinner_option_b2: Pöörlev
       spinner_option_css_orbital: 'Orbiit (CSS)'
@@ -122,13 +170,17 @@ ramon-avocado:
       spinner_option_flarum: Flarum
       spinner_option_orbital: Orbiit
       spinner_option_pl3: Pulsseeriv
+      tag_icon_svg_label: 'Kasuta sildi ikooninda SVG-d'
       tag_picker_placeholder: 'Vali sildid…'
       team_desc_label: 'Lehekülje kirjeldus'
       team_desc_placeholder: 'Tutvu inimestega selle kogukonna taga.'
+      team_enabled_help: 'Näita meedkonna lehte valitud gruppide kasutajatega.'
+      team_enabled_label: 'Kasuta meeskonna lehekülge'
       team_groups_empty: 'Gruppe ei leitud.'
       team_groups_label: 'Grupid, mida näidata'
       team_title_label: 'Lehekülje pealkiri'
       team_title_placeholder: 'Meie meeskond'
+      user_card_enabled_label: 'Lülita sisse kasutaja kaart kursori all'
   api:
     no_file_uploaded: 'Vali pilt, mida üles laadida.'
   forum:
@@ -137,6 +189,8 @@ ramon-avocado:
     back: Tagasi
     bookmarks:
       edit: 'Muuda salvestatud kirjet'
+      empty_posts: 'Sa pole veel ühtegi vestlust järjehoidjatesse lisanud.'
+      guest_prompt: 'Logi sisse, et vestlus salvestada ja need hiljem siit uuesti leida.'
       modal_cancel: Loobu
       modal_save: Salvesta
       modal_title: 'Salvestatud kirje'
@@ -148,6 +202,7 @@ ramon-avocado:
       reminder_date_label: Kuupäev
       reminder_hour_label: Tund
       reminder_label: 'Tuleta mulle meelde'
+      reminder_later: 'Hiljem täna (4 tunni pärast)'
       reminder_meridiem_label: 'EL või PL'
       reminder_minute_label: Minut
       reminder_none: 'Meeldetuletust pole'
@@ -157,8 +212,10 @@ ramon-avocado:
       removed: 'Eemaldatud salvestatutest.'
       save: Salvesta
       title: Salvestatud
+      toggle_error: 'Sinu salvestatud vestluse uuendamine ebaõnnestus. Kontrolli võrguühendust ja proovi uuesti.'
       undo: Tühista
       unsave: 'Eemalda salvestatutest'
+      update_error: 'Sinu muudatuste salvestamine ebaõnnestus. Kontrolli võrgu ühendust ja proovi uuesti.'
     cakeday:
       aria: 'Konto aastapäev'
     changelog:
@@ -222,18 +279,26 @@ ramon-avocado:
       all_title: 'Kõik vestlused'
       back_home: Avaleht
       badge_following: Jälgimisel
+      badge_sticky: Kinnitatud
+      badge_unread_tooltip: '{count} lugemata postitust'
+      bypass_tag_requirements: 'Eira siltide nõuet'
       categories_heading: Kategooriad
       choose_primary_tag_plural: 'Vali {count} peamist silti'
       choose_primary_tag_singular: 'Vali 1 peamine silt'
+      choose_secondary_tag_plural: 'Vali {count} alamsilti'
+      choose_secondary_tag_singular: 'Vali 1 alamsilt'
       choose_tags: 'Vali sildid'
       composer_body_placeholder: 'Jaga oma mõtteid…'
       composer_close: Sulge
       composer_edit: Muuda
+      composer_hero_image_label: 'Kaanepilt (valikuline)'
       composer_hero_image_picked: 'Pilt on valitud'
       composer_hero_image_remove: 'Eemalda pilt'
+      composer_post: 'Postita vestlus'
       composer_preview: Eelvaade
       composer_preview_empty: 'Pole midagi, mida eelvaadata.'
       composer_submitting: Postitamine…
+      composer_title_placeholder: 'Vestluse pealkiri…'
       discussion_plural_card: '{count} vestlust'
       discussion_singular: vestlus
       discussion_singular_card: '1 vestlus'
@@ -248,6 +313,7 @@ ramon-avocado:
       more: veel
       nav_label: Navigeerimine
       nav_more: Veel
+      nav_more_label: 'Näita rohkem navigeerimislinke'
       new_discussion: 'Uus vestlust'
       no_tags_found: 'Ühtegi silti ei leitud'
       or: või
@@ -262,6 +328,8 @@ ramon-avocado:
       reply_plural: '{count} vastust'
       reply_singular: '1 vastus'
       see_all: 'Vaata kõiki'
+      see_other_replies: 'Vaata {count} vastust'
+      see_other_reply_singular: 'Vaata {count} vastust'
       showcase_heading: Esiletõstetud
       sign_up: Liitu
       start_discussion: 'Alusta vestlust…'
@@ -276,6 +344,8 @@ ramon-avocado:
       yesterday_time: 'Eile, {time}'
     link:
       login_to_view: 'Lingi vaatamiseks logi sisse'
+    link_cta:
+      placeholder: 'Logi sisse lingiga'
     loading: Laadimine…
     messages:
       deleted_message: 'Sõnum on kustutatud'
@@ -290,15 +360,23 @@ ramon-avocado:
       op_badge: AP
     post_cta:
       or: või
+      text: 'Naudid vestlust? Liitu vestlusega!'
     profile:
+      joined: 'Liitunud {date}'
+      member_since: 'Liige alates {date}'
       scroll_left: 'Keri vasakule'
       scroll_right: 'Keri paremale'
     search:
       clear: Tühjenda
       close: 'Sulge (Escape)'
+      enter_search_term: 'Kasutaja otsimiseks sisesta otsingusõna.'
       esc_key: ESC
+      hero_title: 'Mida sa otsid?'
+      no_discussions_filter: 'Neile filtritele ei vasta ükski vestlus.'
+      no_posts_match: 'Neile filtritele ei vasta ükski postitus.'
       placeholder: Otsi…
       placeholder_hero: 'Otsi foorumist…'
+      results: Otsingutulemused
       search_button: Otsi
       sort_latest: Viimased
       sort_newest: Uusimad
@@ -308,6 +386,8 @@ ramon-avocado:
       tab_discussions: Vestlused
       tab_posts: Postitused
       tab_users: Kasutajad
+      tip: 'Vihje: eesliide '
+      tip_suffix: ' et filtreerida sildi järgi'
       title: Otsi
     support:
       category_label: 'Pileti kategooria'
@@ -356,10 +436,13 @@ ramon-avocado:
       view_profile: 'Vaata profiili'
     wiki:
       style_default: Vaikeväärtus
+      style_default_help: 'Sisu paremal, viki enda paigutus.'
       style_label: Disain
       style_manual: Juhend
+      style_manual_help: 'Sisu paremal, Suur pealkiri ja standfirst.'
   lib:
     footer:
+      default_text: 'Kasutatud tarkvara [Flarum](https://flarum.org).'
       nav_discussions: 'Kõik vestlused'
       nav_home: Avaleht
       nav_tags: Sildid
