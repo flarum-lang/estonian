@@ -201,6 +201,8 @@ ramon-avocado:
       reminder_custom: 'Vali kuupäev ja kellaaeg'
       reminder_date_label: Kuupäev
       reminder_hour_label: Tund
+      reminder_invalid: 'See aeg on juba möödunud. Vali aeg, mis on tulevikus.'
+      reminder_invalid_date: 'Vali meeldetuletuse kuupäev.'
       reminder_label: 'Tuleta mulle meelde'
       reminder_later: 'Hiljem täna (4 tunni pärast)'
       reminder_meridiem_label: 'EL või PL'
@@ -208,6 +210,7 @@ ramon-avocado:
       reminder_none: 'Meeldetuletust pole'
       reminder_pm: PL
       reminder_tomorrow: 'Homme hommikul'
+      reminder_too_far: 'Meelespäid saab panna kuni aastaks. Vali varasem kuupäev.'
       reminder_week: 'Järgmisel nädalal'
       removed: 'Eemaldatud salvestatutest.'
       save: Salvesta
@@ -361,6 +364,8 @@ ramon-avocado:
     post_cta:
       or: või
       text: 'Naudid vestlust? Liitu vestlusega!'
+    presence:
+      reading_now: '{count} loeb praegu'
     profile:
       joined: 'Liitunud {date}'
       member_since: 'Liige alates {date}'
