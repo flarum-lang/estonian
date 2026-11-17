@@ -31,7 +31,7 @@ CHANGELOG
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1% complete)
 * [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (1% complete)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (0% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (69% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (70% complete)
 * [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n) (11% complete)
 * [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish) (0% complete)
 * [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) (6% complete)
