@@ -4,6 +4,8 @@
 
 fof-pwa:
   admin:
+    nav:
+      pwa_button: 'Progressiivne veebirakendus'
     pwa:
       about:
         description_label: Kirjeldus
