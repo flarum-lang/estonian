@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.0.1 (2026-11-23)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+**Added support for new extensions**:
+
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (50% complete)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (33% complete)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (2% complete)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider) (3% complete)
+* [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) (1% complete)
+* [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection) (1% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1% complete)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) (1% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (1 added, 35% complete)
+
+
+All changes: [1.0.0...1.0.1](https://github.com/flarum-lang/estonian/compare/1.0.0...1.0.1).
+
+
 1.0.0 (2026-09-30)
 ------------------
 
