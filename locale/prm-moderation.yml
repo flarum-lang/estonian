@@ -6,9 +6,23 @@ prm-moderation:
   forum:
     discussion_controls:
       warn: 'Hoiata autorit'
+    handle:
+      ban_0: Püsiv
+      ban_1: '1 päev'
+      ban_30: '30 päeva'
+      ban_7: '7 päeva'
+      close: Sulge
+      reject: Eira
+      resolve: 'Lahenda ja rakenda'
+      warn: 'Saada hoiatus'
+      warning_points: 'Hoiatuse punktid'
+      warning_reason: 'Hoiatuse põhjus'
     header: Modereerimine
     header_tickets: Kasutajatugi
     nav_warnings: Hoiatused
+    notifications:
+      notify_warning_label: 'Keegi hoiatab mind'
+      ticket_replied: '{username} vastas sinu kasutajatoe piletile'
     panel:
       actions: Tegevused
       chart_discussions: Teemad
@@ -38,10 +52,42 @@ prm-moderation:
       reason_placeholder: (vali)
       reason_spam: Rämpspostitus
     tickets:
+      assigned: '{username} tegeleb sellega'
+      category: Kategooria
+      category_account: Konto
+      category_other: Muu
+      category_payment: 'Makse/ vahetus'
+      category_placeholder: (vali)
+      category_technical: 'Tehniline probleem'
+      close: 'Sulge pilet'
+      closed: 'See pilet on suletud.'
       create: 'Uus pilet'
+      empty: 'Pileteid pole veel.'
+      inbox: 'Vajab vastust'
+      last_update: 'Viimane uuendus'
+      message: Sõnum
+      mine_closed: 'Suletud piletid'
+      mine_open: 'Avatud piletid'
+      open: Ava
       panel_title: 'Kasutajatoe piletid'
+      priority: Tähtsus
+      priority_high: Kõrge
+      priority_normal: Tavaline
+      reopen: 'Ava uuesti'
+      reply: 'Kirjuta vastus'
       section_tickets: Kasutajatugi
+      send_reply: Saada
+      staff_badge: Personal
+      status: Staatus
+      status_answered: Vastatud
+      status_closed: Suletud
+      status_open: Uus
+      status_waiting: Ootel
+      subject: Teema
+      submit: 'Saada pilet'
+      success: 'Sinu kasutajatoe pilet on loodud.'
       title: 'Minu kasutajatoe piletid'
+      user: Kasutaja
     user_controls:
       warn: 'Hoiata kasutajat'
     warn:
