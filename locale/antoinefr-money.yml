@@ -12,6 +12,7 @@ antoinefr-money:
       - 'Kui vestlust või postitus on peidetud või taastatud (vaikeväärtus)'
       - 'Kui vestlus või postitus on eemaldatud'
     permissions:
+      disable_money_label: 'Keela raha'
       edit_money_label: 'Muuda raha'
     settings:
       autoremove: 'Uuenda raha automaatselt'

@@ -12,7 +12,13 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Saidi võti'
   forum:
+    error: 'Meil ei õnnestunud teha kindlaks, kas sa oled inimene. Palun proovi uuesti.'
     not_loaded_error: 'Cloudflare Turnstile laadimine ebaõnnestus. Palun värskenda lehekülge ja kontrolli oma reklaamide blokeerijat.'
     validation_error: 'Palun lõpeta Turnstile väljakutse.'
 validation:
+  custom:
+    turnstile:
+      required: 'Palun lahenda see Turnstile väljakutse.'
+    turnstileToken:
+      required: 'Palun lahenda see Turnstile väljakutse.'
   turnstile: 'Me ei suutnud kinnitada kas sa oled robot või mitte. Palun värskenda lehekülge ja proovi uuesti.'

@@ -44,6 +44,9 @@ huseyinfiliz-modern-footer:
       mobile_tab_height: 'Mobiilse vahekaardi kõrgus'
       mobile_tab_height_help: 'Kui mobiili vahekaart on paigaldatud, siis sa võid kasutada väärtusena: var(--mobile-tab-height)'
       right-text: 'Meist tekst'
+      show_to_everyone: 'Näita kõigile'
+      show_to_guests_only: 'Näita ainult külalistele'
+      show_to_members_only: 'Näita ainult liikmetele'
       social_link: 'Sotsiaalmeedia link'
       social_media_button: 'Sotsiaalmeedia nupud'
       text: Tekst
@@ -61,3 +64,4 @@ huseyinfiliz-modern-footer:
       title-2: 'Esimeste linkide pealkiri'
       title-3: 'Viimaste linkide pealkiri'
       title-4: 'Meist pealkiri'
+      visibility_mode: 'Jaluse näitamine'
