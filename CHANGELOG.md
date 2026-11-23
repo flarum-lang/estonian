@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.0.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) (100% complete)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (100% complete)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (100% complete)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 100% complete)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (2 added, 100% complete)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (1 added, 100% complete)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (2 added, 100% complete)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (1 changed, 100% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 100% complete)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (2 added, 100% complete)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini) (1 changed, 100% complete)
+
+
+All changes: [1.0.1...1.0.2](https://github.com/flarum-lang/estonian/compare/1.0.1...1.0.2).
+
+
 1.0.1 (2026-11-23)
 ------------------
 
