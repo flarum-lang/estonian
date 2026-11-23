@@ -25,4 +25,5 @@ datlechin-ai-summarize:
       generated_with: 'Loodud {provider} poolt mudeliga {model}'
       not_enough_posts: 'Selles vestluses pole piisavalt postitusi, et kokkuvõtet luua.'
       posts_summarized: '{count} postituse kokkuvõte'
+      regenerate_confirm: 'Oled sa kindel, et soovid selle kokkuvõtte uuesti luua? Olemasolev kokkvõte asendatakse.'
       title: 'AI kokkuvõte'
