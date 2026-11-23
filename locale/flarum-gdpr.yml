@@ -21,8 +21,10 @@ flarum-gdpr:
         help_text: 'Otsid GDPR seadeid? Leiad need lisaprogrammi lehelt.'
       user_table_data:
         column: Veerg
+        extension: Lisaprogramm
         help_text: "Enamasti tabeli <code>kasutaja</code> lisatud veerge hallatakse automaatselt ning andmete eksportimisel kui ka kustutamisel.\nAga on ka erandeid, mis on loetletud all.\n"
         'no': Ei
+        pii: PII
         redacted_on_export: 'Eemaldatakse eksportimisel'
         title: 'Kasutaja tabeli andmed'
         type: Liik

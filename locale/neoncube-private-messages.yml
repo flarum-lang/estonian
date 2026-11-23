@@ -8,10 +8,15 @@ neoncube-private-messages:
       allow_users_to_receive_email_notifications: 'Luba kasutajatel saada teavitusi e-postiga, kui sulle tuleb uus privaatsõnum'
       start_label: 'Alusta privaatset vestlust'
     settings:
+      enable_custom_colors: 'Kohandatud värvide kaustamine'
       message_recipient_background_color: 'Saaja sõnumi värv'
       message_recipient_background_color_help: .
+      recipient_background_color: 'Saabunud sõnumite taustavärv:'
+      recipient_text_color: 'Saabunud sõnumite teksti värv:'
       return_key: 'Sisestusklahv saadab sõnumi'
       return_key_help: 'Vali nii, et sisestusklahv (klahv "enter") saadab sõnumi. Kui see on välja lülitatud, siis sisestusklahvi vajutamine teeb lihtsalt reavahetuse ning sõnumi saatmiseks on vaja vajutada nuppu "Saada sõnum".'
+      sender_background_color: 'Saadetud sõnumite taustavärv:'
+      sender_text_color: 'Saadetud sõnumite teksti värv:'
       show_read_receipts: 'Näita loetud sõnumite teateid'
       show_read_receipts_help: 'Näita sõnumi kõrval märget, kui saaja on seda lugenud.'
   forum:

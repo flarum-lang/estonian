@@ -5,13 +5,20 @@
 blomstra-search:
   admin:
     analyzer:
-      help: "Analüüside võimaldab otsingul aru saada, millal sõnad lõppevad ning võtab\nindekseerimiseks ette keelepõhised parandamised.\n"
+      help: "Analüüside võimaldab otsingul aru saada, millal sõnad lõppevad ning võtab\nindekseerimiseks ette keelepõhised parandamised. Selle muutmise järel on vaja kogu indeks uuesti luua.\n"
       label: 'Analüüsi keel'
     elastic-endpoint: 'Elastiku lõpp-punkt'
     elastic-index: Indeks
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    index-settings-changed: 'Otsingu indeksi seadeid on muudetud. Käivita käsk: php flarum blomstra:search:index build'
     match-sentences: 'Otsi ainult täispikka lauset'
     match-words: 'Otsing otsib ainult täissõnu'
+    min-search-length:
+      help: "Minimaalne märkide arv enne kui otsing käivitatakse. Hiina, jaapani ja korea keelte puhul pane siia 1 või 2\nkuna neis keeltes on ühel märgil juba tähendus olemas.\nSelle muutmise järel on vaja indeks uuesti luua.\n"
+      label: 'Minimaalne otsingupäringu pikkus'
+    reindex-required:
+      detail: 'Otsinguindeks pole selle lisaprogrammi versiooniga ühilduv. Käivita käsk: php flarum blomstra:search:index build'
+      title: 'Otsinguindeksi uuesti ehitamine on nõutud'
     search-discussion-subjects: 'Otsi vestluste pealkirjadest'
     search-post-bodies: 'Otsi kommentaaridest'

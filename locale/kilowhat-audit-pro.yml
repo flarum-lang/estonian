@@ -21,10 +21,12 @@ kilowhat-audit:
       limitedIpAddress: 'Vaata IP aadressi'
   forum:
     link:
+      actor-audit: 'Auditi logi (kasutaja)'
       all-audit: 'Augiti logi'
       discussion-audit: 'Logi audit'
       user-audit: 'Auditi logi (konto muudatused)'
     modal:
+      actor-title: 'Tegelase auditi logi'
       all-title: 'Logi audit'
       discussion-title: 'Vestluste auditi logi'
       user-title: 'Kasutaja auditi logi'
@@ -40,6 +42,7 @@ kilowhat-audit:
         unknown: 'Tundmatu klient'
       controls:
         filterAction: 'Näita sama toimingu logisid'
+        filterActor: 'Näita selle tegelase logisid'
         filterClient: 'Näita selle kliendi tüübi logisid'
         filterDiscussion: 'Näita logisid, mis mõjutavad sama vestlust'
         filterIp: 'Näita selle IP logisid'

@@ -25,6 +25,7 @@ ziven-decoration-store:
     item-filter-all: Kõik
     item-id: ID
     item-property-image: Pilt
+    item-property-image-select-from-gallery: 'Sisseehitatud pilt'
     item-property-image-upload: 'Laadi üles'
     item-property-style: Stiil
     item-property-style-select-from-gallery: 'Sisseehitatud stiil'

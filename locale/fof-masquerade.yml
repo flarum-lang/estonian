@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      masquerade:
+        field_created: 'Loodud profiili väli'
+        field_deleted: 'Kustutatud profiili väli'
+        field_updated: 'Uuendatud profiili väli'
+        profile_updated: 'Uuendatud kasutaja {username} profiili väljad'
 flarum-gdpr:
   lib:
     data:
@@ -17,6 +25,7 @@ fof-masquerade:
       edit-field: 'Salvesta muudatused'
     fields:
       add: 'Lisa väli {field}'
+      delete-confirmation: 'Oled sa kindel, et soovid kustutada välja {field}? Seda ei saa tühistada.'
       description: 'Välja kirjeldus'
       description-help: "Valikuline kirjeldus, mis selgitab, miks seda välja vaja on.\n"
       edit: 'Lisa väli {field}'

@@ -7,6 +7,10 @@ ralkage-hcaptcha:
     permissions:
       post_without_hcaptcha: 'Loo postitusi ja vestlusi ilma hCaptchata'
     settings:
+      dark_mode_help: 'Kasuta hCaptcha vidinal tumedat teemat. LÜlita see sisse, kui su foorum kasutab tumedat teemat.'
+      dark_mode_label: 'Tume režiim'
+      enable_login_help: 'Nõua sisselogimisel hCaptcha kasutamist. Aitab kaitsta jõuga tehtud rünnakute vastu.'
+      enable_login_label: 'Nõua sisselogimist'
       help_text: 'Hangi hCaptcha kasutamiseks vajalikud andmed <a>siit</a>.'
       secret_key_label: Salavõti
       site_key_label: 'Saidi võti'
