@@ -8,7 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) (100% complete)
-* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) (89% complete)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) (94% complete)
 * [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (100% complete)
 * [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (100% complete)
 * [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
@@ -16,7 +16,20 @@ CHANGELOG
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval) (28% complete)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (100% complete)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination) (20% complete)
+* [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) (100% complete)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) (64% complete)
+* [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate) (16% complete)
+* [`little100/fontawesome`](https://github.com/Little100/flarum-ext-fontawesome) (100% complete)
+* [`prm/hero-image`](https://github.com/smmpanelscripts1/prm-hero-image) (100% complete)
+* [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (37% complete)
+* [`prm/security`](https://github.com/smmpanelscripts1/prm-security) (100% complete)
+* [`prm/sleek-dark`](https://github.com/smmpanelscripts1/prm-sleek-dark) (100% complete)
+* [`proxytracer/flarum-proxytracer`](https://github.com/ProxyTracer/flarum-proxytracer) (50% complete)
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt) (100% complete)
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) (100% complete)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) (50% complete)
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki) (100% complete)
 * [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark) (100% complete)
 
 
