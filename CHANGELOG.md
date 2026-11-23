@@ -12,20 +12,27 @@ CHANGELOG
 * [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (100% complete)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark) (100% complete)
 
 
 **Updated translations for extensions**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (1 added, 90% complete)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (3 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 1 changed, 100% complete)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (2 added, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (1 added, 100% complete)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (2 added, 100% complete)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (1 changed, 100% complete)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) (4 added, 100% complete)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 100% complete)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (2 added, 100% complete)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini) (1 changed, 100% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (4 added, 100% complete)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft) (1 added, 100% complete)
 
 
 All changes: [1.0.1...1.0.2](https://github.com/flarum-lang/estonian/compare/1.0.1...1.0.2).
