@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-anti-spam/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      registration:
+        blocked: 'Blokeeris kasutaja {username} ({email}) registreerimise aadressilt {ip}'
+      user:
+        marked_as_spammer: 'Märkis kasutaja {username} spämmeriks'
 fof-anti-spam:
   admin:
     blocked_registrations:
@@ -29,7 +36,7 @@ fof-anti-spam:
         delete_user_help: 'See kustutab jäädavalt selle kasutaja. Kui see on välja lülitatud, siis kasutaja konto külmutatakse.'
         delete_user_label: 'Kustuta kasutaja'
         heading: 'Vaikimisi modereerimise tegevused'
-        introduction: "Kui kasutaja märgitakse spämmijaks, siis saavad moderaatorid valida erinevate tegevuste vahel vastavalt sellele, kuidas nad soovivad seda juhtumit käsitleda. Need seaded võimaldavad sul määratleda eelnevalt tegevused, mida sa tavapäraselt teed, et protsessi kiirendada, aga samas jätab see sulle vajaduse korral alles ka paindlikkuse.\n"
+        introduction: 'Kui kasutaja märgitakse spämmijaks, siis saavad moderaatorid valida erinevate tegevuste vahel vastavalt sellele, kuidas nad soovivad seda juhtumit käsitleda. Need seaded võimaldavad sul määratleda eelnevalt tegevused, mida sa tavapäraselt teed, et protsessi kiirendada, aga samas jätab see sulle vajaduse korral alles ka paindlikkuse.'
         move_discussions_to_tags_help: 'See liigutab kõik selle kasutaja poolt tehtud postitused sinu valitud sildi (siltide) alla. Siltide valiku eemaldamine jätab vestluse selle alge sildi (või siltide) alla. Sellel pole mingit mõju, kui valik ''Kustuta vestlused'' on sisse lülitatud.'
         move_discussions_to_tags_label: 'Liiguta vestlused siltide alla'
       stopforumspam:
