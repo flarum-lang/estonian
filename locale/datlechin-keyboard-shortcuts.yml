@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-keyboard-shortcuts:
+  admin:
+    behaviour_heading: Käitusmine
   lib:
     shortcuts:
       mark_all_as_read: 'Märgi kõik loetuks'

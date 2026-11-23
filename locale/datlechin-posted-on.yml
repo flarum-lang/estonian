@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_label: 'Mida näidata postituse kõrval'
   forum:
     post:
       posted_on_text: 'Postitatud süsteemilt {posted_on}'

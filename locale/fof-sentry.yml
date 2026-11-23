@@ -4,6 +4,7 @@
 
 fof-sentry:
   admin:
+    sentry_settings: 'Sentry seaded'
     settings:
       dsn_backend_label: 'Sentry DSN (ainult admin)'
       dsn_label: 'Sentry DSN'

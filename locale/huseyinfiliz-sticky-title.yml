@@ -17,4 +17,5 @@ huseyinfiliz-sticky-title:
         desktop: 'Ainult arvutis'
         mobile: 'Ainult mobiilil'
         never: 'Ära asenda kunagi'
+      title: 'Kleepuva pealkirja seaded'
       web_section_title: 'Töölaua seaded'

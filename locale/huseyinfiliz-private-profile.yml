@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 huseyinfiliz-private-profile:
+  admin:
+    settings:
+      default_visibility_label: 'Admini profiili nähtus'
   forum:
     profile_is_private: 'See profiil on privaatne.'
     user:

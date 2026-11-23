@@ -4,5 +4,6 @@
 
 datlechin-simple-tour-guide:
   admin:
+    devices_label: Seadmed
     settings:
       show_progress_label: 'Näita edenemist'

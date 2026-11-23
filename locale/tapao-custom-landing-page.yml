@@ -5,4 +5,5 @@
 tapao-custom-landing-page:
   admin:
     settings:
+      enabled_label: 'Lülita sisse kohandatud avaleht'
       guests_only_label: 'Näita ainult külalistele'

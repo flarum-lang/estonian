@@ -6,3 +6,4 @@ fof-clockwork:
   admin:
     dashboard:
       button_label: 'Ava Clockwork'
+      section_label: Clockwork

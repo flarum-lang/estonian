@@ -4,6 +4,8 @@
 
 datlechin-link-preview:
   admin:
+    sections:
+      appearance_label: Välimus
     settings:
       blacklist_help: 'Määra domeenid, millest sa ei soovi eelvaate linke luua. Kasuta komasid, et lisada mitu saiti.'
       blacklist_label: 'Domeenide must nimekiri'
