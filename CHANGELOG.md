@@ -129,6 +129,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (1 added, 75% complete)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (1 added, 6% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (1 added, 20% complete)
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) (1 added, 12% complete)
@@ -136,6 +137,8 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 82% complete)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 added, 95% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 53% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (3 added, 85% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 1 changed, 29% complete)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) (1 added, 33% complete)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (2 added, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
@@ -143,11 +146,12 @@ CHANGELOG
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (2 added, 75% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 20% complete)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (1 changed, 100% complete)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) (3 added, 91% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (1 added, 5% complete)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) (1 added, 41% complete)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 75% complete)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (2 added, 100% complete)
-* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (1 added, 40% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (3 added, 80% complete)
 
 
 All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/estonian/compare/2.0.4...2.0.5).
