@@ -15,7 +15,7 @@ muhammedsaidckr-gemini:
       enabled_tags_label: 'Lubatud sildid'
       model_help: 'Vali mudel, mida kasutada.'
       model_label: Mudel
-      prompt_help: 'Sisesta käsk, mida kasutatakse vastuse loomiseks. Muutujat [pealkiri] ei tohiks muuta.'
+      prompt_help: 'Sisesta käsk, mida kasutatakse vastuse loomiseks. Muutujaid [title], [author_name], [forum_title] ei tohiks muuta.'
       prompt_label: Käsurida
       role_help: 'Vali rollid, kellel on lubatud vastuseid genereerida.'
       role_label: Roll

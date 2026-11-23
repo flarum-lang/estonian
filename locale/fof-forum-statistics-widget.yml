@@ -12,6 +12,8 @@ fof-forum-statistics-widget:
     settings:
       cache_duration_help: 'Määra, kui kaua (sekundites) hoitakse vidinat vahemälus. Vahemälu kasutamise välja lülitamiseks sisesta <code>0</code> (pole soovitatav).'
       cache_duration_label: 'Vahemälu säilitamise pikkus'
+      classic_look_help: 'Taasta algne vidina välimus enne lisaprogrammi fof/forum-widgets-core lisamist.'
+      classic_look_label: 'Klassikaline välimus'
       flush_cache_on_new_registration_help: 'Kui see on sisse lülitatud, siis vahemälu tühjendatakse uue foorumi liikme lisandumisel.'
       flush_cache_on_new_registration_label: 'Tühjenda vahemälu uue liikme lisandumisel'
       widget_helper_text: 'Muuda seda seadet, et muuta vidina asukohta Flarum foorumi külgribal. Mida suurem on number, seda kõrgemal on vidin külgriba vidinate nimekirjas (see väärtus võib olla nii positiivne kui ka negatiivne).'
