@@ -6,6 +6,8 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Vestluste nööpnõelastamine'
+    settings:
+      pin_sticky_on_all_discussions_label: 'Kinnita vestlus kõigi vestluste lehel'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'

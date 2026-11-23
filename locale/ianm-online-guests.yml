@@ -8,7 +8,9 @@ ianm-online-guests:
       view_online_guests_label: 'Vaata saidil olevaid külalisi'
     settings:
       cache_duration_label: 'Puhvri pikkus'
+      online_duration_label: 'Veebisessiooni kestus'
   forum:
     widget:
       description: 'Näitab saiti vaatavate külaliste arvu'
+      guests_online: '{count, plural, one {külaline saidil} other {külalist saidil}}'
       title: 'Külalisi saidil'

@@ -6,3 +6,6 @@ fof-mark-unread:
   admin:
     permissions:
       mark_unread_label: 'Märgi vestused mitteloetuks'
+  forum:
+    discussion_controls:
+      mark_unread_button: 'Märgi kui mitte loetud'

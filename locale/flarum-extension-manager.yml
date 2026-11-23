@@ -72,6 +72,8 @@ flarum-extension-manager:
       successful_remove: 'Laiendus on eemaldatud.'
       successful_update: '{extension} uuendati, ümbersuunamine...'
       update: Uuenda
+      update_hard_label: 'Karm uuendus'
+      update_soft_label: 'Pehme uuendus'
     file_permissions: "Lisaprogrammide haldur vajab kirjutusõigust järgnevates failides ja kaustades: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     major_updater:
       description: "Peamised Flarumi uuendused pole tagasiühilduvad, mis tähendab, et sinu praegu paigaldatud lisaprogrammid ja käsitsi tehtud muudatused ei pruugi selle uue versiooniga töötada. Palun veendu, et oled teinud varukoopia oma andmebaasist ja failidest enne, kui sa jätkad.\n"

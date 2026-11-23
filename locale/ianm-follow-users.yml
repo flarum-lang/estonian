@@ -25,6 +25,7 @@ ianm-follow-users:
       following: 'Jälgitud kasutajad'
     followed: Jälgitav
     followers: '{count, plural, one {jälgija} other {jälgijat}}'
+    followers_link: Jälgijat
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -45,6 +46,7 @@ ianm-follow-users:
       new_unfollower_text: '{username} lõpetas sinu jälgimise'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
+      no_followers: 'Tundub, et sul pole veel ühtegi jälgijat.'
       no_following: 'Näib, et sa ei jälgi ühtegi kasutajat.'
     settings:
       block_follow: 'Takistab kasutajatel mind jälgida'
