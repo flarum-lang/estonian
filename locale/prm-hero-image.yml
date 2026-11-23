@@ -4,4 +4,19 @@
 
 prm-hero-image:
   admin:
+    help: 'Asendab teretulemast bänneri sama suure piltiga, mille tumedust saab muuta.'
+    overlay_help: 'Kõrgemad väärtused teebad pildi tumedamaks.'
+    overlay_label: Ülepaigutus
+    permissions:
+      profile_hero_label: 'Laadi üles profiili kaanepilt'
+    preview_empty: 'Pilti pole veel.'
+    profile_help: 'Luba gruppidel ise oma profiili kaanepilti muuta. Üleslaetud pilte töödeldakse serveris.'
+    remove_button: 'Eemalda pilt'
+    saved: Salvestatud
     title: 'Avalehe pildid'
+    upload_button: 'Laadi pilt üles'
+    upload_help: 'PNG, JPG, GIF või WEBP. Maks. 3 MB. Lai maastikupilt sobib kõige paremini.'
+    upload_label: Pilt
+  forum:
+    remove: 'Eemalda kaanepilt'
+    upload: 'Laadi üles kaanepilt'

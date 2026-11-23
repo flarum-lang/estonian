@@ -5,4 +5,13 @@
 resofire-menu-control:
   admin:
     nav_order:
+      add_custom_link: 'Lisa kohandatud link'
+      custom_link_label: 'Linki tekst'
+      highlight_color_label: 'Esiletõstmise värv'
+      move_down: 'Liiguta alla'
+      move_up: 'Liiguta üles'
+      remove_highlight: 'Eemalda esiletõstmine'
+      remove_item: 'Eemalda nimekirjast'
+      save_button: 'Salvesta järjekord'
+      save_success: 'Menüü järjekord on salvestatud.'
       title: 'Menüülinkide järjekord'
