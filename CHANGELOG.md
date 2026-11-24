@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (76 added, 1 changed).
+* Updated Flarum core translations (187 added, 3 changed).
 
 
 **Added support for new extensions**:
@@ -151,7 +151,7 @@ CHANGELOG
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (1 added, 20% complete)
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) (1 added, 12% complete)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (1 added, 1% complete)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 16% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (60 added, 25% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (2 added, 75% complete)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 added, 79% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 42% complete)
