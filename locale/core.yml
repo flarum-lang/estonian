@@ -4,6 +4,44 @@
 
 core:
   admin:
+    advanced:
+      fontawesome:
+        cdn_url_label: 'CDN URL'
+        kit_url_label: 'Komplekti URL'
+        preview:
+          button: 'Ikoonide eelvaade'
+          fa5_fa6_label: 'FA5/FA6 aliased'
+          fa7_label: 'FA7 klassid'
+          label: 'Ikooni eelvaade'
+          pro_label: 'Ainult Pro'
+        section_label: 'FontAwesome ikoonid'
+        source_cdn: CDN
+        source_kit: 'FontAwesome komplekt'
+        source_label: 'Ikooni allikas'
+        source_local: 'Kohalik (kaasatud)'
+      maintenance:
+        bisect_modal:
+          issue_question: 'Kas see probleem on veel alles?'
+          no_button: Ei
+          yes_button: Jah
+        config_override:
+          label: 'Sinu fail <code>config.php</code> kirjutab need seaded üle.'
+        options:
+          none: 'Pole hooldamisel.'
+        section_label: Hooldamine
+      pgsql:
+        search_configuration: 'Otsi seadistus, mida kasutada'
+      queue:
+        memory_label: 'Mälu limiit (MB)'
+        rest_label: 'Puhkamise aeg (sekundites)'
+        section_label: Järjekord
+        timeout_label: 'Töö aegumine (sekundites)'
+      search:
+        driver_heading: 'Otsi draiverit: {model}'
+        driver_options:
+          default: 'Vaikimisi andmebaasi otsing'
+        section_label: 'Otsi draivereid'
+      title: Edasijõudnutele
     announcements:
       about: 'Viimased uudised ja teadaanded ametlikust Flarumi kogukonnast aadressil discuss.flarum.org.'
       comments_label: '{count, plural, one {# kommentaar} other {# kommentaari}}'
@@ -18,6 +56,12 @@ core:
       title: Teadaanded
       view_all: 'Vaata kõiki lehel discuss.flarum.org'
     appearance:
+      color_scheme_label: 'Värviskeem (vaikeväärtus)'
+      color_schemes:
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Värviline päis'
       colors_heading: Värvid
       colors_primary_label: Põhivärv
@@ -34,11 +78,14 @@ core:
       edit_css_button: 'Kohandatud CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
+      email_logo_heading: 'E-posti logo'
       enter_hex_message: 'Sisesta kuueteistkümnendsüsteemis värvikood.'
       favicon_heading: Väikeikoon
       favicon_text: 'Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.'
+      logo_dark_mode_heading: 'Tumeda režiimi logo'
       logo_heading: Logo
       logo_text: 'Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.'
+      show_theme_selector_label: 'Näita teema valijat'
       title: Välimus
     basics:
       abandoned_extensions_heading: 'Hüljatud lisaprogrammid'
@@ -48,17 +95,27 @@ core:
       abandoned_extensions_sync_success: 'Hüljatud lisaprogrammide nimekirja on uuendatud. Leiti {count} lisaprogramm(i).'
       abandoned_extensions_text: 'Flarumi kogukond haldab nimekirja <a>hüljatud lisaprogrammidest</a>. Kui sinu saidil olev lisaprogramm esineb selles nimekirjas, siis antakse sellest adminiliideses märku.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Kasutaja avatar'
+      avatar_driver_options:
+        default: Vaikeväärtus
       default_language_heading: 'Vaikimisi keel'
       description: 'Määra oma foorumi pealkiri, keel ja teised põhiseaded.'
+      display_name_driver_options:
+        username: Kasutajanimi
       display_name_heading: 'Kasutaja kuvatav nimi'
       display_name_text: 'Vali, kuidas näidatakse kasutajate nimesid. Vaikimisi näidatakse kasutajanime.'
       forum_description_heading: 'Foorumi kirjeldus'
-      forum_description_text: 'Sisesta lühike lause või kaks, mis kirjeldab sinu kasutajaskonda. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.'
+      forum_description_text: 'Sisesta lühike lause või kaks, mis kirjeldab sinu foorumit. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.'
       forum_title_heading: 'Foorumi pealkiri'
       home_page_heading: Koduleht
       home_page_text: 'Vali leht, mida näidatakse foorumi külastajatele avalehena.'
       show_language_selector_label: 'Näita keelevalikut'
       slug_driver_heading: 'Slug draiver: {model}'
+      slug_driver_options:
+        users:
+          default: Kasutajanimi
+          id: ID
+          id_with_display_name: 'ID näidatava nimega'
       slug_driver_text: 'Vali draiver, mida kasutatakse selle mudeli sluggimiseks.'
       title: Põhiseaded
       welcome_banner_heading: Tervitusloosung
@@ -74,6 +131,10 @@ core:
       username_placeholder: Kasutajanimi
     dashboard:
       clear_cache_button: 'Puhasta vahemälu'
+      clear_cache_modal:
+        reload_button: 'Laadi uuesti'
+        title: 'Tühjenda vahemälu'
+        took: '{time}ms'
       description: 'Foorumi ülevaade.'
       info_button: 'Süsteemi info'
       info_modal:
@@ -82,6 +143,7 @@ core:
         copy_success: 'Süsteemi info on kopeeritud lõikelauale'
         title: 'Süsteemi info'
       io_error_message: 'Failisüsteemi kirjutamine ebaõnnestus. Kontrollige oma failisüsteemi õiguseid ja proovige uuesti. Või proovige jooksutada käsurealt.'
+      queue_paused_manage: Haldamine
       status:
         headers:
           queue-driver: 'Järjekorra draiver'
@@ -93,6 +155,10 @@ core:
           never-run: 'Ära käivita kunagi'
       title: Juhtpaneel
       tools_button: Tööriistad
+    database-driver-mismatch-warning:
+      label: 'Andmebaasi draiver ei kattu'
+    database-version-warning:
+      below-recommended-label: 'Andmebaasi versioon on aegunud'
     debug-warning:
       detail: "Kui <code>silumisrežiim</code> on aktiivne, siis Flarum taasloob <code>Javascripti</code> ja <code>CSS</code> failid igal päringul ning võib potensiaalselt lekkida muud tundlikku informatsiooni - nagu näiteks salastatud andmed andmebaasis, keskkonnamuutujad jne.\n\nRangelt soovituslik on toodangukeskkonnas <code>silumisrežiim</code> välja lülitada <code>config.php</code> konfiguratsioonifailist. Lisainformatsiooni leiab <link>Flarumi dokumentatsioonist</link>.\n"
       label: 'Silumisrežiim on aktiivne'
@@ -125,6 +191,10 @@ core:
       description: 'Määra foorumi meilisaatmise seaded.'
       driver_heading: 'Vali draiver'
       driver_label: Draiver
+      format:
+        html_option: HTML
+        plain_option: Lihttekst
+      format_heading: 'Väljuvate e-kirjade vorming'
       from_label: Saatja
       mail_encryption_label: Krüpteering
       mail_host_label: Server
@@ -133,9 +203,13 @@ core:
       mail_mailgun_secret_label: Salavõti
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_postmark_token_label: 'Serveri kontrollkood'
+      mail_smtp_verify_peer_label: 'Kinnita SSL sertifikaat'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun seaded'
       not_sending_message: 'Hetkel Flarum e-posti ei saada. See võib olla tingitud valitud draiverist või selle valedest seadetest.'
+      postmark_description: 'Saada e-kirjad Postmarki HTTP API kaudu. Soovi korral võid määrata nitte-vaikimisi sõnumite voogu.'
+      postmark_heading: 'Poastmarki seaded'
       send_test_mail_button: Saada
       send_test_mail_heading: 'Saada proovimeil'
       send_test_mail_success: 'Proovimeili saatmine õnnestus!'
@@ -168,6 +242,26 @@ core:
         no_readme: 'Sellel laiendusel ei paista LOE MIND faili olevat'
         title: '{extName} dokumentatsioon'
       replaced: Asendatud
+      reset_settings:
+        button: 'Nulli seaded'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Asendust pole saadaval'
+      abandoned_with_replacement: 'Asendus {replacement}'
+      all_healthy: 'Kõik lisaprogrammid on terved.'
+      section_abandoned_empty: 'Probleeme ei leitud.'
+      section_abandoned_heading: 'Vajab tähelepanu'
+      section_disabled_empty: 'Kõik lisaprogrammid on sisse lülitatud.'
+      section_suggested_empty: 'Soovitusi pole.'
+      section_suggested_heading: Soovitatud
+      title: 'Lisaprogrammi tervis'
+    failed_jobs:
+      delete: Kustuta
+      details: Üksikasjad
+      meta: 'Järjekord {queue} · ebaõnnestus {time}'
+      none: 'Ebaõnnestunud töid pole.'
+      retry: 'Proovi uuesti'
+      retry_all: 'Proovi kõiki uuesti'
+      title: 'Ebaõnnestunud tööd'
     header:
       get_help: Abi
       log_out_button: '=> core.ref.log_out'
@@ -241,6 +335,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Suletud
       signup_open_button: Avatud
+    queue_widget:
+      failed: Ebaõnnestus
+      pending: Ootel
+      refresh: Värskenda
+      reserved: Töös
+      title: Järjekord
     settings:
       saved_message: 'Sinu muudatused salvestati.'
       submit_button: '=> core.ref.save_changes'
