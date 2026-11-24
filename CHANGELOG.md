@@ -5,6 +5,11 @@ CHANGELOG
 2.0.5 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations (76 added, 1 changed).
+
+
 **Added support for new extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (2% complete)
@@ -86,7 +91,8 @@ CHANGELOG
 * [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) (6% complete)
 * [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (0% complete)
 * [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
-* [`flarum/messages`](https://github.com/flarum/messages) (1% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (51% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (0% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (0% complete)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval) (28% complete)
@@ -145,10 +151,10 @@ CHANGELOG
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (1 added, 20% complete)
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on) (1 added, 12% complete)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (1 added, 1% complete)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 82% complete)
-* [`flarum/gdpr`](https://github.com/flarum/gdpr) (2 added, 81% complete)
-* [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 added, 95% complete)
-* [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 53% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 16% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (2 added, 75% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (1 added, 79% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 42% complete)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (3 added, 85% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 1 changed, 29% complete)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) (1 added, 33% complete)
