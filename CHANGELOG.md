@@ -13,6 +13,8 @@ CHANGELOG
 * [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (0% complete)
 * [`cengizkemec/flarum-social`](https://github.com/cengizkemec/flarum-social) (0% complete)
 * [`cengizkemec/support-tickets`](https://github.com/cengizkemec/flarum-support-tickets) (0% complete)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
 * [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager) (0% complete)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai) (4% complete)
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) (3% complete)
