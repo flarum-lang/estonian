@@ -6,3 +6,64 @@ fof-translate:
   admin:
     detection:
       cancel_button: Loobu
+    permissions:
+      translate_label: 'Tõlgi sisu'
+    settings:
+      claude:
+        effort_options:
+          high: Kõrge
+          low: Madal
+          medium: Keskmine
+        model_label: Mudel
+      deepl:
+        en_choice_label: 'Inglisekeelne variant'
+        formality_label: Formaaldud
+        formality_options:
+          default: Vaikimisi
+          prefer_less: 'Eelista mitteametlikku'
+          prefer_more: 'Eelista ametlikku'
+        glossaries_reload_button: 'Laadi uuesti'
+        glossaries_retry_button: 'Proovi uuesti'
+        glossary_none_option: 'Sõnastikku pole'
+        glossary_pair_label: '{source} → {target}'
+        model_type_label: 'Mudeli liik'
+        model_type_options:
+          latency_optimized: Kiirem
+          prefer_quality_optimized: 'Kõrgem kvaliteet'
+        pt_choice_label: 'Portugali variant'
+      driver_none_option: Pole
+      glossary:
+        add_button: 'Lisa termin'
+      ollama:
+        think_options:
+          high: Kõrge
+          low: Madal
+          medium: Keskmine
+          'off': Väljas
+      openai:
+        api_key_label: 'API võti'
+        model_label: Mudel
+      post_translation_display_options:
+        below: 'Originaali all'
+        replace: 'Asenda originaal'
+      timeout_label: Aegumine
+    test:
+      button: 'Testi tõlget'
+      failed_unknown_text: 'Test ebaõnnestus.'
+      source_label: Näidis
+  forum:
+    poll:
+      show_original_button: 'Näita algset'
+    translate_button:
+      label: Tõlgi
+    translation:
+      close_button: 'Sulge tõlge'
+      refresh_button: 'Värskenda tõlge'
+      show_original_button: 'Näita algset'
+      status_text: Tõlgitud
+  lib:
+    drivers:
+      deepl: DeepL
+      google: 'Google Translate'
+      ollama: Ollama
+      openai: OpenAI

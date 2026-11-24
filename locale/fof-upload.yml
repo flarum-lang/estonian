@@ -38,16 +38,18 @@ fof-upload:
     labels:
       aws-s3:
         acl: 'Ligipääsuõigused (ACL)'
-        advanced_title: 'S3 säilituskoha lisaseaded'
+        advanced_title: Lisavalikud
         bucket: Korv
-        custom_url: 'Kohandatud S3 URL'
+        custom_url: 'Avalik URL'
         endpoint: Lõpp-punkt
-        key: Võti
+        key: 'Ligipääsuvõtme ID'
+        provider: Teenusepakkuja
         region: Regioon
         secret: Salasõna
-        title: 'AWS S3 salvestamise seaded'
-        use_path_style_endpoint: 'Kasuta asukoha-stiilis lõpp-punkti'
+        title: 'S3 salvestusruum'
+        use_path_style_endpoint: 'Kasuta asukoha-stiilis linke'
       client_extension:
+        placeholder: 'nt. docx, xlsx, epub'
         title: 'Kasutaja lisatud failide laiendid'
       composer_buttons:
         options:
@@ -70,9 +72,26 @@ fof-upload:
       local:
         cdn_url: 'Sisu jagamise URL-id (eesliidesega failid)'
         title: 'Kohalike failide salvestamise seaded'
+      mime_presets:
+        archives: 'Pakitud failid (zip, tar, 7z)'
+        audio: Heli
+        documents: 'Wordi dokimendid'
+        images: Pildid
+        pdf: 'PDF dokumendid'
+        spreadsheets: Arvutustabelid
+        title: 'Üldised eelistused'
+        video: Video
       preferences:
-        max_file_size: 'Maksimaalne failisuurus (kilobaitides)'
-        mime_types: 'Seadista oma failitüüpi, üleslaadimise tüübi kaardistamine'
+        max_file_size: 'Maksimaalne failisuurus'
+        mime_add_custom: 'Kohandatud muster…'
+        mime_column_display: 'Näidatakse kui'
+        mime_column_display_help: 'Kuidas seda postituses näidatakse. Eelvaatena, allalaadimise nupuna jne.'
+        mime_column_pattern: Failitüüp
+        mime_type_add: 'Lisa see failitüüp'
+        mime_type_permission_placeholder: 'Valikuline, nt. pildid'
+        mime_type_regex_placeholder: 'nt. ^pilt/(jpeg|png|gif)$'
+        mime_type_remove: 'Eemalda see failitüüp'
+        mime_types: Failitüübid
         php_ini_values: 'Sinu <code>php.ini</code> väärtused on <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Veendu, et siin määratud suurused oleksid väiksemad, kui need suurused või siis kohanda neid seadeid vastavalt oma vajadustele. Kui kasutad <code>Nginx</code>-i, siis veendu, et seade <code>client_max_body_size</code> suurus oleks sinu maksimaalse suurusega kooskõlas ja sinu vajadustele vastav.'
         title: 'Üldised eelistused'
       qiniu:
@@ -89,8 +108,12 @@ fof-upload:
         allow_animate_help: 'SVG animatsioonide sisselülitamine võib lisada turvariske, kuna SVG-s võib olla ohtlikku koodi. Lülita see funktsioon sisse ainult siis, kui usaldada oma kasutajaid.'
         help: 'Seadista, kuidas SVG faile üleslaadimisel töödeldakse ja puhastatakse. SVG failid võivad sisaldada potentsiaalselt ohtlikke skripte ja seetõttu tuleks neisse ettevaatusega suhtuda. Üleslaetud SVG-d puhastatakse üleslaadimisel ja ohtlikud skriptid ja sildid eemaldatakse.'
         title: 'SVG puhastaja'
+      thumbnails:
+        quality: 'Pisipildi kvaliteet'
+        title: Pisipildid
       watermark:
         file: 'Laadi vesipilt üles'
+        opacity: 'Vesipildi läbipaistmatus (0-100)'
         position: 'Vesipildi asukoht'
         title: 'Lisa vesipilt'
         toggle: 'Lisa vesipilt'
@@ -101,9 +124,10 @@ fof-upload:
       title: 'Laadi üles'
     permissions:
       access_shared_label: 'Ligipääs jagatud failidele failihalduris'
-      delete_uploads_of_others_label: 'Kustuta kasutajate üleslaadimised'
+      delete_own_uploads_label: 'Omaenda üleslaadimiste kustutamine'
+      delete_uploads_of_others_label: 'Peida ja kustuta kasutajate üleslaadimised'
       download_label: 'Laadi failid alla'
-      upload_shared_label: 'Jagatud failide üleslaadimine'
+      upload_shared_label: 'Jagatud failide üleslaadimine, peitmine ja kustutamine'
       view_user_uploads_label: 'Kasutaja üleslaadimiste vaatamine'
     shared-uploads:
       description: 'Laadib üles failid, mida saavad kasutada kõik sinu foorumi kasutajad.'
@@ -111,6 +135,11 @@ fof-upload:
       no-files: 'Ühtegi jagatud faili pole veel üles laaditud.'
       title: 'Jagatud üleslaadimised'
       upload-new-button: 'Laadi üles uus fail'
+    tabs:
+      advanced: Lisavalikud
+      files: Failid
+      images: Pildid
+      unsaved_hint: 'Mõned muudatused on salvestamata.'
     templates:
       bbcode-image: 'BB-koodi pildi mall'
       bbcode-image_description: "Näitab täissuuruses faili kasutades BB-koodi. <strong>Selle töötamiseks peab sul olema paigaldatud ja sisse lülitatud lisaprogramm flarum/bbcode.</strong> Allalaadimise võimalust pole, statistikat ei koguta ja otsese linkimise kaitset pole.\n"
@@ -139,6 +168,7 @@ fof-upload:
       forbidden_type: 'Seda tüüpi failide üleslaadimine pole lubatud.'
       max_upload_file_size_form: 'Maksimaalne failisuuruse limiit.'
       max_upload_file_size_ini: 'Üleslaetava faili maksimaalne suurus on php.ini-s ületatud.'
+      mime_permission_denied: 'Sul pole õigusi seda tüüpi pildi üleslaadimiseks.'
       no_file_uploaded: 'Ühtegi faili ei laaditud üles.'
       no_files_made_it_to_upload: 'Palun laadi faile, mis pole suuremad kui {max}kb.'
       no_upload_tmp_folder: 'Failide üleslaadimiseks pole ajutiste failide kausta.'
@@ -154,13 +184,18 @@ fof-upload:
       upload: 'Laadi üles'
       upload_shared: Jagatud
       user_uploads: 'Kasutaja üleslaadimised'
+    display_name:
+      insert: Sisesta
+      use_file_name: 'Kasuta failinimesid'
     media_manager: Failihaldur
     states:
       error: Viga
       loading: Üleslaadimine
-      unauthorized: 'Sul pole lubatud faile alla laadida'
+      permission_required: 'Ligipääs on vajalik'
+      unauthorized: 'Sul pole lubatud seda faili alla laadida'
     text_preview:
       collapse: 'Sulge eelvaade'
+      download: 'Laadi fail alla'
       error: "Viga faili eelvaate loomisel. See võib olla kustutatud või faili ID on vigane.\n"
       expand: 'Laienda eelvaateid'
       no_snippet: '<eelvaate vidinat pole saadaval>'
@@ -193,6 +228,7 @@ fof-upload:
         show_confirmation: 'Oled sa kindel, et soovid teha faili "{fileName}" avalikuks? Faili avalikuks tegemine, teeb selle nähtavaks kõigile, kellel on ligipääs avalikult lingile ja kõik saavad seda failihalduriga jagada.'
         show_fail: 'Faili "{fileName}" avalikuks tegemine ebaõnnestus'
         show_success: 'Fail tehti avalikuks'
+      load_error: 'Faili laadimine ebaõnnestus. Palun proovi uuesti.'
       load_more_files_btn: 'Laadi rohkem faile'
       loading: 'Failide laadimine...'
       modal_empty_desktop: 'Sinu fail on tühi. Kliki nupule või lohista üleslaaditav fail siia.'

@@ -2,19 +2,30 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-mentions/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        groupMentioned: 'Sinu grupi mainimine'
+        postMentioned: 'Vastused sinu postitustele'
+        userMentioned: 'Sinu mainimine'
 flarum-mentions:
   admin:
     permissions:
       mention_groups_label: 'Maini gruppe'
     sections:
       format:
-        description: 'Mis süntaksi'
+        description: 'Mis süntaksi saab kasutada teiste isikute mainimiseks.'
         label: 'Mainimise vorming'
     settings:
       allow_username_format_label: 'Luba kasutajanimele viitamise formaat (@kasutajanimi)'
       allow_username_format_text: "Hetkel on kasutajanimele viitamise formaadiks @\"kuvatav nimi\"#ID.\nLubatud on kasutada ka vana formaati @kasutajanimi, kuid salvestamisel teisendatakse see ikkagi uude formaati.\n"
   email:
     group_mentioned:
+      html:
+        body: '{mentioner_display_name} mainis vestluses [{title}]({url}) gruppi, mille liige sa oled.'
+      plain:
+        body: "{mentioner_display_name} mainis vestluses {title} gruppi, mille liige sa oled.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} mainis gruppi, mille liige sa oled vestluses {title}'
     post_mentioned:
       html:
@@ -23,6 +34,8 @@ flarum-mentions:
         body: "{replier_display_name} vastas sinu postitusele (#{post_number}) vestluses {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} vastas sinu postitusele vestluses {title}'
     user_mentioned:
+      html:
+        body: '{mentioner_display_name} mainis sind postituses [{title}]({url}).'
       plain:
         body: "{mentioner_display_name} mainis sind postituses {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} mainis sind vestluses {title}'
@@ -57,3 +70,9 @@ flarum-mentions:
       notify_user_mentioned_label: 'Keegi mainib mind oma postituses'
     user:
       mentions_link: Mainimised
+  lib:
+    gambits:
+      posts:
+        mentioned:
+          hint: 'Mainitud kasutaja ID või kasutajanimi'
+          key: mainitud
