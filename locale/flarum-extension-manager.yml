@@ -8,24 +8,37 @@ flarum-extension-manager:
       add_label: 'Uus autentimisviis'
       add_modal:
         host_label: Host
+        secret_placeholder: 'kontrollkood või parool'
         submit_button: Saada
         token_label: Kontrollkood
         type_label: Liik
         unchanged_token_placeholder: (muutmata)
+        username_placeholder: kasutajanimi
       delete_confirmation: 'Oled sa kindel, et soovid seda autentimisviisi kustutada?'
       delete_label: 'Kustuta autentimisviis'
       edit_label: 'Muuda autentimisviisi'
       fields:
         host: Host
+        password: Parool
         token: Kontrollkood
+        username: Kasutajanimi
+      hide: Peida
       no_auth_methods_configured: 'Ühtegi autentimisviisi pole seadistatud. See on valikuline funktsioon edasijõudnutele, mis võimaldab paigaldada privaatsetest hoidlatest.'
       remove_button_label: 'Eemalda autentimisviis'
+      remove_host_label: 'Eemalda {name}'
+      remove_q: 'Eemaldada?'
+      show: Näita
+      submit_button: 'Salvesta kasutajaandmed'
       title: Autentimiseviisid
+      type_help:
+        github-oauth: 'Privaatsed GitHubi hoidlad'
       types:
         bearer: 'HTTP Bearer'
         github-oauth: 'GitHub OAuth'
         gitlab-oauth: 'GitLab OAuth'
         gitlab-token: 'GitLab kontrollkood'
+        http-basic: 'Kasutajanimi ja parool'
+      username_stored: 'kasutajanimi {username}'
     composer:
       add_repository_label: 'Lisa hoidla'
       delete_repository_confirmation: 'Oled sa kindel, et soovid seda hoidlat kustutada? Kõik laiendused, mis on sellest hoidlast paigaldatud eemaldatakse.'
@@ -40,14 +53,25 @@ flarum-extension-manager:
           dev: Arendusversioon
           rc: 'Väljalaske kandidaat'
           stable: 'Stabiilne (soovitatud)'
+        recommended: soovitatud
+        short:
+          stable: 'ainult lõpetatud'
+      remove_repository_label: 'Eemalda {name}'
       repositories:
         add_modal:
           name_label: Nimi
           submit_button: OK
           type_label: Liik
           url: URL
+        duplicate: 'See hoidla on juba loetletud.'
         help: "Lisa hoidlaid, millest lisaprogramme paigaldada. See on funktsioon asjatundjatele. Ära lisa hoidlaid, mis pole usaldusväärsed, kuna selle kaudu võidakse sinu serveris käivitada pahatahtliku koodi.\n"
         label: Hoidlad
+        open: 'Ava uuel vahekaardil'
+        placeholders:
+          composer: 'https://hoidla.sait.com'
+          path: /home/sina/lisaprogramm/sinu-lisaprogramm
+          vcs: 'https://github.com/sina/sinu-lisaprogramm'
+        remove_named: 'Kas eemaldada {name}?'
         types:
           composer: composer
           path: kaust
@@ -63,17 +87,25 @@ flarum-extension-manager:
         extension_not_found: 'Seda lisa ei leitud või seda pole olemas.'
         extensions_incompatible_with_new_major: "Mõned paigaldatud lisaprogrammid pole uusima versiooniga ühilduvad. Oota, kuni arendajad on oma lisaprogramme uuendanud või eemalda need lisaprogrammid enne jätkamist.\n"
     extensions:
+      already_installed: 'See lisaprogramm on juba paigaldatud'
       check_why_it_failed_updating: 'Näita, miks see ei uuenda viimasele versioonile.'
+      disabled: 'välja lülitatud'
+      enabled: 'sisse lülitatud'
       install: 'Paigalda uus laiendus'
       install_help: "Enne jätkamist sisesta lisaprogrammi paketi nimi. Võid sisestada <semantic_link>semantilise versiooni</semantic_link> kasutades vormingut <code>arendaja/paketi nimi:versioon</code>. Lisaprogramme võid vaadata siit: {link}.\n"
+      learn_more: 'Loe lisa'
+      library: 'Composeri pakk'
       proceed: Jätka
       remove: Eemalda
+      remove_files: 'Eemalda failid'
       successful_install: '{extension} paigaldati edukalt, ümbersuunamine..'
       successful_remove: 'Laiendus on eemaldatud.'
       successful_update: '{extension} uuendati, ümbersuunamine...'
       update: Uuenda
       update_hard_label: 'Karm uuendus'
+      update_one: 'Uuenda {name}'
       update_soft_label: 'Pehme uuendus'
+      version_unknown: 'tundmatu versioon'
     file_permissions: "Lisaprogrammide haldur vajab kirjutusõigust järgnevates failides ja kaustades: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     major_updater:
       description: "Peamised Flarumi uuendused pole tagasiühilduvad, mis tähendab, et sinu praegu paigaldatud lisaprogrammid ja käsitsi tehtud muudatused ei pruugi selle uue versiooniga töötada. Palun veendu, et oled teinud varukoopia oma andmebaasist ja failidest enne, kui sa jätkad.\n"
@@ -85,6 +117,32 @@ flarum-extension-manager:
       title: 'Suur Flarumi {version} uuendus on saadaval'
       update: Uuenda
     sections:
+      discover:
+        compat:
+          checking: Kontrollimine…
+          incompatible: 'mitte sellel Flarumi saidil'
+          unknown: 'ei saanud kontrollida'
+        extension:
+          badges:
+            flarum: Flarum
+        loading_more: Laadimine…
+        search: Otsi...
+        search_button: Otsi
+        searching: Otsimine…
+        show_more: 'Näita lisa'
+        sort:
+          top: 'Enim allalaadimisi'
+        tabs:
+          all: Kõik
+          discover: Avasta
+          extensions: Lisaprogrammid
+          label: Näita
+          languages: Keeled
+          themes: Teemad
+          widgets: Vidinad
+        title: Lisaprogrammid
+      installed:
+        title: 'Paigaldatud ({count})'
       queue:
         columns:
           details: Üksikasjad
@@ -93,7 +151,10 @@ flarum-extension-manager:
           package: Pakk
           peak_memory_used: 'Kõrgeim mälukasutus'
           status: Staatus
+        flarum: Flarum
+        new_version: '{version} (uus)'
         none: 'Ühtegi ülesannet pole veel.'
+        nothing: 'Midagi ei muudetud'
         operations:
           extension_install: 'Paigalda laiendus'
           extension_remove: 'Eemalda laiendus'
@@ -109,6 +170,7 @@ flarum-extension-manager:
           guessed_cause: Põhjus
           output: Väljund
         refresh: 'Värskenda ülesannete nimekirja'
+        removed_version: '{version} (eemaldatud)'
         statuses:
           failure: Ebaõnnestus
           pending: Ootel
@@ -125,11 +187,19 @@ flarum-extension-manager:
       title: Seaded
     update_successful: 'Flarum on uuendatud.'
     updater:
+      banner:
+        dismiss: 'Mitte nüüd'
+        open: Vaata
       check_for_updates: 'Kontrolli uuendusi'
+      check_now: 'Kontrolli kohe'
+      checking: Kontrollimine…
+      core:
+        loading: 'Flarumi kontrollimine…'
       flarum: 'Flarumi tuum'
       global_update_successful: 'Kõik paketid on uuendatud.'
       last_update_checked_at: 'Viimane uuenduste kontroll: '
       run_global_update: 'Käivita üldine uuendamine'
+      starting: Alustamine…
       updater_help: 'Otsib Flarumi ja lisaprogrammide uuendusi.'
       updater_title: Uuendused
     why_not_modal:
