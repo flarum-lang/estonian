@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-move-posts/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      posts:
+        moved_to_new_discussion: '{post_count, plural, one {Üks postitus} other {{post_count} postitust}} liigutati vestlusest {discussion} uude vetlusesse {new_discussion}'
 fof-move-posts:
   admin:
     permissions:
@@ -23,3 +28,7 @@ fof-move-posts:
         old_to_new_move: '=> fof-move-posts.ref.status.old_to_new_move'
       submit: Jätka
       title: '=> fof-move-posts.ref.move_posts'
+    post:
+      moving: 'Postituse liigutamine'
+  ref:
+    move_posts: 'Liiguta postitusi'

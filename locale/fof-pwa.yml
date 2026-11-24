@@ -46,6 +46,8 @@ fof-pwa:
       optin_enable_button: 'Lülita sisse'
     discussion_controls:
       share_button: Jaga
+    notifications_help:
+      safari_mac_title: 'Apple Safari (macOS)'
     post_controls:
       share_button: Jaga
     settings:
