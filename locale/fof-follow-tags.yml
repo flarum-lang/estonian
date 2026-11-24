@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-follow-tags/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        newDiscussionInTag: 'Sildi all, mida jälgid, on uus vestlus'
 flarum-gdpr:
   lib:
     data:
@@ -14,6 +19,10 @@ fof-follow-tags:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Jälgimise lehekülje vaikimisi filtreerimine'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_tag_ids_label: 'Sildid, mis on pakkumisel'
+      prompt_tag_strategy_options:
+        all: 'Kõik sildid'
+        list: 'All valitud sildid'
   forum:
     badge:
       following_tag_tooltip: Jälgimine
@@ -30,6 +39,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} muutis silti'
       new_discussion_text: '{username} alustas'
       new_post_text: '{username} postitas'
+    prompt:
+      choose_button: 'Vali sildid, mida jälgida'
+      continue_button: 'Edasi foorumisse'
+      later_button: 'Tuleta mulle hiljem meelde'
+      modal_title: 'Vali sildid, mida jälgida'
     settings:
       notify_new_discussion_label: 'Keegi loob vestluse sildiga, mida ma jälgin'
       notify_new_discussion_tag_label: 'Keegi muudab vestluse sildi sildiks, mida ma jälgin'

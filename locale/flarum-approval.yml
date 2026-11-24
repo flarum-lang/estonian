@@ -17,3 +17,10 @@ flarum-approval:
       approve_button: Kinnita
   ref:
     awaiting_approval: 'Kinnituse ootel'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: 'Vestlus {discussion} kiideti heaks'
+      post:
+        approved: 'Kiitis heaks kasutaja {postuser} postituse {post} vestluses {discussion}'

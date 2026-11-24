@@ -3,6 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-emoji:
+  admin:
+    sections:
+      images:
+        description: 'Kust postituses ja redaktoris näidatavaid emoji pilte laaditakse.'
+        label: 'Emoji pildid'
+    settings:
+      cdn_help: 'nt. https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/, Praegune versioon on: {version}'
+      cdn_label: 'CDN peegli aadress'
   forum:
     composer:
       emoji_tooltip: 'Lisa emotikon'

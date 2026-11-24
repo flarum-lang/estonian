@@ -23,7 +23,9 @@ flarum-statistics:
       last_7_days_label: 'Viimane nädal'
       loading: Laadimine
       mini_heading: 'Foorumi statistika'
+      new_during_label: 'Uus kuni'
       no_data: 'Selle vahemiku jaoks pole andmeid saadaval.'
+      period_toggle_accessible_label: 'Vali uute kirjete periood'
       posts_heading: '=> core.ref.posts'
       previous_28_days_label: 'Viimased 28 päeva'
       previous_7_days_label: 'Viimased 7 päeva'

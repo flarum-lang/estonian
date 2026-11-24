@@ -2,16 +2,31 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-tags/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      tag:
+        created: 'Lisati silt {tag}'
+        deleted: 'Kustutati silt {tag}'
+        updated: 'Uuendati silti {tag}'
 flarum-tags:
   admin:
     basics:
+      slug_driver_options:
+        default: Vaikimisi
+        id_with_slug: 'ID lühinimega'
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'
+      default_sort_label: 'Vaikimisi sorteerimine'
+      default_sort_none: 'Kasuta foorumi vaikeväärtust'
+      default_sort_unavailable: '{sort} (pole enam saadaval)'
       delete_tag_button: 'Kustuta silt'
       delete_tag_confirmation: 'Oled kindel, et soovid seda silti kustutada? Selle sildiga vestlusi ei kustutata.'
       description_label: Kirjeldus
       hide_label: 'Peida kõiki vestluste nimekirjast'
+      icon_image_label: '=> core.ref.icon_image'
+      icon_image_text: '=> core.ref.icon_image_text'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: '=> flarum-tags.ref.name'
@@ -27,8 +42,14 @@ flarum-tags:
       bypass_tag_counts_label: 'Sildinõuete eiramine'
       restrict_by_tag_heading: 'Lisa sildipiirang'
       tag_discussions_label: 'Vestluste sildistamine'
+    sections:
+      requirements:
+        label: 'Sildi nõuded'
     settings:
       button_text: 'Vali sildid'
+    tabs:
+      settings: '=> flarum-tags.admin.tags.settings_heading'
+      tags: '=> flarum-tags.ref.tags'
     tag_settings:
       range_separator_text: ' kuni '
       required_primary_heading: 'Lubatud põhisiltide arv'
@@ -53,6 +74,10 @@ flarum-tags:
       title: 'Vali oma vestluse jaoks sildid'
     composer_discussion:
       choose_tags_link: 'Vali sildid'
+    deck:
+      column_label: Silt
+      tag_label: Silt
+      tag_placeholder: 'Otsi silti'
     discussion_controls:
       edit_tags_button: 'Muuda silte'
     header:
@@ -70,6 +95,10 @@ flarum-tags:
       meta_description_text: 'Kõik vestlused sildiga {tag}'
   lib:
     deleted_tag_text: Kustutatud
+    gambits:
+      discussions:
+        tag:
+          key: silt
     tag_selection_modal:
       bypass_requirements: 'Sildi mitte kasutamise nõuded'
       choose_primary_placeholder: '{count, plural, one {Vali peamine silt} other {Vali # peamist silti}}'

@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-lock/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        locked: 'Vestlus {discussion} lukustati'
+        unlocked: 'Vestluse {discussion} lukustus eemaldati'
 flarum-lock:
   admin:
     permissions:
@@ -19,3 +25,8 @@ flarum-lock:
       discussion_unlocked_text: '{username} avas vestluse, {time}.'
     settings:
       notify_discussion_locked_label: 'Keegi lukustab minu algatatud vestluse'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: lukustatud

@@ -29,6 +29,9 @@ fof-oauth:
           app_id_label: '=> fof-oauth.ref.settings.app_id'
           app_secret_label: '=> fof-oauth.ref.settings.app_secret'
           description: 'Loo rakendus lingil {link}.'
+        flarum:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
         github:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -55,13 +58,18 @@ fof-oauth:
       update_email_from_provider_label: 'Kasuta teenusepakkuja E-posti aadressi'
     settings_accessibility_label: '{name} seaded'
   forum:
+    account_linked:
+      dismiss_button: Selge
+      title: 'Seotud konto'
     error:
+      already_linked: 'Konto on juba seotud teise kasutajaga.'
       bad_verification_code: 'Vigane või aegunud kinnituskood. Palun proovi uuesti.'
       invalid_state: 'Vigane staatus. Palun proovi uuesti.'
     log_in:
       with_button: 'Logi sisse teenusega {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
+      with_flarum_button: '=> fof-oauth.forum.log_in.with_button'
       with_github_button: '=> fof-oauth.forum.log_in.with_button'
       with_gitlab_button: '=> fof-oauth.forum.log_in.with_button'
       with_google_button: '=> fof-oauth.forum.log_in.with_button'
@@ -70,6 +78,7 @@ fof-oauth:
     providers:
       discord: '=> fof-oauth.lib.providers.discord'
       facebook: '=> fof-oauth.lib.providers.facebook'
+      flarum: '=> fof-oauth.lib.providers.flarum'
       github: '=> fof-oauth.lib.providers.github'
       gitlab: '=> fof-oauth.lib.providers.gitlab'
       google: '=> fof-oauth.lib.providers.google'
@@ -90,9 +99,14 @@ fof-oauth:
           orphaned-account: 'Oled varasemalt selle teenusepakkuja kaudu küll sisse loginud, aga nüüd on selle teenusepakkuja kasutamine välja lülitatud.'
           unlink-confirm: 'Oled sa kindel, et soovid eemaldada seose teenusepakkujaga {provider}? Pärast seda ei saa sa enam siia foorumisse sisse logida kui sa just ei autendi enam uuesti selle teenusepakkujaga.'
   lib:
+    gambits:
+      sso:
+        hint: 'sisselogimise teenusepakkuja'
+        key: sso
     providers:
       discord: Discord
       facebook: Facebook
+      flarum: Flarum
       github: GitHub
       gitlab: GitLab
       google: Google
