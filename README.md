@@ -53,6 +53,7 @@ php flarum cache:clear
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-approval/et/) |
 | [`flarum/audit`](https://github.com/flarum/audit) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-audit/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-audit/et/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-bbcode/et/) |
+| [`flarum/deck`](https://github.com/flarum/deck) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-deck/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-deck/et/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-emoji/et/) |
 | [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-extension-manager/et/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Tõlke staatus](https://weblate.rob006.net/widgets/flarum2/et/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-flags/et/) |
