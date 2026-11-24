@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Märgitud avaleheks'
     index_sort:
       front_button: Avaleht
+    post_controls:
+      pull_from_front_button: 'Eemalda avalehelt'
+      push_to_front_button: 'Lisa avalehele'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Võib lisada avalehele'
+  lib:
+    gambits:
+      frontpage:
+        key: avaleht

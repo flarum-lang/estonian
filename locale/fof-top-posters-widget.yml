@@ -8,4 +8,9 @@ fof-top-posters-widget:
       info: 'Valitud grupi kasutajad jäetakse vidina tulemustest välja.'
   forum:
     widget:
+      load_error: 'Aktiivseimate postitajate laadimine ebaõnnestus.'
       title: 'Aktiivseimad postitajas sel kuul'
+  lib:
+    gambits:
+      top_poster:
+        key: aktiivne_postitaja

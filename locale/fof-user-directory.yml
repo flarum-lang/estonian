@@ -43,5 +43,7 @@ fof-user-directory:
       newest: Uusimad
       not_specified: 'Kasuta Flarumi vaikeväärtust'
       oldest: Vanimad
+      seen_oldest: 'Kõige kauem eemal'
+      seen_recent: 'Hiljuti saidil'
       username_az: 'Kasutajanimi (a-z)'
       username_za: 'Kasutajanimi (z-a)'

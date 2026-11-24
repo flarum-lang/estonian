@@ -2,18 +2,30 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-impersonate/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        impersonated: 'Kehastatud kasutaja {username}'
+        impersonation_ended: 'Tagasi kasutajana {username}'
 fof-impersonate:
   admin:
     permissions:
       login: 'Logi sisse kui teine kasutaja'
     settings:
-      no_settings_available: 'Seadeid pole praegu saadaval Proovi paigaldada lisaprogramm fof/moderator-notes'
+      no_settings_available: 'Seadeid pole praegu saadaval Proovi paigaldada lisaprogramm fof/moderator-notes või flarum/audit'
       require_reason: 'Nõua enne teise kasutaja kehastamist põhjuse sisestamist.'
+      require_reason_help: 'Põhjus salvestatakse auditi logisse (flarum/audit) ja/või kui moderaatori märkmetena mõlemale kontole (fof/moderator-notes), kumbiganes lisaprogrammidest on sisse lülitatud.'
       title: 'Kasutaja kehastamine'
+  forum:
+    notice:
+      message: 'Kehastad hetkel kasutajat {username}.'
+    return:
+      button: 'Tagasi kasutajale {username}'
   lib:
     modal:
       impersonate_username: 'Logi sisse kui {username}'
-      label: 'Suure võimuga tuleb ka suur vastutus. Jätkates oled sa kasutaja {username} kuni sa välja logid.'
+      label: 'Suure võimuga tuleb ka suur vastutus. Jätkates oled sa kasutaja {username} kuni sa tagasi lülitud.'
       placeholder_optional: '(valikuline) Sisesta põhjus, miks sa lülitud sellele kasutajakontole'
       placeholder_required: 'Enne jätkamist pead sisestama põhjuse, miks sa lülitud sellele kasutajakontole'
       title: 'Logi sisse kui teine kasutaja'

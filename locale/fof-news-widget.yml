@@ -8,3 +8,4 @@ fof-news-widget:
       add_line: 'Lisa uusi ridasid'
       html_warning: 'Ole ettevaatlik, kogu HTML renderdatakse.'
       lines: 'Uued read'
+      remove_line: 'Eemalda rida'

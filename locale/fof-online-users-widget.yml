@@ -13,4 +13,5 @@ fof-online-users-widget:
   forum:
     widget:
       empty: 'Ükski kasutaja pole praegu saidil.'
+      more: '{count, plural, one {# kasutaja veel saidil} other {# kasutajat veel saidil}}'
       title: 'Kasutajad saidil'

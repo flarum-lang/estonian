@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'Kustuta kõik kasutaja poolt loodud mustandid.'
         export_description: 'Kõik kasutaja poolt loodud mustandid.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Lülita mustandi automaatne salvestamine vaikimisi sisse'
+      draftAutosaveInterval: 'Automaatse salvestamise vaikimisi intervall (sekundites)'
 fof-drafts:
   admin:
     permissions:
@@ -18,7 +23,10 @@ fof-drafts:
       schedule_log_output: 'Lisa ajastaja väljund logifaili'
       schedule_on_one_server: 'Kasuta ajastuse jaoks ''onOneServer()'' juhendit (nõuab Redis/Memcache kasutamist)'
       title: 'FoF Mustandid'
+  api:
+    empty_draft_message: 'Sellesse mustandisse pole veel midagi salvestada.'
   console:
+    no_title_error: 'Mustand jäeti vahele: vestluse pealkiri puudub.'
     scheduled_drafts_disabled: 'Ajastatud mustandite kasutamine on seadetest välja lülitatud.'
   forum:
     composer:
@@ -39,6 +47,7 @@ fof-drafts:
       title: Mustandid
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Enne ajastamist on vaja lisada vestluse pealkiri.'
       reschedule_button: 'Muuda aega'
       schedule_button: Ajasta
       schedule_time_preview: 'See mustand avaldatakse automaatselt <b>{datetime}</b>.'
@@ -52,10 +61,11 @@ fof-drafts:
       unschedule_warning: 'Oled sa kindel, et soovid sellelt mustandilt ajastuse eemaldada?'
     user:
       settings:
-        draft_autosave_enable: 'Luba mustandi automaatne salvestamine?'
+        draft_autosave_enable: 'Mustandi automaatne salvestamine'
         draft_autosave_interval_button: 'Uuendamise intervall'
         draft_autosave_interval_invalid: 'Intervall peab olema täisarv, mis on suurem kui 4.'
         draft_autosave_interval_label: 'Automaatse salvestamise intervall (sekundites)'
+        draft_autosave_interval_saved_message: 'Automaatse salvestamise intervalli uuendati.'
         drafts_heading: Mustandid
   ref:
     schedule_draft: 'Ajasta mustand'

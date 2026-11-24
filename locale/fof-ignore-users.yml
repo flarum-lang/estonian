@@ -10,6 +10,10 @@ fof-ignore-users:
     badge:
       discussion_label: 'Alustatud ignoreeritud kasutaja poolt'
       user_label: 'Ignoreeritud kasutaja'
+    messages:
+      cannot_send_text: 'Sa ei saa sellesse vestlusesse postitada.'
+    post:
+      toggle_label: 'Näita või peida ignoreeritud kasutajate postitusi'
     profile_link: 'Ignoreeritud kasutajad'
     profile_page:
       no_ignored: 'Tundub, et sa ei ignoreeri praegu kedagi.'

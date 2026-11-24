@@ -23,11 +23,27 @@ fof-pwa:
       maintenance:
         heading: Hooldamine
       other:
+        display_options:
+          browser: Sirvija
+          fullscreen: Täisekraan
+          minimal_ui: 'Minimaalne kasutajaliides'
         heading: Muu
+        orientation_label: Suund
+        orientation_options:
+          landscape: Pikali
+          landscape_primary: 'Pikali (peamine)'
+          landscape_secondary: 'Pikali (teisejärguline)'
+          portrait: Püstine
+          portrait_primary: 'Püstine (peamine)'
+          portrait_secondary: 'Püstine (teisejärguline)'
         share_buttons_label: 'Luba jagamise nupu'
       status_check_heading: 'Oleku kontroll'
       submit_button: 'Salvesta seaded'
+    status:
+      success: 'Potensiaalseid probleeme ei leitud!'
   forum:
+    alerts:
+      optin_enable_button: 'Lülita sisse'
     discussion_controls:
       share_button: Jaga
     post_controls:

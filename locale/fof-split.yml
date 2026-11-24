@@ -6,6 +6,9 @@ fof-split:
   admin:
     permissions:
       split_discussion_label: 'Vestluste poolitamine'
+  api:
+    errors:
+      first_post: 'Vestluse esimest postituse juurest ei saa vestlust kaheks jagada.'
   forum:
     modal:
       new_discussion_label: 'Määra uue vestluse pealkiri'
