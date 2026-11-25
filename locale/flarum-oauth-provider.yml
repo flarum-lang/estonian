@@ -9,6 +9,47 @@ flarum-oauth-provider:
         empty: 'Ühtegi rakendust pole veel lisatud.'
         heading: Rakendused
       connections_none: 'Liikmeid pole'
+      delete_button: Kustuta
+      edit_button: Muuda
+      id_column: 'Kliendi ID'
       last_used: 'Viimati kasutatud {ago}'
+      name_column: Nimi
       never_used: 'Pole kunagi kasutatud'
       new_button: 'Lisa klient'
+      redirects_column: 'Ümbersuunamise URI-d'
+      status_active: Aktiivne
+      status_column: Staatus
+    form:
+      edit_title: 'Muuda OAuth klienti'
+      name_label: 'Näidatav nimi'
+      new_title: 'Lisa OAuth klient'
+      redirect_uris_label: 'Ümbersuunamise URI-d'
+      save_button: Salvesta
+      scopes_label: 'Lubatud ulatused'
+    secret_modal:
+      client_id_label: 'Kliendi ID'
+      client_secret_label: 'Kliendi salasõna'
+      close_button: 'Salvestasin need endale'
+      title: 'Klient on loodud'
+    sections:
+      registration:
+        label: 'Lubatud rakendused'
+    tabs:
+      applications: Rakendused
+      settings: Seaded
+  forum:
+    connected_apps:
+      connected: Ühendatud
+      heading: 'Ühendatud rakendused'
+      last_used: 'Viimati kasutatud'
+      never_used: 'Mitte kunagi'
+    consent:
+      approve_button: Autoriseeri
+      deny_button: Loobu
+      title: 'Autoriseeri rakendus'
+  lib:
+    gambits:
+      users:
+        connected:
+          hint: 'kliendi ID'
+          key: ühendatud
