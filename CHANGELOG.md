@@ -98,7 +98,7 @@ CHANGELOG
 * [`flarum/deck`](https://github.com/flarum/deck) (51% complete)
 * [`flarum/mcp`](https://github.com/flarum/mcp) (26% complete)
 * [`flarum/messages`](https://github.com/flarum/messages) (8% complete)
-* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (6% complete)
+* [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (38% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (42% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (0% complete)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
