@@ -26,6 +26,7 @@ fof-upgrade-advisor:
       details:
         abandoned: 'Hüljatud, asendust pole'
         none: '{version}'
+        remove: 'Tuuma sisse ehitatud'
         replacement: '→ {replacement}'
         unknown: 'Ei leitud'
       groups:

@@ -5,3 +5,4 @@
 ernestdefoe-menu-control:
   admin:
     items_label: 'Külgriba kirjed'
+    preview_start: '=> core.ref.start_a_discussion'

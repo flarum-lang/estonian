@@ -20,6 +20,8 @@ datlechin-birthdays:
     invalid_age_message: 'Sinu vanus peab olema vähemalt {minAge} aastat.'
     invalid_dob_message: 'Vigane sünnipäev'
   forum:
+    change_birthday:
+      submit_button: '=> core.ref.save_changes'
     change_dob:
       date_of_birth_text: Sünnipäev
       submit_button: 'Salvesta muudatused'
@@ -30,6 +32,7 @@ datlechin-birthdays:
       nav_item: 'Tänased sünnipäevad'
     page:
       discussion_count: '{count, plural, one {Vestlus: #} other {Vestlusi: #}}'
+      load_more_button: '=> core.ref.load_more'
       post_count: '{count, plural, one {Postitus: #} other {Postitusi: #}}'
     settings:
       change_dob_label: 'Muuda sündimise kuupäeva'

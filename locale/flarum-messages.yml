@@ -6,3 +6,19 @@ flarum-messages:
   admin:
     permissions:
       send_messages_label: 'Saada privaatsõnumeid'
+  forum:
+    composer_edit:
+      discard_confirmation: '=> core.forum.composer_edit.discard_confirmation'
+      submit_button: '=> core.ref.save_changes'
+    dialog_list:
+      load_more_button: '=> core.ref.load_more'
+    message:
+      edited_text: '=> core.forum.post.edited_text'
+      edited_tooltip: '=> core.forum.post.edited_tooltip'
+    message_controls:
+      delete_forever_button: '=> core.ref.delete_forever'
+      edit_button: '=> core.ref.edit'
+      restore_button: '=> core.ref.restore'
+    messages_page:
+      stream:
+        time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'

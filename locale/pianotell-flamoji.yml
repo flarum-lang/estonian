@@ -4,5 +4,33 @@
 
 pianotell-flamoji:
   admin:
+    custom_emojis_section:
+      edit_emoji:
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
     settings:
+      emoji_categories:
+        activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
+        flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
+        foods: '=> pianotell-flamoji.ref.emoji_categories.foods'
+        nature: '=> pianotell-flamoji.ref.emoji_categories.nature'
+        objects: '=> pianotell-flamoji.ref.emoji_categories.objects'
+        people: '=> pianotell-flamoji.ref.emoji_categories.people'
+        places: '=> pianotell-flamoji.ref.emoji_categories.places'
+        symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
       emoji_settings_heading: 'Emoji seaded'
+  forum:
+    emoji-mart:
+      categories:
+        activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
+        custom: '=> pianotell-flamoji.ref.emoji_categories.custom'
+        flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
+        foods: '=> pianotell-flamoji.ref.emoji_categories.foods'
+        frequent: '=> pianotell-flamoji.ref.emoji_categories.frequent'
+        nature: '=> pianotell-flamoji.ref.emoji_categories.nature'
+        objects: '=> pianotell-flamoji.ref.emoji_categories.objects'
+        people: '=> pianotell-flamoji.ref.emoji_categories.people'
+        places: '=> pianotell-flamoji.ref.emoji_categories.places'
+        symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'

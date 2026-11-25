@@ -6,3 +6,6 @@ captchala-flarum:
   admin:
     settings:
       app_key_label: 'Rakenduse võti'
+      forgot: '=> core.forum.forgot_password.title'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'

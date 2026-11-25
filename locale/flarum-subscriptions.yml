@@ -27,8 +27,10 @@ flarum-subscriptions:
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
+      following_option: '=> flarum-subscriptions.ref.following'
       following_text: 'Teavita kõikidest vastustest.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
+      ignoring_option: '=> flarum-subscriptions.ref.ignoring'
       ignoring_text: 'Peida vestluste nimekirjast ja ära kunagi teavita.'
       not_following_button: 'Ei jälgi'
       not_following_text: 'Teavita ainult siis, kui mind @mainitakse.'

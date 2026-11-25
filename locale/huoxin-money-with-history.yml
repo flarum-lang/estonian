@@ -6,3 +6,6 @@ huoxin-money-with-history:
   admin:
     settings:
       title: Seaded
+  forum:
+    modal:
+      submit_button: '=> core.ref.save_changes'
