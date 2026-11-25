@@ -8,6 +8,9 @@ core:
       description: 'Seadista oma foorumit veelgi täpsemalt.'
       fontawesome:
         cdn_url_label: 'CDN URL'
+        config_override:
+          label: 'Seadistuste ülekirjutamine'
+        forced_style_label: 'Sunnitud ikooni stiil'
         kit_url_label: 'Komplekti URL'
         preview:
           button: 'Ikoonide eelvaade'
@@ -23,7 +26,10 @@ core:
       maintenance:
         bisect:
           begin_button_text: 'Alusta veatuvastust'
+          continue_button_text: 'Jätka veatuvastust'
+          label: 'Lisaprogrammi veatuvastus'
         bisect_modal:
+          end_button: 'Sulge ja mine lisaprogrammi lehele'
           issue_question: 'Kas see probleem on veel alles?'
           no_button: Ei
           start_button: 'Alusta veatuvastust'
@@ -41,6 +47,8 @@ core:
         search_configuration: 'Otsi seadistus, mida kasutada'
       queue:
         memory_label: 'Mälu limiit (MB)'
+        pause_all_label: 'Peata kõik päringud'
+        pause_label: 'Peata päringu töötlemine'
         pause_queue_label: 'Peata järjekord {queue}'
         rest_label: 'Puhkamise aeg (sekundites)'
         retries_label: 'Töö uuesti proovimised'
@@ -267,6 +275,7 @@ core:
       section_abandoned_empty: 'Probleeme ei leitud.'
       section_abandoned_heading: 'Vajab tähelepanu'
       section_disabled_empty: 'Kõik lisaprogrammid on sisse lülitatud.'
+      section_disabled_heading: 'Välja lülitatud'
       section_suggested_empty: 'Soovitusi pole.'
       section_suggested_heading: Soovitatud
       title: 'Lisaprogrammi tervis'
@@ -784,6 +793,8 @@ core:
       placeholder: 'Tee mitu valikut'
     nav:
       drawer_button: 'Ava navigatsioon'
+    notices:
+      bisecting_continue: 'Jätka veatuvastust'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -800,6 +811,7 @@ core:
       gambit_minus_button_a11y_label: 'Lisa negatiivne filter'
       gambit_plus_button_a11y_label: 'Lisa positiivne filter'
       no_results_text: 'Tundub, et tulemusi pole.'
+      no_search_text: 'Sa pole veel midagi otsinuf.'
       options_heading: 'Otsingu valikud'
       placeholder: Otsi...
       preview_heading: 'Otsingu eelvaade'
@@ -810,6 +822,7 @@ core:
       discussions:
         heading: '=> core.ref.discussions'
       posts:
+        all_button: 'Otsi kõigist postitustest "{query}"'
         heading: '=> core.ref.posts'
       users:
         heading: '=> core.ref.users'
