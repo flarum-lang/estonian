@@ -21,10 +21,15 @@ core:
         source_label: 'Ikooni allikas'
         source_local: 'Kohalik (kaasatud)'
       maintenance:
+        bisect:
+          begin_button_text: 'Alusta veatuvastust'
         bisect_modal:
           issue_question: 'Kas see probleem on veel alles?'
           no_button: Ei
+          start_button: 'Alusta veatuvastust'
           steps_left: 'Samme järgi: {steps}'
+          stop_button: 'Peata veatuvastus'
+          title: 'Lisaprogrammi veatuvastus'
           total_steps: 'Sellega läheb umbes {steps} sammu.'
           yes_button: Jah
         config_override:
