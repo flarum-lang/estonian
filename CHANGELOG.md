@@ -169,7 +169,7 @@ CHANGELOG
 * [`flarum/akismet`](https://github.com/flarum/akismet) (3 added, 100% complete)
 * [`flarum/approval`](https://github.com/flarum/approval) (2 added, 100% complete)
 * [`flarum/emoji`](https://github.com/flarum/emoji) (4 added, 100% complete)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (60 added, 89% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (60 added, 25% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (2 added, 75% complete)
 * [`flarum/lock`](https://github.com/flarum/lock) (3 added, 100% complete)
 * [`flarum/mentions`](https://github.com/flarum/mentions) (14 added, 100% complete)
