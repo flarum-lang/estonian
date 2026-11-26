@@ -78,7 +78,7 @@ CHANGELOG
 * [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (0% complete)
 * [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (1% complete)
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (1% complete)
-* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (1% complete)
+* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (0% complete)
 * [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) (0% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (1% complete)
 * [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) (0% complete)
