@@ -10,8 +10,11 @@ core:
         cdn_url_help: 'FontAwesome CSS-faili täielik URL CDN-is.'
         cdn_url_label: 'CDN URL'
         config_override:
+          help: 'FontAwesome seaded on praegu määratud sinu config.php failis ja neid ei saa siin muuta.'
           label: 'Seadistuste ülekirjutamine'
+        forced_style_help: 'Sunnib kõiki ikoone kasutama kindlat FontAwesome''i stiili, nt fa-duotone fa-light või fa-regular. See asendab nii tuuma kui ka laienduste määratud stiili (brändiikoone ei muudeta kunagi). Sinu kasutatav ikooniallikas peab suutma valitud stiili pakkuda: foorumiga kaasas olev pakett on FontAwesome Free, mis sisaldab väljaspool solid-stiili vaid paarisada ikooni, mistõttu muu stiili pealesundimine jätab enamiku ikoone tühjaks. Kõik stiilid on saadaval FontAwesome Pro CDN-i või Kit-paketi kaudu. Keelamiseks jäta väli tühjaks.'
         forced_style_label: 'Sunnitud ikooni stiil'
+        kit_url_help: 'Sinu FontAwesome komplektu URL (saidilt kit.fontawesome.com)'
         kit_url_label: 'Komplekti URL'
         preview:
           button: 'Ikoonide eelvaade'
@@ -32,6 +35,7 @@ core:
           help: 'Aitab tuvastada lisaprogramme, mis võivad põhjustada probleeme, mida oled täheldanud. See paneb foorumi automaatselt (madalale) hooldusrežiimile kuni protsess on töö lõpetanud.'
           label: 'Lisaprogrammi veatuvastus'
         bisect_modal:
+          description: "See lülitab foorumi kuni toimingu lõpuni piiratud hooldusrežiimi (low). Igal sammul keelatakse osa laiendusi, kuni leitakse probleemi põhjustav laiendus. Seega ära imesta, kui mõned funktsioonid puuduvad või kujundus on teistsugune. Hoia see leht lahti ja proovi viga pärast iga sammu eraldi vahekaardil korrata. Kui sulged selle lehe kogemata, saad siia alati tagasi tulla.\n"
           end_button: 'Sulge ja mine lisaprogrammi lehele'
           issue_question: 'Kas see probleem on veel alles?'
           issue_question_help: 'Proovi probleemi taasluua teisel lehel ja vasta siin vastavalt tulemusele.'
@@ -65,6 +69,7 @@ core:
         pause_queue_label: 'Peata järjekord {queue}'
         rest_help: 'Erinevate tööde vahel ootamise aeg. Vaikeväärtus on 0 sekundit.'
         rest_label: 'Puhkamise aeg (sekundites)'
+        retries_help: 'Mitu korda tööd maksimaalselt uuesti proovitakse, enne kui see ebaõnnestunuks märgitakse. Vaikeväärtu on 1.'
         retries_label: 'Töö uuesti proovimised'
         section_label: Järjekord
         timeout_label: 'Töö aegumine (sekundites)'
@@ -75,6 +80,7 @@ core:
         driver_options:
           default: 'Vaikimisi andmebaasi otsing'
         driver_text: 'Vali draiver, mida kasutatakse selle mudeliga otsimiseks.'
+        min_length_help: 'Tähemärkide arv, mida on vaja otsingutulemuste laadimiseks. Vaikeväärtus on 3. Väiksemad väärtused sobivad lühikeste sõnadega keeltele, nagu hiina, jaapani või korea keel, kuid annavad ebatäpsemaid vasteid. MySQL-i ja MariaDB vaikimisi sõnapõhise otsingu puhul ei leia vestluste ja postituste otsing sõnu, mis on lühemad kui andmebaasi minimaalne sõnapikkus (vaikimisi 3), välja arvatud juhul, kui CJK-otsing on sisse lülitatud.'
         min_length_label: 'Minimaalne otsingu pikkus'
         no_other_drivers: 'Otsingu draivereid pole veel saadaval. Paigalda otsingu draiveri lisaprogramm, et seda seavistada.'
         section_label: 'Otsi draivereid'
@@ -122,11 +128,13 @@ core:
       view_all: 'Vaata kõiki lehel discuss.flarum.org'
     appearance:
       allow_user_color_scheme_label: 'Luba kasutajatel nende endi värviskeeme valida'
+      app_icon_background_help: 'Täidab iPhone-idel ja iPad-idel rakenduse ikooni ümber oleva läbipaistva osa, Androidil ikooni ümber oleva ala ja laadimisekraani.'
       app_icon_background_label: 'Rakenduse ikooni taust'
       app_icon_heading: 'Rakenduse ikoon'
       app_icon_preview_android_label: Android
       app_icon_preview_apple_label: 'iPhone ja iPad'
       app_icon_text: 'Laadi üles ruudukujuline pilt, mille külg on vähemalt 512 pikslit, mida kasutatakse telefonidel foorumi lisamisel avalehele. Kui sa ei laadi üles faviconi, siis seda kasutatakse ka Faviconi-na.'
+      app_start_page_help: 'Leht, mis avaneb, kui rakendus käivitatakse avakuvalt. Android rakendab muudatuse järgmisel korral, kui brauser rakendust uuendab. iPhone''id ja iPadid ei kontrolli seda pärast rakenduse avakuvale lisamist enam uuesti, mistõttu seal kehtib muudatus ainult pärast seda lisatud rakendustele.'
       app_start_page_label: 'Rakenduse avaleht'
       app_start_page_options:
         home_page: 'Sama kui avaleht'
@@ -154,6 +162,7 @@ core:
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       email_logo_heading: 'E-posti logo'
+      email_logo_text: 'Laadi üles pilt, mida kuvatakse kirjade ülaosas. See salvestatakse vormingus, mida suudab näidata iga e-posti klient. Kui sa eraldi pilti üles ei laadi, kasutatakse kirjades sinu foorumi logo koopiat. Kui kirjades kuvatakse logo asemel foorumi pealkirja, laadi oma logo uuesti üles.'
       enter_hex_message: 'Sisesta kuueteistkümnendsüsteemis värvikood.'
       favicon_heading: Väikeikoon
       favicon_text: 'Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.'
@@ -161,6 +170,7 @@ core:
       logo_dark_mode_text: 'Vali alternatiivne logo, mida näidatakse, kui tume režiim on sisse lülitatud.'
       logo_heading: Logo
       logo_text: 'Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.'
+      open_as_app_help: 'Telefonid avavad foorumi avakuvalt omaette aknas, ilma brauseri tööriistaribata, ning näitavad laadimise ajal laadimisekraani: rakenduse ikooni laadimisekraani taustal – ühtemoodi nii iPhone''ides, iPadides kui ka Androidis. Selleks on vaja rakenduse ikooni.'
       open_as_app_label: 'Ava kui rakendus avalehelt'
       sections:
         custom_code:
@@ -171,6 +181,8 @@ core:
           label: 'Logod ja ikoonid'
       show_theme_selector_help: 'Luba kasutajatel saidi päises värviskeeme valida.'
       show_theme_selector_label: 'Näita teema valijat'
+      splash_screen_background_help: 'Täidab ekraani rakenduse ikooni ümber – ühtemoodi nii iPhone-ides, iPadides kui ka Androidis. Jäta see tühjaks, kui soovid kasutada rakenduse ikooni taga olevat värvi.'
+      splash_screen_background_label: 'Laadimisekraani taust'
       title: Välimus
     basics:
       abandoned_extensions_heading: 'Hüljatud lisaprogrammid'
@@ -348,6 +360,7 @@ core:
       period_month: 'Eelmine kuu'
       period_total: 'Kogu aeg'
       period_week: 'Viimane nädal'
+      recovered: '{count, plural, =0 {midagi ei taastatud} one {# taastati} other {# taastati}}'
       refresh: Värskenda
       title: 'E-posti tagasi põrkamised'
       view_affected: 'Vaata mõjutatud kasutajaid'
