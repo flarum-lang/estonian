@@ -27,11 +27,14 @@ core:
         bisect:
           begin_button_text: 'Alusta veatuvastust'
           continue_button_text: 'Jätka veatuvastust'
+          help: 'Aitab tuvastada lisaprogramme, mis võivad põhjustada probleeme, mida oled täheldanud. See paneb foorumi automaatselt (madalale) hooldusrežiimile kuni protsess on töö lõpetanud.'
           label: 'Lisaprogrammi veatuvastus'
         bisect_modal:
           end_button: 'Sulge ja mine lisaprogrammi lehele'
           issue_question: 'Kas see probleem on veel alles?'
+          issue_question_help: 'Proovi probleemi taasluua teisel lehel ja vasta siin vastavalt tulemusele.'
           no_button: Ei
+          result_description: "Foorum pole enam hooldusrežiimis. Lisaprogrammide veatuvastus on lõpetatud. Sinu vastustele tuginedes on probleemiks järgmised lisaprogrammid:\n"
           start_button: 'Alusta veatuvastust'
           steps_left: 'Samme järgi: {steps}'
           stop_button: 'Peata veatuvastus'
@@ -39,26 +42,65 @@ core:
           total_steps: 'Sellega läheb umbes {steps} sammu.'
           yes_button: Jah
         config_override:
+          help: 'Sa saad siin ikka oma seadeid muuta, aga need ei avalda mõju enne, kui paned oma failis <code>config.php</code> parameetri <code>offline</code> väärtuseks <code>0</code>.'
           label: 'Sinu fail <code>config.php</code> kirjutab need seaded üle.'
+        help: 'Pane oma foorum hooldusrežiimi, et kasutajad sellele ligi ei saaks.'
         options:
+          high: 'Kõrge hooldusrežiim. Keegi ei saa foorumile ligi (saab sisse lültiada ainult failist config.php)'
+          low: 'Madal hooldusrežiim. Adminid pääsevad foorumile ligi.'
           none: 'Pole hooldamisel.'
+          safe: 'Turvaline režiim. Ühtegi lisaprogrammi ei käivitata ja ainult adminid näevad foorumit.'
+        safe_mode_extensions: 'Lisaprogrammid, mida lubatakse käivitada turvalises režiimis'
         section_label: Hooldamine
       pgsql:
         search_configuration: 'Otsi seadistus, mida kasutada'
       queue:
+        backoff_help: 'Aeg enne, kui ebaõnnestunud tööd uuesti proovitakse. Vaikeväärtus on 0 sekundit.'
         memory_label: 'Mälu limiit (MB)'
         pause_all_label: 'Peata kõik päringud'
         pause_label: 'Peata päringu töötlemine'
         pause_queue_label: 'Peata järjekord {queue}'
+        rest_help: 'Erinevate tööde vahel ootamise aeg. Vaikeväärtus on 0 sekundit.'
         rest_label: 'Puhkamise aeg (sekundites)'
         retries_label: 'Töö uuesti proovimised'
         section_label: Järjekord
         timeout_label: 'Töö aegumine (sekundites)'
       search:
+        cjk_mode_help: 'Lülita sisse, kui su foorum on peamiselt hiina, jaapani või koreakeelne. Andmebaasi sõnapõhised otsingud ei kattu CJK keele osadega ning see kasutab alamstringi kattuvust. See on suurtes foorumites aeglasem ning CJK-toega täisteksti parsija andmebaasi tasemel (näiteks MySQL/MariaDB ngram parser) on kiirem alternatiiv.'
+        cjk_mode_label: 'Optimeeri otsingut CJK keelt'
         driver_heading: 'Otsi draiverit: {model}'
         driver_options:
           default: 'Vaikimisi andmebaasi otsing'
+        driver_text: 'Vali draiver, mida kasutatakse selle mudeliga otsimiseks.'
+        min_length_label: 'Minimaalne otsingu pikkus'
+        no_other_drivers: 'Otsingu draivereid pole veel saadaval. Paigalda otsingu draiveri lisaprogramm, et seda seavistada.'
         section_label: 'Otsi draivereid'
+      sessions:
+        config_override:
+          help: 'Sessiooni pikkused on määratud failis config.php ja neid ei saa siin muuta.'
+          label: 'Seadistatud failis config.php'
+        cookie_expires_on_close_label: 'Sulge sessioonid, kui brauser suletakse'
+        disabled: 'Välja lülitatud'
+        duration_unit_label: Ühik
+        duration_value_label: Pikkus
+        enabled: 'Sisse lülitatud'
+        lifetime_label: 'Sessiooni pikkus (minutites)'
+        never_expires: 'Ei aegu kunagi'
+        section_label: Sessioonid
+        token_types:
+          session:
+            help: 'Kui kaua hoitakse kasutajat sisselogituna kui kasutaja pole spetsiaalselt palunud end meeles pidada.'
+            label: 'Sisselogimise pikkus'
+          session_remember:
+            help: 'Kui kaua hoitakse kasutajat sisselogituna kui kasutaja on palunud end meeles pidada. See katab sisselogimise ka mõne teise teenuse kaudu, mida peetakse alati meeles.'
+            label: '"Pea mind meeles" pikkus'
+        units:
+          days: päeva
+          hours: tundi
+          minutes: minutit
+          seconds: sekundit
+          weeks: nädalat
+          years: aastat
       title: Edasijõudnutele
     announcements:
       about: 'Viimased uudised ja teadaanded ametlikust Flarumi kogukonnast aadressil discuss.flarum.org.'
@@ -74,6 +116,14 @@ core:
       title: Teadaanded
       view_all: 'Vaata kõiki lehel discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Luba kasutajatel nende endi värviskeeme valida'
+      app_icon_background_label: 'Rakenduse ikooni taust'
+      app_icon_heading: 'Rakenduse ikoon'
+      app_icon_preview_android_label: Android
+      app_icon_preview_apple_label: 'iPhone ja iPad'
+      app_start_page_label: 'Rakenduse avaleht'
+      app_start_page_options:
+        home_page: 'Sama kui avaleht'
       color_scheme_label: 'Värviskeem (vaikeväärtus)'
       color_schemes:
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
@@ -103,6 +153,11 @@ core:
       logo_dark_mode_heading: 'Tumeda režiimi logo'
       logo_heading: Logo
       logo_text: 'Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.'
+      sections:
+        custom_code:
+          label: 'Kohandatud kood'
+        logos:
+          label: 'Logod ja ikoonid'
       show_theme_selector_label: 'Näita teema valijat'
       title: Välimus
     basics:
@@ -124,10 +179,30 @@ core:
       display_name_text: 'Vali, kuidas näidatakse kasutajate nimesid. Vaikimisi näidatakse kasutajanime.'
       forum_description_heading: 'Foorumi kirjeldus'
       forum_description_text: 'Sisesta lühike lause või kaks, mis kirjeldab sinu foorumit. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.'
+      forum_short_name_heading: Lühinimi
       forum_title_heading: 'Foorumi pealkiri'
       home_page_heading: Koduleht
       home_page_text: 'Vali leht, mida näidatakse foorumi külastajatele avalehena.'
+      sections:
+        extensions:
+          label: Lisaprogrammid
+        forum:
+          description: 'Mis on foorumi nimi külaliste ja otingumootorite jaoks.'
+          label: Foorum
+        home:
+          description: 'Mida külalised esimesel saabumisel näevad.'
+          label: Avaleht
+        language:
+          description: 'Mis keeles foorumit näidatakse.'
+          label: Keel
+        members:
+          description: 'Kuidas kasutatakse liikmete nimesid ja pilte.'
+          label: Liikmed
+        urls:
+          description: 'Kuidas kirjutatakse vestlusi ja profiile.'
+          label: Lingid
       show_language_selector_label: 'Näita keelevalikut'
+      show_post_source_label: 'Näita, kudias postitus loodi'
       slug_driver_heading: 'Slug draiver: {model}'
       slug_driver_options:
         users:
@@ -150,9 +225,14 @@ core:
     dashboard:
       clear_cache_button: 'Puhasta vahemälu'
       clear_cache_modal:
+        cleared: 'Tühjendatud {name}'
+        cleared_files: 'Tühjendatud {name} ({count} faili)'
+        rebuilt: 'Ehita uuesti {bundle}'
         reload_button: 'Laadi uuesti'
+        rewritten: 'Kirjuta uuesti {bundle}'
         title: 'Tühjenda vahemälu'
         took: '{time}ms'
+        unchanged: '{bundle} oli juba ajakohane'
       description: 'Foorumi ülevaade.'
       info_button: 'Süsteemi info'
       info_modal:
@@ -172,6 +252,7 @@ core:
           inactive: Mitteaktiivne
           never-run: 'Ära käivita kunagi'
       title: Juhtpaneel
+      toggle_advanced_page_button: 'Lisavalikute lehe näitamine'
       tools_button: Tööriistad
     database-driver-mismatch-warning:
       label: 'Andmebaasi draiver ei kattu'
@@ -193,6 +274,8 @@ core:
       delete_button: 'Kustuta grupp'
       delete_confirmation: 'Oled sa kindel, et tahad selle grupi kustutada? Grupi liikmeid ei kustutata.'
       hide_label: 'Peida foorumis'
+      icon_image_label: '=> core.ref.icon_image'
+      icon_image_text: '=> core.ref.icon_image_text'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Nimi
@@ -211,6 +294,7 @@ core:
       driver_label: Draiver
       format:
         html_option: HTML
+        multipart_option: 'Mitmeosaline (soovitatud)'
         plain_option: Lihttekst
       format_heading: 'Väljuvate e-kirjade vorming'
       from_label: Saatja
@@ -230,12 +314,25 @@ core:
       not_sending_message: 'Hetkel Flarum e-posti ei saada. See võib olla tingitud valitud draiverist või selle valedest seadetest.'
       postmark_description: 'Saada e-kirjad Postmarki HTTP API kaudu. Soovi korral võid määrata nitte-vaikimisi sõnumite voogu.'
       postmark_heading: 'Poastmarki seaded'
+      sections:
+        sending:
+          label: Saatmine
       send_test_mail_button: Saada
       send_test_mail_heading: 'Saada proovimeil'
       send_test_mail_success: 'Proovimeili saatmine õnnestus!'
       send_test_mail_text: 'Saada proovikiri aadressile {email}.'
       smtp_heading: 'SMTP seaded'
       title: '=> core.ref.email'
+    email_bounces:
+      affected: '{count, plural, =0 {Ükski aadress pole praegu mõjutatud} one {# aasdress on praegu mõjutatud} other {# aadressi on praegu mõjutatud}}'
+      load_error: 'Tagasipõrkamise statistika laadimine ebaõnnestus. Proovi hiljem uuesti.'
+      period_hour: 'Viimane tund'
+      period_month: 'Eelmine kuu'
+      period_total: 'Kogu aeg'
+      period_week: 'Viimane nädal'
+      refresh: Värskenda
+      title: 'E-posti tagasi põrkamised'
+      view_affected: 'Vaata mõjutatud kasutajaid'
     extension:
       abandoned_no_replacement: 'Selle lisaprogrammi autor ei arendata seda enam ning seega ei pruugi see uuendusi saada.'
       abandoned_with_replacement: '{replacement} on asendanud selle lisaprogrammi. Kaalu üle minemist uuemale lisaprogrammile.'
@@ -245,6 +342,7 @@ core:
       disabled: Keelatud
       enable_to_see: 'Luba laiendusel näha ja muuta seadeid.'
       enabled: Lubatud
+      general_tab: Üldine
       info_links:
         discuss: Aruta
         documentation: Dokumentatsioon
@@ -254,6 +352,7 @@ core:
         website: Veebileht
       no_permissions: 'Sellel laiendusel pole õiguseid.'
       no_settings: 'Sellel laiendusel pole seadeid.'
+      no_settings_or_permissions: 'Sellel lisaprogrammil pole seadeid või õiguseid.'
       open_modal: 'Ava seaded'
       permissions_title: Õigused
       purge_button: Eemalda
@@ -268,6 +367,7 @@ core:
         confirm_button: Nulli
         title: 'Nulli seaded'
         title_extension: 'Nulli {extensionTitle} seaded'
+      unsaved_changes: 'Salvestamata muudatused'
     extensions-health-widget:
       abandoned_no_replacement: 'Asendust pole saadaval'
       abandoned_with_replacement: 'Asendus {replacement}'
@@ -278,6 +378,7 @@ core:
       section_disabled_heading: 'Välja lülitatud'
       section_suggested_empty: 'Soovitusi pole.'
       section_suggested_heading: Soovitatud
+      suggested_by: 'Soovitaja {extension}'
       title: 'Lisaprogrammi tervis'
     failed_jobs:
       delete: Kustuta
@@ -385,12 +486,18 @@ core:
       saved_message: 'Sinu muudatused salvestati.'
       select_dropdown_custom_label: Kohandatud
       submit_button: '=> core.ref.save_changes'
+    streaming-warning:
+      check_again_button: 'Kontrolli uuesti'
+      label: 'Tagasi hoitud vastused'
     upload_image:
       remove_button: '=> core.ref.remove'
+      set_by_extension_text: 'Selle määras lisaprogramm {extension} ja seega ei saa seda siin muuta.'
+      set_in_code_text: 'See on määratud foorumi koodis ja seda ei saa siin muuta.'
       upload_button: 'Vali pilt...'
     users:
       create_user_button: 'Uus kasutaja'
       description: 'Foorumi kõikide kasutajate loend.'
+      filters_label: 'Filtreeri:'
       grid:
         columns:
           display_name:
@@ -399,6 +506,9 @@ core:
             title: '=> core.ref.email'
             visibility_hide: 'Peida meiliaadress'
             visibility_show: 'Näita meiliaadressi'
+          email_bounced:
+            bounced: 'Saatmine ebaõnnestus'
+            title: 'E-posti saatmine'
           group_badges:
             no_badges: Pole
             title: Grupid
@@ -419,10 +529,12 @@ core:
       title: '=> core.ref.users'
       total_users: 'Kasutajaid kokku: {count}'
   api:
+    image_set_by_code_message: 'See pilt on määratud foorumi koodis ja seega ei saa seda siin muuta.'
     invalid_filter_type:
       must_be_numeric_message: 'Filter {filter} peab olema number.'
       must_not_be_array_message: 'Filter {filter} ei tohi olla andmemassiiv.'
       must_not_be_multidimensional_array_message: 'Filter {filter} ei tohi olla mitmemõõduline andmemassiiv.'
+    invalid_username_message: 'KAsutajanimes võivad olla ainult tähed, numbrid ja sidekriipsud. Selles peab olema vähemalt üks täht.'
   email:
     abandoned_extensions:
       line_no_replacement: '{package} (asendust pole saadaval)'
@@ -437,6 +549,9 @@ core:
       default_title: Info
     notification:
       default_title: Teavitus
+      footer:
+        settings_text: 'Halda oma teavituste seadeid [siin]({settingsLink}).'
+        settings_text_plain: 'Halda oma teavituste seadeid siin: {settingsLink}'
     reset_password:
       subject: '=> core.ref.reset_your_password'
     send_test:
@@ -460,6 +575,7 @@ core:
       full_screen_tooltip: Täisekraanile
       minimize_tooltip: Minimeeri
       preview_tooltip: Eelvaade
+      restore_tooltip: Taasta
     composer_discussion:
       body_placeholder: 'Kirjuta teade...'
       discard_confirmation: 'Sa ei ole oma teemat veel postitanud. Kas tahad sellest loobuda?'
@@ -523,6 +639,7 @@ core:
       cannot_start_discussion_button: 'Ei saa uut teemat alustada'
       mark_all_as_read_confirmation: 'Oled sa kindel, et soovid kõik vestlused loetuks märkida?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      mark_filtered_as_read_confirmation: 'Oled sa kindel, et soovid oma praegusele filtrile vastavad postitused loetuks märkida?'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: '=> core.ref.refresh'
       skip_to_main_content: 'Otse põhisisu juurde'
@@ -561,6 +678,10 @@ core:
       edited_text: Muudetud
       edited_tooltip: '{username} muutis {ago}'
       number_tooltip: 'Postitus #{number}'
+      source_api_label: API
+      source_api_tooltip: 'Postitatud läbi API'
+      source_app_tooltip: 'Postitatud läbi ühendatud rakenduse'
+      source_text: 'kasutades {source}'
     post_controls:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Oled sa kindel, et soovid selle postituse igaveseks kustutada? Seda toimingut ei saa tagasi võtta.'
@@ -679,6 +800,8 @@ core:
       delete_success_message: 'Kasutaja <i>{username} ({email})</i> on kustutatud'
       edit_button: '=> core.ref.edit'
       toggle_dropdown_accessible_label: 'Näita kasutaja juhtpaneeli'
+    user_email_bounced:
+      update_button: 'Uuenda e-posti'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Saada kinnitusmeil uuesti'
@@ -763,7 +886,12 @@ core:
         discussion:
           hint: 'vestluse ID'
           key: vestlus
+        source:
+          hint: 'api või komadega eraldatud allikate nimekiri'
+          key: allikas
       users:
+        bounced:
+          key: 'põrkas tagasi'
         email:
           hint: example@machine.local
           key: e-post
@@ -772,6 +900,30 @@ core:
           key: grupp
     group_selector:
       placeholder: 'Vali grupp'
+    icon_image_input:
+      remove_button: Eemalda
+      replace_button: 'Asenda pilt'
+      upload_button: 'Laadi pilt üles'
+    icon_picker:
+      count_text: '{count, plural, one {# ikoon} other {# ikooni}}'
+      families:
+        brands: Brändid
+        classic: Klassikaline
+        duotone: Kahetooniline
+        sharp: Terav
+        sharp_duotone: 'Terav kahetooniline'
+      family_label: 'Ikoonide perekond'
+      label: 'Vali ikoon'
+      no_results_text: 'Ükski ikoon ei kattu.'
+      open_button: 'Vali ikoon'
+      remove_button: 'Eemalda ikoon'
+      search_placeholder: 'Otsi ikoone või kirjuta klass'
+      use_button: 'Kasuta {value}'
+      weights:
+        light: Hele
+        regular: Tavaline
+        solid: Täidetud
+        thin: 'Peenike joon'
     index_sort:
       az_button: '=> core.ref.title_az'
       latest_button: '=> core.ref.latest'
@@ -795,6 +947,7 @@ core:
       drawer_button: 'Ava navigatsioon'
     notices:
       bisecting_continue: 'Jätka veatuvastust'
+      maintenance_mode_low: 'Hooldamisel. Ainult administraatorid näevad foorumit.'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -860,6 +1013,8 @@ core:
     extensions: Laiendused
     generic_confirmation_message: 'Oled sa kindel, et soovid jätkata? Seda toimingut ei saa tühistada.'
     icon: Ikoon
+    icon_image: 'Ikooni pilt'
+    icon_image_text: 'Pilt, mida näidatakse ikooni asemel. Seal kus pilti ei saa kasutada näidatakse ikooni. Sobivad PNG, JPEG, GIF või BMP. Animeeritud piltidest näidatakse esimest kaardit.'
     icon_text: 'Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> eesliitega (nt. <code>fas fa-flag</code> või <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Sinu kasutaja andmed polnud korrektsed.'
     latest: Viimased
@@ -938,7 +1093,14 @@ core:
       method_not_allowed: 'See lehekülg ei toeta seda nõutud meetodit.'
       not_authenticated: 'Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.'
       not_found: 'Nõutud lehte ei leitud.'
+      not_found_actions_label: 'Millega jätkata'
+      not_found_discussions_link: 'Sirvi kõiki vestlusi'
+      not_found_home_link: 'Mine avalehele'
       not_found_return_link: 'Mine tagasi lehele {forum}'
+      not_found_search_button: Otsi
+      not_found_search_label: 'Otsi foorumist'
+      not_found_search_placeholder: 'Otsi vestluseid'
+      not_found_title: 'Lehekülge ei leitud'
       permission_denied: 'Sul pole sellele lehele ligipääsuõigust.'
       unknown: 'Lehel laadimisel tekkis viga.'
     index:
@@ -959,6 +1121,8 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Oled kindel, et soovida {forum} lehelt väljuda?'
       title: '=> core.ref.log_out'
+    offline:
+      title: 'Ühendust pole'
     reset_password:
       confirm_password_label: 'Kinnita uus parool'
       new_password_label: 'Uus parool'
@@ -966,5 +1130,9 @@ core:
       title: '=> core.ref.reset_your_password'
     unsubscribe_email:
       confirm_button: Kinnita
+      confirm_message: 'Oled soovinud loobuda "{type}" tüüpi e-posti teavitustest foorumis {forumTitle}.'
+      immediate_helptext: 'Jälgimine tühistatakse kohe pärast sinu kinnitust.'
+      invalid_message: 'Teavituste tühistamise link on vigane või seda on juba kasutatud. Muudatusi oma e-posti teavitustest foorumis {forumTitle} näed [oma seadetest]({settingsLink}).'
       return_to_forum: 'Tagasi foorumisse {forumTitle}'
+      success_message: 'Oled tühistanud "{type}" tüüpi e-posti teavitused foorumis {forumTitle}. Kui soovid neid hiljem uuesti saada, siis palun [uuenda oma seadeid]({settingsLink}).'
       title: 'Tellimuse tühistamise kinnitus'
