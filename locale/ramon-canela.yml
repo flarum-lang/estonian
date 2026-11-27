@@ -2,7 +2,257 @@
 # Use https://weblate.rob006.net/projects/flarum2/ramon-canela/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+ernestdefoe-wardrobe:
+  admin:
+    settings:
+      flarum_title: Vaikimisi
+  forum:
+    theme:
+      flarum: Vaikimisi
+linkrobins-wiki:
+  forum:
+    compose:
+      body_label: Sisu
+    nav: Viki
 ramon-canela:
   admin:
+    brand:
+      mode_none: 'Mitte midagi'
     preview:
       dirty: 'Muudatused pole veel rakendatud'
+    settings:
+      assistant:
+        external_sources_label: Allikad
+        length_medium: Keskmine
+      badges:
+        col_enabled: 'Sisse lülitatud'
+        edit: Muuda
+        field_grouping: Rühmitamine
+        field_type: Liik
+        field_user_placeholder: Kasutaja
+        grouping_other: Muu
+        tag_manual: Käsitsi
+        unit_days: päeva
+      bug_reports:
+        delete: Kustuta
+        filter_all: Kõik
+        kind_design: Disain
+        page: Leht
+      chat:
+        days: päeva
+      composer:
+        section_drafts: Mustandid
+      content_width_preview_discussion: Vestlus
+      gaps:
+        not_found_template_classic: Klassikaline
+        not_found_template_label: Mall
+      group_ai: AI
+      group_community: Kogukond
+      loader:
+        preview: Eelvaade
+      palette_link: Link
+      palette_selected: Valik
+      post_style_discourse: Vaikeväärtus
+      profile:
+        profile_birthday_label: Sünnipäev
+      shell:
+        group_integrations: Integratsioon
+      templates:
+        cancel: Loobu
+        field_options: Valikud
+        fields_heading: Väljad
+      user_stats_label: Statistika
+  api:
+    badges:
+      anniversary:
+        name: Aastapäev
+      enthusiast:
+        name: Entusiast
+  forum:
+    age:
+      now: nüüd
+    ai:
+      bot:
+        today: Täna
+      helper:
+        confirm: Kinnita
+        copied: Kopeeritud
+        copy: Kopeeri
+      summary:
+        generate: 'Tee kokkuvõte'
+        regenerate: 'Genereeri uuesti'
+      translation:
+        prefs:
+          cancel: Loobu
+          understood_placeholder: Vali…
+    assign:
+      suggestions: Soovitused
+    badges:
+      trust_level_modal:
+        submit: Salvesta
+    bookmarks:
+      modal:
+        name_label: Nimi
+      page:
+        column_date: Järjehoidjates
+        column_topic: Vestlus
+        nav: Järjehoidjad
+      presets:
+        tomorrow: Homme
+    bug_reports:
+      status_fixed: Fikseeritud
+    categories:
+      category: Kategooria
+    chat:
+      ago:
+        hours: '{count}h'
+      browse:
+        filter_closed: Suletud
+      channel_info:
+        tabs:
+          settings: Seaded
+      channel_list:
+        title: Kanalid
+      chat_message_separator:
+        yesterday: Eile
+      composer:
+        send: Saada
+      edited: muudetud
+      notification_levels:
+        never: 'Mitte kunagi'
+      search:
+        short_title: Otsi
+      thread:
+        notifications:
+          regular:
+            title: Tavaline
+    community:
+      about:
+        stat:
+          posts: Postitusi
+      groups:
+        hidden: Peidetud
+    composer:
+      drafts:
+        type_message: Sõnum
+      emoji:
+        groups:
+          people: Inimesed
+      hashtags:
+        autocomplete_header: Sildid
+      preview:
+        label: Eelvaade
+    events:
+      builder:
+        recurrence: Korda
+      status:
+        public: Avalik
+    extras:
+      banner:
+        label: Teadaanded
+      print:
+        close: Sulge
+      search:
+        filter_author_placeholder: kasutajanimi
+        filter_status: Staatus
+        status_sticky: Kinnitatud
+        submit: Otsi
+        tab_users: Kasutajad
+      text_size:
+        larger: Suurem
+      top_periods:
+        daily: Täna
+        quarterly: Veerand
+        yearly: Aasta
+    gaps:
+      jump:
+        submit: Mine
+      lightbox:
+        download: 'Laad alla'
+      share:
+        copy: Kopeeri
+        link_label: Link
+      sidebar:
+        custom_title: Lingid
+      title_editor:
+        save: Salvesta
+    list:
+      topic: Vestlus
+    messages:
+      composer:
+        searching: Otsimine…
+      nav:
+        sent: Saadetud
+      page:
+        nav: Sõnumid
+      reactions:
+        react: Reageeri
+      topic:
+        archive: Arhiiv
+      untitled: Sõnum
+      user:
+        message: Sõnum
+    nav:
+      top: Üleval
+    profile:
+      status:
+        label: Staatus
+    review:
+      flag_date: Millal
+      flag_type: Põhjus
+      ignore: Ignoreeri
+      reason_off_topic: Teemaväline
+    shortcuts:
+      actions:
+        categories: Kategooriad
+        drafts: Mustandid
+        latest: Viimased
+      groups:
+        navigation: Menüü
+    sidebar:
+      admin: Admin
+      categories: Kategooriad
+      customize_community: Kohanda
+      customize_filter: Filter…
+      label: Külgriba
+    tag_modal:
+      secondary_heading: Sildid
+    thirdparty:
+      reactions:
+        like_reaction: Meeldib
+      wiki:
+        close: Sulge
+        created: loodud
+    toc:
+      show_timeline: Ajajoon
+    topic:
+      suggested:
+        tab_suggested: Soovitatud
+      user_card:
+        joined: Liidetud
+    user:
+      nav:
+        activity: Tegevus
+        read: Loe
+        solved: Lahendatud
+      preferences:
+        email_primary: peamine
+        nav: Eelistused
+        nav_menu_edit: Kohanda
+        password_heading: Parool
+        tabs:
+          interface: Kasutajaliides
+          profile: Profiil
+      stats:
+        groups: Rühmad
+      summary:
+        replies_column: Vastuseid
+        stats_heading: Statistika
+        topics: Vestlused
+    usermenu:
+      page:
+        all: Kõik
+        title: Teavitused
+      tabs:
+        likes: Meeldimised
+        profile: Profiil

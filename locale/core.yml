@@ -205,11 +205,13 @@ core:
       forum_description_heading: 'Foorumi kirjeldus'
       forum_description_text: 'Sisesta lühike lause või kaks, mis kirjeldab sinu foorumit. See läheb meta sildi sisse ja seda kasutatakse otsingumootorite poolt.'
       forum_short_name_heading: Lühinimi
+      forum_short_name_text: 'Kuni 16 tähemärki; kasutatakse seal, kuhu foorumi pealkiri ära ei mahu – telefoni avakuval foorumi ikooni all ja siis, kui keegi lisab foorumi oma brauseris otsingumootoriks. Kui seda pole määratud, kasutatakse foorumi pealkirja, mis lõigatakse liigse pikkuse korral täissõna pealt lühemaks.'
       forum_title_heading: 'Foorumi pealkiri'
       home_page_heading: Koduleht
       home_page_text: 'Vali leht, mida näidatakse foorumi külastajatele avalehena.'
       sections:
         extensions:
+          description: 'Hoia silm peal lisaprogrammidel, mida nende autorid enam ei hoolda.'
           label: Lisaprogrammid
         forum:
           description: 'Mis on foorumi nimi külaliste ja otingumootorite jaoks.'
@@ -230,6 +232,9 @@ core:
       show_post_source_label: 'Näita, kudias postitus loodi'
       slug_driver_heading: 'Slug draiver: {model}'
       slug_driver_options:
+        discussions:
+          default: 'ID koos nimeviitega'
+          utf8: 'ID koos UTF-8 nimeviitega'
         users:
           default: Kasutajanimi
           id: ID
@@ -316,6 +321,8 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Aadressid
+      bounce_handling_heading: 'Tagasipõrkamiste haldamine'
+      bounce_handling_text: 'Kui sinu meiliteenuse pakkuja teatab, et e-posti aadress põrkas püsivalt tagasi (kiri ei jõudnud kohale) või kiri märgiti rämpspostiks, saab Flarum vastava kasutaja märgistada ja soovi korral lõpetada talle kirjade saatmise, kaitstes seeläbi sinu saatja mainet.'
       description: 'Määra foorumi meilisaatmise seaded.'
       driver_heading: 'Vali draiver'
       driver_label: Draiver
@@ -324,6 +331,7 @@ core:
         multipart_option: 'Mitmeosaline (soovitatud)'
         plain_option: Lihttekst
       format_heading: 'Väljuvate e-kirjade vorming'
+      format_help: 'Vali vorming, milles väljuvad e-kirjad saadetakse. Soovitatav valik on <code>multipart</code>, kuna see võimaldab kasutaja e-posti kliendil kuvada kõige sobivamat vormingut.'
       from_label: Saatja
       mail_encryption_label: Krüpteering
       mail_encryption_none_help: 'Krüpteeringut pole. Reaalsel saidil kasutamine pole soovitatav.'
@@ -333,16 +341,20 @@ core:
       mail_mailgun_domain_label: Domeen
       mail_mailgun_region_label: Regioon
       mail_mailgun_secret_label: Salavõti
+      mail_mailgun_webhook_signing_key_label: 'Webhooki allkirjastamise võti'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_postmark_message_stream_label: 'Sõnumi voog'
       mail_postmark_token_label: 'Serveri kontrollkood'
+      mail_smtp_verify_peer_help: 'Kontrolli serveri SSL-sertifikaati TLS- või SSL-krüptimise kasutamisel. Lülita see välja ainult siis, kui sinu meiliserver kasutab iseallkirjastatud sertifikaati.'
       mail_smtp_verify_peer_label: 'Kinnita SSL sertifikaat'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun seaded'
       not_sending_message: 'Hetkel Flarum e-posti ei saada. See võib olla tingitud valitud draiverist või selle valedest seadetest.'
       postmark_description: 'Saada e-kirjad Postmarki HTTP API kaudu. Soovi korral võid määrata nitte-vaikimisi sõnumite voogu.'
       postmark_heading: 'Poastmarki seaded'
+      register_webhook_button: 'Registreeeri webhook teenusepakkujaga'
+      register_webhook_success: 'Webhook on registreeritud sinu e-posti teenusepakkujaga.'
       sections:
         sending:
           label: Saatmine
@@ -352,7 +364,13 @@ core:
       send_test_mail_text: 'Saada proovikiri aadressile {email}.'
       smtp_description: 'Seadista SMTP ühendus. Tavapärased seadistused: port 587 TSL-iga või port 465 SSL-iga.'
       smtp_heading: 'SMTP seaded'
+      suppress_bounced_label: 'Lõpeta tagasipõrkunud aadressidele kirjade saatmine'
       title: '=> core.ref.email'
+      unregister_webhook_button: 'Eemalda teenusepakkujalt webhook'
+      unregister_webhook_success: 'E-posti teenusepakkujalt on eemaldatud webhook.'
+      webhook_password_label: 'Webhooki parool'
+      webhook_url_label: 'Webhooki URL'
+      webhook_username_label: 'Webhooki kasutajanimi'
     email_bounces:
       affected: '{count, plural, =0 {Ükski aadress pole praegu mõjutatud} one {# aasdress on praegu mõjutatud} other {# aadressi on praegu mõjutatud}}'
       load_error: 'Tagasipõrkamise statistika laadimine ebaõnnestus. Proovi hiljem uuesti.'
@@ -400,6 +418,7 @@ core:
         title: 'Nulli seaded'
         title_extension: 'Nulli {extensionTitle} seaded'
         warning: 'Seda tegevust ei saa tagasi võtta. Need seaded kustutatakse jäädavalt sinu andmebaasist ja taastatakse vaikeväärtused. See ei mõjuta lisaprogrammi andmeid.'
+      safe_mode_warning: 'Turvaline režiim on praegu sisse lülitatud. Lisaprogramme ei käivitata ja seetõttu pole nende seaded saadaval.'
       unsaved_changes: 'Salvestamata muudatused'
     extensions-health-widget:
       abandoned_no_replacement: 'Asendust pole saadaval'
@@ -566,7 +585,9 @@ core:
       title: '=> core.ref.users'
       total_users: 'Kasutajaid kokku: {count}'
   api:
+    app_icon_too_small_message: 'Rakenduse ikoon peab olema vähemalt {size} pikslit lai või kõrge, et see oleks avaekraanil alati terava pildiga.'
     image_set_by_code_message: 'See pilt on määratud foorumi koodis ja seega ei saa seda siin muuta.'
+    image_set_by_theme_message: 'See pilt on määratud lisaprogrammi {extension} poolt ning seega ei saa seda siit muuta.'
     invalid_filter_type:
       must_be_numeric_message: 'Filter {filter} peab olema number.'
       must_not_be_array_message: 'Filter {filter} ei tohi olla andmemassiiv.'
@@ -580,6 +601,7 @@ core:
       line_with_replacement: '{package} (soovitatud asendus: {replacement})'
       subject: 'Toiming on vajalik: tuvastati hüljatud lisaprogramm(e)'
     activate_account:
+      body: "Keegi (loodetavasti sina!) liitus foorumiga {forum} kasutades seda e-posti aadressi.\n\nKui see olid sina, siis lihtsalt kliki allolevale lingile ja sinu konto aktiveeritakse:\n{url}\n\nKui see polnud sina, siis palun ignoreeri seda kirja.\n"
       subject: 'Aktiveeri oma uus konto'
     confirm_email:
       body: "Keegi (loodetavasti sina!) määras foorumis {forum} oma e-posti aadressiks selle e-posti aadressi.\n\nKui see olid sina, siis lihtsalt kliki alloleval lingil ja sinu e-posti aadress kinnitatakse:\n{url}\n\nKui see polnud sina, siis ignoreeri seda kirja.\n"
@@ -594,6 +616,8 @@ core:
         main_text_generic_plain: 'See kiri saadeti aadressile {email} kuna sinu kontol foorumis {forumTitle} on sisse lülitatud teavitused e-postile.'
         settings_text: 'Halda oma teavituste seadeid [siin]({settingsLink}).'
         settings_text_plain: 'Halda oma teavituste seadeid siin: {settingsLink}'
+        unsubscribe_text: 'Kui sa ei soovi seda tüüpi teavitusi saada, siis tühista need [siin]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Kui sa ei soovi seda tüüpi teavitusi saada, siis tühista need siin: {unsubscribeLink}'
     reset_password:
       body: "Keegi (loodetavasti sina!) proovis foorumis {forum}, parooli taastada.\n\nKui see olid sina, siis lihtsalt kliki alloleval lingil ja sinu parool taastatakse:\n{url}\n\nKui sa ei soovi oma parooli muuta, siis ignoreeri seda kirja ja midagi ei juhtu.\n"
       subject: '=> core.ref.reset_your_password'
@@ -992,6 +1016,7 @@ core:
     notices:
       bisecting_continue: 'Jätka veatuvastust'
       maintenance_mode_low: 'Hooldamisel. Ainult administraatorid näevad foorumit.'
+      maintenance_mode_safe: 'Suletud hoolduseks turvalises režiimis. Ainult administraatorid näevad foorumit ja ühtegi lisaprogrammi ei käivitata.'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -1017,6 +1042,7 @@ core:
       title: Otsi
     search_source:
       discussions:
+        all_button: 'Otsi kõigist vestlustest "{query}"'
         heading: '=> core.ref.discussions'
       posts:
         all_button: 'Otsi kõigist postitustest "{query}"'
@@ -1029,6 +1055,7 @@ core:
       two_text: '{first} ja {second}'
     user_selection_modal:
       empty_results: 'Sinu otsingule ei vastanud ükski kasutaja.'
+      max_items_to_select: '{count, plural, one {Vali kuni # kasutaja} other {Vali kuni # kasutajat}}'
       search_placeholder: '=> core.ref.search_users'
       submit_button: '=> core.ref.okay'
       title: 'Vali asjakohased kasutajad'
@@ -1133,11 +1160,13 @@ core:
       csrf_token_mismatch_return_link: 'Mine tagasi, et uuesti proovida'
       invalid_confirmation_token: 'See kinnituslink pole õige või seda on juba kasutatud.'
       maintenance_mode_link: 'Administraatori kasutajakonto'
+      maintenance_mode_message: 'See foorum on praegu hooldamisel. Palun tule hiljem tagasi.'
       maintenance_mode_title: Hooldus
       method_not_allowed: 'See lehekülg ei toeta seda nõutud meetodit.'
       not_authenticated: 'Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.'
       not_found: 'Nõutud lehte ei leitud.'
       not_found_actions_label: 'Millega jätkata'
+      not_found_description: 'Seda lehekülge ei leitud. Võimalik, et seda on liigutatud või sa pead selle nägemiseks sisse logima. Siin on mõned viisid tagasi sisse saamiseks.'
       not_found_discussions_link: 'Sirvi kõiki vestlusi'
       not_found_home_link: 'Mine avalehele'
       not_found_return_link: 'Mine tagasi lehele {forum}'
@@ -1166,6 +1195,7 @@ core:
       log_out_confirmation: 'Oled kindel, et soovida {forum} lehelt väljuda?'
       title: '=> core.ref.log_out'
     offline:
+      text: 'Foorumiga {forum} ei saa ühendust. Kontrolli oma ühendust: see lehekülg laadib ennast uuesti niipea, kui see taas töötab.'
       title: 'Ühendust pole'
     reset_password:
       confirm_password_label: 'Kinnita uus parool'
