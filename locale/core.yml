@@ -7,6 +7,7 @@ core:
     advanced:
       description: 'Seadista oma foorumit veelgi täpsemalt.'
       fontawesome:
+        cdn_url_help: 'FontAwesome CSS-faili täielik URL CDN-is.'
         cdn_url_label: 'CDN URL'
         config_override:
           label: 'Seadistuste ülekirjutamine'
@@ -20,6 +21,7 @@ core:
           pro_label: 'Ainult Pro'
         section_label: 'FontAwesome ikoonid'
         source_cdn: CDN
+        source_help: 'Vali kuidas FontAwesome ikoonid laaditakse. Kohalik kasutab kaasasolevaid ikoone, CDN laadib need CDN-ilt ja Komplekt kasutab FontAwesome kohandatud ikoonide komplekte.'
         source_kit: 'FontAwesome komplekt'
         source_label: 'Ikooni allikas'
         source_local: 'Kohalik (kaasatud)'
@@ -51,6 +53,7 @@ core:
           none: 'Pole hooldamisel.'
           safe: 'Turvaline režiim. Ühtegi lisaprogrammi ei käivitata ja ainult adminid näevad foorumit.'
         safe_mode_extensions: 'Lisaprogrammid, mida lubatakse käivitada turvalises režiimis'
+        safe_mode_extensions_override_help: 'See seade kirjutatakse üle failis <code>config.php</code> parameetri <code>safe_mode_extensions</code> väärtusega. (<b>{extensions}</b>)'
         section_label: Hooldamine
       pgsql:
         search_configuration: 'Otsi seadistus, mida kasutada'
@@ -79,11 +82,13 @@ core:
         config_override:
           help: 'Sessiooni pikkused on määratud failis config.php ja neid ei saa siin muuta.'
           label: 'Seadistatud failis config.php'
+        cookie_expires_on_close_help: 'Logi inimesed välja, kui nad sulgevad brauseri selle asemel, et logida nad välja siis, kui sessioon aegub. Kasulik jagatud arvutites.'
         cookie_expires_on_close_label: 'Sulge sessioonid, kui brauser suletakse'
         disabled: 'Välja lülitatud'
         duration_unit_label: Ühik
         duration_value_label: Pikkus
         enabled: 'Sisse lülitatud'
+        lifetime_help: 'Kui kaua sessioon võib istuda niisama enne, kui see tühistatakse. Vaikeväärtus on 120 minutit.'
         lifetime_label: 'Sessiooni pikkus (minutites)'
         never_expires: 'Ei aegu kunagi'
         section_label: Sessioonid
@@ -121,11 +126,13 @@ core:
       app_icon_heading: 'Rakenduse ikoon'
       app_icon_preview_android_label: Android
       app_icon_preview_apple_label: 'iPhone ja iPad'
+      app_icon_text: 'Laadi üles ruudukujuline pilt, mille külg on vähemalt 512 pikslit, mida kasutatakse telefonidel foorumi lisamisel avalehele. Kui sa ei laadi üles faviconi, siis seda kasutatakse ka Faviconi-na.'
       app_start_page_label: 'Rakenduse avaleht'
       app_start_page_options:
         home_page: 'Sama kui avaleht'
       color_scheme_label: 'Värviskeem (vaikeväärtus)'
       color_schemes:
+        auto_mode_label: 'Kasutaja süsteem või seadistatud eelistus'
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
         dark_mode_label: '=> core.ref.dark_mode_label'
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
@@ -151,13 +158,18 @@ core:
       favicon_heading: Väikeikoon
       favicon_text: 'Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.'
       logo_dark_mode_heading: 'Tumeda režiimi logo'
+      logo_dark_mode_text: 'Vali alternatiivne logo, mida näidatakse, kui tume režiim on sisse lülitatud.'
       logo_heading: Logo
       logo_text: 'Laadi üles pilt, mida näidatakse foorumi pealkirja asemel.'
+      open_as_app_label: 'Ava kui rakendus avalehelt'
       sections:
         custom_code:
+          description: 'Lisa omaenda HTML ja CSS igale foorumi lehele.'
           label: 'Kohandatud kood'
         logos:
+          description: 'Pildid, mille järgi võib sinu saidi ära tunda päises, brauseri vahekaardil ja avalehel.'
           label: 'Logod ja ikoonid'
+      show_theme_selector_help: 'Luba kasutajatel saidi päises värviskeeme valida.'
       show_theme_selector_label: 'Näita teema valijat'
       title: Välimus
     basics:
@@ -171,6 +183,7 @@ core:
       avatar_driver_heading: 'Kasutaja avatar'
       avatar_driver_options:
         default: Vaikeväärtus
+      avatar_driver_text: 'Vali draiver, mida kasutatakse kasutajate puhul, kui kasutaja poolt valitud avatar pole saadaval. Vaikimisi avatari ei näidata, kui kasutaja pole ise seda üles laadinud.'
       default_language_heading: 'Vaikimisi keel'
       description: 'Määra oma foorumi pealkiri, keel ja teised põhiseaded.'
       display_name_driver_options:
@@ -255,8 +268,10 @@ core:
       toggle_advanced_page_button: 'Lisavalikute lehe näitamine'
       tools_button: Tööriistad
     database-driver-mismatch-warning:
+      detail: "Sinu <code>config.php</code> on seadistatud kasutama andmebaasi draiverit <code>{configured}</code>, aga Flarum on tuvastanud, et andmebaasi draiver on tegelikult hoopis <code>{actual}</code>.\n\nVale draiveri kasutamine võib põhjustada väikseid ja raskesti tuvastatavaid probleeme. Määra oma <code>config.php</code> failis sektsioonis <code>database</code> väärtuseks <code>'driver' => ''{actual}''</code>. Vaata lisainfot <link>Flarum dokumentatsioonist</link>.\n"
       label: 'Andmebaasi draiver ei kattu'
     database-version-warning:
+      below-recommended-detail: "Sinu {server} server kasutab versiooni <code>{version}</code>. See on teotatud, aga Flarum soovitab versiooni {server} <code>{recommended}</code> või uuemat, et tagada kiirus ja ajakohase versiooni kasutamine. Vaata lisainfot <link>Flarum dokumentatsioonist</link>.\n"
       below-recommended-label: 'Andmebaasi versioon on aegunud'
     debug-warning:
       detail: "Kui <code>silumisrežiim</code> on aktiivne, siis Flarum taasloob <code>Javascripti</code> ja <code>CSS</code> failid igal päringul ning võib potensiaalselt lekkida muud tundlikku informatsiooni - nagu näiteks salastatud andmed andmebaasis, keskkonnamuutujad jne.\n\nRangelt soovituslik on toodangukeskkonnas <code>silumisrežiim</code> välja lülitada <code>config.php</code> konfiguratsioonifailist. Lisainformatsiooni leiab <link>Flarumi dokumentatsioonist</link>.\n"
@@ -300,6 +315,8 @@ core:
       from_label: Saatja
       mail_encryption_label: Krüpteering
       mail_encryption_none_help: 'Krüpteeringut pole. Reaalsel saidil kasutamine pole soovitatav.'
+      mail_encryption_ssl_help: 'Ühendus on täies ulatuses krüpteeritud (TSL). Tavaliselt kasutab porti 465.'
+      mail_encryption_tls_help: 'Ühenduse algus on krüpteerimata ja seejärel läheb üle TLS-ile (STARTTLS). Tavaliselt kasutab porti 587 või 25.'
       mail_host_label: Server
       mail_mailgun_domain_label: Domeen
       mail_mailgun_region_label: Regioon
@@ -321,6 +338,7 @@ core:
       send_test_mail_heading: 'Saada proovimeil'
       send_test_mail_success: 'Proovimeili saatmine õnnestus!'
       send_test_mail_text: 'Saada proovikiri aadressile {email}.'
+      smtp_description: 'Seadista SMTP ühendus. Tavapärased seadistused: port 587 TSL-iga või port 465 SSL-iga.'
       smtp_heading: 'SMTP seaded'
       title: '=> core.ref.email'
     email_bounces:
@@ -338,6 +356,7 @@ core:
       abandoned_with_replacement: '{replacement} on asendanud selle lisaprogrammi. Kaalu üle minemist uuemale lisaprogrammile.'
       configure_scopes: 'Kõik õigused'
       confirm_purge: 'Eemaldatakse kõik andmebaasi kirjed ja lisad, mis seostuvad selle laiendusega. See ei kustuta laiendust; seda tuleb teha kasutades Composerit. Oled sa kindel, et soovid jätkata?'
+      database_driver_mismatch: 'See lisaprogramm ei toeta sinu andmebaasi draiverit.'
       deprecated: Aegunud
       disabled: Keelatud
       enable_to_see: 'Luba laiendusel näha ja muuta seadeid.'
@@ -367,6 +386,7 @@ core:
         confirm_button: Nulli
         title: 'Nulli seaded'
         title_extension: 'Nulli {extensionTitle} seaded'
+        warning: 'Seda tegevust ei saa tagasi võtta. Need seaded kustutatakse jäädavalt sinu andmebaasist ja taastatakse vaikeväärtused. See ei mõjuta lisaprogrammi andmeid.'
       unsaved_changes: 'Salvestamata muudatused'
     extensions-health-widget:
       abandoned_no_replacement: 'Asendust pole saadaval'
@@ -374,10 +394,13 @@ core:
       all_healthy: 'Kõik lisaprogrammid on terved.'
       section_abandoned_empty: 'Probleeme ei leitud.'
       section_abandoned_heading: 'Vajab tähelepanu'
+      section_abandoned_help: 'Neid lisaprogramme ei hooldata enam või neil on ühilduvusprobleeme. Kaalu nende uuendamist, asendamist või eemaldamist.'
       section_disabled_empty: 'Kõik lisaprogrammid on sisse lülitatud.'
       section_disabled_heading: 'Välja lülitatud'
+      section_disabled_help: 'Need lisaprogrammid on paigaldatud, aga need pole praegu sisse lülitatud. Lülita need seadete lehelt sisse või eemalda kui neid enam vaja pole.'
       section_suggested_empty: 'Soovitusi pole.'
       section_suggested_heading: Soovitatud
+      section_suggested_help: 'Flarumi lisaprogrammid võivad lisada valikulisi funktsioone kasutades teisi lisaprogramme või pakette. Need võivad lisada rohkem funktsioone või integratsioone.'
       suggested_by: 'Soovitaja {extension}'
       title: 'Lisaprogrammi tervis'
     failed_jobs:
@@ -488,6 +511,7 @@ core:
       submit_button: '=> core.ref.save_changes'
     streaming-warning:
       check_again_button: 'Kontrolli uuesti'
+      detail: 'See server hoiab tagasi vastuseid, mis peaksid brauserisse jõudma jooksvalt nende loomise ajal, ja saadab need välja alles siis, kui kogu vastus on valmis. Tegevuste edenemine (näiteks vahemälu tühjendamine) ja jooksvalt ilmuvad vastused kuvatakse seetõttu alles kõige lõpus. Lülita sellel saidil puhverdamine välja kõikjal, kus see on sisse lülitatud: PHP seadetes output_buffering või zlib.output_compression, Apache''is mod_deflate (või kasuta flushpackets=on valikut, kui PHP-FPM töötab mod_proxy_fcgi taga), nginxis fastcgi_buffering või proxy_buffering ning saidi ees olevas puhverserveris või CDN-is.'
       label: 'Tagasi hoitud vastused'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -537,12 +561,15 @@ core:
     invalid_username_message: 'KAsutajanimes võivad olla ainult tähed, numbrid ja sidekriipsud. Selles peab olema vähemalt üks täht.'
   email:
     abandoned_extensions:
+      body_intro: 'Järgnevad paigaldatud lisaprogramm(id) on märgitud kui hüljatud:'
+      body_outro: 'Palun vaata need lisaprogrammid üle ning kaalu kolimist mõnele alternatiivile, kui need on saadaval.'
       line_no_replacement: '{package} (asendust pole saadaval)'
       line_with_replacement: '{package} (soovitatud asendus: {replacement})'
       subject: 'Toiming on vajalik: tuvastati hüljatud lisaprogramm(e)'
     activate_account:
       subject: 'Aktiveeri oma uus konto'
     confirm_email:
+      body: "Keegi (loodetavasti sina!) määras foorumis {forum} oma e-posti aadressiks selle e-posti aadressi.\n\nKui see olid sina, siis lihtsalt kliki alloleval lingil ja sinu e-posti aadress kinnitatakse:\n{url}\n\nKui see polnud sina, siis ignoreeri seda kirja.\n"
       subject: 'Kinnita oma uus meiliaadress'
     greeting: 'Tere {displayName},'
     informational:
@@ -550,11 +577,15 @@ core:
     notification:
       default_title: Teavitus
       footer:
+        main_text_generic: 'See kiri saadeti aadressile {email} kuna sinu kontol foorumis [{forumTitle}]({forumUrl}) on sisse lülitatud teavitused e-postile.'
+        main_text_generic_plain: 'See kiri saadeti aadressile {email} kuna sinu kontol foorumis {forumTitle} on sisse lülitatud teavitused e-postile.'
         settings_text: 'Halda oma teavituste seadeid [siin]({settingsLink}).'
         settings_text_plain: 'Halda oma teavituste seadeid siin: {settingsLink}'
     reset_password:
+      body: "Keegi (loodetavasti sina!) proovis foorumis {forum}, parooli taastada.\n\nKui see olid sina, siis lihtsalt kliki alloleval lingil ja sinu parool taastatakse:\n{url}\n\nKui sa ei soovi oma parooli muuta, siis ignoreeri seda kirja ja midagi ei juhtu.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "See on testikiri, mis kinnitab, et sin uFlarumi e-posti seadistus töötab korrektselt.\n\nKui see olid sina, siis see kiri näitab, et sinu seadistus töötab!\n\nKui see polnud sina, siis palun ignoreeri seda kirja.\n"
       subject: 'Flarumi proovikiri'
     signoff: 'Foorumi {forumTitle} meeskond'
   forum:
