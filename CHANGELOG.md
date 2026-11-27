@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (419 added, 4 changed).
+* Updated Flarum core translations (448 added, 4 changed).
 
 
 **Added support for new extensions**:
@@ -138,7 +138,7 @@ CHANGELOG
 * [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts) (1% complete)
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) (100% complete)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (0% complete)
-* [`ramon/canela`](https://github.com/ram0ng1/canela) (0% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (4% complete)
 * [`ramon/chat`](https://github.com/ram0ng1/chat) (0% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (5% complete)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system) (20% complete)
