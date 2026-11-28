@@ -8,6 +8,10 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Meeldimise nõude eiramine'
       bypass_reply_label: 'Vastamise nõude eiramine'
   forum:
+    composer:
+      hide_like_tooltip: 'Peida, kuni see kellelegi meeldib'
+      hide_login_tooltip: 'Peida külaliste eest'
+      hide_reply_tooltip: 'Peida, kuni keegi sellele vastab'
     must_be_logged_in: 'Selle sisu vaatamiseks pead sisse logima'
     must_liked: 'Selle sisu nägemiseks pead märkima postituse meeldivaks'
     must_replied: 'Selle sisu nägemiseks pead postitusele vastama'

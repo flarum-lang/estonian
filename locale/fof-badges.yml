@@ -4,29 +4,191 @@
 
 fof-badges:
   admin:
+    active: Aktiivne
     appearance: Välimus
     assign: Määra
+    assign_badge: 'Määra: {badge}'
+    assign_reason: 'Põhjus (valik)'
     automatic: Automaatne
+    background_color: Taustavärv
     badge_category: Kategooria
+    badge_description: Kirjeldus
     badge_name: Nimi
     cancel: Loobu
+    category_enabled: 'Sisse lülitatud'
     category_name: Nimi
+    category_name_placeholder: 'nt. "Saavutuste märgid"'
+    category_slug_placeholder: 'nt. "saavutused"'
+    clear_selection: 'Tühjenda valik'
+    create_badge: 'Loo märk'
+    create_category: 'Loo kategooria'
+    delete: Kustuta
     disabled: 'Välja lülitatud'
+    earned_count: '{count} teenitud'
     edit: Muuda
+    edit_badge: 'Muuda märki'
+    edit_category: 'Muuda kategooriat'
     enabled: 'Sisse lülitatud'
     granted_by_system: Süsteem
+    headers:
+      badges: Märgid
+      description: Kirjeldus
+      earned: Teenitud
+      icon: Ikoon
+      name: Nimi
+      order: Järjekord
+      rarity: Haruldus
+      status: Staatus
+      type: Liik
+    icon_color: 'Ikooni värv'
+    icon_picker:
+      collapse: 'Peida ikoonivalija'
+      expand: 'Näita ikoonivalijat'
     inactive: Mitteaktiivne
     is_active: Aktiivne
     manual: Käsitsi
+    metrics:
+      has_avatar: 'On avatar'
+      member_days: 'Päevi liikmena'
+      post_count: 'Postituste arv'
+    move_down: 'Liiguta alla'
+    move_up: 'Liiguta üles'
+    next: Järgmine
+    no_category: 'Kategooriat pole'
+    no_users_found: 'Kasutajat ei leitud'
+    permissions:
+      give_manually: 'Määra märke käsitsi'
+      moderate: 'Halda märke'
     preview: Eelvaade
-    recalculation_jobs:
+    previous: Eelmine
+    recalculate: 'Arvuta uuesti'
+    recalculate_tab:
+      badges_to_check: 'Märgid, mida kontrollida'
+      jobs_title: 'Töö ajalugu'
+      show_more: 'Näita veel {count}'
+      title: 'Alusta uuesti arvutamist'
+      total_users: 'Kasutajaid kokku'
+    recalculation:
+      auto_refresh_off: 'Värskenda automaatselt'
       cancel: Loobu
-    revoke: Lükk
+    recalculation_jobs:
+      button: Tööd
+      cancel: Loobu
+      mark_failed: 'Märgi ebaõnnestunuks'
+      status:
+        cancelled: Tühistatud
+        completed: Lõpetatud
+        failed: Ebaõnnestus
+        pending: Ootel
+        running: Käimas
+    revoke: Tühista
     save: Salvesta
+    settings:
+      display_title: 'Näitamise seaded'
+      new_badge_highlight: 'Näita hiljuti teenitud märkide kõrval silti "UUS"'
+      new_badge_highlight_help: 'Näitab viimase 7 päeva jooksul teenitud märkide kõrval silti "UUS".'
+      primary_badge_hidden: Peidetud
+      primary_badge_icon: 'Ainult ikoon'
+      primary_badge_icon_name: 'Ikoon ja nimi'
+      save: 'Salvesta seaded'
+      save_error: 'Seadete salvestamine ebaõnnestus.'
+      saved: 'Seaded on salvestatud.'
+      show_badges_on_user_card: 'Näita märke kasutaja kaardil'
     status: Staatus
     tab_assign: Määra
+    tabs:
+      badges: Märgid
+      categories: Kategooriad
+      recalculation: Ümberarvutamine
+      settings: Seaded
+    trigger_builder:
+      add_condition: 'Lisa tingimus'
+      date_end: 'Lõpu kuupäev'
+      date_start: 'Alguse kuupäev'
+      loading_tags: 'Sildi laadimine...'
+      remove_condition: 'Eemalda tingimus'
+      select_tag: 'Vali silt...'
+      tag_filter: 'Siltide filter'
+    trigger_config: 'Automaatne päästik'
     uncategorized: Liigitamata
   defaults:
+    badges:
+      active-member:
+        description: 'Postita 50 vastust'
+        name: 'Aktiivne liige'
+      anniversary:
+        description: 'Ole liige üks aasta'
+        name: Aastapäev
+      conversation-starter:
+        name: Vestlusealustaja
+      editor:
+        description: 'Muuda 10 postitust, et neid parandada'
+        name: Toimetaja
+      first-post:
+        description: 'Kirjuta oma esimene vastus'
+        name: 'Esimene postitus'
+      first-week:
+        description: 'Ole liige 7 päeva'
+        name: 'Esimene nädal'
+      profile-picture:
+        description: 'Laadi üles profiilipilt'
+        name: Profiilipilt
+      prolific:
+        description: 'Postita 200 vastust'
+      regular:
+        description: 'Ole liige 30 päeva'
+        name: Tavaline
+      topic-starter:
+        description: 'Alusta 10 vestlust'
+        name: 'Teema alustaja'
     categories:
       getting-started:
         name: Alustamine
+      milestones:
+        name: Eesmärgid
+      posting:
+        name: Postitamine
+  forum:
+    all_badges: 'Kõik märgid'
+    badges_title: Märgid
+    loading: Laadimine...
+    more_users_earned: 'Ja veel kasutajaid...'
+    my_badges: 'Minu märgid'
+    nav:
+      badges: Märgid
+    new_tag: UUS
+    notification:
+      a_badge: märk
+      badge_earned: 'Teenisid märgi {badge}'
+    other_badges: 'Muud märgid'
+    owned_badge: 'Sul on see märk'
+    user:
+      assign_button: 'Määra märk'
+      assign_reason: 'Põhjus (valikuline)'
+      badge_actions: 'Märgi toimingud'
+      badges_tab: Märgid
+      badges_title: '{username} märgid'
+      cancel: Loobu
+      favorite_badge: 'Lemmik märk'
+      hidden_badge: 'Peidetud profiililt'
+      hide_badge: 'Peida profiililt'
+      load_more: 'Laadi rohkem'
+      no_badges_available: 'Ühtegi märki pole saadaval.'
+      recalculate_modal:
+        all_badges: 'Kõik automaatsed märgid'
+        manual: käsitsi
+        submit: 'Arvuta uuesti'
+        title: 'Arvuta märgid uuesti'
+      remove_favorite: 'Eemalda lemmik'
+      revoke_badge: 'Tühsita märk'
+      select_badge: 'Vali märk...'
+      select_badge_label: 'Vali märk'
+      set_favorite: 'Märgi lemmikuks'
+      show_badge: 'Näita profiilil'
+      view_all_badges: 'Vaata kõiki märke'
+  lib:
+    rarity_common: Tavaline
+    rarity_epic: Eepiline
+    rarity_legendary: Legendaarne
+    rarity_rare: Haruldane
+    rarity_uncommon: Ebatavaline

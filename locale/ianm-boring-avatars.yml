@@ -17,6 +17,8 @@ ianm-boring-avatars:
       color3: 'Värv 3'
       color4: 'Värv 4'
       color5: 'Värv 5'
+      driver_not_active_warning: 'Boring Avatar pole aktiivne avataride draiver.'
+      driver_not_active_warning_link: 'Mine põhiseadetesse, et see aktiveerida.'
       identifier: Identifikaator
       identifier_display_name: 'Näidatav nimi'
       identifier_email: E-post

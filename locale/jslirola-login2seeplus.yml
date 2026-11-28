@@ -8,6 +8,9 @@ jslirola-login2seeplus:
     hide: Peida
     image: Pildid
     link: Lingid
+    link_hide: 'Peida kogu link'
+    link_mask: 'Peida ainult sihtkoht (jäta lingi tekst alles)'
+    link_off: 'Ära peida'
     post:
       title: 'Peida sisu, mis ületab selle pikkuse (<em>-1</em> et näidata kõike.)'
     title: Login2SeePlus

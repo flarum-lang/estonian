@@ -13,6 +13,8 @@ sycho-github-milestone:
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: '<strong>{progress}%</strong> valmis'
+    empty_list: 'Pole ühtegi probleemi ega tõmbepäringut.'
     last_updated: 'Viimati uuendatud {time}'
     load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'

@@ -19,8 +19,43 @@ fof-seo:
       sitemap_info: 'Sisukaardi info'
       title: 'Otsingumootoritele optimiseerimine'
       tools: Tööriistad
+    modals:
+      dofollow:
+        add_placeholder: 'Luba domeen'
+    pages:
+      health:
+        checks:
+          crawl:
+            button: 'Vaata üle postituse seaded'
+          description:
+            button: 'Uuenda kirjeldust'
+            reason_missing: 'Sa pole veel foorumi kirjeldust määranud!'
+          search_engines:
+            button: 'Veel infot'
+          social_media:
+            button: 'Laadi pilt üles'
+          ssl:
+            button: 'Kuidas SSL-i seadistada'
+        default_button: 'Uuenda seadeid'
+        status:
+          passed: 'Kõik on tehtud!'
+          warning: Hoiatus!
+        table:
+          status: Staatus
+          technique: Tehnika
+      search_engines:
+        confirm_button: 'Olen seda lugenud'
+      sitemap:
+        which_extension_heading: 'Mis lisaprogrammi ma peaks paigaldama?'
+        why_heading: 'Miks sa peaksid sisukaarti kasutama?'
+      ssl:
+        added_heading: 'OK, lisasin SSL-i!'
+        how_body: 'Veebimajutust kasutavate inimeste jaoks on kõige tavalisem viis siseneda veebimajutuse juhtpaneelile, avada oma veebisaidi majutuse seaded ja klõpsata valikul SSL. Saad järgida juhiseid, et lisada oma veebisaidile SSL. Enamik veebimajutuse pakkujaid toetab tänapäeval populaarset sertifikaadiväljastajat {link}.'
+        how_heading: 'Kuidas lisada SSL-i oma veebisaidile?'
+        what_body: 'Enamik inimesi teab turvaliste ühenduste jaoks kasutatavat <b>https</b>-i kui SSL-i: <i>Secure Sockets Layer</i>. Ametlikult nimetatakse seda TLS-iks: <i>Transport Layer Security</i>. Seda meetodit kasutatakse turvalise ühenduse loomiseks sinu veebiserveriga, mis takistab ründajatel või teistel veebiserveritel sinu veebisaidina esinemist ning hoiab sinu külastajaid kaitstuna. Kui nii peaks juhtuma, siis SSL-ühendus katkeb ja külastajate brauserid hoiatavad kasutajat, et ühendus ei ole usaldusväärne.'
     permissions:
       category_label: SEO
+      configure_seo: 'Luba SEO seadistamine'
     settings:
       indexing:
         tags_button: 'Vali sildid'
@@ -32,3 +67,40 @@ fof-seo:
       twitter_card:
         option_large: 'Suur kaart (suur pilt)'
         option_summary: 'Kokkuvõtte kaart (väiksem pilt)'
+  forum:
+    controls:
+      configure_seo: 'Seadista SEO'
+      reset_seo: 'Nulli SEO'
+      update_seo: 'Uuenda SEO-d'
+    meta_seo:
+      auto_update:
+        label: 'Uuenda meta-silte automaatselt'
+      close:
+        close: Sulge
+        save: Salvesta
+        save_autofill: 'Salvesta ja täida automaatselt'
+      image:
+        help: 'Näitab pilti.'
+        label: 'Meta pilt'
+        placeholder: 'Sisesta pildi URL'
+        upload: 'Laadi fail üles'
+      keywords:
+        label: Võtmesõnad
+      managed: Hallatud
+      meta_description:
+        label: 'Meta kirjeldus'
+      meta_title:
+        help: 'Pealkiri otsingumootorites.'
+        label: 'Meta pealkiri'
+        placeholder: 'Sisesta lehe pealkiri'
+      note_prefix: 'Märkus:'
+      robots:
+        label: Robotid
+      saved: Salvestatud!
+      title: 'SEO seaded - Meta'
+      twitter:
+        image:
+          reset: 'Taasta pilt'
+      unsupported_object:
+        docs_link: Dokumentatsioon
+    profile_title: '{username} profiil'

@@ -14,6 +14,9 @@ fof-recaptcha:
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Saidi võti'
       type_label: 'reCAPTCHA liik'
+      type_options:
+        checkbox: 'v2 märkekast'
+        invisible: 'v2 nähtamatu'
     test:
       help_text: "See test kasutab üleval näidatud väärtuseid. Veendu, et sa laadiksid testi pärast seadete muutmist ja ära unusta pärast testi läbimist seadeid salvestada!\nAll näidatav ei pruugi kajastada salvestatud seadeid.\n"
       load_test_button: Laadi
@@ -22,5 +25,7 @@ fof-recaptcha:
       success_message: 'Korras! reCAPTCHA on korrektselt seadistatud.'
       title: 'Testi reCAPTCHA-t'
 validation:
+  attributes:
+    g-recaptcha-response: reCAPTCHA
   recaptcha: 'reCAPTCHA kontroll ebaõnnestus.'
   recaptcha-unknown: 'reCAPTCHA kinnitamisel tekkis tundmatu tõrge ({errors}).'
