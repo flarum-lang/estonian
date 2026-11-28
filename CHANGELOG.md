@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (448 added, 4 changed).
+* Updated Flarum core translations (494 added, 4 changed).
 * Updated validation translations (2 added).
 
 
@@ -20,8 +20,9 @@ CHANGELOG
 * [`cengizkemec/flarum-social`](https://github.com/cengizkemec/flarum-social) (0% complete)
 * [`cengizkemec/support-tickets`](https://github.com/cengizkemec/flarum-support-tickets) (0% complete)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
-* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (100% complete)
 * [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager) (0% complete)
+* [`dashzeveg/flarum-custom-head`](https://github.com/dashzeveg/flarum-custom-head) (100% complete)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai) (4% complete)
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) (3% complete)
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid) (9% complete)
@@ -80,6 +81,7 @@ CHANGELOG
 * [`ernestdefoe/rotation`](https://github.com/ernestdefoe/rotation) (0% complete)
 * [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) (1% complete)
 * [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) (1% complete)
+* [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) (100% complete)
 * [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (0% complete)
 * [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) (0% complete)
 * [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) (1% complete)
@@ -90,6 +92,7 @@ CHANGELOG
 * [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map) (9% complete)
 * [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) (8% complete)
 * [`ernestdefoe/trust-levels`](https://github.com/ernestdefoe/trust-levels) (0% complete)
+* [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim) (100% complete)
 * [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) (6% complete)
 * [`ernestdefoe/waymark`](https://github.com/ernestdefoe/waymark) (12% complete)
 * [`ernestdefoe/who-said-it`](https://github.com/ernestdefoe/who-said-it) (0% complete)
@@ -102,7 +105,7 @@ CHANGELOG
 * [`flarum/messages`](https://github.com/flarum/messages) (8% complete)
 * [`flarum/oauth-provider`](https://github.com/flarum/oauth-provider) (36% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (42% complete)
-* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (0% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (6% complete)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval) (28% complete)
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing) (10% complete)
@@ -114,6 +117,7 @@ CHANGELOG
 * [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) (100% complete)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (17% complete)
 * [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) (64% complete)
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify) (100% complete)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer) (3% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (7% complete)
 * [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate) (16% complete)
@@ -141,7 +145,7 @@ CHANGELOG
 * [`ralkage/flarum-ext-linked-accounts`](https://github.com/Ralkage/flarum-ext-linked-accounts) (1% complete)
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) (100% complete)
 * [`ramon/backup`](https://github.com/ram0ng1/backup) (0% complete)
-* [`ramon/canela`](https://github.com/ram0ng1/canela) (5% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (8% complete)
 * [`ramon/chat`](https://github.com/ram0ng1/chat) (0% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (5% complete)
 * [`ramon/point-system`](https://github.com/ram0ng1/point-system) (20% complete)
@@ -165,6 +169,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 added, 33% complete)
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (1 added, 75% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (1 added, 100% complete)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (2 added, 16% complete)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (1 added, 6% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (1 added, 20% complete)
@@ -230,10 +235,12 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 75% complete)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) (6 added, 1 changed, 65% complete)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (2 added, 100% complete)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) (1 added, 100% complete)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (4 added, 100% complete)
-* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (3 added, 80% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (4 added, 100% complete)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (1 added, 2 changed, 69% complete)
+* [`xxb5724/ner`](https://github.com/Xiaoxiaobai5724/ner) (1 added, 100% complete)
 
 
 All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/estonian/compare/2.0.4...2.0.5).
