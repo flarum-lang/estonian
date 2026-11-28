@@ -25,3 +25,4 @@ fof-author-change:
       no-results: 'Tulemusi pole'
       placeholder: 'Otsi kasutajaid'
       type-more: 'Sisesta 3 sümbolit, et otsida'
+      type-more-characters: 'Sisesta {count, plural, one {# märk} other {# märki}}, et otsida andmebaasist'

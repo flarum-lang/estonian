@@ -11,6 +11,7 @@ michaelbelgium-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Nulli vestluste vaatamised'
+      view_list_label: 'Vaata vestluste vaatamisenimekirja (külgriba + jalus)'
       view_number_label: 'Vaata vestluste vaatamiste arvu'
     settings:
       abbr_numbers_label: 'Lühenda vaatamiste numbrid'

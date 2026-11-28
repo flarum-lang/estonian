@@ -13,18 +13,26 @@ linkrobins-wiki:
   forum:
     compose:
       body_label: Sisu
+      category_label: Kategooria
+    index:
+      uncategorised: Muu
     nav: Viki
 ramon-canela:
   admin:
     brand:
       mode_none: 'Mitte midagi'
+      shape_label: Mudel
     preview:
       dirty: 'Muudatused pole veel rakendatud'
     settings:
+      ai:
+        advisor_off: 'Välja lülitatud'
       assistant:
         external_sources_label: Allikad
         length_medium: Keskmine
       badges:
+        badges_enabled_label: Märgid
+        col_badge: Märk
         col_enabled: 'Sisse lülitatud'
         edit: Muuda
         field_grouping: Rühmitamine
@@ -34,6 +42,7 @@ ramon-canela:
         tag_manual: Käsitsi
         unit_days: päeva
       bug_reports:
+        browser: Brauser
         delete: Kustuta
         filter_all: Kõik
         kind_design: Disain
@@ -50,6 +59,8 @@ ramon-canela:
       group_community: Kogukond
       loader:
         preview: Eelvaade
+      palette_accent: Aktsent
+      palette_dark: Tume
       palette_link: Link
       palette_selected: Valik
       post_style_discourse: Vaikeväärtus
@@ -57,8 +68,11 @@ ramon-canela:
         profile_birthday_label: Sünnipäev
       shell:
         group_integrations: Integratsioon
+        saved: Salvestatud
+        saving: Salvestamine…
       templates:
         cancel: Loobu
+        example_field_2: Kirjeldus
         field_options: Valikud
         fields_heading: Väljad
       user_stats_label: Statistika
@@ -101,6 +115,7 @@ ramon-canela:
         tomorrow: Homme
     bug_reports:
       status_fixed: Fikseeritud
+      status_reviewed: Ülevaadatud
     categories:
       category: Kategooria
     chat:
@@ -118,6 +133,7 @@ ramon-canela:
       composer:
         send: Saada
       edited: muudetud
+      join: Liitu
       notification_levels:
         never: 'Mitte kunagi'
       search:
@@ -126,14 +142,19 @@ ramon-canela:
         notifications:
           regular:
             title: Tavaline
+      you: sina
     community:
       about:
         stat:
           posts: Postitusi
       groups:
         hidden: Peidetud
+      users:
+        period:
+          quarterly: Veerand
     composer:
       drafts:
+        status_saving: Salvestamine…
         type_message: Sõnum
       emoji:
         groups:
@@ -147,10 +168,16 @@ ramon-canela:
         recurrence: Korda
       status:
         public: Avalik
+        standalone: Teadaanne
+      view_calendar: Kalender
     extras:
       banner:
         label: Teadaanded
+      bulk:
+        lock: Sulge
+        unlock: Ava
       print:
+        button: Prindi
         close: Sulge
       search:
         filter_author_placeholder: kasutajanimi
@@ -164,6 +191,8 @@ ramon-canela:
         daily: Täna
         quarterly: Veerand
         yearly: Aasta
+    footnotes:
+      add: Allmärkus
     gaps:
       jump:
         submit: Mine
@@ -174,6 +203,7 @@ ramon-canela:
         link_label: Link
       sidebar:
         custom_title: Lingid
+        privacy: Privaatsus
       title_editor:
         save: Salvesta
     list:
@@ -181,8 +211,12 @@ ramon-canela:
     messages:
       composer:
         searching: Otsimine…
+      invite:
+        title: Kutsu
       nav:
         sent: Saadetud
+      notifications:
+        regular: Tavaline
       page:
         nav: Sõnumid
       reactions:
@@ -193,6 +227,7 @@ ramon-canela:
       user:
         message: Sõnum
     nav:
+      tags: Sildid
       top: Üleval
     profile:
       status:
@@ -202,11 +237,14 @@ ramon-canela:
       flag_type: Põhjus
       ignore: Ignoreeri
       reason_off_topic: Teemaväline
+      reason_spam: Rämpspost
+      title: Eelvaade
     shortcuts:
       actions:
         categories: Kategooriad
         drafts: Mustandid
         latest: Viimased
+        settings: Seaded
       groups:
         navigation: Menüü
     sidebar:
@@ -215,6 +253,9 @@ ramon-canela:
       customize_community: Kohanda
       customize_filter: Filter…
       label: Külgriba
+    stats:
+      views:
+        short_millions: '{number}M'
     tag_modal:
       secondary_heading: Sildid
     thirdparty:
@@ -239,13 +280,16 @@ ramon-canela:
         email_primary: peamine
         nav: Eelistused
         nav_menu_edit: Kohanda
+        nav_menu_heading: Külgriba
         password_heading: Parool
         tabs:
           interface: Kasutajaliides
           profile: Profiil
+          security: Turvalisus
       stats:
         groups: Rühmad
       summary:
+        likes_given_short: antud
         replies_column: Vastuseid
         stats_heading: Statistika
         topics: Vestlused
@@ -256,3 +300,6 @@ ramon-canela:
       tabs:
         likes: Meeldimised
         profile: Profiil
+  views:
+    not_found:
+      search_button: Otsi

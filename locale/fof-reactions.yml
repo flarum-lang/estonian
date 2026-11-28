@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-reactions/et/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof-reactions:
+        reaction_created: 'Loodud reaktsioon {reaction}'
+        reaction_deleted: 'Kustutatud reaktsioon {reaction}'
+        reaction_disabled: 'Välja lülitatud reaktsioon {reaction}'
+        reaction_enabled: 'Sisse lülitatud reaktsioon {reaction}'
 fof-reactions:
   admin:
     page:
@@ -17,12 +25,22 @@ fof-reactions:
         help: 'Kui sa just uuendasid oma laiendust, siis on vaja sinu reaktsioone teisendada. Kui sa just paigaldasid selle lisaprogrammi, siis ignoreeri seda sõnumit.'
       reactions:
         Helptext: 'Sisesta emoji või font-awesome ikooni nimi (identifikaator) ja vali mis tüüpi sa sooviksid kasutada.'
+        add_reaction_button: 'Lisa reaktsioon'
+        add_reaction_label: 'Lisa uus reaktsioon'
         delete_confirmation: 'Oled sa kindel, et soovid seda reaktsiooni kustutada? Seda toimingut ei saa tühistada.'
+        delete_reaction_button: 'Kustuta reaktsioon'
+        header:
+          action: Tegevus
+          display: 'Näita teksti'
+          enabled: 'Sisse lülitatud'
+          identifier: 'Ikooni identifikaator'
+          preview: Eelvaade
+          type: Liik
         help:
           display: Nähtav
           identifier: Identifikaator
         reactions: 'Praegused reaktsioonid'
-        title: 'Kohandatud reaktsioonid'
+        title: Reaktsioonid
       settings:
         allow-anonymous: 'Luba anonüümsetel kasutajatel (külalistel) reageerida'
         allow-anonymous-help: 'Kui see on sisse lülitatud, siis saavad anonüümsed kasutajad postitustele reageerida. Pea meeles, et anonüümseid reaktsoone ei seostata kasutajaga ning koondatakse reaktsioonide nimekirjas.'
@@ -51,11 +69,18 @@ fof-reactions:
     mod_item: 'Vaata reaktsioone'
     modal:
       anonymous_count: '{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}'
+      confirm_remove_all_reaction_type: 'Oled sa kindel, et soovid sellelt postituselt kõik {reaction} reaktsioonid eemaldada? Seda tegevust ei saa tagasi võtta.'
+      load_more: 'Laadi rohkem'
       no_reactions: 'Ühtegi reaktsiooni pole veel'
+      others_count: '+ {count, plural, one {veel #} other {veel #}}'
+      remove_all_reaction_type: 'Eemalda kõik {reaction} reaktsioonid'
+      remove_user_reaction: 'Eemalda reaktsioon'
       title: Reaktsioonid
     notification: '{username} reageeris ({reaction}) sinu postitusele'
     react_button_label: Reageeri
     reacting-own-post: 'Sa ei saa reageerida omaenda postitusele'
+    reaction_button_label: 'Reageeri {reaction}'
     settings:
       notify_post_reacted_label: 'Keegi reageeris minu postitusele'
+    unreact_button_label: 'Eemalda reaktsioon'
     warning: 'Sinu reaktsioon on teisendatud'

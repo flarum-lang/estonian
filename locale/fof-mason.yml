@@ -4,13 +4,20 @@
 
 fof-mason:
   admin:
+    answers:
+      suggest: Soovita
+      unsuggest: 'Lõpeta soovitamine'
     buttons:
       add-answer: 'Lisa vastus'
       add-field: 'Lisa väli'
       delete-answer: 'Kustuta vastus'
       delete-field: 'Kustuta väli'
+      edit-answer: 'Muuda vastust'
+      edit-field: Muuda
       new-field: 'Uus väli'
       save-field: 'Salvesta välja muudatused'
+    field-list:
+      free-text: 'Vaba tekst'
     fields:
       description: 'Välja kirjeldus'
       description-help: "Valikuline kirjeldus, miks seda välja on vaja.\n"
@@ -51,11 +58,13 @@ fof-mason:
       settings: Seaded
   forum:
     answers-modal:
+      compose-title: 'Vestluse üksikasjad'
       edit-title: 'Muuda {title} väljasid'
       save: 'Salvesta väljad'
     answers:
       choose-option: 'Tee valik'
       no-option-selected: 'Ühtegi valikut pole tehtud'
+      required: 'See väli on nõutud.'
     composer:
       add-details: 'Lisa üksikasju'
     discussion-controls:
