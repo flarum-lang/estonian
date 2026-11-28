@@ -8,6 +8,7 @@ CHANGELOG
 **General changes**:
 
 * Updated Flarum core translations (448 added, 4 changed).
+* Updated validation translations (2 added).
 
 
 **Added support for new extensions**:
@@ -147,7 +148,7 @@ CHANGELOG
 * [`ramon/stickers`](https://github.com/ram0ng1/stickers) (4% complete)
 * [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) (4% complete)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) (50% complete)
-* [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search) (25% complete)
+* [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search) (100% complete)
 * [`rysstad/blocked-usernames`](https://github.com/Pawlemann/flarum-blocked-usernames) (16% complete)
 * [`shebaoting/flarum-avatar`](https://github.com/shebaoting/flarum-avatar) (3% complete)
 * [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (1% complete)
@@ -177,6 +178,7 @@ CHANGELOG
 * [`flarum/lock`](https://github.com/flarum/lock) (3 added, 100% complete)
 * [`flarum/mentions`](https://github.com/flarum/mentions) (14 added, 100% complete)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames) (6 added, 100% complete)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (4 added, 62% complete)
 * [`flarum/statistics`](https://github.com/flarum/statistics) (2 added, 100% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (1 added, 42% complete)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (2 added, 78% complete)
@@ -185,6 +187,8 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 1 changed, 29% complete)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (1 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed, 70% complete)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (11 added, 100% complete)
+* [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (3 added, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (5 added, 77% complete)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork) (1 added, 33% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (13 added, 100% complete)
@@ -206,10 +210,11 @@ CHANGELOG
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop) (2 added, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (14 added, 31% complete)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) (3 added, 100% complete)
-* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (20 added, 1 changed, 92% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (25 added, 2 changed, 100% complete)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (17 added, 87% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (1 added, 20% complete)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (1 changed, 100% complete)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature) (13 added, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (1 added, 76% complete)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (5 added, 100% complete)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (2 added, 100% complete)
@@ -217,6 +222,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (32 added, 10 changed, 80% complete)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) (1 added, 100% complete)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) (2 added, 100% complete)
+* [`forumaker/yandex-oauth`](https://github.com/forumaker/Yandex-Oauth) (5 added, 100% complete)
 * [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) (1 added, 3% complete)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) (3 added, 91% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (1 added, 5% complete)
