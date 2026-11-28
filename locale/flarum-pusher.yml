@@ -9,7 +9,14 @@ flarum-pusher:
       app_id_label: 'Rakenduse ID'
       app_key_label: 'Rakenduse võti'
       app_secret_label: 'Rakenduse salasõna'
+      server_hostname_label: 'Serveri hostinimi'
       title: 'Pusheri seaded'
+    sections:
+      connection:
+        label: Ühendus
+      server:
+        description: 'Vajalik ainult siis, kui kasutad omaenda Pusherida ühilduvat serverit.'
+        label: 'Kohandatud server'
   forum:
     discussion_list:
       show_updates_text: '{count, plural, one {Näita # uuenenud vestlust} other {Näita # uuenenud vestlust}}'

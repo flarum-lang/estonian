@@ -3,6 +3,18 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-oauth:
+  admin:
+    settings:
+      providers:
+        yandex:
+          client_id_label: 'Kliendi ID'
+          client_secret_label: 'Kliendi salasõna'
+          description: 'Loo rakendus aadressil https://oauth.yandex.ru'
+  forum:
+    log_in:
+      with_yandex_button: 'Logi sisse Yandexiga'
+    providers:
+      yandex: Yandex
   lib:
     providers:
       yandex: Yandex

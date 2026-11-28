@@ -6,16 +6,19 @@ flarum-audit:
   lib:
     browser:
       fof-reactions:
+        post_reaction_removed: 'Eemaldas kasutaja {username} reaktsiooni {reaction} kasutaja {postuser} postituselt {post} vestluses {discussion}'
+        post_reactions_removed: 'Eemaldas {count, plural, one {# {reaction} reaktsiooni} other {# {reaction} reaktsiooni}} kasutajalt {postuser} postituses {post} vestluses {discussion}'
         reaction_created: 'Loodud reaktsioon {reaction}'
         reaction_deleted: 'Kustutatud reaktsioon {reaction}'
         reaction_disabled: 'Välja lülitatud reaktsioon {reaction}'
         reaction_enabled: 'Sisse lülitatud reaktsioon {reaction}'
+        reaction_updated: 'Muutis reaktsioon {reaction} võtit {key}. Vana väärtus {old_value}. Uus väärtus {new_value}'
 fof-reactions:
   admin:
     page:
       cdn:
         default-url: 'Vaikeväärtus: {url}'
-        help: "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi.\n<code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. See väli EI TOHI kunagi olla tühi.\n"
+        help: "Vaikimisi näidatakse reaktsioonide faile Cloudflare's CDN-ist. Võid soovi korral määrata ka mõne muu CDN-i aadressi.\n<code>[codepoint]</code> asendatakse emoji koodipunktiga.\n\nNäiteks, kui soovid kasutada Noto Emoji läbi jsdelivr, siis võid sisestada <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nSinu CDN peab toetama Emoji/Unicode versiooni {emojibase} või uuemat. Kasuta [twemoji], et asendada Twemoji versioon.\n"
         label: URL
         title: CDN
       convert:
@@ -70,6 +73,7 @@ fof-reactions:
     modal:
       anonymous_count: '{count, plural, one {# anonüümne kasutaja} other {# anonüümset kasutajat}}'
       confirm_remove_all_reaction_type: 'Oled sa kindel, et soovid sellelt postituselt kõik {reaction} reaktsioonid eemaldada? Seda tegevust ei saa tagasi võtta.'
+      confirm_remove_user_reaction: 'Oled sa kindel, et soovid eemaldada kasutaja {username} reaktsiooni {reaction} sellelt postituselt? Seda tegevust ei saa tagasi võtta.'
       load_more: 'Laadi rohkem'
       no_reactions: 'Ühtegi reaktsiooni pole veel'
       others_count: '+ {count, plural, one {veel #} other {veel #}}'
@@ -78,6 +82,7 @@ fof-reactions:
       title: Reaktsioonid
     notification: '{username} reageeris ({reaction}) sinu postitusele'
     react_button_label: Reageeri
+    reacted_with_label: '{count, plural, one {{reaction} (# reaktsioon)} other {{reaction} (# reaktsiooni)}}'
     reacting-own-post: 'Sa ei saa reageerida omaenda postitusele'
     reaction_button_label: 'Reageeri {reaction}'
     settings:

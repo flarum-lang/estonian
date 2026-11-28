@@ -3,6 +3,7 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 validation:
+  accepted: 'Vali :attribute peab olema aktsepteeritud.'
   attributes:
     content: sisu
     email: 'e-posti aadress'
@@ -14,6 +15,7 @@ validation:
     title: pealkiri
     username: kasutajanimi
   boolean: ':attribute peab olemas kas tõene või väär.'
+  current_password: 'Parool on vale.'
   distinct: ':attribute peab erinema olemasolevatest väärtustest.'
   exists: 'Valitud :attribute pole õige.'
   filled: ':attribute peab olema väärtustatud.'

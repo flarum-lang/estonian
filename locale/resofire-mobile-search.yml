@@ -5,4 +5,7 @@
 resofire-mobile-search:
   admin:
     settings:
+      mobile_search_style_help: 'Vali, kuidas otsingut näidatakse sinu mobiiliseadme avalehel.'
       mobile_search_style_label: 'Mobiilse otsingu stiil'
+      mobile_search_style_option_bar: 'Täislaiuses otsingriba'
+      mobile_search_style_option_icon: 'Ainult suurendusklaas'

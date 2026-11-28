@@ -5,4 +5,7 @@
 core:
   admin:
     email:
+      brevo_description: 'Saada e-kirju Brevo e-kirjade API-ga. Saatja aadress peab olema kontrollitud saatja või kuuluma Brevos autenditud domeeni.'
       brevo_heading: 'Brevo seaded'
+      mail_brevo_api_key_help: 'Loo Brevos valides sealt SMTP & API → API keys. Kasuta API võtit (algab märkidega xkeysib-), mitte SMTP võtit.'
+      mail_brevo_api_key_label: 'API võti'

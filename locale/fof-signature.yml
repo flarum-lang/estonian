@@ -5,7 +5,24 @@
 fof-signature:
   admin:
     permissions:
+      allow_signature: 'Võib lisada allkirja'
       edit_signature_others: 'Teise kasutajate allkirja muutmine'
+    settings:
+      allow_inline_editing:
+        description: 'Allkira otsene muutmine.'
+        help: 'Kui see on sisse lülitatud, siis kasutajad saavad oma allkirja muuta postitust vaadates.'
+      allow_remote_images:
+        description: 'Luba kaugpiltide kasutamine.'
+        help: 'Kui see on välja lülitatud, siis kasutajad ei saa kasutada pilte, mis on majutatud mõnda teise serverisse. See takistab muudel saitidel IP pildi vaatajate aadressi jälgimist.'
+      allowed_image_hosts:
+        description: 'Lubatud piltide hostid.'
+        help: 'Kui kaugpiltide kasutamine on välja lülitatud, siis nende hostide piltide kasutamine on siiski lubatud (lisaks piltidele sinu enda foorumi). Sisesta üks host rea kohta, nt. sinu CDN nagu näiteks cdn.example.com.'
+      maximum_char_limit:
+        description: 'Maksimaalne märkide arv allkirjas.'
+        help: 'Kui kasutaja ületab allkirja maksimaalse märkide arvu, siis nad ei saa seda salvestada enne, kui märkide arv on õige.'
+      maximum_image_count:
+        description: 'Maksimaalne sisestatud piltide arv.'
+        help: 'Kui kasutaja ületab maksimaalse lubatud piltide arvu, siis nad ei saa seda salvestada enne, kui piltide arv on õige.'
   forum:
     buttons:
       edit: 'Muuda allkirja'
@@ -16,6 +33,8 @@ fof-signature:
     errors:
       max_char_limit_exceed: 'Maksimaalne märkide arv ületatud.'
       max_image_count_exceed: 'Maksimaalne piltide arv ületatud.'
+      remote_images_not_allowed: 'Allkirjades ei või kasutada kaugpilte.'
+      save_failed: 'Sinu allkirja salvestamisel läks midagi valesti.'
     profile:
       click: 'Klki, et kirjutada oma allkiri'
     settings:
