@@ -19,11 +19,38 @@ linkrobins-wiki:
     nav: Viki
 ramon-canela:
   admin:
+    backgrounds:
+      image: Pilt
+      remove: Eemalda
+      replace: 'Asenda pilt'
+      same: 'Sama kui foorumis'
+      upload: 'Laadi pilt üles'
+      upload_error: 'Pilti üleslaadimine ebaõnnestus.'
     brand:
+      area_header: Päis
+      area_not_found: '404 lehekülg'
+      area_welcome: 'Teretulemast bänner'
+      border_label: Piirjoon
+      effect_dots: Punktid
+      effect_grid: Võrgustik
+      effect_lines: Jooned
+      effect_none: Pole
+      effect_rings: Ringid
       mode_none: 'Mitte midagi'
+      original: 'Tagasi algse juurde'
+      shape_arch: Kaar
+      shape_circle: Ring
       shape_label: Mudel
+      shape_leaf: Leheke
+      shape_rounded: 'Ümarate nurkadega ruut'
+      shape_square: Ruut
+      shuffle: 'Genereeri veel üks'
+      title: 'Visuaalne identiteet'
     preview:
+      apply: Rakenda
       dirty: 'Muudatused pole veel rakendatud'
+      discard: Loobu
+      preview_forum: Eelvaade
     settings:
       ai:
         advisor_off: 'Välja lülitatud'
@@ -42,21 +69,55 @@ ramon-canela:
         tag_manual: Käsitsi
         unit_days: päeva
       bug_reports:
+        ai_title: 'Paranda AI-ga'
         browser: Brauser
+        copied: Kopeeritud!
+        copy_failed: 'Kopeerimine ebaõnnestus'
+        copy_image: 'Kopeeri ekraanipilt'
+        copy_prompt: 'Kopeeri AI-st'
+        current_text: 'Praegune tekst'
         delete: Kustuta
+        export: 'Laadi alla (.md)'
+        filter_active: Ootel
         filter_all: Kõik
+        full_alt: 'Kogu ekraan'
+        kind_bug: 'Midagi on katki'
+        kind_content: 'Tekst või pilt'
         kind_design: Disain
+        kind_idea: Idee
+        next: Järgmine
         page: Leht
+        previous: Eelmine
+        region_alt: 'Märgitud ala'
+        save_note: 'Salvesta vastus'
+        status_fixed: Parandatud
+        status_in_progress: Töös
+        status_label: Staatus
+        status_open: Avatud
+        status_reviewed: 'Üle vaadatud'
+        status_wontfix: 'Ei tee'
+        suggested_text: 'Soovitatud tekst'
+        user_gone: 'kustutatud konto'
+        viewport: Ekrraan
       chat:
         days: päeva
       composer:
         section_drafts: Mustandid
       content_width_preview_discussion: Vestlus
+      font_system: Süsteemifont
+      forum_background_label: 'Foorumi taust'
       gaps:
         not_found_template_classic: Klassikaline
         not_found_template_label: Mall
       group_ai: AI
+      group_appearance: Välimus
       group_community: Kogukond
+      group_header: 'Päis ja otseteed'
+      group_home: Avaleht
+      group_list: 'Vestluste nimekiri'
+      group_profile: Profiil
+      group_sidebar: Külgriba
+      group_topic: Vestlus
       loader:
         preview: Eelvaade
       palette_accent: Aktsent
@@ -66,15 +127,45 @@ ramon-canela:
       post_style_discourse: Vaikeväärtus
       profile:
         profile_birthday_label: Sünnipäev
+      section_buttons: Nupud
+      section_colored: 'Värvitud aktsendid'
+      section_colors: Värvid
+      section_font: Font
+      section_logo: Logo
+      section_sidebar: Külgriba
+      section_surfaces: 'Taust ja kaart'
       shell:
         group_integrations: Integratsioon
         saved: Salvestatud
         saving: Salvestamine…
+      sidebar_enabled_label: 'Näita külgriba'
       templates:
+        badge_required: 'Vaba teksti pole'
+        body_label: Tekst
         cancel: Loobu
+        delete: Kustuta
+        edit: Muuda
+        editing: 'Muutmine "{name}"'
+        example_field: Versioon
         example_field_2: Kirjeldus
+        field_label: Silt
         field_options: Valikud
+        field_options_help: 'Üks rea kohta.'
+        field_required: Nõutud
+        field_type: Liik
+        field_type_select: 'Valikute nimekiri'
+        field_type_text: 'Lühike tekst'
+        field_type_textarea: 'Pikk tekst'
         fields_heading: Väljad
+        kind_form: 'Ainult väljad'
+        kind_text: 'Muudetav tekst'
+        name_label: Nimi
+        new: 'Uus mall'
+        position_label: Järjekord
+        required_label: 'Vaba teksti pole'
+        save: Salvesta
+        tags_all: 'Kõik kategooriad'
+      user_default_tab_summary: Kokkuvõte
       user_stats_label: Statistika
   api:
     badges:

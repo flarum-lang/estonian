@@ -4,4 +4,5 @@
 
 xxb5724-no-email-register:
   admin:
+    description: 'Eemalda e-posti aadress registreerumiselt ja jäta e-posti kinnitamine vahele.'
     title: 'Ilma e-postita registreerumine'

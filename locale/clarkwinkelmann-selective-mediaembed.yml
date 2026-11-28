@@ -6,5 +6,6 @@ clarkwinkelmann-selective-mediaembed:
   admin:
     clearCache: 'Tühjenda vahemälu kohe'
     mustClearCache: 'Sa pead vahemälu pärast muudatuste salvestamist tühjendama!'
+    searchIndexTreeSites: Saidid
     selectAll: 'Vali kõik'
     unselectAll: 'Tähista kõigi valimine'

@@ -3,6 +3,29 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-badges:
+  admin:
+    appearance: Välimus
+    assign: Määra
+    automatic: Automaatne
+    badge_category: Kategooria
+    badge_name: Nimi
+    cancel: Loobu
+    category_name: Nimi
+    disabled: 'Välja lülitatud'
+    edit: Muuda
+    enabled: 'Sisse lülitatud'
+    granted_by_system: Süsteem
+    inactive: Mitteaktiivne
+    is_active: Aktiivne
+    manual: Käsitsi
+    preview: Eelvaade
+    recalculation_jobs:
+      cancel: Loobu
+    revoke: Lükk
+    save: Salvesta
+    status: Staatus
+    tab_assign: Määra
+    uncategorized: Liigitamata
   defaults:
     categories:
       getting-started:

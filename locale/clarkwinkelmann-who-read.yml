@@ -43,3 +43,8 @@ clarkwinkelmann-who-read:
       last-read-at: '{username} luges {ago}'
       last-read-at-behind: '{username} luges viimati {ago} ja on maas'
       last-read-at-up-to-date: '{username} luges viimast postitust {ago}'
+  lib:
+    gambits:
+      discussions:
+        readbyeveryone:
+          key: readbyeveryone
