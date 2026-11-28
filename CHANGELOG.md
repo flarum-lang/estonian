@@ -2,6 +2,70 @@ CHANGELOG
 =========
 
 
+1.0.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) (100% complete)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) (94% complete)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (100% complete)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (100% complete)
+* [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (100% complete)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval) (28% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (100% complete)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination) (20% complete)
+* [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) (100% complete)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) (64% complete)
+* [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate) (16% complete)
+* [`little100/fontawesome`](https://github.com/Little100/flarum-ext-fontawesome) (100% complete)
+* [`prm/hero-image`](https://github.com/smmpanelscripts1/prm-hero-image) (100% complete)
+* [`prm/messages`](https://github.com/smmpanelscripts1/prm-messages) (91% complete)
+* [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (76% complete)
+* [`prm/security`](https://github.com/smmpanelscripts1/prm-security) (100% complete)
+* [`prm/sleek-dark`](https://github.com/smmpanelscripts1/prm-sleek-dark) (100% complete)
+* [`proxytracer/flarum-proxytracer`](https://github.com/ProxyTracer/flarum-proxytracer) (50% complete)
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt) (100% complete)
+* [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor) (100% complete)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) (50% complete)
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki) (100% complete)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (1 added, 90% complete)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search) (5 added, 1 changed, 100% complete)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (2 added, 96% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (3 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 1 changed, 100% complete)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget) (2 added, 100% complete)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (2 added, 100% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (1 added, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (5 added, 100% complete)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (2 added, 100% complete)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social) (1 changed, 100% complete)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) (4 added, 100% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 100% complete)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) (6 added, 1 changed, 100% complete)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (2 added, 100% complete)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro) (3 added, 98% complete)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini) (1 changed, 100% complete)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages) (5 added, 100% complete)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (4 added, 100% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (4 added, 100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (1 added, 4 changed, 100% complete)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft) (1 added, 100% complete)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store) (1 added, 95% complete)
+
+
+All changes: [1.0.1...1.0.2](https://github.com/flarum-lang/estonian/compare/1.0.1...1.0.2).
+
+
 1.0.1 (2026-11-23)
 ------------------
 
